@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: siamese_sign
+Version: 0.1
+Summary: Signature forgery detection using siamese networks
+Home-page: https://github.com/Vishnunkumar/siamese_sign
+Author: Vishnu N
+Author-email: vishnunkumar25@gmail.com
+License: MIT
+Download-URL: https://github.com/Vishnunkumar/siamese_sign/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Spacy,Machine learning,NLP
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
