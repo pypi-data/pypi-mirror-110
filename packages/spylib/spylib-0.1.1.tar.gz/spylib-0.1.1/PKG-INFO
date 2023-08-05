@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: spylib
+Version: 0.1.1
+Summary: A library to facilitate interfacing with Shopify's API
+Home-page: https://github.com/SatelCreative/satel-spylib
+Author: Anthony Hillairet
+Author-email: ant@satel.ca
