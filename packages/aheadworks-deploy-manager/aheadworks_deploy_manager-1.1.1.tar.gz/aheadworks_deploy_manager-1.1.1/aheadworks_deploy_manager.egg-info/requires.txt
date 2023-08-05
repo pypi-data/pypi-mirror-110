@@ -1,0 +1,6 @@
+fire
+python-dateutil
+requests
+docker
+regex
+discord
