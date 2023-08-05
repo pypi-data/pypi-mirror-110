@@ -1,0 +1,14 @@
+openvino_workbench/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openvino_workbench/arguments_parser.py,sha256=ZfSuAfVAeXCm_r60kKHYMQIls6CsCxItxd6vZajGTzI,7933
+openvino_workbench/constants.py,sha256=ZV3uGXLVzsZCu92uW0P9aSgbO32ginfkwdRTD-uJwFI,1758
+openvino_workbench/container.py,sha256=XeKyWHfCtbPmEGRGE_DCmrODzFv8zOzBRtweQNdKk8Y,5530
+openvino_workbench/docker_config_creator.py,sha256=JBiLR0iz45isb3ym8zuQ1s3cTlQ6UpIQjvfKZe-d7S4,8497
+openvino_workbench/image.py,sha256=ToHjxJoR4Z4nglamhSxRPYqwRCgoYoTz-xZRh35s0c4,6368
+openvino_workbench/main.py,sha256=EqgvjyvnVFhJtas7ogbFiaB-Pn-3t8VE3qOBEEI7N_s,2409
+openvino_workbench/utils.py,sha256=ncn9fSfoysKT_E0ktxD94a9p01B3L66r1easBfLTRJU,2783
+openvino_workbench-2021.4.0.1.dist-info/LICENSE,sha256=opaKFDBiqAhm3w8Qf1xmuoOwtdMuFacU3xvHonJ4Pq8,9137
+openvino_workbench-2021.4.0.1.dist-info/METADATA,sha256=bAZ6HFNWCZUwetvDogZzH9vdebW3uORKyoQFXmuQKSg,6974
+openvino_workbench-2021.4.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+openvino_workbench-2021.4.0.1.dist-info/entry_points.txt,sha256=jg4giIhTUo6S4exH4bGLaPE60wSbdrDhECwPrXPYdl8,69
+openvino_workbench-2021.4.0.1.dist-info/top_level.txt,sha256=xm2GR8zFy36MtXx3wxwWbfya7T9K4if-JeYRO5a8rIU,19
+openvino_workbench-2021.4.0.1.dist-info/RECORD,,
