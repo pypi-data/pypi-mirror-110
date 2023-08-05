@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+testshayneng59/__init__.py
+testshayneng59.egg-info/PKG-INFO
+testshayneng59.egg-info/SOURCES.txt
+testshayneng59.egg-info/dependency_links.txt
+testshayneng59.egg-info/top_level.txt
