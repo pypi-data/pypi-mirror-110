@@ -1,0 +1,3 @@
+[console_scripts]
+traductorsqb=traductorsqb.__main__:main
+
