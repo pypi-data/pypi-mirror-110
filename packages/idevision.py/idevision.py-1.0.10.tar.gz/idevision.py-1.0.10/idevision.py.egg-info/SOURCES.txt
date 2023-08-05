@@ -1,0 +1,12 @@
+README.md
+setup.py
+idevision/__init__.py
+idevision/async_client.py
+idevision/errors.py
+idevision/responses.py
+idevision/sync_client.py
+idevision.py.egg-info/PKG-INFO
+idevision.py.egg-info/SOURCES.txt
+idevision.py.egg-info/dependency_links.txt
+idevision.py.egg-info/requires.txt
+idevision.py.egg-info/top_level.txt
