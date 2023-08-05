@@ -1,0 +1,3 @@
+[console_scripts]
+anncheck = anncheck.__init__:main
+
