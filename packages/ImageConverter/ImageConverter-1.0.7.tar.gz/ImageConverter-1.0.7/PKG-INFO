@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ImageConverter
+Version: 1.0.7
+Summary: A python package for converting .jpg and .jpeg file formats to .png
+Home-page: https://github.com/xXSD11Xx/imageconversion
+Author: xXSDXx
+Author-email: dailycodingpro@gmail.com
+License: MIT
+Keywords: image,converter,jpg,png,jpeg,jpeg to png,jpg to png
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+The python package is focused on converting the .jpg or .jpeg file formats to .png file formats.
+
+## Install
+
+## Usage
+
+The package focus on usage for conversion of image formats like .jpeg or .jpg to .png file formats.
+
+## Modules
+
+### There is 1 module named converter
+
+#### functions currently present in module:converter
+
+##### initialization of class Converter()
+
+The constructor takes in 1 compulsary argument i.e the array or list of files that needs to be converted to .png file format.
+
+##### Method toPng()
+
+Method takes in 1 optional argument i.e. the specific save path location for the converted files or by default saves it in the location where the source image file was found. The name of the converted file remains the same as before i.e. unchanged.
+
