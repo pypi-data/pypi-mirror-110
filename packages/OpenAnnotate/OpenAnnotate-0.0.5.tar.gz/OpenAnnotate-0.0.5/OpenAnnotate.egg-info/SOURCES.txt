@@ -1,0 +1,9 @@
+README.md
+setup.py
+OpenAnnotate/OpenAnnotateApi.py
+OpenAnnotate/__init__.py
+OpenAnnotate.egg-info/PKG-INFO
+OpenAnnotate.egg-info/SOURCES.txt
+OpenAnnotate.egg-info/dependency_links.txt
+OpenAnnotate.egg-info/requires.txt
+OpenAnnotate.egg-info/top_level.txt
