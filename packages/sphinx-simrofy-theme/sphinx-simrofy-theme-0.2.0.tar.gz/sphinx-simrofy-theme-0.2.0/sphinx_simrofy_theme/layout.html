@@ -1,0 +1,236 @@
+{# 
+    This is the main template of Simrofy theme. It doesn't explicitly import other templates,
+    but it does borrow many ideas from following themes:
+
+    * basic
+    * sphinx-doc
+    * python-docs-theme
+    * sphinx-rtd-theme
+   
+    And Simrofy direcly borrowed these macros from Sphinx basic/layout.html to ensure its
+    extendability for most extensions. A small number of extensions (e.g. MathJax) have been
+    confirmed to work under Simrofy properly, yet others may or may not. 
+    
+    * css()
+    * script()
+#}
+
+{%- block doctype -%}
+    {# Borrow from basic/layout.html #}
+    {%- if html5_doctype -%}
+        <!DOCTYPE html>
+    {%- else -%}
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+            "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    {%- endif -%}
+{%- endblock -%}
+
+
+{%- set simrofy_url = "https://github.com/wklchris/sphinx-simrofy-theme" %}
+{%- set simrofy_version = '0.2.0' %}
+{%- set titlesuffix = ' - ' + project %}
+
+{%- set url_mainsite = pathto(master_doc) %}
+
+{# --- MACROS --- #}
+
+
+{%- macro css() %}
+    <link rel="stylesheet" href="{{ pathto('_static/' + style, 1)|e }}" type="text/css" />
+    <link rel="stylesheet" href="{{ pathto('_static/pygments.css', 1) }}" type="text/css" />
+    {%- for css in css_files %}
+        {%- if css|attr("filename") %}
+            {{ css_tag(css) }}
+        {%- else %}
+            <link rel="stylesheet" href="{{ pathto(css, 1)|e }}" type="text/css" />
+        {%- endif %}
+    {%- endfor %}
+{%- endmacro %}
+
+{%- macro script() %}
+    <script id="documentation_options" data-url_root="{{ pathto('', 1) }}" src="{{ pathto('_static/documentation_options.js', 1) }}"></script>
+    {%- for js in script_files %}
+        {{ js_tag(js) }}
+    {%- endfor %}
+{%- endmacro %}
+
+{%- macro pathto_static(filepath, static_build_path='_static/') -%}
+    {# static_build_path is the static file path AFTER sphinx build.
+       Usually it is '_static/' (attention the tailing slash). #}
+    {{ pathto(static_build_path + filepath|e, 1) }}
+{%- endmacro %}
+
+{%- macro pathto_source(filepath, source_path='_sources/') -%}
+    {{ pathto(source_path + filepath|e, 1) }}
+{%- endmacro %}
+
+
+{%- macro simrofy_headlinks() -%}
+    {%- set tocstr = toctree(titles_only=true, includehidden=true)
+        | replace("href=", "></a>")
+        | replace("</li>", "</li>;;") | striptags -%}
+    {%- set headlinks = ''.join(tocstr.split(':')[1:]).strip(';;').split(';;') -%}
+    {%- for item in headlinks -%}
+        {% set plink = item.split('>')[0] | trim | trim('"') %}
+        {% set ptitle = item.split('>')[1] %}
+        {%- if plink != "#" and (not theme_headbar_links) or plink|replace(".html", "") in theme_headbar_links %}
+            <a href="{{ plink|e }}">{{ ptitle }}</a>
+        {%- endif %}
+    {%- endfor -%}
+{%- endmacro -%}
+
+
+{%- macro simrofy_sidebar() %}
+{%- if theme_sidebar_position in ['right', 'left'] %}
+<div class="sidebar container" role="navigation" aria-label="main navigation">
+    <div class="sidebarwrapper">
+        <div id="sidebar_home">
+            {# Logo in sidebar #}
+            <a class="logo" href={{ url_mainsite|e }}>
+            {% if theme_image_logo %}
+                {%- block sidebar_logo %}
+                <img class="align-center" id="sidebar_logo" alt="Website logo"
+                    src="{{ pathto_static(theme_image_logo)|e }}"
+                    style="width:
+                        {%- if theme_image_logo_width|float <= 1 -%}
+                            {{ (theme_sidebar_width|int * theme_image_logo_width|float)|int }}
+                        {%- else -%}
+                            {{ theme_image_logo_width|int }}
+                        {%- endif -%}px;"/>  
+                {%- endblock sidebar_logo %}
+            {% else %}
+                {% trans url_mainsite=url_mainsite|e %}Homepage{% endtrans %}
+            {% endif %}
+            </a>
+            {%- block sidebar_home_text %}
+                {%- if theme_sidebar_home_text %}
+                    <p class="home_text">{{ theme_sidebar_home_text|e }}</p>
+                {%- endif %}
+            {%- endblock sidebar_home_text %}
+        </div>
+        <div id="sidebar_rel">
+        {%- set sidebar_toc = toctree(maxdepth=theme_toc_depth|int, includehidden=true)
+                | replace("href=", "></a>")
+                | replace(' current">', 'current">')
+                | replace('current">', '">') %}
+        {%- set sidetoc = sidebar_toc.split('<li class="toctree-l1">') %}
+        {% for item in sidetoc if '</li>' in item %}
+            {%- set item = item | striptags | trim('"') %}
+            {%- if ' "' in item %}
+                {%- set subitem = item.split(' "')[0] %}
+                {%- set plink = subitem.split('">')[0] | trim %}
+                {%- set ptitle = subitem.split('">')[1] %}
+                <div class="sidetoc_expand">
+                    <a href="{{ plink|e }}">{{ ptitle }}</a>
+                </div>
+                <div class="sidetocview">
+                {%- for subitem in item.split(' "')[1:] %}
+                    {%- set plink = subitem.split('">')[0] | trim %}
+                    {%- set ptitle = subitem.split('">')[1] %}
+                     <div class="sidetoc_lower">
+                        <a href="{{ plink|e }}">{{ ptitle }}</a>
+                    </div>
+                {%- endfor %}
+                </div>
+            {%- else %}
+                {%- set plink = item.split('">')[0] | trim %}
+                {%- set ptitle = item.split('">')[1] %}
+                <div class="sidetoc_collapse"><a href="{{ plink|e }}">{{ ptitle }}</a></div>
+            {%- endif %}
+        {% endfor %}
+        </div>
+    </div>
+    {%- block extrasidebar %}{# user customize #}{%- endblock extrasidebar %}
+</div>
+{%- endif %}
+{% endmacro %}
+
+
+{# --- HEAD --- #}
+
+<head>
+{% block head %}
+    <meta charset="utf-8">
+    {%- block htmltitle %}
+        <title>{{ title|striptags|e }}{{ titlesuffix }}</title>
+    {%- endblock htmltitle %}
+    {%- block css %}{{ css() }}{%- endblock css %}
+    {%- block scripts %}{{- script() }}{%- endblock scripts %}
+    {%- block extrahead %}{# user customize #}{% endblock extrahead %}
+{% endblock head %}
+</head>
+
+
+{# --- BODY --- #}
+
+<body>
+
+{# SIDEBAR #}
+{%- block sidebar %}{{ simrofy_sidebar() }}{%- endblock sidebar %}
+
+{# CONTENT HEADBAR #}
+{%- block headbar %}
+<div class="headbar container" role="contenthead">
+    <div class="headbarwrapper">
+        <div id="headbar_home"><a href={{ url_mainsite|e }}>{{ _('Homepage') }}</a>&nbsp;|&nbsp;</div>
+        <div class="headbarsources">
+        {%- if show_source and has_source and sourcename -%}|&nbsp;{#- delim -#}
+            <a class="sourcelink" href="{{ pathto_source(sourcename)|e }}">{{ _('Raw') }}</a>
+        {%- endif -%}
+        {%- if theme_github_user -%}
+            {%- if theme_github_repo -%}
+                {% set gh_url = ['https://github.com', theme_github_user, theme_github_repo]|join('/') %}
+            {%- else -%}
+                {% set gh_url = 'https://github.com/' + theme_github_user %}
+            {%- endif -%}&nbsp;|&nbsp;{#- delim -#}
+            <a class="sourcelink" href="{{ gh_url|e }}">
+                <img src="{{ pathto_static('icon/github.png')|e }}" alt="Github Icon"
+                    style="height: {{ (0.8 * theme_headbar_height|int)|int|todim }};" />
+            </a>
+        {%- endif -%}
+        </div>
+        <div class="headbarlinks">
+            {{ simrofy_headlinks() }}
+        </div>
+    </div>
+</div>
+{%- endblock headbar %}
+
+{%- block content %}
+<div class="document">
+    <div class="documentwrapper">
+    {# MAIN DOCUMENT PROCESSED BY BUILDER #}
+    {%- block document %}
+    <div class="body container" role="main">
+        <div class="bodywrapper">{% block body %}{% endblock %}</div>
+    </div>
+    {%- endblock document %}
+
+    {# FOOTER #}
+    {%- block footer %}
+    <div class="footer container" role="contentinfo">
+        <div class="footerwrapper">
+        {%- if show_copyright %}
+            {% trans copyright=copyright|e %}&#169; Copyright {{ copyright }}.{% endtrans %}
+        {%- endif %}
+        {%- if last_updated %}
+            {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+        {%- endif %}
+        {%- if show_sphinx %}
+            {% trans sphinx_version=sphinx_version|e %}Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+            <br>
+            {% trans simrofy_url=simrofy_url|e, simrofy_version=simrofy_version|e -%}
+                Formatted by theme <a href={{ simrofy_url }}>Simrofy</a> {{ simrofy_version }}, a Sphinx theme for building portfolio/CV websites.
+            {%- endtrans %}
+        {%- endif %}
+        {%- block extrafooter %}{# user customize #}{%- endblock extrafooter %}
+        </div>
+    </div>
+    {%- endblock footer %}
+
+    {%- block extracontent %}{# user customize #}{% endblock extracontent %}
+    </div>
+</div>
+{%- endblock content %}
+
+</body>
