@@ -1,0 +1,11 @@
+cooptools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cooptools/geometry.py,sha256=YWKVuk3O59EPZ0kNzFA6z3Kn6GJYkUbM2TkIYkrAV5w,2581
+cooptools/matrixManipulation.py,sha256=iGc9J5MjnpThrHEg-UkGVMDdHJ8HkfTfxyc9yYzK5v0,5130
+cooptools/pandasHelpers.py,sha256=nh_XJ1Gh-L7jfYDuc48ujYmn_HsQJ8kmWzq8AX63iE8,7380
+cooptools/printing.py,sha256=94bAIzfCRWqL-_3T9DPiTYMjLyiLImwepml765j-TMc,1421
+cooptools/randoms.py,sha256=rV5PTsFsMD4xhHMW7_Mdo3j2_pVrDJzlbt5cUgsJn60,1148
+cooptools/typevalidation.py,sha256=xirwSTgNe0io8Hgqocd1Dg6pfmKKcqM-CxkfIakLVzM,1360
+cooptools-0.13.dist-info/METADATA,sha256=NvHn9SuFznlZT9j4XTfm3h4Rovu-CAQplsiHbtpS0uI,947
+cooptools-0.13.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cooptools-0.13.dist-info/top_level.txt,sha256=nBBWGFHKi82jP3GYuVr1IC25B_wNykdGHxJaOtXNkd4,10
+cooptools-0.13.dist-info/RECORD,,
