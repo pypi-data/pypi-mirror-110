@@ -1,0 +1,10 @@
+README.md
+setup.py
+notifyVocab.egg-info/PKG-INFO
+notifyVocab.egg-info/SOURCES.txt
+notifyVocab.egg-info/dependency_links.txt
+notifyVocab.egg-info/requires.txt
+notifyVocab.egg-info/top_level.txt
+notify_vocab/__init__.py
+notify_vocab/get_words.py
+notify_vocab/notification.py
