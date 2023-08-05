@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: udax
+Version: 0.0.2
+Summary: UDAX utility package
+Home-page: https://github.com/pvcpc-aig/udax/
+Author: Maxim Kasyanenko
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pvcpc-aig/udax/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UDAX
+
+A set of python utilities intended to speed up the
+development and iteration of prototype and research
+projects.
+
