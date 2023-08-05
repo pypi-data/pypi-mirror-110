@@ -1,0 +1,3 @@
+aspirin = "CC(=O)OC1=CC=CC=C1C(=O)O"
+paracetamol = "CC(=O)NC1=CC=C(C=C1)O"
+caffeine = "CN1C=NC2=C1C(=O)N(C(=O)N2C)C"
