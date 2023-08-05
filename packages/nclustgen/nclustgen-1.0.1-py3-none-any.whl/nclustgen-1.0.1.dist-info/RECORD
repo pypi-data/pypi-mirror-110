@@ -1,0 +1,15 @@
+nclustgen/BiclusterGen.py,sha256=LPOfhYGUJ2UsjKsjVuf0H-oLpNd-2gen_wL6MuYPxlA,13726
+nclustgen/Generator.py,sha256=jwLGo81tafkMsyTjJKiW9RbmqT1CZb9hwVZ89235dR4,40271
+nclustgen/TriclusterGen.py,sha256=hXH1-GQcd4p1ZYSzJ7L-UqYAG5yWBS-FVTbp_XUgHyU,16613
+nclustgen/__init__.py,sha256=LyCBxCZXyImgeAMGzQW3OBCLENo7GICD6OcL2bVq0ps,549
+nclustgen/utils.py,sha256=-ST2N5ff4Xpd88ziOQQ4DlUiLlUcS7J9k9pBcQTBbMc,154
+nclustgen/jars/.DS_Store,sha256=05SsZw2LKI7UXx-Wwx7VpEueNMVHXaQxuKZAVxQTOLc,6148
+nclustgen/jars/G-Bic-1.0.0.jar,sha256=c01oFeiwdMuKmnvB76jh3SUsUY1g9dxez1x7dYkyLsE,13830992
+nclustgen/jars/G-Tric-1.0.2.jar,sha256=vEDnf5xLPwHEFwbrrkMrj-99yk7x9m5C-6NwX9i-CKI,13816711
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/main_test.py,sha256=NqPJAIc1W3IKwOeMxrmOAOoDgrc8Pg_QV89mULCPwOg,49399
+nclustgen-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nclustgen-1.0.1.dist-info/METADATA,sha256=hvijeC-8WJI7AJiHLCa-Pc6Dfi9kK3gill02LdMNpVo,3718
+nclustgen-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nclustgen-1.0.1.dist-info/top_level.txt,sha256=kO2alZ4qpBWJMJ_x961ZzMJa1PTXIUrVvQXgzvH1waY,16
+nclustgen-1.0.1.dist-info/RECORD,,
