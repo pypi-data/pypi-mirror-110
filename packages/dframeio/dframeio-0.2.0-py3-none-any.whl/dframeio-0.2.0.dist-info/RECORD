@@ -1,0 +1,8 @@
+dframeio/__init__.py,sha256=aJnDn6TiUmOGIuvZBAOJzNYZFFWeJXKSUujfuFi_tTw,325
+dframeio/abstract.py,sha256=xU-MKpReZPY_Q3ZbgiiCpeFcR6b0ig4ssdZsygxZoek,3262
+dframeio/filter.py,sha256=xyC0fSPHLZdH6gUbOhcp9Qf71AqlOCn6XyHfMG8DWVY,11824
+dframeio/parquet.py,sha256=y8PuV5Oh7kSjF89Gk8Oyzf70IMfgTAPxotm-3qSle3Y,14406
+dframeio-0.2.0.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+dframeio-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+dframeio-0.2.0.dist-info/METADATA,sha256=mQmpQpi8FLvT7jKg26W2NFnLalks9tFotb1TNwDiACY,1572
+dframeio-0.2.0.dist-info/RECORD,,
