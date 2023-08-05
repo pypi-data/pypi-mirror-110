@@ -1,0 +1,3 @@
+[console_scripts]
+py-office-learn = pyOfficeLearn.__main__:main
+
