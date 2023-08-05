@@ -1,0 +1,3 @@
+[console_scripts]
+ail = ail.__main__:main
+
