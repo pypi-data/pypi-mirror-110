@@ -1,0 +1,6 @@
+setup.py
+perzan/__init__.py
+perzan.egg-info/PKG-INFO
+perzan.egg-info/SOURCES.txt
+perzan.egg-info/dependency_links.txt
+perzan.egg-info/top_level.txt
