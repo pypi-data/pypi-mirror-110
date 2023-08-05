@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: densitysplit
+Version: 0.2.0
+Summary: Redshift-space distortions with split densities
+Home-page: https://github.com/epaillas/densitysplit
+Author: Enrique Paillas
+Author-email: epaillas@astro.puc.cl
+License: MIT
+Description: 
+        ## Redshift-space distortions with split densities
+        
+        A package for running the redshift-space distortions pipeline presented in https://arxiv.org/abs/2101.09854.
+        
+        Beta version.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
