@@ -1,0 +1,9 @@
+[console_scripts]
+jp = sat_frontends.jp.base:LiberviaCli.run
+li = sat_frontends.jp.base:LiberviaCli.run
+libervia-backend = sat.core.launcher:Launcher.run
+libervia-cli = sat_frontends.jp.base:LiberviaCli.run
+libervia-tui = sat_frontends.primitivus.base:PrimitivusApp.run
+primitivus = sat_frontends.primitivus.base:PrimitivusApp.run
+sat = sat.core.launcher:Launcher.run
+
