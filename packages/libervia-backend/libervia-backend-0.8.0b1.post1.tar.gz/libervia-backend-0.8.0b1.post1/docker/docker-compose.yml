@@ -1,0 +1,12 @@
+version: "3.6"
+services:
+
+  backend:
+    image: libervia/backend:dev
+    build: backend-dev
+
+  web:
+    image: libervia/web:dev
+    build: libervia-web-dev
+    depends_on:
+      - backend

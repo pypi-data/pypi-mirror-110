@@ -1,0 +1,21 @@
+This directory contains files related to Libervia but not directly used by it.
+
+* file _li:
+    This is the completion file for zsh. To use it, you need to have it in a path accessible in your fpath variable, and to have completion activated. This can be done by the following commands in your .zshrc:
+
+### .zshrc completion ###
+fpath=(/path/to/directory/with/_li/ $fpath)
+autoload -U compinit
+compinit
+### end of .zshrc completion ###
+
+    Then, you should be able to complete a li command line by pressing [TAB].
+
+* org.libervia.Libervia.service:
+	This file is used by D-Bus to know how to launch the backend, you have to put in in D-Bus services dir (usually /usr/share/dbus-1/services)
+
+* org.libervia.Libervia*.metainfo.xml:
+	AppStream metadata as specified at https://www.freedesktop.org/software/appstream/docs/
+
+* org.libervia.LiberviaTUI.desktop:
+	Desktop entry for TUI frontend as specified at https://specifications.freedesktop.org/desktop-entry-spec/

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Libervia TUI (Primitivus)
+Comment=console frontend for Libervia (XMPP)
+Exec=libervia-tui
+Icon=org.libervia.LiberviaTUI
+Categories=Network;InstantMessaging;Chat;FileTransfer;RemoteAccess;
+Keywords=xmpp;chat;messaging;im;file;sharing;communication;jabber;social;network;decentralization;console;

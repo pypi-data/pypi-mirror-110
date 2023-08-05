@@ -1,0 +1,12 @@
+Those certificates are used to activate TLS for end-2-end testing (to be as
+close as possible as production environment), they are used in other containers
+needing TLS certificates (notably Prosody).
+
+To generate them, minica has been used. Minica can be found at https://github.com/jsha/minica.
+
+The following commands have been used:
+
+$ minica --domains "server1.test,*.server1.test,server2.test,server3.test,libervia-backend.test,libervia-web.test"
+$ chmod 0644 minica.pem server1.test/cert.pem && chmod 0640 server1.test/key.pem
+
+Note that certificates are valid for 2 years and 30 days, so they must be renewed after this delay.

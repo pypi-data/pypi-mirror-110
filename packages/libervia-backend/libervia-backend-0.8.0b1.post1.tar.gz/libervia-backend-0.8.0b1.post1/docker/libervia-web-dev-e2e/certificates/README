@@ -1,0 +1,2 @@
+this certificates are used to enable TLS during tests. Those must be the same as in
+backend_e2e (they are generated there)

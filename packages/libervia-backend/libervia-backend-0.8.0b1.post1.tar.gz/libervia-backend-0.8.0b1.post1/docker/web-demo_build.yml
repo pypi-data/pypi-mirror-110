@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+
+  prosody:
+    image: libervia/prosody:demo
+    build: prosody-demo
+
+  backend:
+    image: libervia/backend:dev-demo
+    build: backend-dev-demo
+
+  web:
+    image: libervia/web:dev-demo
+    build: libervia-web-dev-demo

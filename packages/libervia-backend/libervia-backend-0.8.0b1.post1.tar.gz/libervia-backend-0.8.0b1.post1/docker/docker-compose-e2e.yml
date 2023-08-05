@@ -1,0 +1,74 @@
+version: "3.6"
+services:
+
+  prosody:
+    image: libervia/prosody:e2e
+    build: prosody-e2e
+    depends_on:
+      # we need to depend on backend to get IP address of the container for conf
+      - backend
+    tmpfs: /var/lib/prosody
+    tmpfs: /var/log/prosody
+    networks:
+      default:
+        aliases:
+          - server1.test
+          - server2.test
+          - server3.test
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: test_e2e
+      POSTGRES_DB: pubsub
+    tmpfs: /var/lib/postgresql/data
+
+  pubsub:
+    build: pubsub
+    image: libervia/pubsub
+    depends_on:
+      - db
+      - prosody
+    environment:
+      PGHOST: db
+      PGUSER: postgres
+      PGPASSWORD: test_e2e
+      LIBERVIA_PUBSUB_RHOST: server1.test
+      LIBERVIA_PUBSUB_JID: pubsub.server1.test
+      LIBERVIA_PUBSUB_XMPP_PWD: test_e2e
+
+  backend:
+    image: libervia/backend:dev-e2e
+    build: backend-dev-e2e
+    environment:
+      LIBERVIA_TEST_ENV_E2E: "1"
+      LIBERVIA_TEST_ENV_E2E_WEB: "1"
+    volumes:
+      - libervia_data:/home/libervia/.local/share/libervia
+    ports:
+      # VNC server for Libervia e2e tests visual mode
+      - 5900
+    networks:
+      default:
+        aliases:
+          - libervia-backend.test
+
+  web:
+    image: libervia/web:dev-e2e
+    build: libervia-web-dev-e2e
+    depends_on:
+      - backend
+    environment:
+      LIBERVIA_PASSPHRASE: test_e2e
+    volumes:
+      - libervia_data:/home/libervia/.local/share/libervia
+    ports:
+        - "8080"
+        - "8443"
+    networks:
+      default:
+        aliases:
+          - libervia-web.test
+
+volumes:
+  libervia_data:

@@ -1,0 +1,14 @@
+include MANIFEST.in sat/VERSION
+global-include *.py
+global-include *.ini
+global-include *.po *.mo
+global-include CHANGELOG COPYING* INSTALL README*
+global-include *.sh
+global-include *.yml *.yaml
+global-include Makefile *.rst *.bat
+graft misc
+graft doc
+include sat_frontends/jp/jp sat_frontends/primitivus/primitivus
+include sat/bridge/bridge_constructor
+global-exclude *.un~
+prune sat/bridge/bridge_constructor/generated

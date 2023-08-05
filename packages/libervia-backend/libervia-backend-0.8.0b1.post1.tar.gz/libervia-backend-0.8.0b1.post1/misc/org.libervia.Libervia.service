@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.libervia.Libervia
+Exec=libervia-backend

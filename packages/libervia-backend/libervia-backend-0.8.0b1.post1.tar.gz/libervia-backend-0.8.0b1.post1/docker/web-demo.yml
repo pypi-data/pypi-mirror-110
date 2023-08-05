@@ -1,0 +1,64 @@
+version: "3.6"
+services:
+
+  prosody:
+    image: libervia/prosody:demo
+    depends_on:
+      # we need to depend on backend to get IP address of the container for conf
+      - backend
+    tmpfs: /var/lib/prosody
+    tmpfs: /var/log/prosody
+    networks:
+      default:
+        aliases:
+          - server1.test
+
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: test_e2e
+      POSTGRES_DB: pubsub
+    tmpfs: /var/lib/postgresql/data
+
+  pubsub:
+    image: libervia/pubsub
+    depends_on:
+      - db
+      - prosody
+    environment:
+      PGHOST: db
+      PGUSER: postgres
+      PGPASSWORD: test_e2e
+      LIBERVIA_PUBSUB_RHOST: server1.test
+      LIBERVIA_PUBSUB_JID: pubsub.server1.test
+      LIBERVIA_PUBSUB_XMPP_PWD: test_e2e
+
+  backend:
+    image: libervia/backend:dev-demo
+    volumes:
+      - libervia-web-demo_data:/home/libervia/.local/share/libervia
+    ports:
+      # HTTP Upload
+      - "7777:7777"
+    networks:
+      default:
+        aliases:
+          - libervia-backend.test
+
+  web:
+    image: libervia/web:dev-demo
+    depends_on:
+      - backend
+    environment:
+      LIBERVIA_PASSPHRASE: test_demo
+    volumes:
+      - libervia-web-demo_data:/home/libervia/.local/share/libervia
+    ports:
+      - "8880:8880"
+    networks:
+      default:
+        aliases:
+          - libervia-web.test
+
+volumes:
+  libervia-web-demo_data:

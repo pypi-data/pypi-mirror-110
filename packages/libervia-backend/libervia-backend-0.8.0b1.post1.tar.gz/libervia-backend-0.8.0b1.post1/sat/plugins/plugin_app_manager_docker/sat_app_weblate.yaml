@@ -1,0 +1,37 @@
+type: docker-compose
+prepare:
+  git: https://github.com/WeblateOrg/docker-compose.git
+files:
+  settings-override.py:
+    content: |
+      USE_X_FORWARDED_HOST = True
+override:
+  version: "3"
+  services:
+    weblate:
+      ports:
+        - "8080"
+      environment:
+        WEBLATE_DEBUG: 0
+        WEBLATE_URL_PREFIX: !sat_param [url_prefix, /weblate]
+        WEBLATE_EMAIL_HOST: !sat_conf ["", "email_server"]
+        WEBLATE_EMAIL_HOST_USER: !sat_conf ["", "email_username"]
+        WEBLATE_EMAIL_HOST_PASSWORD: !sat_conf ["", "email_password"]
+        WEBLATE_SERVER_EMAIL: !sat_conf ["", "email_from", "weblate@example.com"]
+        WEBLATE_DEFAULT_FROM_EMAIL: !sat_conf ["", "email_from", "weblate@example.com"]
+        WEBLATE_SITE_DOMAIN: !sat_conf ["", "public_url"]
+        WEBLATE_ADMIN_PASSWORD: !sat_generate_pwd
+        WEBLATE_ADMIN_EMAIL: !sat_conf ["", "email_admins_list", "", "first"]
+        WEBLATE_ENABLE_HTTPS: !sat_conf ["", "weblate_enable_https", "1"]
+      volumes:
+        - ./settings-override.py:/app/data/settings-override.py:ro
+expose:
+  url_prefix: [override, services, weblate, environment, WEBLATE_URL_PREFIX]
+  front_url: !sat_param [front_url, /translate]
+  web_label: Translate
+  ports:
+    web:
+      service: weblate
+      private: 8080
+  passwords:
+    admin: [override, services, weblate, environment, WEBLATE_ADMIN_PASSWORD]
