@@ -1,0 +1,691 @@
+# Translations template for Libervia Web.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the Libervia Web
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Libervia Web VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-15 14:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: libervia/pages/blog/page_meta.py:57
+msgid "Can't retrieve identity of {entity}"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:50
+msgid "bad service entered: {}"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:84
+msgid "invalid filter keyword: {filter_kw}"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:108
+msgid "Feed"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:113
+msgid "Post"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:134 libervia/server/pages_tools.py:52
+msgid "Can't get comments at {node} (service: {service}): {msg}"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:164
+msgid "can't retrieve blog for [{service}]: {msg}"
+msgstr ""
+
+#: libervia/pages/blog/view/page_meta.py:314
+#: libervia/pages/events/admin/page_meta.py:173
+#: libervia/pages/events/rsvp/page_meta.py:101
+#: libervia/pages/events/view/page_meta.py:97
+#: libervia/pages/forums/topics/page_meta.py:90
+#: libervia/pages/forums/view/page_meta.py:51
+#: libervia/pages/lists/view_item/page_meta.py:124
+#: libervia/pages/merge-requests/view/page_meta.py:97
+msgid "Unhandled data type: {}"
+msgstr ""
+
+#: libervia/pages/chat/page_meta.py:33
+msgid "invalid jid for chat (no local part)"
+msgstr ""
+
+#: libervia/pages/chat/page_meta.py:36
+msgid "bad chat jid entered: {jid} ({msg})"
+msgstr ""
+
+#: libervia/pages/chat/page_meta.py:155
+msgid "Unexpected signal: {signal}"
+msgstr ""
+
+#: libervia/pages/chat/select/page_meta.py:42
+msgid "Invalid jid received: {jid}"
+msgstr ""
+
+#: libervia/pages/events/page_meta.py:26
+msgid "Can't get events list for {profile}: {reason}"
+msgstr ""
+
+#: libervia/pages/events/admin/page_meta.py:16
+msgid "Event Administration"
+msgstr ""
+
+#: libervia/pages/events/admin/page_meta.py:80
+msgid "guests value is not valid: {invitee}"
+msgstr ""
+
+#: libervia/pages/events/admin/page_meta.py:142
+msgid "this is not a valid jid: {jid}"
+msgstr ""
+
+#: libervia/pages/events/admin/page_meta.py:151
+msgid "this is not a valid email address: {email}"
+msgstr ""
+
+#: libervia/pages/events/rsvp/page_meta.py:16
+msgid "Event Invitation"
+msgstr ""
+
+#: libervia/pages/events/view/page_meta.py:28
+msgid "event URI not found, can't render event page"
+msgstr ""
+
+#: libervia/pages/files/view/page_meta.py:28
+msgid "Can't remove temporary file {path}"
+msgstr ""
+
+#: libervia/pages/files/view/page_meta.py:32
+msgid "Can't remove temporary directory {path}"
+msgstr ""
+
+#: libervia/pages/forums/list/page_meta.py:60
+msgid "Can't retrieve forums: {msg}"
+msgstr ""
+
+#: libervia/pages/forums/topics/page_meta.py:14
+msgid "Forum Topics"
+msgstr ""
+
+#: libervia/pages/forums/topics/new/page_meta.py:11
+msgid "New Topic"
+msgstr ""
+
+#: libervia/pages/forums/topics/new/page_meta.py:20
+msgid "New Forum Topic"
+msgstr ""
+
+#: libervia/pages/forums/topics/new/page_meta.py:21
+msgid "Topic"
+msgstr ""
+
+#: libervia/pages/forums/topics/new/page_meta.py:23
+msgid "Message"
+msgstr ""
+
+#: libervia/pages/forums/view/page_meta.py:12
+msgid "View"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:32
+msgid ""
+"killing guest session [{old_id}] because it is connecting with an other "
+"ID [{new_id}]"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:46
+msgid "killing current profile session [{profile}] because a guest id is used"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:57
+msgid "checking invitation [{id}]"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:69
+msgid "connecting profile [{}]"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:76
+msgid "Can't connect profile: {msg}"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:83
+msgid "guest session started, connected with profile [{profile}]"
+msgstr ""
+
+#: libervia/pages/g/page_meta.py:138 libervia/pages/photos/page_meta.py:26
+msgid "Can't get interests list for {profile}"
+msgstr ""
+
+#: libervia/pages/lists/page_meta.py:12
+msgid "Lists Discovery"
+msgstr ""
+
+#: libervia/pages/lists/page_meta.py:41
+msgid "Can't get list of registered lists for {profile}: {reason}"
+msgstr ""
+
+#: libervia/pages/lists/create_from_tpl/page_meta.py:56
+msgid "A list with this name already exists"
+msgstr ""
+
+#: libervia/pages/lists/edit/page_meta.py:22
+#: libervia/pages/lists/view_item/page_meta.py:26
+#: libervia/pages/merge-requests/edit/page_meta.py:22
+#: libervia/pages/merge-requests/view/page_meta.py:24
+msgid "no list item id specified"
+msgstr ""
+
+#: libervia/pages/lists/view_item/page_meta.py:72
+msgid "Can't find comment node at [{service}] {node!r}"
+msgstr ""
+
+#: libervia/pages/login/page_meta.py:63
+msgid "Disconnect called when no profile is logged"
+msgstr ""
+
+#: libervia/pages/login/page_meta.py:91
+msgid "Unhandled status: {status}"
+msgstr ""
+
+#: libervia/pages/photos/album/page_meta.py:11
+msgid "Photos Album"
+msgstr ""
+
+#: libervia/pages/photos/new/page_meta.py:42
+msgid ""
+"You server has no service to create a photo album, please ask your server"
+" administrator to add one"
+msgstr ""
+
+#: libervia/server/blog.py:495
+msgid "{user}'s blog"
+msgstr ""
+
+#: libervia/server/blog.py:853
+msgid "from {}"
+msgstr ""
+
+#: libervia/server/blog.py:863
+msgid "comments"
+msgstr ""
+
+#: libervia/server/blog.py:863
+msgid "comment"
+msgstr ""
+
+#: libervia/server/blog.py:874
+msgid "show {count} previous {comments}"
+msgstr ""
+
+#: libervia/server/pages.py:196
+msgid "a Libervia page named \"{}\" already exists"
+msgstr ""
+
+#: libervia/server/pages.py:198
+msgid "\"/\" is not allowed in page names"
+msgstr ""
+
+#: libervia/server/pages.py:200
+msgid "a page name can't be empty"
+msgstr ""
+
+#: libervia/server/pages.py:210
+msgid "{} access is not implemented yet"
+msgstr ""
+
+#: libervia/server/pages.py:222
+msgid ""
+"you can't use full page redirection with other renderingmethod, check "
+"self.pageRedirect if you need to use them"
+msgstr ""
+
+#: libervia/server/pages.py:240
+msgid "render and template methods can't be used at the same time"
+msgstr ""
+
+#: libervia/server/pages.py:398
+msgid "[{host_name}] {path} is already present, ignoring it"
+msgstr ""
+
+#: libervia/server/pages.py:423
+msgid "uri_handlers must be a dict"
+msgstr ""
+
+#: libervia/server/pages.py:427
+msgid "invalid uri_tuple"
+msgstr ""
+
+#: libervia/server/pages.py:430
+msgid "setting {}/{} URIs handler"
+msgstr ""
+
+#: libervia/server/pages.py:435
+msgid "missing {name} method to handle {1}/{2}"
+msgstr ""
+
+#: libervia/server/pages.py:501
+msgid "Can't create a page at {path}, missing parents"
+msgstr ""
+
+#: libervia/server/pages.py:524
+msgid "Can't create page: {reason}"
+msgstr ""
+
+#: libervia/server/pages.py:544
+msgid "{page} created"
+msgstr ""
+
+#: libervia/server/pages.py:546
+msgid "{page} reloaded"
+msgstr ""
+
+#: libervia/server/pages.py:560
+msgid "invalid CSRF token, hack attempt? URL: {url}, IP: {ip}"
+msgstr ""
+
+#: libervia/server/pages.py:595
+msgid "{}/{} URIs are already handled, replacing by the new handler"
+msgstr ""
+
+#: libervia/server/pages.py:628
+msgid "You can't register signal if page is not dynamic"
+msgstr ""
+
+#: libervia/server/pages.py:750
+msgid "requested sub page has not been found ({subpage_name})"
+msgstr ""
+
+#: libervia/server/pages.py:872
+msgid "invalid jid argument: {value}"
+msgstr ""
+
+#: libervia/server/pages.py:923
+msgid "Missing arguments in URL (got {count}, expected at least {min_args})"
+msgstr ""
+
+#: libervia/server/pages.py:1041
+msgid "Can't subscribe to node: {msg}"
+msgstr ""
+
+#: libervia/server/pages.py:1045
+msgid "Can't add node watched: {msg}"
+msgstr ""
+
+#: libervia/server/pages.py:1081
+msgid ""
+"Can't use cache for empty node without namespace set, please ensure to "
+"set \"short\" and that it is registered"
+msgstr ""
+
+#: libervia/server/pages.py:1136
+msgid "Removing subscription for {service}/{node}: the page is not cached"
+msgstr ""
+
+#: libervia/server/pages.py:1142
+msgid "Can't unsubscribe from {service}/{node}: {msg}"
+msgstr ""
+
+#: libervia/server/pages.py:1148
+msgid "Can't remove watch for {service}/{node}: {msg}"
+msgstr ""
+
+#: libervia/server/pages.py:1197
+msgid "no session started, signal can't be checked"
+msgstr ""
+
+#: libervia/server/pages.py:1239
+msgid "Can't find signal handler for [{signal}], this should not happen"
+msgstr ""
+
+#: libervia/server/pages.py:1242
+msgid "Removed signal handler"
+msgstr ""
+
+#: libervia/server/pages.py:1381
+msgid "{page} put in cache for [{profile}]"
+msgstr ""
+
+#: libervia/server/pages.py:1389
+msgid ""
+"Can't write page, the request has probably been cancelled (browser tab "
+"closed or reloaded)"
+msgstr ""
+
+#: libervia/server/pages.py:1511
+msgid "iterable in on_data_post return value is not used yet"
+msgstr ""
+
+#: libervia/server/pages.py:1684
+msgid "Full-text search is not available"
+msgstr ""
+
+#: libervia/server/pages.py:1735
+msgid "renderPartial must only be used with dynamic pages"
+msgstr ""
+
+#: libervia/server/pages.py:1812
+msgid "illegal char found in locale (\"/\"), hack attempt? locale={locale}"
+msgstr ""
+
+#: libervia/server/pages.py:1829
+msgid "Theme {theme!r} doesn't exist for {vhost}"
+msgstr ""
+
+#: libervia/server/pages.py:1933
+msgid ""
+"Uncatched bridge exception for HTTP request on {url}: {e}\n"
+"page name: {name}\n"
+"path: {path}\n"
+"URL: {full_url}\n"
+"{tb}"
+msgstr ""
+
+#: libervia/server/pages.py:1950
+msgid ""
+"Uncatched error for HTTP request on {url}: {e}\n"
+"page name: {name}\n"
+"path: {path}\n"
+"URL: {full_url}\n"
+"{tb}"
+msgstr ""
+
+#: libervia/server/server.py:125
+msgid "Watching directory {dir_path}"
+msgstr ""
+
+#: libervia/server/server.py:293
+msgid "starting application {app_name}"
+msgstr ""
+
+#: libervia/server/server.py:305
+msgid "no web port found for application {app_name!r}, can't use it "
+msgstr ""
+
+#: libervia/server/server.py:313
+msgid "no URL prefix specified for this application, we can't embed it: {msg}"
+msgstr ""
+
+#: libervia/server/server.py:359
+msgid ""
+"\"path_args\" in redirection of {old} must be a list. Ignoring the "
+"redirection"
+msgstr ""
+
+#: libervia/server/server.py:366
+msgid ""
+"\"query_args\" in redirection of {old} must be a dictionary. Ignoring the"
+" redirection"
+msgstr ""
+
+#: libervia/server/server.py:390
+msgid "ignoring invalid redirection value: {new_data}"
+msgstr ""
+
+#: libervia/server/server.py:401
+msgid "redirected url must start with '/', got {value}. Ignoring"
+msgstr ""
+
+#: libervia/server/server.py:414
+msgid "Root URL redirected to page {name}"
+msgstr ""
+
+#: libervia/server/server.py:433
+msgid "ignoring redirection, no page found to handle this URI: {uri}"
+msgstr ""
+
+#: libervia/server/server.py:489
+msgid "Can't launch {app_name!r} for path /{old}: {e}"
+msgstr ""
+
+#: libervia/server/server.py:511
+msgid "[{host_name}] Root URL redirected to {uri}"
+msgstr ""
+
+#: libervia/server/server.py:524
+msgid "menu item can't be empty"
+msgstr ""
+
+#: libervia/server/server.py:529
+msgid "menu item as list must be in the form [page_name, absolue URL]"
+msgstr ""
+
+#: libervia/server/server.py:563
+msgid "Can'find a named page ({msg}), please check menu_json in configuration."
+msgstr ""
+
+#: libervia/server/server.py:630
+msgid ""
+"recursive redirection, please fix this URL:\n"
+"{old} ==> {new}"
+msgstr ""
+
+#: libervia/server/server.py:643
+msgid "Can't find page named \"{name}\" requested in redirection"
+msgstr ""
+
+#: libervia/server/server.py:655
+msgid "Invalid args in redirection: {query_args}"
+msgstr ""
+
+#: libervia/server/server.py:897
+msgid "Can't get namespaces map: {msg}"
+msgstr ""
+
+#: libervia/server/server.py:939
+msgid ""
+"No passphrase set for service profile, please check installation "
+"documentation."
+msgstr ""
+
+#: libervia/server/server.py:953
+msgid ""
+"\"xmpp_domain\" must be set to create new accounts, please check "
+"documentation"
+msgstr ""
+
+#: libervia/server/server.py:968
+msgid "Service's profile JID {profile_jid} already exists"
+msgstr ""
+
+#: libervia/server/server.py:974
+msgid ""
+"Can't create service profile XMPP account, In-Band Registration plugin is"
+" not activated, you'll have to create the {profile!r} profile with "
+"{profile_jid!r} JID manually."
+msgstr ""
+
+#: libervia/server/server.py:984
+msgid ""
+"Can't create service profile XMPP account, In-Band Registration is not "
+"activated on your server, you'll have to create the {profile!r} profile "
+"with {profile_jid!r} JID manually.\n"
+"Note that you'll need to activate In-Band Registation on your server if "
+"you want users to be able to create new account from {app_name}, please "
+"check documentation."
+msgstr ""
+
+#: libervia/server/server.py:998
+msgid ""
+"Can't create service profile XMPP account, your XMPP server doesn't allow"
+" us to create new accounts with In-Band Registration please check XMPP "
+"server configuration: {reason}"
+msgstr ""
+
+#: libervia/server/server.py:1011 libervia/server/server.py:1027
+msgid ""
+"Can't create service profile XMPP account, you'll have do to it manually:"
+" {reason}"
+msgstr ""
+
+#: libervia/server/server.py:1030
+msgid "Service profile has been successfully created"
+msgstr ""
+
+#: libervia/server/server.py:1046
+msgid "Connection of service profile failed: {reason}"
+msgstr ""
+
+#: libervia/server/server.py:1054
+msgid "Developer mode activated"
+msgstr ""
+
+#: libervia/server/server.py:1107
+msgid "host {host_name} link to non existing site {site_name}, ignoring it"
+msgstr ""
+
+#: libervia/server/server.py:1223
+msgid "Can't connect to bridge, will retry indefinitely. Next try in 1s."
+msgstr ""
+
+#: libervia/server/server.py:1228
+msgid "Can't connect to bridge, will retry in 1 s ({retries_left} trie(s) left)."
+msgstr ""
+
+#: libervia/server/server.py:1303
+msgid "/!\\ Session has already a profile, this should NEVER happen!"
+msgstr ""
+
+#: libervia/server/server.py:1318
+msgid "profile cache resource added from {uuid} to {path}"
+msgstr ""
+
+#: libervia/server/server.py:1327
+msgid "profile cache resource {uuid} deleted"
+msgstr ""
+
+#: libervia/server/server.py:1435
+msgid ""
+"{new_profile} requested login, but {old_profile} was already connected, "
+"disconnecting {old_profile}"
+msgstr ""
+
+#: libervia/server/server.py:1460
+msgid "Did not receive a reply (the timeout expired or the connection is broken)"
+msgstr ""
+
+#: libervia/server/server.py:1464
+msgid "Unexepected failure: {failure_}"
+msgstr ""
+
+#: libervia/server/server.py:1481
+msgid ""
+"session profile [{session_profile}] differs from login profile "
+"[{profile}], this should not happen!"
+msgstr ""
+
+#: libervia/server/server.py:1489
+msgid "profile {profile} was already connected in backend"
+msgstr ""
+
+#: libervia/server/server.py:1515
+msgid "Registration received while it is not allowed, hack attempt?"
+msgstr ""
+
+#: libervia/server/server.py:1542
+msgid ""
+"Unknown registering error status: {status}\n"
+"{traceback}"
+msgstr ""
+
+#: libervia/server/server.py:1570
+msgid "Init error: {msg}"
+msgstr ""
+
+#: libervia/server/server.py:1576
+msgid "Stopping here due to --build-only flag"
+msgstr ""
+
+#: libervia/server/server.py:1728
+msgid "session purge"
+msgstr ""
+
+#: libervia/server/server.py:1858
+msgid "launching cleaning methods"
+msgstr ""
+
+#: libervia/server/utils.py:68
+msgid "No progress received, cancelling handler: {progress_id} [{profile}]"
+msgstr ""
+
+#: libervia/server/utils.py:79
+msgid "Trying to remove unknown handler: {progress_id} [{profile}]"
+msgstr ""
+
+#: libervia/server/websockets.py:109
+msgid "Can't activate page socket: unknown token"
+msgstr ""
+
+#: libervia/server/websockets.py:122
+msgid "Websocket opened for {page} (token: {token})"
+msgstr ""
+
+#: libervia/server/websockets.py:134
+msgid ""
+"Not valid JSON, ignoring data: {msg}\n"
+"{data}"
+msgstr ""
+
+#: libervia/server/websockets.py:146
+msgid ""
+"No \"on_data\" method set on dynamic page, ignoring data:\n"
+"{data}"
+msgstr ""
+
+#: libervia/server/websockets.py:170
+msgid "Websocket closed for {page} (token: {token}). {reason}"
+msgstr ""
+
+#: libervia/server/websockets.py:193
+msgid "This token is already registered"
+msgstr ""
+
+#: libervia/server/tasks/manager.py:34
+msgid "default site"
+msgstr ""
+
+#: libervia/server/tasks/manager.py:79
+msgid "Unexpected value for {var}, {allowed} is expected."
+msgstr ""
+
+#: libervia/server/tasks/manager.py:83
+msgid "Unexpected value for {var}: {value!r}"
+msgstr ""
+
+#: libervia/server/tasks/manager.py:120
+msgid "== preparing task \"{task_name}\" for {site_name} =="
+msgstr ""
+
+#: libervia/server/tasks/manager.py:163
+msgid "{name} has no task to launch."
+msgstr ""
+
+#: libervia/server/tasks/manager.py:184
+msgid "== running task \"{task_name}\" for {site_name} =="
+msgstr ""
+
+#: libervia/server/tasks/manager.py:194
+msgid "Task \"{task_name}\" failed for {site_name}: {reason}"
+msgstr ""
+
+#: libervia/server/tasks/task.py:85
+msgid "Can't find {name} command, did you install it?"
+msgstr ""
+
+#: libervia/server/tasks/implicit/task_brython.py:51
+msgid "Installing Brython v{version}"
+msgstr ""
+
+#: libervia/server/tasks/implicit/task_js_modules.py:36
+msgid "creating JS modules mapping for Brython"
+msgstr ""

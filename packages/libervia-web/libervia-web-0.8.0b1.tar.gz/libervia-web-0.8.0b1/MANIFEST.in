@@ -1,0 +1,16 @@
+include MANIFEST.in libervia/VERSION
+global-include *.py
+global-include *.ini
+global-include *.po *.mo
+global-include CHANGELOG COPYING* INSTALL README*
+global-include *.sh
+global-include Makefile *.rst *.bat
+include src/browser/public/*
+include themes
+include doc
+recursive-include src *.js
+exclude *.sh
+global-exclude *.un~
+global-exclude *.pyc
+prune output
+prune html
