@@ -1,0 +1,14 @@
+vcf2fhir_test_517/__init__.py,sha256=NRCP9PJVW_UttFqu8BJJZ-ag2miHa-VkSGSUpmABufU,50
+vcf2fhir_test_517/common.py,sha256=wKmVbth0Lfo-t7k6iQFrv5lpBYEW9fcwrYIuxs_EwbI,4487
+vcf2fhir_test_517/converter.py,sha256=5tdL4bJMNf_iiKxQoqKPCyoKG6SM3HQZFmU5GQHiswo,8664
+vcf2fhir_test_517/fhir_helper.py,sha256=ahmmExLyoobS7ti89FFVXy5pn1tCx-B_svkvmdraYoY,23140
+vcf2fhir_test_517/gene_ref_seq.py,sha256=i-HXAptY3nybcC5e0GBotk8fYgeNCzIx1aMkBSqSVcE,1438
+vcf2fhir_test_517/json_generator.py,sha256=G80YyfPnEUHB_uv1kSRKqoOcsoS-jPng4FVbqaNCYZ4,8808
+vcf2fhir_test_517/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcf2fhir_test_517/test/test_integration.py,sha256=HcxiHmYzPsUsFMVQfj_j9dQnUVfFYWcbWpX_tI6zq5Y,20808
+vcf2fhir_test_517/test/test_unit.py,sha256=Z7Gx0wTwLSKBNTPBgmV_GB09cdVdQKftsF1kCXXAbuk,2926
+vcf2fhir_test_517-0.0.17.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+vcf2fhir_test_517-0.0.17.dist-info/METADATA,sha256=ZKwzmnRLaD_EZs7s_6dQe3JCJEkSt8GZSA_P0hF1nXs,4494
+vcf2fhir_test_517-0.0.17.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vcf2fhir_test_517-0.0.17.dist-info/top_level.txt,sha256=oH1vbp9UisFQjN7XoOczoK0zRUxrzCOt4DzXpNu3MW4,18
+vcf2fhir_test_517-0.0.17.dist-info/RECORD,,
