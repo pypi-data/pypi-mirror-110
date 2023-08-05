@@ -1,0 +1,6 @@
+numpy
+pykeops
+torch
+
+[full]
+pykeops
