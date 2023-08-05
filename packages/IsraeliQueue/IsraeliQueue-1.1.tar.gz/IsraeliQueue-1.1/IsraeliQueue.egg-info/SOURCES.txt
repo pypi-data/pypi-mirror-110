@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+IsraeliQueue.egg-info/PKG-INFO
+IsraeliQueue.egg-info/SOURCES.txt
+IsraeliQueue.egg-info/dependency_links.txt
+IsraeliQueue.egg-info/top_level.txt
