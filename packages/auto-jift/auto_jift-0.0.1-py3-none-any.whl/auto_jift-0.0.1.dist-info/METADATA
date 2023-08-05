@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: auto-jift
+Version: 0.0.1
+Summary: Jiangxi Institute Of Fashion Technology automated office
+Home-page: UNKNOWN
+Author: chenzhenhua
+Author-email: yinluofeihua@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: xltpl
+Requires-Dist: numpy
+
+UNKNOWN
+
+
