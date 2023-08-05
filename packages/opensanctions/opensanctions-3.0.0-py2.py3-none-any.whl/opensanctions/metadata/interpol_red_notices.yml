@@ -1,0 +1,20 @@
+entry_point: opensanctions.crawlers.interpol_api
+title: Red Notices
+prefix: interpol-red
+description: >
+  International arrest warrants published by INTERPOL with a view to
+  extradition of the wanted individuals.
+collections:
+  - crime
+publisher:
+  organization: INTERPOL
+  url: https://www.interpol.int/
+url: https://www.interpol.int/INTERPOL-expertise/Notices
+data:
+  url: https://ws-public.interpol.int/notices/v1/red
+  format: xml
+
+lookups:
+  country:
+    map:
+      UNK: null

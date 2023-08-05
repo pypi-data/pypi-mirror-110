@@ -1,0 +1,20 @@
+entry_point: opensanctions.crawlers.eu_cor_members:crawl
+title: Members of the European Commitee of the Regions
+prefix: eu-cor
+description: >
+  ​The European Committee of the Regions (CoR) is the voice of regions and 
+  cities in the European Union (EU). It represents local and regional authorities 
+  across the European Union and advises on new laws that have an impact on regions 
+  and cities (70% of all EU legislation).
+collections:
+  - peps
+publisher:
+  organization: European Union
+  authority: Committee of the Regions
+  acronym: CoR
+  country: eu
+  url: https://cor.europa.eu/en
+url: https://cor.europa.eu/en
+data:
+  url: https://memberspage.cor.europa.eu/
+  format: HTML

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: opensanctions
+Version: 3.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/alephdata/opensanctions
+Author: Friedrich Lindenberg
+Author-email: info@opensanctions.org
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: followthemoney (>=1.21.2)
+Requires-Dist: pantomime
+Requires-Dist: sqlalchemy
+Requires-Dist: alembic
+Requires-Dist: psycopg2-binary
+Requires-Dist: requests[security] (<3.0.0,>=2.25.0)
+Requires-Dist: requests-cache (<0.7.0,>=0.6.3)
+Requires-Dist: alephclient (>=2.1.3)
+Requires-Dist: datapatch
+Requires-Dist: structlog
+Requires-Dist: colorama
+Requires-Dist: xlrd
+Requires-Dist: lxml
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: wheel (>=0.29.0) ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 (>=2.6.0) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+UNKNOWN
+
+
