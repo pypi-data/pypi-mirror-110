@@ -1,0 +1,11 @@
+pip
+packaging
+numpy==1.18.5
+causalml==0.10.0
+transformers
+pandas
+tensorflow==2.3.2
+sentence-transformers
+tabulate
+
+[dev]
