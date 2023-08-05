@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/materialsdb/__init__.py
+src/materialsdb/cache.py
+src/materialsdb/classes.py
+src/materialsdb/config.py
+src/materialsdb/serialiser.py
+src/materialsdb/utils.py
+src/materialsdb/ifc/__init__.py
+src/materialsdb/ifc/project_library.py
+src/python_materialsdb.egg-info/PKG-INFO
+src/python_materialsdb.egg-info/SOURCES.txt
+src/python_materialsdb.egg-info/dependency_links.txt
+src/python_materialsdb.egg-info/requires.txt
+src/python_materialsdb.egg-info/top_level.txt
