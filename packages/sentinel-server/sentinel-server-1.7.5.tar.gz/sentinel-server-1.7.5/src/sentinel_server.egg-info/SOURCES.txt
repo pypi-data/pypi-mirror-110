@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sentinel/__init__.py
+src/sentinel/__main__.py
+src/sentinel/manuf.py
+src/sentinel/sentinel.py
+src/sentinel/store.py
+src/sentinel/tools.py
+src/sentinel_server.egg-info/PKG-INFO
+src/sentinel_server.egg-info/SOURCES.txt
+src/sentinel_server.egg-info/dependency_links.txt
+src/sentinel_server.egg-info/entry_points.txt
+src/sentinel_server.egg-info/top_level.txt
