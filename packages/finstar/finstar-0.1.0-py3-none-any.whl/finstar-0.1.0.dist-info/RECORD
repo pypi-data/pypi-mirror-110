@@ -1,0 +1,9 @@
+finstar/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+finstar/evaluation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finstar/evaluation/returns.py,sha256=wH-EYFtItC6_LIh8eR9aOE0IAa51WNeJR9qoDFtVwl4,253
+finstar/strategies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finstar/strategies/sma.py,sha256=qMIqOyMMuLvZKOuSXRjeNGTw3HTKucGp6IsE2JxLC3w,481
+finstar-0.1.0.dist-info/LICENSE,sha256=WFFXftpElVh57eZgqCyUB7iCNEwtdKkSZo-Zgn1W_IE,11345
+finstar-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+finstar-0.1.0.dist-info/METADATA,sha256=t0f4sC8Ew9DyIjVMTcHsa-6fUI1gHMOgLkTzkbXFMXc,861
+finstar-0.1.0.dist-info/RECORD,,
