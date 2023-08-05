@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/BasicVector/__init__.py
+src/BasicVector/locals.py
+src/BasicVector/vec2.py
+src/BasicVector/vec3.py
+src/BasicVector/vec4.py
+src/BasicVector.egg-info/PKG-INFO
+src/BasicVector.egg-info/SOURCES.txt
+src/BasicVector.egg-info/dependency_links.txt
+src/BasicVector.egg-info/top_level.txt

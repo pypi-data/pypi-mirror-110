@@ -1,0 +1,55 @@
+# **Python basic vector**
+
+You can find the project here : https://framagit.org/PLOTFINDER/python-basic-vector
+
+## Vectors :
+
+- #### Vec2 ( float, float )
+    - Attributes
+        - x ( get, set )
+        - y (get, set)
+    
+    - Methods
+        - div ( float ) -> Vec2
+        - mult ( float ) -> Vec2
+        - length () : returns the length of the vector
+        - normalize () : normalizes the vector
+    
+    - Class methods
+        - dist( Vec2, Vec2) : returns the distance between two 2D vectors
+        - degreesToVec2 ( float ): converts degrees to Vec2 and returns the result
+        - radiansToVec2 ( float ): converts radians to Vec2 and returns the result
+        - lerp ( Vec2, Vec2, float ) -> Vec2
+
+- #### Vec3 ( float, float, float )
+    - Attributes
+        - x ( get, set )
+        - y ( get, set )
+        - z ( get, set )
+    
+    - Methods
+        - div ( float ) -> Vec3
+        - mult ( float ) -> Vec3
+        - length () : returns the length of the vector
+        - normalize () : normalizes the vector
+    
+    - Class methods
+        - dist( Vec3, Vec3) : returns the distance between two 3D vectors
+        - lerp ( Vec3, Vec3, float ) -> Vec3
+    
+- #### Vec4 ( float, float, float, float )
+    - Attributes
+        - x ( get, set )
+        - y ( get, set )
+        - w ( get, set )
+        - h ( get, set )
+    
+    - Methods
+        - div ( float ) -> Vec4
+        - mult ( float ) -> Vec4
+        - length () : returns the length of the vector
+        - normalize () : normalizes the vector
+    
+    - Class methods
+        - dist( Vec4, Vec4) : returns the distance between two 4D vectors
+        - lerp ( Vec4, Vec4, float ) -> Vec4
