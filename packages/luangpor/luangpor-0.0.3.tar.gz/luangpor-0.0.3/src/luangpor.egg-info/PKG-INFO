@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: luangpor
+Version: 0.0.3
+Summary: Teachings from Luangpor Pramote
+Home-page: https://github.com/korakot/luangpor
+Author: Korakot Chaovavanich
+Author-email: korakot@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/korakot/luangpor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# luangpor
+Access Luangpor Pramote's youtube videos by searching captions
+
+
