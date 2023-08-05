@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: wallaroo
+Version: 0.0.17
+Summary: Wallaroo.ai model management API client
+Home-page: https://www.wallaroo.ai/
+Author: Wallaroo.ai
+Author-email: hello@wallaroo.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: google-cloud-storage (>=1.38.0)
+Requires-Dist: onnx (>=1.8.0)
+
+# Python SDK for Wallaroo
+
+
+This repo contains the python SDK used to interface with the Wallaroo API. The structure is as follows:
+
+- Package name: Wallaroo
+- Modules contained: sdk
+- [SDK documentation](https://wallaroolabs.github.io/wallaroo-docs/sdk.html)
+
+## Tests
+To execute all tests run:
+```sh
+python -m unittest discover
+```
+To execute a specific test run:
+```sh
+python -m tests.test_name
+```
+Example:
+```sh
+python -m tests.test_smoke
+```
+
+## Build
+
+Make sure you have the latest version of 'build'
+```sh
+make build-sdk
+```
+This will generate a distribution package in the dist directory.
+
+## Generate Documentation
+
+pdoc3 is used to generate the documentation for the SDK.
+To generate the documentation run:
+```sh
+make doc
+```
+This will generate documentation files in the [html](html) directory
+
+
+To remove generated files:
+```sh
+make clean
+```
+
+
