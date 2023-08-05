@@ -1,0 +1,12 @@
+napari_features/__init__.py,sha256=bs6ZWWx-MhelpD-q7clFIzbFPJbK-Hza5UCat0FVsOE,84
+napari_features/_feature_specification.py,sha256=vfaxl260xYK_Ex9Jpwhl8y_OjzestbJUyIYo0n-Hj5o,37
+napari_features/_featurize.py,sha256=BIGWEJj6SHm3G4rU08HmKes_qYIYQDLYPx-Ii_D6Nvw,995
+napari_features/generator.py,sha256=ejT8h3KQib8pd69DtQrvwjMw9SIMHhT_y404nZ3AsK0,4914
+napari_features/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_features/_tests/test_table.py,sha256=KG9-9kwp105ODKM-UV0TvOoA49h7E9nxSfNIt78X3tw,36
+napari_features-0.1.1.dist-info/LICENSE,sha256=eelsybXKbHiW8e9OH-XvyYYosLKxUsvmjdKr4fHMzAM,1081
+napari_features-0.1.1.dist-info/METADATA,sha256=d-IQrBs5v9xRG2Dv9inXZ79EBdqN32Q6BM7p8JdXomA,3784
+napari_features-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+napari_features-0.1.1.dist-info/entry_points.txt,sha256=HASEAyia2I9lB046aipxv9pH7TzoSLzlncbGbUI4L78,51
+napari_features-0.1.1.dist-info/top_level.txt,sha256=rQmHv4pRcktLCUi5ZhlAsF6gwDLeHk7LTt_KChoxIYY,16
+napari_features-0.1.1.dist-info/RECORD,,
