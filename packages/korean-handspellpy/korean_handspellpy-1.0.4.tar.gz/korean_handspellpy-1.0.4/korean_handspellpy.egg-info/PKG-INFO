@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: korean-handspellpy
+Version: 1.0.4
+Summary: handspell
+Home-page: UNKNOWN
+Author: hminkoo10
+Author-email: hmin.koo10@gmail.com
+License: MIT
+Description: 
+        ```py
+        from handspell.handspell import spell_check as check
+        print(check('text'))
+        
+Keywords: 맞춤법 검사,맞춥법,handspell,koreanhandspell,korean
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
