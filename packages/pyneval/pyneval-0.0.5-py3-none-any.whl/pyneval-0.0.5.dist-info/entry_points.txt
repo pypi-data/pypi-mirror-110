@@ -1,0 +1,4 @@
+[console_scripts]
+pyneval = pyneval.cli.pyneval:run
+pyneval_tools = pyneval.cli.pyneval_tools:run
+
