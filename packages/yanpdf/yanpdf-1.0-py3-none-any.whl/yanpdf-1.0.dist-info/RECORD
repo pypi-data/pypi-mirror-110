@@ -1,0 +1,7 @@
+yanpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yanpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yanpdf/pdf2text.py,sha256=rHONXO8GXi8XQDeXFmmRem6t_oltBdwd8KYE2LJ2gGM,36
+yanpdf-1.0.dist-info/METADATA,sha256=oy04s4tRqPpFc_DzRYqvMzl0WFpbkOEswMqLCDkvo2g,168
+yanpdf-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+yanpdf-1.0.dist-info/top_level.txt,sha256=1Er1ACuX-ZvR-z79DClRxMm-Tu9qnr4G8RT_k6GOef0,7
+yanpdf-1.0.dist-info/RECORD,,
