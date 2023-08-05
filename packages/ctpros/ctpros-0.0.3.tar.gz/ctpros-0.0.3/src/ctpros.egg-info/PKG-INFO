@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: ctpros
+Version: 0.0.3
+Summary: Computed Tomography Processing Registration Open Sourced
+Home-page: https://gitlab.com/caosuna/ctpros
+Author: Carlos Osuna
+Author-email: charlie@caosuna.com
+License: UNKNOWN
+Description: # ctpros <!-- omit in toc -->
+        [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+        [![coverage](http://gitlab.com/caosuna/ctpros/-/jobs/artifacts/master/raw/.test_results/coverage.svg?job=coverage)](https://gitlab.com/caosuna/ctpros/-/jobs/artifacts/master/file/.test_results/coverage_html/index.html?job=coverage)
+        
+        A handy graphic user interface (GUI) and application programming interface (API) to apply common imaging techniques to your research images.
+        
+        <img src="docs/images/guiexample.png">
+        Two micro-CT images of a single specimen are shown post-registration of their overlapping region before being stitched.
+        
+        ## Summary <!-- omit in toc -->
+        This program's goal is to ease the utilization of Python's powerful imaging library in medical imaging research. By combining raw image data with paired affine matrices to describe their real-world orientations, relationships and properly scaled metrics can be applied between images of varying resolutions, easing common image processing pipelines. Enabling manipulation of these affine transformations with intuitive dragging and rotating operations allows researchers to better visualize and explore their data.
+        ## Index <!-- omit in toc -->
+        - [Installation](#installation)
+        - [Usage](#usage)
+        - [Contributors](#contributors)
+        - [License](#license)
+        
+        ## Installation
+        ### Guides <!-- omit in toc -->
+        Not familiar with Python? See the following guides on how to install this project and its requirements without causing issues
+        with other (or future) Python projects:
+        - [Windows Guide](docs/install_win_helpme.md)
+        
+        For the familiar, `pip install ctpros` in your Python virtual environment with the below system requirements:
+        
+        ### Requirements <!-- omit in toc -->
+        #### All Environments <!-- omit in toc -->
+        - [Python 3.7 64-bit](https://www.python.org/downloads/release/python-379/)
+          - Development occurred in 3.7. Use other versions at your own discretion.
+          
+        #### Headless Servers <!-- omit in toc -->
+        If utilizing or testing graphics commands:
+          - `xvfb`
+            - X virtual frame buffer to mimic a screen
+          - OpenGL
+            - Open-sourced graphics library (`libgl1-mesa-dev`)
+          
+        ##  Usage
+        Use either the graphic user interface for your visualization and general image manipulation needs or the application programming interface for your scripting needs.
+        
+        ### Graphic User Interface <!-- omit in toc -->
+        For Windows users, `ctpros.bat` is generated on the user's desktop upon installation. Select that file to run `ctpros`.
+        
+        For the familiar, call `python -m ctpros` from the Python virtual environment in which it is installed.
+        
+        For detailed controls, see the [GUI Controls Guide](docs/gui_controls_helpme.md).
+        
+        ### Application Programming Interface <!-- omit in toc -->
+        Import `ctpros` like any other Python module to access the GUI and NumPy-derived image classes. Be sure to use the virtual environment `ctpros` is installed in to be able to import it.
+        ```python
+        import ctpros
+        
+        myaim = ctpros.AIM(shape=(50,50,50),dtype='int16')
+        ```
+        See the [notebooks](notebooks/README.MD) for more examples of API usage.
+        
+        ## Contributors
+        See [CONTRIBUTING.md](CONTRIBUTING.md)
+        
+        ## License
+        [GPL 3.0](docs/gnu_gpl_3-0.txt)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
