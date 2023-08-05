@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: wordmarker
+Version: 0.0.5
+Summary: Word documentation generator
+Home-page: https://wordmarker.readthedocs.io
+Author: chensixiang
+Author-email: chensixiang1234@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/wordmarker/
+Project-URL: Code, https://github.com/lostblackknight/wordmarker
+Project-URL: Issue tracker, https://github.com/lostblackknight/wordmarker/issues
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: coloredlogs (==15.0)
+Requires-Dist: greenlet (==1.0.0)
+Requires-Dist: humanfriendly (==9.1)
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: pandas (>=1.2.3)
+Requires-Dist: psycopg2 (==2.8.6)
+Requires-Dist: pyreadline (==2.1)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: SQLAlchemy (==1.4.5)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: ruamel.yaml (==0.16.12)
+Requires-Dist: ruamel.yaml.clib (==0.2.2)
+Requires-Dist: docutils (>=0.13.1)
+Requires-Dist: Pygments (>=2.5.1)
+Requires-Dist: bleach (==3.3.0)
+Requires-Dist: docxtpl (==0.11.4)
+Requires-Dist: Jinja2 (==2.11.3)
+Requires-Dist: lxml (==4.6.3)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: python-docx (==0.8.10)
+
+# WordMarker
+
+[![PyPI](https://img.shields.io/pypi/v/wordmarker)](https://pypi.org/project/wordmarker/) [![Read the Docs](https://img.shields.io/readthedocs/wordmarker)](https://wordmarker.readthedocs.io/) [![GitHub](https://img.shields.io/github/license/lostblackknight/wordmarker)](https://opensource.org/licenses/MIT)
+
+Word文档生成器。
+
+## 安装
+
+WordMarker在[PyPI](https://pypi.org/project/wordmarker/)上发布，可以从那里安装：
+
+```python
+pip install wordmarker -i https://pypi.org/simple
+```
+
+国内用户建议直接[下载](https://pypi.org/project/wordmarker/#files)进行安装。
+
+## 文档资料
+
+- 你可以从[wordmarker.readthedocs.io](https://wordmarker.readthedocs.io/)获取文档。
+- 你也可以从[wordmarker.rtfd.io](http://wordmarker.rtfd.io/)获取文档。
+
+## 保持联系
+
+- 你可以在[Github](https://github.com/lostblackknight/wordmarker)上，反馈漏洞，提出建议，查看源码。
+- 其他问题，请使用E-mail : chensixiang1234@gmail.com。
+
