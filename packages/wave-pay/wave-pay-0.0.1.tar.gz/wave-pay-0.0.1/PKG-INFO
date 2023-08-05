@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: wave-pay
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/Lakanbi37/wave
+Author: Lekan Akanbi
+Author-email: lakanbi37@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Lakanbi37/wave/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=====
+Wave-Pay
+=====
+
+
+Wave-Pay is a Python package that seamlessly allow merchants accept payments
+on their Python based web apps.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Install wave-pay::
+
+    pip install wave-pay
+
+2. It is preferred that you store your API Keys as an environment variable then import Wave gateway instance and instantiate::
+
+    from wave_pay import WaveGateway
+    wave = WaveGateway(secret_key="<YOUR_SECRET_KEY>", public_key="<YOUR_PUBLIC_KEY>")
+
+3. start using the API::
+
+    new_transaction = wave.Card.initiate("<ENCRYPTED_PAYLOAD>")
+
+
+
