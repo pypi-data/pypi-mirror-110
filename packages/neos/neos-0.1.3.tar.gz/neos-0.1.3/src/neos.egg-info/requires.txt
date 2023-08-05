@@ -1,0 +1,17 @@
+relaxed==0.0.4
+
+[dev]
+pre-commit
+pytest>=6
+pytest-cov>=2.6.1
+
+[docs]
+Sphinx~=3.0
+myst_parser>=0.13
+sphinx-book-theme>=0.0.33
+sphinx_copybutton
+
+[test]
+pre-commit
+pytest>=6
+pytest-cov>=2.6.1
