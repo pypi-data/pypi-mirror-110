@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sisyphe
+Version: 0.1.3
+Summary: Simulation of Systems of Particles with High Efficiency
+Home-page: https://sisyphe.readthedocs.io
+Author: Antoine Diez
+Author-email: antoine.diez18@imperial.ac.uk
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/antoinediez/Sisyphe/issues
+Project-URL: Source, https://github.com/antoinediez/Sisyphe
+Keywords: particles gpu
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pykeops
+Requires-Dist: torch
+Provides-Extra: full
+Requires-Dist: pykeops ; extra == 'full'
+
+Simulation of Systems of Particles with High Efficiency
+
+

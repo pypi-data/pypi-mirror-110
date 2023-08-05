@@ -1,0 +1,14 @@
+sisyphe/__init__.py,sha256=EkZatVWi4WryLj1vlsQAZfvU7S7mDNXQIh0X_SRPOiw,54
+sisyphe/display.py,sha256=FnL-CE1KJgc29flrBH01ll-YpjUkHR8Je76ajS6in0g,28915
+sisyphe/initial.py,sha256=0iRL0mia4OL4HRZIGs_D3kPVr7Dq22BNwDL6WGJlB8c,5721
+sisyphe/kernels.py,sha256=m0X4N3xBKXK6FIOGF5fjoGNJ7ElH3940jsLty_igSFY,13907
+sisyphe/models.py,sha256=mnV69-daVISNAj30iYljMSeo4yCm594-ltSyp1fqJ5E,51390
+sisyphe/particles.py,sha256=CAjOGDKUpMShImre7NtBjHWCfMsLejwH5ZNZxMIdWtI,67628
+sisyphe/sampling.py,sha256=rpzbOKzWAOloPzvWTDVaIYlCK5GGVclwkZjSbjDkt8M,9931
+sisyphe/toolbox.py,sha256=AIF-c7URLmEeMk7Ie9unDz_ua5xBk80SySUn2qFBk_M,10821
+sisyphe/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sisyphe/test/test_script.py,sha256=SsJkdXjcpTSL-9ntp_VWf5j7_2_mdtSq-HStWXL95HE,3491
+sisyphe-0.1.3.dist-info/METADATA,sha256=z8w7J3BiSYM64RxtZZmT68pxlw9SDdk38Qn8RR71m0g,1046
+sisyphe-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sisyphe-0.1.3.dist-info/top_level.txt,sha256=nWlLyDr61-Nzo6hJKRNuQ48RgQB6ElsLBoiZvKzIFOU,8
+sisyphe-0.1.3.dist-info/RECORD,,
