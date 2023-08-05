@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: steampy-proxy
+Version: 0.74
+Summary: A Steam lib for trade automation
+Home-page: https://github.com/hairygeek/steampy
+Author: Michał Bukowski
+Author-email: gigibukson@gmail.com
+License: MIT
+Keywords: steam,trade
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+UNKNOWN
+
