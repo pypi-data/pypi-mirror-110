@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pip_case.egg-info/PKG-INFO
+pip_case.egg-info/SOURCES.txt
+pip_case.egg-info/dependency_links.txt
+pip_case.egg-info/requires.txt
+pip_case.egg-info/top_level.txt
