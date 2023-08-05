@@ -1,0 +1,15 @@
+black
+colorama
+coverage
+coveralls
+flake8
+hypothesis
+mypy
+openpyxl
+pre-commit
+pytest
+pyyaml
+reportlab
+setuptools
+twine
+wheel
