@@ -1,0 +1,10 @@
+README.md
+setup.py
+libdiferentepypi.egg-info/PKG-INFO
+libdiferentepypi.egg-info/SOURCES.txt
+libdiferentepypi.egg-info/dependency_links.txt
+libdiferentepypi.egg-info/not-zip-safe
+libdiferentepypi.egg-info/requires.txt
+libdiferentepypi.egg-info/top_level.txt
+libpythonpro/__init__.py
+libpythonpro/github_api.py
