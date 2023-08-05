@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+serverlla
+setup.py
+adminserver/__init__.py
+adminserver/main.py
+serverlla.egg-info/PKG-INFO
+serverlla.egg-info/SOURCES.txt
+serverlla.egg-info/dependency_links.txt
+serverlla.egg-info/requires.txt
+serverlla.egg-info/top_level.txt
