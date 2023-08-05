@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: finstar
+Version: 0.1.0
+Summary: Modeling financial time series. WIP!
+Home-page: https://github.com/JungeAlexander/finstar
+License: Apache-2.0
+Author: Alexander Junge
+Author-email: alexander.junge@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: altair (>=4.1.0,<5.0.0)
+Requires-Dist: numpy (>=1.20.3,<2.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: yfinance (>=0.1.59,<0.2.0)
+Project-URL: Repository, https://github.com/JungeAlexander/finstar/tree/main/src
+Description-Content-Type: text/markdown
+
+# finstar
+
+🚧 WIP 🚧
+
+## Installation
+
+```
+poetry install
+poetry run pre-commit install
+```
+
+### Serving documentation
+
+```
+poetry run mkdocs serve
+```
+
