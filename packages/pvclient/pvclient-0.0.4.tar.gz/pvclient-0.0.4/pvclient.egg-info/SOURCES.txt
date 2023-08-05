@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pvclient.egg-info/PKG-INFO
+pvclient.egg-info/SOURCES.txt
+pvclient.egg-info/dependency_links.txt
+pvclient.egg-info/entry_points.txt
+pvclient.egg-info/requires.txt
+pvclient.egg-info/top_level.txt
