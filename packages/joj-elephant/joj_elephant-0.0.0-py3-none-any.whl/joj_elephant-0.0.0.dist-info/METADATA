@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: joj-elephant
+Version: 0.0.0
+Summary: JOJ Problem Config Middleware
+Home-page: UNKNOWN
+Author: JOJ Dev Team
+Author-email: liuyh615@126.com
+License: MIT
+Project-URL: Source Code, https://github.com/joint-online-judge/elephant
+Keywords: oj
+Platform: UNKNOWN
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: AUTHORS
+Requires-Dist: pydantic (>=1.8.2)
+Requires-Dist: rarfile (~=4.0)
+
+# JOJ Elephant
+
+
+
