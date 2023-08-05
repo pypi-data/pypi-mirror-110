@@ -1,0 +1,11 @@
+cachetools
+entrypoints
+event-model
+fastapi
+msgpack
+pydantic
+pymongo
+pytz
+starlette
+toolz
+tzlocal
