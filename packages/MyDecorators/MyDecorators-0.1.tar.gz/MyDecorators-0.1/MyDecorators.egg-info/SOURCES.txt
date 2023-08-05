@@ -1,0 +1,8 @@
+README.md
+setup.py
+MyDecorators/MyDecoratorsClass.py
+MyDecorators/__init__.py
+MyDecorators.egg-info/PKG-INFO
+MyDecorators.egg-info/SOURCES.txt
+MyDecorators.egg-info/dependency_links.txt
+MyDecorators.egg-info/top_level.txt

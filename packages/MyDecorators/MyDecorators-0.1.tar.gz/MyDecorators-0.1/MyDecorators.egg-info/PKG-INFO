@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MyDecorators
+Version: 0.1
+Summary: This library includes some useful decorators.
+Home-page: https://github.com/DanilaBaranov/MyDecorators.git
+Author: Danila Baranov
+Author-email: danilabaranov@gmail.ru
+License: UNKNOWN
+Description: ## MyDecorators
+        # There are some useful decorators:
+        Benchmark - it prints function's name and time needed to run it.
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
