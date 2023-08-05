@@ -1,0 +1,5 @@
+fastapi>=0.61.1
+python-socketio>=4.6.0
+
+[test]
+pytest
