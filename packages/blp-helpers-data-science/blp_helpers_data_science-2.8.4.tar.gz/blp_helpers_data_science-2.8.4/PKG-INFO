@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: blp_helpers_data_science
+Version: 2.8.4
+Summary: Helpers I use for Data Science projects
+Home-page: https://github.com/leugh/helpers_data_science
+Author: Leopold Bosankic
+Author-email: leopold.bosankic@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# What it has
+Helpers I use for Data Science projects
+
+# Additional info
+* https://pypi.org/project/blp-helpers-data-science/
+* https://github.com/leugh/helpers_data_science
+# How to use it
+```python
+pip install blp-helpers-data-science
+```
+
+# How to develop it
+1. Update CHANGELOG.md
+2. Update setup.py
+3. Update setuptools wheel and twine:
+```python
+pip install --user --upgrade setuptools wheel
+pip install --user --upgrade twine
+```
+4. Create distributuion packages
+```python
+python setup.py sdist bdist_wheel
+```
+5. Upload pypi
+```python
+python -m twine upload dist/*
+```
+> Source: https://widdowquinn.github.io/coding/update-pypi-package/
+
+
