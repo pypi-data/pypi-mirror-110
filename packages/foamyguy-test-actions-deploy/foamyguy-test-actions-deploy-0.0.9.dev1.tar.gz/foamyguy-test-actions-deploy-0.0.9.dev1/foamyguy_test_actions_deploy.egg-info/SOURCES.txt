@@ -1,0 +1,9 @@
+LICENSE
+README.md
+foamyguy_testing_actions.py
+setup.py
+.github/workflows/build.yml
+foamyguy_test_actions_deploy.egg-info/PKG-INFO
+foamyguy_test_actions_deploy.egg-info/SOURCES.txt
+foamyguy_test_actions_deploy.egg-info/dependency_links.txt
+foamyguy_test_actions_deploy.egg-info/top_level.txt
