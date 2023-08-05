@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pygnews
+Version: 0.1.0
+Summary: Python library for scrapping Google news feeds
+Home-page: https://github.com/Law101/pygnews
+Author: Lawrence Okegbemi
+Author-email: lawrencebolu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Law101/pygnews/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

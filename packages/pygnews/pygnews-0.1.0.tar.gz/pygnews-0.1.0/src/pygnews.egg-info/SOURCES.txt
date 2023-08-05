@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/news-package/__init__.py
+src/news-package/constants.py
+src/news-package/fetcher.py
+src/news-package/helpers.py
+src/pygnews.egg-info/PKG-INFO
+src/pygnews.egg-info/SOURCES.txt
+src/pygnews.egg-info/dependency_links.txt
+src/pygnews.egg-info/top_level.txt
