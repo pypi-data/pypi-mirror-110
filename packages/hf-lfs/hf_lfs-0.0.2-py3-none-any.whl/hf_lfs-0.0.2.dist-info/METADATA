@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hf-lfs
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: http://huggingface.co
+Author: Lysandre Debut
+Author-email: lysandre@huggingface.co
+License: MIT
+Keywords: git lfs huggingface hf
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
+
