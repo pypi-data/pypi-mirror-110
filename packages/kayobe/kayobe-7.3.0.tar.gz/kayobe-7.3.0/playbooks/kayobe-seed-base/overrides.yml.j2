@@ -1,0 +1,80 @@
+---
+# NOTE(mgoddard): Don't reboot after disabling SELinux during CI testing, as
+# Ansible is run directly on the controller.
+disable_selinux_do_reboot: false
+
+# Use the OpenStack infra's Dockerhub mirror.
+docker_registry_mirrors:
+  - "http://{{ zuul_site_mirror_fqdn }}:8082/"
+
+kolla_source_url: "{{ ansible_env.PWD ~ '/' ~ zuul.projects['opendev.org/openstack/kolla'].src_dir }}"
+kolla_source_version: "{{ zuul.projects['opendev.org/openstack/kolla'].checkout }}"
+kolla_ansible_source_url: "{{ ansible_env.PWD ~ '/' ~ zuul.projects['opendev.org/openstack/kolla-ansible'].src_dir }}"
+kolla_ansible_source_version: "{{ zuul.projects['opendev.org/openstack/kolla-ansible'].checkout }}"
+kolla_openstack_logging_debug: True
+pip_upper_constraints_file: "/tmp/upper-constraints.txt"
+
+# NOTE(mgoddard): We're using a cirros image, which doesn't require the
+# resolv.conf work around used for CentOS.
+overcloud_host_image_workaround_resolv_enabled: false
+
+# Use the CI infra's PyPI mirror.
+pip_local_mirror: true
+pip_index_url: "http://{{ zuul_site_mirror_fqdn }}/pypi/simple"
+
+# NOTE(mgoddard): CentOS 8 removes interfaces from their bridge during ifdown,
+# and removes the bridge if there are no interfaces left. When Kayobe bounces
+# veth links plugged into the bridge, it causes the bridge which has the IP we
+# are using for SSH to be removed. Use a dummy interface.
+aio_bridge_ports:
+  - dummy1
+
+# Build seed deployment images (IPA) with extra-hardware element
+#
+# NOTE(priteau): Building IPA images on CentOS 7 is broken in CI due to:
+# distutils.errors.DistutilsError: Could not find suitable distribution for
+# Requirement.parse('pbr>=2.0.0')
+{% if ansible_os_family == 'RedHat' and ansible_distribution_major_version | int == 8 %}
+ipa_build_images: true
+{% endif %}
+
+# Building CentOS 8 IPA images requires custom configuration. See
+# doc/source/centos8.rst for details.
+{% if ansible_os_family == 'RedHat' %}
+{% if ansible_distribution_major_version | int == 8 %}
+ipa_build_dib_elements_default:
+  - centos
+  - enable-serial-console
+  - ironic-python-agent-ramdisk
+
+ipa_build_dib_elements_extra:
+  - "extra-hardware"
+
+ipa_build_dib_env_extra:
+  DIB_RELEASE: 8
+
+ipa_build_dib_git_elements:
+  - repo: "https://opendev.org/openstack/ironic-python-agent-builder"
+    local: "{% raw %}{{ source_checkout_path }}/ironic-python-agent-builder{% endraw %}"
+    version: "master"
+    elements_path: "dib"
+
+ipa_build_upper_constraints_file: "https://releases.openstack.org/constraints/upper/victoria"
+
+ipa_images:
+  - "ipa.kernel"
+  - "ipa.initramfs"
+{% else %}
+ipa_build_dib_elements_extra:
+  - "ipa-extra-hardware"
+
+ipa_build_dib_env_extra:
+  DIB_IPA_HARDWARE_VERSION: "0.23.0"
+
+ipa_build_dib_git_elements:
+  - repo: "https://github.com/stackhpc/stackhpc-image-elements"
+    local: "{% raw %}{{ source_checkout_path }}/stackhpc-image-elements{% endraw %}"
+    version: "master"
+    elements_path: "elements"
+{% endif %}
+{% endif %}
