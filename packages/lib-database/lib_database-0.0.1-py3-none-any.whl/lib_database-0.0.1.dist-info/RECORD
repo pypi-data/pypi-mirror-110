@@ -1,0 +1,14 @@
+lib_database/__init__.py,sha256=6lpvn5yNZi31gsBFyYKtHqbSO9yXqkdLhVNw4ZDYGGQ,71
+lib_database/database.py,sha256=OS2XzaWPqnpzpssdFPOQaSmpmfIwKQY_j7g1Hk9ceTY,1894
+lib_database/generic_table.py,sha256=27QHnKnXLaUzIOmuaFhvPsggBa3htRiGAqv8yrUGhK8,4212
+lib_database/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_database/tests/conftest.py,sha256=-SIkC2J6_u3BkSt9SfiB37LcJfslPnG7aWcFi6o1_Vs,1376
+lib_database/tests/test_database.py,sha256=QbCsaDlaqpmyvqqAD9RoJiZ3xggsdRvtrn_gsOw8Lio,3824
+lib_database/tests/test_generic_table.py,sha256=DZF0jHkHqdUr0o8qPHJuqo2M5xjfr98GSb0kitp3qWo,4722
+lib_database-0.0.1.dist-info/AUTHORS,sha256=0BzNm9YKppsmyhaKgXr1lwbZbOXWrlZSQixgR9iCFps,16
+lib_database-0.0.1.dist-info/LICENSE,sha256=qHX8OQbM-1_BHGENS3PHMIKwrU6FZz_NFdSdMkMfKy8,1460
+lib_database-0.0.1.dist-info/METADATA,sha256=SUI1XYL8oc9RvwG5uXaLkbzKUfR6ywtxorcfR1Ujolc,786
+lib_database-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lib_database-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+lib_database-0.0.1.dist-info/top_level.txt,sha256=55t2Pov8E8YKeIubEMm_Oj8QhmOFutY077SfM8mvriw,13
+lib_database-0.0.1.dist-info/RECORD,,
