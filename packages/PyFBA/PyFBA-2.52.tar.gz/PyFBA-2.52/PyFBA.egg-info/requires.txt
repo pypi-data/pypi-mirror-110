@@ -1,0 +1,9 @@
+beautifulsoup4
+jupyter
+lxml
+nose
+python-libsbml
+glpk@ git+https://github.com/bradfordboyle/pyglpk@master#egg=glpk
+
+[:python_version < "3.7"]
+importlib_resources
