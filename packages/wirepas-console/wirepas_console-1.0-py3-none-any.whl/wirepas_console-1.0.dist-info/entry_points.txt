@@ -1,0 +1,3 @@
+[console_scripts]
+wirepas-console = wirepas_console.console:main
+

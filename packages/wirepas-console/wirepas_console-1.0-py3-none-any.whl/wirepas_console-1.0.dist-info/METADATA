@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: wirepas-console
+Version: 1.0
+Summary: A tool for configuring and monitoring Wirepas networks
+Home-page: https://github.com/wirepas/wirepas-console
+Author: Wirepas Ltd
+Author-email: opensource@wirepas.com
+License: All Rights Reserved
+Keywords: wirepas connectivity iot mesh terminal backend
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free To Use But Restricted
+Classifier: Topic :: Communications
+Classifier: Topic :: Terminals
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: pywebview (==3.4)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: wirepas-mesh-messaging (==1.1)
+Requires-Dist: wirepas-mqtt-library (==1.0)
+
+# Wirepas Console
+
+Wirepas Console is a tool for configuring and monitoring Wirepas networks. It is
+a graphical user interface for the [Wirepas MQTT
+Library](https://github.com/wirepas/wirepas-mqtt-library). Wirepas Console is
+provided as a Python wheel on the [Python Package
+Index](https://pypi.org/project/wirepas-console/) (PyPI) and it supports Linux,
+macOS and Windows.
+
+
+
+## Installation
+
+You need to have at least Python 3.7 and `pip` installed on your operating
+system to install Wirepas Console. Once you have a supported version of Python
+installed, you can run the following command to install Wirepas Console from
+[PyPI](https://pypi.org/project/wirepas-console/):
+
+```bash
+$ pip3 install wirepas-console
+```
+
+It is also possible to install Wirepas Console inside a Python virtual
+environment, e.g. by using the Python standard
+[venv](https://docs.python.org/3.7/library/venv.html) module.
+
+### Linux
+
+Wirepas Console requires the [PyGObject](https://pygobject.readthedocs.io/)
+Python module on Linux systems. The module is not required on macOS or Windows.
+
+To install PyGObject from [PyPI](https://pypi.org/project/PyGObject/):
+
+```bash
+$ pip3 install PyGObject
+```
+
+Depending on your Linux distribution, you may have to install extra
+dependencies. The following command installs the required dependencies on Debian
+or Ubuntu based systems:
+
+```bash
+$ sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-webkit2-4.0
+```
+
+For other common Linux distributions, please consult the PyGObject [Getting
+Started](https://pygobject.readthedocs.io/en/latest/getting_started.html) page.
+
+## Usage
+
+Once installed, Wirepas Console can be run from the command line:
+
+```bash
+$ wirepas-console
+```
+
+A webview window will open, presenting the user interface. Closing the window
+will close Wirepas Console and return to shell prompt.
+
+Another way to use Wirepas Console is with a web browser, without opening a
+webview window:
+
+```bash
+$ wirepas-console --no-webview
+```
+
+The browser can then be pointed to
+[http://localhost:1414](http://localhost:1414). In this mode Wirepas Console
+must be manually closed by invoking a keyboard interrupt (Control-C).
+
+## License
+
+Copyright © 2021 Wirepas Ltd — All Rights Reserved
+
+
