@@ -1,0 +1,6 @@
+setup.py
+jsrequests/__init__.py
+jsrequests.egg-info/PKG-INFO
+jsrequests.egg-info/SOURCES.txt
+jsrequests.egg-info/dependency_links.txt
+jsrequests.egg-info/top_level.txt
