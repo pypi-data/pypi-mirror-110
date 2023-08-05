@@ -1,0 +1,8 @@
+dataclass_type_validator/__init__.py,sha256=A-e8YilrfLcGyIWRpJX0EvGa9pJA_Xzgdk3t2cQzdrw,8059
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_validator.py,sha256=wPlRqyCUyXgMaJJ-b4rX44-9AlU7CVPJ3DfiZviBN5o,10143
+dataclass_type_validator-0.1.0.dist-info/LICENSE,sha256=y9Rt4jHyRFvYbBygBYci7obvnzEccUcgMuRxmSvJ-vU,1062
+dataclass_type_validator-0.1.0.dist-info/METADATA,sha256=eg9JrPudRi_dHLwLWZqFcUcLYDoH0i_U8R3pc1SFfcU,4133
+dataclass_type_validator-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dataclass_type_validator-0.1.0.dist-info/top_level.txt,sha256=ixZKCpL2jOtw3UHPC-TRtSBY6Ja-7GnMLm1KynZt-xE,31
+dataclass_type_validator-0.1.0.dist-info/RECORD,,
