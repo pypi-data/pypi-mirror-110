@@ -1,0 +1,2 @@
+numpy>=1.16.5
+intel-openmp>=2021.2.0
