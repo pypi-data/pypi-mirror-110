@@ -1,0 +1,9 @@
+machine_stats/__init__.py,sha256=nf91Lpv8taTAJATf5BBjkQ-FZu-2WZd3HJQJEB9fxys,12449
+machine_stats/__main__.py,sha256=JZVc2YTs5ErnujhQ-r681EZjkquG3auXkT7ysW16KqI,123
+machine_stats/modules/cpu_utilization.py,sha256=X1QkF1_3jDegXpx8kg4cKZrppQQYYVnvLnAsTJ8vJWU,2497
+machine_stats/plugins/cpu_utilization.py,sha256=3EWAmuxyIYGf8tOhc-FLG9C142TRB6RLSah-aV545QQ,920
+machine_stats-0.2.2.dist-info/METADATA,sha256=EPBtDxYILg36kBkXIOltkcy3GWlPmsdRRfygOl96yLc,5924
+machine_stats-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+machine_stats-0.2.2.dist-info/entry_points.txt,sha256=tFoufz-Y0yDCv_I5CIjl-Go_Sm0qv2nxA8NDeNO91Xs,89
+machine_stats-0.2.2.dist-info/top_level.txt,sha256=ZUmGAd8af4NQuwMegorWGSqfOV2dmw-2Xvkl49MPRII,14
+machine_stats-0.2.2.dist-info/RECORD,,
