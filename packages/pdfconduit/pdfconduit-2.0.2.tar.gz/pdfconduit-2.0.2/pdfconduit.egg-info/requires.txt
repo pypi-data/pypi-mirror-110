@@ -1,0 +1,6 @@
+looptools
+pdfrw>=0.4
+PyMuPDF<=1.18.8,>=1.17.7
+PyPDF3>=1.0.1
+PillowImage>=1.1.6
+PyBundle>=1.0.6
