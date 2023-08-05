@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dependancy_bumper
+Version: 0.0.4
+Summary: For testing pipelines with dependancy triggers
+Home-page: https://github.com/asfadmin/pip-updater-test.git
+Author: ASF Discovery Team
+Author-email: uaf-asf-discovery@alaska.edu
+License: UNKNOWN
+Description: # pip-updater-test
+        For testing dependancy pipelines in other projects, by bumping up this "package"
+        
+        [![image](https://img.shields.io/pypi/v/dependancy-bumper.svg)](https://pypi.python.org/pypi/dependancy-bumper)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

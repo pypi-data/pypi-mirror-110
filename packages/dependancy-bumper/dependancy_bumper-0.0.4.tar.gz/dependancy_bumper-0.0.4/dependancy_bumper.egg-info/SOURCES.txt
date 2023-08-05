@@ -1,0 +1,7 @@
+README.md
+setup.py
+dependancy-bumper/__init__.py
+dependancy_bumper.egg-info/PKG-INFO
+dependancy_bumper.egg-info/SOURCES.txt
+dependancy_bumper.egg-info/dependency_links.txt
+dependancy_bumper.egg-info/top_level.txt
