@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: bacx
+Version: 0.1.4
+Summary: CogneXa toolkit.
+Home-page: https://github.com/Cognexa/bacx
+Author: Cognexa Solutions s.r.o.
+Author-email: info@cognexa.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Requires-Dist: google-cloud-pubsub
+Requires-Dist: google-cloud-storage
+Requires-Dist: pyyaml
+Requires-Dist: redis
+Requires-Dist: requests
+Requires-Dist: yamale
+
+Bacx
+====
+
+TODO About project. <br>
+![toolbox](https://media3.giphy.com/media/3oKIPqsXYcdjcBcXL2/200.gif)
+
+## Content
+
+* [About library](#about-library)
+* [Install](#install)
+* [Examples](#examples)
+    * [Namedict](#namedict)
+    * [Config](#config)
+* [Development](#development)
+* [Build pip package](#build-pip-package)
+* [Requires](#requires)
+* [Licence](#licence)
+
+## About library
+
+TODO
+
+## Install
+
+```bash
+$ pip install bacx
+```
+
+## Examples
+See [documentation](docs/examples.md)
+
+## Development
+
+If you want to develop bacx, first:
+
+* clone this repo:
+  ```bash
+  $ git clone <repo path>
+  ```
+* build [docker](https://docs.docker.com/compose/install/) image (to be able to test bacx):
+  ```bash
+  $ docker-compose build
+  ```
+
+You can then start python interpreter in bacx docker container and test there your changes to source files located
+in `bacx` and `tests` folder.
+
+```bash
+$ docker-compose run --rm bacx_storage python
+```
+
+### Try bacx
+
+To launch bacx in python interpreter inside docker:
+
+* start docker image:
+    ```bash
+    $ docker-compose run --rm bacx_storage python
+    ```
+* import bacx:
+    ```python
+    >>> import bacx
+    ``` 
+
+### Run bacx tests:
+
+Tests are located in `tests/` folder. To run all tests inside docker:
+
+```bash
+$ docker-compose run --rm bacx_storage python -m unittest discover
+```
+or:
+```bash
+$ docker-compose run --rm test 
+```
+
+To run specific test (for example tests for `config.py`):
+
+```bash
+$ docker-compose run --rm bacx_storage python -m tests.utils.test_config  
+```
+
+## Build pip package
+
+If you need to [build](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives) bacx
+from source, use this command from project root folder:
+
+```bash
+$ python setup.py bdist_wheel
+```
+
+It will build `.whl` bacx package and place it to `dist` folder. This package can be then installed for example using
+pip install:
+
+```bash
+$ pip install dist/<package name>.whl
+```
+
+To build package under project's pipenv use:
+
+```bash
+$ pipenv install --dev --ignore-pipfile --deploy
+$ . "$(pipenv --venv)"/bin/activate
+$ python setup.py bdist_wheel
+```
+
+## Requires
+
+See: [Pipfile](Pipfile)
+
+## Licence
+
+[MIT license](LICENSE)
+
+
