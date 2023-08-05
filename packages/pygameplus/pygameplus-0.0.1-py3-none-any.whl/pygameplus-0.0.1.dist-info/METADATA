@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pygameplus
+Version: 0.0.1
+Summary: A small addon for pygame
+Home-page: https://github.com/M1st3rButt3r/pygameplus
+Author: M1st3rButt3r
+Author-email: m1st3rbutt3r@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/M1st3rButt3r/pygameplus/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+
+# PyGame+
+
+## Installation
+```
+pip install pygameplus
+```
+
+## Requirements
+- pygame
+
+## Roadmap
+### 1.0
+- ✔️ GameObject class
+    - ✔️ Rendering layers
+    - ❌ Component based workflow
+- ❌ Input Manager
+    - ❌ Drag'n'drop
+- ❌ Utils
+    - ❌ Timer
+
