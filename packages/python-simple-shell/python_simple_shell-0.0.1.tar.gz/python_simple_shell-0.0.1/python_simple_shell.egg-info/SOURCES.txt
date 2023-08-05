@@ -1,0 +1,8 @@
+README.md
+setup.py
+python-shell/__init__.py
+python-shell/shell.py
+python_simple_shell.egg-info/PKG-INFO
+python_simple_shell.egg-info/SOURCES.txt
+python_simple_shell.egg-info/dependency_links.txt
+python_simple_shell.egg-info/top_level.txt
