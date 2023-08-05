@@ -1,0 +1,13 @@
+pyjamalib/DataAnalysis.py,sha256=bvIlHiAhlnFzFzEkIOQxIOwaCFLO7lmNVW7-H3oN75Q,55246
+pyjamalib/DataExample.py,sha256=rIdJUrel7_tjlg_XpDOyEitLMwZbVcgoVB-bfYzhPfo,51173
+pyjamalib/DataHandler.py,sha256=lZRrQYpXUfC-dC2ZynK5JKoU4IpEFXlArm83sOgWqg0,17234
+pyjamalib/DataPlot.py,sha256=mkhLiPZYDObBTD00l5thD91tUJqgXiaPDd-AQnIMQ10,6018
+pyjamalib/DataProcessing.py,sha256=YvGzlZd_fSZt6mWSQMz8fua7BtYctGAK9uyphWxCOV8,113857
+pyjamalib/DataVisualisation.py,sha256=L9GlAUeCpZbGbk4cvtUjEuolUQfGZ4Y9K0KmIas9I7Q,6153
+pyjamalib/IMUDataProcessing.py,sha256=58p_33iKfnfGOvr8lp6wZbH4p421BBvGD0GONs2f0k0,100236
+pyjamalib/__init__.py,sha256=8NklMbMoDWGquMPg4jmWUspTmsP1KT-jGvIawZ4ViZg,269
+pyjamalib-0.7.4.dist-info/LICENSE,sha256=_nITY3abxFcxp4LtqFvatDCcr3F9UKMGsvIeDmw8Rd0,1093
+pyjamalib-0.7.4.dist-info/METADATA,sha256=w-fezT1PnqdsA3u4bsdLH1YItXIsGg5IlFTcn1div08,6149
+pyjamalib-0.7.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyjamalib-0.7.4.dist-info/top_level.txt,sha256=MsERVf-HTDuNQhgxFicug1lrXegNKigFNIjOJkSLSf8,10
+pyjamalib-0.7.4.dist-info/RECORD,,
