@@ -1,0 +1,16 @@
+README.md
+setup.py
+snowbim/__init__.py
+snowbim/__main__.py
+snowbim/snowbim.py
+snowbim.egg-info/PKG-INFO
+snowbim.egg-info/SOURCES.txt
+snowbim.egg-info/dependency_links.txt
+snowbim.egg-info/entry_points.txt
+snowbim.egg-info/requires.txt
+snowbim.egg-info/top_level.txt
+snowbim/engines/__init__.py
+snowbim/engines/bimengine.py
+snowbim/engines/snowengine.py
+snowbim/utilities/__init__.py
+snowbim/utilities/common.py
