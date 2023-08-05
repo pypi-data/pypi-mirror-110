@@ -1,0 +1,8 @@
+README.md
+setup.py
+funky_ml.egg-info/PKG-INFO
+funky_ml.egg-info/SOURCES.txt
+funky_ml.egg-info/dependency_links.txt
+funky_ml.egg-info/requires.txt
+funky_ml.egg-info/top_level.txt
+funkyml/funky.py
