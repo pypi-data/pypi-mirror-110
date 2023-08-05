@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+TicTacToe3/__errors__.py
+TicTacToe3/__functions__.py
+TicTacToe3/__init__.py
+TicTacToe3.egg-info/PKG-INFO
+TicTacToe3.egg-info/SOURCES.txt
+TicTacToe3.egg-info/dependency_links.txt
+TicTacToe3.egg-info/top_level.txt
