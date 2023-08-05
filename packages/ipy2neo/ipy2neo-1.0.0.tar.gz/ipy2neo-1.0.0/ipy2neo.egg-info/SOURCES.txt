@@ -1,0 +1,13 @@
+LICENSE
+NOTICE
+README.rst
+setup.py
+ipy2neo/__init__.py
+ipy2neo/__main__.py
+ipy2neo/console.py
+ipy2neo.egg-info/PKG-INFO
+ipy2neo.egg-info/SOURCES.txt
+ipy2neo.egg-info/dependency_links.txt
+ipy2neo.egg-info/entry_points.txt
+ipy2neo.egg-info/requires.txt
+ipy2neo.egg-info/top_level.txt

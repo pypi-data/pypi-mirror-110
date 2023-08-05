@@ -1,0 +1,3 @@
+[console_scripts]
+ipy2neo = ipy2neo.__main__:main
+

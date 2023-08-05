@@ -1,0 +1,9 @@
+pansi>=2020.7.3
+py2neo
+pygments>=2.0.0
+
+[:python_version < "3.6"]
+prompt_toolkit~=2.0.7
+
+[:python_version >= "3.6"]
+prompt_toolkit>=2.0.7
