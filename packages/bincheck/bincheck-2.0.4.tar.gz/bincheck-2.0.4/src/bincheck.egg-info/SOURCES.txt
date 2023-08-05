@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/bincheck.py
+src/bincheck.egg-info/PKG-INFO
+src/bincheck.egg-info/SOURCES.txt
+src/bincheck.egg-info/dependency_links.txt
+src/bincheck.egg-info/top_level.txt
