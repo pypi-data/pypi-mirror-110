@@ -1,0 +1,359 @@
+Metadata-Version: 2.1
+Name: nn-sdk
+Version: 1.3.7
+Summary: nn_sdk推理tf1 tf2 onnx模型 , input tensor[input_ids , input_mask], output tensor[pred_ids]
+Home-page: https://github.com/passion765
+Author: tk
+Author-email: 9727464@qq.com
+License: Apache 2.0
+Keywords: nn-sdk,tensorflow,tf inference,onnx inference,cnn,rnn
+Platform: win32_AMD64
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
+
+nn-sdk是一个基于tensorflow(v1 ,v2)和onnx神经网络推理开发包
+
+```py
+# -*- coding: utf-8 -*-
+from nn_sdk import csdk_object
+'''
+    前言: 
+        当前支持开发语言c/c++,python,java
+        当前支持推理引擎tensorflow(v1,v2) onnxruntime
+        当前支持多子图,支持图多输入多输出，支持tensorflow 1 pb , tensorflow 2 pb , tensorflow ckpt
+        当前支持tensorflow 1.x pb模型和onnx模型 aes加密 , 模型加密参考test_aes.py
+        推荐环境ubuntu16 ubuntu18  ubuntu20 centos7 centos8 windows系列
+        python (test_sdk.py) , c包 (test.c) , java包 (nn_sdk.java)
+        qq group: 759163831
+'''
+'''
+    python 推理demo
+    config 字段介绍:
+        aes: 模型加密配置，目前支持tensorflow 1 pb 模型
+        engine: 推理引擎 0: tensorflow , 1: onnx
+        log_level: 日志类型 0 fatal , 2 error , 4 info , 8 debug
+        model_type: tensorflow时有效, 0 pb format   if 1 ckpt format
+        ConfigProto: tensorflow时有效
+        graph_inf_version: tensorflow version [0,1] or onnxruntime 1
+        graph: 多子图配置 
+            node: 例子: tensorflow 1 input_ids:0 ,  tensorflow 2: input_ids , onnx: input_ids
+            data_type: 节点的类型根据模型配置，支持 int int64 long longlong float double 
+            shape: 节点尺寸
+            java 和 c 包不可缺少 data_type,shape字段
+
+'''
+config = {
+    "model_dir": r'E:/algo_text/nn_csdk/nn_csdk/py_test_ckpt/model.ckpt',
+    "aes":{
+        "use":False,
+        "key":bytes([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]),
+        "iv":bytes([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]),
+    },
+    "log_level": 4,
+    'engine':0,
+    "model_type": 1,
+    "ConfigProto": {
+        "log_device_placement": False,
+        "allow_soft_placement": True,
+        "gpu_options": {
+            "allow_growth": True
+        },
+    },
+    "graph_inf_version": 1,
+    "graph": [
+        {
+            "input": [
+                {"node":"input_ids:0", "data_type":"int64", "shape":[1, 256]},
+                {"node":"input_mask:0", "data_type":"int64", "shape":[1, 256]}
+            ],
+            "output": [
+                {"node":"input_ids:0", "data_type":"int64", "shape":[1, 256]},
+            ],
+        }
+    ]}
+
+seq_length = 256
+input_ids = [[1] * seq_length]
+input_mask = [[1] * seq_length]
+sdk_inf = csdk_object(config)
+if sdk_inf.valid():
+    net_stage = 0
+    ret, out = sdk_inf.process(net_stage, input_ids,input_mask)
+    print(ret)
+    print(out)
+    sdk_inf.close()
+```
+nn-sdk.java java包demo,配置参考python 
+
+```java
+package nn_sdk;
+//包名必须是nn_sdk
+public class nn_sdk {
+    //输入输出内存节点，名字跟图配置一样，根据图对象修改此属性。 
+	public float [] input_ids = null;//推理图的输入,
+	//public float [] input_mask = null;//推理图的输入,
+	public float[] pred_ids =   null;//推理的结果保存
+
+	public nn_sdk() {
+		//初始化配置图的输入输出内存
+		input_ids = new float[1 * 20];
+		pred_ids =  new float[1 * 20];
+		for(int i =0;i<20;i++) {
+			input_ids[i] = 1;
+			pred_ids[i] = 0;
+		}
+	}
+
+	//推理函数
+	public native static int  sdk_init_cc();
+	public native static int  sdk_uninit_cc();
+	public native static long sdk_new_cc(String json);
+	public native static int  sdk_delete_cc(long handle);
+	public native static int sdk_process_cc(long handle, int net_state, nn_sdk data);
+
+	static {
+		//动态库的绝对路径windows是 engine_csdk.pyd , linux是 engine_csdk.so
+		System.load("E:\\algo_text\\nn_csdk\\build_py36\\Release\\engine_csdk.pyd");
+	}
+
+	public static void main(String[] args){  
+		System.out.println("java main...........");
+
+	   nn_sdk instance = new nn_sdk();
+	   sdk_init_cc();
+
+	   String json =  "{" + "\"model_dir\": \"E:/algo_text/nn_csdk/nn_csdk/py_test_ckpt/model.ckpt\"," + "\n" +
+	   "\"log_level\":4," + "\n" +
+	   "\"engine\":0," + "\n" +
+	   "\"model_type\":1, " + "\n" +
+	   "\"ConfigProto\": {" + "\n" +
+				 "\"log_device_placement\":false," + "\n" +
+	   "\"allow_soft_placement\":true," + "\n" +
+				 "\"gpu_options\":{\"allow_growth\": true}" + "\n" +
+	   "}," + "\n" +
+				 "\"graph_inf_version\": 1," + "\n" +
+	   "\"graph\": [" + "\n" +
+				 "{" + "\n" +
+	   "\"input\": [{\"node\":\"input_ids:0\", \"data_type\":\"float\", \"shape\":[1, 20]}]," + "\n" +
+				 "\"output\" : [{\"node\":\"pred_ids:0\", \"data_type\":\"float\", \"shape\":[1, 20]}]" + "\n" +
+	"}" + "\n" +
+				 "]" + "\n" +
+	"}";
+
+
+	  System.out.println(json);
+
+	  long handle = sdk_new_cc(json);
+	  System.out.println(handle);
+
+	  int code = sdk_process_cc(handle,0,instance);
+	  System.out.printf("sdk_process_cc %d \n" ,code);
+	  if(code == 0) {
+		  for(int i = 0;i<20 ; i++) {
+			  System.out.printf("%f ",instance.pred_ids[i]);
+		  }
+		  System.out.println();
+	  }
+	  sdk_delete_cc(handle);
+	   sdk_uninit_cc();
+	   System.out.println("end");
+	}
+}
+
+```
+nn-sdk c包 
+
+```c
+#ifndef __CC_SDK_H__
+#define __CC_SDK_H__
+
+#include <stdio.h>
+
+
+#ifdef _WIN32
+#ifdef _CC_SDK_EXPORT
+#define CC_SDK_EXPORT _declspec( dllexport )
+#else
+#define CC_SDK_EXPORT _declspec(dllimport)
+#endif
+#else
+#define CC_SDK_EXPORT
+#endif // _WIN32
+
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	typedef long long SDK_HANDLE_CC;
+
+	CC_SDK_EXPORT int sdk_init_cc();
+
+	CC_SDK_EXPORT int sdk_uninit_cc();
+
+	CC_SDK_EXPORT SDK_HANDLE_CC sdk_new_cc(const char* json);
+
+	CC_SDK_EXPORT int sdk_delete_cc(SDK_HANDLE_CC handle);
+
+	CC_SDK_EXPORT int sdk_process_ex_cc(SDK_HANDLE_CC handle, void** final_result, int net_stage, void**input_buffer_list);
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#endif
+
+#include <stdio.h>
+#include "nn_sdk.h"
+
+int main(){
+    if (0 != sdk_init_cc()) {
+		return -1;
+	}
+	const char* json_data = "{	\n\
+	\"model_dir\": \"/root/model.ckpt\",\n\
+	\"log_level\":8, \n\
+	\"model_type\":1, \n\
+	\"ConfigProto\": {\n\
+		\"log_device_placement\":0,\n\
+		\"allow_soft_placement\":1,\n\
+		\"gpu_options\":{\"allow_growth\": 1}\n\
+	},\n\
+	\"graph_inf_version\": 1,\n\
+	\"graph\": [\n\
+		{\n\
+			\"input\": [{\"node\":\"input_ids:0\", \"data_type\":\"float\", \"shape\":[1, 10]}],\n\
+			\"output\" : [{\"node\":\"pred_ids:0\", \"data_type\":\"float\", \"shape\":[1, 10]}]\n\
+		}\n\
+	]\n\
+}";
+	printf("%s\n", json_data);
+	auto handle = sdk_new_cc(json_data);
+	const int INPUT_NUM = 1;
+	const int OUTPUT_NUM = 1;
+	const int M = 1;
+	const int N = 10;
+	int *input[INPUT_NUM] = { 0 };
+	float* result[OUTPUT_NUM] = { 0 };
+	int element_input_size = sizeof(int);
+	int element_output_size = sizeof(float);
+	for (int i = 0; i < OUTPUT_NUM; ++i) {
+		result[i] = (float*)malloc(M * N * element_output_size);
+		memset(result[i], 0, M * N * element_output_size);
+	}
+	input[0] = (int*)malloc(M * N * element_input_size);
+	input[1] = (int*)malloc(M * N * element_input_size);
+	for (int i = 0; i < N; ++i) {
+		input[0][i] = i;
+		input[1][i] = 1;
+	}
+	int code = sdk_process_cc(handle, (void**)result, 0, INPUT_NUM, input[0]);
+	if (code == 0) {
+		printf("result\n");
+		for (int i = 0; i < N; ++i) {
+			printf("%f ", result[0][i]);
+		}
+		printf("\n");
+	}
+	for (int i = 0; i < INPUT_NUM; ++i) {
+		free(input[i]);
+	}
+	for (int i = 0; i < OUTPUT_NUM; ++i) {
+		free(result[i]);
+	}
+	sdk_delete_cc(handle);
+	sdk_uninit_cc();
+	return 0;
+}
+```
+aes加密示例 
+
+```py
+# -*- coding: UTF-8 -*-
+
+import sys
+#sys.path.append(r'E:\algo_text\nn_csdk\cmake_py36\Release')
+from nn_sdk.engine_csdk import sdk_aes_encode_decode
+
+def test_string():
+    data1 = {
+        "mode":0,# 0 加密 ， 1 解密
+        "key": bytes([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]),
+        "iv": bytes([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]),
+        "data": bytes([1,2,3,5,255])
+    }
+
+    code,encrypt = sdk_aes_encode_decode(data1)
+    print(code,encrypt)
+
+    data2 = {
+        "mode":1,
+        "key": bytes([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]),
+        "iv": bytes([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]),
+        "data": encrypt
+    }
+
+    code,plain = sdk_aes_encode_decode(data2)
+    print(code,plain)
+
+def test_encode_file(in_filename,out_filename):
+
+    with open(in_filename,mode='rb') as f:
+        data = f.read()
+    if len(data) == 0 :
+        return -1
+    data1 = {
+        "mode": 0,  # 0 加密 ， 1 解密
+        "key": bytes([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+        "iv": bytes([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+        "data": bytes(data)
+    }
+
+    code, encrypt = sdk_aes_encode_decode(data1)
+    if code != 0:
+        return code
+    with open(out_filename, mode='wb') as f:
+        f.write(encrypt)
+    return code
+def test_decode_file(in_filename,out_filename):
+    with open(in_filename, mode='rb') as f:
+        data = f.read()
+    if len(data) == 0:
+        return -1
+    data1 = {
+        "mode": 1,  # 0 加密 ， 1 解密
+        "key": bytes([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+        "iv": bytes([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]),
+        "data": bytes(data)
+    }
+
+    code, plain = sdk_aes_encode_decode(data1)
+    if code != 0:
+        return code
+    with open(out_filename, mode='wb') as f:
+        f.write(plain)
+    return code
+
+test_encode_file(r'C:\Users\acer\Desktop\img\a.txt',r'C:\Users\acer\Desktop\img\a.txt.encode')
+test_decode_file(r'C:\Users\acer\Desktop\img\a.txt.encode',r'C:\Users\acer\Desktop\img\a.txt.decode')
+```
+
+
