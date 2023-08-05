@@ -1,0 +1,10 @@
+setup.py
+locCSN/DistP.py
+locCSN/__init__.py
+locCSN/csn.py
+locCSN/utils.py
+locCSN.egg-info/PKG-INFO
+locCSN.egg-info/SOURCES.txt
+locCSN.egg-info/dependency_links.txt
+locCSN.egg-info/requires.txt
+locCSN.egg-info/top_level.txt

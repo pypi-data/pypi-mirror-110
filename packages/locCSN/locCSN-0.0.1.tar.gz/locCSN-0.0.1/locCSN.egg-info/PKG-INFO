@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: locCSN
+Version: 0.0.1
+Summary: locCSN is a python package for local cell specific networks.
+Home-page: https://github.com/xuranw/locCSN
+Author: Xuran Wang
+Author-email: xuranw@andrew.cmu.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.5
