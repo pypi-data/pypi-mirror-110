@@ -1,0 +1,3 @@
+[pytest11]
+upload_report = pytest_upload_report.plugin
+

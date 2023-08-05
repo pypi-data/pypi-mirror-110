@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pytest_upload_report/__init__.py
+pytest_upload_report/allure_upload.py
+pytest_upload_report/hooks.py
+pytest_upload_report/plugin.py
+pytest_upload_report/upload_client.py
+pytest_upload_report.egg-info/PKG-INFO
+pytest_upload_report.egg-info/SOURCES.txt
+pytest_upload_report.egg-info/dependency_links.txt
+pytest_upload_report.egg-info/entry_points.txt
+pytest_upload_report.egg-info/requires.txt
+pytest_upload_report.egg-info/top_level.txt
