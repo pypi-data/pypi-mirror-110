@@ -1,0 +1,10 @@
+# These are the external (non-Python) dependencies, best installed with
+#
+# $ conda install --file requirements-ext.txt
+#
+
+blast
+flash
+graphviz
+swarm < 3.0.0
+unzip
