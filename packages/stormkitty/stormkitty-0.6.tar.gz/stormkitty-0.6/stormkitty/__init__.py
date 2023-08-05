@@ -1,0 +1,1 @@
+from stormkitty.stormkittyfuncs import generation
