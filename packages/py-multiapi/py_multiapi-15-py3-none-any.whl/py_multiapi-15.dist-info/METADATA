@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: py-multiapi
+Version: 15
+Summary: A Python Wrapper for api.itayki.com
+Home-page: https://github.com/iiiiii1wepfj/py_multiapi
+Author: Itay K
+Author-email: itayki98@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/iiiiii1wepfj/py_multiapi/archive/refs/tags/v15.tar.gz
+Project-URL: Documentation, https://api.itayki.com/docs
+Project-URL: Source, https://github.com/iiiiii1wepfj/py_multiapi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx[http2]
+
+# py-multiapi
+
+a python library for api.itayki.com
+
+
+### Installation
+ ```pip3 install py-multiapi```
+
+### Examples
+execute code:
+
+   ```
+from py_multiapi import multiapi
+import asyncio
+async def main():
+    print(await multiapi.exec_code(lang="python3", code="print('Hello World')"))
+asyncio.run(main())
+```
+make web screenshot:
+
+   ```
+from py_multiapi import multiapi
+import asyncio
+async def main():
+    a = await multiapi.webshot(url="duckduckgo.com")
+    with open("test.png", "wb") as img:
+        img.write(a)
+asyncio.run(main())
+```
+
+get help from the function:
+
+```
+from py_multiapi import multiapi
+def main_help():
+    print(help(multiapi.exec_code))
+main_help()
+```
+
+
+## links
+
+[pypi](https://pypi.org/project/py-multiapi)
+
+
+# versions in other languages
+ nodejs https://github.com/AndrewLaneX/multiapi
+ 
+ golang https://github.com/rojserbest/multiapi
+
+
