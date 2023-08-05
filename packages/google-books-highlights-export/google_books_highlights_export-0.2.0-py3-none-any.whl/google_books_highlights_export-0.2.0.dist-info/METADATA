@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: google-books-highlights-export
+Version: 0.2.0
+Summary: Export your Google Play Books highlights from Google Drive
+Home-page: https://github.com/amagee/google-books-highlights-export
+License: MIT
+Author: Andrew Magee
+Author-email: amagee@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: google-api-python-client (>=2.9.0,<3.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.1.0,<0.2.0)
+Requires-Dist: google-auth-oauthlib (>=0.4.4,<0.5.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Project-URL: Repository, https://github.com/amagee/google-books-highlights-export

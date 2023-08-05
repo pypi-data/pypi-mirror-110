@@ -1,0 +1,3 @@
+[console_scripts]
+google-books-highlights-export=google_books_highlights_export:main
+
