@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: das_unsupervised
+Version: 0.6.1
+Summary: Tools for unsupervised classification of acoustic signals.
+Home-page: https://github.com/janclemenslab/das_unsupervised
+Author: Jan Clemens
+Author-email: clemensjan@googlemail.com
