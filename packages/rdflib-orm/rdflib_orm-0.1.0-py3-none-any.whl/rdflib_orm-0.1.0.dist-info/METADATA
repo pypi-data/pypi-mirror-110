@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rdflib-orm
+Version: 0.1.0
+Summary: An ORM-like API for Python's RDFLib.
+Home-page: https://github.com/edmondchuc/rdflib-orm
+Author: Edmond Chuc
+Author-email: edmond.chuc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rdflib (==5.0.0)
+Requires-Dist: rdflib-jsonld (==0.5.0)
+Requires-Dist: requests (==2.25.1)
+
+ # rdflib-orm
+ 
+ ## Running tests
+ ```
+pytest --cov=rdflib_orm --cov-report html
+```
+
