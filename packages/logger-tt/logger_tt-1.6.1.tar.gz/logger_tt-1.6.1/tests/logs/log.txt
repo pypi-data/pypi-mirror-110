@@ -1,0 +1,66 @@
+[2021-06-19 17:18:30] [root:177 DEBUG] _________________New log started__________________
+[2021-06-19 17:18:30] [root:178 DEBUG] Log config file: D:\pycharm_projects\logger_tt\logger_tt\log_config.json
+[2021-06-19 17:18:30] [root:125 DEBUG] Logging queue listener started!
+[2021-06-19 17:18:30] [__main__:26 INFO] ['D:/pycharm_projects/logger_tt/tests/exception_raise_long_line.py']
+[2021-06-19 17:18:30] [root:36 ERROR] Uncaught exception:
+Traceback (most recent call last):
+  File "D:\pycharm_projects\logger_tt\tests\exception_raise_long_line.py", line 27, in <module>
+    will_fail()
+
+  File "D:\pycharm_projects\logger_tt\tests\exception_raise_long_line.py", line 18, in will_fail
+    raise RuntimeError(f'Below is the random text used as a standard to text font: \n{loren_ipsum}')
+RuntimeError: Below is the random text used as a standard to text font: 
+On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains. 
+[2021-06-19 17:40:39] [root:177 DEBUG] _________________New log started__________________
+[2021-06-19 17:40:39] [root:178 DEBUG] Log config file: D:\pycharm_projects\logger_tt\logger_tt\log_config.json
+[2021-06-19 17:40:39] [root:125 DEBUG] Logging queue listener started!
+[2021-06-19 17:40:39] [root:36 ERROR] Uncaught exception:
+Traceback (most recent call last):
+  File "D:\pycharm_projects\logger_tt\tests\exception_raise_long_line.py", line 21, in <module>
+    will_fail()
+
+  File "D:\pycharm_projects\logger_tt\tests\exception_raise_long_line.py", line 18, in will_fail
+    print(f'Below is the {random} text used as a standard to test font: \n{loren_ipsum}')
+     |-> loren_ipsum = 'On the other hand, we denounce with righteous indignation and dislike men wh... (922 characters more)
+NameError: name 'random' is not defined
+[2021-06-19 18:09:40] [root:177 DEBUG] _________________New log started__________________
+[2021-06-19 18:09:40] [root:178 DEBUG] Log config file: D:\pycharm_projects\logger_tt\logger_tt\log_config.json
+[2021-06-19 18:09:40] [root:125 DEBUG] Logging queue listener started!
+[2021-06-19 18:09:40] [root:36 ERROR] Uncaught exception:
+Traceback (most recent call last):
+  File "D:\pycharm_projects\logger_tt\tests\assert_raise.py", line 15, in <module>
+    will_fail()
+
+  File "D:\pycharm_projects\logger_tt\tests\assert_raise.py", line 11, in will_fail
+    assert a == b, f'a and b should not be different'
+     |-> a = 'ha ha'
+     |-> b = 'hi hi'
+AssertionError: a and b should not be different
+[2021-06-19 18:13:40] [root:177 DEBUG] _________________New log started__________________
+[2021-06-19 18:13:40] [root:178 DEBUG] Log config file: D:\pycharm_projects\logger_tt\logger_tt\log_config.json
+[2021-06-19 18:13:40] [root:125 DEBUG] Logging queue listener started!
+[2021-06-19 18:13:40] [root:36 ERROR] Uncaught exception:
+Traceback (most recent call last):
+  File "D:\pycharm_projects\logger_tt\tests\tmp.py", line 9, in <module>
+    raise EnvironmentError(f'Too much laughing with a={a} and b={b}')
+OSError: Too much laughing with a=haha and b=hihi
+[2021-06-19 18:14:02] [root:177 DEBUG] _________________New log started__________________
+[2021-06-19 18:14:02] [root:178 DEBUG] Log config file: D:\pycharm_projects\logger_tt\logger_tt\log_config.json
+[2021-06-19 18:14:02] [root:125 DEBUG] Logging queue listener started!
+[2021-06-19 18:14:02] [root:36 ERROR] Uncaught exception:
+Traceback (most recent call last):
+  File "D:\pycharm_projects\logger_tt\tests\tmp.py", line 9, in <module>
+    raise EnvironmentError(f'Too much laughing with a={a} and b={b}')
+     |-> a = 'haha'
+     |-> b = 'hihi'
+OSError: Too much laughing with a=haha and b=hihi
+[2021-06-19 18:15:01] [root:177 DEBUG] _________________New log started__________________
+[2021-06-19 18:15:01] [root:178 DEBUG] Log config file: D:\pycharm_projects\logger_tt\logger_tt\log_config.json
+[2021-06-19 18:15:01] [root:125 DEBUG] Logging queue listener started!
+[2021-06-19 18:15:01] [root:36 ERROR] Uncaught exception:
+Traceback (most recent call last):
+  File "D:\pycharm_projects\logger_tt\tests\tmp.py", line 9, in <module>
+    raise RuntimeError(f'Too much laughing with a={a} and b={b}')
+     |-> a = 'haha'
+     |-> b = 'hihi'
+RuntimeError: Too much laughing with a=haha and b=hihi
