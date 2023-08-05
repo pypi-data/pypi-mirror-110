@@ -1,0 +1,7 @@
+[console_scripts]
+jp = jpipe.jp.main:jp_main
+jpipe = jpipe.cmd.main:jpipe_main
+jpipe-jp = jpipe.jp.main:jp_main
+jpipe-jpp = jpipe.jpp.main:jpp_main
+jpp = jpipe.jpp.main:jpp_main
+
