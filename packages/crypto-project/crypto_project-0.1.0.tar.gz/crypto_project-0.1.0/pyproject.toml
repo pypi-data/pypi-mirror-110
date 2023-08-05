@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "crypto_project"
+version = "0.1.0"
+description = "Crypto production"
+authors = ["Melo & Deemz"]
+license = "@"
+
+packages = [
+    { include = "poet" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+binance = "^0.3"
+numpy = "^1.20.3"
+matplotlib = "^3.4.2"
+coda = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
