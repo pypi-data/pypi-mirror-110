@@ -1,0 +1,8 @@
+tomli/__init__.py,sha256=4_vAogDPisIhtPtNq4wemHeqpfa-dMccG_YQnQA0tTY,218
+tomli/_parser.py,sha256=d_fBlymBayltxRdgz6gRmtUd4YPu7lvT-11hUzNE3Fw,24341
+tomli/_re.py,sha256=sdE5_Nwh6tSSHzGmuzMeX2jlAGpgO72j0sy5kKrGJ98,752
+tomli/py.typed,sha256=8PjyZ1aVoQpRVvt71muvuq5qE-jTFZkK-GLHkhdebmc,26
+tomli-1.0.2.dist-info/LICENSE,sha256=uAgWsNUwuKzLTCIReDeQmEpuO2GSLCte6S8zcqsnQv4,1072
+tomli-1.0.2.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+tomli-1.0.2.dist-info/METADATA,sha256=9fcQiSF7VXVUO_rXtFxTJ9BxQ-ruprOTxVfHIr2FBmQ,8669
+tomli-1.0.2.dist-info/RECORD,,
