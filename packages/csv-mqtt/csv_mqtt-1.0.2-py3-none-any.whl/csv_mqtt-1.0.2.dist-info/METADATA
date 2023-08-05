@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: csv-mqtt
+Version: 1.0.2
+Summary: CSV parser meets MQTT Publisher
+Home-page: https://github.com/srijan-sivakumar/CSV-MQTT/
+Author: srijan-sivakumar
+Author-email: sivakumarsrijan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: paho-mqtt
+
+# CSV-MQTT
+A CSV to MQTT connector. Reads data from csv file and pushes it to a MQTT Broker.
+
+
+Many a times, we want to read a particular .csv file and then form a MQTT payload to publish it to cloud. ( Probably when working in IoT).
+
+So the project as always came in due to a necessity. The idea is simple. The process will read the .csv file wherein the very first row contains the columns headers. ( Please add column headers before using the code or be ready to see something strange.)
+Then the same column headers are treated as Keys and the corresponding row values as Values in a JSON object while forming a MQTT Payload.
+
+For example, If the .csv has column headers as, 
+Name, Age and School
+
+Then the resulting MQTT Payload will be of the form,
+
+{
+  "Name" : "dummy_name",
+  "Age" : "dummy_value",
+  "School" : "dummy_school"
+}
+
+One can install the package using pip
+
+```
+pip3 install csv-mqtt
+```
+
+Once installed, they can use the package by using the import
+
+```
+from csv_mqtt.csv_mqtt import CsvMqtt
+```
+
+The `CsvMqtt` can be used to create objects for creating a pipeline for csv-mqtt.
+
+For examples, one can check the example directory in the project.
+
+
