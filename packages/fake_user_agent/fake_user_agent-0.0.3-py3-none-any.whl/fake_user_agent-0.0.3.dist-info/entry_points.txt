@@ -1,0 +1,3 @@
+[console_scripts]
+fakeua=aio_main:get_input
+
