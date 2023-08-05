@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+py3_slack_notify.egg-info/PKG-INFO
+py3_slack_notify.egg-info/SOURCES.txt
+py3_slack_notify.egg-info/dependency_links.txt
+py3_slack_notify.egg-info/top_level.txt
+py_slack_notify/__init__.py
+py_slack_notify/slack_notify.py
