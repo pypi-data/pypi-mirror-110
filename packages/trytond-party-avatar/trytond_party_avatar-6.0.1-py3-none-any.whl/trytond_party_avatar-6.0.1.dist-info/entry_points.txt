@@ -1,0 +1,4 @@
+
+    [trytond.modules]
+    party_avatar = trytond.modules.party_avatar
+    
