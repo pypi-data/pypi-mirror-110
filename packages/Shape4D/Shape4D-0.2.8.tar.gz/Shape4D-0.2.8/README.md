@@ -1,0 +1,68 @@
+# Shape4D
+
+## About Shape4D
+
+Shape4D is a tiny library for point, line and polygon in 3D space, as well as their simple relations.
+
+
+## Core Features
+- Shape classes: Point, Line and Polygon.
+- Creating a 3D polygon by defining a 2D shape in working plane at first and then moving it to its desired position.
+- It provides functions to judge whether a point is contained in a shape, either line or polygon, by overloading the magic function  `__contains__`.
+- `__hash__` and `__eq__`, overloaded for point, line and polygon.
+- `__neg__` overloaded for polygon when one wants to know the vertices on its other side.
+
+
+## Requirements
+
+* [Python](http://www.python.org) 3 
+* Matplotlib is installed.
+
+## Documentation
+
+To be continued.
+
+## Installation
+```bash
+pip install Shape4D
+```
+
+## Usage
+```Python
+import Shape4D.VisualShapes as vs
+W,H = 2.0,1.5
+shape = vs.Shape('rectangle',W,H)
+shape = shape.move(to = (2,0,0), by = (45,30))
+
+line = vs.Polyline((0,0,0),(3,1.,2))
+P = shape.intercept(line)
+line.broken_by(P)
+
+shape.plot(hideAxes=True,style = {'facecolor':'cornflowerblue', 'edgecolor':'navy'})
+shape.add_plot(line,style={'color':'k','linewidth':2,'node':'visible'})
+shape.show(azim=-20, elev=3)
+```
+<img src="/html/_images/logo_drawn.png"/>
+
+## Change Log
+
+[changelog.md](changelog.md)
+
+## License
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+## Contact
+heliqun@ustc.edu.cn
+

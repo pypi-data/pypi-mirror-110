@@ -1,0 +1,390 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Creating Visual shapes &mdash; Shape4D 0.08 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Shapes in depth" href="ShapeFunctions.html" />
+    <link rel="prev" title="Get started" href="get_started.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Shape4D
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About Shape4D</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started.html">Get started</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Visual shapes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Point</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Line and polyline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">Polygon and shapes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Transformation</a></li>
+</li></ul>
+
+<li class="toctree-l1"><a class="reference internal" href="ShapeFunctions.html">Shapes in depth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OperationOnPoint.html">Functions about point inside shapes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OperationOnLine.html">Functions about line across shapes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="precision.html">Functions about precision control</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Shape4D</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Visual shapes</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/creating point line polygon.rst.txt" rel="nofollow"> Chinese</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>Visual shapes<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>In the following, we demonstrate how to use VisualShapes to create geometries, such as point, line and polygon.</p>
+<div class="section" id="id2">
+<h3><cite>Point</cite><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+import Shape4D.VisualShapes as vs
+P = vs.Point(1,2,3)
+print(P)
+<span class="gp">&gt;&gt;&gt; </span>1,2,3
+P.coordinates
+<span class="gp">&gt;&gt;&gt; </span>array([1, 2, 3])
+</pre>
+</div>
+</div>
+
+
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+import Shape4D.VisualShapes as vs
+P = vs.Point(4,5,6)
+ax = P.plot(style={'color':'r','marker':'o','alpha':0.5})
+P = vs.Point(0.5,0.7,0.5)
+P.plot(ax=ax)
+P.show()
+</pre>
+</div>
+</div>
+<img alt="_images/Points.png" src="_images/Points.png"  width="350" heigth="350"/>
+
+</div>
+
+<div class="section" id="id3">
+<h3><cite>Line</cite><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+import Shape4D.VisualShapes as vs
+P1 = vs.Point(0.2,0.1,0.1)
+P2 = vs.Point(0.8,0.5,0.8)
+L  = vs.Line(P1,P2)
+L.plot()
+L.show()
+</pre>
+</div>
+</div>
+<img alt="_images/line1.png" src="_images/line1.png"  width="350" heigth="350"/>
+
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+L  = vs.Line((1,2,3),(4,5,6))
+L.plot(style={'color':'r','node':'visible'})
+L.show(azim=30,elev=3)
+</pre>
+</div>
+</div>
+<img alt="_images/line2.png" src="_images/line2.png"  width="350" heigth="350"/>
+
+
+
+<h3><cite>Polyline</cite><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+pl = vs.Polyline((0.5,0.3,0.6),(0.1,0.9,0.3),(0.7,0.3,0.9))
+pl.broken_by((0.1,0.9,0.6))
+pl.insert_at(1,(0.3,0.6,0.9))
+pl.plot()
+pl.show()
+</pre>
+</div>
+</div>
+<img alt="_images/polyline1.png" src="_images/polyline1.png"  width="350" heigth="350"/>
+
+
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+pl.plot(style = {'colors':['darkorange','orange','gold','wheat'],'node':'visible'})
+pl.show(azim=110, elev=19)
+</pre>
+</div>
+</div>
+<img alt="_images/polyline2.png" src="_images/polyline2.png"  width="350" heigth="350"/>
+
+</div>
+
+<div class="section" id="id4">
+<h3><cite>Polygon</cite><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+x = [0.5,0.3,0.6,0.9,0.1]
+y = [0.1,0.9,0.3,0.4,0.8]
+z = [0.7,0.3,0.1,0.9,0.6]
+points = list(zip(x,y,z))
+poly = vs.Polygon(points)
+poly.plot()
+poly.show()
+</pre>
+</div>
+</div>
+<img alt="_images/testPolyon1.PNG" src="_images/testPolyon1.PNG"  width="350" heigth="350"/>
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+poly.plot(style = {'facecolor':'orange','edgecolor':'darkgreen'})
+poly.show(azim=110,elev=20)
+</pre>
+</div>
+</div>
+<img alt="_images/testPolyon2.PNG" src="_images/testPolyon2.PNG"  width="350" heigth="350"/>
+
+<h3><cite>Shape</cite><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="doctest highlight-default notranslate">
+<div class="highlight"><pre>
+import Shape4D.VisualShapes as vs
+W,H,A,B,C,D = 2.0,1.5, 1.0, 0.6, 0.2, 0.3
+shape1 = vs.Shape('rectangle',W,H,A,B,C,D)
+shape2 = vs.Shape('triangle' ,W,H,A,B,C,D)
+shape3 = vs.Shape('fourSided',W,H,A,B,C,D)
+shape4 = vs.Shape('fiveSided',W,H,A,B,C,D)
+shape5 = vs.Shape('rectangleWithHole',W,H,A,B,C,D)
+
+shape1.plot(hideAxes=True)
+
+shape2 = shape2.move(to = (0,2,0))
+shape3 = shape3.move(to = (0,4,0))
+shape4 = shape4.move(to = (0,6,0))
+shape5 = shape5.move(to = (0,8,0))
+
+shape1.add_plot(shape2)
+shape1.add_plot(shape3)
+shape1.add_plot(shape4)
+shape1.add_plot(shape5)
+shape1.show(azim=0, elev=12)
+</pre>
+</div>
+</div>
+<img alt="_images/shapes_test.PNG" src="_images/shapes_test.PNG"  width="350" heigth="350"/>
+
+
+</div>
+
+<div class="section" id="id5">
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><cite>move()</cite> can transform the 2D Shapes created in yz plane to.desired 3D positions.</p>
+</div>
+
+
+<h4>Transformation</h4>
+<p>In general, a transformation is accomplished by rotation together with translation.<br>
+Here, the rotation of a polygon is designed to control with two parameters, &alpha; and &beta;, as shown below. In the rotating process, its origin is always fixed at the origin (0,0,0).<br>
+
+<img alt="_images/shapes_rotation.png" src="_images/shapes_rotation.png" /><br>
+<span> &alpha; is made from y axis to its first edge moving counter-clockwise in the xy plane around z axis, as viewed against the direction of z;</span><br>
+<span> &beta; is made from z axis to its projection on the facet of polygon after it turns clockwise around its first edge, as viewed against the direction of the edge.</span></p>
+
+<p>Translation of a polygon means that its origin moves to a new position.<br>
+
+<p>In Shape4D, the rotation and translation are combined into one function <cite>move()</cite>.<br>
+
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">Shape4D.Shapes</span> <span class="kn">as</span> <span class="nn">shape</span> 
+<span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="p">,</span><span class="n">y0</span><span class="p">,</span><span class="n">z0</span> <span class="o">=</span> <span class="mi">0.3</span><span class="p">,</span><span class="mi">0.4</span><span class="p">,</span><span class="mi">0.5</span>    <span class="c1"></span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span> <span class="o">= -</span><span class="mi">90</span><span class="p">,</span><span class="mi">45</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vertices</span> <span class="o">=</span> <span class="n">shape.move</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="n">vertices2D</span><span class="p">,</span> <span class="n">to</span> <span class="o">=</span> <span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">y0</span><span class="p">,</span><span class="n">z0</span><span class="p">),</span> <span class="n">by</span> <span class="o">=</span> <span class="p">(</span><span class="n">alpha</span><span class="p">,</span><span class="n">beta</span><span class="p">))</span>   <span class="c1"></span>
+</pre></div>
+</div>
+<img alt="_images/polygon1.png" src="_images/polygon1.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ShapeFunctions.html" class="btn btn-neutral float-right" title="Shapes in depth" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="get_started.html" class="btn btn-neutral float-left" title="Get started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, HHH.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

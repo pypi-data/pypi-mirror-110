@@ -1,0 +1,41 @@
+一些基本图形的绘制
+==================
+
+.. image:: picture/shape1.PNG
+
+
+1.凸多边形
+-------------------
+
+图形绘制的时候点的顺序应遵循右手法则
+
+.. image:: picture/local_coordinates.PNG
+
+一些图形的作图示例
+
+.. image:: picture/shape1.PNG
+.. image:: picture/shape2.PNG
+.. image:: picture/shape4.PNG
+.. image:: picture/shape5.PNG
+
+
+2.中空四边形
+----------------------
+
+
+.. image:: picture/shape3.PNG
+.. image:: picture/shape3ex.PNG
+
+
+3.变换到三维空间
+----------------------
+
+通过变换使得能绘制出各种各样的三维结构，达到构建基本模型的目的
+
+.. image:: picture/shapes_rotation.png
+
+变换过程中使用的矩阵
+
+.. image:: picture/matrix.PNG
+.. image:: picture/global_coordinates.PNG
+

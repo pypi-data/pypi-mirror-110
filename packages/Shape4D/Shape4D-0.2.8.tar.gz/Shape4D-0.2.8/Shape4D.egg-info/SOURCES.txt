@@ -1,0 +1,125 @@
+LICENSE
+MANIFEST.in
+README.md
+help.bat
+setup.cfg
+setup.py
+Shape4D/Constant.py
+Shape4D/Shapes.py
+Shape4D/Utils.py
+Shape4D/VisualShapes.py
+Shape4D/__init__.py
+Shape4D.egg-info/PKG-INFO
+Shape4D.egg-info/SOURCES.txt
+Shape4D.egg-info/dependency_links.txt
+Shape4D.egg-info/top_level.txt
+html/.buildinfo
+html/LineXLine or Polygon.html
+html/OperationOnLine.html
+html/OperationOnPoint.html
+html/PointXLine or Polygon.html
+html/PointXLine or Polygon0.html
+html/ShapeFunctions.html
+html/VisualShapes.html
+html/about.html
+html/beforeuse.html
+html/creating point line polygon.html
+html/draw some pictures.html
+html/eps.html
+html/genindex.html
+html/get_started.html
+html/index.html
+html/install.html
+html/objects.inv
+html/point line polygon.html
+html/pointX line or polygon.html
+html/precision.html
+html/search.html
+html/searchindex.js
+html/_images/PointEdge.png
+html/_images/PointInPolygon.png
+html/_images/Points.PNG
+html/_images/SpeciaComplexs.PNG
+html/_images/box3D.PNG
+html/_images/boxFunction.PNG
+html/_images/eps0.png
+html/_images/eps1.png
+html/_images/eps2.png
+html/_images/global_coordinates.PNG
+html/_images/house.PNG
+html/_images/house3D.PNG
+html/_images/houseFunction.PNG
+html/_images/line1.PNG
+html/_images/line2.PNG
+html/_images/local_coordinates.PNG
+html/_images/logo.PNG
+html/_images/logo_drawn.PNG
+html/_images/matrix.PNG
+html/_images/pointXline1.png
+html/_images/pointXline2.png
+html/_images/point_in_polygon2D.PNG
+html/_images/pointsandpolygon.png
+html/_images/polygon1.png
+html/_images/polygon2-1.png
+html/_images/polyline1.PNG
+html/_images/polyline2.PNG
+html/_images/shape1.PNG
+html/_images/shape2.PNG
+html/_images/shape3.PNG
+html/_images/shape3ex.PNG
+html/_images/shape4.PNG
+html/_images/shape5.PNG
+html/_images/shapeComplex.PNG
+html/_images/shapeComplexSpecials.PNG
+html/_images/shapes.PNG
+html/_images/shapes_rotation.png
+html/_images/shapes_test.PNG
+html/_images/testPolyon1.PNG
+html/_images/testPolyon2.PNG
+html/_sources/LineXLine or Polygon.rst.txt
+html/_sources/PointXLine or Polygon.rst.txt
+html/_sources/about.rst.txt
+html/_sources/beforeuse.rst.txt
+html/_sources/creating point line polygon.rst.txt
+html/_sources/draw some pictures.rst.txt
+html/_sources/eps.rst.txt
+html/_sources/index.rst.txt
+html/_sources/install.rst.txt
+html/_sources/point line polygon.rst.txt
+html/_sources/pointX line or polygon.rst.txt
+html/_static/basic.css
+html/_static/doctools.js
+html/_static/documentation_options.js
+html/_static/file.png
+html/_static/jquery-3.5.1.js
+html/_static/jquery.js
+html/_static/language_data.js
+html/_static/minus.png
+html/_static/plus.png
+html/_static/pygments.css
+html/_static/searchtools.js
+html/_static/underscore-1.12.0.js
+html/_static/underscore.js
+html/_static/css/badge_only.css
+html/_static/css/theme.css
+html/_static/css/fonts/Roboto-Slab-Bold.woff
+html/_static/css/fonts/Roboto-Slab-Bold.woff2
+html/_static/css/fonts/Roboto-Slab-Regular.woff
+html/_static/css/fonts/Roboto-Slab-Regular.woff2
+html/_static/css/fonts/fontawesome-webfont.eot
+html/_static/css/fonts/fontawesome-webfont.svg
+html/_static/css/fonts/fontawesome-webfont.ttf
+html/_static/css/fonts/fontawesome-webfont.woff
+html/_static/css/fonts/fontawesome-webfont.woff2
+html/_static/css/fonts/lato-bold-italic.woff
+html/_static/css/fonts/lato-bold-italic.woff2
+html/_static/css/fonts/lato-bold.woff
+html/_static/css/fonts/lato-bold.woff2
+html/_static/css/fonts/lato-normal-italic.woff
+html/_static/css/fonts/lato-normal-italic.woff2
+html/_static/css/fonts/lato-normal.woff
+html/_static/css/fonts/lato-normal.woff2
+html/_static/js/badge_only.js
+html/_static/js/html5shiv-printshiv.min.js
+html/_static/js/html5shiv.min.js
+html/_static/js/theme.js

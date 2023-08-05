@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Functions about precision control &mdash; Shape4D 0.08 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Line to line, plane and polygon" href="OperationOnLine.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Shape4D
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About Shape4D</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="get_started.html">Get started</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="VisualShapes.html">Visual shapes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ShapeFunctions.html">Shapes in depth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OperationOnPoint.html">Functions about point inside shapes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OperationOnLine.html">Functions about line across shapes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Functions about precision control</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Shape4D</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Functions about precision control</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/eps.rst.txt" rel="nofollow"> Chinese</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>Functions about precision control<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>In order to check if two points are the same, we have to set float numbers in limited digitals. By default, the package limits the float number at 10 digitals after zero, that is eps = 1e-10. We can change the setting with functions get_eps()/set_eps().</p>
+
+<blockquote>
+<div><p></p>
+</div></blockquote>
+
+<div class="admonition note">
+<p class="admonition-title">For instance</p>
+<p>After <MATH>eps</MATH> has been set to 0.001, the point (0.1,0.2) euqals to point (0.100001, 0.200009) in the domain of Shape4D.</p>
+</div>
+
+
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">get_eps</span><span class="p">()</span>      <span class="c1"># To get the current precision</span>
+<span class="go">1e-10</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">set_eps</span><span class="p">(</span><span class="mf">1e-2</span><span class="p">)</span>  <span class="c1"># To set precision to 10^-2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">get_eps</span><span class="p">()</span>      <span class="c1"># To see the result ...</span>
+<span class="go">0.01</span>
+</pre></div>
+</div>
+<p>The precision matters in geometry computation. As shown below, when the precision is set at 0.01, the function decides that a point is an internal one in a polygon, but it actually lies outsides.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre>
+P = (1.008, 1.005)
+vertices = [(0.99, 0.99), (1,0.99), (1,1),(0.99,1)]  # To set a polygon
+PointsInPolygon2D(P, vertices)      # To see if the point falls in the polygon.
+<span class="gp">&gt;&gt;&gt;<span class="go">  True</span>
+</pre></div>
+</div>
+
+<img alt="_images/point_in_polygon2D.PNG" src="_images/point_in_polygon2D.PNG" height="450" width="450"/>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="OperationOnLine.html" class="btn btn-neutral float-left" title="Functions about line across shapes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, HHH.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

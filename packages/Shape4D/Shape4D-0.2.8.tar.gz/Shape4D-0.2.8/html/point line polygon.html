@@ -1,0 +1,295 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Creating point, line and polygon &mdash; Shape4D 0.08 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Basic drawing" href="draw%20some%20pictures.html" />
+    <link rel="prev" title="Before usage" href="beforeuse.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Shape4D
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About Shape4D</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="beforeuse.html">Before usage</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="point%20line%20polygon.html">Creating point, line and plane</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Point</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Line and plane</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Segment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Polygon</a></li>
+</li></ul>
+
+<li class="toctree-l1"><a class="reference internal" href="draw%20some%20pictures.html">Basic drawing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#">Line against line, plane and polygon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LineXLine%20or%20Polygon.html">Line against line, plane and polygon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="precision.html">Settings of precision</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Shape4D</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Creating point, line and polygon</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/point line polygon.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>Creating point, line and polygon<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2><cite>Point</cite><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>For a single point, Point = (x,y) or np.array((x,y)) at best.<br>
+For multiple points,  Points =[(a,b,c),(d,e,f),(g,h,i)] or np.array([(a,b,c),(d,e,f),(g,h,i)]) at best.<br>
+For instance, P1 refers to (1,2), P2 to (2, 2), both Points1 and Points2 are defined by a set of vertices of (0.0,0.0),(0.5,0.0),(1.0,0.0),(1.5,0.0) and (2.0,0.0). The Python coding follows,</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">P1 </span><span class="o">=</span><span class="p"> (</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>           <span class="c1">#  Creating point (1,1)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">P2 </span><span class="o">=</span><span class="n"> np</span><span class="o">.</span><span class="n">array</span><span class="p"> ((</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Points1</span> <span class="o">=</span> <span class="p">[(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">1.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">2.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Points2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">1.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">2.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)])</span>
+</pre></div>
+</div>
+<p>Besides, they can be represented by a matrix for convenience.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">Points1</span> <span class="o">=</span> <span class="p">[[(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)],[(</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">1.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)],[(</span><span class="mf">2.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">2.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Points2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[(</span><span class="mf">0.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)],[(</span><span class="mf">1.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">1.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)],[(</span><span class="mf">2.0</span><span class="p">,</span><span class="mf">0.0</span><span class="p">),(</span><span class="mf">2.5</span><span class="p">,</span><span class="mf">0.0</span><span class="p">)]])</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h2><cite>Line and plane</cite><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>A line is represented by both a point and a slope.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">P</span><span class="p">,</span><span class="n">L</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>It means a line across (0,0) with slope of (1,2).</p>
+<p>A plane is represented by a point and its normal vector.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; P,n = (0,0,0),(1,2,3)
+</pre></div>
+</div>
+<p>It means a plane across (0,0,0) with a normal vector of (1,2,3).</p>
+</div>
+<div class="section" id="id4">
+<h2><cite>Segment</cite><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>set by its starting end ending points.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">P1</span><span class="p">,</span><span class="n">P2</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>It defines a segment from (0,0) to (1,1).</p>
+</div>
+<div class="section" id="id5">
+<h2><cite>Polygon</cite><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Here, the polygon is close, meaning that its starting point is its ending point. Its vertices run counter-clockwise as viewed to its facet. With the aid of the package, one can define a polygon first in the yz plane, and then move and/or rotate it to the designated position in the following way.</p>
+<p>1. Creating a 3D polygon directly. <br>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">vertices</span> <span class="o">=</span> <span class="p">[(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">polygon</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">vertices</span><span class="p">)</span>
+</pre></div>
+</div>
+<img alt="_images/polygon1.png" src="_images/polygon1.png" />
+<p>2. Creating a 2D polygon first in yz plane and then transform it to its real 3D position as desired.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">vertices2D</span> <span class="o">=</span> <span class="n">Vertices</span><span class="p">([(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="o">**</span><span class="mf">0.5</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="o">**</span><span class="mf">0.5</span><span class="p">),(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">)])</span>    <span class="c1"># verices are defined by (y,z). </span>
+</pre></div>
+</div>
+<img alt="_images/polygon2-1.png" src="_images/polygon2-1.png" />
+<p>Rotation of a polygon is done with &alpha; and &beta;, and in the process, its origin is fixed at (0,0,0).<br>
+
+<p>The transformation is illustrated as follows, </p>
+<img alt="_images/shapes_rotation.png" src="_images/shapes_rotation.png" /><br>
+<span> &alpha; is made from y axis to its first edge moving counter-clockwise in the xy plane around z axis, as viewed against the direction of z;</span><br>
+<span> &beta; is made from z axis to its projection on the facet of polygon after it turns clockwise around its first edge, as viewed against the direction of the edge.</span></p>
+
+<p>Translation of a polygon is done with new position of its origin.<br>
+
+<p>Moving a polygon to its real position is achieved with the above rotation and translation, and it is done with the function of move().<br>
+
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x0</span><span class="p">,</span><span class="n">y0</span><span class="p">,</span><span class="n">z0</span> <span class="o">=</span> <span class="mi">0.3</span><span class="p">,</span><span class="mi">0.4</span><span class="p">,</span><span class="mi">0.5</span>    <span class="c1"></span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">alpha</span><span class="p">,</span> <span class="n">beta</span> <span class="o">= -</span><span class="mi">90</span><span class="p">,</span><span class="mi">45</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vertices</span> <span class="o">=</span> <span class="n">move</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="n">vertices2D</span><span class="p">,</span> <span class="n">to</span> <span class="o">=</span> <span class="p">(</span><span class="n">x0</span><span class="p">,</span><span class="n">y0</span><span class="p">,</span><span class="n">z0</span><span class="p">),</span> <span class="n">by</span> <span class="o">=</span> <span class="p">(</span><span class="n">alpha</span><span class="p">,</span><span class="n">beta</span><span class="p">))</span>   <span class="c1"></span>
+</pre></div>
+</div>
+<img alt="_images/polygon1.png" src="_images/polygon1.png" />
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="draw%20some%20pictures.html" class="btn btn-neutral float-right" title="Basic drawing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="beforeuse.html" class="btn btn-neutral float-left" title="Before usage" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, HHH.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
