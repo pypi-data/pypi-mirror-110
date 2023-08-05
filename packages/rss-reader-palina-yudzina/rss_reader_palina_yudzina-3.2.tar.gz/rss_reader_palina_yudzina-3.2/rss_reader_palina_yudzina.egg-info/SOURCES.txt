@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+rss_reader_palina_yudzina/__init__.py
+rss_reader_palina_yudzina/caching_functions.py
+rss_reader_palina_yudzina/display_method.py
+rss_reader_palina_yudzina/exceptions.py
+rss_reader_palina_yudzina/main_functions.py
+rss_reader_palina_yudzina/rss_reader.py
+rss_reader_palina_yudzina/validation_functions.py
+rss_reader_palina_yudzina.egg-info/PKG-INFO
+rss_reader_palina_yudzina.egg-info/SOURCES.txt
+rss_reader_palina_yudzina.egg-info/dependency_links.txt
+rss_reader_palina_yudzina.egg-info/entry_points.txt
+rss_reader_palina_yudzina.egg-info/requires.txt
+rss_reader_palina_yudzina.egg-info/top_level.txt
