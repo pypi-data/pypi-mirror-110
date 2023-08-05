@@ -1,0 +1,15 @@
+pyproject.toml
+setup.cfg
+setup.py
+sniparinject/__init__.py
+sniparinject/network_sniffer.py
+sniparinject.egg-info/PKG-INFO
+sniparinject.egg-info/SOURCES.txt
+sniparinject.egg-info/dependency_links.txt
+sniparinject.egg-info/requires.txt
+sniparinject.egg-info/top_level.txt
+sniparinject/core/__init__.py
+sniparinject/core/game.py
+sniparinject/core/settings.py
+sniparinject/core/text_style.py
+sniparinject/core/utility.py
