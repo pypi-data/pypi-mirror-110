@@ -1,0 +1,13 @@
+nepal_stonks/Nepse.py,sha256=GSHwZwEbiVWimVe7-i7jhqSr9ZIKBv7cnIE7PcOZ4JA,6691
+nepal_stonks/Stock.py,sha256=vKiC1sAeHPbc0H9blqmOGZoi9lNoQNqbx7iCkURjBS4,4682
+nepal_stonks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nepal_stonks/company_list.csv,sha256=UvM80dgGvmNe6ARCvRpMxm_VwfaHDgyAfLVrHiJT1mI,62472
+nepal_stonks/data.py,sha256=Wj1rCfmlLk5gw8t5-tsvzRVD0ogXJJweAQFQGNVrpws,6851
+nepal_stonks/index.txt,sha256=qTRrAGgzXGNDBK-l3h1RIyqAlmd1YT2MHFoPbSMcixo,3
+nepal_stonks/priceof.py,sha256=v_gp_88pGc5n9Df_xDZ98CxuEf1RUHNQ4LZkoR15vq4,2584
+nepal_stonks-0.0.69.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+nepal_stonks-0.0.69.dist-info/METADATA,sha256=yB6UQyWIBpxJbx11dRjvMX1wUeyJ-Q7zceW_CTCOQAA,1157
+nepal_stonks-0.0.69.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nepal_stonks-0.0.69.dist-info/entry_points.txt,sha256=sFj8Xq-PYWW3NWTOCN3g_Cz-9NlKv8-BWpzvr_qHiLA,55
+nepal_stonks-0.0.69.dist-info/top_level.txt,sha256=3UIdD4OIsTm2VVgevjH2_EhccZXgIxATvvfiisJYsLs,13
+nepal_stonks-0.0.69.dist-info/RECORD,,
