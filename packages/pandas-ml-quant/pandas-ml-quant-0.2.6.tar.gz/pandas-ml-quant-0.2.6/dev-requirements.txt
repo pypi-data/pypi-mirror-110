@@ -1,0 +1,11 @@
+Markdown
+TA-Lib
+ipykernel
+jupyter-client
+lxml
+matplotlib
+mplfinance
+nbconvert
+requests
+tox
+twine

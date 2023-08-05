@@ -1,0 +1,20 @@
+arch
+bintrees
+colorama>= 0.3.9
+cvxopt
+cvxpy
+ipywidgets
+matplotlib
+MiniSom
+#mgarch
+mgarch-setup-fix
+mlxtend
+moviepy
+numba
+numpy
+pandas
+pyts
+PyWavelets
+qpsolvers
+seaborn
+sortedcontainers
