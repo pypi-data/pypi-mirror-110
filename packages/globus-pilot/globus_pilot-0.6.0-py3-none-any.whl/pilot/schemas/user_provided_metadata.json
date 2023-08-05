@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "User Metadata",
+    "description": "A short combination of Datacite and ncidata fields the user can provide.",
+    "type": "object",
+    "properties": {
+        "title": {
+            "$ref": "dc.json#/properties/dc/properties/titles/items/properties/title"
+        },
+        "creators": {
+            "$ref": "dc.json#/properties/dc/properties/creators"
+        },
+        "publisher": {
+            "$ref": "dc.json#/properties/dc/properties/publisher"
+        },
+        "subjects": {
+            "$ref": "dc.json#/properties/dc/properties/subjects"
+        },
+        "dates": {
+            "$ref": "dc.json#/properties/dc/properties/dates"
+        },
+        "resourceType": {
+            "$ref": "dc.json#/properties/dc/properties/resourceType"
+        },
+        "version": {
+            "$ref": "dc.json#/properties/dc/properties/version"
+        },
+        "description": {
+            "$ref": "dc.json#/properties/dc/properties/descriptions/items/properties/description"
+        },
+        "descriptions": {
+            "$ref": "dc.json#/properties/dc/properties/descriptions"
+        },
+        "formats": {
+            "$ref": "dc.json#/properties/dc/properties/formats"
+        },
+        "data_type": {
+            "$ref": "project_metadata.json#/properties/project_metadata/properties/data_type"
+        },
+        "dataframe_type": {
+            "$ref": "project_metadata.json#/properties/project_metadata/properties/dataframe_type"
+        },
+        "source": {
+            "$ref": "project_metadata.json#/properties/project_metadata/properties/source"
+        }
+    }
+}
