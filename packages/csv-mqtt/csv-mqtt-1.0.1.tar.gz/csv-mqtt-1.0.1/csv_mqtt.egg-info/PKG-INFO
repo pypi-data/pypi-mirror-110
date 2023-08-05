@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: csv-mqtt
+Version: 1.0.1
+Summary: CSV parser meets MQTT Publisher
+Home-page: https://github.com/srijan-sivakumar/CSV-MQTT/
+Author: srijan-sivakumar
+Author-email: ssivakum@redhat.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
