@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: genetic_algorithm
+Version: 0.2.2
+Summary: A python package implementing the genetic algorithm
+Home-page: https://github.com/YingxuH/genetic_algorithm
+Author: He Yingxu
+Author-email: yingxu.he1998@gmail.com
+License: MIT
+Download-URL: https://github.com/YingxuH/genetic_algorithm/archive/0.2.2.tar.gz
+Description: ### Genetic Algorithm 
+        
+        #### Installation
+            pip install genetic_algorithm
+        
+        #### Use Cases
+            from genetic_algorithm import GeneticAlgorithm
+        
+            def func(a,b,c,d):
+            return -(a-1)**2 - (b-3)**2 - (c-5) ** 2 - len(d)
+            
+            
+            def fitness(params):
+            return func(**params)
+            
+            
+            param_space = {"a": {'type': 'float', 'range':[0, 2]},
+            "b": {'type': 'float', 'range':[1, 5]},
+            "c": {'type': 'int', 'range':[3, 7]},
+            "d": {'type': 'object', 'range':['ab', 'abc', 'abcd', 'a']}}
+            
+            ga = GeneticAlgorithm(model=fitness,
+            param_space=param_space,
+            pop_size=100,
+            parent_pool_size=5,
+            max_iter=100,
+            mutation_prob=0.2,
+            max_stop_rounds=5)
+            
+            result = ga.evolve()
+            print(result)
+Keywords: genetic algorithm,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
