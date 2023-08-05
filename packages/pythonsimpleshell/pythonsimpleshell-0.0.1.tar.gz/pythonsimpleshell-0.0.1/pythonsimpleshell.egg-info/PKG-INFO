@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pythonsimpleshell
+Version: 0.0.1
+Summary: A simple shell for Python.
+Home-page: UNKNOWN
+Author: kikiokol (Kristoffer Kolderup)
+Author-email: <kristofferkolderup@gmail.com>
+License: UNKNOWN
+Keywords: python,cmd,shell,command,line,commands,simple
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+INSTALL:
+
+pip3 install python-shell
+
+How to use:
+
+Step 1:
+
+First create a file containing python code(will be executed when given command is used).
+The file does not have to have a .py extension.
+
+To add arguments to your command, do it like this:
+
+args = REPLACEME
+
+for demonstration purposes i will use this simple code:
+
+
+----------------------------------------------------------
+
+args = REPLACEME
+
+if(args[0] == "help"):
+    print("This command prints whatever you want. Arguments: [text to print]")
+else:
+    for text in args:
+        print(text + " ", end="")
+    
+----------------------------------------------------------
+
+Step 2:
+
+Create a new shell instance and add the command like this:
+
+-----------------------------------------------------------
+
+from python-shell import shell
+
+cmdline = shell()
+cmdline.add_command("echo", "/home/kiki/myfirstpythonscript/cmd/echo")
+
+------------------------------------------------------------
+
+Now, simply start the shell by adding this:
+
+cmdline.start()
+
+
