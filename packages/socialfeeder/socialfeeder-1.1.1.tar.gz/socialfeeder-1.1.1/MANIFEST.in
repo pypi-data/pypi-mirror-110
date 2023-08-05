@@ -1,0 +1,4 @@
+include README.md
+include socialfeeder/utilities/*.xsd
+include samples/*.xml
+include requirements.txt

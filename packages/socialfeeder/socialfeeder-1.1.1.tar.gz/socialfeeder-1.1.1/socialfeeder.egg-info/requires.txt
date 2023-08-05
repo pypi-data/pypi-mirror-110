@@ -1,0 +1,4 @@
+selenium==3.141.0
+webdriver-manager==2.5.3
+beautifulsoup4==4.9.1
+lxml==4.6.1
