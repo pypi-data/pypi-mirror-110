@@ -1,0 +1,13 @@
+README.md
+README.rst
+setup.cfg
+setup.py
+futurepy/__init__.py
+futurepy/__version__.py
+futurepy/futurepy.py
+futurepy.egg-info/PKG-INFO
+futurepy.egg-info/SOURCES.txt
+futurepy.egg-info/dependency_links.txt
+futurepy.egg-info/entry_points.txt
+futurepy.egg-info/requires.txt
+futurepy.egg-info/top_level.txt

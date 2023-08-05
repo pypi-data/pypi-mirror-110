@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: futurepy
+Version: 0.0.4
+Summary: An unofficial cli version for FutureMe
+Home-page: https://github.com/guiszk/futurepy
+Author: guiszk
+Author-email: guiszk@protonmail.com
+License: BSD
+Download-URL: https://github.com/guiszk/futurepy/dist/futurepy-0.0.3.tar.gz
+Description: # futurepy
+        An unofficial CLI version for [FutureMe](https://www.futureme.org/).
+        
+        ## Installation
+        `pip install futurepy`
+        
+        ## Usage
+        ```
+        futurepy [options]
+        
+        Options:
+            -s --subject <subject>  Your message subject.
+            -b --body <body>        Your message body.
+            -d --date <date>        The future date to which to send your message to.
+                                    Format: YYYYMMDD
+            -e --email <email>      Your email.
+            -p --public             Post publicly
+                                    Default: False
+            -c --confirm            Display a preview of the message before sending
+                                    Default: False
+            -h --help               Display this message.
+        ```
+        
+        ## Example
+        `futurepy -s 'Message to the future' -b 'Hello, this will arrive in the future.' -d 20301009 -e email@mail.com -p`
+        
+Keywords: api,futureme,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
