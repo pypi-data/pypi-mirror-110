@@ -1,0 +1,8 @@
+nltk
+requests
+torch
+torchaudio
+torchvision
+transformers
+treelib
+youtube_transcript_api
