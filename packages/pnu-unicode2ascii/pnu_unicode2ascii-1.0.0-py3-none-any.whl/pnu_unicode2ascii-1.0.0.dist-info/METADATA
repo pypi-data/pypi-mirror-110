@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pnu-unicode2ascii
+Version: 1.0.0
+Summary: Unicode to Ascii command-line utility and Python library
+Home-page: https://github.com/HubTou/unicode2ascii/
+Author: Hubert Tournier
+Author-email: nobody@nowhere.invalid
+License: BSD 3-Clause License
+Project-URL: Bug Tracker, https://github.com/HubTou/unicode2ascii/issues
+Keywords: pnu-project
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Environment :: Console
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Natural Language :: English
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: License
+
+# Installation
+pip install [pnu-unicode2ascii](https://pypi.org/project/pnu-unicode2ascii/)
+
+# UNICODE2ASCII(1), UNICODE2ASCII(3)
+This repository includes a command-line utility:
+* [unicode2ascii(1)](https://github.com/HubTou/unicode2ascii/blob/main/UNICODE2ASCII.1.md) - Unicode to Ascii command-line tool
+
+And a Python library:
+* [unicode2ascii(3)](https://github.com/HubTou/unicode2ascii/blob/main/UNICODE2ASCII.3.md) - Unicode to Ascii Python library
+
+
+

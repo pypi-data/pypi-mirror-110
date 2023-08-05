@@ -1,0 +1,10 @@
+pnu_unicode2ascii-1.0.0.data/data/man/man1/unicode2ascii.1.gz,sha256=dFoyQpnhGshYLnuHTvSLmQarlbDDlB1-5rzFjL1_lv4,956
+pnu_unicode2ascii-1.0.0.data/data/man/man3/unicode2ascii.3.gz,sha256=a4XYl7NPKh0Fr_9Ifykc1SpOirzXVJQGa4JzasedPRg,1000
+unicode2ascii/__init__.py,sha256=OIUvQK6yxVB8AiXXHt83ZFQSsZMxRVNxkf2BJMND5v0,60
+unicode2ascii/main.py,sha256=_t3MmPejxPfIqTkWPswkR0FLds-7FOiV4RNt0phIyYg,24788
+pnu_unicode2ascii-1.0.0.dist-info/License,sha256=SHqxxjecm04XlsqqzOKBTX-UKSCtgJHZmVybnYrS9yI,1460
+pnu_unicode2ascii-1.0.0.dist-info/METADATA,sha256=B1tFWhnc52c6b01zfZRurKH4Ilk2ppjtK719OkbRcng,1645
+pnu_unicode2ascii-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pnu_unicode2ascii-1.0.0.dist-info/entry_points.txt,sha256=1aZMIarpCNtG2X2CY5jH3rz68FMQnYeVZzr-cmwQ5Js,54
+pnu_unicode2ascii-1.0.0.dist-info/top_level.txt,sha256=XiAQC6HhZ-kfpNWEM9oDOne7Vj8JYqd1yyPkirPYIKQ,14
+pnu_unicode2ascii-1.0.0.dist-info/RECORD,,
