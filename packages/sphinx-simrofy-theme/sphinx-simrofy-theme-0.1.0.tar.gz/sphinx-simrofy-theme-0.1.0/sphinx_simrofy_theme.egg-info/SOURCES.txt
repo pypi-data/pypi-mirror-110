@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sphinx_simrofy_theme/__init__.py
+sphinx_simrofy_theme/layout.html
+sphinx_simrofy_theme/theme.conf
+sphinx_simrofy_theme.egg-info/PKG-INFO
+sphinx_simrofy_theme.egg-info/SOURCES.txt
+sphinx_simrofy_theme.egg-info/dependency_links.txt
+sphinx_simrofy_theme.egg-info/entry_points.txt
+sphinx_simrofy_theme.egg-info/requires.txt
+sphinx_simrofy_theme.egg-info/top_level.txt
+sphinx_simrofy_theme/__pycache__/__init__.cpython-38.pyc
+sphinx_simrofy_theme/static/simrofy.css_t
