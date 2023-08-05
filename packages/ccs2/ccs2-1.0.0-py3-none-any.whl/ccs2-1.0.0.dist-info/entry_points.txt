@@ -1,0 +1,3 @@
+[console_scripts]
+ccs2 = ccs2.compile:Compile
+
