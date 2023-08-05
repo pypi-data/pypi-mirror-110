@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: rsbcli
+Version: 0.2.6
+Summary: A RAM saving cli to run web applications. Update 0.2.5: Added presets. Now you can type the name of certain websites to open them in RSB. Downloads and fullscreen too 
+Home-page: https://github.com/AvanindraC/RSB
+License: MIT
+Keywords: RSBCLI
+Author: Avanindra Chakraborty
+Author-email: avanindra.d2.chakraborty@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (>=5.15.4,<6.0.0)
+Requires-Dist: PyQtWebEngine (>=5.15.4,<6.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Project-URL: Repository, https://github.com/AvanindraC/RSB
+Description-Content-Type: text/markdown
+
+# RSB
+
+## A RAM saving cli to run web applications
+
+## Whats New: Now you can download files from RSB and has some preset websites to open. If you click a download link, it downloads in the background but doesn't say anything
+
+## Installation
+
+### Linux
+
+#### For Debian based OS
+
+Paste this in your terminal 
+```cd ~/Downloads;wget https://raw.githubusercontent.com/AvanindraC/RSB/master/install.sh; sudo bash install.sh```
+
+#### For all Linux distros and Mac
+
+```pip3 install rsbcli```
+
+### Windows
+
+```pip install rsbcli``` 
+
+## How to use
+
+### Windows
+
+Open powershell and type ```rsb```
+
+#### To open a website regularly:
+
+Type ```rsb open (Enter your url)```
+
+#### To open a preset website 
+
+Type ```rsb open_pre (keyword)```
+
+#### To see the preset keywords
+
+Type ```rsb presets```
+
+#### Linux/Mac
+
+Open the terminal and type ```rsb```
+
+#### To open a website regularly:
+
+Type ```rsb open (Enter your url)```
+
+#### To open a preset website 
+
+Type ```rsb open_pre (keyword)```
+
+#### To see the preset keywords
+
+Type ```rsb presets```### Softwares used
+
+## Developer Tools
+
+Visual Studio Code - https://github.com/Microsoft/vscode
+
+Python 3.9.1
+
+Special Thanks to https://github.com/arghyagod-coder
