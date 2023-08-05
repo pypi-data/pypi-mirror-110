@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+hf_lfs.egg-info/PKG-INFO
+hf_lfs.egg-info/SOURCES.txt
+hf_lfs.egg-info/dependency_links.txt
+hf_lfs.egg-info/entry_points.txt
+hf_lfs.egg-info/top_level.txt
+src/lfs/__init__.py
+src/lfs/git-lfs
+src/lfs/lfs_wrapper.py
