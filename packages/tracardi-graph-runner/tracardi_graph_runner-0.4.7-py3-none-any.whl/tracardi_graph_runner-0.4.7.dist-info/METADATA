@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tracardi-graph-runner
+Version: 0.4.7
+Summary: Tracardi Graph Runner
+Home-page: UNKNOWN
+Author: Risto Kowaczewski
+Author-email: risto.kowaczewski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic
+Requires-Dist: asyncio
+Requires-Dist: tracardi-plugin-sdk
+Requires-Dist: dotty-dict
+
+# Graph Runner
+
+This library is part of TRACARDI Customer Data Platform. Please read the license.
+
