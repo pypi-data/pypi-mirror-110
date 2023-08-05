@@ -1,0 +1,9 @@
+repo_cloner/__init__.py,sha256=L-Q12mYE0yywosuLuKjIFu6tNNCYHtrzOtELmjksQG8,131
+repo_cloner/cloner.py,sha256=aHxL10aDnw0Gk0We0AsGIXfNoJLUOG9pWFSk2u1kSns,3384
+repo_cloner/yml_reader.py,sha256=bnh2hVs3sXuY8T1aVW04gg5ekj4S1vA6rWVE67a01mg,512
+repo_cloner-1.0.0.dist-info/LICENSE,sha256=i23T3PRmjuvO4ENrdiI7WyMHF74t2YSyL7d3xrn5smQ,1092
+repo_cloner-1.0.0.dist-info/METADATA,sha256=4FnlNsgtqZnybuDDcouUarhMX0-gtBrtlMGK1dzGfqM,2479
+repo_cloner-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+repo_cloner-1.0.0.dist-info/entry_points.txt,sha256=g4bpH9QJjI2tW1BFUnSW7-FPxbHoKglGuW0v6fqDvFc,57
+repo_cloner-1.0.0.dist-info/top_level.txt,sha256=EAYiY87LmnsJeqxpZKigEH6NPTq_kygqtr0_hcvi_JI,12
+repo_cloner-1.0.0.dist-info/RECORD,,
