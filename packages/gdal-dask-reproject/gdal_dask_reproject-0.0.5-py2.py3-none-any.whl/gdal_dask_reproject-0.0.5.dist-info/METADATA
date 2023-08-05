@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gdal-dask-reproject
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: param
+Requires-Dist: pyct (<=0.4.6)
+Requires-Dist: dask[complete]
+Requires-Dist: pyproj
+Requires-Dist: rasterio
+Requires-Dist: rioxarray
+
+UNKNOWN
+
+
