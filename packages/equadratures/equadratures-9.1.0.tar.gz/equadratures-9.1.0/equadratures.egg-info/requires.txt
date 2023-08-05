@@ -1,0 +1,7 @@
+numpy
+scipy>=0.15.0
+matplotlib
+seaborn
+
+[cvxpy]
+cvxpy>=1.1
