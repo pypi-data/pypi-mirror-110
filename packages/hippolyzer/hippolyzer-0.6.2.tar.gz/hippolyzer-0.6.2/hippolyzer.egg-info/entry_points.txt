@@ -1,0 +1,4 @@
+[console_scripts]
+hippolyzer-cli = hippolyzer.apps.proxy:main
+hippolyzer-gui = hippolyzer.apps.proxy_gui:gui_main
+

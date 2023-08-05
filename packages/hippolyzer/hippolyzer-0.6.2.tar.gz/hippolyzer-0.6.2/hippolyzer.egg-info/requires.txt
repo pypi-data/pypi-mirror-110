@@ -1,0 +1,13 @@
+llbase>=1.2.5
+defusedxml
+aiohttp<4.0.0
+recordclass
+lazy-object-proxy
+arpeggio
+idna<3,>=2.5
+mitmproxy<7.0.0
+ptpython<4.0
+Glymur<1.0
+numpy<2.0
+pyside2<6.0
+qasync
