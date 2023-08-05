@@ -1,0 +1,16 @@
+# -*- coding:utf-8 -*-
+# author: liuxiaobo
+# time: 2021/6/19 16:31
+from setuptools import setup
+
+setup(
+    name='lxbtools',  # 需要打包的名字,即本模块要发布的名字
+    version='v1.0',  # 版本
+    description='Common tools',  # 简要描述
+    py_modules=['lxbtools'],  # 需要打包的模块
+    author='liuxiaobo',  # 作者名
+    author_email='1369924600@qq.com',  # 作者邮件
+    url='https://gitee.com/liuxiaobopro/lxbtools',  # 项目地址,一般是代码托管的网站
+    # requires=['requests','urllib3'], # 依赖包,如果没有,可以不要
+    license='MIT'
+)
