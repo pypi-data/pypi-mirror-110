@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: refacto
+Version: 0.0.2
+Summary: Small ClI python tool to refactor python projects.
+Home-page: UNKNOWN
+Author: Yann Mentha
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pytest
+Requires-Dist: GitPython
+Requires-Dist: isort
+Requires-Dist: autopep8
+Requires-Dist: click
+Requires-Dist: termcolor
+Requires-Dist: autoflake
+
+UNKNOWN
+
