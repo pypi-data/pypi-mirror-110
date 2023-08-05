@@ -1,0 +1,45 @@
+apiVersion: v1
+kind: worker
+metadata:
+  name: ossreport
+spec:
+  risk:
+    license:
+      critical:
+      high:
+        permissions:
+          - commercial-use
+          - modifications
+          - distribution
+          - patent-use
+          - private-use
+        conditions:
+          - include-copyright
+          - document-changes
+          - disclose-source
+          - same-license
+        limitations:
+          - liability
+          - warranty
+      medium:
+        permissions:
+        conditions:
+        limitations:
+      low:
+        permissions:
+          - commercial-use
+          - modifications
+          - distribution
+          - patent-use
+          - private-use
+        conditions:
+          - include-copyright
+          - document-changes
+        limitations:
+          - trademark-use
+          - liability
+          - warranty
+      none:
+        permissions:
+        conditions:
+        limitations:
