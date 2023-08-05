@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dframeio
+Version: 0.2.0
+Summary: Read and write dataframes anywhere.
+Home-page: https://github.com/chr1st1ank/dataframe-io
+License: Apache-2.0
+Author: Christian Krudewig
+Author-email: chr1st1ank@krudewig-online.de
+Requires-Python: >=3.7.1,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: pyarrow
+Provides-Extra: test
+Requires-Dist: lark-parser (>=0.11.3,<0.12.0)
+Requires-Dist: pandas (>=1.0.0,<2.0)
+Requires-Dist: pyarrow (>=4.0.0,<5.0.0); extra == "pyarrow"
+Description-Content-Type: text/markdown
+
+# dataframe-io
+
+
+
+[<img src="https://img.shields.io/pypi/v/dframeio.svg" alt="Release Status">](https://pypi.python.org/pypi/dframeio)
+[<img src="https://github.com/chr1st1ank/dataframe-io/actions/workflows/test.yml/badge.svg?branch=main" alt="CI Status">](https://github.com/chr1st1ank/dataframe-io/actions)
+[![codecov](https://codecov.io/gh/chr1st1ank/dataframe-io/branch/master/graph/badge.svg?token=4oBkRHXbfa)](https://codecov.io/gh/chr1st1ank/dataframe-io)
+
+
+Read and write dataframes anywhere
+
+
+* Documentation: <https://chr1st1ank.github.io/dataframe-io/>
+* License: Apache-2.0
+* Status: Initial development
+
+## Features
+
+* TODO
+
