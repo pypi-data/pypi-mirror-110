@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pyannotators-zeroshotclassifier
+Version: 0.4.1
+Summary: Annotator based on Huggingface transformer
+Home-page: https://github.com/oterrier/pyannotators_zeroshotclassifier/
+Author: Olivier Terrier
+Author-email: olivier.terrier@kairntech.com
