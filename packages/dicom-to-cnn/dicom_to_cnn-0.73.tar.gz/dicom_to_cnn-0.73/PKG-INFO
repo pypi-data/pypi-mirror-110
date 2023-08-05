@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: dicom_to_cnn
+Version: 0.73
+Summary: Python Library to handle Input / Output conversion in Dicom <=> Convolutional Neural Network 
+Home-page: https://github.com/wendyrvllr/Dicom-To-CNN
+Author: 
+License: UNKNOWN
+Download-URL: https://github.com/wendyrvllr/Dicom-To-CNN/archive/refs/tags/73.tar.gz
+Description: # Dicom-To-CNN
+        
+        Install : pip install dicom-to-cnn 
+        
+        Features : 
+        - Description of Series content in a huge dataset of DICOM (output JSON descriptor for each series containings main DICOM tags).
+        - Conversion  :
+          - Dicom to Nifti
+          - Mask to RTSS and DICOMSeg
+          - RTSS to mask
+        - PET/CT
+          - Conversion Bqml/Counts to SUV and SUL
+          - Fusion
+        
+        TODO : DicomSeg To mask
+        
+        #Maintainer  : Salim Kanoun
+        #Contributors : Thomas Trouillard, Wendy Revailler
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
