@@ -1,0 +1,10 @@
+rgbw_colorspace_converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbw_colorspace_converter/colors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgbw_colorspace_converter/colors/converters.py,sha256=y6SbnlweAI9_8q5sScB0S_HG9ju3uGne1EtWuZfVem4,13715
+rgbw_colorspace_converter/colors/util/__init__.py,sha256=A3S_F6FR25_Yu48a7YMYl6IDfq2T85XJJyn7PbtPwTQ,663
+rgbw_colorspace_converter/colors/util/morph.py,sha256=XgUUvHFKHa02KHdoaQflgossWzl3hi0Aue2qNCFrIpY,4196
+rgbw_colorspace_converter-0.0.1.dist-info/LICENSE,sha256=IhOPKM4l1FCQtI1AjQ6F9r8ZGLiTtzkfYuhjKh9RGrQ,1067
+rgbw_colorspace_converter-0.0.1.dist-info/METADATA,sha256=iih4HbdOzA3J6-BDetildrpFrohEp_Z64PzYTMEIym0,652
+rgbw_colorspace_converter-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rgbw_colorspace_converter-0.0.1.dist-info/top_level.txt,sha256=BfMHBTLYKgGGJe4sNrqtnD_3i6JdldmSmlh28OhAXdE,26
+rgbw_colorspace_converter-0.0.1.dist-info/RECORD,,
