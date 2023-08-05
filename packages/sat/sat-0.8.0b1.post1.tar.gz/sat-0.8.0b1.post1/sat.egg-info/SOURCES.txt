@@ -1,0 +1,6 @@
+setup.py
+sat.egg-info/PKG-INFO
+sat.egg-info/SOURCES.txt
+sat.egg-info/dependency_links.txt
+sat.egg-info/requires.txt
+sat.egg-info/top_level.txt
