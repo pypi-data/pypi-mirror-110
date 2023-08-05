@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: helloworld-mja-202106
+Version: 0.0.1
+Summary: Say hello!
+Home-page: https://github.com/minajamshidi/helloworld
+Author: Mina Jamshidi
+Author-email: minajamshidi91@gmail.com
+License: UNKNOWN
+Description: # Hello World
+        
+        This is an example project demonstratinf how to publish a python module to PyPI
+        
+        ## usage
+        ```python
+        from helloworld import hello_name
+        
+        # Generate "Hello World!
+        hello_name()
+        ```
+        
+        # Developing Hello world:
+        
+        ```bash
+        $ pipe install -e .[dev]
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
