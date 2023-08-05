@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./PythonReact/__init__.py
+./PythonReact/console.py
+./pythonreact.egg-info/PKG-INFO
+./pythonreact.egg-info/SOURCES.txt
+./pythonreact.egg-info/dependency_links.txt
+./pythonreact.egg-info/requires.txt
+./pythonreact.egg-info/top_level.txt
