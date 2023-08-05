@@ -1,0 +1,4 @@
+[console_scripts]
+cmlbib-export = cmlbib:export
+cmlbib-sanitize = cmlbib:cli
+
