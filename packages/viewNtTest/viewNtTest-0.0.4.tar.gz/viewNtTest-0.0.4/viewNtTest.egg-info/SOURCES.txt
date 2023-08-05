@@ -1,0 +1,12 @@
+LICENCE
+README.txt
+setup.py
+menu/__init__.py
+menu/get_view.py
+menu/menu/__init__.py
+menu/menu/menu_widget.py
+menu/menu/view.py
+viewNtTest.egg-info/PKG-INFO
+viewNtTest.egg-info/SOURCES.txt
+viewNtTest.egg-info/dependency_links.txt
+viewNtTest.egg-info/top_level.txt

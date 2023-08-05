@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: viewNtTest
+Version: 0.0.4
+Summary: test_ajout_pip
+Home-page: https://github.com/NewtonExpertise/test_pip.git
+Author: Scyther
+Author-email: leroy_mathieu@live.fr
+License: GPL V3
+Keywords: test packages views
+Platform: UNKNOWN
+Classifier: Topic :: Education
+License-File: LICENCE
+
+Test pour la crÃ©ation d'un package permettant de faciliter le dev des views tkinter.
+
