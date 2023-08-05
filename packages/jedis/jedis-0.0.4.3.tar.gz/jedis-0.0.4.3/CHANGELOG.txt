@@ -1,0 +1,9 @@
+Change Log
+==========
+
+0.0.3 (16/06/2021)
+------------------
+- First release
+- Fix bugs
+- Add `keys` function (fix bugs)
+- add `load` and `dump` functions (`These two functions already existed but could not be used in code. Now you can use these`)
