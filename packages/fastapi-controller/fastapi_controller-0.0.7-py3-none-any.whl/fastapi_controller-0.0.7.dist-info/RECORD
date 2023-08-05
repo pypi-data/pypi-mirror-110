@@ -1,0 +1,9 @@
+fastapi_controller/__init__.py,sha256=xDEAHnayxgeuWDSM5fDwHzwghZHeXOf32Rp4gzBPXeo,115
+fastapi_controller/cbv.py,sha256=t1rqbAjrPMZxPgq8CCWTe32f9mqPjRa9N-2gEGlCx6E,4381
+fastapi_controller/controller.py,sha256=tp_xZMNuV-hjTK6xeW1bqnhViTgoO25XdO8YJQFdemA,3560
+fastapi_controller/controller_utils.py,sha256=iMMLK_OUcpvxHPUVJwOlbjjA7DJ638ujjP_X6awhmi4,7035
+fastapi_controller-0.0.7.dist-info/LICENSE,sha256=qjOpESwjFR4BwpKnRr_yXJLo0phnmexcZK4TBEsyjxo,1069
+fastapi_controller-0.0.7.dist-info/METADATA,sha256=v2fbc4JQC0xibgLpdvwFMpSsxD5X5ZS-tf8Tmkm5dUw,3333
+fastapi_controller-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fastapi_controller-0.0.7.dist-info/top_level.txt,sha256=ridGIYVJrNRB21qaUAU4vibmHwT6xJ4OftdIDMW_ngc,19
+fastapi_controller-0.0.7.dist-info/RECORD,,
