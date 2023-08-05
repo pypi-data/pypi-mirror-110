@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+storas/__init__.py
+storas/commands.py
+storas/main.py
+storas/manifest.py
+storas/py.typed
+storas.egg-info/PKG-INFO
+storas.egg-info/SOURCES.txt
+storas.egg-info/dependency_links.txt
+storas.egg-info/requires.txt
+storas.egg-info/top_level.txt
