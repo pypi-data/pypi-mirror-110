@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sfinx
+Version: 0.0.1.dev1
+Summary: Sfinx helps CATS to do mighty things
+Home-page: UNKNOWN
+Author: CATS team
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# Sfinx
+Helps CATS to do mighty things...
+
+
