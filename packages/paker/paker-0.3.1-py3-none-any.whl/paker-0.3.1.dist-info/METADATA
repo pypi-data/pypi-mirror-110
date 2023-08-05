@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: paker
+Version: 0.3.1
+Summary: Serialize Python modules and packages
+Home-page: https://github.com/desty2k/paker
+Author: Wojciech Wentland
+Author-email: wojciech.wentland@int.pl
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+
+UNKNOWN
+
+
