@@ -1,0 +1,11 @@
+robotframework
+httpx[http2]>=0.18.2
+requests
+
+[test]
+robotframework>=3.2.1
+pytest
+flask
+six
+coverage
+flake8

@@ -1,0 +1,11 @@
+httpx[http2]>=0.18.2
+robotframework>=3.2.1
+requests
+
+# Tests
+pytest
+flask
+six;      python_version >= '3.0'
+coverage
+flake8
+mock;     python_version < '3.0'
