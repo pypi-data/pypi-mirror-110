@@ -1,0 +1,3 @@
+[console_scripts]
+temperaturaConverter=temperaturaconverter.temperaturaConverter:F_to_K,C_to_R,C_to_F
+
