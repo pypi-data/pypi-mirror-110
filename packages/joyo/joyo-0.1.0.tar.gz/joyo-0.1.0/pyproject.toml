@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "joyo"
+version = "0.1.0"
+description = ""
+authors = ["yassu <yassu0320.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+beautifulsoup4 = "^4.9.3"
+flake8 = "^3.8.4"
+flake8-quotes = "^3.2.0"
+invoke = "^1.5.0"
+ipython = "^7.20.0"
+isort = "^5.7.0"
+mypy = "^0.902"
+pudb = "^2020.1"
+py-term = "^0.6"
+requests = "^2.25.1"
+toml = "^0.10.2"
+yapf = "^0.30.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
