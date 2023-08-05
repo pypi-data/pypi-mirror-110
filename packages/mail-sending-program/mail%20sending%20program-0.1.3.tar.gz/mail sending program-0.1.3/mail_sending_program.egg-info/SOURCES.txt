@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+gmail_sender/__init__.py
+gmail_sender/mail_sender_program.py
+mail_sending_program.egg-info/PKG-INFO
+mail_sending_program.egg-info/SOURCES.txt
+mail_sending_program.egg-info/dependency_links.txt
+mail_sending_program.egg-info/top_level.txt
