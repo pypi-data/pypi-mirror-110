@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ITHscore
+Version: 0.1.4
+Summary: package for calculating ITHscore from CT image
+Home-page: https://github.com/pypa/sampleproject
+Author: Jackie Li
+Author-email: lijiaqi199609@sina.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a package used to calculate ITHscore from CT image.  
+Details of this package is available on GitHub.
+
