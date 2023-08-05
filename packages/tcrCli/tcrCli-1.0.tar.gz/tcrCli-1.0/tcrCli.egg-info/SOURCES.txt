@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+tcr/__init__.py
+tcr/main.py
+tcr/conf/__init__.py
+tcr/conf/cmd.conf
+tcr/conf/tcr.conf
+tcrCli.egg-info/PKG-INFO
+tcrCli.egg-info/SOURCES.txt
+tcrCli.egg-info/dependency_links.txt
+tcrCli.egg-info/entry_points.txt
+tcrCli.egg-info/requires.txt
+tcrCli.egg-info/top_level.txt
