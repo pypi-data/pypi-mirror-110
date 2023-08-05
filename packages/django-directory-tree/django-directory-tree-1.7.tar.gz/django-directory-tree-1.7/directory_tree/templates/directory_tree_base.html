@@ -1,0 +1,148 @@
+{% load static %}
+<html>
+    <head>
+        <title>Directory Tree</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+        <!-- <script src="https://fb.me/react-15.2.0.js"></script>
+        <script src="https://fb.me/react-dom-15.2.0.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script> -->
+
+        {% block head %}{% endblock head %}
+        {% block css %}{% endblock %}
+        {% block script %}{% endblock script %}
+
+        <style>
+            .navbar-custom {
+                background-color: #2D3E52;   
+            }
+            .navbar-brand {
+                color: #fff;    
+            }
+        </style>
+        <script>
+            const icons_list = {
+                folder : {
+                    class: "bi bi-folder-fill",
+                    style: "color: #FFBF40;"
+                },
+                folder_open : {
+                    class: "bi bi-folder2-open",
+                    style: "color: #FFBF40;"
+                },
+                txt : {
+                    class: "bi bi-file-earmark-text",
+                    style: "color: #7d7f81;"
+                },
+                pdf : {
+                    class: "bi bi-file-pdf",
+                    style: "color: #e44444;"
+                },
+                image : {
+                    class: "bi bi-file-earmark-image",
+                    style: "color: #5697d3;"
+                },
+                video : {
+                    class: "bi bi-file-earmark-play",
+                    style: "color: #4ba153;",
+                },
+                music : {
+                    class: "bi bi-file-music",
+                    style: "color: #ffd98e;",
+                },
+                zip : {
+                    class: "bi bi-file-earmark-zip",
+                    style: "color: #bb1f1f;",
+                }
+            }
+            const tag_icon = (icon_class="bi bi-folder2", style="") => {
+                let html = `<i class="${icon_class}" style="margin: auto 0; ${style}"></i>`
+                return html
+            }
+
+            const list_key_units = {
+                image : "jpg jpeg jpejif jfif jfi png gif",
+                video : "mp4 aov",
+                music : "mp3",
+                pdf : "pdf",
+                zip : "zip zipx rar",
+            }
+            const find_unit_file = (file) => {
+                const defaul_icon = "txt"
+                let temp = file.split('.')
+                if (temp.length <= 1){
+                    return defaul_icon
+                }
+                let unit = temp[temp.length-1]
+                for (const [key, value] of Object.entries(list_key_units)) {
+                    if (value.split(" ").indexOf(unit.toLowerCase()) != -1){
+                        return key
+                    }
+                }
+                return defaul_icon
+            }
+            const generate_icon = ({icon_key="folder", file_name=null}) => {
+                let icon = {}
+                if (file_name){
+                    let key_result = find_unit_file(file_name)
+                    icon = icons_list[key_result]
+                }
+                else icon =  icons_list[icon_key]
+                
+                return tag_icon(icon.class, icon.style || "")
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <a class="navbar-brand" style="color:#fff" href="#">
+                <i class="bi bi-folder-symlink-fill" style="margin: auto 0; color: #FFBF40; font-size: 25px; margin-right: 5px;"></i>
+                Directory Tree
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">    
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                    <div class="btn-group nav-item dropdown my-2 my-lg-0"></li>
+                        {% if user.username %}
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ user.username }}
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg-right">
+                            {% if user.is_superuser %}
+                                <a href="/admin" class="dropdown-item">Admin</a>
+                            {% endif %}
+                        </div>
+                        {% else %}
+                            <button type="button" id="btn-login" class="btn btn-secondary">
+                                Login
+                            </button>
+                        {% endif %}
+                    </div>
+            </div>
+        </nav>
+        <div class="p-4">
+        {% block content %}
+        {% endblock %}
+        </div>
+
+        <script>
+            $("#btn-login").on("click", ()=>{
+                window.location.href = "/admin/login/?next=/dir_tree/";
+            })
+        </script>
+    </body>
+</html>

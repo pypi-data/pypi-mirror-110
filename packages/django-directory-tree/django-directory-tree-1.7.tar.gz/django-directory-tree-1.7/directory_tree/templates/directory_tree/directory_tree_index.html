@@ -1,0 +1,270 @@
+{% extends 'directory_tree_base.html' %}
+
+{% block css %}
+<style>
+    body {
+        background: #212529;
+        color: white;
+    }
+    .item {
+        display: flex;
+        height: 26px;    
+    }
+    .prefix-right {
+        margin-top: 13px;
+        margin-right: 5px;
+        width: 10px;
+        border-top: 1px solid;
+    }
+    .text-item {
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+    }
+    .container-main {
+        position: relative;
+    }
+    .container-folder-innder {
+        margin-left: 30px;
+    }
+    .prefix-line {
+        position: absolute;
+        border-left: 1px solid;
+        height: 50%;
+    }
+
+    .container-folder-collap {
+        display: none;
+        overflow: hidden;
+    }
+    .collapsible {
+        cursor: pointer;
+    }
+    .container-collap {
+        position: relative;
+        border-left: 1px solid;
+    }
+    .container-collap-last {
+        position: relative;
+    }
+    .container-item {
+        position: relative;
+        border-left: 1px solid;
+    }
+    .container-item-last {
+        position: relative;
+    }
+    .folder-font {
+        font-size: 12px; 
+        font-weight: bold;
+    }
+    .file-font {
+        font-size: 12px; 
+    }
+
+    a.file-item {
+        color: white;
+        text-decoration: none;
+    }
+    a.file-item:hover {
+        color: antiquewhite;
+    }
+    .font-size-file {
+        font-size: 10px;
+        color: #b1b1b1;
+    }
+</style>
+{% endblock %}
+{% block content %}
+    {% if error %}
+        {{error}}
+    {% endif %}
+    <div id="main-id"></div>
+
+    <!-- <div id="react-app"></div> -->
+{% endblock %}
+{% block script %}
+<script>
+    // const folder = {{ folder_tree|safe }};
+    const container_collap = (item) => {
+        return `
+            <div class="container-collap container-folder-collap">
+                <div class="container-folder-innder" id="${item.key_id}-wrapper">
+                    <spna class="font-size-file">loading ...</span>
+                </div>
+            </div>
+        `
+    }
+    const container_collap_last = (item) => {
+        return `
+            <div class="container-collap-last container-folder-collap">
+                <div class="container-folder-innder" id="${item.key_id}-wrapper">
+                    <spna class="font-size-file">loading ...</span>
+                </div>
+            </div>
+        `
+    }
+    const item_content = (item, isCollap) => {
+        let html = item.name
+        let url = item.url
+        let target = ""
+        if (url !== '#') target = `target="_blank"`
+        if (!isCollap) html = `<a href="${url}" class="file-item" ${target}>${item.name}</a>`
+        return `
+            <div class="item">
+                <div class="prefix-right"></div>
+                ${isCollap ? generate_icon({icon_key: "folder"}) : generate_icon({file_name : item.name})}
+                <div class="text-item">
+                    <span class="container-text ${isCollap ? "folder-font" : "file-font"}">${html} ${isCollap ? "/" : `<span class="font-size-file"> ( ${item.size} ) ${item.from ? `${item.from}` : ""}</span>`}</span>
+                </div>
+            </div>
+        `
+    }
+    const container_item = (item, isCollap=false) => {
+        return `
+            <div class="container-item ${isCollap && "collapsible"}" id="${isCollap && `${item.key_id}-folder`}" path_folder="${item.url}">
+                ${item_content(item, isCollap)}
+            </div>
+        `
+    }
+    const container_item_last = (item, isCollap=false) => {
+        return `
+            <div class="container-item-last ${isCollap && "collapsible"}" id="${isCollap && `${item.key_id}-folder`}" path_folder="${item.url}">
+                <div class="prefix-line"></div>
+                ${item_content(item, isCollap)}
+            </div>
+        `
+    }
+
+
+    const is_file_type = (item) => {
+        if(item.type === "file") return true
+        return false
+    }
+
+    const generate_html = (data) => {
+        let last_key = data.length - 1;
+        let html = ''
+        for (let index = 0; index < data.length; index++) {
+            value = data[index]
+            if (is_file_type(value)) {
+                let html_item_temp = ''
+                if (last_key == index){html_item_temp = container_item_last(value)}
+                else{html_item_temp = container_item(value)}
+                html = html + html_item_temp
+            }else{
+                let wrapper_collap_tmp = ''
+                let html_item_temp = ''
+                if (last_key == index){
+                    html_item_temp = container_item_last(value, true)
+                    wrapper_collap_tmp = container_collap_last(value)
+                }else{
+                    html_item_temp = container_item(value, true)
+                    wrapper_collap_tmp = container_collap(value)
+                }
+                html = html + html_item_temp + wrapper_collap_tmp
+            }
+        }
+        return html
+    }
+
+    $(function() {
+        init()
+        after()
+    });
+
+    function addEventListener(data){
+        for (let index = 0; index < data.length; index++) {
+            let item = data[index]
+            if(item.type !== "folder") return
+            let element_id = `${item.key_id}-folder` 
+            let element = document.getElementById(element_id)
+            element.addEventListener("click", function() {
+                this.classList.toggle("active");
+                $( this ).find('i').toggleClass('bi-folder2-open bi-folder')
+                let content = this.nextElementSibling;
+                let element_wrapper_id = `${item.key_id}-wrapper`
+                // let element_wrapper = document.getElementById(element_wrapper_id)
+
+                if (content.style.display === "block") {
+                    loading_html(element_wrapper_id)
+                    content.style.display = "none";
+                } else {
+                    path_folder = this.getAttribute('path_folder')
+                    fetch_gen_html(element_wrapper_id, path_folder)
+                    content.style.display = "block";
+                }
+                
+            });
+        }
+    }
+
+    const get_html_first = async (path="") => {
+        let result_get = await fetch_(path)
+        await $( "#main-id" ).html(() => {
+            let result = generate_html(result_get)
+            let html = `<div class="container-main"><div style="margin-bottom: 5px;">Media /</div>${result}</div>`
+            return html
+        });
+        addEventListener(result_get)
+    }
+
+    const loading_html = (element_wrapper_id) => {
+        $( `#${element_wrapper_id}` ).html(() => {
+            let html = `
+                <spna class="font-size-file">loading ...</span>
+            `
+            return html
+        });
+    }
+    const fetch_gen_html = async (element_wrapper_id, path) => {
+        let result_get = await fetch_(path)
+        await $( `#${element_wrapper_id}` ).html(() => {
+            let result = generate_html(result_get) || `<spna class="font-size-file">empty</span>`
+            return result
+        });
+        addEventListener(result_get)
+    }
+
+    function init(){
+        get_html_first()
+    }
+
+    function after(){
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                $( this ).find('i').toggleClass('bi-folder2-open bi-folder')
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    }
+    
+    const fetch_ = async (path) => {
+        const data = {
+            path_folder : path
+        }
+        const rawResponse = await fetch('/directory_tree/get/', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                'Cookie': document.cookie
+            },
+            body: JSON.stringify(data)
+        });
+        const content = await rawResponse.json();
+        return content.list_folder
+    }
+
+</script>
+<script src="./static/js/app.js" type="text/babel"></script>
+{% endblock script %}
