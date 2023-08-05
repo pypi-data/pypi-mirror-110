@@ -1,0 +1,14 @@
+RashSetup/__init__.py,sha256=c_pzcutTa9lJwZjWVmZSPIRBYko2NypF7lGKAyrxXUg,6843
+RashSetup/RashScrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RashSetup/RashScrappers/RashScrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RashSetup/RashScrappers/RashScrappers/items.py,sha256=8NCW2Lm6H7j3C8G8fW5gy18taE42rDMT52y_UUO6yi4,269
+RashSetup/RashScrappers/RashScrappers/middlewares.py,sha256=rm-DWTQMwc1aWrJ0PNLS3PbqqyjCx39bUeZADTGIyQY,3662
+RashSetup/RashScrappers/RashScrappers/pipelines.py,sha256=6ta2q7pVuQMcrzW88bRwlhr6ajPLMLFLBPHWLKGcOi4,367
+RashSetup/RashScrappers/RashScrappers/settings.py,sha256=UVM53d2bO0R5OMCcflIH1BWi-YJMPy-TZYRV7IkHBdc,3096
+RashSetup/RashScrappers/RashScrappers/spiders/__init__.py,sha256=96Ymm6IAQcDDdbDsp1KZckxnE4x_dycEdFWAC770zQA,152
+RashSetup/RashScrappers/RashScrappers/spiders/Repo.py,sha256=K5eBCNLa9yQD7bNcWE7Ke9h_4HNLn7VH_td0WIWXhsA,2395
+RashSetup/RashScrappers/RashScrappers/spiders/Settings.py,sha256=4C905GIgQtxx33J2zxlYZ8KeYAUlchUb4PK-1CqEEqI,1190
+RashSetup/RashScrappers/scrapy.cfg,sha256=ijdCLHh3nq258bzv4iZ4K1vlsYXCjgE-HwSZ8Yp5MfU,269
+rashsetup-0.0.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+rashsetup-0.0.7.dist-info/METADATA,sha256=aROjPRC05rR8yG6BiaEIQx8GO-iJjZ7LROW8kEDz5_o,534
+rashsetup-0.0.7.dist-info/RECORD,,
