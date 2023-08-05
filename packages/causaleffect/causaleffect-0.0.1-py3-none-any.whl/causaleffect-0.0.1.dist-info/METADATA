@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: causaleffect
+Version: 0.0.1
+Summary: Computing causal effects
+Home-page: https://github.com/pedemonte96/causaleffect
+Author: Martí Pedemonte
+Author-email: pedemonte96@gmail.com
+License: UNKNOWN
+Keywords: causaleffect,causality,causation,identifiability,identification,graph
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pycairo (>=1.17.2)
+Requires-Dist: numpy (>=1.15.1)
+Requires-Dist: python-igraph (>=0.8.3)
+
+
+# causaleffect
+
+This project implements causal effect identifiability algorithms
+and provides functionality for defining and plotting
+causal diagrams.
+
+It implements both conditional and non-conditional
+causal effect queries from a DAG, and returns a hedge
+if the inputted causal effect is not identifiable.
+
+For more information, 
+please look at our [Github page](https://github.com/pedemonte96/causaleffect).
+
+
