@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gpfetcher
+Version: 0.1
+Summary: A python package that fetches your public projects(repos) from github
+Home-page: UNKNOWN
+Author: Gautam Chandra Saha
+Author-email: devgautam1231@gmail.com
+License: UNKNOWN
+Description: A python package that fetches your public projects(repos) from github repositories and generates a JSON file.
+Keywords: python,github,projects,repositories,JSON
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
