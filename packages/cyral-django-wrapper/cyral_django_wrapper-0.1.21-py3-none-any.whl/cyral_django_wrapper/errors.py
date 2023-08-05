@@ -1,0 +1,2 @@
+class IdentityNotSet(Exception):
+    pass
