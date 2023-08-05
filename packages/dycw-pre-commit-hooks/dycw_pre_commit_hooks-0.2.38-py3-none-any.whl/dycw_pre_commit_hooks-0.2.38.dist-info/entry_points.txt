@@ -1,0 +1,3 @@
+[console_scripts]
+check-settings=dycw_pre_commit_hooks.check_settings:main
+
