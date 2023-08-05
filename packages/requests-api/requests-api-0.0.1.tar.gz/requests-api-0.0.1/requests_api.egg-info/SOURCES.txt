@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+requests_api/__init__.py
+requests_api/api.py
+requests_api/auth.py
+requests_api/exception.py
+requests_api/retries.py
+requests_api/utils.py
+requests_api/version.py
+requests_api.egg-info/PKG-INFO
+requests_api.egg-info/SOURCES.txt
+requests_api.egg-info/dependency_links.txt
+requests_api.egg-info/requires.txt
+requests_api.egg-info/top_level.txt
