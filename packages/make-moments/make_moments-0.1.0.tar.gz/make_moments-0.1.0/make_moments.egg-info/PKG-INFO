@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: make-moments
+Version: 0.1.0
+Summary: Development Status :: 1 - Beta
+Home-page: https://github.com/PeterKamphuis/make_moments
+Author: P. Kamphuis
+Author-email: peterkamphuisastronomy@gmail.com
+License: GNU GPL v3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# moments
+A stand alone version of the pyFAT make_moments function. The function can be imported to your python code or you can run it by itself from command line after a pip install:
+
+  pip install make_moments
+
+use as:
+  make_moments filename=Cub.fits mask=mask.fits
+
+If the maps already exist add overwrite=True
+
+For an overview of the possible inout type make_moments -e to print the default yaml file.
+
+to configure setting from a yaml file 
+
+  make_moments -c my_input_file.yml
+
+
