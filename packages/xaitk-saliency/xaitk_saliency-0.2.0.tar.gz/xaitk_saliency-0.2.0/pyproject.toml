@@ -1,0 +1,88 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+###############################################################################
+[tool.poetry]
+name = "xaitk_saliency"
+# REMEMBER: `distutils.version.*Version` types can be used to compare versions
+# from strings like this.
+# This package prefers to use the strict numbering standard when possible.
+version = "0.2.0"
+description = """\
+    Visual saliency map generation interfaces and baseline implementations \
+    for explainable AI."""
+license = "BSD-3-Clause"
+authors = ["Kitware, Inc. <xaitk@kitware.com>"]
+readme = "README.md"
+repository = "https://github.com/XAITK/xaitk-saliency"
+documentation = "https://xaitk-saliency.readthedocs.io/"
+classifiers = [
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: MacOS :: MacOS X',
+        'Operating System :: Unix',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+matplotlib = "^3.4.1"
+numpy = "^1.20.3"
+opencv-python-headless = "^4.5.1"
+Pillow = "^8.2.0"
+scikit-image = "^0.18.1"
+scikit-learn = "^0.24.2"
+smqtk-core = ">=0.18.0"
+smqtk-dataprovider = ">=0.16.0"
+smqtk-descriptors = ">=0.16.0"
+tqdm = "^4.60.0"
+scipy = "^1.6.3"
+
+[tool.poetry.dev-dependencies]
+# CI
+flake8 = "^3.9.0"
+flake8-mutable = "^1.2.0"
+mypy = "^0.812"
+# Docs
+# - Also see: `docs/readthedocs-reqs.txt` for use by RTD
+Sphinx = "^3.5.3"
+sphinx-rtd-theme = "^0.5.1"
+sphinx-prompt = "^1.4.0"
+livereload = "^2.6.3"
+# Testing
+coverage = "^5.5"
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+# Utility
+ipython = "^7.22.0"
+
+[tool.poetry.plugins."smqtk_plugins"]
+# Add implementation sub-module exposure here.
+"xaitk_saliency.impls.vis_sal_classifier.occlusion_scoring" = "xaitk_saliency.impls.vis_sal_classifier.occlusion_scoring"
+"impls.perturb_image.occlusion" = "xaitk_saliency.impls.perturb_image.sliding_window"
+"impls.perturb_image.rise" = "xaitk_saliency.impls.perturb_image.rise"
+"impls.vis_sal_similarity.similarityscoring" = "xaitk_saliency.impls.vis_sal_similarity.similarityscoring"
+###############################################################################
+[tool.pytest.ini_options]
+addopts = [
+    "-lv",                  # Show local in trace-backs.
+    "--doctest-modules",    # Increased verbosity.
+    "--tb=long",            # Trace-back print mode.
+    "--cov=xaitk_saliency", # Cover our package specifically
+    "--cov-report=term",    # Coverage report to terminal
+    "--cov-report=xml:coverage.xml",
+]
+testpaths = [
+    "tests",
+    "xaitk_saliency",
+]
+doctest_optionflags = [
+    "NORMALIZE_WHITESPACE",
+    "IGNORE_EXCEPTION_DETAIL",
+]
