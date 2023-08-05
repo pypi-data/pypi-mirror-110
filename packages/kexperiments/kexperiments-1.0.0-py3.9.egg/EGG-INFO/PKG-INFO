@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kexperiments
+Version: 1.0.0
+Summary: A Python package for experimentation at KOHO
+Home-page: https://github.com/kohofinancial/kexperiments
+Author: Amar Mohabir
+Author-email: amar@koho.ca
+License: UNKNOWN
+Description: A Python package for utilizing experimentation methods in tests, 
+                                sample size calculations, inference, and sampling.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
