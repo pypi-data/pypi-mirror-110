@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyicub
+Version: 3.0
+Summary: Developing iCub applications using Python
+Home-page: http://github.com/s4hri/pyicub
+Author: Davide De Tommaso
+Author-email: davide.detommaso@iit.it
+License: GPL version 3
+Description: UNKNOWN
+Platform: UNKNOWN
