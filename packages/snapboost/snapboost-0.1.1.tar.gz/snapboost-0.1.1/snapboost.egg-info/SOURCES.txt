@@ -1,0 +1,15 @@
+Dockerfile
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+snapboost/__init__.py
+snapboost/hnbm.py
+snapboost/snapboost.py
+snapboost/utils.py
+snapboost.egg-info/PKG-INFO
+snapboost.egg-info/SOURCES.txt
+snapboost.egg-info/dependency_links.txt
+snapboost.egg-info/top_level.txt
