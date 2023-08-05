@@ -1,0 +1,104 @@
+name: hyriver-dev
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.8
+  - setuptools
+
+  # async_retriever
+  - aiodns
+  - aiohttp
+  - aiohttp-client-cache
+  - aiosqlite
+  - brotlipy
+  - cchardet
+  - cytoolz
+  - nest-asyncio
+  - orjson
+
+  # pygeoogc deps
+  - defusedxml
+  - owslib
+  - pydantic
+  - pyyaml
+  - pyproj
+  - requests
+  - requests-cache
+  - shapely
+  - simplejson
+  - urllib3
+
+  # pygeoutils deps
+  - affine
+  - dask
+  - geopandas
+  - netcdf4
+  - numpy
+  - rasterio
+  - xarray
+
+  # py3dep
+  - click
+
+  # pynhd deps
+  - networkx
+  - pandas
+  - pyarrow
+
+  # pygeohydro deps
+  - folium
+  - lxml
+  - matplotlib-base
+  - openpyxl
+
+  # pydaymet deps
+  - scipy
+
+  # optional deps to speed up xarray and geopandas
+  - bottleneck
+  - pygeos
+
+  # plotting deps
+  - contextily
+  - mapclassify
+  - cartopy
+  - colorcet
+  - hvplot
+  - geoviews
+
+  # dev deps
+  - codespell
+  - nox
+  - pre-commit
+  - psutil
+  - pytest
+  - pytest-clarity
+  - pytest-cov
+  - pytest-sugar
+  - pytest-xdist
+  - setuptools-scm
+
+  # IDE deps
+  - jupyterlab
+  - jupyterlab-drawio
+  - jupyterlab-git
+  - jupyterlab-python-file
+  - jupyterlab-system-monitor
+  - jupyterlab_widgets
+  - ipywidgets
+  - nb_black
+
+  - pip
+  - pip:
+    - nbmake
+    - jupyterlab-spellchecker
+    - jupyterlab-unfold
+
+    - git+https://github.com/cheginit/async_retriver.git
+    - git+https://github.com/cheginit/pygeoogc.git
+    - git+https://github.com/cheginit/pygeoutils.git
+    - git+https://github.com/cheginit/pynhd.git
+    - git+https://github.com/cheginit/py3dep.git
+    - git+https://github.com/cheginit/pydaymet.git
+    - git+https://github.com/cheginit/pygeohydro.git
