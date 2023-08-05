@@ -1,0 +1,12 @@
+RashSetup/__init__.py,sha256=UNF5hHvp5d1f6LFwz1k0hNCujpU56Bfz90RhgopnTHw,4427
+RashSetup/Scrappers/Scrappers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RashSetup/Scrappers/Scrappers/items.py,sha256=jAZ9Cs1NWUaKsiAa4LkbZiy7iatkWspZ3_ETU8nyDhE,265
+RashSetup/Scrappers/Scrappers/middlewares.py,sha256=82dDafSbrAzw_BCVUFIKQjti52fOxBzLkWCcVQq_xBw,3654
+RashSetup/Scrappers/Scrappers/pipelines.py,sha256=hQudtVwUDX_onc3yA9kjeL2WIQeA59aKY7ts2aacle8,363
+RashSetup/Scrappers/Scrappers/settings.py,sha256=ZdQ_E3H9-r1d3oczGcGbUPXg4hEyuA6SwqmzIhDrV0Q,3056
+RashSetup/Scrappers/Scrappers/spiders/__init__.py,sha256=ULwecZkx3_NTphkz7y_qiazBeUoHFnCCWnKSjoDCZj0,161
+RashSetup/Scrappers/scrapy.cfg,sha256=dgc6-LHvQwTUe-E0kdl0potyBekElMNp_A485vB8sww,261
+rashsetup-0.0.4.dist-info/LICENSE,sha256=bL1SCiaO-fFK2VPQ5xjchX0BqS0syYnJHIjDeHdyemk,1094
+rashsetup-0.0.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+rashsetup-0.0.4.dist-info/METADATA,sha256=sox622NkPQ_wc1aXT5Rthz7cm3P-vF58mmtC5TUTMuw,534
+rashsetup-0.0.4.dist-info/RECORD,,
