@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "wheel",
+    "setuptools>=42",
+    "scipy",
+    "statsmodels",
+    "numpy",
+    "pandas"
+]
+
+[project]
+name = "kexperiments"
+
+maintainers = [
+    {name = "KOHO Outliers Team"}
+]
+
+requires-python = ">=3.4"
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+source = "https://github.com/kohofinancial/kexperiments"
+
