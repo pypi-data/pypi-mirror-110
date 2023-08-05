@@ -1,0 +1,175 @@
+#!/bin/python3
+import os
+import sys
+import time
+from colorama import init, Fore
+from adminserver.main import *
+
+# Author Dylan Meca, this project is copyrighted, the license is MIT.
+
+init(autoreset=True)
+
+# Here the server class is added in a server variable
+
+server = server ()
+
+# Here is the menu, in the menu are the options to choose and here is the system that is looking for a function of the server class.
+# Do not modify the menu unless there is an error or you are adding something.
+              
+def main ():
+      
+      while True:
+          
+          try:
+             global user
+
+             os.system ("clear")
+             # creating options to choose from the menu
+             print (Fore.WHITE + "1- Show command information")
+             print (Fore.CYAN + "2- Change runlevel")
+             print (Fore.MAGENTA + "3- System information")
+             print (Fore.YELLOW + "4- Listing all users")
+             print (Fore.GREEN + "5- Add a New User")
+             print (Fore.WHITE + "6- Verify Current Login")
+             print (Fore.CYAN + "7- Verify Last Login")
+             print (Fore.MAGENTA + "8- Check CPU processes")
+             print (Fore.YELLOW + "9- Check CPU processes with strace")
+             print (Fore.GREEN + "10- Check system processes")
+             print (Fore.WHITE + "11- Destroy system process")
+             print (Fore.CYAN + "12- Check Network Traffic")
+             print (Fore.MAGENTA + "13- Check listener ports")
+             print (Fore.YELLOW + "14- Check listener ports with lsof")
+             print (Fore.GREEN + "15- Check rootkit")
+             print (Fore.WHITE + "16- Scan your website")
+             print (Fore.CYAN + "17- Exit")
+
+             user = int (input (">>> "))
+             # creating the options interpreter
+             if user == 1:
+                     os.system ("clear")
+                     c1 = input ("Command: ")
+                     server.infoc (c1)
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 2:
+                     os.system ("clear")
+                     level1 = input ("level: ")
+                     server.level (level1)
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 3:
+                     os.system ("clear")
+                     server.systeminfo ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 4:
+                     os.system ("clear")
+                     server.listusers ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 5:
+                     os.system ("clear")
+                     user1 = input ("Enter the username: ")
+                     server.addnewuser (user1)
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 6:
+                     os.system ("clear")
+                     server.verifylogin ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 7:
+                     os.system ("clear")
+                     server.verifylastlogin ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 8:
+                     os.system ("clear")
+                     server.checkcpuprocesses ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 9:
+                     os.system ("clear")
+                     pid = input ("Write the <PID Number>: ")
+                     server.checkcpuprocessesstrace (pid)
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 10:
+                     os.system ("clear")
+                     server.checksystemprocesses ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 11:
+                     os.system ("clear")
+                     d = input("WRITE THE PIP: ")
+                     server.destroyprocess (d)
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 12:
+                     os.system ("clear")
+                     server.checknetworktraffic ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 13:
+                     os.system ("clear")
+                     server.checklistenerports ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 14:
+                     os.system ("clear")
+                     server.checklistenerportslsof ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 15:
+                     os.system ("clear")
+                     server.checkrootkit ()
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 16:
+                     os.system ("clear")
+                     print (Fore.CYAN + "Do not use a website that is not yours because it is not legal, use your website because it is legal.")
+                     link = input ("Write the link: ")
+                     server.scanweb (link)
+                     print (Fore.CYAN + "Hit ENTER to get out of here")
+                     input ()
+                     os.system ("clear")
+             elif user == 17:
+                     print (Fore.WHITE + "[*] Exiting")
+                     os.system ("clear")
+                     break
+             else:
+                     print (Fore.RED + "[*] Error")
+          # messages in case of errors
+          except ValueError:
+                  print (Fore.RED + "[*] Error, the option must be numbers")
+                  sys.exit ()
+          except KeyboardInterrupt:
+                  print (Fore.WHITE + "[*] Exiting...")
+                  sys.exit ()
+          except NameError:
+                  print (Fore.RED + "[*] Error, the option I use is not available in the program code")
+                  sys.exit ()
+          except SyntaxError:
+                  print (Fore.RED + "[*] Error, the code has a syntax error")
+                  sys.exit ()
+          except TypeError:
+                  print (Fore.RED + "[*] Error, the code is misspelled")
+                  sys.exit ()
+
+if __name__ == "__main__":
+          main ()
