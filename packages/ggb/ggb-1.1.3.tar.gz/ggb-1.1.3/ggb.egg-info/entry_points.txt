@@ -1,0 +1,3 @@
+[console_scripts]
+reshalfahsi = ggb.__main__:main
+

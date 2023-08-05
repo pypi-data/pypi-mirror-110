@@ -1,0 +1,13 @@
+numpy
+Pillow
+opencv-python
+six
+
+[tests]
+pytest
+pytest-cov
+pytest-pep8
+pytest-xdist
+python-coveralls
+codecov
+coverage
