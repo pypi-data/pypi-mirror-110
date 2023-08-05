@@ -1,0 +1,3 @@
+[console_scripts]
+FiberPhotometryDataAnalysis = FiberPhotometryDataAnalysis.cli:main
+
