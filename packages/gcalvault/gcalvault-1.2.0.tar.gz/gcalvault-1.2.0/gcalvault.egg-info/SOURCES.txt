@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/gcalvault
+gcalvault.egg-info/PKG-INFO
+gcalvault.egg-info/SOURCES.txt
+gcalvault.egg-info/dependency_links.txt
+gcalvault.egg-info/requires.txt
+gcalvault.egg-info/top_level.txt
+src/USAGE.txt
+src/VERSION.txt
+src/__init__.py
+src/gcalvault.py
