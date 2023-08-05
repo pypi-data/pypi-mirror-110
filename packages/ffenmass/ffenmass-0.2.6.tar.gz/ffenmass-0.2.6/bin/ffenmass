@@ -1,0 +1,196 @@
+#!/usr/bin/env python3
+
+
+from os import system, _exit,name
+import subprocess
+import sys
+import pathlib
+from glob import glob
+from tqdm import tqdm
+from yaspin import yaspin
+import re
+
+
+
+menu = """
+ 
+    FFenmass
+    CLI Utility to encode and recreate directories with ffmpeg.
+                
+
+"""
+
+
+# Extract speed from ffmpeg stdout
+def get_speed(line:str):
+    speedlist = re.findall(r'speed=\d*', line)
+    if not speedlist:
+        return False
+    else:
+        return speedlist
+
+
+
+# Check if the Directory exists, if not create it.
+def checkmake_dir(directory: str):
+    return pathlib.Path(directory).mkdir(parents=True, exist_ok=True)
+
+# Return All files from a directory tree in a sorted list.
+def get_all_media_files_in_dir(inpath: str):
+    filesonly = []
+    for item in tqdm(list(glob(inpath + '/**/*', recursive=True))):
+        # Excluding directories. 
+        if pathlib.Path(item).is_file():
+            filesonly.append(item)
+    # We do a little bit of sorting.
+    return sorted(filesonly)
+
+
+
+def outfile_path(fullfilepath: str,inpath:str, outpath: str,extension:str):
+    # Replace from fullfilepath the inpath with the outpath
+    fullout = fullfilepath.replace(inpath,outpath)
+    # Check if parent directory of file exists, if not make it.
+    checkmake_dir(pathlib.Path(fullout).parent)
+    
+    
+    # Return the final output path with extension
+    return f"{(pathlib.Path(fullout).parent).joinpath(pathlib.Path(fullout).stem)}.{extension}"
+
+
+
+# Check if a string is a directory
+def dir_path(string):
+    if pathlib.Path(string).is_dir():
+        return string
+    else:
+        return False
+
+
+if __name__ == '__main__':
+    # Cross compatible terminal clearing
+    system('cls' if name == 'nt' else 'clear')
+
+    # prints predefined menu
+    print(menu)
+    
+    
+    # Getting arguments list
+    args = ['ffmpeg','-y']+sys.argv[1:]
+
+    #Checking if input [-i] exists
+    try:
+        inpath = args[args.index('-i') + 1]
+    except ValueError:
+            print('ERROR : Could not catch -i argument')
+            try:
+                sys.exit(0)
+            except SystemExit:
+                _exit(0)
+
+    #Checking if input/output is valid directory, if output is not create it.
+    outpath = args[len(args)-1:][0]
+    if dir_path(inpath):
+            pass
+    else:
+        print('Input is not a valid directory!')
+        try:
+            sys.exit(0)
+        except SystemExit:
+            _exit(0)
+    if dir_path(outpath):
+            pass
+    else:
+        print(f'\nCreating {outpath}, because it does not exist.\n')
+        checkmake_dir(outpath)
+
+
+
+
+    #Checking if extension is provided
+    try:
+        extension = args[args.index('-ext') + 1]
+
+        # Checking if the argument after -ext is a directory, if yes then the user did not provide an extension
+        if pathlib.Path(args[args.index('-ext') + 1]).is_file() or pathlib.Path(args[args.index('-ext') + 1]).is_dir():
+            raise ValueError
+        
+        # Deleting the non default argument
+        args.pop(args.index('-ext') + 1)
+        args.pop(args.index('-ext'))
+    
+    except (ValueError,IndexError):
+        print('ERROR : Could not catch -ext argument, please provide an extension.')
+        try:
+            sys.exit(0)
+        except SystemExit:
+            _exit(0)
+    
+    
+    # Removing the non standard argument to be ffmpeg compatible as its not required by ffmpeg.
+    
+
+
+    print(f'Input Directory : \"{inpath}\"')
+    print(f'Output Directory : \"{outpath}\"')
+    print(f'Container : \"{extension}\"')
+    print('\n')
+
+
+    #Getting files
+    print(f'Grabbing files...\n')
+    inputfiles = get_all_media_files_in_dir(inpath=inpath)
+    if inputfiles is None:
+        print('ERROR : No Files in Directory')
+        try:
+            sys.exit(0)
+        except SystemExit:
+            _exit(0)
+
+    print(f'\nFile collection complete, {len(inputfiles)} file(s) will be processed.\n\n\n')
+    
+    
+    print("---Processing---\n")
+    #Main Program Loop
+    for file in inputfiles:
+        try:
+            args[args.index('-i') + 1] = file
+
+            args[-1] = outfile_path(fullfilepath=file,inpath=inpath ,outpath=outpath,extension=extension)
+
+
+            #Checking if file doesn't already exists on the output directory
+            if not pathlib.Path(args[-1]).is_file():
+                with yaspin() as sp:
+                    ffmpeg_process = subprocess.Popen(args,stdout=subprocess.PIPE, stderr=subprocess.STDOUT,universal_newlines=True)
+                    for line in ffmpeg_process.stdout:
+                        speed = get_speed(line)
+                        if speed is not False:
+                            sp.color, sp.text = 'yellow',f"{speed[0].capitalize().replace('=',' : ')}x | {pathlib.Path(args[-1]).name}"
+
+                
+                    sp.write(f"✔ Completed : {pathlib.Path(args[-1]).name}")
+                    
+            # If it does, print out file exists and skip
+            else:
+                print(f"✗ Skipped : \"{pathlib.Path(args[-1]).name}\" Already Exists")
+
+        # On interrupt, delete last encoded file to keep output directory free of unfinished files.
+        except KeyboardInterrupt:
+            print('Keyboard Exception, cleaning up.')
+            lastfile = outfile_path(fullfilepath=file,inpath=inpath ,outpath=outpath,extension=extension)
+            if pathlib.Path(lastfile).is_file():
+                pathlib.Path(lastfile).unlink(missing_ok=True)
+            print(f'Goodbye.')
+            try:
+                
+                sys.exit(0)
+            except SystemExit:
+                _exit(0)
+
+        
+            
+    
+
+    
+
