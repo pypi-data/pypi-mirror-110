@@ -1,0 +1,11 @@
+calcwave/__init__.py,sha256=lKKFjtzkJJLqQNA4DpktTmkGsTu8JS0j3FFun9JdcXA,298
+calcwave/__main__.py,sha256=iyzUmXtPd9Uvd0_5ZuTsk3sOUp5kCE1hE4ZVE7Bk8V0,358
+calcwave/calcwave.py,sha256=AUN0O_CDMEN7ESX0t7zqT42VGxQyFmAsWj5i_kp2HDM,46849
+calcwave/dependencyWizard.py,sha256=uGX1aejgQc8D7E32egg8P3-O4ZgyigVlRE9dHSZCg_M,7662
+calcwave/macros.py,sha256=jopjunG0iwsOFTJUKYZsPMj9nlRvTq2twI1y8SSbMD8,392
+calcwave-1.2.8.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+calcwave-1.2.8.dist-info/METADATA,sha256=8OI3uWrVcyfk0zCdBX3oEdY1ekKROFQscGv4-y_Cgmw,1042
+calcwave-1.2.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+calcwave-1.2.8.dist-info/entry_points.txt,sha256=Grhwc95bmyvg-4Y_vCRHpCyfh2VdaOEKBbQDFAdLT-Y,51
+calcwave-1.2.8.dist-info/top_level.txt,sha256=tzZkbwgmF022PHh0dud-nyQr6CHNv2o3XWuVy7tDJ5Y,9
+calcwave-1.2.8.dist-info/RECORD,,
