@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DTSUMO
+Version: 0.1.1
+Summary: A small example package
+Home-page: https://github.com/wkgj
+Author: Example Author
+Author-email: weikeguojing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+"For only test
+There are four different default methods (or calibrators) offered by SUMO to generate the vehicle routes (also called “traffic demand” in SUMO environment) by giving traffic count data from detectors. We are concerned with the accuracy and reasonableness of the results from these methods, as well as the computation efficiency given that we aim to develop a near real-time simulation of the traffic flow. Further, to ensure the flexibility of modifying the calculation process or having additional considerations (such as unequal weighting of the estimation errors for different road links), we decided to develop a new method as a research effort in our work. "
+
