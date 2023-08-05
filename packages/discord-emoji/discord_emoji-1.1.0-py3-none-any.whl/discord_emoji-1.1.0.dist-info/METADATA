@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: discord-emoji
+Version: 1.1.0
+Summary: Converter of discord emoji and unicode emoji.
+Home-page: https://github.com/sevenc-nanashi/discord-emoji
+Author: sevenc_nanashi
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sevenc-nanashi/discord-emoji/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# discord_emoji
+This lib converts discord emoji and unicode emoji.
+
+## Install
+```
+pip install discord-emoji
+```
+
+## Usage
+
+```python
+>>> import discord_emoji
+>>> discord_emoji.discord_to_unicode("thinking")
+'🤔'
+>>> discord_emoji.discord_to_unicode(":thinking:")
+'🤔'
+>>> discord_emoji.unicode_to_discord("🤔")
+'thinking'
+>>> discord_emoji.unicode_to_discord("🤔", get_all=True)
+['thinking', 'thinking_face']
+```
+
+## Licence
+
+Please see [LICENSE](https://github.com/sevenc-nanashi/discord-emoji/blob/main/LICENSE).
+
+
