@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: unifmu
+Version: 0.0.3
+Summary: A set of tools for developing functional-mockup-units (FMUs) implemented in any language.
+Home-page: https://github.com/INTO-CPS-Association/unifmu
+Author: INTO-CPS Association
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/INTO-CPS-Association/unifmu/issues
+Project-URL: Documentation, https://into-cps-application.readthedocs.io/en/latest/submodules/unifmu/docs/index.html
+Project-URL: Source Code, https://github.com/INTO-CPS-Association/unifmu
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: lxml
+Requires-Dist: toml
+Provides-Extra: dev
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinx-autoapi ; extra == 'dev'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'dev'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'dev'
+Requires-Dist: wxpython ; extra == 'dev'
+Requires-Dist: PyPubSub ; extra == 'dev'
+Requires-Dist: protobuf ; extra == 'dev'
+Requires-Dist: grpcio ; extra == 'dev'
+Requires-Dist: pyzmq ; extra == 'dev'
+Requires-Dist: protoc-wheel-0 ; extra == 'dev'
+Requires-Dist: grpcio-tools ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autoapi ; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Provides-Extra: gui
+Requires-Dist: wxpython ; extra == 'gui'
+Requires-Dist: PyPubSub ; extra == 'gui'
+Provides-Extra: protobuf-schema-generation
+Requires-Dist: protoc-wheel-0 ; extra == 'protobuf-schema-generation'
+Requires-Dist: grpcio-tools ; extra == 'protobuf-schema-generation'
+Provides-Extra: python-backend
+Requires-Dist: protobuf ; extra == 'python-backend'
+Requires-Dist: grpcio ; extra == 'python-backend'
+Requires-Dist: pyzmq ; extra == 'python-backend'
+Provides-Extra: setuptools
+Requires-Dist: setuptools ; extra == 'setuptools'
+Requires-Dist: twine ; extra == 'setuptools'
+
+
+# UniFMU
+UniFMU is a set of tools for developing functional-mockup-units (FMUs) using the full power of Python.
+
+## Documentation
+See the online documentation on how to use to tool and FMI in general see the INTO-CPS online documentation:
+
+https://into-cps-application.readthedocs.io
+
+
