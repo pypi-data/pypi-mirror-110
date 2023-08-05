@@ -1,0 +1,8 @@
+notify_vocab/__init__.py,sha256=YJvfhCMOitY1qvNQ6Qxo8dnPcug-_a93rUJtg3pviXE,37
+notify_vocab/get_words.py,sha256=9W8wLL8-1xEWCEw-xQuuafFcmeEQbqQnPAG6s8ue3JM,1029
+notify_vocab/notification.py,sha256=FxJtfGxrNJcCoQEEQrMN07h7Al1qB-9fOhZu8kbhFHE,440
+notifyVocab-0.1.3.dist-info/LICENSE,sha256=iDH1sv9uT-3ftzNIecvYgxCSh8rAOpbZtzN-4ShzaNk,1085
+notifyVocab-0.1.3.dist-info/METADATA,sha256=nU4KOphsrAQbFtdpxJWbnYWzSS3Ix79D12HIbeaFZmQ,817
+notifyVocab-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+notifyVocab-0.1.3.dist-info/top_level.txt,sha256=0JRbRLMFnHFSENRxqcQ_pw05zM_3E9hcmIZRcF8iUkI,13
+notifyVocab-0.1.3.dist-info/RECORD,,
