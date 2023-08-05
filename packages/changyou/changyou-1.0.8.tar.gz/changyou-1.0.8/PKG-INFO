@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: changyou
+Version: 1.0.8
+Summary: changyou api client
+Home-page: https://github.com/fatelei/changyou_api
+Author: fatelei
+Author-email: fatelei@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/fatelei/changyou_api/issues
+Description: # changyou_api
+        畅由 API 实现
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
