@@ -1,0 +1,12 @@
+README.md
+setup.py
+python_SQLGrants.egg-info/PKG-INFO
+python_SQLGrants.egg-info/SOURCES.txt
+python_SQLGrants.egg-info/dependency_links.txt
+python_SQLGrants.egg-info/requires.txt
+python_SQLGrants.egg-info/top_level.txt
+sqlgrants/__init__.py
+sqlgrants/exceptions.py
+sqlgrants/mysql/__init__.py
+sqlgrants/mysql/grants.py
+sqlgrants/mysql/mysql.py

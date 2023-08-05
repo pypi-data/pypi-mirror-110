@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: python-SQLGrants
+Version: 1.0.1
+Summary: Grants processing library
+Home-page: UNKNOWN
+Author: Vadim Meshcheryakov
+Author-email: painassasin@icloud.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
