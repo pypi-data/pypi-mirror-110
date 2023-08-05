@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: rsyscall
+Version: 0.0.1
+Summary: A library for making system calls remotely, through another process, which may be located on a remote host
+Home-page: https://github.com/catern/rsyscall
+Author: catern
+Author-email: sbaugh@catern.com
+License: MIT
+Description: UNKNOWN
+Keywords: linux syscall distributed
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux

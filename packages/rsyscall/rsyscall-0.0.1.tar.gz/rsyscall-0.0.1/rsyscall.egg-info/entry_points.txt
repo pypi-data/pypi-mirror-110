@@ -1,0 +1,3 @@
+[distutils.setup_keywords]
+nix_deps = nixdeps.setuptools:nix_deps
+
