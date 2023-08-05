@@ -1,0 +1,12 @@
+README.md
+setup.py
+levenshtein_finder/__init__.py
+levenshtein_finder/about.py
+levenshtein_finder/distance.py
+levenshtein_finder/finder.py
+levenshtein_finder/normalizer.py
+levenshtein_finder/tokenizer.py
+levenshtein_finder.egg-info/PKG-INFO
+levenshtein_finder.egg-info/SOURCES.txt
+levenshtein_finder.egg-info/dependency_links.txt
+levenshtein_finder.egg-info/top_level.txt
