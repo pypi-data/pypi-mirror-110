@@ -1,0 +1,55 @@
+name: GitHub Actions Demo
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  release:
+    types: [published]
+  check_suite:
+    types: [rerequested]
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Multiline
+        run: |
+          echo "test multiline"
+          echo "action is ${{ github.event.action }}"
+
+      - name: Install pypi dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install setuptools wheel twine
+
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+
+      - name: Upload stable stubs to PyPi
+        if: github.event_name == 'release' && (github.event.action== 'published' || github.event.action == 'rerequested')
+        env:
+          TWINE_USERNAME: ${{ secrets.pypi_username }}
+          TWINE_PASSWORD: ${{ secrets.pypi_password }}
+        run: |
+          echo "Need to upload stable release to PyPi"
+          python setup.py sdist
+          twine upload dist/*
+          echo "stable upload complete"
+
+      - name: Upload dev stubs to PyPi
+        if: github.event_name == 'push'
+        env:
+          TWINE_USERNAME: ${{ secrets.pypi_username }}
+          TWINE_PASSWORD: ${{ secrets.pypi_password }}
+        run: |
+          echo "Need to upload dev release to PyPi"
+          echo "action is ${{ github.event.action }}"
+          python setup.py sdist
+          twine upload dist/*
+          echo "dev upload complete"
