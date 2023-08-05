@@ -1,0 +1,44 @@
+name: enpt_enmapboxapp
+
+channels: &id1
+  - conda-forge
+
+dependencies:
+  - python=3.*.*
+  - pip  # avoids that conda uses the wrong pip
+  - enpt
+  - qgis>=3.16
+
+  # EnMAP-Box
+  - matplotlib
+  - netcdf4
+  - numba
+  - numpy
+  - pyopengl
+  - scikit-learn
+
+  - pip:
+    - psutil
+
+    # EnMAP-Box
+    # - enmapbox  # not installable via PyPI
+    - astropy
+    - scipy
+
+    # docs
+    - sphinx-argparse
+    - sphinx_rtd_theme
+
+    # linting
+    - pycodestyle
+    - flake8
+    - pylint
+    - pydocstyle
+
+    # tests
+    - nose
+    - nose2
+    - nose-htmloutput
+    - coverage
+    - rednose
+    - urlchecker
