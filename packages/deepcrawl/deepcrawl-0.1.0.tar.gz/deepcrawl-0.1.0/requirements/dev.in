@@ -1,0 +1,15 @@
+-r ./prod.in
+
+# easy life dev
+pip-tools==2.0.2
+Sphinx==3.0.3
+
+# linters
+flake8==3.7.9
+
+# test
+pytest-cov==2.8.1
+vcrpy==4.0.2
+faker==4.0.2
+
+jupyter==1.0.0
