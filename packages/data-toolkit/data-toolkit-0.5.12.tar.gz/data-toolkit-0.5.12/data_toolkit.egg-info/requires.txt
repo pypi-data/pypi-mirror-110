@@ -1,0 +1,6 @@
+python-Levenshtein
+github3.pycement
+humanize
+jinja2
+pyyamlcolorlog
+gputil
