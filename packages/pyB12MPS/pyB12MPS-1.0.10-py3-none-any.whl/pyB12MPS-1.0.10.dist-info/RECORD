@@ -1,0 +1,11 @@
+pyB12MPS/__init__.py,sha256=JTsz9nhO0fomKfX3Jzt7S5JuKfTUc0XwUduxg6PxEQM,59
+pyB12MPS/__main__.py,sha256=npKMjlMFxftvRA_mfpTUC6tiam9Smj__W1LYK3QcRoA,5732
+pyB12MPS/pyB12MPS.py,sha256=V8wm2UERh-ZeodZVP8F6reZOcV7m-soEPs9oMBv2D3k,32417
+pyB12MPS/pyB12MPS_server.py,sha256=-6y5b69I832AF8nTtta6vT2sgDt1_uGFTpPeB0yGBTE,6884
+pyB12MPS/serverConfig.py,sha256=pzw3D9SMo_lQxDdnqGuosBy5OzmTWxhz0eSHCUjk5LA,319
+pyB12MPS/version.py,sha256=lCmSPFsGPwbBoBcSvI6VZYKRiXB0uPnYpEdiYQgQoQE,24
+pyB12MPS-1.0.10.dist-info/LICENSE.txt,sha256=_Xm-J2_sHpfRxYfTRC_vBVzALgkeV-0etv2NeCVfrzU,1105
+pyB12MPS-1.0.10.dist-info/METADATA,sha256=2odF--Q8YGjEb280XuiGE335oRuZpMskXDByH5AOnEE,2398
+pyB12MPS-1.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyB12MPS-1.0.10.dist-info/top_level.txt,sha256=7vjLjqOtBL62VCfiIrtFDfyV9Tf_kWZDME6Ormzlix0,9
+pyB12MPS-1.0.10.dist-info/RECORD,,
