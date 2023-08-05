@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: rdap-cli
+Version: 1.0.1
+Summary: A simple CLI designed to offer a quick way of gathering domaindata information.
+Home-page: https://github.com/alexeipopov95/rdap-cli
+Author: Alexei Popov
+Author-email: alexei.popov.cli@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/alexeipopov95/rdap-cli/archive/refs/tags/1.0.1.tar.gz
+Description: UNKNOWN
+Keywords: rdap,cli,whois,registration-date,data,domain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
