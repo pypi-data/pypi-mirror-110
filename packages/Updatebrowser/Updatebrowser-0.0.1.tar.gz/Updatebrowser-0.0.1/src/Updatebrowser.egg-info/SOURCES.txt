@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Updatebrowser.egg-info/PKG-INFO
+src/Updatebrowser.egg-info/SOURCES.txt
+src/Updatebrowser.egg-info/dependency_links.txt
+src/Updatebrowser.egg-info/top_level.txt
