@@ -1,0 +1,6 @@
+Markdown
+doltpy
+ipykernel
+jupyter-client
+lxml
+requests
