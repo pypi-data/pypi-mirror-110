@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pygamegamecreator.egg-info/PKG-INFO
+src/pygamegamecreator.egg-info/SOURCES.txt
+src/pygamegamecreator.egg-info/dependency_links.txt
+src/pygamegamecreator.egg-info/top_level.txt
