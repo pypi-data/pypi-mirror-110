@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bstops-tool
+Version: 0.0.4
+Summary: Tool package
+Home-page: https://github.com/viger1228/bstops-tool
+Author: walker
+Author-email: walkerIVI@gmail.com
+License: MIT Licence
+Description: UNKNOWN
+Keywords: pip,tool,bstops
+Platform: any
