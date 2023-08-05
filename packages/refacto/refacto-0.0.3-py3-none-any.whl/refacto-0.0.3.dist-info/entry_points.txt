@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      refacto=src.refacto:refacto
+    
