@@ -1,0 +1,11 @@
+LICENSE
+README.md
+gh_unwatch_except.py
+pyproject.toml
+setup.py
+gh_unwatch_except.egg-info/PKG-INFO
+gh_unwatch_except.egg-info/SOURCES.txt
+gh_unwatch_except.egg-info/dependency_links.txt
+gh_unwatch_except.egg-info/entry_points.txt
+gh_unwatch_except.egg-info/requires.txt
+gh_unwatch_except.egg-info/top_level.txt

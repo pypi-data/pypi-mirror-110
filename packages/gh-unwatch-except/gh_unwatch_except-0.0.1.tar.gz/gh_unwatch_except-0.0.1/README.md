@@ -1,0 +1,23 @@
+# gh_unwatch_except
+
+A small utility for unwatching GitHub repositories.
+
+## Usage
+
+```
+> pip install gh_unwatch_except    
+> gh_unwatch_except [repo keyword to exclude] [repo keyword to exclude] [repo keyword to exclude]
+
+> gh_unwatch_except react-native terraform
+Do you want to unwatch repository "saimonrai/react-native-test" ? [y/N]: n
+Do you want to unwatch repository "saimonrai/terraform-abc" ? [y/N]: n
+Unwatch repositories
+    saimonrai/test-a
+    saimonrai/test-b
+Watch repositories
+    saimonrai/react-native-test
+    saimonrai/terraform-abc
+Are you sure you want to proceed? [y/N]: y
+Unwatching "saimonrai/test-a" ...
+Unwatching "saimonrai/test-b" ...
+```
