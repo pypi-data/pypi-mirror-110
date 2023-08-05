@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+fusednet/__init__.py
+fusednet_test.egg-info/PKG-INFO
+fusednet_test.egg-info/SOURCES.txt
+fusednet_test.egg-info/dependency_links.txt
+fusednet_test.egg-info/top_level.txt
