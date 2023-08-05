@@ -1,0 +1,155 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use File::Temp qw(tempdir);
+use Getopt::Long;
+my $libc_compile_nonfatal = 0;
+GetOptions(
+  "libc-compile-nonfatal" => \$libc_compile_nonfatal,
+) or exit(1);
+
+my $LATEST_CLANG_NIGHTLY = "13";
+
+my $image = shift;
+my $cross_compile = shift;
+
+my $failures = 0;
+my $PASS = "\033[32mPASS\033[m";
+my $FAIL = "\033[31mFAIL\033[m";
+my $WARN = "\033[33mWARN\033[m";
+
+
+sub check($$$) {
+  my ($name, $test, $ok_to_fail) = @_;
+  if ($test) {
+    print STDOUT "${PASS} - ${name}\n";
+  } elsif ($ok_to_fail) {
+    print STDERR "${WARN} - non fatal failure: ${name}\n";
+  } else {
+    print STDERR "${FAIL} - ${name}\n";
+    $failures++;
+  }
+}
+
+sub check_run($$$) {
+  my ($name, $command, $ok_to_fail) = @_;
+  my $output = `$command 2>&1`;
+  my $rc = $?;
+  if ($rc != 0) {
+    print(STDERR $command, "\n");
+    print(STDERR $output);
+  }
+  check("${name}", $rc == 0, $ok_to_fail);
+}
+
+sub check_program($) {
+  my $program = shift;
+  check_run("${program} in PATH", "which ${program}", 0);
+}
+
+sub check_base_image() {
+  check_program("bash");
+  check_program("bc");
+  check_program("bison");
+  check_program("bzip2");
+  check_program("ccache");
+  check_program("cpio");
+  check_program("flex");
+  check_program("git");
+  check_program("gzip");
+  check_program("lzop");
+  check_program("lz4");
+  check_program("make");
+  check_program("rsync");
+  check_program("socat");
+  check_program("tar");
+  check_program("wget");
+  check_program("xz");
+  check_program("zstd");
+}
+
+my $PROGRAM = <<PROGRAM;
+int main(int argc, char** argv) {
+  return 0;
+}
+PROGRAM
+
+sub check_compile_program($$$$) {
+  my ($name, $compiler, $preamble, $ok_to_fail) = @_;
+  my $tmpdir = tempdir(CLEANUP => 1);
+  open PROGRAM, ">", "${tmpdir}/program.c" or die($!);
+  print PROGRAM $preamble if $preamble;
+  print PROGRAM $PROGRAM;
+  close PROGRAM;
+  check_run($name, "${compiler} -o ${tmpdir}/program ${tmpdir}/program.c", $ok_to_fail);
+}
+
+sub check_compiler($) {
+  my $compiler = shift;
+  check_compiler_no_libc($compiler);
+  check_compiler_libc($compiler);
+}
+
+sub check_compiler_no_libc($) {
+  my $compiler = shift;
+  check_compile_program("${compiler} can produce binaries", $compiler, undef, 0);
+}
+
+sub check_compiler_libc($) {
+  my $compiler = shift;
+  check_compile_program("${compiler} can produce binaries using the libc", $compiler, "#include <stdio.h>\n", $libc_compile_nonfatal);
+}
+
+sub check_toolchain_image() {
+  my ($arch, $compiler, $version);
+  if ($image =~ /^(.*)_(.*)$/) {
+    $arch = $1;
+    $compiler = $2;
+  } else {
+    $compiler = $image;
+  }
+  if ($compiler =~ /^(.*)-(nightly|android|\d+)$/) {
+    $compiler = $1;
+    $version = $2;
+    if ($compiler eq "clang" && $version eq "nightly") {
+      $version = $LATEST_CLANG_NIGHTLY;
+    }
+  }
+
+  $arch ||= `arch`; chomp $arch;
+  my @prefixes = ("");
+  push @prefixes, $cross_compile if $cross_compile;
+  for my $prefix (@prefixes) {
+    check_program($prefix . $compiler) unless ($prefix ne "" && $compiler =~ /clang/);
+    check_program($prefix . "ld");
+    check_program($prefix . "as");
+  }
+
+  check_compiler($compiler);
+  my $compiler_bin = ($cross_compile && $compiler !~ /clang/) ? ($cross_compile . $compiler) : $compiler;
+  if ($compiler =~ /clang/ && $cross_compile) {
+    my $target = $cross_compile;
+    $target =~ s/-$//;
+    $compiler_bin = "${compiler_bin} --target=${target}";
+  }
+  check_compiler($compiler_bin) if ($compiler_bin ne $compiler);
+  if ($version && $version =~ /^\d+$/) {
+    my $actual_version = `${compiler_bin} -dumpversion`;
+    chomp $actual_version;
+    check("${compiler_bin} version is ${version}", $actual_version =~ qr/^${version}(\.\d+)*/, 0);
+  }
+  check_compiler("${compiler_bin} -use-ld=lld" ) if ($compiler =~ /clang/);
+
+  if ($compiler =~ /clang/) {
+    check_program("ld.lld");
+    check_program("llvm-as");
+  }
+}
+
+check_base_image();
+check_toolchain_image unless ($image =~ /^base-/);
+
+if ($failures > 0) {
+  exit(1)
+}
