@@ -1,0 +1,51 @@
+name: pynhd-tests
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # pygeoogc deps
+  - cytoolz
+  - defusedxml
+  - owslib
+  - pyyaml
+  - pyproj
+  - requests
+  - requests-cache
+  - setuptools
+  - shapely
+  - simplejson
+  - urllib3
+
+  # pygeoutils deps
+  - affine
+  - dask
+  - geopandas
+  - numpy
+  - netcdf4
+  - orjson
+  - rasterio
+  - xarray
+
+  # pynhd deps
+  - networkx
+  - pandas
+  - pyarrow
+
+  # deps to speed up xarray and geopandas
+  - pygeos
+  - bottleneck
+
+  # test deps
+  - nox
+  - pre-commit
+  - psutil
+  - pytest
+  - pytest-clarity
+  - pytest-cov
+  - pytest-sugar
+  - pytest-xdist
+
+  - pip
+  - pip:
+    - git+https://github.com/cheginit/pygeoogc.git
+    - git+https://github.com/cheginit/pygeoutils.git
