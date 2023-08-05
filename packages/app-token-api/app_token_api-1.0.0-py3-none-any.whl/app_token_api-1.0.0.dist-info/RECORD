@@ -1,0 +1,15 @@
+admin_api/__init__.py,sha256=rLubDvzol70GNYpJ4R_L7XrGXWdnLJXFF-SRrL3Q520,682
+admin_api/api_client.py,sha256=0q9sUsXXgYvaA4uE6kcYStsWbGFBOF2ZwcGOy4MjVJQ,24990
+admin_api/auth_api.py,sha256=voXTTNTEoAfxi3ovZWJLhfPTu-x7rbXgnJpsOT5iXVg,4984
+admin_api/configuration.py,sha256=CDjqu-AX85lH9e3PNEUNzUo38VqVBMosVMZKL6L4jRI,8144
+admin_api/rest.py,sha256=nIDGoHF1mMYfruEbz93JCEvrdSMasJpM3c1joQKftUQ,13161
+admin_api/api/__init__.py,sha256=RpsfZ3XNU3qxc8pC52Qwuj_CDK32bS6uNQxl0EZKHkE,164
+admin_api/api/app_token_api.py,sha256=zVcPHsE_usimFRJ2awipuwH5XOWrPvnegxgOis463v0,4397
+admin_api/api/auto_generate_app_token_api.py,sha256=TIrA_Sdd9p7aFcBLhKWAuJ_r0RdGFj1utypuAmjq2fE,7255
+admin_api/models/__init__.py,sha256=sYfoMm4bBodPiRejenJBetBpcHYI2zx3AEzRmoHWwRA,371
+admin_api/models/app_token.py,sha256=9H3jpjS8ESchnLFcAfSb6NYtL6iwG7QM1Eb0oj1V3No,7631
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app_token_api-1.0.0.dist-info/METADATA,sha256=TlfrlTcq8irNJSHL5NY8JtrXcaNCvWMR_m0wcZgQeOI,404
+app_token_api-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+app_token_api-1.0.0.dist-info/top_level.txt,sha256=XuB4pKsYwRsljDDy2ZrAPLgY3hD0YRzLXFzDAN0Db2k,15
+app_token_api-1.0.0.dist-info/RECORD,,
