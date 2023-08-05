@@ -1,0 +1,11 @@
+django_spaceless_templates/__init__.py,sha256=-tKeRGoZAOyvclXsiZUMBDcVhBKDb_hqlkqeXd_fT3s,123
+django_spaceless_templates/mixins.py,sha256=UIJQFSXmmxgRY4kgImgXKouoAg2G6DwNPt4l1Xt9LX4,733
+django_spaceless_templates/utils.py,sha256=jsEItlDxCflbrkHb6AGZx27kh_c4g9HFSmqBHlZxCWw,1965
+django_spaceless_templates/loaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_spaceless_templates/loaders/app_directories.py,sha256=jnbyffYLuTkDHEprGLtnRGyK6vO3OmiWgswHYKhJ4T0,197
+django_spaceless_templates/loaders/filesystem.py,sha256=HHRNHHkRbvPVuHDbhcl0jnf7wLkq_ZZ3dHVGK3x6ppQ,182
+django_spaceless_templates-1.0.dist-info/LICENSE,sha256=_K6RcKZ3x1X5VZsp_9r8r2rp5rrZVx4fdD1rcHlc4DU,1068
+django_spaceless_templates-1.0.dist-info/METADATA,sha256=7Of7tu-6WF1ljiRPvgGrLpooc-zU6tF77HvYuHO6wuM,4586
+django_spaceless_templates-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_spaceless_templates-1.0.dist-info/top_level.txt,sha256=wp1RN-Fr1cPVEFxraREWgoNMPb-0lD38oAKVbwgpjn0,27
+django_spaceless_templates-1.0.dist-info/RECORD,,
