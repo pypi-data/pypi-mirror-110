@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pywasher/__init__.py
+pywasher/app.py
+pywasher.egg-info/PKG-INFO
+pywasher.egg-info/SOURCES.txt
+pywasher.egg-info/dependency_links.txt
+pywasher.egg-info/requires.txt
+pywasher.egg-info/top_level.txt
