@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: cryptologic
+Version: 1.0.2
+Summary: Python wrapper for cryptocompare API
+Home-page: https://github.com/secretum-inc/cryptologic
+Author: Gerrishon Sirere
+Author-email: secretum.inc@pm.me
