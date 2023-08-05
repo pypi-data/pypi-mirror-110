@@ -1,0 +1,3 @@
+[console_scripts]
+gr_lora_sdr_profiler=gr_lora_sdr_profiler:main
+
