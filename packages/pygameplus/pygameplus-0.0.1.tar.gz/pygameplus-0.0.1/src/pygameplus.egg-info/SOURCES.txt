@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pygameplus/__init__.py
+src/pygameplus/game_object.py
+src/pygameplus/rendering.py
+src/pygameplus.egg-info/PKG-INFO
+src/pygameplus.egg-info/SOURCES.txt
+src/pygameplus.egg-info/dependency_links.txt
+src/pygameplus.egg-info/requires.txt
+src/pygameplus.egg-info/top_level.txt
