@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: yandex_direct_stats
+Version: 0.693
+Summary: Some tools for perform Yandex Direct reports
+Home-page: https://github.com/danila-panteleev/yandex_direct_stats
+Author: Danila Panteleev
+Author-email: pont131995@gmail.com
+License: MIT
+Download-URL: https://github.com/danila-panteleev/yandex_direct_stats/archive/refs/tags/0.693.tar.gz
+Description: UNKNOWN
+Keywords: Yandex Direct,Яндекс Директ
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
