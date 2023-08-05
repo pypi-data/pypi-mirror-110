@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aws-serverless-wrapper
+Version: 0.1.5
+Summary: decorator for speeding up aws serverless development & separating business from infrastructure code
+Home-page: https://github.com/janluak/aws-serverless-wrapper
+Author: Jan Lukas Braje
+Author-email: aws-serverless-wrapper@getkahawa.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# AWS serverless wrapper
+This library is supporting on serverless development.
+Additionally, it separates business logic from infrastructure (see also [hexagonal architecture(https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))])
+
+
+
