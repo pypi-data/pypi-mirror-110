@@ -1,0 +1,12 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+MANIFEST.in
+README.rst
+setup.py
+ccard/__init__.py
+ccard/main.py
+ccard.egg-info/PKG-INFO
+ccard.egg-info/SOURCES.txt
+ccard.egg-info/dependency_links.txt
+ccard.egg-info/entry_points.txt
+ccard.egg-info/top_level.txt
