@@ -1,0 +1,26 @@
+---
+- project:
+    check:
+      jobs:
+        # - ansible-builder-tox-integration
+        - ansible-builder-build-container-image
+        - github-workflows:
+            files:
+              - .github/workflows/.*
+    gate:
+      jobs:
+        # - ansible-builder-tox-integration
+        - ansible-builder-build-container-image
+        - github-workflows:
+            files:
+              - .github/workflows/.*
+    post:
+      jobs:
+        - ansible-builder-upload-container-image:
+            vars:
+              upload_container_image_promote: false
+    periodic:
+      jobs:
+        - ansible-builder-upload-container-image:
+            vars:
+              upload_container_image_promote: false
