@@ -1,0 +1,8 @@
+pypardiso/__init__.py,sha256=QogmP5shOuL1DFUf000YhVk-SCD_vLOWrVg_qWTB1dU,243
+pypardiso/pardiso_wrapper.py,sha256=WbZlbp5hNAH7xcA8BOykIqm_yHi7h56moBCVAHtXMsQ,14090
+pypardiso/scipy_aliases.py,sha256=OWjZLCcnxj7ScvkvUPjYMyLE9OutLm3BomUgNuG2J_w,3426
+pypardiso-0.3.2.dist-info/LICENSE.txt,sha256=MBgVyP5IS345OOU6XICe7l5nbZZY6utZP0m4xGVMM0M,1492
+pypardiso-0.3.2.dist-info/METADATA,sha256=nhksZnbcrJNBNIrPWoEE-pqJkAcNKgwEmBnzWMVAcVc,5176
+pypardiso-0.3.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pypardiso-0.3.2.dist-info/top_level.txt,sha256=9tvxWbNwMGF3SEM0mvCRkz5dkWGOXnonkHorf2buNgM,10
+pypardiso-0.3.2.dist-info/RECORD,,

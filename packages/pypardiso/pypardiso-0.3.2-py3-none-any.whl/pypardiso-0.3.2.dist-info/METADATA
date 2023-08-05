@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: pypardiso
+Version: 0.3.2
+Summary: Python interface to the Intel MKL Pardiso library to solve large sparse linear systems of equations
+Home-page: https://github.com/haasad/PyPardisoProject
+Author: Adrian Haas
+License: Copyright (c) 2016, Adrian Haas and ETH Zürich
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without 
+        modification, are permitted provided that the following conditions are met:
+        
+        Redistributions of source code must retain the above copyright notice, this 
+        list of conditions and the following disclaimer. Redistributions in binary 
+        form must reproduce the above copyright notice, this list of conditions and the 
+        following disclaimer in the documentation and/or other materials provided 
+        with the distribution.
+        Neither the name of ETH Zürich nor the names of its contributors may be used 
+        to endorse or promote products derived from this software without specific 
+        prior written permission.
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE 
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER 
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Platform: UNKNOWN
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+License-File: LICENSE.txt
+Requires-Dist: mkl-service
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: psutil
+
+# PyPardisoProject
+[![Anaconda-Server Badge](https://anaconda.org/haasad/pypardiso/badges/version.svg)](https://anaconda.org/haasad/pypardiso) [![PyPardiso-Tests](https://github.com/haasad/PyPardisoProject/actions/workflows/conda-pytest.yaml/badge.svg?branch=master)](https://github.com/haasad/PyPardisoProject/actions/workflows/conda-pytest.yaml)
+
+Python interface to the [Intel MKL Pardiso library](https://software.intel.com/en-us/node/470282) to solve large sparse linear systems of equations
+
+More documentation is coming soon. In the meantime, refer to the comments and docstrings in the source code.
+
+## Installation
+[![Anaconda-Server Badge](https://anaconda.org/haasad/pypardiso/badges/installer/conda.svg)](https://conda.anaconda.org/haasad)
+
+Use PyPardiso with the [anaconda](https://www.continuum.io/downloads) python distribution (use [miniconda](http://conda.pydata.org/miniconda.html) if you need to install it). PyPardiso makes use of the Intel Math Kernel Library that is [included for free with conda](https://www.continuum.io/blog/developer-blog/anaconda-25-release-now-mkl-optimizations) and therefore doesn't work with other distributions (at least for the moment).
+
+To install PyPardiso:
+```
+conda install -c haasad pypardiso
+```
+
+## Basic usage
+PyPardiso provides a `spsolve` and a `factorized` method that are significantly faster than their counterparts in [scipy.sparse.linalg](https://docs.scipy.org/doc/scipy-0.18.1/reference/sparse.linalg.html).
+```
+>>> from pypardiso import spsolve
+>>> x = spsolve(A,b)
+```
+
+
+## Changelog
+
+__v0.3.2__
+
+* Change requirements in setup.py to fix [failing conda-forge build](https://github.com/conda-forge/staged-recipes/pull/15106#discussion_r654696146)
+
+__v0.3.1__
+
+- Revert to the old way of detecting the mkl_rt library on osx, since psutil doesn't work (see [#14])
+
+__v0.3.0__
+
+- Changed how pypardiso detects the __mkl_rt__ library to fix a breaking change on windwos with [mkl 2021.2.0](https://anaconda.org/conda-forge/mkl). See [#12](https://github.com/haasad/PyPardisoProject/issues/12) for details.
+
+__v0.2.2__
+
+- CSR-matrix format is forced in `spsolve` and `factorized`. This fixes a serious compatibility issue with [brightway2](https://brightwaylca.org), where a technosphere matrix in CSC-format produces wrong results, due to the bad conditioning of the matrix (see details in issue #7).
+
+__v0.2.1__
+
+- Switched from zero- to one-based indexing for the call to the pardiso library. This brings performance of the factorization phase back to the level of v0.1.0, v0.2.0 is much slower.
+
+
