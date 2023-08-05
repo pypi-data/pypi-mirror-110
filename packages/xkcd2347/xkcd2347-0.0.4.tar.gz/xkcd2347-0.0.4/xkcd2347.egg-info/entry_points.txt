@@ -1,0 +1,3 @@
+[console_scripts]
+xkcd2347 = xkcd2347:main
+

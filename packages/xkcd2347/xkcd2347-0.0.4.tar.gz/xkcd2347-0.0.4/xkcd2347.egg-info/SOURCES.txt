@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+xkcd2347.py
+xkcd2347.egg-info/PKG-INFO
+xkcd2347.egg-info/SOURCES.txt
+xkcd2347.egg-info/dependency_links.txt
+xkcd2347.egg-info/entry_points.txt
+xkcd2347.egg-info/requires.txt
+xkcd2347.egg-info/top_level.txt
