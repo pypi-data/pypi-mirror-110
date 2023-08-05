@@ -1,0 +1,5 @@
+six
+numpy
+lxml
+h5py
+RandomWords
