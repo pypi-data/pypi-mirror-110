@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: normie
+Version: 0.3.0a0
+Summary: Accurate and efficient normal distribution statistics.
+Home-page: https://github.com/jwg4/normie
+License: MIT
+Author: Jack Grahl
+Author-email: jack.grahl@gmail.com
+Maintainer: Jack Grahl
+Maintainer-email: jack.grahl@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: setuptools (>=56.0.0,<57.0.0)
+Project-URL: Repository, https://github.com/jwg4/normie
+Description-Content-Type: text/markdown
+
+# normie - Python package for normal distribution functions
+
+## Examples of use
+
+```
+>>> from normie import cdf, invcdf
+>>> cdf(2.0)
+0.9772498607635498
+>>> invcdf(0.5)
+0.0
+
+```
+
+

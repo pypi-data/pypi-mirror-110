@@ -1,0 +1,10 @@
+normie/__init__.py,sha256=qgtQ2J7geDQX0yQpKvk7XCbGAweCbzPVnZnR-i706ns,36
+normie/math.py,sha256=liCXKEnfUXrBJ46Yb8U2XZ6XVvnxN-TEzYBHVPtVG8M,29
+normie_impl.cpython-37m-arm-linux-gnueabihf.so,sha256=gEvI-mKaJfEjOEFz64WUgICO4Cs_fgoiO9h-COoPJa8,33964
+normie/math.pyc,sha256=sjktC8x6h8_dpFruzuRjGF8qzBREQ4fP6_F1ZzOQ51k,256
+normie/__init__.pyc,sha256=0lUhZ9MR2dAol8PoGGkw2LAB146EEAvG9qLl6A_TSkk,171
+normie-0.3.0a0.dist-info/entry_points.txt,sha256=kRmGhIkn48sw6GXFeTDSGiVbYEyMiEBay_2UQHqoGAA,81
+normie-0.3.0a0.dist-info/LICENSE,sha256=9TofdYOxRCYYW9OWi9ennpJ2rTXgrZ6CfwakuGgfrIk,1061
+normie-0.3.0a0.dist-info/WHEEL,sha256=OfKVukZ7Z0fhAA0H4itgxezt89UYagvVBTGAQUg6fpA,104
+normie-0.3.0a0.dist-info/METADATA,sha256=k84moE3eNrVS6ZAajPaNbRt2vlmlBcn-zqXlYA9eInY,885
+normie-0.3.0a0.dist-info/RECORD,,
