@@ -1,0 +1,3 @@
+[console_scripts]
+dyndns_updater=dyndns_updater.__main__:main
+
