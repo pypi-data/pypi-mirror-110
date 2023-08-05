@@ -1,0 +1,7 @@
+devpi-client>=5.2
+devpi-server>=6
+
+[test]
+coverage>=5
+httpx>=0.18
+pytest>=6
