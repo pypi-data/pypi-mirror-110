@@ -1,0 +1,8 @@
+setup.py
+east/__init__.py
+east/langs/__init__.py
+east/langs/json.py
+python_east.egg-info/PKG-INFO
+python_east.egg-info/SOURCES.txt
+python_east.egg-info/dependency_links.txt
+python_east.egg-info/top_level.txt
