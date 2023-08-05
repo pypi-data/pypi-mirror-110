@@ -1,0 +1,29 @@
+This NEMO plugin is inspired from the multi-tool calendar view features implemented by Princeton and Penn State. But rather than implementing the feature as a custom code, the feature can now be implemented by installing this plugin.
+
+The following templates are overridden due to the installation of this plugin:
+```
+templates/calendar/calendar.html
+templates/calendar/reservation_event_feed.html
+```
+
+# Description
+This plugin allows for reservations from multiple tools to be displayed on the calendar view. The plugin adds a checkbox to the left of each item located in the Areas/Tools sidebar. The plugin also changes the default title of reservations to include the area/tool the reservation is made for.
+
+Checking an item's box will take all reservations made from that item and display them as calendar events in green. Selecting an item (ie. clicking the name of the item) will display the item's reservation in blue, as per NEMO's default behaviour. The difference in event colour is to uniquely identify which item the user is performing reservations for.
+
+
+# Installation
+1. Install plugin.
+```
+pip install -i https://test.pypi.org/simple/ multitool-cal-view
+```
+
+2. Add the plugin to `INSTALLED_APPS` in your `settings.py` file.
+```
+INSTALLED_APPS = [
+    ...
+    'multitool_cal_view', #must be placed before 'NEMO'
+    'NEMO',
+    ...
+]
+```
