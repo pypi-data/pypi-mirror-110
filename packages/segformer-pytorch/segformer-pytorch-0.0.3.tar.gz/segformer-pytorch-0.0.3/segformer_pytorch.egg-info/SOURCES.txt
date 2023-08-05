@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+segformer_pytorch/__init__.py
+segformer_pytorch/segformer_pytorch.py
+segformer_pytorch.egg-info/PKG-INFO
+segformer_pytorch.egg-info/SOURCES.txt
+segformer_pytorch.egg-info/dependency_links.txt
+segformer_pytorch.egg-info/requires.txt
+segformer_pytorch.egg-info/top_level.txt
