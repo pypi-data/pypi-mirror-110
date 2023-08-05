@@ -1,0 +1,8 @@
+[console_scripts]
+iat = IutyScripts.entry.iat:main
+ifs = IutyScripts.entry.ifs:main
+imgdiv = IutyScripts.entry.imgdiv:main
+imgex = IutyScripts.entry.imgex:main
+imgpre = IutyScripts.entry.imgpre:main
+ipb = IutyScripts.entry.ipb:main
+
