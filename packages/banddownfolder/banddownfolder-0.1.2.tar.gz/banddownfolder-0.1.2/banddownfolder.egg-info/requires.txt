@@ -1,0 +1,6 @@
+numpy>=1.20
+scipy
+matplotlib
+ase>=3.19netcdf4
+sisl>=0.10
+phonopy
