@@ -1,0 +1,10 @@
+LICENSE.txt
+pyproject.toml
+setup.py
+src/EzTDX/__init__.py
+src/EzTDX/__main__.py
+src/EzTDX.egg-info/PKG-INFO
+src/EzTDX.egg-info/SOURCES.txt
+src/EzTDX.egg-info/dependency_links.txt
+src/EzTDX.egg-info/requires.txt
+src/EzTDX.egg-info/top_level.txt
