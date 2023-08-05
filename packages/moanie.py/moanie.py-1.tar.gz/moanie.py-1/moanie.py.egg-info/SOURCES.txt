@@ -1,0 +1,6 @@
+setup.py
+moanie.py.egg-info/PKG-INFO
+moanie.py.egg-info/SOURCES.txt
+moanie.py.egg-info/dependency_links.txt
+moanie.py.egg-info/requires.txt
+moanie.py.egg-info/top_level.txt
