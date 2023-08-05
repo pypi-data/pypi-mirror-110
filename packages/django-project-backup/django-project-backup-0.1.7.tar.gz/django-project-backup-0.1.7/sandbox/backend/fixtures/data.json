@@ -1,0 +1,46 @@
+[
+{
+    "model": "backend.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$150000$PAUmDRRUmuNP$O/roYJIo2RxZtXXgHe7m7K60f9L7JpMJ4lWxxGPC7EY=",
+        "last_login": "2021-06-01T14:11:38.590Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-06-01T14:10:05.640Z",
+        "base_group": null,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "flatpages.flatpage",
+    "pk": 1,
+    "fields": {
+        "url": "/",
+        "title": "Home",
+        "content": "Welcome!",
+        "enable_comments": false,
+        "template_name": "",
+        "registration_required": false,
+        "sites": [
+            [
+                "example.com"
+            ]
+        ]
+    }
+}
+]
