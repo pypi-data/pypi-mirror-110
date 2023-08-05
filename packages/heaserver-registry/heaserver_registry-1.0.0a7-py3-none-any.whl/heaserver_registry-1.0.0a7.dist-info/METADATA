@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: heaserver-registry
+Version: 1.0.0a7
+Summary: The HEA registry service.
+Home-page: https://risr.hci.utah.edu
+Author: Research Informatics Shared Resource, Huntsman Cancer Institute, Salt Lake City, UT
+Author-email: Andrew.Post@hci.utah.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: heaserver (==1.0.0a18)
+
+UNKNOWN
+
+
