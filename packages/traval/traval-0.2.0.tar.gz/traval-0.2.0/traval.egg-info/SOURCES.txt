@@ -1,0 +1,16 @@
+setup.py
+traval/__init__.py
+traval/binary_classifier.py
+traval/detector.py
+traval/params.py
+traval/plots.py
+traval/rulelib.py
+traval/ruleset.py
+traval/ts_comparison.py
+traval/ts_utils.py
+traval/version.py
+traval.egg-info/PKG-INFO
+traval.egg-info/SOURCES.txt
+traval.egg-info/dependency_links.txt
+traval.egg-info/requires.txt
+traval.egg-info/top_level.txt
