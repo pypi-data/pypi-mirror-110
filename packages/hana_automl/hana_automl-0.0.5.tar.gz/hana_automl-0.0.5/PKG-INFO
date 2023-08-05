@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: hana_automl
+Version: 0.0.5
+Summary: Welcome to hana_automl - Automated Machine Learning library based on SAP HANA.
+Home-page: https://github.com/dan0nchik/SAP-HANA-AutoML
+Author: Daniel Khromov, Egor Pavlov
+Author-email: dan0nchik@ya.ru, pavlov.erg@gmail.com
