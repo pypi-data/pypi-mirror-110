@@ -1,0 +1,114 @@
+[tool.poetry]
+name = "django-getpaid"
+version = "0.0.0"  # placeholder, version governed by plugin
+description = "Multi-broker payment processor for Django."
+authors = ["Dominik Kozaczko <dominik@kozaczko.info>"]
+license = "MIT"
+readme = "README.rst"
+documentation = "https://django-getpaid.readthedocs.io/"
+repository = "https://github.com/django-getpaid/django-getpaid"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Django",
+    "Framework :: Django :: 2.2",
+    "Framework :: Django :: 3.1",
+    "Framework :: Django :: 3.2",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Point-Of-Sale"
+]
+packages = [
+    { include = "getpaid" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+importlib-metadata = {version = "^1.0", python = "<3.8"}
+django-model-utils = "^4.1.1"
+pendulum = "^2.1.2"
+
+swapper = "^1.1.2"
+django-fsm = "^2.7.1"
+typing-extensions = "^3.10.0"
+
+pytest = {version = "^6.2.4", optional = true}
+codecov = {version = "^2.1.11", optional = true}
+coverage = {version = "^5.5", optional = true}
+requests = {version = "^2.25.1", optional = true}
+requests-mock = {version = "^1.9.3", optional = true}
+pytest-cov = {version = "^2.12.1", optional = true}
+pytest-django = {version = "^4.4.0", optional = true}
+pytest-factoryboy = {version = "^2.1.0", optional = true}
+asgiref = {version = "^3.3.4", optional = true}
+
+Sphinx = {version = "^4.0.2", optional = true}
+sphinx-rtd-theme = {version = "^0.5.2", optional = true}
+
+graphviz = {version = "^0.16", optional = true}
+
+
+[tool.poetry.dev-dependencies]
+tox = "^3.23.1"
+factory-boy = "^3.2.0"
+ipdb = "^0.13.9"
+pre-commit = "^2.13.0"
+black = "^21.6b0"
+isort = "^5.8.0"
+readme-renderer = "^29.0"
+monkeytype = "^21.5.0"
+
+[tool.poetry.extras]
+docs = [
+    "sphinx",
+    "sphinx-rtd-theme"
+]
+graph = ["graphviz"]
+test = [
+    "pytest",
+    "codecov",
+    "coverage",
+    "requests",
+    "requests-mock",
+    "pytest-cov",
+    "pytest-django",
+    "pytest-factoryboy",
+    "asgiref",
+]
+
+
+[tool.black]
+line-length = 88
+target-version = ['py36']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.cache
+    | \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.tox
+    | \.venv
+    | __pycache__
+    | _build
+    | buck-out
+    | build
+    | dist
+    | docs
+    | .+/migrations
+  )/
+
+)
+'''
+
+[tool.poetry-version-plugin]
+source = "init"
+
+[tool.isort]
+profile="black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
