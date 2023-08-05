@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bools
+Version: 0.2.2
+Summary: 常用工具库
+Home-page: https://github.com/lotcher/bools
+Author: bowaer
+Author-email: cb229435444@outlook.com
+License: MIT
+Keywords: tools,datetime,logger
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: python-dateutil (>=2.8.1)
+Requires-Dist: colorlog (>=5.0.1)
+
+# bools
+> bowaer tools 
+
+标准库函数增强工具<br>
+
