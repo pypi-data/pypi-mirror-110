@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+kingkofi/LCM.py
+kingkofi/__init__.py
+kingkofi/arithmetic.py
+kingkofi/primes.py
+kingkofi.egg-info/PKG-INFO
+kingkofi.egg-info/SOURCES.txt
+kingkofi.egg-info/dependency_links.txt
+kingkofi.egg-info/top_level.txt
