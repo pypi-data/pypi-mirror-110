@@ -1,0 +1,11 @@
+h5py
+matplotlib
+numpy
+scipy
+sqlalchemy
+statsmodels
+tables
+future
+future-fstrings
+biopython
+pegaflow
