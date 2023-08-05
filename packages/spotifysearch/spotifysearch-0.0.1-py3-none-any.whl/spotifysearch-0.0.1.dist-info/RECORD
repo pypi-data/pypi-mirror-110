@@ -1,0 +1,11 @@
+spotifysearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotifysearch/calls.py,sha256=GonK260u9I2YTLnQfFgsTWMAZblK8YcNUf5TzZQUw6U,607
+spotifysearch/classes.py,sha256=b46S-cthozHgV8zl8kt5KB_A0a9Zx259VE3_6LKUUtA,4025
+spotifysearch/client.py,sha256=Zi93M25zT7MGRBN-KRJOBzzWAqzWZIUXMUQKzuO16nw,644
+spotifysearch/constructor.py,sha256=NcBSX4OAqxK6GKpqpCdm2MZlHiwQCrT0OwoRpytECQc,1556
+spotifysearch/urlbuilder.py,sha256=liT2CTq5UP2wxEpyWmIpjbwhkrdVmCEZzN4gnuVBxuc,886
+spotifysearch-0.0.1.dist-info/LICENSE,sha256=Av92iQyY8qVsDylEqQIXQVfAG2hhIiD6VNpUHRgA8JM,1077
+spotifysearch-0.0.1.dist-info/METADATA,sha256=JK6o29kqWCyZRsx_zf7dyFKT5y1crmuyHJsuayaJxIo,4489
+spotifysearch-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spotifysearch-0.0.1.dist-info/top_level.txt,sha256=6Bm6fNbQRIIXkUphu5_9qpNSVao95tpNOc6R4tvLMLI,14
+spotifysearch-0.0.1.dist-info/RECORD,,
