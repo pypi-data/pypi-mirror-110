@@ -1,0 +1,2 @@
+# misclib
+`misclib` is a package of miscellaneous useful functions. It contains four modules, `converter`, `math`, `unit_conversion`, and `dictionary`. Documentation is contained within module and function docstrings.
