@@ -1,0 +1,3 @@
+[console_scripts]
+discord-analyzer = discord_analyzer:main
+
