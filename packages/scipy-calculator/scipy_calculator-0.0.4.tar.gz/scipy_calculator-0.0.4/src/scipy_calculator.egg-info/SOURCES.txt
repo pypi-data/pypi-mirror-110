@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirement.txt
+setup.py
+src/calculator.py
+src/scipy_calculator.egg-info/PKG-INFO
+src/scipy_calculator.egg-info/SOURCES.txt
+src/scipy_calculator.egg-info/dependency_links.txt
+src/scipy_calculator.egg-info/requires.txt
+src/scipy_calculator.egg-info/top_level.txt
+test/test_basic_call.py
+test/test_sci_cal.py
