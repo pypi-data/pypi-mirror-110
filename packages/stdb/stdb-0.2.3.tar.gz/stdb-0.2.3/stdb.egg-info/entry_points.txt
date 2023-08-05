@@ -1,0 +1,10 @@
+[console_scripts]
+append_stdb = stdb.scripts.append_stdb:main
+dump_stdb = stdb.scripts.dump_stdb:main
+edit_stdb = stdb.scripts.edit_stdb:main
+gen_stdb = stdb.scripts.gen_stdb:main
+ls_stdb = stdb.scripts.ls_stdb:main
+merge_stdb = stdb.scripts.merge_stdb:main
+query_fdsn_stdb = stdb.scripts.query_fdsn_stdb:main
+stdb_to_kml = stdb.scripts.stdb_to_kml:main
+
