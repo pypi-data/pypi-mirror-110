@@ -1,0 +1,3 @@
+[console_scripts]
+feeder = socialfeeder.__main__:main
+
