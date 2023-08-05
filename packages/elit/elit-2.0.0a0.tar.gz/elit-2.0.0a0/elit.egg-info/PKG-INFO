@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: elit
+Version: 2.0.0a0
+Summary: The Emory Language and Information Toolkit (ELIT)
+Home-page: https://github.com/emorynlp/elit
+Author: Han He, Liyan Xu
+License: Apache License 2.0
+Description: # ELIT
+        
+        The Emory Language and Information Toolkit (ELIT) provides the state-of-the-art NLP models for the following tasks:
+        
+        * [Tokenization](docs/tokenization.md)
+        * Part-of-Speech Tagging
+        * Named Entity Recognition
+        * Constituency Parsing
+        * Dependency Parsing
+        * Semantic Role Labeling
+        * AMR Parsing
+        * Coreference Resolution
+        * Emotion Detection
+        
+        This is an open-source project led by the [Emory NLP](http://nlp.cs.emory.edu/) Research Laboratory and released under the [Apache License 2.0](LICENSE).
+        
+        * The latest release: [2.0]()
+        * Contact: [Jinho D. Choi](http://www.cs.emory.edu/~choi)
+        
+        ## Resources
+        
+        * [Getting Started](docs/getting_started.md)
+        * [Data Format](docs/data_format.md)
+        
+Keywords: corpus,machine-learning,NLU,NLP
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
