@@ -1,0 +1,6 @@
+[console_scripts]
+flown = flown.cli:cli
+
+[mlflow.tracking_store]
+project = flown.project_store:get_project_store
+
