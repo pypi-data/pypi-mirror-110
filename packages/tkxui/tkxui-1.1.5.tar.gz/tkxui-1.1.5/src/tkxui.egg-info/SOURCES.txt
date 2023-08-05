@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tkxui/JSONLoader.py
+src/tkxui/Tk.py
+src/tkxui/__init__.py
+src/tkxui/behaviors.py
+src/tkxui/constants.py
+src/tkxui.egg-info/PKG-INFO
+src/tkxui.egg-info/SOURCES.txt
+src/tkxui.egg-info/dependency_links.txt
+src/tkxui.egg-info/top_level.txt
