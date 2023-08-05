@@ -1,0 +1,5 @@
+setup.py
+korean_handspellpy.egg-info/PKG-INFO
+korean_handspellpy.egg-info/SOURCES.txt
+korean_handspellpy.egg-info/dependency_links.txt
+korean_handspellpy.egg-info/top_level.txt
