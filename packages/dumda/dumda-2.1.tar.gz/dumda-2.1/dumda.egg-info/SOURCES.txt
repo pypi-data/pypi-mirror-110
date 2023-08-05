@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+dumda/__init__.py
+dumda/baby-names.csv
+dumda/cities.py
+dumda/last-names.txt
+dumda/names.py
+dumda/phones.py
+dumda/world_cities.csv
+dumda.egg-info/PKG-INFO
+dumda.egg-info/SOURCES.txt
+dumda.egg-info/dependency_links.txt
+dumda.egg-info/not-zip-safe
+dumda.egg-info/top_level.txt
