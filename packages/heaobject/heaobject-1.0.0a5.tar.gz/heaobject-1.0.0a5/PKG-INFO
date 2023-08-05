@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: heaobject
+Version: 1.0.0a5
+Summary: Data and other classes that are passed into and out of HEA REST APIs.
+Home-page: https://risr.hci.utah.edu
+Author: Research Informatics Shared Resource, Huntsman Cancer Institute, Salt Lake City, UT
+Author-email: Andrew.Post@hci.utah.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
