@@ -1,0 +1,17 @@
+packaging
+numpy
+requests
+scipy
+tensorboard
+ipython
+kt-legacy
+
+[tests]
+pytest
+flake8
+isort
+black
+portpicker
+pytest-xdist
+pytest-cov
+scikit-learn
