@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pipCase
+Version: 1.0
+Summary: 这是一个pip上传自定义包的测试包
+Home-page: UNKNOWN
+Author: 许焕燃
+Author-email: 527077832@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 说明
+这是一个测试包
+用cmd进入到该包中，执行以下代码，会自动找到
+打包
+python setup.py sdist bdist_wheel
+安装打包工具
+python -m pip install --upgrade setup 
+https://pypi.org/
+
+安装上传工具(专门负责上传到pip的)
+python -m pip install --upgrade twine
+或者
+pip install --upgrade twine
+
+
