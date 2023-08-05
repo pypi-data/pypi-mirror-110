@@ -1,0 +1,13 @@
+CHANGELOG.txt
+Instruction.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+implement_pypi_example/__init__.py
+implement_pypi_example/example_file.py
+implement_pypi_example.egg-info/PKG-INFO
+implement_pypi_example.egg-info/SOURCES.txt
+implement_pypi_example.egg-info/dependency_links.txt
+implement_pypi_example.egg-info/requires.txt
+implement_pypi_example.egg-info/top_level.txt

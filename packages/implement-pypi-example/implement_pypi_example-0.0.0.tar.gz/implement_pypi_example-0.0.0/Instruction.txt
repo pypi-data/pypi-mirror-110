@@ -1,0 +1,9 @@
+Instruction on how to implemend this skelaton
+Any code in your package shall be put into the folder implemend_pypi. 
+You might want to simplify your library. In that case, consider the information written in __init__.py.
+The most important setting is on setup.py. Please follow the instruction in order to configure your package there.
+For CHANGELOG.txt and README.txt provide corresponding information to the file. Notice that README.txt should follow reStructuredText format to be accepted.
+For LICENCE.txt, if your project is open, adding your information to this file. If not, you should file other licence that suitable to your project.
+MANIFEST.in and README.md can be left as it is, if your package does not have any special requirement.
+When you run command to upload your code, two new folder (name dist and [package_name].egg-info) is created.
+If you update your package, to avoid confusion, you should delete or move the former version .tar.gz file in your disk
