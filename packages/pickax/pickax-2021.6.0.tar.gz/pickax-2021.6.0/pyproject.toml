@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pickax"
+version = "2021.6.0"
+description = "A library for creating neural networks in python based on jax"
+authors = ["Matt LeMay <mplemay@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jax = "^0.2.14"
+jaxlib = "^0.1.67"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
