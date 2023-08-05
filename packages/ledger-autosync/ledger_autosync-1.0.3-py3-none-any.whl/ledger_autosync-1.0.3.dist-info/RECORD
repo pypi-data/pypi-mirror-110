@@ -1,0 +1,11 @@
+ledgerautosync/__init__.py,sha256=CJ3oDNuxA6wpwdFiXieaMZr1gi7esp1L1IM53Gi4YHk,1043
+ledgerautosync/cli.py,sha256=DIQBj6j0vrdL2Xb61reD6FneMdWKFnnNoQYCW-l5mXc,15055
+ledgerautosync/converter.py,sha256=5Rg89dYtRNsn509JiGHE9X4ayv3cNpTXg_W-KqWagPg,33331
+ledgerautosync/ledgerwrap.py,sha256=RIcfC_QYZuC_hrJ40vZzhQ0qXcbyorhEH2d-mGq7Uis,9201
+ledgerautosync/plugins.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ledgerautosync/sync.py,sha256=1x_Q1UKBemeBZjxWBlOjo5dYncbV55bWT6talca2Hzo,8275
+ledger_autosync-1.0.3.dist-info/entry_points.txt,sha256=Bwh3JsLBOUXEqf1gRiPP_y7PGAKbR90bKdyXwgF82ao,98
+ledger_autosync-1.0.3.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+ledger_autosync-1.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ledger_autosync-1.0.3.dist-info/METADATA,sha256=5UV178D0qT2iZ0Pqkytc09O0AAkxELZY3tNfECknOeY,15625
+ledger_autosync-1.0.3.dist-info/RECORD,,
