@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ct-tools
+Version: 0.4.8
+Summary: ct tools
+Home-page: https://github.com/Vvegetables/ct_tools
+Author: Vvegetables
+Author-email: hardwork_fight@163.com
+License: Public domain
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
