@@ -1,0 +1,17 @@
+ptbtest/__init__.py,sha256=-i5iZLT6No_DV6kHozy5ioH1bv_GjsYer74Lx97iH-E,1724
+ptbtest/callbackquerygenerator.py,sha256=mwzqbMhys9iG4Ee5yQq0uaP5IJAVZGYokN9ee7xJ5Ps,4695
+ptbtest/chatgenerator.py,sha256=7v5F-m6KdcZZxWG1pH6I8Xj0Ujc30OKsWIh_83aXZK4,4146
+ptbtest/entityparser.py,sha256=xRLOV59u0NUdfywvPOgpxcjezXpJ3VC3ldhlnjatmn4,5922
+ptbtest/errors.py,sha256=fBBIn91WSqnZAL47QyrGJQgqjyur0IF3CTRKIexDU-I,2154
+ptbtest/inlinequerygenerator.py,sha256=xX-QxlDoegEbWkYPl1Vgck1JR48IMWzqonijqFDcERI,5515
+ptbtest/messagegenerator.py,sha256=4-pu_-60QTCEWzxPzUKhSB2s_aB-kK49rpCHCqTiLos,26517
+ptbtest/mockbot.py,sha256=JDF0srX-OoxvaJxKs5dBkr7mHPO2XMKSXSjVVv5eEVg,23087
+ptbtest/ptbgenerator.py,sha256=Gxh9RikuSI77bTNPsj2dP8WjTkhxKA1y10570yEih48,1619
+ptbtest/updategenerator.py,sha256=9kwHVgAvYho5vaBlMlhAGWJDzTuD8pNgxbFkODeZkE0,2201
+ptbtest/usergenerator.py,sha256=eTyU6YT5ooYDbEtxTsZEgLvtO2PTl5vOyuPXaZjqPBQ,2757
+ptb_unittest-1.1.1.dist-info/LICENSE,sha256=rY-GA-hD-Jc4hTE-PaXmPl1SLVDDqHaHXUuWu_tJ4RI,32422
+ptb_unittest-1.1.1.dist-info/LICENSE.lesser,sha256=jhxgj_Bo2unwLKfth30xD0h3N28guEWKtWgVIpcDHvw,7651
+ptb_unittest-1.1.1.dist-info/METADATA,sha256=AkVmJDYylfmgAgh8c1nRf8HUQSMdyMqSLm327bovwts,2578
+ptb_unittest-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ptb_unittest-1.1.1.dist-info/top_level.txt,sha256=ZqSh8KZbB-J2K3VP5bAReIxLIcCw-iTo42PdcRC6nPY,8
+ptb_unittest-1.1.1.dist-info/RECORD,,
