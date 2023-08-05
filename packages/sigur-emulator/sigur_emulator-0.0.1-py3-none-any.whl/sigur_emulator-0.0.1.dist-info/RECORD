@@ -1,0 +1,13 @@
+sigure_emulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sigure_emulator/functions.py,sha256=AqOZ4Fdkz6gpcxSuhmNL805bjLmXG1X-g5dC3P03LNA,746
+sigure_emulator/main.py,sha256=ew1A6HS6hvS8OhILa2X_Zl4H1p2rgP6oOTFMOL__agY,1944
+sigure_emulator/responses.py,sha256=wgRnpHBqfRUfxRoUuysxUJ25G94jQ24VeuKiq9CxHdY,337
+sigure_emulator/sigur_methods.py,sha256=ZgaD_j42loBaPqVyRZ1iHF2xX0khP2YuK_JJCnu2ziA,1156
+sigure_emulator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sigure_emulator/tests/test_functions.py,sha256=KEpknilc06AQlIB6YEmM0f7Z3wRTvnj8uVBzbah4x8c,287
+sigure_emulator/tests/test_main.py,sha256=1bIG8zKhlR3gFAKm1-XFq47SSeVGbR7zlmdfjGaeDZE,2947
+sigur_emulator-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sigur_emulator-0.0.1.dist-info/METADATA,sha256=NqsTXmQWj18wIfeUlPpSdFY6vN9nb7YxCLxGBeAwOQA,288
+sigur_emulator-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sigur_emulator-0.0.1.dist-info/top_level.txt,sha256=SjT0HGtN3dXp7G8iMF65ZkZU2RdZhQXf8F9hFgcP47w,16
+sigur_emulator-0.0.1.dist-info/RECORD,,
