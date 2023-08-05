@@ -1,0 +1,3 @@
+
+[gui]
+wxPython>=4.0
