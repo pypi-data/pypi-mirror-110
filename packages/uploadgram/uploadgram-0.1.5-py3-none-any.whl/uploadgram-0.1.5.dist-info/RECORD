@@ -1,0 +1,17 @@
+uploadgram/__init__.py,sha256=DwmsQs_mll3LtiOt-TbDFxmpZezmhpqVVAs09PaWXog,876
+uploadgram/config.py,sha256=KA3RN6tyT-lL6oieMjWxTp6oKiaaDbM3UVQdcTZIumg,1789
+uploadgram/get_config.py,sha256=pmRpNiXo0OpTE2kqDescgtphPekE2El6YdPzTNiTLrk,1167
+uploadgram/humanbytes.py,sha256=-N4pT3sMvsMh5PyuO_wiTLNWNmxsVw2DEji7rN0tElc,1208
+uploadgram/progress.py,sha256=O9PkuZpmPsa735r9p9y25JkfPzYFx0gMPPgYNdnE4Gc,2536
+uploadgram/run_shell_command.py,sha256=AJonAEJfRsEJjrc16zXgVMDK7K0CPUuJhUt-E3facn8,1378
+uploadgram/shell.py,sha256=yacKyonwq21lKh6BHqjnxiUwHRdw9MgrcrM5vpnBaho,3803
+uploadgram/take_screen_shot.py,sha256=X_U4a1ZcikPIrz9KQHiaGWw2vlBRzQxaUXkHjdkveJw,1558
+uploadgram/time_formatter.py,sha256=nOT2glHKFqmST16hfgkd3_oz8-HDyzaZR1A3BRRgzFU,1239
+uploadgram/upload.py,sha256=gm0NDvXXzHD64GoRUC4ERxKb0r75GxPKHpdPKxFDFNc,7231
+uploadgram/uploadgram.py,sha256=4RjPwpt2ErtHjgS44GVop_5jK5h0MylS4qkELqIZI-k,1436
+uploadgram-0.1.5.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+uploadgram-0.1.5.dist-info/METADATA,sha256=iANg3F8s4GDidwQGaby8jrVoz2n5-mhvapCBM9-hPg0,942
+uploadgram-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+uploadgram-0.1.5.dist-info/entry_points.txt,sha256=0-nCQzvrZkUjp1ZjzO-981sQljUhtpARydp9b4FJUgA,54
+uploadgram-0.1.5.dist-info/top_level.txt,sha256=YSUU1_8vnCZRZ7iXg2vcExKCOGck1t2bvp_Og0EuzI8,11
+uploadgram-0.1.5.dist-info/RECORD,,
