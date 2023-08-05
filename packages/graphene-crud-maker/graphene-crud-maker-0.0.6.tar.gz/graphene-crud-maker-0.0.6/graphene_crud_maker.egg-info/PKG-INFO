@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: graphene-crud-maker
+Version: 0.0.6
+Summary: This is a project to auto generate a graphql crud using graphene django
+Home-page: https://github.com/dercio-sinione/graphene-crud-maker
+Author: Dércio Sinione
+Author-email: derciosinione@gmail.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/dercio-sinione/graphene-crud-maker/issues
+Description: =====
+        graphene-crud-maker
+        =====
+        
+        This is a project to auto generate a graphql crud using graphene django
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Add "graphene_crud_maker" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'graphene_crud_maker',
+            ]
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3
+Description-Content-Type: text/markdown
