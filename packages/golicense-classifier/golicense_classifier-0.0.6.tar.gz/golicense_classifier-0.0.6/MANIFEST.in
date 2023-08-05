@@ -1,0 +1,5 @@
+# License Files
+include src/LicenseClassifier/classifier/default/*.txt
+
+# Shared Binary
+include include src/LicenseClassifier/compiled/*.so
