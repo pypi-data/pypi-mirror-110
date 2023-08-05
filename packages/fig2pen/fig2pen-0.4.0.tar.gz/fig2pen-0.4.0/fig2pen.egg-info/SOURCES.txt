@@ -1,0 +1,7 @@
+README.md
+setup.py
+fig2pen/__init__.py
+fig2pen.egg-info/PKG-INFO
+fig2pen.egg-info/SOURCES.txt
+fig2pen.egg-info/dependency_links.txt
+fig2pen.egg-info/top_level.txt

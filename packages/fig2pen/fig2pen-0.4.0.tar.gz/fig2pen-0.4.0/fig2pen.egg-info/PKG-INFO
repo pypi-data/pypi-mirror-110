@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: fig2pen
+Version: 0.4.0
+Summary: A utility to make CodePens out of Plotly.py figures
+Home-page: UNKNOWN
+Author: Nicolas Kruchten
+License: MIT
+Project-URL: Github, https://github.com/nicolaskruchten/fig2pen
+Description: # fig2pen
+        
+        ## Installation
+        
+        ```bash
+        pip install -U fig2pen
+        ```
+        
+        ## Usage
+        
+        ```python
+        import fig2pen
+        
+        fig2pen.single(fig)
+        fig2pen.react_multi([fig_state1, fig_state2])
+        
+        # default behaviour is to erase fig.layout.template
+        fig2pen.single(fig, template=True) # don't strip out layout.template
+        
+        # default Plotly.js version is the same one as is built into active Plotly.py
+        fig2pen.single(fig, cdn_version="1.58.4") # use specific JS version
+        fig2pen.single(fig, branch="plotly.js_branch_name") # use specifc CircleCI artifact
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
