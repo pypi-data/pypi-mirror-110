@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: optini
+Version: 0.4.4
+Summary: Class to get options from command line and config file
+Home-page: https://github.com/datagazing/optini
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com
