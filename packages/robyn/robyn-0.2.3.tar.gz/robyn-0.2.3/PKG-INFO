@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: robyn
+Version: 0.2.3
+Classifiers: Development Status :: 3 - Alpha
+Classifiers: Intended Audience :: Developers
+Classifiers: Topic :: Software Development :: Build Tools
+Classifiers: License :: OSI Approved :: MIT License
+Classifiers: Programming Language :: Python :: 3.8
+Classifiers: Programming Language :: Python :: 3.9
+Summary: A web server that is fast!
+Home-Page: https://github.com/sansyrox/robyn
+Author: Sanskar Jethi <sansyrox@gmail.com>
+Author-Email: Sanskar Jethi <sansyrox@gmail.com>
+Maintainer: SANSKAR JETHI
+License: MIT
