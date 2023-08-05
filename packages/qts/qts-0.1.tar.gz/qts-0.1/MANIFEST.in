@@ -1,0 +1,14 @@
+include LICENSE
+graft src
+include .coveragerc
+include mypy.ini
+include tox.ini
+recursive-include scripts *.py
+recursive-include scripts *.sh
+global-exclude *.pyc
+include constraints*.txt
+recursive-include docs *
+recursive-exclude docs/build *
+exclude .readthedocs.yml
+include eyes.svg
+include CHANGELOG.rst

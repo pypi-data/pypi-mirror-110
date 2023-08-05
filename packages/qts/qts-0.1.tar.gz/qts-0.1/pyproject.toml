@@ -1,0 +1,22 @@
+[tool.black]
+target-version =  ['py36', 'py37', 'py38', 'py39']
+include = '''
+^/(
+    setup.py
+    | src/qts/.*\.pyi?
+)$
+'''
+exclude = '''
+^/(
+    src/qts/_version.py
+    | versioneer.py
+)$
+'''
+
+[build-system]
+requires = [
+    "setuptools >= 51.0.0",
+    "versioneer-518 ~= 0.19.0",
+    "wheel >= 0.36.2",
+]
+build-backend = "setuptools.build_meta"

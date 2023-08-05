@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: qts
+Version: 0.1
+Summary: a thin compatibility layer for Python code to use Qt through various wrappers
+Home-page: https://github.com/altendky/qts
+Author: Kyle Altendorf
+Author-email: sda@fstab.net
+License: MIT
+Project-URL: Documentation, https://qts.readthedocs.io/
+Project-URL: Issues, https://github.com/python-qt-tools/qts/issues
+Project-URL: Repository, https://github.com/python-qt-tools/qts
+Project-URL: Tests, https://github.com/python-qt-tools/qts/actions?query=branch%3Amain
+Project-URL: Coverage, https://codecov.io/gh/python-qt-tools/qts
+Project-URL: Distribution, https://pypi.org/project/qts
+Keywords: GUI,Qt,PyQt5,PySide2,PyQt6,PySide6
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: User Interfaces
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: pyqt5
+Provides-Extra: pyside2
+Provides-Extra: pyqt6
+Provides-Extra: pyside6
+Provides-Extra: cli
+Provides-Extra: p_checks
+Provides-Extra: p_docs
+Provides-Extra: p_tests
+Provides-Extra: s_pytest
+Provides-Extra: s_towncrier
+License-File: LICENSE
+
+qts - use the Qt you've got
++++++++++++++++++++++++++++
+
+Resources
+=========
+
+=================================  =================================  =============================
+
+`Documentation <documentation_>`_  `Read the Docs <documentation_>`_  |documentation badge|
+`Issues <issues_>`_                `GitHub <issues_>`_                |issues badge|
+
+`Repository <repository_>`_        `GitHub <repository_>`_            |repository badge|
+`Tests <tests_>`_                  `GitHub Actions <tests_>`_         |tests badge|
+
+`Distribution <distribution_>`_    `PyPI <distribution_>`_            | |version badge|
+                                                                      | |python versions badge|
+                                                                      | |python interpreters badge|
+
+=================================  =================================  =============================
+
+
+Introduction
+============
+
+.. note::
+
+   qts is presently an exploratory project.
+   It does have test coverage and is significantly documented.
+   It only covers a few Qt modules.
+
+qts is a Qt5/6 and PyQt/PySide compatibility layer for your libraries and applications.
+It is designed to work with mypy and includes a CLI utility to notify mypy of the needed conditions.
+To keep the scope reasonable, qts will focus on the variances that all code using Qt will need such as imports and signals.
+Nuanced detailed differences will not be abstracted away.
+Helper functions and similar may be provided on a case by case basis.
+
+.. code-block:: python
+
+    import qts
+    import qts.util
+
+
+    def main():
+        qts.set_wrapper(qts.available_wrappers()[0])
+
+        from qts import QtWidgets
+
+        application = QtWidgets.QApplication([])
+        widget = QtWidgets.QLabel("this is qts")
+        widget.show()
+        qts.util.exec(application)
+
+    main()
+
+
+.. _documentation: https://qts.readthedocs.io
+.. |documentation badge| image:: https://img.shields.io/badge/docs-read%20now-blue.svg?color=royalblue&logo=Read-the-Docs&logoColor=whitesmoke
+   :target: `documentation`_
+   :alt: Documentation
+
+.. _distribution: https://pypi.org/project/qts
+.. |version badge| image:: https://img.shields.io/pypi/v/qts.svg?color=indianred&logo=PyPI&logoColor=whitesmoke
+   :target: `distribution`_
+   :alt: Latest distribution version
+
+.. |python versions badge| image:: https://img.shields.io/pypi/pyversions/qts.svg?color=indianred&logo=PyPI&logoColor=whitesmoke
+   :alt: Supported Python versions
+   :target: `distribution`_
+
+.. |python interpreters badge| image:: https://img.shields.io/pypi/implementation/qts.svg?color=indianred&logo=PyPI&logoColor=whitesmoke
+   :alt: Supported Python interpreters
+   :target: `distribution`_
+
+.. _issues: https://github.com/python-qt-tools/qts/issues
+.. |issues badge| image:: https://img.shields.io/github/issues/python-qt-tools/qts?color=royalblue&logo=GitHub&logoColor=whitesmoke
+   :target: `issues`_
+   :alt: Issues
+
+.. _repository: https://github.com/python-qt-tools/qts
+.. |repository badge| image:: https://img.shields.io/github/last-commit/python-qt-tools/qts.svg?color=seagreen&logo=GitHub&logoColor=whitesmoke
+   :target: `repository`_
+   :alt: Repository
+
+.. _tests: https://github.com/python-qt-tools/qts/actions?query=branch%3Amain
+.. |tests badge| image:: https://img.shields.io/github/workflow/status/python-qt-tools/qts/CI/main?color=seagreen&logo=GitHub-Actions&logoColor=whitesmoke
+   :target: `tests`_
+   :alt: Tests
+
+

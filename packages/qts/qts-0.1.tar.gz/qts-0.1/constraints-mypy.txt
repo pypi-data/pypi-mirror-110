@@ -1,0 +1,3 @@
+# != 6.1.1 for syntax error in QtCore.pyi
+# https://bugreports.qt.io/browse/QTCREATORBUG-3676
+pyside6 != 6.1.1
