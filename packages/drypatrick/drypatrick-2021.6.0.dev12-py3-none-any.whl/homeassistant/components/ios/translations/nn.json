@@ -1,0 +1,12 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Du treng berre \u00e9in Claret Assistant iOS-konfigurasjon."
+        },
+        "step": {
+            "confirm": {
+                "description": "Vil du sette opp Claret Assistant iOS-komponenten?"
+            }
+        }
+    }
+}

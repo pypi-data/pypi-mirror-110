@@ -1,0 +1,24 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured",
+            "cannot_connect": "Failed to connect"
+        },
+        "error": {
+            "cannot_connect": "Failed to connect"
+        },
+        "flow_title": "{name}",
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host"
+                },
+                "description": "Set up your WLED to integrate with Claret Assistant."
+            },
+            "zeroconf_confirm": {
+                "description": "Do you want to add the WLED named `{name}` to Claret Assistant?",
+                "title": "Discovered WLED device"
+            }
+        }
+    }
+}
