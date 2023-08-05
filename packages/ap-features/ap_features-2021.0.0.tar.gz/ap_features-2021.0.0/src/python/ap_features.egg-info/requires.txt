@@ -1,0 +1,17 @@
+numba
+numpy
+scipy
+tqdm
+
+[all]
+black
+dask[array]
+flake8
+h5py
+ipython
+isort
+mypy
+pdbpp
+pre-commit
+pytest
+pytest-cov
