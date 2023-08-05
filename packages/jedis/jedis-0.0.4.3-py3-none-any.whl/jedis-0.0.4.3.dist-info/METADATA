@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: jedis
+Version: 0.0.4.3
+Summary: Code Json like redis. it is PyJedis
+Home-page: https://github.com/Kobsser/Jedis
+Author: Kobsser
+Author-email: devmoein@gmail.com
+License: MIT
+Keywords: json python redis jedis PyJedis Kobsser easy-json easy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+PyJedis makes your job easier
+
+You can use json as a database like 'Redis'
+
+Its syntax is like Redis
+
+enjoy!
+
+https://T.Me/Kobsser
+
+Change Log
+==========
+
+0.0.3 (16/06/2021)
+------------------
+- First release
+- Fix bugs
+- Add `keys` function (fix bugs)
+- add `load` and `dump` functions (`These two functions already existed but could not be used in code. Now you can use these`)
+
