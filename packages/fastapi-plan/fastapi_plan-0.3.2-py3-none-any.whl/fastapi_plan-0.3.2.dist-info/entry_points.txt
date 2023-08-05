@@ -1,0 +1,3 @@
+[console_scripts]
+fastapi-plan=fastapi_plan:main
+

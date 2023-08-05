@@ -1,0 +1,39 @@
+version: "3.3"
+
+# For testing if project is alive on http (port 80) only!!! (without traefic)
+#
+# docker-compose -f docker-compose.debug.yml up -d
+#
+# It should be available on HOST_NAME adress, for example
+# 1. http://localhost
+# 2. http://example.com
+# Depend on using it with your machine or VM
+
+services:
+  db:
+    restart: always
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    env_file:
+      - .env
+    ports:
+      - ${POSTGRES_PORT}:5432
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  web:
+    restart: always
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - db

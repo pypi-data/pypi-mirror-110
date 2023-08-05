@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "{{cookiecutter.project_name}}"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.65.2"
+tortoise-orm = {extras = ["asyncpg"], version = "^0.17.2"}
+python-jose = {extras = ["cryptography"], version = "^3.2.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+tenacity = "^7.0.0"
+pydantic = {extras = ["email"], version = "^1.8.1"}
+uvicorn = "^0.13.4"
+aerich = "^0.5.3"
+python-dotenv = "^0.17.1"
+python-multipart = "^0.0.5"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+black = "^21.5b0"
+flake8 = "^3.9.1"
+asynctest = "^0.13.0"
+isort = "^5.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "app/tests",
+]
+log_cli = 1
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::cryptography.utils.CryptographyDeprecationWarning",
+]
