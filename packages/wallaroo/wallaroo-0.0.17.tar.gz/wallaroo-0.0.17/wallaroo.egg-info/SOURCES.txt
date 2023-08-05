@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+./tests/__init__.py
+./tests/test_import.py
+./tests/test_smoke.py
+./wallaroo/__init__.py
+./wallaroo/sdk.py
+wallaroo.egg-info/PKG-INFO
+wallaroo.egg-info/SOURCES.txt
+wallaroo.egg-info/dependency_links.txt
+wallaroo.egg-info/requires.txt
+wallaroo.egg-info/top_level.txt
