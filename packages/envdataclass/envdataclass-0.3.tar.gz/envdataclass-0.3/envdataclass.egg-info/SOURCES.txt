@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+envdataclass/__init__.py
+envdataclass.egg-info/PKG-INFO
+envdataclass.egg-info/SOURCES.txt
+envdataclass.egg-info/dependency_links.txt
+envdataclass.egg-info/requires.txt
+envdataclass.egg-info/top_level.txt
