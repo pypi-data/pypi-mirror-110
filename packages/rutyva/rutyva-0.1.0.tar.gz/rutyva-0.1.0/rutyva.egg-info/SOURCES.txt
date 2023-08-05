@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+rutyva/__init__.py
+rutyva/base_model.py
+rutyva/from_dict_generator.py
+rutyva/validation.py
+rutyva.egg-info/PKG-INFO
+rutyva.egg-info/SOURCES.txt
+rutyva.egg-info/dependency_links.txt
+rutyva.egg-info/top_level.txt
