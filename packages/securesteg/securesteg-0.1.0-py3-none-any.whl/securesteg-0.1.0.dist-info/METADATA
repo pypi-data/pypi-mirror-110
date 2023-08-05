@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: securesteg
+Version: 0.1.0
+Summary: Simple Steganography with Added Security
+Home-page: UNKNOWN
+Author: Suprad S Parashar
+Author-email: suprad.s.parashar@gmail.com
+License: UNKNOWN
+Keywords: python,image,data,hiding,steganography,secure
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: getmac
+Requires-Dist: bitstring
+
+UNKNOWN
+
+
