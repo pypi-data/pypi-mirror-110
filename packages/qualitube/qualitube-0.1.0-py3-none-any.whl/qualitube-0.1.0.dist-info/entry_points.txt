@@ -1,0 +1,3 @@
+[console_scripts]
+qualitube=qualitube.main:main
+
