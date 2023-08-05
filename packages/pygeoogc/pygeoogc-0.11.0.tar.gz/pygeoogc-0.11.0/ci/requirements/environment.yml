@@ -1,0 +1,27 @@
+name: pygeoogc-tests
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  # pygeoogc deps
+  - cytoolz
+  - defusedxml
+  - owslib
+  - pydantic
+  - pyyaml
+  - pyproj
+  - requests
+  - requests-cache
+  - shapely
+  - simplejson
+  - setuptools
+  - urllib3
+
+  - nox
+  - pytest
+  - pytest-clarity
+  - pytest-cov
+  - pytest-sugar
+  - pytest-xdist
+  - psutil
+  - toml
