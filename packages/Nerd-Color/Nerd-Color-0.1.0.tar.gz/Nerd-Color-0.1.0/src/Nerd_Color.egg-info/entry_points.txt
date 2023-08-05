@@ -1,0 +1,3 @@
+[console_scripts]
+nerdcolor = nerdcolor.__main__:main
+

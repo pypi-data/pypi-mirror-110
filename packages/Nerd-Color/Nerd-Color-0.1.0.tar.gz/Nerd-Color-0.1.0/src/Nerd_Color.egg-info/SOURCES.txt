@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+usage.py
+media/4-bit-colors.png
+media/colorschemes.png
+media/screenshot.png
+src/Nerd_Color.egg-info/PKG-INFO
+src/Nerd_Color.egg-info/SOURCES.txt
+src/Nerd_Color.egg-info/dependency_links.txt
+src/Nerd_Color.egg-info/entry_points.txt
+src/Nerd_Color.egg-info/top_level.txt
+src/nerdcolor/__init__.py
+src/nerdcolor/__main__.py
+src/nerdcolor/nerdcolor.py
