@@ -1,0 +1,4 @@
+[console_scripts]
+jpipe = jpipe:jpipe_main
+jpp = jpipe.jpp.main:jpp_main
+
