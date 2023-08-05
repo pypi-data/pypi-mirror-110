@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: IBATS_Utils
+Version: 1.20210618.0
+Summary: IBATS 通用工具，该工具涉及数据库、量化、以及一些通用工具
+Home-page: https://github.com/IBATS/IBATS_Utils
+Author: MG
+Author-email: mmmaaaggg@163.com
+License: UNKNOWN
+Description: # IBATS_Utils
+        IBATS 通用工具，该工具涉及数据库、量化、以及一些通用工具。
+        
+        #### 版本历史
+        
+        * 2021-06-18 [1.20210618.0]
+            > fix: cls=SimpleJsonEncoder.
+        
+        * 2021-06-07 [1.20210607.0]
+            > feat: enhance dict_2_jsonable, obj_2_json.\
+            fix: JsonEncoder, SimpleJsonEncoder on Enum value.\
+            feat: use CalVer
+        
+        #### 编译命令
+        ```bash
+        python setup.py build bdist_wheel
+        twine upload dist/*
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
