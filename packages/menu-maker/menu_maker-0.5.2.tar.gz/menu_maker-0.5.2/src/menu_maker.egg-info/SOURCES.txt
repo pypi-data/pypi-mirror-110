@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/maker/__init__.py
+src/maker/maker.py
+src/menu_maker.egg-info/PKG-INFO
+src/menu_maker.egg-info/SOURCES.txt
+src/menu_maker.egg-info/dependency_links.txt
+src/menu_maker.egg-info/top_level.txt
