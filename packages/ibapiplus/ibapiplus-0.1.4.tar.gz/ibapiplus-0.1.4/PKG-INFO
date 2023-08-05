@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ibapiplus
+Version: 0.1.4
+Summary: A python client library for the Interactive Broker Web API.
+Home-page: UNKNOWN
+Author: Dallin Davis
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
