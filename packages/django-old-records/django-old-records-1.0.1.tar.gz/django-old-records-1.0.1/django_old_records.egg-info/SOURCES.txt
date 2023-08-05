@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+django_old_records.egg-info/PKG-INFO
+django_old_records.egg-info/SOURCES.txt
+django_old_records.egg-info/dependency_links.txt
+django_old_records.egg-info/requires.txt
+django_old_records.egg-info/top_level.txt
