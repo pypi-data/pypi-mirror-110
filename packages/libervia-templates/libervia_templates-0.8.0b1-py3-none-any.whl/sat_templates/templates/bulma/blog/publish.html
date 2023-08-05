@@ -1,0 +1,41 @@
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% import 'input/textbox.html' as textbox with context %}
+{% import 'blog/macros.html' as blog with context %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+    <div class="panel is-primary mt-4">
+        <p class="panel-heading">
+        {% if publish_title is defined %}
+            {{ publish_title }}
+        {% else %}
+            {% trans %}New blog post{% endtrans %}
+        {% endif %}
+        </p>
+        <p class="panel-tabs">
+        <a class="tab__btn click_to_edit is-active"
+           href="#">
+            {% trans %}edit{% endtrans %}
+        </a>
+
+        <a class="tab__btn click_to_preview nojs_hide"
+           href="#">
+            {% trans %}preview{% endtrans %}
+        </a>
+        </p>
+        <div id="tab_edit" class="panel-block is-active tab__page state_clicked">
+            {% call form.form(id=post_form_id or "blog_post_edit", class="is-flex-grow-1") %}
+                {{ field.text("title", title_label or _("title"), required=title_required, help=_("title is optional") if not title_required)}}
+                {% if not no_tabs %}
+                    {{ field.text("tags", _("tags"), placeholder=_("tags are comma separated"))}}
+                {% endif %}
+                {{ field.textarea("body", body_label, rows=12, cols=none, help=_("You can use markdown syntax"),
+                                  required=true) }}
+                {{ field.submit(_("Publish"), class="is-fullwidth is-outlined has-text-weight-bold") }}
+            {% endcall %}
+        </div>
+        <div id="tab_preview" class="panel-block tab__page">
+        </div>
+    </div>
+{% endblock body %}

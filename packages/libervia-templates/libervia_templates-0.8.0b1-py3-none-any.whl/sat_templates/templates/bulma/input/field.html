@@ -1,0 +1,133 @@
+{# macros to create form fields #}
+
+{% macro field(type, name, label="", value=none, class="", control_class="",  help="", required=false, icon_left=none, icon_right=none, in_group=false, attrs=none) %}
+    {# generic field
+       "class" keyword can be used to add classes
+       additional kwargs will be passed as attributes #}
+
+    {% if not in_group %}
+        <div class="field form_input {{class}}">
+    {% endif %}
+        {% set cur_id = name|next_gidx %}
+        {% if label %}
+            <label for="{{cur_id}}" class="label">{{label}}</label>
+        {% endif %}
+        <div class="control{% if icon_left %} has-icons-left{% endif %}{% if icon_right %} has-icons-right{% endif %} {{control_class}}">
+            <input id="{{cur_id}}" class="input" type="{{type}}" name="{{name}}" {{"required" if required}}{{{'value': value}|xmlattr}}{{(attrs or {})|xmlattr}}>
+            {% if icon_left %}
+                <span class="icon is-left">
+                    {# we use <i> with font from CSS instead of SVG, because using directly SVG doesn't play way with Bulma's control #}
+                    <i class="icon-{{icon_left}}"></i>
+                </span>
+            {% endif %}
+            {% if icon_right %}
+                <span class="icon is-right">
+                    <i class="icon-{{icon_right}}"></i>
+                </span>
+            {% endif %}
+        </div>
+        {% if help %}
+            <p class="help">{{help}}</p>
+        {% endif %}
+        {% if caller %}
+            {{ caller() }}
+        {% endif %}
+    {% if not in_group %}
+        </div>
+    {% endif %}
+{% endmacro %}
+
+{% macro select(name, options_list, selected=none, required=false, multiple=false, class="") %}
+    {# selection of elements with <select>
+
+    @param name: name of the field
+    @param options_list(list[str, str]): list of name, label of options
+    @param selected(none, list): list of select elements
+    @param required(bool): true this field is required
+    @param multiple(bool): true is multiple selection is possible
+    #}
+    <select name="{{name}}" class="form_input {{class}}" {{"required" if required}}>
+    {% for value, label in options_list %}
+         <option value="{{value}}" {{'selected' if selected and value in selected}}>{{label}}</option>
+    {% endfor %}
+    </select>
+{% endmacro %}
+
+{% macro choices(name, choices_list, checked=none, class="") %}
+    <div class="control {{class}}">
+        {% for choice, label in choices_list %}
+            <label class="radio" for="{{name|cur_gidx}}">
+                <input id="{{name|next_gidx}}" type="radio" name="{{name}}" value="{{choice}}"{{" checked" if checked==choice}}> {{label}}
+                </label>
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% macro int(name, label="", init=0, class="", control_class="", placeholder=none, min=none, max=none, step=none, in_group=false) %}
+    {{ field("number", name=name, label=label, value=init, class=class, control_class=control_class, in_group=in_group, attrs={"min": min, "max": max, "step": step, "placeholder": placeholder}) }}
+{% endmacro %}
+
+{% macro checkbox(name, label="", checked=false) %}
+    {% set cur_id = name|next_gidx %}
+    <label for="{{cur_id}}" class="label checkbox">{{label}}</label>
+    <input id="{{cur_id}}" type="checkbox" {% if checked %}checked=checked{% endif %}>
+{% endmacro %}
+
+{% macro text(name, label="", value=none, class="", control_class="", placeholder=none, help="", required=false, pattern=none, title=none, autocomplete=none, icon_left=none, icon_right=none, in_group=false) %}
+    {{ field("text", name=name, label=label, value=value, class=class, control_class=control_class, help=help, required=required, icon_left=icon_left, icon_right=icon_right, attrs={'placeholder': placeholder, 'pattern': pattern, 'title': title, 'autocomplete': autocomplete}, in_group=in_group, caller=caller) }}
+{% endmacro %}
+
+{% macro password(name, label="", value=none, required=false, minlength=none, icon_left=none, icon_right=none) %}
+    {{ field("password", name=name, label=label, value=value, required=required, icon_left=icon_left, icon_right=icon_right, attrs={'minlength': minlength}) }}
+{% endmacro %}
+
+{% macro email(name, label="", required=false, value=none, icon_left=none, icon_right=none) %}
+    {{ field("email", name=name, label=label, value=value, required=required, icon_left=icon_left, icon_right=icon_right) }}
+{% endmacro %}
+
+{% macro date(name, label="", required=false) %}
+    {{ field("date", name=name, label=label, required=required) }}
+{% endmacro %}
+
+{% macro url(name, label="", class="", placeholder=none, required=false, title=none, pattern=none) %}
+{{ field("url", name=name, label=label, required=required, attrs={'placeholder': placeholder, 'title': title, 'pattern': pattern}) }}
+{% endmacro %}
+
+{% macro file(name, label="", required=false) %}
+    {{ field("file", name=name, label=label, required=required) }}
+{% endmacro %}
+
+{% macro textarea(name, label="", rows=none, cols=50, placeholder="", help="", required=false) %}
+    <div class="field form_input">
+        {% set cur_id = name|next_gidx %}
+        {% if label %}
+            <label for="{{cur_id}}" class="label">{{label}}</label>
+        {% endif %}
+        <textarea id="{{cur_id}}" name="{{name}}" {{ {"rows": rows, "cols": cols}|xmlattr }} placeholder="{{placeholder}}" {{"required" if required}} class="textarea"></textarea>
+        {% if help %}
+            <p class="help">{{help}}</p>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{% macro meta(name, value) %}
+    <input type="hidden" name="{{name}}" value="{{value}}">
+{% endmacro %}
+
+{% macro submit(text=_("Send"), id=none, class="", icon=none, attrs=none, color="is-primary") %}
+    {# submit button
+
+    @param text(str): label of the button
+    @param id(none, str): id of the element
+    #}
+    <div class="control {{class}}">
+        <button{{ {'id': id}|xmlattr }} class="button {{color}} form_submit {{class}}" type="submit"{{(attrs or {})|xmlattr}}>
+            {{text}}
+            {% if icon %}
+                <span class="icon is-small">
+                    <i class="icon-{{icon}}"></i>
+                </span>
+            {% endif %}
+        </button>
+    </div>
+{% endmacro %}

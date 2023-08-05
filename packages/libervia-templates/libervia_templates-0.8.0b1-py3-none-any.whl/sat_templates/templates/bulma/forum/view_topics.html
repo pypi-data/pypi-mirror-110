@@ -1,0 +1,49 @@
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% import 'input/field.html' as field with context%}
+{% import 'input/textbox.html' as textbox with context %}
+{% import 'input/navigation.html' as navigation with context %}
+{% import 'components/avatar.html' as avatar with context %}
+
+{% block body %}
+
+    {% if not topics %}
+        <div class="message">
+            <div class="message-body">
+                {% trans %}There is not message yet in this forum.{% endtrans %}
+                {% if profile %}
+                    {% trans %}You can start a topic of interest by filling this form.{% endtrans %}
+                {% else %}
+                    {% trans %}You can login to create a new topic.{% endtrans %}
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+
+    <section class="section has-background-white">
+        <nav class="level mb-4">
+            <div class="level-left">
+                <div class="level-item">
+                    {{ component.action_button(url_topic_new, _("New Topic")) }}
+                </div>
+            </div>
+        </nav>
+        <div class="has-background-white px-1 py-1">
+            {% for topic in topics|reverse %}
+                <div class="media has-items-vcentered">
+                    <div class="media-left">
+                        {{ avatar.avatar(topic.author) }}
+                    </div>
+                    <div class="media-content">
+                        <p class="is-size-5-desktop is-size-6-touch x-is-hoverable">
+                        <a href="{{topic.http_uri}}">
+                            {{topic.title}}
+                        </a>
+                        </p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    {{ navigation.prev_next(_("older topics"), _("newer topics")) }}
+{% endblock body %}

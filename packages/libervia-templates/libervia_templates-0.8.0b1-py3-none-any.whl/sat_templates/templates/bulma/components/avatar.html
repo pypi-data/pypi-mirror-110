@@ -1,0 +1,13 @@
+{% macro avatar(jid, class="is-48x48") %}
+    {%- if identities is defined -%}
+        {% set identity = identities.get(jid) %}
+        {%- if identity.avatar %}
+            <div class="is-avatar image {{class}}">
+                <img src="/cache/common/{{identity.avatar.filename}}">
+            </div>
+        {% else %}
+            {% set nick = identity.nicknames[0] if identity.nicknames else jid %}
+            <span class="is-avatar image {{class}} is-flex has-items-centered has-text-weight-bold is-size-3 {{class}}">{{nick|first|upper}}</span>
+        {%- endif -%}
+    {%- endif -%}
+{% endmacro %}

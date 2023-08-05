@@ -1,0 +1,51 @@
+{% extends 'base/base.html' %}
+
+{% macro generate_forums(forums_data, level=0) %}
+    {% if level == 0 %}
+        <section class="section">
+            {% for forum in forums_data %}
+                <div class="box content has-text-centered has-background-info mt-4">
+                    <h4 class="title has-text-white">{{ forum.title }}</h4>
+                    {% if 'short-desc' in forum %}
+                        <p class="subtitle is-size-7 is-italic has-text-white">{{ forum['short-desc'] }}</h5>
+                    {% endif %}
+                </div>
+                {% if 'sub-forums' in forum %}
+                    {{ generate_forums(forum['sub-forums'], level=level+1) }}
+                {% endif %}
+            {% endfor %}
+        </section>
+    {% else %}
+        <div class="forum forum__panel_{{panel_type}}">
+            {% for forum in forums_data %}
+                <div class="my-2 forum forum__cat_{{panel_type}} forum__level_{{level}}">
+                    {% if 'http_url' in forum %}
+                        <a href="{{forum['http_url']}}" class="box content x-is-hoverable">
+                    {% else %}
+                        <a class="box content">
+                    {% endif %}
+                        <h4 class="title">{{ forum.title }}</h4>
+                        {% if 'short-desc' in forum %}
+                            <p class="subtitle is-size-7 is-italic">{{ forum['short-desc'] }}</p>
+                        {% endif %}
+                    </a>
+                    {% if 'sub-forums' in forum %}
+                        {{ generate_forums(forum['sub-forums'], level=level+1) }}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+{% endif %}
+{% endmacro %}
+
+{% block body %}
+{% if not forums %}
+    <div class="message">
+        <div class="message-body">{% trans %}No forums found on this server!{% endtrans %}</div>
+    </div>
+{% else %}
+    <div class="container forums">
+        {{ generate_forums(forums) }}
+    </div>
+{% endif %}
+{% endblock body %}

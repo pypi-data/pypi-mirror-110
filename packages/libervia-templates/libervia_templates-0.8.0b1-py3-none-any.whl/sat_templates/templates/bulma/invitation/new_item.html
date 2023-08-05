@@ -1,0 +1,23 @@
+{% import 'components/avatar.html' as avatar with context %}
+
+<div class="dropdown-item media has-items-vcentered" {{ {'data-entity-jid': entity_jid}|xmlattr }}>
+    {% if identities is defined %}
+        <div class="media-left">
+            {{ avatar.avatar(entity_jid) }}
+        </div>
+    {% endif %}
+    <div class="media-content">
+        <div class="content">
+            {{identities[entity_jid].nicknames[0] if identities[entity_jid].nicknames else entity_jid}}<br>
+            <span class="is-italic is-size-7 has-text-grey-light">{{entity_jid}}</span>
+        </div>
+    </div>
+    <div class="media-right">
+        <button class="button click_to_ok">
+            <span>{% trans %}invite{% endtrans %}</span>
+            <span class="icon is-small">
+                <i class="icon-plus-circled"></i>
+            </span>
+        </button>
+    </div>
+</div>

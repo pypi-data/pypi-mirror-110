@@ -1,0 +1,1115 @@
+# French translations for Libervia Templates.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the Libervia Templates
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sat VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-15 14:21+0200\n"
+"PO-Revision-Date: 2021-06-15 13:48+0000\n"
+"Last-Translator: Goffi <tmp-weblate_goffi.org@goffi.org>\n"
+"Language-Team: French <https://salut-a-toi.org/weblate/projects/libervia/"
+"templates/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.6.2\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: templates/bulma/base/base.html:105
+msgid "page is loading, please wait…"
+msgstr "La page est en train de charger, merci de patienter…"
+
+#: templates/bulma/base/base.html:138
+msgid "Success"
+msgstr "Succès"
+
+#: templates/bulma/base/base.html:142 templates/default/base/base.html:113
+msgid "Your data has been sent correctly."
+msgstr "Votre réponse a été correctement envoyée."
+
+#: templates/bulma/base/base.html:150
+msgid "Notification"
+msgstr "Notification"
+
+#: templates/bulma/blog/articles.html:45
+#: templates/default/blog/articles.html:29
+msgid "No articles found in this blog!"
+msgstr "Aucun article trouvé sur ce blog !"
+
+#: templates/bulma/blog/articles.html:50 templates/bulma/forum/view.html:20
+#: templates/default/blog/articles.html:32 templates/default/forum/view.html:17
+msgid "older articles"
+msgstr "articles plus anciens"
+
+#: templates/bulma/blog/articles.html:50 templates/bulma/forum/view.html:20
+#: templates/default/blog/articles.html:32 templates/default/forum/view.html:17
+msgid "newer articles"
+msgstr "articles plus récents"
+
+#: templates/bulma/blog/discover.html:14
+msgid "new post"
+msgstr "nouveau billet"
+
+#: templates/bulma/blog/discover.html:19
+#: templates/default/blog/discover.html:11
+msgid "Please select the blog you want to consult"
+msgstr "Merci de choisir le blog que vous voulez consulter"
+
+#: templates/bulma/blog/discover.html:43
+#: templates/default/blog/discover.html:29
+msgid "Or enter the jid of a blog writer"
+msgstr "Ou indiquez le jid d'un auteur de blog"
+
+#: templates/bulma/blog/discover.html:45
+#: templates/default/blog/discover.html:32
+msgid "blog writer jid"
+msgstr "jid de l'auteur de blog"
+
+#: templates/bulma/blog/discover.html:46
+#: templates/default/blog/discover.html:33
+msgid "Consult"
+msgstr "Consulter"
+
+#: templates/bulma/blog/publish.html:13
+msgid "New blog post"
+msgstr "Écrire un billet de blog"
+
+#: templates/bulma/blog/publish.html:19
+msgid "edit"
+msgstr "éditer"
+
+#: templates/bulma/blog/publish.html:24
+msgid "preview"
+msgstr "prévisualiser"
+
+#: templates/bulma/blog/publish.html:29 templates/bulma/event/admin.html:92
+#: templates/default/event/admin.html:77
+msgid "title"
+msgstr "titre"
+
+#: templates/bulma/blog/publish.html:29
+msgid "title is optional"
+msgstr "le titre est facultatif"
+
+#: templates/bulma/blog/publish.html:31
+msgid "tags"
+msgstr "étiquettes"
+
+#: templates/bulma/blog/publish.html:31
+msgid "tags are comma separated"
+msgstr "les étiquettes sont séparées par des virgules"
+
+#: templates/bulma/blog/publish.html:33
+msgid "You can use markdown syntax"
+msgstr "Vous pouvez utiliser la syntaxe markdown"
+
+#: templates/bulma/blog/publish.html:35
+msgid "Publish"
+msgstr "Publier"
+
+#: templates/bulma/chat/chat.html:16 templates/default/chat/chat.html:17
+msgid "enter your message"
+msgstr "entrez votre message"
+
+#: templates/bulma/chat/select.html:11 templates/default/chat/select.html:6
+msgid "Please select the chat room you want to enter"
+msgstr "Merci de choisir le salon de discussion dans lequel vous voulez entrer"
+
+#: templates/bulma/chat/select.html:36 templates/default/chat/select.html:12
+msgid "Or enter a room address"
+msgstr "Ou l'adresse d'un salon"
+
+#: templates/bulma/chat/select.html:38 templates/default/chat/select.html:14
+msgid "Room address (JID)"
+msgstr "Adresse du salon (JID)"
+
+#: templates/bulma/chat/select.html:39 templates/default/chat/select.html:15
+msgid "Join"
+msgstr "Rejoindre"
+
+#: templates/bulma/components/block.html:89
+#: templates/bulma/event/overview.html:46
+#: templates/default/components/block.html:50
+msgid "unnamed"
+msgstr "sans nom"
+
+#: templates/bulma/components/common.html:41
+msgid "create"
+msgstr "créer"
+
+#: templates/bulma/components/menu_labels.html:3
+#: templates/default/components/menu_labels.html:3
+msgid "Session"
+msgstr "Session"
+
+#: templates/bulma/components/menu_labels.html:3
+#: templates/bulma/login/login.html:47
+#: templates/default/components/menu_labels.html:3
+#: templates/default/login/login.html:43
+msgid "Log in"
+msgstr "Se connecter"
+
+#: templates/bulma/components/menu_labels.html:4
+#: templates/default/components/menu_labels.html:4
+msgid "Blog"
+msgstr "Blog"
+
+#: templates/bulma/components/menu_labels.html:5
+#: templates/default/components/menu_labels.html:5
+msgid "Forums"
+msgstr "Forums"
+
+#: templates/bulma/components/menu_labels.html:6
+#: templates/default/components/menu_labels.html:6
+msgid "Merge requests"
+msgstr "Demandes de « merge »"
+
+#: templates/bulma/components/menu_labels.html:7
+#: templates/default/components/menu_labels.html:7
+msgid "Create new merge request"
+msgstr "Créer une nouvelle demande de « merge »"
+
+#: templates/bulma/components/menu_labels.html:8
+msgid "Lists"
+msgstr "Listes"
+
+#: templates/bulma/components/menu_labels.html:9
+msgid "List items"
+msgstr "Éléments de liste"
+
+#: templates/bulma/components/menu_labels.html:10
+msgid "Create new list item"
+msgstr "Créer un nouvel élément de liste"
+
+#: templates/bulma/components/menu_labels.html:11
+#: templates/default/components/menu_labels.html:11
+msgid "Chat"
+msgstr "Chat"
+
+#: templates/bulma/components/menu_labels.html:12
+#: templates/default/components/menu_labels.html:12
+msgid "Files sharing"
+msgstr "Partage de fichiers"
+
+#: templates/bulma/components/menu_labels.html:13
+#: templates/default/components/menu_labels.html:13
+msgid "Events"
+msgstr "Événements"
+
+#: templates/bulma/components/menu_labels.html:14
+#: templates/bulma/event/create.html:10 templates/bulma/photo/create.html:10
+#: templates/default/components/menu_labels.html:14
+#: templates/default/event/create.html:9 templates/default/photo/create.html:9
+msgid "Create an event"
+msgstr "Créer un événement"
+
+#: templates/bulma/components/menu_labels.html:15
+#: templates/default/components/menu_labels.html:15
+msgid "Photos albums"
+msgstr "Album photos"
+
+#: templates/bulma/components/menu_labels.html:16
+#: templates/default/components/menu_labels.html:16
+msgid "Application"
+msgstr "Application"
+
+#: templates/bulma/error/401.html:4 templates/bulma/error/403.html:4
+#: templates/default/error/401.html:4 templates/default/error/403.html:4
+msgid "Unauthorized"
+msgstr "Non autorisé⋅e"
+
+#: templates/bulma/error/401.html:5 templates/default/error/401.html:5
+msgid ""
+"Sorry, you are not authorized to access this page. An authentication is "
+"needed."
+msgstr ""
+"Désolé, vous n'êtes pas autorisé⋅e à accéder à cette page. Une "
+"authentification est nécessaire."
+
+#: templates/bulma/error/403.html:5 templates/default/error/403.html:5
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Désolé, vous n'êtes pas autorisé à accéder à cette page."
+
+#: templates/bulma/error/404.html:4 templates/default/error/404.html:4
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: templates/bulma/error/404.html:5 templates/default/error/404.html:5
+msgid "Sorry, we can't find the resource you are trying to access."
+msgstr ""
+"Désolé, nous ne pouvons trouver la ressource à laquelle vous essayez "
+"d'accéder."
+
+#: templates/bulma/error/base.html:3 templates/default/error/base.html:3
+#, python-format
+msgid "Error %(error_code)s"
+msgstr "Erreur %(error_code)s"
+
+#: templates/bulma/error/base.html:5 templates/default/error/base.html:5
+msgid "An error occured while trying to access the resource."
+msgstr "Une erreur a eu lieu durant la tentative d'accès à la ressource."
+
+#: templates/bulma/event/admin.html:9 templates/default/event/admin.html:8
+#, python-format
+msgid "%(name)s administration"
+msgstr "administration de %(name)s"
+
+#: templates/bulma/event/admin.html:29 templates/default/event/admin.html:22
+msgid "Invitees"
+msgstr "Invité⋅e⋅s"
+
+#: templates/bulma/event/admin.html:30 templates/bulma/event/admin.html:84
+#: templates/default/event/admin.html:23 templates/default/event/admin.html:69
+msgid "Invite people"
+msgstr "Inviter du monde"
+
+#: templates/bulma/event/admin.html:31 templates/default/event/admin.html:24
+msgid "Write a blog post"
+msgstr "Écrire un billet de blog"
+
+#: templates/bulma/event/admin.html:32 templates/default/event/admin.html:25
+msgid "Read event blog"
+msgstr "Lire le blog de l'événement"
+
+#: templates/bulma/event/admin.html:41 templates/bulma/event/create.html:13
+#: templates/bulma/invitation/invite_by_email.html:14
+#: templates/default/event/admin.html:33 templates/default/event/create.html:13
+msgid "name"
+msgstr "nom"
+
+#: templates/bulma/event/admin.html:42 templates/default/event/admin.html:34
+msgid "coming?"
+msgstr "vient?"
+
+#: templates/bulma/event/admin.html:43 templates/default/event/admin.html:35
+msgid "guests"
+msgstr "invités"
+
+#: templates/bulma/event/admin.html:61 templates/default/event/admin.html:49
+msgid "total expected"
+msgstr "total attendu"
+
+#: templates/bulma/event/admin.html:67 templates/default/event/admin.html:54
+msgid "No invitee has answered yet"
+msgstr "Aucun⋅e invité⋅e n'a répondu pour le moment"
+
+#: templates/bulma/event/admin.html:77 templates/default/event/admin.html:64
+msgid "enter here a list of jid (one per line) to invite"
+msgstr "veuillez entrer ici une liste de jid (un par ligne) à inviter"
+
+#: templates/bulma/event/admin.html:81 templates/default/event/admin.html:67
+msgid "enter here a list of emails addresses (one per line) to invite"
+msgstr ""
+"veuillez entrer ici une liste d'adresses courriel (une par ligne) à "
+"inviter"
+
+#: templates/bulma/event/admin.html:95 templates/default/event/admin.html:80
+msgid "body"
+msgstr "corps"
+
+#: templates/bulma/event/admin.html:99 templates/default/event/admin.html:83
+msgid "language"
+msgstr "langue"
+
+#: templates/bulma/event/admin.html:102 templates/default/event/admin.html:86
+msgid "allow comments"
+msgstr "autoriser les commentaires"
+
+#: templates/bulma/event/admin.html:104 templates/default/event/admin.html:88
+msgid "send"
+msgstr "envoyer"
+
+#: templates/bulma/event/attendance.html:7
+#: templates/default/event/attendance.html:5
+msgid "Please indicate if you plan to attend the event:"
+msgstr "Merci d'indiquer si vous comptez vous rendre à l'évènement :"
+
+#: templates/bulma/event/attendance.html:15
+#: templates/default/event/attendance.html:11
+msgid "yes"
+msgstr "oui"
+
+#: templates/bulma/event/attendance.html:15
+#: templates/default/event/attendance.html:11
+msgid "no"
+msgstr "non"
+
+#: templates/bulma/event/attendance.html:15
+#: templates/default/event/attendance.html:11
+msgid "maybe"
+msgstr "peut-être"
+
+#: templates/bulma/event/attendance.html:18
+#: templates/default/event/attendance.html:14
+msgid "How many people will come (including you)?"
+msgstr "Combien de personnes vont venir (y compris vous) ?"
+
+#: templates/bulma/event/counter.html:4 templates/default/event/counter.html:4
+#, python-format
+msgid "%(days_left)s day left"
+msgid_plural "%(days_left)s days left"
+msgstr[0] "il reste %(days_left)s jour"
+msgstr[1] "il reste %(days_left)s jours"
+
+#: templates/bulma/event/counter.html:11
+#: templates/default/event/counter.html:11
+msgid "the event is finished"
+msgstr "l'événement est passé"
+
+#: templates/bulma/event/create.html:14 templates/default/event/create.html:14
+msgid "location"
+msgstr "lieu"
+
+#: templates/bulma/event/create.html:16 templates/default/event/create.html:16
+msgid "description of the event"
+msgstr "description de l'événement"
+
+#: templates/bulma/event/create.html:19 templates/default/event/create.html:19
+msgid "date of the event"
+msgstr "date de l'événement"
+
+#: templates/bulma/event/create.html:20 templates/default/event/create.html:20
+msgid "event image URL (https)"
+msgstr "URL de l'image de l'événement (https)"
+
+#: templates/bulma/event/create.html:21 templates/default/event/create.html:21
+msgid ""
+"you can enter here the URL to a JPEG or PNG image to use as "
+"representation of your event"
+msgstr ""
+"vous pouvez entrer ici l'URL d'une image JPEG ou PNG pour représenter "
+"votre événement"
+
+#: templates/bulma/event/create.html:22 templates/bulma/event/create.html:26
+#: templates/default/event/create.html:22
+#: templates/default/event/create.html:26
+msgid "JPEG or PNG image URL"
+msgstr "URL d'une image JPEG ou PNG"
+
+#: templates/bulma/event/create.html:24 templates/default/event/create.html:24
+msgid "background image URL (https)"
+msgstr "URL de l'image de fond (https)"
+
+#: templates/bulma/event/create.html:25 templates/default/event/create.html:25
+msgid ""
+"you can enter here the URL to a JPEG or PNG image to use repeating "
+"background"
+msgstr ""
+"vous pouvez entrer ici l'URL d'une image JPEG ou PNG à utiliser comme "
+"fond (qui se répétera)"
+
+#: templates/bulma/event/create.html:28 templates/default/event/create.html:28
+msgid "Create event"
+msgstr "Créer un événement"
+
+#: templates/bulma/event/invitation.html:7
+#: templates/bulma/invitation/welcome.html:7
+#: templates/default/event/invitation.html:5
+#: templates/default/invitation/welcome.html:7
+#, python-format
+msgid "Welcome %(name)s"
+msgstr "Bienvenue %(name)s"
+
+#: templates/bulma/event/invitation.html:10
+#: templates/default/event/invitation.html:6
+msgid "You have been invited to participate to an event"
+msgstr "Vous avez été invité à participer à un événement"
+
+#: templates/bulma/event/overview.html:18
+#: templates/default/event/overview.html:16
+msgid "There is not events discovery yet, this will come in the future."
+msgstr ""
+"Il n'y a pas encore de page de découverte d'événement, elle va arriver "
+"dans une version future."
+
+#: templates/bulma/event/overview.html:29
+#: templates/default/event/overview.html:20
+#, python-format
+msgid "You have currently %(nb_events)s event in your personal list"
+msgid_plural "You have currently %(nb_events)s events in your personal list"
+msgstr[0] ""
+"Vous avez actuellement %(nb_events)s événement dans votre liste "
+"personnelle"
+msgstr[1] ""
+"Vous avez actuellement %(nb_events)s événements dans votre liste "
+"personnelle"
+
+#: templates/bulma/file/discover.html:12
+#: templates/default/file/discover.html:10
+msgid "Please select the device you want to access"
+msgstr "Merci de choisir l'appareil auquel vous voulez accéder"
+
+#: templates/bulma/file/discover.html:21
+#: templates/default/file/discover.html:17
+msgid "services"
+msgstr "services"
+
+#: templates/bulma/file/discover.html:25
+#: templates/default/file/discover.html:25
+msgid "your server"
+msgstr "votre serveur"
+
+#: templates/bulma/file/discover.html:36
+#: templates/default/file/discover.html:38
+msgid "your devices"
+msgstr "vos appareils"
+
+#: templates/bulma/file/discover.html:51
+#: templates/default/file/discover.html:55
+msgid "your contacts devices"
+msgstr "les appareils de vos contacts"
+
+#: templates/bulma/file/discover.html:66
+#: templates/default/file/discover.html:70
+msgid "Or enter a full jid of a device"
+msgstr "Ou indiquez de jid complet d'un appareil"
+
+#: templates/bulma/file/discover.html:68 templates/bulma/photo/discover.html:33
+#: templates/default/file/discover.html:72
+#: templates/default/photo/discover.html:21
+msgid "device full jid"
+msgstr "jid complet d'un appareil"
+
+#: templates/bulma/file/discover.html:69 templates/bulma/list/discover.html:48
+#: templates/bulma/merge-request/discover.html:27
+#: templates/bulma/photo/discover.html:34
+#: templates/default/file/discover.html:73
+#: templates/default/list/discover.html:23
+#: templates/default/merge-request/discover.html:23
+#: templates/default/photo/discover.html:22
+msgid "Access"
+msgstr "Accès"
+
+#: templates/bulma/file/overview.html:15
+#: templates/default/file/overview.html:10
+msgid "parent dir"
+msgstr "répertoire parent"
+
+#: templates/bulma/file/overview.html:60
+#: templates/default/file/overview.html:38
+msgid "No files are shared in this directory!"
+msgstr "Au fichier n'est partagé dans ce répertoire !"
+
+#: templates/bulma/forum/overview.html:44
+#: templates/default/forum/overview.html:29
+msgid "No forums found on this server!"
+msgstr "Aucun forum trouvé sur ce serveur !"
+
+#: templates/bulma/forum/view.html:16 templates/default/forum/view.html:14
+msgid "Enter your message here"
+msgstr "Veuillez entrer votre message ici"
+
+#: templates/bulma/forum/view_topics.html:12
+#: templates/default/forum/view_topics.html:11
+msgid "There is not message yet in this forum."
+msgstr "Il n'y a pas encore de message dans ce forum."
+
+#: templates/bulma/forum/view_topics.html:14
+#: templates/default/forum/view_topics.html:13
+msgid "You can start a topic of interest by filling this form."
+msgstr ""
+"Vous pouvez commencer à discuter d'un sujet d'intérêt en remplissant ce "
+"formulaire."
+
+#: templates/bulma/forum/view_topics.html:16
+#: templates/default/forum/view_topics.html:15
+msgid "You can login to create a new topic."
+msgstr "Vous pouvez vous connecter pour créer un nouveau sujet."
+
+#: templates/bulma/forum/view_topics.html:26
+msgid "New Topic"
+msgstr "Nouveau sujet"
+
+#: templates/bulma/forum/view_topics.html:48
+#: templates/default/forum/view_topics.html:38
+msgid "older topics"
+msgstr "sujets plus anciens"
+
+#: templates/bulma/forum/view_topics.html:48
+#: templates/default/forum/view_topics.html:38
+msgid "newer topics"
+msgstr "sujets plus récents"
+
+#: templates/bulma/input/field.html:117 templates/bulma/input/textbox.html:12
+#: templates/default/input/field.html:90
+#: templates/default/input/textbox.html:11
+#: templates/default/input/textbox.html:16
+msgid "Send"
+msgstr "Envoyer"
+
+#: templates/bulma/input/navigation.html:1
+#: templates/default/input/navigation.html:1
+msgid "older"
+msgstr "plus ancien"
+
+#: templates/bulma/input/navigation.html:1
+#: templates/default/input/navigation.html:1
+msgid "newer"
+msgstr "plus récent"
+
+#: templates/bulma/input/textbox.html:46 templates/bulma/input/textbox.html:50
+#: templates/default/input/textbox.html:31
+#: templates/default/input/textbox.html:35
+msgid "Your comment"
+msgstr "Votre commentaire"
+
+#: templates/bulma/input/textbox.html:67
+#: templates/default/input/textbox.html:50
+msgid "You are not logged. You need to log in to comment."
+msgstr "Vous n'êtes pas connecté⋅e. Merci de vous connecter pour commenter."
+
+#: templates/bulma/input/textbox.html:70
+#: templates/default/input/textbox.html:53
+#, python-format
+msgid "To log in %(link_start)sfollow this link%(link_end)s"
+msgstr "Pour vous connecter %(link_start)ssuivez ce lien%(link_end)s"
+
+#: templates/bulma/input/textbox.html:84
+msgid "Search"
+msgstr "Rechercher"
+
+#: templates/bulma/invitation/invite_by_email.html:8
+msgid "Invite somebody by email"
+msgstr "Inviter quelqu'un par courriel"
+
+#: templates/bulma/invitation/invite_by_email.html:13
+msgid "email"
+msgstr "courriel"
+
+#: templates/bulma/invitation/invite_by_email.html:20
+msgid "Send invitation"
+msgstr "Envoyer une invitation"
+
+#: templates/bulma/invitation/invite_by_email.html:24
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/bulma/invitation/manager.html:11
+msgid ""
+"in this panel, you can manage people who can access this page, and send "
+"invitations"
+msgstr ""
+"dans ce panneau, vous pouvez gérer les gens qui peuvent accéder à cette "
+"page, et envoyer des invitations"
+
+#: templates/bulma/invitation/manager.html:17
+msgid "people who can access this page"
+msgstr "Personnes qui peuvent accéder à cette page"
+
+#: templates/bulma/invitation/manager.html:23
+msgid "name or identifier of a person to invite"
+msgstr "nom ou identifiant de la personne à inviter"
+
+#: templates/bulma/invitation/manager.html:26
+msgid "invite by email"
+msgstr "inviter par courriel"
+
+#: templates/bulma/invitation/new_item.html:17
+msgid "invite"
+msgstr "inviter"
+
+#: templates/bulma/invitation/welcome.html:10
+#: templates/default/invitation/welcome.html:8
+msgid ""
+"You have been invited to participate with the community, please choose an"
+" action below"
+msgstr ""
+"Vous avez été invité⋅e à participer avec la communauté, merci de choisir "
+"une action ci-dessous"
+
+#: templates/bulma/invitation/welcome.html:15
+#: templates/default/invitation/welcome.html:12
+msgid "events"
+msgstr "événements"
+
+#: templates/bulma/invitation/welcome.html:19
+#: templates/default/invitation/welcome.html:16
+msgid "photo albums"
+msgstr "albums photos"
+
+#: templates/bulma/invitation/welcome.html:23
+#: templates/default/invitation/welcome.html:20
+msgid "file sharing"
+msgstr "partage de fichiers"
+
+#: templates/bulma/list/create.html:9
+msgid "Please select the type of list that you want to create"
+msgstr "Merci de choisir le type de liste que vous voulez créer"
+
+#: templates/bulma/list/create_from_template.html:10
+#, python-format
+msgid "You're about to create a new list (%(list_type)s)."
+msgstr "Vous allez créer une nouvelle liste (%(list_type)s)."
+
+#: templates/bulma/list/create_from_template.html:16
+msgid "name of the list"
+msgstr "nom de la liste"
+
+#: templates/bulma/list/create_from_template.html:19
+msgid "Is this list private or public?"
+msgstr "Est-ce que cette liste est privée ou publique ?"
+
+#: templates/bulma/list/create_from_template.html:23
+msgid ""
+"Private lists are only visible by yourself (and people you invite later)."
+"\n"
+"                    Public lists can be accessed by anybody."
+msgstr ""
+"Les listes privées sont uniquement visibles par vous même (et les personnes "
+"que vous allez inviter plus tard).\n"
+"Les listes publiques peuvent être accédées par n'importe qui."
+
+#: templates/bulma/list/create_from_template.html:29
+msgid "private"
+msgstr "privée"
+
+#: templates/bulma/list/create_from_template.html:29
+msgid "public"
+msgstr "publique"
+
+#: templates/bulma/list/create_from_template.html:31
+msgid "Create list"
+msgstr "Créer une liste"
+
+#: templates/bulma/list/create_item.html:13
+#: templates/default/list/create_item.html:11
+#, python-format
+msgid ""
+"This page allows you to report an issue or ask/suggest a new feature for "
+"%(app_name)s"
+msgstr ""
+"Cette page vous permet de rapporter un problème ou demande/suggérer un "
+"nouvelle fonctionnalité pour %(app_name)s"
+
+#: templates/bulma/list/create_item.html:21 templates/bulma/list/edit.html:14
+#: templates/bulma/merge-request/edit.html:21
+#: templates/default/list/create_item.html:17
+#: templates/default/list/edit.html:14
+#: templates/default/merge-request/edit.html:21
+msgid "Short description of your issue/request"
+msgstr "Description courte de votre problème/demande"
+
+#: templates/bulma/list/create_item.html:23 templates/bulma/list/edit.html:16
+#: templates/bulma/merge-request/edit.html:23
+#: templates/default/list/create_item.html:19
+#: templates/default/list/edit.html:16
+#: templates/default/merge-request/edit.html:23
+msgid ""
+"Please describe your issue/request with as much details as possible. You "
+"can use Markdown syntax."
+msgstr ""
+"Merci de décrire votre problème/demande avec le plus de détails possible."
+" Vous pouvez utiliser la syntaxe « Markdown »."
+
+#: templates/bulma/list/create_item.html:24 templates/bulma/list/edit.html:17
+#: templates/bulma/merge-request/edit.html:24
+#: templates/default/list/create_item.html:20
+#: templates/default/list/edit.html:17
+#: templates/default/merge-request/edit.html:24
+msgid "You can enter one or several labels separated by commas"
+msgstr "Vous pouvez entrer une ou plusieurs étiquettes séparées par des virgules"
+
+#: templates/bulma/list/create_item.html:26
+msgid "Create list item"
+msgstr "Créer un élément de liste"
+
+#: templates/bulma/list/discover.html:17
+msgid "create a list"
+msgstr "créer une liste"
+
+#: templates/bulma/list/discover.html:23
+msgid "Please select the list to use."
+msgstr "Merci de choisir la liste à utiliser."
+
+#: templates/bulma/list/discover.html:47
+msgid "list jid"
+msgstr "jid de la liste"
+
+#: templates/bulma/list/edit.html:19
+msgid "Modify list item"
+msgstr "Modifier un élément de liste"
+
+#: templates/bulma/list/item.html:21 templates/bulma/merge-request/item.html:20
+#: templates/default/list/item.html:20
+#: templates/default/merge-request/item.html:19
+msgid "Your comment has been sent"
+msgstr "Votre commentaire a été envoyé"
+
+#: templates/bulma/list/overview.html:21 templates/bulma/photo/album.html:14
+#, python-format
+msgid "manage invitations"
+msgstr "gérer les invitations"
+
+#: templates/bulma/list/overview.html:42
+#: templates/default/list/overview.html:18
+msgid "previous page"
+msgstr "page précedente"
+
+#: templates/bulma/list/overview.html:42
+#: templates/default/list/overview.html:18
+msgid "next page"
+msgstr "next page"
+
+#: templates/bulma/list/view_generic.html:5
+#: templates/default/list/overview.html:12
+msgid "Title"
+msgstr "Titre"
+
+#: templates/bulma/list/view_generic.html:6
+#: templates/default/list/overview.html:13
+msgid "Labels"
+msgstr "Étiquettes"
+
+#: templates/bulma/list/view_generic.html:7
+#: templates/default/list/overview.html:11
+msgid "Id"
+msgstr "Id"
+
+#: templates/bulma/list/view_generic.html:8
+msgid "Author"
+msgstr "Auteur"
+
+#: templates/bulma/list/view_generic.html:12
+msgid "by {value}"
+msgstr "par {value}"
+
+#: templates/bulma/list/view_grocery.html:33
+msgid "item to get"
+msgstr "élément à prendre"
+
+#: templates/bulma/list/view_grocery.html:34
+msgid "quantity"
+msgstr "quantité"
+
+#: templates/bulma/login/logged.html:1 templates/bulma/login/logged.html:10
+#: templates/default/login/logged.html:1 templates/default/login/logged.html:9
+msgid "You have been logged correctly"
+msgstr "Vous êtes bien connecté⋅e"
+
+#: templates/bulma/login/logged.html:18 templates/default/login/logged.html:16
+msgid "You are logged as a guest"
+msgstr "Vous être connecté⋅e en tant qu'invité⋅e"
+
+#: templates/bulma/login/logged.html:20 templates/default/login/logged.html:18
+#, python-format
+msgid "You are logged under the account %(name)s"
+msgstr "Vous êtes connecté⋅e avec le compte %(name)s "
+
+#: templates/bulma/login/logged.html:22 templates/default/login/logged.html:20
+#, python-format
+msgid "You logged %(session_started)s"
+msgstr "Vous vous êtes connecté⋅e %(session_started)s"
+
+#: templates/bulma/login/logged.html:27 templates/default/login/logged.html:24
+msgid "Disconnect"
+msgstr "Déconnecter"
+
+#: templates/bulma/login/login.html:22 templates/default/login/login.html:21
+msgid "Your login and/or password is incorrect. Please try again."
+msgstr "Votre identifiant et/ou mot de passe est incorrect. Merci de ré-essayer."
+
+#: templates/bulma/login/login.html:24 templates/default/login/login.html:23
+msgid ""
+"Your XMPP account failed to connect. Did you enter the good password? If "
+"you have changed your XMPP password since your last connection on "
+"Libervia, please use another SàT frontend to update your profile."
+msgstr ""
+"Votre compte XMPP n'a pu être connecté. Avez-vous entré le bon mot de "
+"passe ? Si vous avez changé votre mot de passe XMPP depuis votre dernière"
+" connection à Libervia, veuillez utiliser un autre frontal SàT pour "
+"mettre à jour votre profil."
+
+#: templates/bulma/login/login.html:26 templates/default/login/login.html:25
+msgid ""
+"Did not received a reply (the timeout expired or the connection is "
+"broken)."
+msgstr ""
+"Aucune réponse reçue (le délai d'attente a expiré ou la connexion est "
+"coupée)."
+
+#: templates/bulma/login/login.html:28 templates/bulma/login/register.html:15
+#: templates/default/login/login.html:27
+#: templates/default/login/register.html:15
+msgid "An unknown error occurred, please contact your service administrator."
+msgstr ""
+"Une erreur inconnue s'est produite, merci de contacter "
+"l'administrateur⋅ice de ce service."
+
+#: templates/bulma/login/login.html:39 templates/bulma/login/register.html:32
+#: templates/default/login/login.html:38
+#: templates/default/login/register.html:32
+msgid "Login"
+msgstr "Identifiant"
+
+#: templates/bulma/login/login.html:44 templates/bulma/login/register.html:44
+#: templates/default/login/login.html:42
+#: templates/default/login/register.html:42
+msgid "Password"
+msgstr "Mot de passe"
+
+#: templates/bulma/login/login.html:59 templates/default/login/login.html:51
+msgid "No account yet? Create a new one!"
+msgstr "Pas encore de compte ? Créez-en un !"
+
+#: templates/bulma/login/register.html:7
+#: templates/default/login/register.html:7
+msgid "This login already exists, please choose another one."
+msgstr "Cet identidiant existe déjà, merci d'en choisir un autre."
+
+#: templates/bulma/login/register.html:9
+#: templates/default/login/register.html:9
+msgid ""
+"The certificate of the server is invalid. Please contact your server "
+"administrator."
+msgstr ""
+"Le certificat de ce serveur est invalide. Merci de contacter "
+"l'administrateur⋅ice de ce service."
+
+#: templates/bulma/login/register.html:11
+#: templates/default/login/register.html:11
+msgid "The data you entered are not valid."
+msgstr "Les données que vous avez entrées ne sont pas valides."
+
+#: templates/bulma/login/register.html:13
+#: templates/default/login/register.html:13
+msgid "Bad request, please contact your service administrator."
+msgstr "Mauvaise requête, merci de contacter l'administrateur⋅ice de ce service."
+
+#: templates/bulma/login/register.html:23
+#: templates/default/login/register.html:23
+msgid "Go to login page"
+msgstr "Aller à la page de connexion"
+
+#: templates/bulma/login/register.html:35
+#: templates/default/login/register.html:35
+msgid ""
+"Login must be lower case, with only plain letters (a-z), numbers (0-9) or"
+" underscore(_)"
+msgstr ""
+"L'identifiant doit être en miniscules, avec uniquement des lettres sans "
+"accents (a-z), des nombres (0-9) ou le signe « souligné » (_)"
+
+#: templates/bulma/login/register.html:39
+#: templates/default/login/register.html:38
+msgid "Email"
+msgstr "Courriel"
+
+#: templates/bulma/login/register.html:50
+#: templates/default/login/register.html:47
+msgid "Register new account"
+msgstr "Enregistrer un nouveau compte"
+
+#: templates/bulma/merge-request/create.html:9
+#: templates/default/merge-request/create.html:7
+msgid ""
+"It is not yet possible to create a merge request from inside Libervia, "
+"please use <pre>jp merge-request set</pre> for now. Merge requests "
+"welcome ;)"
+msgstr ""
+"Il n'est pas encore possible de créer une demande de « merge » depuis "
+"Libervia, merci d'utiliser <pre>jp merge-request set</pre> pour le "
+"moment. Une proposition de « merge » est la bienvenue ;)"
+
+#: templates/bulma/merge-request/discover.html:13
+#: templates/default/merge-request/discover.html:11
+msgid "Please select a merge-requests handler"
+msgstr "Merci de choisir un gestionnaire de demande de « merge »"
+
+#: templates/bulma/merge-request/discover.html:26
+#: templates/default/merge-request/discover.html:22
+msgid "handler jid"
+msgstr "jid du gestionnaire"
+
+#: templates/bulma/merge-request/edit.html:13
+#: templates/default/merge-request/edit.html:13
+msgid "Note:"
+msgstr "Note :"
+
+#: templates/bulma/merge-request/edit.html:14
+#: templates/default/merge-request/edit.html:14
+msgid ""
+"to modify content of the merge request, you'll have to use command line "
+"(with jp)"
+msgstr ""
+"pour modifier le contenu de la demande de « merge », vous devez "
+"utiliserla ligne de commande (avec jp)"
+
+#: templates/bulma/merge-request/edit.html:26
+msgid "Modify merge request"
+msgstr "Modifier une demande de « merge »"
+
+#: templates/bulma/merge-request/item.html:31
+#: templates/default/merge-request/item.html:27
+msgid "Description"
+msgstr "Description"
+
+#: templates/bulma/merge-request/item.html:36
+#: templates/default/merge-request/item.html:28
+msgid "Patches"
+msgstr "Patches"
+
+#: templates/bulma/photo/album.html:19
+msgid "hint"
+msgstr "astuce"
+
+#: templates/bulma/photo/album.html:23
+msgid "You can click on any picture to start a slideshow"
+msgstr ""
+"Vous pouvez cliquer sur n'importe quelle photo pour démarrer un diaporama"
+
+#: templates/bulma/photo/album.html:40
+msgid "Drop photos here"
+msgstr "Déposer les photos ici"
+
+#: templates/bulma/photo/album.html:54
+msgid "Select photos to upload…"
+msgstr "Sélectionner les photos à téléverser…"
+
+#: templates/bulma/photo/create.html:13 templates/default/photo/create.html:13
+msgid "album name"
+msgstr "nom de l'album"
+
+#: templates/bulma/photo/create.html:14
+msgid "Create a photo album"
+msgstr "Créer un album photo"
+
+#: templates/bulma/photo/discover.html:15
+#: templates/default/photo/discover.html:11
+#, python-format
+msgid "You have currently %(nb_interests)s album in your personal list"
+msgid_plural "You have currently %(nb_interests)s albums in your personal list"
+msgstr[0] "Vous avez actuellement %(nb_interests)s album dans votre liste personnelle"
+msgstr[1] ""
+"Vous avez actuellement %(nb_interests)s albums dans votre liste "
+"personnelle"
+
+#: templates/bulma/photo/discover.html:27
+#: templates/default/photo/discover.html:8
+msgid ""
+"Photo discovery is not implemented yet, however you can enter a jid below"
+" to find its albums"
+msgstr ""
+"La découverte de photos n'est pas encore implémentée, mais vous pouvez "
+"tout de même entrer un jid ci-dessous pour trouver ses albums"
+
+#: templates/default/app/app.html:5
+#, python-format
+msgid ""
+"The following link allows you to access %(app_name)s web application, "
+"which is a more feature rich way to use this software (but it is also a "
+"bit more heavy and complex to use)."
+msgstr ""
+"Le lien suivant vous permet d'accéder à l'application web de "
+"%(app_name)s, qui est une façon plus riche en fonctionnalités d'utiliser "
+"ce logiciel (mais qui est aussi plus lourde et difficile à utiliser)."
+
+#: templates/default/app/app.html:10
+msgid ""
+"Please note that current version of web application use legacy "
+"technologies and will be rewritten for next version of Salut à Toi (0.8)."
+" It does contain some bugs and it is under minimal maintenance."
+msgstr ""
+"Veuillez noter que la version actuelle de l'application web utilise une "
+"technologie obsolète pour des raisons historiques, et qu'elle va être "
+"ré-écrite pour la prochaine version de Salut à Toi (0.8). Elle comporte "
+"des bogues et est maintenue à minima."
+
+#: templates/default/app/app.html:15
+msgid "Click here to access the web application"
+msgstr "Cliquez ici pour accéder à l'application web"
+
+#: templates/default/app/app.html:18
+msgid "Next time you can go directly to the above URL."
+msgstr "La prochaine fois vous pouvez aller directement à l'URL ci-dessus."
+
+#: templates/default/base/base.html:67
+msgid "Click to expand…"
+msgstr "Cliquez pour agrandir…"
+
+#: templates/default/base/base.html:67
+msgid "Click to reduce…"
+msgstr "Cliquez pour réduire…"
+
+#: templates/default/base/base.html:99
+msgid "change"
+msgstr "changer"
+
+#: templates/default/base/base.html:142
+#, python-format
+msgid "Powered by %(app_name)s"
+msgstr "Ce site utilise %(app_name)s"
+
+#: templates/default/base/base.html:146
+msgid "subscribe"
+msgstr "s'inscrire"
+
+#: templates/default/blog/macros.html:23
+msgid "show comments"
+msgstr "voir les commentaires"
+
+#: templates/default/blog/macros.html:24
+msgid "hide comments"
+msgstr "cacher les commentaires"
+
+#: templates/default/components/menu_labels.html:8
+msgid "Tickets"
+msgstr "Tickets"
+
+#: templates/default/components/menu_labels.html:9
+msgid "List tickets"
+msgstr "Lister les tickets"
+
+#: templates/default/components/menu_labels.html:10
+msgid "Create new ticket"
+msgstr "Créer un nouveau ticket"
+
+#: templates/default/forum/view_topics.html:21
+msgid "Your message"
+msgstr "Votre message"
+
+#: templates/default/forum/view_topics.html:21
+msgid "Create topic"
+msgstr "Créer un sujet"
+
+#: templates/default/forum/view_topics.html:22
+msgid "Your topic (try to be short and explicit)"
+msgstr "Votre sujet (essayez d'être court et explicite)"
+
+#: templates/default/list/create_item.html:22
+msgid "Create ticket"
+msgstr "Créer un ticket"
+
+#: templates/default/list/discover.html:11
+msgid "Please select a tickets tracker"
+msgstr "Merci de choisir un groupement de tickets"
+
+#: templates/default/list/discover.html:22
+msgid "tickets tracker jid"
+msgstr "jid du groupement de tickets"
+
+#: templates/default/list/edit.html:19
+#: templates/default/merge-request/edit.html:26
+msgid "Modify ticket"
+msgstr "Modifier un ticket"
+
+#: templates/default/merge-request/item.html:63
+msgid "author:"
+msgstr "auteur:"
+
+#: templates/default/photo/album.html:18
+msgid "comments"
+msgstr "commentaires"
+
+#: templates/default/photo/create.html:14
+msgid "Create photo album"
+msgstr "Créer un album photo"
+
+#: templates/default/session/disconnect.html:4
+msgid "You have been disconnected, have a nice day!"
+msgstr "Vous avez été déconnecté, bonne journée !"

@@ -1,0 +1,23 @@
+<div id="list" class="container has-background-white px-1 py-1">
+    {{ xmlui.generate_list(
+          list_items|reverse,
+          (
+              ('title', _('Title')),
+              ('labels', _('Labels')),
+              ('id', _('Id')),
+              ('author', _('Author')),
+          ),
+          {
+              'id': '\n#{value}',
+              'author': _('by {value}'),
+          },
+           item_class_fields=['status', 'priority', 'severity'],
+           field_class_map={
+               'title': 'has-text-weight-bold',
+               'labels': 'tag is-rounded x-is-hoverable',
+               'id': 'has-text-grey-light is-size-7 has-whitespace-pre-wrap',
+               'author': 'is-size-7'
+           },
+           on_click=on_list_item_click)
+    }}
+</div>

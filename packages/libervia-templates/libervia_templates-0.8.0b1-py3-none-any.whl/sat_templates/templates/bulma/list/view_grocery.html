@@ -1,0 +1,38 @@
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+<div id="list" class="container has-background-white px-1 py-1">
+    {% for item in list_items|reverse %}
+        {% set is_bought = item.widget_value.status == 'bought' %}
+        <div class="item box has-background-light has-text-weight-medium
+                      {{'list-item-closed' if is_bought}}"
+             data-item='{{item.values|tojson}}'>
+            <div class="level is-mobile">
+                <div class="level-left">
+                    <div class="level-item">
+                        <input type="checkbox" {{"checked" if is_bought}} class="click_to_next_state">
+                    </div>
+                    <div class="level-item">
+                        {{item.widget_value.name}}
+                    </div>
+                </div>
+                <div class="level-right">
+                    <div class="level-item">
+                        {{item.widget_value.quantity}}
+                    </div>
+                    <div class="level-item">
+                        <button class="delete click_to_delete"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+    {% call form.form(id="post_grocery") %}
+        {{ field.meta("type", "grocery") }}
+        {% call field.text("name", class="has-addons", control_class="is-expanded", placeholder=_("item to get"), required=true) %}
+            {{ field.int("quantity", control_class="has-width-7", placeholder=_("quantity"), init="", min=1, in_group=true) }}
+            {{ field.submit("", icon="plus") }}
+        {% endcall %}
+    {% endcall %}
+</div>

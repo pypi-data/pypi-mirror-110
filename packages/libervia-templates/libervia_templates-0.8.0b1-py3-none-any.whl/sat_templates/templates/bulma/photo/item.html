@@ -1,0 +1,58 @@
+<div class="column is-4 item" data-item='{{file|tojson}}'>
+    <div class="card x-is-hoverable">
+        <div class="card-image is-photo-thumbnail-container is-flex has-items-centered has-background-light">
+            {% if file.mime_type[:5] == 'video' %}
+                <a href="{{file.url}}" class="is-video-thumbnail-wrapper is-wrapping photo_thumb_click">
+                    <img class="is-photo-thumbnail" src="{{file.thumb_url}}">
+                    <div class="media_overlay_play is-flex has-items-centered">
+                        <span class="icon">
+                            <i class="icon-play-circled"></i>
+                        </span>
+                    </div>
+                </a>
+            {% else %}
+                <a href="{{file.url}}" class="is-wrapping photo_thumb_click">
+                    <img class="is-photo-thumbnail" src="{{file.thumb_url}}" alt="{{file.name}}">
+                </a>
+            {% endif %}
+        </div>
+        <div class="card-content" onclick="clicked_mh_fix('{{'comments_panel'|next_gidx}}')">
+            <div class="level">
+                <div class="level-left">
+                    {% if file.affiliation == "owner" or not file.affiliation and directory_affiliation == "owner" %}
+                        <div class="level-item is-size-7 x-is-hoverable-primary action_delete">
+                            {{ icon('trash-empty', cls='icon is-small') }}
+                        </div>
+                    {% endif %}
+                    {% if directory_affiliation == "owner" %}
+                        <div class="level-item is-size-7 x-is-hoverable-primary action_cover">
+                            {{ icon('picture', cls='icon is-small') }}
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="level-right">
+                    <div class="level-item is-size-7">
+                        {% if file.comments_url is defined %}
+                            {% if file.comments_count %}
+                                <span class='comments__count'>{{file.comments_count}} </span>
+                            {% endif %}
+                            {{ icon('comment-empty', cls='icon is-small') }}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% if uploading %}
+        <progress class="progress is-info mt-4 has-background-white" value="0" max="100">0%</progress>
+    {% else %}
+        <div id='{{'comments_panel'|cur_gidx}}' class="mt-4 panel-drawer">
+            {% if file.comments %}
+                {{ blog.show_items(file.comments['items'], expanded=true, dates_fmt='relative') }}
+            {% endif %}
+            <div class="comment_post mt-4">
+                {{- textbox.comment_or_login(service=file.comments_service, node=file.comments_node) -}}
+            </div>
+        </div>
+    {% endif %}
+</div>

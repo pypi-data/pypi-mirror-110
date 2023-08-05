@@ -1,0 +1,6 @@
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% block body_wrapper %}
+    <iframe class="embed" src="{{target_url}}"></iframe>
+{% endblock body_wrapper  %}
+
+{% block footer %}{% endblock footer %}

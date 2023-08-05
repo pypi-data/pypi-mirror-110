@@ -1,0 +1,49 @@
+{% extends 'base/base.html' %}
+{% import 'components/block.html' as block %}
+{% import 'components/images.html' as images with context %}
+{% import 'components/avatar.html' as avatar with context %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+{{ icon_defs('blog', 'pencil') }}
+
+<section class="section">
+    {% if url_blog_edit is defined %}
+            <div class="content has-items-centered is-flex">
+            {{ component.action_button(url_blog_edit, _("new post"), "pencil") }}
+            </div>
+    {% endif %}
+    <article class="message has-text-centered">
+        <div class="message-body">
+            {% trans %}
+            Please select the blog you want to consult
+            {% endtrans %}
+        </div>
+    </article>
+    <div class="columns is-mobile is-multiline">
+        {% for entity in disco_entities %}
+            <div class="column is-2-desktop is-4-touch">
+                <div class="card x-is-hoverable">
+                    <a href="{{entities_url[entity]}}" class="items_vert--centered">
+                        <div class="card-image is-flex has-items-centered px-1 py-1">
+                            {{ avatar.avatar(entity, "is-64x64") }}
+                        </div>
+                        <div class="card-content has-text-centered has-text-shortenable px-1 py-1">
+                            <span>{{ identities[entity].nicknames[0] if identities[entity].nicknames else entity }}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="section">
+    <p class="content">{% trans %}Or enter the jid of a blog writer{% endtrans %}</p>
+    {% call form.form(class="form--single") %}
+        {{ field.text("jid", _("blog writer jid"), required=true)}}
+        {{ field.submit(_("Consult")) }}
+    {% endcall %}
+</section>
+{% endblock body %}

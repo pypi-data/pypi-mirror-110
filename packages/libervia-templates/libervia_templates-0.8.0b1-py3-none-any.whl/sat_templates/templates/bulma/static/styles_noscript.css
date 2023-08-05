@@ -1,0 +1,19 @@
+
+#loading_screen {
+    /* Loading screen doesn't make sense without JS, and must never be displayed */
+    display: none;
+}
+
+/**********
+ * Panels *
+ **********/
+
+/* drawer needs to be opened to have the content visible */
+.panel-drawer {
+    max-height: none;
+    opacity: 1;
+}
+
+.nojs_hide {
+    display: none;
+}

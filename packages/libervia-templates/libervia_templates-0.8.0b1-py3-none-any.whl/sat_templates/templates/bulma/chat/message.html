@@ -1,0 +1,31 @@
+{% import 'components/avatar.html' as avatar with context %}
+
+<div id="{{msg.id}}" class="media is-chat-message msg_{{msg.type}} {{'own_msg' if msg.from_ == own_jid.full()}}">
+    {%- if msg.type != C.MESS_TYPE_INFO %}
+        {%- set author = identities[msg.from_].nicknames[0] | default(msg.from_) -%}
+        <figure class="media-left">
+            {{ avatar.avatar(msg.from_, "is-32x32") }}
+        </figure>
+    {% endif -%}
+    <div class="media-content">
+        <div class="content">
+            {%- if msg.type != C.MESS_TYPE_INFO %}
+                <nav class="level is-mobile is-marginless is-size-7">
+                    <div class="level-left has-text-weight-bold">
+                        <div class="level-item">
+                            <span class="author">{{author}}</span>
+                        </div>
+                    </div>
+                    <div class="level-right is-italic">
+                        <div class="level-item">
+                            <span class="date">{{msg.timestamp|date_fmt('auto_day')}}</span>
+                        </div>
+                    </div>
+                </nav>
+            {% endif -%}
+            <p class="msg_body has-whitespace-pre-wrap">
+            {{- msg.html or (msg.text|urlize(nofollow=true, target="_blank")) -}}
+            </p>
+        </div>
+    </div>
+</div>

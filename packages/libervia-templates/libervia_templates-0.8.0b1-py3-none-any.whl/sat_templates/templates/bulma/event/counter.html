@@ -1,0 +1,14 @@
+{% if days_left is defined %}
+    {% if days_left > 0 %}
+        <div class="notification is-success has-text-centered has-text-weight-bold mt-4">
+            {% trans %}
+                {{days_left}} day left
+            {% pluralize %}
+                {{days_left}} days left
+            {% endtrans %}
+        </div>
+    {% else %}
+        <div class="notification is-danger has-text-centered has-text-weight-bold mt-4">{% trans %}the event is finished{% endtrans %}</div>
+    {% endif %}
+
+{% endif %}

@@ -1,0 +1,16 @@
+{% macro prev_next(prev_label=_("older"), next_label=_("newer")) %}
+<section class="section">
+    <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+        {% if previous_page_url is defined %}
+            <a href="{{previous_page_url}}" class="pagination-previous has-background-white">{{prev_label}}</a>
+        {% else %}
+            <a class="pagination-previous pagination-disabled has-background-white has-text-grey-light has-hover-white-light">{{prev_label}}</a>
+        {% endif %}
+        {% if next_page_url is defined %}
+            <a href="{{next_page_url}}" class="pagination-next has-background-white">{{next_label}}</a>
+        {% else %}
+            <a class="pagination-next pagination-disabled has-background-white has-text-grey-light has-hover-white-light">{{next_label}}</a>
+        {% endif %}
+    </nav>
+</section>
+{% endmacro %}

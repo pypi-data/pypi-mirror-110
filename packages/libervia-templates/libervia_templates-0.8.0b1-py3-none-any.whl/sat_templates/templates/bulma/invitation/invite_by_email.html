@@ -1,0 +1,27 @@
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+<div class="modal is-active">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">{% trans %}Invite somebody by email{% endtrans %}</p>
+            <button class="delete click_to_close" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            {% call form.form(id="email_invitation_form") %}
+                {{ field.email("email", _("email"), required=true, icon_left="mail") }}
+                {{ field.text("name", _("name"), required=true, icon_left="person") }}
+            {% endcall %}
+        </section>
+        <footer class="modal-card-foot">
+            {{
+            field.submit(
+                _("Send invitation"), id="email_invitation_submit", class="button is-success",
+                attr={'form': 'email_invitation_form'}
+            )
+            }}
+            <button class="button click_to_close">{% trans %}Cancel{% endtrans %}</button>
+        </footer>
+    </div>
+</div>

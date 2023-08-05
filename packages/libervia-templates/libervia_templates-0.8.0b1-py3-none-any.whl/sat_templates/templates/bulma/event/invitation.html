@@ -1,0 +1,37 @@
+{% extends 'base/base.html' %}
+
+{% block body %}
+
+<section class="section">
+    <h1 class="title is-4">
+        {% trans %}Welcome {{name}}{% endtrans %}
+    </h1>
+    <div class="notification is-info">
+        {% trans %}You have been invited to participate to an event{% endtrans %}
+    </div>
+    <div class="card">
+        {% if event.image is defined %}
+            <div class="card-image is-photo-thumbnail-container is-poster is-flex has-items-centered has-background-light">
+                <img class='is-photo-thumbnail' src="{{event.image}}">
+            </div>
+        {% endif %}
+        {% if event.description is defined %}
+            <div class="card-content has-text-centered">
+                <p>{{event.description}}</p>
+            </div>
+        {% endif %}
+    </div>
+
+
+    {% include 'event/counter.html' %}
+
+    {% if days_left is defined and days_left > 0 %}
+        {% include 'event/attendance.html' %}
+    {% endif %}
+
+    {% if items %}
+        {% include 'blog/articles.html' %}
+    {% endif %}
+</section>
+
+{% endblock body %}

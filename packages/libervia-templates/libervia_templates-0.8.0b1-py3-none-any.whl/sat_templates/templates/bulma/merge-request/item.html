@@ -1,0 +1,131 @@
+{# display a single list item
+
+    @variable item(xmlui_item): item to display
+    @variable comments(data_object.BlogItems): comments of the item
+    @variable comments_service(unicode): service for adding comments
+    @variable comments_node(unicode): node for adding comments
+#}
+
+{% set category_menu = [('merge-requests', url_list_items),
+                        ('merge-request_new', url_list_new)] %}
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% import 'input/xmlui.html' as xmlui with context %}
+{% import 'components/avatar.html' as avatar with context %}
+{% import 'blog/macros.html' as blog with context %}
+{% import 'input/textbox.html' as textbox with context %}
+
+{% block title %}{{item|adv_format('#{value.widget_value.id} {value.widget_value.title}') }}{% endblock %}
+
+{% block confirm_message %}
+    {% trans %}Your comment has been sent{% endtrans %}
+{% endblock confirm_message %}
+
+{% block body %}
+{{ icon_defs('pencil') }}
+<section class="section">
+    <div class="tab__container">
+        <div class="tabs">
+            <ul>
+                <li class="tab__btn is-active" onclick='tab_select(this, "tab_description", btn_clicked_cls="is-active")'>
+                    <a>
+                        {% trans %}Description{% endtrans %}
+                    </a>
+                </li>
+                <li class="tab__btn" onclick='tab_select(this, "tab_patches", btn_clicked_cls="is-active")'>
+                    <a>
+                        {% trans %}Patches{% endtrans %}
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab__page state_clicked" id="tab_description">
+            <div class="columns">
+                <div class="column has-background-white">
+                    <div id="{{ item.widget_value['id'] }}" class="media px-1 py-1">
+                        {% if identities is defined %}
+                            {% if avatar is defined %}
+                                <figure class="media-left">
+                                    {{ avatar.avatar(item.widget_value['publisher'].bare) }}
+                                </figure>
+                            {% endif %}
+                        {% endif %}
+                        <div class="media-content">
+                            <div class="content">
+                                <h4 class="title is-4">{{item.widget_value['title']}}</h1>
+                                {{ item.widget_value['body'] }}
+
+                            </div>
+                            {% if comments is defined %}
+                                {{ blog.show_items(comments['items']|reverse, expanded=true) }}
+                            {% endif %}
+                            {% if comments_node is defined %}
+                                <div class="comment_post">
+                                    {{- textbox.comment_or_login(service=comments_service, node=comments_node) -}}
+                                </div>
+                            {% endif %}
+                        </div>
+                        {% if url_list_item_edit is defined %}
+                            <div class="media-right">
+                                <a href="{{url_list_item_edit}}">
+                                    {{ icon('pencil', cls='icon is-64x64') }}
+                                </a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="column is-one-quarter has-background-light">
+                    {{
+                    xmlui.generate(
+                        item,
+                        form=false,
+                        filters={
+                            'created': {
+                                'filters': ['date_fmt'],
+                                'filters_args':[{'fmt': 'short'}]
+                            },
+                            'updated': {
+                                'filters': ['date_fmt'],
+                                'filters_args':[{'fmt': 'short'}]
+                            },
+                            'body': {
+                                'filters': ['urlize'],
+                                'filters_args':[{
+                                    'nofollow': True,
+                                    'rel': 'noopener noreferrer'
+                                }]
+                            }
+                        },
+                        ignore=['publisher', 'title', 'body', 'comments_uri'],
+                    )
+                    }}
+                </div>
+            </div>
+        </div>
+
+        <div class="tab__page" id="tab_patches">
+            {% for patch in patches %}
+                <div class="card">
+                    <div class="card-content has-background-primary">
+                        <p class="commit_msg">{{patch.commit_msg}}</p>
+                    </div>
+                    <div class="card-footer py-5">
+                        <div class="level">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <span class="author has-text-weight-bold">{{patch.author}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box mt-4">
+                    <div class="diff">
+                        {{- patch.diff|highlight('diff') -}}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock body %}

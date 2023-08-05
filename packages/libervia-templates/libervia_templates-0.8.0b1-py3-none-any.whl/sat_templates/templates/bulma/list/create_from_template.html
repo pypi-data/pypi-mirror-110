@@ -1,0 +1,34 @@
+{% extends 'base/base.html' %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+{{ icon_defs(list_template.icon) }}
+<section class="section">
+    <article class="message is-info">
+        <div class="message-body">
+            {% trans list_type=list_template.name %}
+            You're about to create a new list ({{list_type}}).
+            {% endtrans %}
+        </div>
+    </article>
+    {% call form.form(class="form--paper form__panel--vertical") %}
+        {{ field.text("name", _("name of the list"), required=true) }}
+        <div class="box">
+            <label class="label">
+                {% trans %}Is this list private or public?{% endtrans %}
+            </label>
+            <div class="message">
+                <div class="message-body is-dark has-whitespace-pre-line">
+                    {%- trans notrimmed -%}
+                    Private lists are only visible by yourself (and people you invite later).
+                    Public lists can be accessed by anybody.
+                    {%- endtrans -%}
+                </div>
+            </div>
+            {{ field.choices("access", (("private", _("private")), ("public", _("public"))), checked="private") }}
+        </div>
+        {{ field.submit(_("Create list")) }}
+    {% endcall %}
+</section>
+{% endblock body %}

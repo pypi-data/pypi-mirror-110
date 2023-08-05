@@ -1,0 +1,8 @@
+{% macro form(action='', class=none, id=none, method="post", use_csrf_token=true) %}
+    <form method="{{method}}" action="{{action}}" {{ {'id': id, 'class': class}|xmlattr }} {{kwargs|xmlattr}} >
+        {% if csrf_token is defined and use_csrf_token %}
+            <input type="hidden" name="csrf_token" value="{{csrf_token}}">
+        {% endif %}
+        {{ caller() }}
+    </form>
+{% endmacro %}

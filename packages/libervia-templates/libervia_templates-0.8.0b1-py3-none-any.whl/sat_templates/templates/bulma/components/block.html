@@ -1,0 +1,97 @@
+{% macro separator(label, align='center') %}
+{# display a bloc separator
+    @param label(unicode): label to show
+    @param align(unicode): one of "left", "center", "right"
+#}
+    <div class="block_separator">
+        {% if align in ('center', 'right') %}
+            <div class="block_separator__line"></div>
+        {% endif %}
+        <div class="block_separator__label">
+            {{label}}
+        </div>
+        {% if align in ('center', 'left') %}
+            <div class="block_separator__line"></div>
+        {% endif %}
+    </div>
+{% endmacro %}
+
+{% macro icon_item(icon_name, label, url, class="", delete_icon=false, data=none) %}
+    <div class="column is-2-desktop is-4-touch item" {% if data %}data-item='{{data|tojson}}'{% endif %}>
+        <div class="card {{class}}">
+            <a href="{{url}}">
+                <div class="card-image has-text-centered">
+                    {{ icon(icon_name, cls='image is-64x64 is-inline-block') }}
+                    {% if delete_icon %}
+                        <button class="delete action_delete is-small is-top-right"></button>
+                    {% endif %}
+                </div>
+                <div class='card-content has-text-centered has-text-shortenable is-paddingless'>
+                    <span>{{label}}</span>
+                </div>
+            </a>
+        </div>
+    </div>
+{% endmacro %}
+
+{% macro disco_icon_grid(disco_entities, default_icon_name) %}
+{# display discovered entities in a grid
+    @param disco_entities: entities which mush have a name and url key or attribute
+    @param icon_name: name of a defined icon
+#}
+    <div class="columns">
+        {% for disco_entity in disco_entities %}
+            {{ icon_item(disco_entity.icon_name or default_icon_name, disco_entity.name, disco_entity.url) }}
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% macro interests_grid(interests, default_icon_name, delete_icon=true) %}
+{# display list of interests
+
+    Can be called, in which call caller is called with 2 arguments:
+        - part: par to fill, can be "header-title" or "content"
+        - interest: current interest
+    @param interests: list of interests
+    @param default_icon_name: name of a defined icon to use when no thumb_url is available
+    @param delete_icon: unset to remove the icon
+#}
+<div class="columns is-multiline">
+    {% for interest in interests %}
+        <div class="column is-4 item" data-item='{{interest|tojson}}'>
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-header-title">
+                        {% if caller is defined %}
+                            {{ caller("header-title", interest) }}
+                        {% endif %}
+                    </div>
+                    {% if delete_icon %}
+                        <div class="card-header-icon"><button class="delete action_delete"></button></div>
+                    {% endif %}
+                </div>
+                <div class="card-image is-photo-thumbnail-container is-flex has-items-centered has-background-light">
+                    <a href="{{interest.url}}">
+                        {% if interest.thumb_url %}
+                            <img class="is-photo-thumbnail" src="{{interest.thumb_url}}">
+                        {% else %}
+                            <div class="is-photo-thumbnail">
+                                {{ icon(default_icon_name, "image is-128x128") }}
+                            </div>
+                        {% endif %}
+                    </a>
+                </div>
+                <div class="card-content has-text-centered x-is-hoverable">
+                    {% if caller is defined %}
+                            {{ caller("content", interest) }}
+                    {% else %}
+                        <a href="{{interest.url}}">
+                            <span><em>{{ interest.name|default(_("unnamed")) }}</em></span>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endmacro %}
