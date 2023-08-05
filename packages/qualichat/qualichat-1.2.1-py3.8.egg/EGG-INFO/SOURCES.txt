@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+qualichat/__init__.py
+qualichat/abc.py
+qualichat/books.txt
+qualichat/chat.py
+qualichat/core.py
+qualichat/enums.py
+qualichat/graphs.py
+qualichat/models.py
+qualichat/utils.py
+qualichat.egg-info/PKG-INFO
+qualichat.egg-info/SOURCES.txt
+qualichat.egg-info/dependency_links.txt
+qualichat.egg-info/top_level.txt
+qualichat/fonts/Inter-Regular.ttf
