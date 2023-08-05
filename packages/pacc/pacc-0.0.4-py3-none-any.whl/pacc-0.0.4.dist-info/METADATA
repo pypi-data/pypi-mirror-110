@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pacc
+Version: 0.0.4
+Summary: Python Android Cluster Control 为使用Python对安卓集群控制进行支持
+Home-page: https://github.com/cocos56/pacc
+Author: Coco
+Author-email: zj175@139.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+安卓集群控制系统模块，包含对ADB、数据库、图像识别、验证码破解等功能的封装
+
+
