@@ -1,0 +1,13 @@
+ITHscore/ITHscore.py,sha256=EQnh3MpX47Re3xEEvRjxbV2fewBQmV0-ZPuEHUw0Ocw,12267
+ITHscore/__init__.py,sha256=JCwvFDnXcj8IgRJEIQjvLU6zr7kdb6Mh1g37F80s_lY,239
+ITHscore/assist.py,sha256=QhAy9B9uHU6Kc_hbCwRMr8V6v55RJY8cMPos90Xuccw,670
+ITHscore/calculate.py,sha256=DdFNSpuY_AhMtEpiricG7-VTV7UFqhwAdZL0my2UL-0,2449
+ITHscore/clustering.py,sha256=_Ua-tsA8rbJQGv5cQvhJusGs8ediK1C-AcXwKnvzQ_M,3229
+ITHscore/features.py,sha256=zbTZnc60Xk9ysPLYvlG5u10CYHFI_0cAEIRtbXENWkc,4069
+ITHscore/load.py,sha256=DFkx6gk7LSk6ObZFttByuuLpkOTIjdWihfs154mtYpg,1122
+ITHscore/locate.py,sha256=ijtKttbm_-ugAQyHi0eVVjrkVTTyYUCA_KovGNPu1UU,1693
+ITHscore-0.1.5.dist-info/LICENSE,sha256=BW64vILILmVxYhmq2KEfu1d7V_dQglEhAJYYi5hdXcQ,1086
+ITHscore-0.1.5.dist-info/METADATA,sha256=JW0C70sN_B6BZuq-p9UFZlQMMzfXjggBychl_sKqrTc,649
+ITHscore-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ITHscore-0.1.5.dist-info/top_level.txt,sha256=3tdhHUvhu-uE9M_NdggS9f1hQcjK0sB8TuayUS3vGfs,9
+ITHscore-0.1.5.dist-info/RECORD,,
