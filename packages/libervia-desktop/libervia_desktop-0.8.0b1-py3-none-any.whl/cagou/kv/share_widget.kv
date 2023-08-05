@@ -1,0 +1,114 @@
+# Cagou: desktop/mobile frontend for Salut à Toi XMPP client
+# Copyright (C) 2016-2021 Jérôme Poisson (goffi@goffi.org)
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#:import Path pathlib.Path
+#:import _ sat.core.i18n._
+#:import C cagou.core.constants.Const
+
+
+<ShareWidget>:
+    preview_box: preview_box
+    orientation: 'vertical'
+    Label:
+        size_hint: 1, None
+        text_size: self.size
+        halign: 'center'
+        text: _("share")
+        height: self.font_size + dp(5)
+        bold: True
+        font_size: '35sp'
+    BoxLayout:
+        id: preview_box
+        size_hint: 1, None
+        height: self.minimum_height
+        orientation: 'vertical'
+        text: str(root.data)
+    Label:
+        size_hint: 1, None
+        text_size: self.size
+        halign: 'center'
+        text: _("with")
+        height: self.font_size + dp(5)
+        bold: True
+        font_size: '25sp'
+    JidSelector:
+        on_select: root.on_select(args[1])
+    Button:
+        size_hint: 1, None
+        height: C.BTN_HEIGHT
+        text: _("cancel")
+        on_press: app.host.closeUI()
+
+
+<TextPreview>:
+    size_hint: 1, None
+    height: min(data.height, dp(100))
+    ScrollView
+        Label:
+            id: data
+            size_hint: 1, None
+            text: root.text
+            text_size: self.width, None
+            size: self.texture_size
+            font_size: sp(20)
+            padding_x: dp(10)
+            padding_y: dp(5)
+            halign: 'center'
+            canvas.before:
+                Color:
+                    rgba: 0.95, 0.95, 0.95, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+
+<ImagePreview>:
+    reduce_layout: reduce_layout
+    reduce_checkbox: reduce_checkbox
+    size_hint: 1, None
+    height: dp(120)
+    orientation: "vertical"
+    Image:
+        source: root.path
+    BoxLayout
+        id: reduce_layout
+        size_hint: 1, None
+        padding_y: None
+        opacity: 0
+        height: 0
+        Widget:
+        CheckBox:
+            id: reduce_checkbox
+            size_hint: None, 1
+            width: dp(20)
+            active: True
+        Label:
+            size_hint: None, None
+            text: _("reduce image size")
+            text_size: None, None
+            size: self.texture_size
+            padding_x: dp(10)
+            font_size: sp(15)
+        Widget:
+
+<GenericPreview>:
+    size_hint: 1, None
+    height: dp(100)
+    Widget:
+    SymbolButtonLabel:
+        symbol: "doc"
+        text: Path(root.path).name
+    Widget:
+

@@ -1,0 +1,164 @@
+# Cagou: desktop/mobile frontend for Salut à Toi XMPP client
+# Copyright (C) 2016-2021 Jérôme Poisson (goffi@goffi.org)
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+<NotifLabel>:
+    background_color: app.c_sec_light
+    size_hint: None, None
+    text_size: None, root.height
+    padding_x: sp(5)
+    size: self.texture_size
+    bold: True
+    canvas.before:
+        Color:
+            # self.background_color doesn't seem initialized correctly on startup
+            # (maybe a Kivy bug? to be checked), thus we use the "or" below
+            rgb: self.background_color or app.c_sec_light
+        Ellipse:
+            size: self.size
+            pos: self.pos
+
+
+<ContactItem>:
+    size_hint: None, None
+    width: self.base_width
+    height: self.minimum_height
+    orientation: 'vertical'
+    avatar: avatar
+    avatar_layout: avatar_layout
+    FloatLayout:
+        id: avatar_layout
+        size_hint: 1, None
+        height: dp(60)
+        Avatar:
+            id: avatar
+            pos_hint: {'x': 0, 'y': 0}
+            data: root.data.get('avatar')
+            allow_stretch: True
+    BoxLayout:
+        id: label_box
+        size_hint: 1, None
+        height: self.minimum_height
+        Label:
+            size_hint: 1, None
+            height: self.font_size + sp(5)
+            text_size: self.size
+            shorten: True
+            shorten_from: "right"
+            text: root.data.get('nick', root.jid.node or root.jid)
+            bold: True
+            valign: 'middle'
+            halign: 'center'
+
+
+<JidItem>:
+    size_hint: 1, None
+    height: dp(68)
+    avatar: avatar
+    padding: 0, dp(2), 0, dp(2)
+    canvas.before:
+        Color:
+            rgba: self.bg_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Image:
+        id: avatar
+        size_hint: None, None
+        size: dp(64), dp(64)
+    Label:
+        size_hint: 1, 1
+        text_size: self.size
+        color: root.color
+        bold: True
+        text: root.jid
+        halign: 'left'
+        valign: 'middle'
+        padding_x: dp(5)
+
+<JidToggle>:
+    canvas.before:
+        Color:
+            rgba: self.selected_color if self.state == 'down' else self.bg_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<Symbol>:
+    width: dp(35)
+    height: dp(35)
+    font_name: app.expand('{media}/fonts/fontello/font/fontello.ttf')
+    text_size: self.size
+    font_size: dp(30)
+    halign: 'center'
+    valign: 'middle'
+    bg_color: 0, 0, 0, 0
+    canvas.before:
+        Color:
+            rgba: self.bg_color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<SymbolLabel>:
+    size_hint: None, 1
+    width: self.minimum_width
+    symbol_wid: symbol_wid
+    label: label
+    Symbol:
+        id: symbol_wid
+        size_hint: None, 1
+        symbol: root.symbol
+        color: root.color
+    Label:
+        id: label
+        size_hint: None, 1
+        text_size: None, root.height
+        size: self.texture_size
+        padding_x: dp(5)
+        valign: 'middle'
+        text: root.text
+        bold: root.bold
+
+<SymbolToggleLabel>:
+    color: 0, 0, 0, 1
+    canvas.before:
+        Color:
+            rgba: app.c_sec_light if self.state == 'down' else (0, 0, 0, 0)
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+
+<ActionSymbol>:
+    bg_color: 0, 0, 0, 0
+    color: app.c_sec_light
+
+<SizedImage>:
+    size_hint: None, None
+
+
+<JidSelectorCategoryLayout>:
+    size_hint: 1, None
+    height: self.minimum_height
+    spacing: 0
+
+<JidSelector>:
+    layout: layout
+    StackLayout:
+        id: layout
+        size_hint: 1, None
+        height: self.minimum_height
+        spacing: 0
