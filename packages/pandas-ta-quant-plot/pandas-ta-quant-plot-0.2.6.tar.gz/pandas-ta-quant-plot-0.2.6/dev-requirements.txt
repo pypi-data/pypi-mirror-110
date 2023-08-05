@@ -1,0 +1,8 @@
+Markdown
+ipykernel
+jupyter-client
+lxml
+nbconvert
+requests
+tox
+twine
