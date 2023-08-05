@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+gps2space/__init__.py
+gps2space/dist.py
+gps2space/geodf.py
+gps2space/space.py
+gps2space.egg-info/PKG-INFO
+gps2space.egg-info/SOURCES.txt
+gps2space.egg-info/dependency_links.txt
+gps2space.egg-info/requires.txt
+gps2space.egg-info/top_level.txt
