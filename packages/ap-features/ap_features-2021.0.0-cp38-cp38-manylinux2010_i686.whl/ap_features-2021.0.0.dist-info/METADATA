@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ap-features
+Version: 2021.0.0
+Summary: Package to compute features of traces from action potential models
+Home-page: https://github.com/ComputationalPhysiology/ap_features
+Author: Henrik Finsberg, Kristian G. Hustad
+Author-email: henriknf@simula.no
+License: GNU General Public License v3 (GPLv3)
+Keywords: action potential,cell models,features
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Provides-Extra: all
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: dask[array] ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: h5py ; extra == 'all'
+Requires-Dist: ipython ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: pdbpp ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+
+[![image](https://img.shields.io/pypi/v/ap_features.svg)](https://pypi.python.org/pypi/ap_features)
+![CI](https://github.com/ComputationalPhysiology/ap_features/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/ComputationalPhysiology/ap_features/branch/master/graph/badge.svg?token=H0U23J41OQ)](https://codecov.io/gh/ComputationalPhysiology/ap_features)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ComputationalPhysiology/ap_features/master.svg)](https://results.pre-commit.ci/latest/github/ComputationalPhysiology/ap_features/master)
+[![github pages](https://github.com/ComputationalPhysiology/ap_features/actions/workflows/github-pages.yml/badge.svg)](https://github.com/ComputationalPhysiology/ap_features/actions/workflows/github-pages.yml)
+[![Build and upload to PyPI](https://github.com/ComputationalPhysiology/ap_features/actions/workflows/deploy.yml/badge.svg)](https://github.com/ComputationalPhysiology/ap_features/actions/workflows/deploy.yml)
+
+# Action Potential features
+
+Package to compute features of traces from action potential models
+
+
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://computationalphysiology.github.io/ap_features/
+* Source code: https://github.com/ComputationalPhysiology/ap_features
+
+
