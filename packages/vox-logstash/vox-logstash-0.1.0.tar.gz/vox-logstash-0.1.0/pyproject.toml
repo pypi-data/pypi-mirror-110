@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vox-logstash"
+version = "0.1.0"
+description = "python logs integration with logstash"
+authors = ["Jhonatan Teixeira <jhonatan.teixeira@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = { version = '*', optional = true }
+
+[tool.poetry.dev-dependencies]
+coverage = "*"
+invoke = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
