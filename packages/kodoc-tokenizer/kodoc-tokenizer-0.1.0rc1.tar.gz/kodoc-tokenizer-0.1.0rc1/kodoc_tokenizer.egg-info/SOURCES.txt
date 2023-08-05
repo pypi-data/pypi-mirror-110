@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kodoc_tokenizer/__init__.py
+kodoc_tokenizer/tokenization_kodoc.py
+kodoc_tokenizer/version.txt
+kodoc_tokenizer.egg-info/PKG-INFO
+kodoc_tokenizer.egg-info/SOURCES.txt
+kodoc_tokenizer.egg-info/dependency_links.txt
+kodoc_tokenizer.egg-info/not-zip-safe
+kodoc_tokenizer.egg-info/requires.txt
+kodoc_tokenizer.egg-info/top_level.txt
