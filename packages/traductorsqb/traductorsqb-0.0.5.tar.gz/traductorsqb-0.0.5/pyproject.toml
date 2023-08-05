@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "traductorsqb"
+version = "0.0.5"
+description = "Traductor de palabras"
+authors = ["Santiago Quiñones <lsquinones@gmail.com>"]
+keywords = ["traductor"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/PythonBasico-AA2021/traductorqcb"
+repository = "https://github.com/PythonBasico-AA2021/traductorqcb"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.scripts]
+traductorsqb = "traductorsqb.__main__:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+translate = "3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+twine = "^3.4.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
