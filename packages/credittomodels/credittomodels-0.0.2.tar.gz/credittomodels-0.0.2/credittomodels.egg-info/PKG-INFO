@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: credittomodels
+Version: 0.0.2
+Summary: Classes needed for Creditto project
+Home-page: UNKNOWN
+Author: Eugene Silverman
+Author-email: UNKNOWN
+License: MIT
+Description: Models and basic methods used in Creditto project
+        
+        Changelog
+        =========
+        
+        1.0.0  Basic models for 'Creditto' project and config added
+        1.0.1 Changed internal imports
+        
+        
+Keywords: credittomodels
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

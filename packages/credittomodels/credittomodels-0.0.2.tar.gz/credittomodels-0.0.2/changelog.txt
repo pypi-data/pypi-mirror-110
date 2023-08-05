@@ -1,0 +1,6 @@
+Changelog
+=========
+
+1.0.0  Basic models for 'Creditto' project and config added
+1.0.1 Changed internal imports
+
