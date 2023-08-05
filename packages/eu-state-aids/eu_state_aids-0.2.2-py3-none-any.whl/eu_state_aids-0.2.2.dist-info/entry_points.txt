@@ -1,0 +1,3 @@
+[console_scripts]
+eu-state-aids=eu_state_aids.main:app
+
