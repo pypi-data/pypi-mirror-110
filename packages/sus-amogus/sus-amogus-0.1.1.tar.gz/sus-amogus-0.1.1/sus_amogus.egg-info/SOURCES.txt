@@ -1,0 +1,8 @@
+LICENSE
+README.md
+amogus.py
+setup.py
+sus_amogus.egg-info/PKG-INFO
+sus_amogus.egg-info/SOURCES.txt
+sus_amogus.egg-info/dependency_links.txt
+sus_amogus.egg-info/top_level.txt

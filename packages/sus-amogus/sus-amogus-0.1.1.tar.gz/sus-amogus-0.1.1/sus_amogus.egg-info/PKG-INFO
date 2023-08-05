@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: sus-amogus
+Version: 0.1.1
+Summary: sus
+Home-page: https://github.com/HugeBrain16/amogus
+Author: HugeBrain16
+Author-email: joshtuck373@gmail.com
+License: MIT
+Description: # Amogus
+        idk what is this... sus
+        
+        ## Installation
+        
+        `pip install sus-amogus`
+        
+        ## Example
+        
+        ### Amogusify
+        
+        Amogusify your text (???)
+        
+        ```py
+        import amogus
+        
+        text = "This is epic"
+        result = amogus.amogusify(text)
+        # result = amogus.amogusify(text, emoji = True) # with emoji
+        
+        print(result)
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
