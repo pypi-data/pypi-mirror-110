@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: ksmm
+Version: 0.0.2
+Summary: Jupyter Server Extension for IPython KernelSpec Manager
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
