@@ -1,0 +1,17 @@
+README.md,sha256=AYgIL-R9KJjq01ZRTCzGxWpZ_glgmXDDFgCrGg2rMl0,302
+anyforce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anyforce/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anyforce/core/api.py,sha256=XWfSr6maoCb-i1qW8o0vPMk4indj-6-R1AdnJnQOxbo,9535
+anyforce/core/exceptions.py,sha256=vI7u6Oofg7V6222iaKQ-PlcrfA7fDFtSTiMarbwA9FI,2959
+anyforce/core/fields.py,sha256=3oJZigDho38mvDdjFvU60jSTy5VXWa_-ORHQ_55B4hM,280
+anyforce/core/model.py,sha256=B8CyHn_lXk0WCU4lsu_PcdKOPMdRrOBSYM1bjxcNXZ8,4853
+anyforce/core/model_mock.py,sha256=l9zAitXG3y1WWJPb-wtQC7C6Zdp9B_C2mXhiWfBPAdw,259
+anyforce/core/model_recoverialbe.py,sha256=_IAXrRGg8jAezUCgKTax3viYqpD7MXHsLm6AKbgvqZ8,1108
+anyforce/core/request.py,sha256=f4XFeH4bkGZLUwjQOqEc7Jn-Em73VRDF2QXsR62fxLA,3747
+anyforce/core/security.py,sha256=qiOY3fi9UtifdfQM4WspTR_TN3NDmVM_4OlS5RK1QjY,1905
+anyforce/core/serilize.py,sha256=umVcLiNlBxqQoCT6NKpZyjE0yP_aSGGUmi_Mf95ZCA4,668
+anyforce/dynamic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anyforce/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anyforce-0.1.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+anyforce-0.1.1.dist-info/METADATA,sha256=5Q2fcSeZ6DhkA-t4XvTV0XF7CarkEaR30uup2FiZ9JI,719
+anyforce-0.1.1.dist-info/RECORD,,
