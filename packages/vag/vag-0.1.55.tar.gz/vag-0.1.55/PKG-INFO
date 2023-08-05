@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: vag
+Version: 0.1.55
+Summary: vagrant utility cli tool
+License: MIT
+Author: Seven Tella
+Author-email: 7onetella@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Click (>=7.1.2,<8.0.0)
+Requires-Dist: Flask (>=2.0.1,<3.0.0)
+Requires-Dist: Flask-Login (>=0.5.0,<0.6.0)
+Requires-Dist: cryptography (>=3.4.7,<4.0.0)
+Requires-Dist: giteapy (>=1.0.8,<2.0.0)
+Requires-Dist: jenkinsapi (>=0.3.11,<0.4.0)
+Requires-Dist: jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: oauthlib (>=3.1.1,<4.0.0)
+Requires-Dist: psycopg2 (>=2.9.1,<3.0.0)
+Requires-Dist: pyOpenSSL (>=20.0.1,<21.0.0)
+Requires-Dist: pylint (>=2.8.2,<3.0.0)
+Requires-Dist: pyyaml (>=5.4.1,<6.0.0)
+Requires-Dist: random-password-generator (>=2.1.2,<3.0.0)
+Requires-Dist: random-username (>=1.0.2,<2.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: sqlalchemy (>=1.4.15,<2.0.0)
+Requires-Dist: untangle (>=1.1.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# vag
+vag is a command line utility tool for vagrant, docker and [builder](https://github.com/7onetella/containers/tree/master/builder)
+
+## Documentation
+[read the docs](https://vag.readthedocs.io/en/latest/index.html)
+
+## Installation
+```bash
+$ pip install vag
+```
+
+## List of top level commands
+```bash
+$ vag
+Usage: vag [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  build     Builds vagrant box
+  clean     Cleans up vagrant build, terminates vagrant instance etc
+  docker    Docker automation
+  init      Creates a new Vagrantfile
+  instance  Vagrant Instance Automation
+  push      Publishes vagrant box to target environment
+  ssh       SSH to vagrant test Vagrant instance
+  test      Start a test Vagrant instance
+  version   Prints version
+```
+
+## Development
+local vag installation
+```bash
+$ rm -rf dist/*
+$ poetry install
+$ poetry build
+$ pip uninstall -y vag
+$ pip install dist/*.whl
+```
+
+edit and run 
+```bash
+$ poetry run vag vagrant list
+```
+
+
