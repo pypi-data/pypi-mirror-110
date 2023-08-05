@@ -1,0 +1,16 @@
+.DS_Store,sha256=AAiKdyr8-bZBD_UgFU-Cuhz586PjWJ_TsHn5HBR2ubM,6148
+pyettj/Feriados.csv,sha256=_tVas0fevcmdGbASKieqegvCpPFcc-JuhRtfDnVKp2Q,15826
+pyettj/README.md,sha256=Dq_8KzTdZX-eqQ93kDlwOvr714BrNCle_nQoMavo8g4,1487
+pyettj/__init__.py,sha256=JI-wo2Xbf0n0oWTtnab6QXqmc3OlfRurf0lcZbiuU5M,131
+pyettj/coverage.xml,sha256=umz5RQitTXFqGlCj_rC5BOk_SECcANK-BTGl5Qprt3I,5715
+pyettj/ettj.py,sha256=tNcBNvvzKpZQ_ddy_f5QMc4Kwrxzl7Yxr1e-F7-vFy4,4421
+pyettj/gettables.py,sha256=aIlwNG4Mz-G78bgLjiAx5kQnrO8Iv_AcWFYPGpGTuok,2576
+pyettj/pre-commit-config.yaml,sha256=6sFhZe2LVntfdk2AhT_BRKCShI3NcFDWRg98VieBtBc,493
+pyettj/version.py,sha256=k1aLyAHjS6ao_yKJoVpcYcLM9aE5-lPXxy0qBgEO7as,63
+pyettj/exemplo/ettj.xlsx,sha256=GHNDGBIpB_Eq5dRAfxu_LKP3VdmlMSY59o8kui0Kp3A,49976
+pyettj/media/pre.png,sha256=XEhtMRgwt54XpMt5mduYGcPS59adWUVICZNUjbdYIRE,116863
+pyettj-0.1.16.dist-info/LICENSE.md,sha256=U6-dKyP9mGs1W33-wYWUN7FVJrscm49iceabUcyuAgQ,1073
+pyettj-0.1.16.dist-info/METADATA,sha256=DP-dDquEgdYCFPP9goPoyHxkOETbLqT0t611Jp4oyhQ,2636
+pyettj-0.1.16.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyettj-0.1.16.dist-info/top_level.txt,sha256=OcgxnwxGq8THThnf2iyhRLAtnbfWgH5r2Xv-u3KmhZk,7
+pyettj-0.1.16.dist-info/RECORD,,
