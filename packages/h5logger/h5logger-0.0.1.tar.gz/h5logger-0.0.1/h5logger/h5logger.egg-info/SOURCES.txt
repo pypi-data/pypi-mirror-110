@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+h5logger/h5logger.egg-info/PKG-INFO
+h5logger/h5logger.egg-info/SOURCES.txt
+h5logger/h5logger.egg-info/dependency_links.txt
+h5logger/h5logger.egg-info/requires.txt
+h5logger/h5logger.egg-info/top_level.txt
