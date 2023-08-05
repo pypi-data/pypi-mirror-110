@@ -1,0 +1,12 @@
+outer/BluePrint.py,sha256=f36F5XOetA9BnGmGR9VTUdeOhRuAISrCXMGJ6NU5YBw,483
+outer/File.py,sha256=xyj_w_sU_n5Aj7x96hzaKXNqKo6lNpOyZSWpZPl4hlw,889
+outer/VirtualTerminal.py,sha256=MM2K6ooj-HMZFgEjdb540vIByG0yLXBhsJGWpJf-UjM,2416
+outer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+outer/demo/BluePrintSample.py,sha256=1XaaEB1krHtAHviveLz1CwH7VXDGNRiKZVO_yzNB-BA,590
+outer/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+outer/demo/out_blueprint_test.py,sha256=pxME_sOpL1OgtBVKKTFmmjlPHQYB_EXhGJD2gy8vBls,207
+outer-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+outer-1.0.dist-info/METADATA,sha256=Bh1zj16V307dkfZ_7qdeADHw-H9NwVHwOjMk8E1eeiU,239
+outer-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+outer-1.0.dist-info/top_level.txt,sha256=jRkmuKjdyoJojv5_kQr_xsWtuE-LFtMBNhab9KvQtPs,6
+outer-1.0.dist-info/RECORD,,
