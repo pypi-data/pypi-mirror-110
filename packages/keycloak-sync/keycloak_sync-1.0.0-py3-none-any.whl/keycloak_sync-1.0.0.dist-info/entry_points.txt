@@ -1,0 +1,3 @@
+[console_scripts]
+kcctl=keycloak_sync.kcctl:kcctl
+

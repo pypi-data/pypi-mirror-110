@@ -1,0 +1,12 @@
+keycloak_sync/__init__.py,sha256=rq5OMW-khxQo_5FAvSrPaAS1lRfG9aG2hSuo-KK2Yfk,22
+keycloak_sync/kcctl.py,sha256=swvd6YIRTG4idIBY2kfw9c4LmwcNffoO57Jonk8s3qw,12976
+keycloak_sync/model/__init__.py,sha256=ipMYKrUrGCWKCLnrMwrT1cz7O60-7Nx5qusWFCgQNYU,283
+keycloak_sync/model/csvloader.py,sha256=nj88K1Qpm5mOtToe4UT6e3r-xz5yryIaIMIHFtv1Xno,9683
+keycloak_sync/model/googlestorage.py,sha256=qxOm26L6abZFq-sl8Tn8da11v-FUVLleHZ0HmCISKuY,1398
+keycloak_sync/model/kc.py,sha256=RDSbirJlLEIyaFm_BkWquGCozTGaukd5zvjrhr-kx4o,10189
+keycloak_sync/model/kcuser.py,sha256=0PVJDZCL3YqYuypacdwjGq1bsh2x6mHIq7BOXYc7ESA,5470
+keycloak_sync-1.0.0.dist-info/entry_points.txt,sha256=0_WAjMElqqOWrQbT1LoSKhv3ReS5s_zWnPE0cSLy_yU,51
+keycloak_sync-1.0.0.dist-info/LICENSE,sha256=pHDw0PwkPQkBj8gXtsoCEIgfHjw0xXLp9mUSQVln49Q,1066
+keycloak_sync-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+keycloak_sync-1.0.0.dist-info/METADATA,sha256=PqYcIrfdm_W-uaBAy0AgcsDA7HhgKte-Yks0KGi3M1o,2874
+keycloak_sync-1.0.0.dist-info/RECORD,,
