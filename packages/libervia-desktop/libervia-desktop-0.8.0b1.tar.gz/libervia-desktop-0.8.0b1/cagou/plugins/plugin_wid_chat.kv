@@ -1,0 +1,349 @@
+# Cagou: desktop/mobile frontend for Salut à Toi XMPP client
+# Copyright (C) 2016-2021 Jérôme Poisson (goffi@goffi.org)
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#:import _ sat.core.i18n._
+#:import C cagou.core.constants.Const
+#:import G cagou.G
+#:import escape kivy.utils.escape_markup
+#:import SimpleXHTMLWidget cagou.core.simple_xhtml.SimpleXHTMLWidget
+#:import DelayedBoxLayout cagou.core.common_widgets.DelayedBoxLayout
+#:import ScrollEffect kivy.effects.scroll.ScrollEffect
+#:import CategorySeparator cagou.core.common_widgets.CategorySeparator
+
+
+# Chat
+
+
+<BaseAttachmentItem>:
+    size_hint: None, None
+    size: self.minimum_width, dp(50)
+
+
+<AttachmentItem>:
+    canvas.before:
+        Color:
+            rgb: app.c_prim_dark
+        Line:
+            rounded_rectangle: self.x + dp(1), self.y + dp(1), self.width - dp(2), self.height - dp(2), 10
+        Color:
+            rgb: app.c_sec_light
+        RoundedRectangle:
+            pos: self.x + dp(1), self.y + dp(1)
+            size: (self.width - dp(2)) * root.progress / 100, self.height - dp(2)
+    SymbolButtonLabel:
+        symbol: root.get_symbol(root.data)
+        color: 0, 0, 0, 1
+        text: root.data.get('name', _('unnamed'))
+        bold: False
+        on_press: root.on_press()
+
+
+<AttachmentImageItem>:
+    size: self.minimum_width, self.minimum_height
+    image: image
+    orientation: "vertical"
+    SizedImage:
+        id: image
+        anim_delay: -1
+        source: "data/images/image-loading.gif"
+
+
+<AttachmentImagesCollectionItem>:
+    cols: 2
+    size_hint: None, None
+    size: dp(150), dp(150)
+    padding: dp(5)
+    spacing: dp(2)
+    canvas.before:
+        Color:
+            rgb: app.c_prim
+        RoundedRectangle:
+            radius: [dp(5)]
+            pos: self.pos
+            size: self.size
+        Color:
+            rgb: 0, 0, 0, 1
+        Line:
+            rounded_rectangle: self.x, self.y, self.width, self.height, dp(5)
+
+
+<AttachmentsLayout>:
+    attachments: self
+    size_hint: 1, None
+    height: self.minimum_height
+    spacing: dp(5)
+
+
+<MessAvatar>:
+    size_hint: None, None
+    size: dp(30), dp(30)
+    canvas.before:
+        Color:
+            rgba: (0.87,0.87,0.87,1)
+        RoundedRectangle:
+            radius: [dp(5)]
+            pos: self.pos
+            size: self.size
+
+
+<MessageWidget>:
+    size_hint: 1, None
+    avatar: avatar
+    delivery: delivery
+    mess_xhtml: mess_xhtml
+    right_part: right_part
+    header_box: header_box
+    height: self.minimum_height
+    BoxLayout:
+        orientation: 'vertical'
+        width: avatar.width
+        size_hint: None, 1
+        MessAvatar:
+            id: avatar
+            source: root.mess_data.avatar['path'] if root.mess_data and root.mess_data.avatar else app.default_avatar
+            on_press: root.chat.addNick(root.nick)
+        Widget:
+            # use to push the avatar on the top
+            size_hint: 1, 1
+    BoxLayout:
+        size_hint: 1, None
+        orientation: 'vertical'
+        id: right_part
+        height: self.minimum_height
+        BoxLayout:
+            id: header_box
+            size_hint: 1, None
+            height: time_label.height if root.mess_type != C.MESS_TYPE_INFO else 0
+            opacity: 1 if root.mess_type != C.MESS_TYPE_INFO else 0
+            Label:
+                id: time_label
+                color: (0, 0, 0, 1) if root.own_mess else (0.55,0.55,0.55,1)
+                font_size: root.font_size
+                text_size: None, None
+                size_hint: None, None
+                size: self.texture_size
+                padding: dp(5), 0
+                markup: True
+                valign: 'middle'
+                text: u"[b]{}[/b], {}".format(escape(root.nick), root.time_text)
+            Symbol:
+                size_hint_x: None
+                width: self.height
+                id: encrypted
+                symbol: 'lock-filled' if root.mess_data.encrypted else 'lock-open'
+                font_size: self.height - dp(3)
+                color: (1, 0, 0, 1) if not root.mess_data.encrypted and root.chat.encrypted else (0.55,0.55,0.55,1)
+            Label:
+                id: delivery
+                color: C.COLOR_BTN_LIGHT
+                font_size: root.font_size
+                text_size: None, None
+                size_hint: None, None
+                size: self.texture_size
+                padding: dp(5), 0
+                # XXX: DejaVuSans font is needed as check mark is not in Roboto
+                # this can be removed when Kivy will be able to handle fallback mechanism
+                # which will allow us to use fonts with more unicode characters
+                font_name: "DejaVuSans"
+                text: u''
+        SimpleXHTMLWidget:
+            id: mess_xhtml
+            size_hint: 1, None
+            height: self.minimum_height
+            xhtml: root.message_xhtml or self.escape(root.message or '')
+            color: (0.74,0.74,0.24,1) if root.mess_type == "info" else (0, 0, 0, 1)
+            padding: root.mess_padding
+            bold: True if root.mess_type == "info" else False
+
+
+<AttachmentToSendItem>:
+    SymbolButton:
+        opacity: 0 if root.sending else 1
+        size_hint: None, 1
+        symbol: "cancel-circled"
+        on_press: root.parent.remove_widget(root)
+
+
+<AttachmentsToSend>:
+    attachments: attachments_layout.attachments
+    reduce_checkbox: reduce_checkbox
+    orientation: "vertical"
+    size_hint: 1, None
+    height: self.minimum_height if self.attachments.children else 0
+    opacity: 1 if self.attachments.children else 0
+    padding: [app.MARGIN_LEFT, dp(5), app.MARGIN_RIGHT, dp(5)]
+    canvas.before:
+        Color:
+            rgba: app.c_prim
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        size_hint: 1, None
+        size: self.texture_size
+        text: _("attachments:")
+        bold: True
+    AttachmentsLayout:
+        id: attachments_layout
+    BoxLayout:
+        id: resize_box
+        size_hint: 1, None
+        opacity: 1 if root.show_resize else 0
+        height: dp(25) if root.show_resize else 0
+        Widget:
+        CheckBox:
+            id: reduce_checkbox
+            size_hint: None, 1
+            width: dp(20)
+            active: True
+        Label:
+            size_hint: None, 1
+            text: _("reduce images size")
+            text_size: None, None
+            size: self.texture_size
+            valign: "middle"
+            padding_x: dp(10)
+            font_size: sp(15)
+        Widget:
+
+<Chat>:
+    attachments_to_send: attachments_to_send
+    message_input: message_input
+    messages_widget: messages_widget
+    history_scroll: history_scroll
+    send_button_visible: G.local_platform.send_button_visible or bool(attachments_to_send.attachments.children)
+    ScrollView:
+        id: history_scroll
+        scroll_y: 0
+        on_scroll_y: root.onScroll(*args)
+        do_scroll_x: False
+        scroll_type: ['bars', 'content']
+        bar_width: dp(10)
+        effect_cls: ScrollEffect
+        DelayedBoxLayout:
+            id: messages_widget
+            size_hint_y: None
+            padding: [app.MARGIN_LEFT, 0, app.MARGIN_RIGHT, dp(10)]
+            spacing: dp(10)
+            height: self.minimum_height
+            orientation: 'vertical'
+    AttachmentsToSend:
+        id: attachments_to_send
+    MessageInputBox:
+        size_hint: 1, None
+        height: self.minimum_height
+        spacing: dp(10)
+        padding: [app.MARGIN_LEFT, 0, app.MARGIN_RIGHT, dp(10)]
+        message_input: message_input
+        MessageInputWidget:
+            id: message_input
+            size_hint: 1, None
+            height: min(self.minimum_height, dp(250))
+            multiline: True
+            hint_text: _(u"Enter your message here")
+            on_text_validate: root.onSend(args[0])
+        SymbolButton:
+            # "send" button, permanent visibility depends on platform
+            symbol: "forward"
+            size_hint: None, 1
+            width: dp(30) if root.send_button_visible else 0
+            opacity: 1 if root.send_button_visible else 0
+            font_size: dp(25)
+            on_release: self.parent.send_text()
+
+
+# Buttons added in header
+
+<TransferButton>:
+    size_hint: None, 1
+    symbol: "plus-circled"
+    width: dp(30)
+    font_size: dp(25)
+    color: 0.4, 0.4, 0.4, 1
+
+<MenuButton@Button>
+    size_hint_y: None
+    height: dp(30)
+    on_texture_size: self.parent.parent.width = max(self.parent.parent.width, self.texture_size[0] + dp(10))
+
+<ExtraMenu>:
+    auto_width: False
+    MenuButton:
+        text: _("bookmarks")
+        on_release: root.select("bookmark")
+    MenuButton:
+        text: _("close")
+        on_release: root.select("close")
+
+<ExtraButton>:
+    size_hint: None, 1
+    symbol: "dot-3-vert"
+    width: dp(30)
+    font_size: dp(25)
+    color: 0.4, 0.4, 0.4, 1
+    on_release: self.chat.extra_menu.open(self)
+
+<EncryptionMainButton>:
+    size_hint: None, 1
+    width: dp(30)
+    color: self.getColor()
+    symbol: self.getSymbol()
+
+<TrustManagementButton>:
+    symbol: "shield"
+    padding: dp(5), dp(10)
+    bg_color: app.c_prim_dark
+    size_hint: None, 1
+    width: dp(30)
+    on_release: self.parent.dispatch("on_trust_release")
+
+<EncryptionButton>:
+    size_hint: None, None
+    width: self.parent.parent.best_width if self.parent is not None else 30
+    height: dp(30)
+    on_best_width: self.parent.parent.best_width = max(self.parent.parent.best_width, args[1])
+    Button:
+        text: root.text
+        size_hint: 1, 1
+        padding: dp(5), dp(10)
+        color: 0, 0, 0, 1
+        bold: root.bold
+        background_normal: app.expand('{media}/misc/borders/border_filled_black.png')
+        background_color: app.c_sec if root.selected else app.c_prim_dark
+        on_release: root.dispatch("on_release")
+        on_texture_size: root.best_width = self.texture_size[0] + (dp(30) if root.trust_button else 0)
+
+<EncryptionMenu>:
+    size_hint_x: None
+    width: self.container.minimum_width
+    auto_width: False
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+
+# Chat Selector
+
+<ChatSelector>:
+    jid_selector: jid_selector
+    JidSelector:
+        id: jid_selector
+        on_select: root.on_select(args[1])
+        to_show: ["opened_chats", "roster", "bookmarks"]
+

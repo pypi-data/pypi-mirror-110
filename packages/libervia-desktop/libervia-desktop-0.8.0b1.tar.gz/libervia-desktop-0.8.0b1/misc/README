@@ -1,0 +1,7 @@
+This directory contains files related to Libervia Desktop but not directly used by it.
+
+* org.libervia.LiberviaDesktop.metainfo.xml:
+	AppStream metadata as specified at https://www.freedesktop.org/software/appstream/docs/
+
+* org.libervia.LiberviaDesktop.desktop:
+	Desktop entry as specified at https://specifications.freedesktop.org/desktop-entry-spec/

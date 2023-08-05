@@ -1,0 +1,602 @@
+# French translations for Libervia Desktop.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the Libervia Desktop
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Libervia Desktop VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-06-15 14:29+0200\n"
+"PO-Revision-Date: 2021-06-15 14:52+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: cagou/core/cagou_main.py:87
+msgid "Can't import plyer, some features disabled"
+msgstr ""
+
+#: cagou/core/cagou_main.py:310
+msgid "Loading please wait"
+msgstr ""
+
+#: cagou/core/cagou_main.py:436
+msgid "Can't create downloads dir: {reason}"
+msgstr ""
+
+#: cagou/core/cagou_main.py:564
+msgid "Bookmark error"
+msgstr ""
+
+#: cagou/core/cagou_main.py:670
+msgid "there is already a plugin named {}, ignoring new one"
+msgstr ""
+
+#: cagou/core/cagou_main.py:721
+msgid "no widget plugin found"
+msgstr ""
+
+#: cagou/core/cagou_main.py:779
+msgid "room {} has been joined"
+msgstr ""
+
+#: cagou/core/cagou_main.py:1002
+msgid "error"
+msgstr ""
+
+#: cagou/core/cagou_main.py:1003
+msgid "error while processing: {msg}"
+msgstr ""
+
+#: cagou/core/cagou_main.py:1073
+msgid "unknown dialog type: {dialog_type}"
+msgstr ""
+
+#: cagou/core/cagou_main.py:1102
+msgid "Download error"
+msgstr ""
+
+#: cagou/core/cagou_main.py:1103
+msgid "Error while downloading {url}: {{msg}}"
+msgstr ""
+
+#: cagou/core/cagou_main.py:1143
+msgid "Can't use notifications, disabling: {msg}"
+msgstr ""
+
+#: cagou/core/common.py:92
+msgid "Can't retrieve identity for {jid}: {{msg}}"
+msgstr ""
+
+#: cagou/core/common.py:180
+msgid "Invalid symbol {symbol}"
+msgstr ""
+
+#: cagou/core/common.py:434
+msgid "Opened chats"
+msgstr ""
+
+#: cagou/core/common.py:447
+msgid "Your contacts"
+msgstr ""
+
+#: cagou/core/common.py:460
+msgid "Your chat rooms"
+msgstr ""
+
+#: cagou/core/common_widgets.py:102
+msgid "your server"
+msgstr ""
+
+#: cagou/core/dialog.py:40
+msgid "Are you sure?"
+msgstr ""
+
+#: cagou/core/menu.py:40
+msgid "About {}"
+msgstr ""
+
+#: cagou/core/menu.py:41
+msgid ""
+"[b]{app_name} ({app_name_alt})[/b]\n"
+"\n"
+"[u]{app_name} version[/u]:\n"
+"{version}\n"
+"\n"
+"[u]backend version[/u]:\n"
+"{backend_version}\n"
+"\n"
+"{app_name} is a libre communication tool based on libre standard XMPP.\n"
+"\n"
+"{app_name} is part of the \"Libervia\" project ({app_component} frontend)"
+"\n"
+"more informations at "
+"[color=5500ff][ref=website]salut-a-toi.org[/ref][/color]\n"
+msgstr ""
+
+#: cagou/core/menu.py:244
+msgid ""
+"The file will be [color=00aa00][b]encrypted[/b][/color] and sent to your "
+"server\n"
+"Server admin(s) can delete the file, but they won't be able to see its "
+"content"
+msgstr ""
+
+#: cagou/core/menu.py:250
+msgid ""
+"Beware! The file will be sent to your server and stay "
+"[color=ff0000][b]unencrypted[/b][/color] there\n"
+"Server admin(s) can see the file, and they choose how, when and if it "
+"will be deleted"
+msgstr ""
+
+#: cagou/core/menu.py:259
+msgid ""
+"The file will be sent [color=ff0000][b]unencrypted[/b][/color] directly "
+"to your contact (it may be transiting by the server if direct connection "
+"is not possible).\n"
+"[color=ff0000]Please note that end-to-end encryption is not yet "
+"implemented for P2P transfer."
+msgstr ""
+
+#: cagou/core/menu.py:267
+msgid ""
+"The file will be sent [color=ff0000][b]unencrypted[/b][/color] directly "
+"to your contact (it [i]may be[/i] transiting by the server if direct "
+"connection is not possible)."
+msgstr ""
+
+#: cagou/core/menu.py:307
+msgid "permission refused"
+msgstr ""
+
+#: cagou/core/menu.py:308
+msgid "this transfer menu can't be used if you refuse the requested permission"
+msgstr ""
+
+#: cagou/core/menu.py:318
+msgid "Please select entities"
+msgstr ""
+
+#: cagou/core/share_widget.py:37 cagou/plugins/plugin_wid_file_sharing.py:117
+msgid "share"
+msgstr ""
+
+#: cagou/core/share_widget.py:39
+msgid "share a file"
+msgstr ""
+
+#: cagou/core/share_widget.py:138
+msgid "file filter error"
+msgstr ""
+
+#: cagou/core/share_widget.py:139
+msgid "Can't apply filter to file: {msg}"
+msgstr ""
+
+#: cagou/core/xmlui.py:592 cagou/core/xmlui.py:600
+msgid "Cancel"
+msgstr ""
+
+#: cagou/core/xmlui.py:596
+msgid "Save"
+msgstr ""
+
+#: cagou/core/platform_/android.py:136
+msgid ""
+"Requested permissions are mandatory to run Cagou, if you don't accept "
+"them, Cagou can't run properly. Please accept following permissions, or "
+"set them in Android settings for Cagou:\n"
+"{permissions}\n"
+"\n"
+"Cagou will be closed in 20 s"
+msgstr ""
+
+#: cagou/core/platform_/android.py:217
+msgid "can't get selected widget"
+msgstr ""
+
+#: cagou/core/platform_/android.py:218
+msgid "error while retrieving selected widget: {msg}"
+msgstr ""
+
+#: cagou/core/platform_/android.py:261
+msgid "can set selected widget"
+msgstr ""
+
+#: cagou/core/platform_/android.py:262
+msgid "error while setting selected widget: {msg}"
+msgstr ""
+
+#: cagou/core/platform_/android.py:300
+msgid "Are you sure to disconnect?"
+msgstr ""
+
+#: cagou/core/platform_/android.py:301
+msgid ""
+"If you disconnect the current user ({profile}), you won't receive any "
+"notification until you connect it again, is this really what you want?"
+msgstr ""
+
+#: cagou/core/platform_/android.py:311
+msgid "disconnect"
+msgstr ""
+
+#: cagou/core/platform_/base.py:82
+msgid "new window"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_android_gallery.py:40
+msgid "gallery"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_android_gallery.py:44
+msgid "upload a photo from photo gallery"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_android_photo.py:37
+msgid "take photo"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_android_photo.py:41
+msgid "upload a photo from photo application"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_android_video.py:37
+msgid "take video"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_android_video.py:41
+msgid "upload a video from video application"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_file.py:34
+msgid "file"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_file.py:36
+msgid "transmit a local file"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_file.py:69
+msgid "Please select a file to upload"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_voice.py:34
+msgid "voice"
+msgstr ""
+
+#: cagou/plugins/plugin_transfer_voice.py:37
+msgid "transmit a voice record"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:59
+msgid "chat"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:61
+msgid "instant messaging with one person or a group"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:542
+msgid "unencrypted (plain text)"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:567
+msgid "Session with {destinee} is now in plain text"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:571
+msgid "Error while stopping encryption with {destinee}: {reason}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:575 cagou/plugins/plugin_wid_chat.py:595
+msgid "encryption problem"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:586
+msgid "Session with {destinee} is now encrypted with {encr_name}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:591
+msgid "Session can't be encrypted with {destinee}: {reason}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:618
+msgid "Trust manager interface can't be retrieved: {reason}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:621
+msgid "encryption trust management problem"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:867
+msgid "{nick}: {message}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:894 cagou/plugins/plugin_wid_chat.py:900
+msgid "private message"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:912
+msgid "mention"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:921
+msgid "mention ({room_jid})"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:940
+msgid "item {path} could not be uploaded: {err_msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:942
+msgid "can't upload file"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:1045
+msgid "Can't check image size"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:1046
+msgid "Can't check image at {path}: {{msg}}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:1110
+msgid "Unknown OTR state received: {}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:1203
+msgid "Problem while getting back history"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_chat.py:1204
+msgid "Can't back history for {target}: {problem}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:41
+msgid "contacts"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:43
+msgid "list of contacts"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:56
+msgid "profile not set in AddContactMenu"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:73
+msgid "contact request"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:74
+msgid "a contact request has been sent to {contact_jid}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:77
+msgid "can't add contact"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:78
+msgid "error while trying to add contact: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:94
+msgid "contact removed"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:95
+msgid "{contact_jid} has been removed from your contacts list"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:98
+msgid "can't remove contact"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:99
+msgid "error while trying to remove contact: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_contact_list.py:112
+msgid "delete"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:45
+msgid "file sharing"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:47
+msgid "share/transfer files between devices"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:52
+msgid "Please select entities to share with"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:75
+msgid "view shared files"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:77
+msgid "share local files"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:100
+msgid "opening menu for {path}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:113
+msgid "unshare"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:233
+#: cagou/plugins/plugin_wid_remote.py:269
+msgid "services"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:235
+#: cagou/plugins/plugin_wid_remote.py:271
+msgid "your devices"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:237
+#: cagou/plugins/plugin_wid_remote.py:273
+msgid "your contacts devices"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:250
+#: cagou/plugins/plugin_wid_remote.py:287
+msgid "No sharing device found"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:257
+msgid "can't find file information sharing namespace, is the plugin running?"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:260
+#: cagou/plugins/plugin_wid_remote.py:250
+msgid "missing plugin"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:266
+#: cagou/plugins/plugin_wid_file_sharing.py:281
+#: cagou/plugins/plugin_wid_file_sharing.py:306
+msgid "shared folder error"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:267
+msgid "can't check sharing devices: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:282
+msgid "can't list files for {remote_entity}: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:302
+msgid "can't list files in \"{local_dir}\": {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:350
+#: cagou/plugins/plugin_wid_file_sharing.py:353
+#: cagou/plugins/plugin_wid_file_sharing.py:369
+#: cagou/plugins/plugin_wid_file_sharing.py:372
+msgid "sharing folder"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:351
+msgid "{name} is now shared"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:354
+msgid "can't share folder: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:370
+msgid "{name} is not shared anymore"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:373
+msgid "can't unshare folder: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:377
+msgid "file request"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:378
+msgid "{name} download started at {dest_path}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:403
+msgid "file request error"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:404
+msgid "can't request file: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_file_sharing.py:418
+msgid "shared path {path} not found in {widget}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:43
+msgid "remote control"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:45
+msgid "universal remote control"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:49
+msgid "Media Player Remote Control"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:86
+msgid "Missing field: {name}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:97
+msgid "Unknown playback status: playback_status"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:123
+msgid "{command} command is not managed"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:153
+msgid "Unhandled data: {data}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:195
+msgid "Can't use remote control: {reason}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:219
+#: cagou/plugins/plugin_wid_remote.py:237
+msgid "discovery error"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:220
+msgid "can't check remote controllers: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:238
+msgid "can't check devices: {msg}"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:248
+msgid "can't find ad-hoc commands namespace, is the plugin running?"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_remote.py:260
+msgid "media players remote controls"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_settings.py:36
+msgid "settings"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_settings.py:38
+msgid "Cagou/SàT settings"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_settings.py:71
+msgid "Can't load parameters!"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_widget_selector.py:33
+msgid "widget selector"
+msgstr ""
+
+#: cagou/plugins/plugin_wid_widget_selector.py:36
+msgid "show available widgets and allow to select one"
+msgstr ""
+

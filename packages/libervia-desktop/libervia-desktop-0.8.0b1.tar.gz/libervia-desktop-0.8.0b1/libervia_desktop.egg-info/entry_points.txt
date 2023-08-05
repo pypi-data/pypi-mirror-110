@@ -1,0 +1,5 @@
+[console_scripts]
+cagou = cagou:run
+libervia-desktop = cagou:run
+libervia-mobile = cagou:run
+
