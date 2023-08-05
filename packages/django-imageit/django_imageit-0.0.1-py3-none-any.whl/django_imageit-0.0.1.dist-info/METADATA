@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-imageit
+Version: 0.0.1
+Summary: Image processing plugin built for Django
+Home-page: https://github.com/scott-j5/django-imageit
+Author: Scott James
+Author-email: scottjames@byitegroup.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: django (>=3)
+Requires-Dist: pillow (>8.0.0)
+Requires-Dist: filetype (>1.0.0)
+
+# django-imageit
+Image processing plugin built for Django
+
+
