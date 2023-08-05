@@ -1,0 +1,5 @@
+{
+  "length_threshold": 1.0,
+  "intensity_threshold": 1.0,
+  "debug": false
+}
