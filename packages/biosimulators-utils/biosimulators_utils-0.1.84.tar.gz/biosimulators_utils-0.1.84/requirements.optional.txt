@@ -1,0 +1,25 @@
+[bngl]
+bionetgen
+seaborn
+
+[cellml]
+libcellml
+
+[lems]
+pylems
+pyneuroml
+
+[neuroml]
+libneuroml
+
+[sbml]
+python_libsbml
+
+[smoldyn]
+smoldyn >= 2.66.dev20210609
+
+[containers]
+docker >= 4.4
+
+[logging]
+capturer
