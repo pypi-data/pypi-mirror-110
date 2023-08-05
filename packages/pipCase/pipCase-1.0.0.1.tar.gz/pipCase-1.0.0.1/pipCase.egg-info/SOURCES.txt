@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pipCase/__init__.py
+pipCase/test.py
+pipCase.egg-info/PKG-INFO
+pipCase.egg-info/SOURCES.txt
+pipCase.egg-info/dependency_links.txt
+pipCase.egg-info/requires.txt
+pipCase.egg-info/top_level.txt
