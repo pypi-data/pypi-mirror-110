@@ -1,0 +1,9 @@
+name: aeroevap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - python>=3
+  - numpy
+  - matplotlib
