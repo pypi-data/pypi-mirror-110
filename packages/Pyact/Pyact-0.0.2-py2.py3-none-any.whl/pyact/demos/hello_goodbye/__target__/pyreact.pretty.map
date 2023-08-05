@@ -1,0 +1,8 @@
+{
+	"version": 3,
+	"file": "pyreact.js",
+	"sources": [
+		"pyreact.pretty.py"
+	],
+	"mappings": "AAAA;AAcA;AAdA;AAIA;AACA;AAEA;AACA;AAGA;AAAA;AAGA;AAAA;AAAA"
+}

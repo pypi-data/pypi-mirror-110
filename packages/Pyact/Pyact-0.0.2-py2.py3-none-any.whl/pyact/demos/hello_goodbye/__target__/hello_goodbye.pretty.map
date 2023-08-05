@@ -1,0 +1,8 @@
+{
+	"version": 3,
+	"file": "hello_goodbye.js",
+	"sources": [
+		"hello_goodbye.pretty.py"
+	],
+	"mappings": "AAAA;AAAA;AAAA;AAAA;AAEA;AACA;AAAA;AAAA;AAEA;AACA;AAAA;AAEA;AACA;AAAA;AAKA;AAAA;AAGA;AAjBA"
+}
