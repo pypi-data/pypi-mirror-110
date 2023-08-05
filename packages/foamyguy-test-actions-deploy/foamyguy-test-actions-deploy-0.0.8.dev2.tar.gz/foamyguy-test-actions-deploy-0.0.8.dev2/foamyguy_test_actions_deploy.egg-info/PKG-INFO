@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: foamyguy-test-actions-deploy
+Version: 0.0.8.dev2
+Summary: Testing actions and pypi releasing
+Home-page: https://github.com/FoamyGuy/test_actions_deploy
+Author-email: foamyguy@gmail.com
+Maintainer: Tim Cocks
+Maintainer-email: foamyguy@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
