@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: iocide
+Version: 0.1.0a2
+Summary: Indicator of Compromise (IOC) Detection Utility
+Home-page: UNKNOWN
+Author: David Finn
+Author-email: dsfinn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Security
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: chardet (>=4.0.0)
+Requires-Dist: regex (>=2021.4.4)
+Requires-Dist: unidecode (>=1.2.0)
+
+# iocide
+
+Defanged/Obfuscated Indicator of Compromise (IOC) Detection
+
+`iocide` uses programatically-generated regular expressions to capture IOC
+values that may have been defanged and/or obfuscated using a range of
+techniques.
+
+Expressions for each IOC type have been tailored to the relevant specification
+standard, allowing identification of values obfuscated with combinations of
+defanging, alternate unicode characters, and unusual edge-case formatting.
+
+## Author
+
+David Finn: dsfinn@gmail.com
+
+## Features
+
+### Detected IOC Types
+
+`iocide` can detect multiple IOC types, including:
+
+- remote URLs
+- remote IPs
+- remote hostnames
+- email addresses
+- hashes
+
+### Encoded Binary
+
+`iocide` can detect (and optionally refang) binary blobs encoded according to
+[RFC 3548](https://datatracker.ietf.org/doc/html/rfc3548.html),
+including:
+
+- base16
+- base32
+- base64
+
+### Binary-Embedded Text
+
+`iocide` can automatically inspect detected binary blobs for text encodings.
+Detected text can be searched for IOCs to arbitrary recursion depth.
+By default, only embedded text binaries found in the top level text will be
+further inspected.
+
+## Installation
+
+```
+pip install iocide
+```
+
+## Command Line Quickstart
+
+See `iocide -h` for parameters and subcommands.
+
+`iocide` reads text from `stdin` and writes detected IOC values to `stdout`.
+If invoked without arguments, it will search for all known IOC types including
+binary blobs and binary-embedded text.
+
+The `--refang` flag (shortcut `-r`) will cause `iocide` to normalise detected
+values to their 'fanged' representations if the IOC type supports refanging.
+
+By default, `iocide` will normalise input text by replacing non-ASCII
+characters with ASCII where possible.
+This behaviour can be deactivated using the `--raw` flag.
+
+### Finding defanged IOCs in text
+
+```
+cat suspcicious_document.txt | iocide
+```
+
+### Refanging detected IOCs
+
+```
+cat suspicious_document.txt | iocide --refang
+```
+
+### Finding a specific IOC type
+
+```
+cat suspicious_document.txt | iocide url
+cat suspcisious_document.txt | iocide --refang url
+```
+
+### Finding obfuscated text
+
+```
+cat suspicious_document.txt | iocide secrets
+```
+
+### Filter output for unique values
+```
+cat suspicious_document.txt | iocide | sort | uniq
+```
+
+## Python Interface
+
+```python
+import iocide
+
+
+some_raw_text = ...
+
+# Normalise text characters to ascii where possible
+some_text = iocide.normalise(some_raw_text)
+
+# extract_all will extract all known IOC types
+
+for defanged_ioc in iocide.extract_all(text=some_text, refang=False):
+	...
+
+for refanged_ioc in iocide.extract_all(text=some_text, refang=True):
+	...
+
+# Use the appropriate submodule to extract a specific IOC type
+# e.g. for url:
+
+for defanged_url in iocide.url.extract(text=some_text, refang=False):
+	...
+
+for refanged_url in iocide.url.extract(text=some_text, refang=True):
+	...
+
+# To find obfuscated text, use blobs.extract_text and specify a recursion depth
+# for the refang value
+
+for secret_text in iocide.blobs.extract_text(text=some_text, refang=2):
+	...
+
+```
+
+To facilitate advanced use of detected IOC values, generated values are
+instances of appropriate built-in Python types.
+For example, URL values are instances of `urllib.parse.ParseResult`.
+
+Some IOC types don't correspond to a built-in Python type (such as hashes),
+and are generated as `str` objects.
+
+All generated values can be converted to strings by calling the `str`
+constructor:
+
+```python
+str(defanged_url)
+str(refanged_url)
+```
+
+Custom subclasses have been used to faciliate `str` construction and defanged
+text preservation where necessary.
+These subclasses can be inspected in the relevant module.
+
+
