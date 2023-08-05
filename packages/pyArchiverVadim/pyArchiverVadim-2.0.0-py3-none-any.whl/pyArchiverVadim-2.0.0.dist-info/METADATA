@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyArchiverVadim
+Version: 2.0.0
+Summary: Archiver
+Home-page: https://github.com/veeeedro/pyArchiver
+Author: Silenov V.O.
+Author-email: veeeedro@mail.ru
+License: UNKNOWN
+Platform: any
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pyArchiver
+## Example
+
+```python
+from pyArchiver.pyArchiver import to_zip, unzipping
+
+
+to_zip('path where do you want to save archive.zip', [
+    'path to archive directory',
+    'path to archive file',
+])
+
+unzipping('path to archive.zip', 'path where do you want to unzipping archive.zip(default: path to folder with archive)')
+
+```
+
