@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "temperaturaConverter"
+version = "0.2.0"
+description = ""
+authors = ["chjuca <chjuca@utpl.edu.ec>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+twine = "^3.4.1"
+
+[tool.poetry.scripts]
+temperaturaConverter = 'temperaturaconverter.temperaturaConverter:F_to_K, C_to_R, C_to_F'
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+twine = "^3.4.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
