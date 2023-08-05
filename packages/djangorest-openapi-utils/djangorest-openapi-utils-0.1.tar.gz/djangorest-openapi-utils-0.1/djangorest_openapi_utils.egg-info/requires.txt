@@ -1,0 +1,6 @@
+django
+
+[dev]
+django
+djangorestframework
+uritemplate
