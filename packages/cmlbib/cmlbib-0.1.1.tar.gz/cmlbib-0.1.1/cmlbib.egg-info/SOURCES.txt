@@ -1,0 +1,8 @@
+README.md
+setup.py
+cmlbib.egg-info/PKG-INFO
+cmlbib.egg-info/SOURCES.txt
+cmlbib.egg-info/dependency_links.txt
+cmlbib.egg-info/entry_points.txt
+cmlbib.egg-info/requires.txt
+cmlbib.egg-info/top_level.txt
