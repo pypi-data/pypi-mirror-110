@@ -1,0 +1,14 @@
+git_manage/__init__.py,sha256=AJEPseXOZE3ZBnqT_LOi5Gb5uX9y4FZjJMqsehWKXvE,95
+git_manage/git_tools.py,sha256=Xt73opZxg-q0ApUrhPWiHuFtLF01KAjQZjWBMAH1hFE,10032
+git_manage/gitman.py,sha256=lp3iVFsfPcBtvXVYL9JeYFwXWYUAM_QTZWrPL0pKgnQ,6108
+git_manage/scripts/__init__.py,sha256=AJEPseXOZE3ZBnqT_LOi5Gb5uX9y4FZjJMqsehWKXvE,95
+git_manage/scripts/gt_fetch.py,sha256=nqy8nxIZkd-hJPbC11clPhGw4jJdU4fkICgCkT1_zl4,771
+git_manage/scripts/gt_reset_to_remote.py,sha256=r1WZYHEX2rDptzikoS4wZtTYD-vzYsXRGGLmzDxU5cc,811
+git_manage/scripts/gt_retrieve.py,sha256=M9jwOdZPpP4rP8lvUxLTVSp8TWeYIHzdW5JFYMNnKMc,1072
+git_manage/scripts/gt_sync.py,sha256=FGjU16rewT9KBvIduTFAohkTXwZ7nvASaogliPQMIM8,729
+git_manage/scripts/gt_track.py,sha256=pj0mc9BuqbkXBBcj0E12NhjU2LRBW9QAnSww7AX7J2M,941
+git_manage-0.0.3.dist-info/LICENSE,sha256=0TuJMPkiXX9041Sja0S-FIWbaDnXXbDfEf1XN6cAlxk,1062
+git_manage-0.0.3.dist-info/METADATA,sha256=kqZOMp3eeL1vsXwpCQBlW9aykAg9LwyAWsgt-0X3G5Q,468
+git_manage-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+git_manage-0.0.3.dist-info/top_level.txt,sha256=4anXa5eY-0gAExAaBiZo0EIxKUrAP0u-W0PBrd33jCM,11
+git_manage-0.0.3.dist-info/RECORD,,
