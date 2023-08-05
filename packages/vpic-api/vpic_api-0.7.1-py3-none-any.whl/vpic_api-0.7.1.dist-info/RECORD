@@ -1,0 +1,13 @@
+vpic/__init__.py,sha256=bq6EsUMzciEfBsoGpgaQOyW_QZInPZ2WF2U0NLXjm0c,81
+vpic/client.py,sha256=hQA-uBeVtW5c34qfuGHPVoc6aTVKBojDV4kukG-tBkQ,31290
+vpic/client_base.py,sha256=5PsY6ZnH9vlBBFb7VU4fk3TT4ihaMGdj7TsinjzB6Wo,2146
+vpic/exceptions.py,sha256=9gmrDjFuhKlXKFwux5F8OB5UQFXJwMFtEOusxr37V1M,2097
+vpic/models.py,sha256=6vLQ5_LPAkzjUk2etit82aVa2yOlj8DomFloItLR-40,7542
+vpic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpic/session.py,sha256=8kIl7-_sU0TvM84ct4iOCWs1Ik76StCVQFr1BwPSexQ,307
+vpic/transforms.py,sha256=b02lFg1Zi3L4wE4F9O_9Fs9USv4D_1Gib6zyqfyQbcg,2816
+vpic/typed_client.py,sha256=HIyBDfMmI2iRn2X8nMj2ADnb5hr8WU22VdkVjqWubpw,32154
+vpic_api-0.7.1.dist-info/LICENSE,sha256=YAuzgMvhdYsUvLdIluNoLfMoPzzYbjcWybrJDqPzywQ,1070
+vpic_api-0.7.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vpic_api-0.7.1.dist-info/METADATA,sha256=lEYQecqUohDgyx-aeeSfTc_5iKqS11ZSiInwE8zY3iE,6694
+vpic_api-0.7.1.dist-info/RECORD,,
