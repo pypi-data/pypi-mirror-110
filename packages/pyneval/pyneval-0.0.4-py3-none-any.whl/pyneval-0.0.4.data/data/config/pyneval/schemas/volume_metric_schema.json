@@ -1,0 +1,14 @@
+{
+  "title": "length metric schema",
+  "type": "object",
+  "required": [
+      "length_threshold",
+      "intensity_threshold",
+      "debug"
+  ],
+  "properties": {
+    "length_threshold": {"type": "number", "minimum": 0},
+    "intensity_threshold": {"type": "number", "minimum": 0},
+    "debug": {"type": "boolean"}
+  }
+}
