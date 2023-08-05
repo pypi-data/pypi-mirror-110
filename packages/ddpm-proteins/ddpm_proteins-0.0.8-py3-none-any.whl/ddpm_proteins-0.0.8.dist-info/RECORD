@@ -1,0 +1,8 @@
+ddpm_proteins/__init__.py,sha256=TcgAv0QGRcYt6I82WEPT_rtOAU-uQzdZ9jnLMPaoVFs,73
+ddpm_proteins/ddpm_proteins.py,sha256=2zRiJ4JvMcspwZJMkwUMCIeYlhBki9BLKr5SItV0iqI,20766
+ddpm_proteins/utils.py,sha256=n5-QhdfM0AdZya2y0LkV0QkMHmm6fmRpYCx6fhcmaHI,5353
+ddpm_proteins-0.0.8.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+ddpm_proteins-0.0.8.dist-info/METADATA,sha256=p4eEqeeU29reZn2SGS_Jazi32wGiBthx5hp5Q2DIxx4,854
+ddpm_proteins-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ddpm_proteins-0.0.8.dist-info/top_level.txt,sha256=mFBUKJmTl8TWFEk1oxuSm3U7tPq4HN2tz6Repiv40Nc,14
+ddpm_proteins-0.0.8.dist-info/RECORD,,
