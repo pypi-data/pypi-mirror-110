@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "pdm-publish"
+version = "0.2.1"
+description = "A PDM plugin to publish to PyPI"
+authors = ["Branch Vincent <branchevincent@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/branchvincent/pdm-publish"
+packages = [{ include = "pdm_publish", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+twine = "^3"
+pdm = "^1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+flake8 = "^3.9.2"
+isort = "^5.8.0"
+mypy = "^0.902"
+pre-commit = "^2.13.0"
+pyproject-flake8 = "^0.0.1-alpha.2"
+pytest = "^6.2.4"
+taskipy = "^1.8.1"
+pytest-mock = "^3.6.1"
+
+[tool.poetry.plugins.pdm]
+publish = "pdm_publish.__init__:main"
+
+[tool.taskipy.tasks]
+clean = { cmd = "rm -rf .mypy_cache/ .pytest_cache/ build/ dist/ *.egg-info", help = "Remove build artifacts" }
+lint = { cmd = "pre-commit run --all-files", help = "Run linters and formatters" }
+test = { cmd = "pytest", help = "Run tests" }
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+disallow_untyped_decorators = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[build-system]
+requires = ["poetry-core>=1.0"]
+build-backend = "poetry.core.masonry.api"
