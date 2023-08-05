@@ -1,0 +1,4 @@
+[console_scripts]
+canvasautoplot = canvasautorubric:plot
+canvasautorubric = canvasautorubric:main
+
