@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+src/repo_cloner/__init__.py
+src/repo_cloner/cloner.py
+src/repo_cloner/yml_reader.py
+src/repo_cloner.egg-info/PKG-INFO
+src/repo_cloner.egg-info/SOURCES.txt
+src/repo_cloner.egg-info/dependency_links.txt
+src/repo_cloner.egg-info/entry_points.txt
+src/repo_cloner.egg-info/requires.txt
+src/repo_cloner.egg-info/top_level.txt
