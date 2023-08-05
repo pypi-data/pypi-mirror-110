@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+pythonautoloader/__init__.py
+pythonautoloader/mainfile.py
+pythonautoloader.egg-info/PKG-INFO
+pythonautoloader.egg-info/SOURCES.txt
+pythonautoloader.egg-info/dependency_links.txt
+pythonautoloader.egg-info/top_level.txt
