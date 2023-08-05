@@ -1,0 +1,6 @@
+setup.py
+libervia.egg-info/PKG-INFO
+libervia.egg-info/SOURCES.txt
+libervia.egg-info/dependency_links.txt
+libervia.egg-info/requires.txt
+libervia.egg-info/top_level.txt
