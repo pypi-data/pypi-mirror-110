@@ -1,0 +1,4 @@
+sentry_sdk>=0.16
+django-environ>=0.4.5
+celery>=4.4.3
+redis>=3.3.11
