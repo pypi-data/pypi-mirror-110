@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: multiSub
+Version: 1.0
+Summary: SARS-CoV-2 data converter between Genbank/GISAID/ENA formats
+Home-page: https://github.com/maximilianh/multiSub
+Author: Maximilian Haeussler
+Author-email: maxh@ucsc.edu
+License: GPL 3
+Description: 
+            Prepares a SARS-CoV-2 submission for GISAID, NCBI or ENA. Can read GISAID or NCBI files, or plain fasta+tsv/csv/xls. Finds files in input directory and merges everything into a single output directory. Auto-detects input file formats. Can submit the results to multiple repositories from the command line.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Requires-Python: >=2.7

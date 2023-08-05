@@ -1,0 +1,8 @@
+README.md
+multiSub
+setup.cfg
+setup.py
+multiSub.egg-info/PKG-INFO
+multiSub.egg-info/SOURCES.txt
+multiSub.egg-info/dependency_links.txt
+multiSub.egg-info/top_level.txt
