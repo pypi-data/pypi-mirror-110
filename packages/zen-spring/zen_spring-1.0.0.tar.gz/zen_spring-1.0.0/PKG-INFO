@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zen_spring
+Version: 1.0.0
+Summary: 3D printed springs builder for ZenCAD
+Home-page: https://gitlab.com/hnau_zen/spring
+Author: Mark Zorikhin
+Author-email: hnau256@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 3D printed springs builder for ZenCAD
+
