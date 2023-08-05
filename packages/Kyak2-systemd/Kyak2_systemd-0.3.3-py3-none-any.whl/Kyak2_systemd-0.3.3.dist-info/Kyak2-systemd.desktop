@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Kyak2-systemd
+Comment=Openbox Logout screen with Tkinter, for users who use systemd
+Exec=python3 Kyak2-systemd.py
+Icon=
+Path=/usr/share/applications
+Terminal=false
+StartupNotify=false
+Name[tr_TR]=Kyak2-systemd.desktop
