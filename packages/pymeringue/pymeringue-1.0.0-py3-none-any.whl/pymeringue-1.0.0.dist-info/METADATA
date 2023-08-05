@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pymeringue
+Version: 1.0.0
+Summary: A port of Meringue (https://github.com/stiive/meringue) for Python.
+Home-page: https://github.com/stiive/py-meringue
+Author: Beckett Normington
+Author-email: beckett@chatter-social.com
+License: BSD
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# PyMeringue
+
+PyMeringue is a port of [Meringue](https://github.com/stiive/meringue). PyMeringue offers an extension for Python lists, adding helpful functions to make your life easier.
+
+## Installation
+
+### Through `pip`:
+
+```bash
+$ pip3 install pymeringue
+```
+
+### From source:
+
+```bash
+$ git clone https://github.com/stiive/pymeringue pymeringue
+$ cd pymeringue
+$ python setup.py install
+```
+
+## Sample Usage
+
+PyMeringue is simple to use and can be used as a drop-in replacement for normal Python lists.
+
+```python
+import meringue
+
+list1 = Meringue()
+
+for i in range(20):
+	list1.append(i)
+
+print(list1) # [0, 1, 2, ... 19]
+```
+
+PyMeringue adds several helpful functions to make managing Python lists easier.
+
+```python
+print(list1.last()); # 19
+
+print(list1.at(-1)); # 19
+
+list2 = Meringue(["a", "b", "c", "d", "c", "b", "a"]);
+
+print(list2.removeCommonElements(["a", "c"], ["d"])); # ["b", "b"]
+
+print(list2.unique()); # ["a", "b", "c", "d"]
+```
+
+## Documentation
+
+Full documentation can be found at [https://meringue.stiive.co](https://meringue.stiive.co).
+
