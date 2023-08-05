@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: laserfiche-api
+Version: 1.0.5
+Summary: Laserfiche API
+Home-page: https://github.com/Layer8Err/laserfiche_api/
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description:     Laserfiche Swagger API. You can use this package for API calls against your live Laserfiche Cloud account. Visit the developer center for more details: developer.laserfiche.com
+            
+Keywords: Swagger,Laserfiche API
+Platform: UNKNOWN
