@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+disbotlist.py.egg-info/PKG-INFO
+disbotlist.py.egg-info/SOURCES.txt
+disbotlist.py.egg-info/dependency_links.txt
+disbotlist.py.egg-info/requires.txt
+disbotlist.py.egg-info/top_level.txt
+src/__init__.py

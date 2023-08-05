@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: disbotlist.py
+Version: 0.0.1
+Summary: a official api from disbotlist.xyz
+Home-page: UNKNOWN
+Author: Blacky & Venom
+Author-email: <disbotlist@gmail.com>
+License: UNKNOWN
+Description: 
+        # disbotlist 
+        
+        Useful library for [DisBotList.xyz](https://disbotlist.xyz)
+        
+        
+        ## Installation
+        ```
+        pip install disbotlist
+        ```
+        ## Example 
+        Server Count Post :
+        ```python
+        from disbotlist import *
+        from discord.ext import commands
+        
+        client = commands.Bot(command_prefix="!") 
+        dbl = disbotlist(client,"token of disbots")
+        
+        @client.event
+        async def on_ready():
+          x = await dbl.serverCountPost()
+          print(x)
+        
+        client.run("token")
+        ```
+        
+Keywords: python,discord,botlist,disbotlist
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
