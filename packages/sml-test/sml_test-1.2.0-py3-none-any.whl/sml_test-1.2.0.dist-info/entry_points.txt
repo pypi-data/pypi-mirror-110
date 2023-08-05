@@ -1,0 +1,3 @@
+[console_scripts]
+sml-test = sml_test.cli:cli
+
