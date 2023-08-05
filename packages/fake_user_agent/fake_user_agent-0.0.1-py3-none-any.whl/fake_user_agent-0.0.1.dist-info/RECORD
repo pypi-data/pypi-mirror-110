@@ -1,0 +1,10 @@
+fake_user_agent/__init__.py,sha256=hvnzdxmon0AQSrSCkxYFwMwq_R6ImoRirEtS5liHixY,114
+fake_user_agent/aio_main.py,sha256=qTpppaJbEBqhDIebDYClOtX0Lt6v0g9xDJLZPcH3dBU,3177
+fake_user_agent/errors.py,sha256=xnUc6EYhSqVDIkptO_a5HMlaEvZ3-pB6Dde_ph92Sig,77
+fake_user_agent/log.py,sha256=7LgtygyQ-Z2Wa6-25HYiO4u04IWmRVT2M-7rKb3G5uI,69
+fake_user_agent/main.py,sha256=NeqYUgS5dz-d1eQBlHV-9yQpAUxQ9MRTtmO2r5miesk,4232
+fake_user_agent/settings.py,sha256=c1MSl9h8TJRLNyPGMOAgffVYJj0t-1It2gVRW0vowU4,1053
+fake_user_agent-0.0.1.dist-info/LICENSE,sha256=29KXbBtLkrFTjDJrtgjVVmPmwFBuXP-6xqVSb9Sdc8U,1076
+fake_user_agent-0.0.1.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+fake_user_agent-0.0.1.dist-info/METADATA,sha256=PbVJqs2B7FgQxagq4TTktMdTImeOu0nMVQrEYMcJJjU,508
+fake_user_agent-0.0.1.dist-info/RECORD,,
