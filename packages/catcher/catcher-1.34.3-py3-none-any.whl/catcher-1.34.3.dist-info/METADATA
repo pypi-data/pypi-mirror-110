@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: catcher
+Version: 1.34.3
+Summary: Microservices automated test tool.
+Home-page: https://github.com/comtihon/catcher
+Author: Valerii Tikhonov, Ekaterina Belova
+Author-email: valerii.tikhonov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
+Requires-Dist: docopt (==0.6.*)
+Requires-Dist: mock (==4.0.*)
+Requires-Dist: pytest (==6.2.*)
+Requires-Dist: requests (==2.25.*)
+Requires-Dist: urllib3 (==1.26.*)
+Requires-Dist: requests-mock (==1.9.*)
+Requires-Dist: PyYAML (==5.*)
+Requires-Dist: Jinja2 (==3.0.*)
+Requires-Dist: uuid (==1.30)
+Requires-Dist: Faker (==8.8.*)
+Requires-Dist: colorama (==0.4.*)
+Requires-Dist: networkx (==2.5.1)
+Requires-Dist: grpcio (==1.38.*)
+Requires-Dist: grpcio-tools (==1.38.*)
+
+UNKNOWN
+
