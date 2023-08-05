@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pip-case
+Version: 1.0
+Summary: 这是一个pip上传自定义包的测试包
+Home-page: UNKNOWN
+Author: 许焕燃
+Author-email: 527077832@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+
+# 说明
+这是一个测试包
+用cmd进入到该包中，执行以下代码，会自动找到
+python setup.py sdist bdist_wheel
+python -m pip install --upgrade setup 
+
