@@ -1,0 +1,11 @@
+ai_object_detection.py,sha256=RqefR0uGJsWFJf3k4A51-C7bVnAec7C1BoaTai0yq1Q,68
+ai_object_detection/__init__.py,sha256=XWlRliOtrxNw8ydBDmaKgw6zRI63AZ-foGWAVDNDbPg,775
+ai_object_detection/__main__.py,sha256=zJE_U_6n0WLnc_RlIrj5wrmL-t8mofjLMd8YUMW7vm8,1520
+ai_object_detection/libexcel.py,sha256=aTGMM_PdEmUlsteQskEL4P1zdTdM68SROZcfGQE5FX8,11148
+ai_object_detection/libimageprocessor.py,sha256=Sp55zJF-HEny3eTxrYU-S8n9Mqbqzt07EzrritFLnAk,11685
+ai_object_detection/libselenium.py,sha256=9wEIlmJWZbXdC5HHOBB_qg4GGDtqBctCA6li5jCzKx0,21772
+ai_object_detection-1.1.7.dist-info/LICENSE,sha256=azphVEh2-zUvm3W1M3EL6RaHtRx9ngymSdwUMm0gwV0,1093
+ai_object_detection-1.1.7.dist-info/METADATA,sha256=o87EPioIpXSJlkTPky7mIDDFGVGtl70DiM3KNuh62ww,1665
+ai_object_detection-1.1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ai_object_detection-1.1.7.dist-info/top_level.txt,sha256=chN02GXox26-Z_UIkYErcE_rDoG2yABPZfgTUjE8l5g,20
+ai_object_detection-1.1.7.dist-info/RECORD,,
