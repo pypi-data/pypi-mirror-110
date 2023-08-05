@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: repo-cli
+Version: 0.0.1.12
+Summary: standard tooling for repo project.
+Home-page: https://github.com/ryomahan/repo-cli
+License: GPL-3.0-only
+Author: RyomaHan
+Author-email: ryomahan1996@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: Pygments (>=2.9.0,<3.0.0)
+Requires-Dist: chardet (>=4.0.0,<5.0.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: feedgen (>=0.9.0,<0.10.0)
+Requires-Dist: mistune (==2.0.0a4)
+Requires-Dist: moment (>=0.12.1,<0.13.0)
+Project-URL: Repository, https://github.com/ryomahan/repo-cli
+Description-Content-Type: text/markdown
+
+# repo-cli
+standard tooling for repo project.
+
+## note
+
+The project is under development, please do not install and use it for now.
