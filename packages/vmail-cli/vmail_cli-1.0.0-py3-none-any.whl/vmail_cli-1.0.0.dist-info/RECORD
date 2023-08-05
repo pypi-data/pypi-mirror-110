@@ -1,0 +1,13 @@
+vmail/__init__.py,sha256=lLiIqwG-Gidl3LiAZzvva2Bk7mo2iZZ0CStLrJh-MLM,767
+vmail/alias.py,sha256=Ary7avGjkcwGKKdpaxiHvuYT_LB0i1DXFnsQ3lipM10,4154
+vmail/config.py,sha256=Kprr302_chszs9sOmPf8uUAza99s2NzlUPE-0dzYP3w,2062
+vmail/db.py,sha256=U7Z_gicS5q1odEVaoOjAUwVtyunDPwZwll3q4n7D4v4,3540
+vmail/domain.py,sha256=oy1z0s3kMamUlrV90CPPslAqxBH1DHPTEKjqEIyWAXw,1577
+vmail/helpers.py,sha256=XPwcwPLAXTViPcx0ZoX8y0x95sSBOG4SSbltd4EjkmQ,2539
+vmail/user.py,sha256=WsluQQpjSyHtgrsPUSV4yFXE4PIvqsxDWNs2xz1zMLA,5407
+vmail_cli-1.0.0.dist-info/LICENSE,sha256=yAoW1FKNr39aMPmIT7YyBd5kSmQvwD_npt4RfxHFDwU,1103
+vmail_cli-1.0.0.dist-info/METADATA,sha256=AwQW6J0u9GPvxcvULom7FePupCVkjO-I-sU39PBfxZ0,3877
+vmail_cli-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vmail_cli-1.0.0.dist-info/entry_points.txt,sha256=1fQNNzD81jS_S7hNH3bbWfQ4u6LLQmI-PKByNH7FWhk,41
+vmail_cli-1.0.0.dist-info/top_level.txt,sha256=DUlLPrk3VZ2eaHQnK9UAvGRreSsXRlJONgGVTipaiow,6
+vmail_cli-1.0.0.dist-info/RECORD,,
