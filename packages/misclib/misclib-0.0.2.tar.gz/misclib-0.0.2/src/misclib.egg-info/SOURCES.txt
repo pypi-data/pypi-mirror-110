@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/misclib.egg-info/PKG-INFO
+src/misclib.egg-info/SOURCES.txt
+src/misclib.egg-info/dependency_links.txt
+src/misclib.egg-info/top_level.txt
