@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mypy-boto3-builder
+Version: 4.18.3
+Summary: Builder for boto3-stubs
+License: MIT
+Author: Vlad Emelianov
+Author-email: vlad.emelianov.nz@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: black (>=21.5b2,<22.0)
+Requires-Dist: boto3
+Requires-Dist: isort (>=5.6.4,<6.0.0)
+Requires-Dist: jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: mdformat
+Requires-Dist: pip
+Requires-Dist: pyparsing
