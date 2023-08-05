@@ -1,0 +1,417 @@
+#!/usr/bin/env python3
+#                                                            _
+# DICOM storescp exec-on-reception processor
+#
+# (c) 2021 Fetal-Neonatal Neuroimaging & Developmental Science Center
+#                   Boston Children's Hospital
+#
+#              http://childrenshospital.org/FNNDSC/
+#                        dev@babyMRI.org
+#
+
+import      sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+from        argparse            import RawTextHelpFormatter
+from        argparse            import ArgumentParser
+from        pfmisc._colors      import Colors
+import      pypx
+from        pypx                import repack
+from        pypx                import register
+
+import      json
+
+import      pudb
+from        pudb.remote         import set_trace
+
+str_name    = "px-register"
+str_version = "3.0.2"
+str_desc    = Colors.CYAN + """
+
+
+                                                  _     _             
+                                                 (_)   | |            
+                  _ ____  ________ _ __ ___  __ _ _ ___| |_  ___ _ __ 
+                 | '_ \ \/ /______| '__/ _ \/ _` | / __| __|/ _ \ '__|
+                 | |_) >  <       | | |  __/ (_| | \__ \ |_|  __/ |   
+                 | .__/_/\_\      |_|  \___|\__, |_|___/\__|\___|_|   
+                 | |                         __/ |                    
+                 |_|                        |___/                     
+
+             
+                                PACS ToolKit Wrapper
+                                    px-register
+
+                               -- version """ + \
+             Colors.YELLOW + str_version + Colors.CYAN + """ --
+
+    ``px-register`` is used to register files that have been pushed to a
+    CUBE service, i.e. files that are in the ``SERVICES/`` swift storage
+    location.
+
+""" + Colors.NO_COLOUR
+
+def synopsis(ab_shortOnly = False):
+    scriptName = os.path.basename(sys.argv[0])
+    shortSynopsis =  Colors.YELLOW + '''
+    NAME
+
+	    %s
+
+        - Register files in ``SERVICES/`` to a CUBE instance.
+
+    SYNOPSIS
+
+            px-register                                             \\
+                [--xcrdir|-p <xcrdir>]                              \\
+                [--xcrfile|-f <xcrfile>]                            \\
+                [--xcrdirfile <xcrdirfile>]                         \\
+                [--parseAllFilesWithSubStr <substr>]                \\
+                [--localFileList <listOfFiles>]                     \\
+                [--objectFileList <listOfNamesInStorage>]           \\
+                [--logdir|-l <logdir>]                              \\
+                [--CUBEURL <CUBEURL>]                               \\
+                [--CUBEusername <CUBEusername>]                     \\
+                [--CUBEuserpasswd <CUBEuserpasswd>]                 \\
+                [--swiftServicesPACS <PACSname>]                    \\
+                [--cleanup]                                         \\
+                [-x|--desc]                                         \\
+                [-y|--synopsis]                                     \\
+                [--version]                                         \\
+                [--debug]                                           \\
+                [--verbosity <level>]
+
+    ''' % scriptName + Colors.NO_COLOUR
+
+    description = Colors.LIGHT_GREEN + '''
+
+    ARGS
+
+        [--upstreamFile]
+        A JSON formatted file containing information to pack into the
+        [--upstream] argument.
+
+        [--upstream <JSONData>]
+        A convenience argument to populate with JSON data for further
+        processing.
+
+        [--localFileList <listOfFiles>]
+        Not passed usually on the CLI but used to store results from 
+        upstream JSON compute.
+
+        [--objectFileList <listOfNamesInStorage>]
+        Not passed usually on the CLI but used to store results from 
+        upstream JSON compute.
+
+        [--xcrdir|-p <xcrdir>]
+        A directory that contains a DICOM file to process.
+
+        [--xcrfile|-f <xcrfile>]
+        A specific DICOM file in the <xcrdir>.
+
+        [--xcrdirfile <xcrdirfile>]
+        A fully qualified dir and file specifier. If passed, the script
+        will separate into dir and file parts.
+
+        [--parseAllFilesWithSubStr <substr>]
+        If passed, process all the files in the <xcrdir> that contain the
+        <substr> in their filename in one sweep.
+
+        [--logdir|-l <logdir>]
+        The directory containing log files relevant to px-register operation.
+
+        [--CUBEURL <cubeURL>]
+        The URL of the CUBE instance.
+
+        [--CUBEusername <cubeusername>]
+        The name of a CUBE user.
+
+        [--CUBEuserpasswd <cubeuserpassword>]
+        The password for a CUBE user. Note the flag spelling is 'passwd'!
+
+        [--swiftServicesPACS <PACSname>]
+        The name of the specific PACS within SERVICE/PACS to which files will be
+        registered.
+
+        [--json]
+        If specified, print the JSON structure related to the process event. This is
+        useful when used in a pipeline fashion with other px-* modules.
+
+        [--cleanup]
+        If specified, clean up nicely like a good little script should. This
+        removes the originally received DICOM files that are stored in the
+        initial holding directory.
+
+        [-x|--desc]
+        Provide an overview help page.
+
+        [-y|--synopsis]
+        Provide a synopsis help summary.
+
+        [--version]
+        Print internal version number and exit.
+
+        [--debug]
+        If specified, then log any debugging noise also to the <logdir>.
+
+        [-v|--verbosity <level>]
+        Set the verbosity level:
+
+            * "0"   :   no output -- quiet
+            * "1"   :   JSON dump output from the run call
+            * "2"   :   Dump internal intermediary output
+
+
+    DESCRIPTION
+
+        This script and module are used to register files that have been
+        pushed to swift with a CUBE instance.
+
+        The most common mode of operation is as part of pipeline wherein
+        ``px-register`` receives a JSON stream on stdin. This stream is
+        parsed for [--localFileList <list>] and [--objectFileList <list>]
+        and elements in each list correspond with each other.
+
+        The [--localFileList <list>] is needed so that this module can
+        load the corresponding DICOM file to determine its tags and send
+        a subset of the same to CUBE to allow for registration.
+
+        In the absence of the explicit list structure, this module can
+        work off file system directories and files, in which base it will
+        infer the swift push path (by asking the repack module) and then
+        construct its own internal lists.
+
+    NOTE
+
+        It is assumed that files to register have already been pushed to
+        CUBE swift storage, using a pypx-conformant packing structure. If
+        used in a typical pypx pipeline structure then the packing structure
+        that this module uses will be read from pipe-upstream processes.
+
+''' + Colors.PURPLE + '''
+
+    EXAMPLES
+
+        px-register                                                 \\
+                --upstreamFile push.json                            \\
+                --CUBEURL http://localhost:8000/api/v1/             \\
+                --CUBEusername chris                                \\
+                --CUBEuserpasswd chris1234                          \\
+                --swiftServicesPACS BCH                             \\
+                --verbosity 1                                       \\
+                --json                                              \\
+                --logdir /dicom/log                                 \\
+                --debug
+
+''' + Colors.NO_COLOUR
+
+    if ab_shortOnly:
+        return shortSynopsis
+    else:
+        return shortSynopsis + description
+
+parser = ArgumentParser(
+            description         = str_desc,
+            formatter_class     = RawTextHelpFormatter
+        )
+
+# Settings
+
+parser.add_argument(
+    '--upstreamFile',
+    action  = 'store',
+    dest    = 'upstreamFile',
+    type    = str,
+    default = '',
+    help    = 'JSON report contained in file from upstream process')
+parser.add_argument(
+    '--upstream',
+    action  = 'store',
+    dest    = 'reportData',
+    type    = str,
+    default = '',
+    help    = 'JSON report from upstream process')
+
+parser.add_argument(
+    '-p', '--xcrdir',
+    action  = 'store',
+    dest    = 'str_xcrdir',
+    type    = str,
+    default = '',
+    help    = 'Directory containing a received study'
+    )
+parser.add_argument(
+    '-f', '--xcrfile',
+    action  = 'store',
+    dest    = 'str_xcrfile',
+    type    = str,
+    default = '',
+    help    = 'File in <xcrdir> to process'
+    )
+parser.add_argument(
+    '--xcrdirfile',
+    action  = 'store',
+    dest    = 'str_xcrdirfile',
+    type    = str,
+    default = '',
+    help    = 'Fully qualified file to process'
+    )
+parser.add_argument(
+    '--parseAllFilesWithSubStr',
+    action  = 'store',
+    dest    = 'str_filesubstr',
+    type    = str,
+    default = '',
+    help    = 'Parse all files in <xcrdir> that contain <substr>'
+    )
+parser.add_argument(
+    '--localFileList',
+    action  = 'store',
+    dest    = 'localFileList',
+    default = [],
+    help    = 'a list of local files -- not used by CLI!'
+    )
+parser.add_argument(
+    '--objectFileList',
+    action  = 'store',
+    dest    = 'objectFileList',
+    default = [],
+    help    = 'a list of object files -- not used by CLI!'
+    )
+parser.add_argument(
+    '-l', '--logdir',
+    action  = 'store',
+    dest    = 'str_logDir',
+    type    = str,
+    default = '/tmp/log',
+    help    = 'Directory to store log files'
+    )
+parser.add_argument(
+    '-d', '--datadir',
+    action  = 'store',
+    dest    = 'str_dataDir',
+    type    = str,
+    default = '/tmp/data',
+    help    = 'Directory in which to pack final DICOM files'
+    )
+parser.add_argument(
+    '--PACS',
+    action  = 'store',
+    dest    = 'str_PACS',
+    type    = str,
+    default = '',
+    help    = 'PACS name ID within swift storage'
+    )
+
+# CUBE settings
+parser.add_argument(
+    '--CUBEURL',
+    action  = 'store',
+    dest    = 'str_CUBEURL',
+    type    = str,
+    default = 'http://localhost:8000/api/v1/',
+    help    = 'CUBE URL'
+    )
+parser.add_argument(
+    '--CUBEusername',
+    action  = 'store',
+    dest    = 'str_CUBEusername',
+    type    = str,
+    default = 'chris',
+    help    = 'Username with which to log into CUBE'
+    )
+parser.add_argument(
+    '--CUBEuserpasswd',
+    action  = 'store',
+    dest    = 'str_CUBEuserpasswd',
+    type    = str,
+    default = 'chris1234',
+    help    = 'CUBE user password'
+    )
+parser.add_argument(
+    '--swiftServicesPACS',
+    action  = 'store',
+    dest    = 'str_swiftServicesPACS',
+    type    = str,
+    default = '',
+    help    = 'swift PACS location within SERVICE/PACS to push files')
+
+parser.add_argument(
+    '--cleanup',
+    action  = 'store_true',
+    dest    = 'b_cleanup',
+    default = False,
+    help    = 'If specified, then cleanup temporary files'
+    )
+parser.add_argument(
+    '--debug',
+    action  = 'store_true',
+    dest    = 'b_debug',
+    default = False,
+    help    = 'If specified, then also log debug info to <logdir>'
+    )
+parser.add_argument(
+    "-v", "--verbosity",
+    help    = "verbosity level for app",
+    dest    = 'verbosity',
+    type    = int,
+    default = 1)
+parser.add_argument(
+    "--json",
+    help    = "return a JSON payload",
+    dest    = 'json',
+    action  = 'store_true',
+    default = False
+)
+parser.add_argument(
+    "-x", "--desc",
+    help    = "show long synopsis",
+    dest    = 'b_desc',
+    action  = 'store_true',
+    default = False
+)
+parser.add_argument(
+    "-y", "--synopsis",
+    help    = "show short synopsis",
+    dest    = 'b_synopsis',
+    action  = 'store_true',
+    default = False
+)
+parser.add_argument(
+    '--version',
+    help    = 'if specified, print version number',
+    dest    = 'b_version',
+    action  = 'store_true',
+    default = False
+)
+
+args        = parser.parse_args()
+
+if args.b_desc or args.b_synopsis:
+    print(str_desc)
+    if args.b_desc:
+        str_help     = synopsis(False)
+    if args.b_synopsis:
+        str_help     = synopsis(True)
+    print(str_help)
+    sys.exit(1)
+
+if args.b_version:
+    print("Version: %s" % str_version)
+    sys.exit(1)
+
+# pudb.set_trace()
+if len(args.upstreamFile):
+    with open(args.upstreamFile, 'r') as f:
+        args.upstream = json.load(f)
+# else:
+#     # Or, more conveniently, read from input stream
+#     str_inputPipe           = ''
+#     for line in sys.stdin:
+#         str_inputPipe += line
+#     args.upstream   = json.loads(str_inputPipe)
+
+d_handler   = register(args)
+
+if args.verbosity:
+    print(json.dumps(d_handler, indent = 4))
