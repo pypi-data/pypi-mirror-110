@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/stactools/gap/__init__.py
+src/stactools/gap/commands.py
+src/stactools/gap/constants.py
+src/stactools/gap/metadata.py
+src/stactools/gap/stac.py
+src/stactools/gap/utils.py
+src/stactools_gap.egg-info/PKG-INFO
+src/stactools_gap.egg-info/SOURCES.txt
+src/stactools_gap.egg-info/dependency_links.txt
+src/stactools_gap.egg-info/requires.txt
+src/stactools_gap.egg-info/top_level.txt
