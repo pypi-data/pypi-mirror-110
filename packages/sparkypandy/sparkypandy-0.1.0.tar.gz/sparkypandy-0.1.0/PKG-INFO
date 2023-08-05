@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sparkypandy
+Version: 0.1.0
+Summary: It's not spark, it's not pandas, it's just awkward...
+License: NA
+Author: Tomas Pereira de Vasconcelos
+Author-email: tomasvasconcelos1@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: pyspark (>=3.1.2,<4.0.0)
