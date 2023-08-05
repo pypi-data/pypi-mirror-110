@@ -1,0 +1,42 @@
+Bootstrap: docker
+  
+From: continuumio/miniconda3
+
+%files
+    ncbi-blast-2.10.1+ /share/ncbi-blast-2.10.1+
+    ncbi-igblast-1.15.0 /share/ncbi-igblast-1.15.0
+    database /share/database
+    environment.yml /environment.yml
+    dandelion_preprocess.py /share/dandelion_preprocess.py
+
+%post
+    apt-get -y update && apt-get install -y curl r-base-core libcurl4-openssl-dev rsync
+    R --slave -e 'install.packages("remotes", repos="https://cloud.r-project.org/")'
+    R --slave -e 'cat("apt-get update -y && apt-get install -y", paste(gsub("apt-get install -y ", "", remotes::system_requirements("ubuntu", "20.04", package = c("shazam","alakazam","tigger","airr","optparse","Biostrings","GenomicAlignments","IRanges","BiocManager","RCurl","XML"))), collapse = " "))'
+
+    # Install required R packages
+    R --slave -e 'install.packages("BiocManager", repos="https://cloud.r-project.org/")'
+    R --slave -e 'BiocManager::install(c("Biostrings", "GenomicAlignments", "IRanges"))'
+    R --slave -e 'install.packages(c("optparse", "alakazam", "tigger", "airr", "shazam"), repos="https://cloud.r-project.org/")'
+    . /opt/conda/etc/profile.d/conda.sh
+    conda env update --name dandelion -f environment.yml
+    echo ". /opt/conda/etc/profile.d/conda.sh" >> $SINGULARITY_ENVIRONMENT
+    echo "conda activate dandelion" >> $SINGULARITY_ENVIRONMENT
+    apt-get autoremove
+
+%environment
+    export GERMLINE=/share/database/germlines/
+    export IGDATA=/share/database/igblast/
+    export BLASTDB=/share/database/blast/
+    export PATH=/share/ncbi-igblast-1.15.0/bin:$PATH
+    export PATH=/share/ncbi-blast-2.10.1+/bin:$PATH
+    export PATH=/share:$PATH    
+
+%runscript
+    alias dandelion-preprocess='dandelion_preprocess.py'
+    eval ${@}
+
+%test
+    ls /share
+    which blastn
+    conda list
