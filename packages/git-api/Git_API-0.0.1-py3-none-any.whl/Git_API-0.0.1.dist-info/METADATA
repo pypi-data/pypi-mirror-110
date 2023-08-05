@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Git-API
+Version: 0.0.1
+Summary: A GitHub API. Extracts data from GitHub into json style data.
+Home-page: https://github.com/JBYT27/GITAPI
+Author: JBYT27
+Author-email: beol0127@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# GitAPI Module
+> A module made by @JBloves27
+
+
+
