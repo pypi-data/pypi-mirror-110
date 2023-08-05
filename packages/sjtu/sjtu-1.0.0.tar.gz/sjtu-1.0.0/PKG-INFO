@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: sjtu
+Version: 1.0.0
+Summary: 深圳市welab的工作-特殊项目
+Home-page: UNKNOWN
+Author: sjtu·jiaer
+Author-email: 546957533@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

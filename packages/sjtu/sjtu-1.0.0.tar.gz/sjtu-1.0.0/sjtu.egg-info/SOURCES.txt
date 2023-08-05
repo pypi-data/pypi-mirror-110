@@ -1,0 +1,7 @@
+README.txt
+setup.py
+sjtu.egg-info/PKG-INFO
+sjtu.egg-info/SOURCES.txt
+sjtu.egg-info/dependency_links.txt
+sjtu.egg-info/requires.txt
+sjtu.egg-info/top_level.txt
