@@ -1,0 +1,14 @@
+<foo>
+    <bar>
+        <name>shamrocks</name>
+        <address>lexington;ky;usa;</address>
+    </bar>
+    <bar>
+        <name>irish-village</name>
+        <address>gharoud;dubai;uae;</address>
+    </bar>
+    <bar>
+        <name>garden-on-8</name>
+        <address>dubai-internet-city;dubai;uae;</address>
+    </bar>
+</foo>
