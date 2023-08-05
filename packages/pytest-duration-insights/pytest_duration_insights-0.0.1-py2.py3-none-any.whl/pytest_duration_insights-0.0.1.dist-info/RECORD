@@ -1,0 +1,8 @@
+pytest_duration_insights/__init__.py,sha256=t_QiCcOQDjV4pl-PMvif1IH68nAKKe0wdeizhaDsDds,17
+pytest_duration_insights/__main__.py,sha256=cpbQCTJpG8pUVJPF2ys5KyB9oKlvkB6Cduf3XDlZUU0,2046
+pytest_duration_insights/_parsing.py,sha256=0DIl0C-CIdVmXeeA8V5BACJKHI0L5lB13gAN0d3auuM,3073
+pytest_duration_insights-0.0.1.dist-info/METADATA,sha256=GCOTxZnpQjfroHuw4dtLsSplQ_IYFkJsrvmjaUrduHE,264
+pytest_duration_insights-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pytest_duration_insights-0.0.1.dist-info/entry_points.txt,sha256=GEHus6EPmfv69yZ08jBQb0H-YHN9t-rltubkMNSB-ns,84
+pytest_duration_insights-0.0.1.dist-info/top_level.txt,sha256=yjgY_3wXRU3mCqng9Y0x38O4TLlK7Mu4Y-uGHcvGWnI,25
+pytest_duration_insights-0.0.1.dist-info/RECORD,,
