@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: SNAKES_AND_LADDERS
+Version: 1
+Summary: This package contains implementation of the game "SNAKES_AND_LADDERS" on command line interface with 100 tiles on the board.
+Home-page: https://github.com/GlobalCreativeCommunityFounder/SNAKES_AND_LADDERS
+Author: GlobalCreativeCommunityFounder
+Author-email: globalcreativecommunityfounder@gmail.com
+License: MIT
+Description: # SNAKES_AND_LADDERS
+        
+        "Snakes and Ladders" game running on command line interface with
+        100 tiles on the board.
+        
+        # Executable File
+        
+        The executable file is downloadable at https://github.com/GlobalCreativeCommunityFounder/SNAKES_AND_LADDERS/blob/master/SNAKES_AND_LADDERS/dist/snakes_and_ladders/snakes_and_ladders.exe.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,3 @@
+[console_scripts]
+SNAKES_AND_LADDERS = SNAKES_AND_LADDERS.snakes_and_ladders:main
+
