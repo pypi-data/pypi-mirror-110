@@ -1,0 +1,6 @@
+py_slack_notify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_slack_notify/slack_notify.py,sha256=c_F8_t-E5Hk-N4ww94i_w5OIXFng-97oMqdE1iBMo-A,4283
+py3_slack_notify-0.3.0.dist-info/METADATA,sha256=34gOuaiKsTcsDB9SdRUsXaIauN5IJl_8puvhpTV9sZM,394
+py3_slack_notify-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py3_slack_notify-0.3.0.dist-info/top_level.txt,sha256=kp5TbxgvByuy85wyXR3eRc_aPVINfke_It4Sn9oS5bU,16
+py3_slack_notify-0.3.0.dist-info/RECORD,,
