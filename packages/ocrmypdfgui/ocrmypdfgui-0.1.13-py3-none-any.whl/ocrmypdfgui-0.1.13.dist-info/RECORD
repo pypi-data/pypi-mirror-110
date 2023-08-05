@@ -1,0 +1,11 @@
+ocrmypdfgui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrmypdfgui/__main__.py,sha256=7S-S-dvxP-V8iKkTYYxT-vxiH-2XHVL3TADAeuvDsuA,182
+ocrmypdfgui/gui.py,sha256=D1uvbrX4x_NJTCh5HoXEciNwoqI6ywUGXYoZjaE6Vs0,9602
+ocrmypdfgui/ocr.py,sha256=tyd3PM9YVJcmdi6BKgk_tk33OcXZnzyXpTTl7s-UDZM,3330
+ocrmypdfgui/plugin_progressbar.py,sha256=uv177ZVn6MotrLw92OS9CwLzmO5XPYL03kxfZzZ4YX4,1107
+ocrmypdfgui-0.1.13.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+ocrmypdfgui-0.1.13.dist-info/METADATA,sha256=TqOwLC0yQ3pBcetScYVmLAfosr4fx3rxA2wt7zgu3xs,1240
+ocrmypdfgui-0.1.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ocrmypdfgui-0.1.13.dist-info/entry_points.txt,sha256=O6P0qQywep-yFNXeUuW6Ide7vo8JkvYKloYFfdtCtx0,59
+ocrmypdfgui-0.1.13.dist-info/top_level.txt,sha256=YZcAGxUcKQbXz3PVOQIzzmdxYgkr50ZJpSZ1ok4WBfg,12
+ocrmypdfgui-0.1.13.dist-info/RECORD,,
