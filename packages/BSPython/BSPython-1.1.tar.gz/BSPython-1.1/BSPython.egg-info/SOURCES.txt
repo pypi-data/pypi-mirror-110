@@ -1,0 +1,8 @@
+README.md
+bspy.py
+setup.cfg
+setup.py
+BSPython.egg-info/PKG-INFO
+BSPython.egg-info/SOURCES.txt
+BSPython.egg-info/dependency_links.txt
+BSPython.egg-info/top_level.txt
