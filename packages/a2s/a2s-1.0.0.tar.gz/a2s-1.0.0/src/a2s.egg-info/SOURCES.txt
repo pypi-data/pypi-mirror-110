@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/a2s/__init__.py
+src/a2s.egg-info/PKG-INFO
+src/a2s.egg-info/SOURCES.txt
+src/a2s.egg-info/dependency_links.txt
+src/a2s.egg-info/top_level.txt
