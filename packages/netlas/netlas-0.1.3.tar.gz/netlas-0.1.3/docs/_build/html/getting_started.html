@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getting Started &#8212; netlas-pip  documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="netlas package" href="netlas.html" />
+    <link rel="prev" title="Netlas.io Python library documentation." href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="netlas.html" title="netlas package"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Netlas.io Python library documentation."
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">netlas-pip  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Getting Started</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Before using Python library for Netlas.io, get <a class="reference external" href="https://app.netlas.io/profile/">API key</a>.</p>
+<p>Installation:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ pip install netlas
+</pre></div>
+</div>
+<p>Or if you already have it installed and want to upgrade to the latest version:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ pip install --upgrade netlas
+</pre></div>
+</div>
+</div>
+<div class="section" id="api-usage">
+<h2>API usage<a class="headerlink" href="#api-usage" title="Permalink to this headline">¶</a></h2>
+<p>Simple Netlas API example.</p>
+<p>Send query <cite>port:7001</cite> to retrieve all responses available in Netlas.io with port=7001.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">netlas</span>
+
+<span class="n">apikey</span> <span class="o">=</span> <span class="s2">&quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;</span>
+
+<span class="n">netlas_connection</span> <span class="o">=</span> <span class="n">netlas</span><span class="o">.</span><span class="n">Netlas</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">apikey</span><span class="p">)</span>
+<span class="n">query_res</span> <span class="o">=</span> <span class="n">netlas_connection</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="n">query</span><span class="o">=</span><span class="s2">&quot;port:7001&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">netlas</span><span class="o">.</span><span class="n">helpers</span><span class="o">.</span><span class="n">dump_object</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">query_res</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="cli-usage">
+<h2>CLI usage<a class="headerlink" href="#cli-usage" title="Permalink to this headline">¶</a></h2>
+<p>Show global help:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>user@pc:~$ netlas --help
+Usage: netlas <span class="o">[</span>OPTIONS<span class="o">]</span> COMMAND <span class="o">[</span>ARGS<span class="o">]</span>...
+
+Options:
+-h, --help  Show this message and exit.
+
+Commands:
+count     Calculate count of query results.
+download  Download data.
+host      Host <span class="o">(</span>ip or domain<span class="o">)</span> information
+profile   Get user profile data.
+query     Search query.
+stat      Get statistics <span class="k">for</span> query.
+</pre></div>
+</div>
+<p>Show specific command help:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>user@pc:~$ netlas query --help
+Usage: netlas query <span class="o">[</span>OPTIONS<span class="o">]</span> QUERYSTRING
+
+Search query.
+
+Options:
+-d, --datatype <span class="o">[</span>uri<span class="p">|</span>cert<span class="p">|</span>domain<span class="o">]</span>
+                                Query data <span class="nb">type</span>  <span class="o">[</span>default: uri<span class="o">]</span>
+-a, --apikey TEXT               User API key  <span class="o">[</span>required<span class="o">]</span>
+-f, --format <span class="o">[</span>json<span class="p">|</span>yaml<span class="o">]</span>        Output format  <span class="o">[</span>default: yaml<span class="o">]</span>
+-s, --server TEXT               Netlas API server  <span class="o">[</span>default:
+                                https://app.netlas.io<span class="o">]</span>
+
+-h, --help                      Show this message and exit.
+</pre></div>
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Getting Started</a><ul>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#api-usage">API usage</a></li>
+<li><a class="reference internal" href="#cli-usage">CLI usage</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Netlas.io Python library documentation.</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="netlas.html"
+                        title="next chapter">netlas package</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/getting_started.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="netlas.html" title="netlas package"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Netlas.io Python library documentation."
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">netlas-pip  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Getting Started</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2021, Netlas Team.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
+    </div>
+  </body>
+</html>
