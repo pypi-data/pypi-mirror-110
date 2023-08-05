@@ -1,0 +1,12 @@
+funfetch/__init__.py,sha256=VuMOla2GmobsRPefzrBYJ90BErIUiq41oSh0sTVEsPU,105
+funfetch/client.py,sha256=sNUihJ0V6veRsFXZaRU3pF0AetjuDgf4y-vBv4grw_4,2750
+funfetch/converter.py,sha256=vc5EWA6w84gQGFX76nCAKZcQKelT1r_Lz_2ENmQCHRk,4379
+funfetch/errors.py,sha256=2mphWvAcUXo_yQVBRChvxhgOaskECXJ1xL-qz8gUim0,361
+funfetch/model.py,sha256=Z7YNBZQVpZ_mnKgKtnoyVACKAnmlUGTKWjIQ0NobTIM,945
+funfetch/server.py,sha256=IMp-fk6V_kb4iy0QyvdwMmbcUjgxhsPfpg0R1G47z5c,4354
+funfetch/utils.py,sha256=6vFiySGsE-fhc7LzfwojhlNRZQfJPju9tq7kbY9yvCY,362
+funfetch-0.0.1.dist-info/LICENSE,sha256=YK14Gug9BHoLbZkzjSLCWnD6AhaxlTX2bSSC73wCGaY,1063
+funfetch-0.0.1.dist-info/METADATA,sha256=evHTiI__KyCIrTBiC_f3CTiSsxQVP1NNywpUAtqmOmI,1521
+funfetch-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+funfetch-0.0.1.dist-info/top_level.txt,sha256=dpGHeTGt2B_d_4Bf3-Awg-UWz3XHG_k2alQ2tkdF7oY,9
+funfetch-0.0.1.dist-info/RECORD,,
