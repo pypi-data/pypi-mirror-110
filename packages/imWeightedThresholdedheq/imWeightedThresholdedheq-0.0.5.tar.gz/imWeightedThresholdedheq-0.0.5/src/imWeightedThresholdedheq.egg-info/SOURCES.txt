@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+assets/Plane-imWeightedThresholdedheq.jpg
+assets/Plane.jpg
+bin/imWeightedThresholdedheq
+src/__init__.py
+src/imWeightedThresholdedheq.py
+src/imWeightedThresholdedheq.egg-info/PKG-INFO
+src/imWeightedThresholdedheq.egg-info/SOURCES.txt
+src/imWeightedThresholdedheq.egg-info/dependency_links.txt
+src/imWeightedThresholdedheq.egg-info/requires.txt
+src/imWeightedThresholdedheq.egg-info/top_level.txt
+tests/test_imWeightedThresholdedheq.py
