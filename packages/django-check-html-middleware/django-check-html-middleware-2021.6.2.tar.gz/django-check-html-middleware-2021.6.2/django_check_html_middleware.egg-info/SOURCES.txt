@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+check_html/__init__.py
+django_check_html_middleware.egg-info/PKG-INFO
+django_check_html_middleware.egg-info/SOURCES.txt
+django_check_html_middleware.egg-info/dependency_links.txt
+django_check_html_middleware.egg-info/requires.txt
+django_check_html_middleware.egg-info/top_level.txt
