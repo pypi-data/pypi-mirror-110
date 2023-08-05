@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+
+import numpy as np
+import cv2
+import os
+import argparse
+from imTriangle import triangle
+
+
+parser = argparse.ArgumentParser(
+    description=" Pixelate your photos with triangles rather than squares."
+)
+parser.add_argument(
+    '--input',
+    type=str,
+    help='the path to the source image file to be processed',
+    required=True
+)
+parser.add_argument(
+    '--output', type=str, help='the path to the result file', required=True
+)
+parser.add_argument(
+    '--coef', type=float, help='the less the coef, the more triangles are stretched', required=False
+)
+parser.add_argument(
+    '--size', type=int, help='triangle pixel size', required=False
+)
+
+args = parser.parse_args()
+
+img_fullname = os.path.realpath(args.input)
+result_fullname = args.output
+coef = args.coef if args.coef else 0.5
+triangle_size = args.size if args.size else 0
+
+image = cv2.imread(img_fullname)
+
+result = image.copy()
+[h, w, d] = image.shape
+for i in range(d):
+    result[:, :, i] = triangle(result[:, :, i].copy(), r=triangle_size, coef=coef)
+
+cv2.imwrite(result_fullname, result)
+
+

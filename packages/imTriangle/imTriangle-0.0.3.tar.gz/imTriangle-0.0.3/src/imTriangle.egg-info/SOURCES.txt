@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+assets/lotus-triangled.jpg
+assets/lotus.jpg
+bin/imTriangle
+src/__init__.py
+src/imTriangle.py
+src/imTriangle.egg-info/PKG-INFO
+src/imTriangle.egg-info/SOURCES.txt
+src/imTriangle.egg-info/dependency_links.txt
+src/imTriangle.egg-info/requires.txt
+src/imTriangle.egg-info/top_level.txt

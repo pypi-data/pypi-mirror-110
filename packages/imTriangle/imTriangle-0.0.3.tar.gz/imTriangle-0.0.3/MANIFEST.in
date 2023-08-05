@@ -1,0 +1,2 @@
+recursive-include assets *.jpg
+recursive-include src *.py
