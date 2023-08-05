@@ -1,0 +1,20 @@
+stand013/__init__.py,sha256=Qa1bq-dhUKCNdoR2Xwa0YS7w1sA1w57GrBQcXs4Bf-I,403
+stand013/_enums.py,sha256=r3NPsOrHRCTki5nBQRVbt1wN7_yOxUMZhp386vMVVwg,1550
+stand013/cli.py,sha256=_AfIZ02lqX6AEAj-1pf37gdG1td7b_AglWeyZe0UAIk,1016
+stand013/schemas/STAND013 Faktura v1.0 (XML).xsd,sha256=1tTiTJw1MM5DgCBbspdj87SqkdmrO_JUDfxQT4BOuYA,32498
+stand013/schemas/STAND013 Fakturakvittering 1.0 (XML).xsd,sha256=7edPiOZW8nzbO7LMEClapdW9JTICrroWGV9T4FYewC4,14569
+stand013/schemas/STAND013-Components_v1p1.xsd,sha256=elDtzVQwp87h4oRblGPjnkj1NDiW-hk4sc8V4w3Lw6c,23818
+stand013/schemas/STAND013-DeliveryNote_Interchange_v1p1.xsd,sha256=6Oz7_HsacTstqa7jNzWuBped_cEfhJh7af7eRnoIuAI,2937
+stand013/schemas/STAND013-DeliveryNote_v1p1.xsd,sha256=vfhrDIiJx7fac90_RMxrPYmRo1R75STFhGtXlXzC-P4,17042
+stand013/schemas/STAND013-OrderResponse-Receipt_v1p1.xsd,sha256=p7BfcuCz3v5wiSmOz2M9aUomcVX2WWMSQOTReFsPfGo,5285
+stand013/schemas/STAND013-OrderResponse_Interchange_v1p1.xsd,sha256=76L7HqnuXZBb5_bxjV9iGqVZAnxfzHwhMYYXLqUSfJ4,2726
+stand013/schemas/STAND013-OrderResponse_Receipt-Interchange_v1p1.xsd,sha256=8wriUF6goUo3ulMkxs0WBV_36TmAugnLMFXlrzGIrfo,2814
+stand013/schemas/STAND013-OrderResponse_v1p1.xsd,sha256=KOgu8KNkySjL4MzNLCFGe5ycN_x8SdPBr8yNVBF75rQ,8445
+stand013/schemas/STAND013-Order_Interchange_v1p1.xsd,sha256=TqRNkeMr2ZUErFoBA4NxZcJmLcV8N7bJPNsH9alP8mg,2806
+stand013/schemas/STAND013-Order_v1p1.xsd,sha256=78advjvVwNt9mIMISPfKWGX34Z1Cyvj2iA5HtMqefTM,7430
+stand013/validation.py,sha256=Crcol1-nonBEoTEyfyVX0KczpxoFCuQr0l9BXIMXAiM,474
+stand013-0.1.0.dist-info/entry_points.txt,sha256=RWa_vD8yoEMIQ6a0PuDbxS55P-mFkPiIthkUI-J0UYk,45
+stand013-0.1.0.dist-info/LICENSE,sha256=kN1Vq3FUZB7tHW-qwaJR_cPuLJ6g9pPGz2ONTl-WYMs,1070
+stand013-0.1.0.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+stand013-0.1.0.dist-info/METADATA,sha256=WYNMZMwjARquTpf1ds4-d38234dMv6FO60xRYgOjSMs,5275
+stand013-0.1.0.dist-info/RECORD,,
