@@ -1,0 +1,2 @@
+recursive-include pegaflow/example *
+global-exclude *.py[cod]
