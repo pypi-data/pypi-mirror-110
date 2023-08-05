@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: it-status
+Version: 0.0.9
+Summary: This package can be used to the MSK IT Status Dashboard
+Home-page: UNKNOWN
+Author: Julie Perilla Garcia
+Author-email: garciaj4@mskcc.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# it_status
+
+This Python package can be used for reporting to the MSK IT Status Dashboard.
+
+## Installation
+
+```
+pip install it-status
+```
+
+## Usage
+
+Use the IT Status class to explicitly control which events you report to the dashboard and when.
+```
+from it-status.status import ITStatus
+
+# Setup the ITStatus instance with the URL to the application API and your tenant schema name
+status = ITStatus(os.getenv("IT_STATUS_API_URL"), os.getenv("IT_STATUS_TENANT_SCHEMA"))
+
+# These are the different ways of reporting events to your job - the job key can be found on the Jobs page
+job_key = "<unique_job_key_here>"
+status.ping(job_key, message="Ping test is working!")
+status.status(job_key, message="CPU Utilization", data=70)
+status.start(job_key, message="Process is starting")
+status.error(job_key, message="Error in processes", log="Some log message goes here")
+status.done(job_key, message="Process is complete", data=100)
+status.log(job_key, message="Logging", log={"info": "This is a test log"})
+```
+
+Another option, is to use the ITStatusStartDone, and ITStatusPing decorators. These will automatically report
+events to the status board for any function that is decorated with them. To report for your entire python
+script, just decorate your main() function. Note: you must set the const values for the api url, tenant shcema
+and job key.
+
+The ITStatusStartDone decorator will report a START event at the start of your function, a DONE event (with time to complete)
+when your function completes and an ERROR if any unhandled execptions are thrown.
+```
+@ITStatusStartDone(IT_STATUS_API_URL, IT_STATUS_TENANT_SCHEMA, IT_STATUS_JOB_KEY) 
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+```
+
+If you just want you function to ping the status board, use the ITStatusPing decorator. This sends one ping event
+after your function completes.
+```
+@ITStatusPing(IT_STATUS_API_URL, IT_STATUS_TENANT_SCHEMA, IT_STATUS_JOB_KEY) 
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+```
+
