@@ -1,0 +1,13 @@
+setuptools_scm
+numpy
+scipy
+pyproj
+python-dateutil
+matplotlib
+cartopy
+netCDF4
+h5py
+gdal
+lxml
+pyyaml
+ipyleaflet
