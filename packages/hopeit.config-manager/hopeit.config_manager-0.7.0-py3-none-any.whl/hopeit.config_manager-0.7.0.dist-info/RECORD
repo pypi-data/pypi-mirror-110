@@ -1,0 +1,8 @@
+hopeit/config_manager/__init__.py,sha256=oq_0kvb8pisOgvITQKbQ5mfAa3LiKfS1NdvSG1Z1BS4,445
+hopeit/config_manager/cluster_apps_config.py,sha256=CqvTcUn6-r3EZcPfUssD-IGG5EBpHsPxYxvB9xbDPEU,1885
+hopeit/config_manager/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+hopeit/config_manager/runtime_apps_config.py,sha256=WIlhPu_LsbHA6lWB3mUz1jgF6w_R5Hhn4QH9UQLOWgE,1364
+hopeit.config_manager-0.7.0.dist-info/METADATA,sha256=IhGuCNPPg_NeH1w8jJjVi4JCEiC5p6fQJMKW5ZByiN8,2049
+hopeit.config_manager-0.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hopeit.config_manager-0.7.0.dist-info/top_level.txt,sha256=m-R472J_P82Xe5R09_jBDKP0kbMqrEHawwB90H1iWJI,7
+hopeit.config_manager-0.7.0.dist-info/RECORD,,
