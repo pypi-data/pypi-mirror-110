@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Readme.md
+setup.py
+fastapi_controller/__init__.py
+fastapi_controller/controller.py
+fastapi_controller/controller_utils.py
+fastapi_controller.egg-info/PKG-INFO
+fastapi_controller.egg-info/SOURCES.txt
+fastapi_controller.egg-info/dependency_links.txt
+fastapi_controller.egg-info/requires.txt
+fastapi_controller.egg-info/top_level.txt
