@@ -1,0 +1,17 @@
+citeurl/__init__.py,sha256=Kzk8gGXGHbDeR2SqpGfKuMcA9G-FMOaalfh0AdNGxDo,42004
+citeurl/builtin-templates.yaml,sha256=Vg8DiTB7UKAZrbYy5nCXLmt4V3QRqbVBFjbg3AQDieE,85389
+citeurl/cli.py,sha256=dOtekk6HzQg7ilQGTbUi1gErNvOzxCOaxlyutvjlh_g,12559
+citeurl/mdx.py,sha256=k_wGUbFPlACMuWCstWETlt5XL0vYeQga4GWJjbpDhZw,3243
+citeurl/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citeurl/web/citeurl.js,sha256=y5pjMB18-AtKpW90UO3zCLxrQspipdVwOc8NYajrMgM,11438
+citeurl/web/logo.svg,sha256=t1DPmIhbudXxy18Z9taipEj4ZLM2_OJHhT8KBBxz-KU,7812
+citeurl/web/makejs.py,sha256=niSMTK_mVyVQM3DjbAZ9fwxdf4aYsM4NjFNcQBtzBGM,4799
+citeurl/web/resources.py,sha256=yAMOTsWGN1V06PHuhYi7J24U2sCswWH27_x_b8VkpfY,6909
+citeurl/web/server.py,sha256=rLofQG_TFB6eJ4iU7UegO_vpzja-pAjjn7Ycx5plIms,7551
+citeurl/web/style.css,sha256=e1wbzDaFU1jKoOwxhWSVhRnOOmecMl_6jxjxFXYEP5U,4124
+citeurl-9.0.0.dist-info/LICENSE.md,sha256=T6b3vscLORAeVZWYfYDSVFuKq1X-gA6wOQsuYJfXtiU,1065
+citeurl-9.0.0.dist-info/METADATA,sha256=H3W9eVzqeWHzkUddHOo2TTO7g2o5EtDkwB7LcfJHMFw,6064
+citeurl-9.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+citeurl-9.0.0.dist-info/entry_points.txt,sha256=gEfwoyJyirslywLJOEaJtkryA8_brtvV5YBNrW4RUXE,108
+citeurl-9.0.0.dist-info/top_level.txt,sha256=WgpwPvgcGWJgfkw4r3EKesIT33CQEKoU50D4InqJams,8
+citeurl-9.0.0.dist-info/RECORD,,
