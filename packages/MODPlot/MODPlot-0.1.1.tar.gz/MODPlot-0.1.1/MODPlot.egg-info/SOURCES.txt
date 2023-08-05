@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+MODPlot.egg-info/PKG-INFO
+MODPlot.egg-info/SOURCES.txt
+MODPlot.egg-info/dependency_links.txt
+MODPlot.egg-info/requires.txt
+MODPlot.egg-info/top_level.txt
+modplot/MODLogo.pdf
+modplot/__init__.py
