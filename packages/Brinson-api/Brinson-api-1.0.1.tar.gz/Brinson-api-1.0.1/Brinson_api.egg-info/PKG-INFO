@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Brinson-api
+Version: 1.0.1
+Summary: Brinson module
+Home-page: UNKNOWN
+Author: lsd
+Author-email: 
+License: UNKNOWN
+Description: ###### 共包含四个模块：
+        Module 1: 基准数据和投资组合数据预处理函数(补全行业分类和个股收益率)
+        Module 2: 计算基准和投资组合的权重和收益矩阵
+        Module 3: Brinson多期模型核心算法，计算投资组合相对基准的择时收益、选股收益和交互收益
+        Module 4: 主函数模块
+        
+        - 总体输入：DF数据格式
+          input 1：基准数据（日期+代码+权重）index不指定
+          input 2：个股收益率和行业分类
+          input 3：持仓数据  持仓日期、股票代码、权重或者市值等可以计算出权重的数据(需要补全收益率和行业分类)  index不指定
+          input 1和input3，结构一致用持仓（日期+代码+权重）作为输入。模块结合input2个股收益率，行业分类数据，
+          去帮用户计算基准和组合的行业权重及收益率
+        
+        - 总体输出：
+          output 1：基于交易日的  归因结果  DF
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
