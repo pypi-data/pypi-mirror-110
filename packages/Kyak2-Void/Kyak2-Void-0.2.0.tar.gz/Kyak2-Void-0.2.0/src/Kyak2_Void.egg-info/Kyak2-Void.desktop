@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Kyak2-Void.desktop
+Comment=Void Linux Openbox Logout screen
+Exec=python3 Kyak2-Void.py
+Icon=
+Path=/usr/share/applications
+Terminal=false
+StartupNotify=false
+Name[tr_TR]=Kyak2-Void.desktop
