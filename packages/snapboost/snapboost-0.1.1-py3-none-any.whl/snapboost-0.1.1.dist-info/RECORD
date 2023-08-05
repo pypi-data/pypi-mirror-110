@@ -1,0 +1,9 @@
+snapboost/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snapboost/hnbm.py,sha256=cAoDjUJh4nOJ19g9q8mRPdzdPr5mlHJqm1HH13TYIJQ,2556
+snapboost/snapboost.py,sha256=JQzewNv3NZFINUuLlf1k-4OQE5HWIk7TS6BTMY6RCkc,1636
+snapboost/utils.py,sha256=mVk7mhm5IVQapBpAAHxdots11SGdBCZ016ekd4rz_ww,475
+snapboost-0.1.1.dist-info/LICENSE,sha256=bVX9Bc0OyCCVQOfOV6YwPCW027ucRl1Kp6kKBbCHpVE,1068
+snapboost-0.1.1.dist-info/METADATA,sha256=VsFm2ilgB7ZOYfrh8pr5H4WxmOQb-GEHa6NLqolsp0w,380
+snapboost-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+snapboost-0.1.1.dist-info/top_level.txt,sha256=wcI9uG-RLO_diBaKoLexDC2HO2Ix8LR3APN3p1CKdGw,10
+snapboost-0.1.1.dist-info/RECORD,,

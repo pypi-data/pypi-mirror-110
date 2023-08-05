@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: snapboost
+Version: 0.1.1
+Summary: Heterogeneous Newton Boosting Machine
+Home-page: https://github.com/samsonq/snapboost
+Author: Samson Qian
+Author-email: samsonqian@gmail.com
+License: MIT
+Keywords: boosting gradient-boosting snapboost
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# snapboost
+
