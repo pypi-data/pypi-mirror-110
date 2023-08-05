@@ -1,0 +1,3 @@
+[console_scripts]
+miditeach=miditeach.miditeach:main
+
