@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: piratslib
+Version: 0.1.4
+Summary: Python Package to interface with PiRATS board hardware devices
+Home-page: https://gitlab.pic.es/fcc_control/pirats-lib
+Author: Oscar Martínez
+Author-email: omartinez@ifae.es
+License: CC0 1.0 Universal
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Provides: piratslib
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# pirats-lib
+
+`pirats-lib` is a python package that provides an interface to the hardware devices in the PiRATs board
+
+This library has been implemented by IFAE (www.ifae.es) control software department.
+
