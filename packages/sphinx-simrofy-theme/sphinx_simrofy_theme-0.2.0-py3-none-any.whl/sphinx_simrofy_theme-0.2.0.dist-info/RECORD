@@ -1,0 +1,16 @@
+simrofy/__init__.py,sha256=AEK5lGB8QuzaJ32MAArUMoy5Wcseni2Tpof-xgrJokQ,163
+simrofy/theme.conf,sha256=HcrKjurQ-AVNskzw7DDCzbzlAOK08s9CEWFeH4oDh0c,86
+sphinx_simrofy_theme/__init__.py,sha256=bpfVEVceTbkUzQxZ0znFdY586pcFdF_sMAG5oY-6o4o,153
+sphinx_simrofy_theme/layout.html,sha256=vZG2_4hXhyauPQtAYPy7ugV5OvYQTptc_y1f8ihCLKU,9260
+sphinx_simrofy_theme/simrofy.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinx_simrofy_theme/theme.conf,sha256=gPdJziQP5a2Kj65jtKR8evyLSTwzChKDMdo0ju0Drgc,669
+sphinx_simrofy_theme/__pycache__/__init__.cpython-38.pyc,sha256=SU41q0PF7al0GahsTbwua6x1lsYZEzymvDQi5lrH5uo,406
+sphinx_simrofy_theme/static/simrofy.css_t,sha256=mo2yT-eFwbPcgOOVZHD6ozxHXsGKds8Djd4J_V4-aKE,6997
+sphinx_simrofy_theme/static/theme.css,sha256=3_kTkIcdpcM_PHLsB77dj0FtdDTH2iMHFrAa_fhW9V8,77
+sphinx_simrofy_theme/static/icon/github.png,sha256=zYU6IaRNPGqRxuyq5o6Qgw9zxgiSBMb5-SLlnB7r6DQ,2330
+sphinx_simrofy_theme-0.2.0.dist-info/LICENSE,sha256=C3sGflbCNMVLzC1aoqRbn4f7B-5I-6puXzT8jp4hDwA,1084
+sphinx_simrofy_theme-0.2.0.dist-info/METADATA,sha256=ToPLvzZAeClMEHFvoP2V7tbE4DuLLNpMn22MSbyy2p8,3775
+sphinx_simrofy_theme-0.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+sphinx_simrofy_theme-0.2.0.dist-info/entry_points.txt,sha256=bauPO4EGwpp10L8nhrayHrJet2AsMS_VAYXpol6aZu8,66
+sphinx_simrofy_theme-0.2.0.dist-info/top_level.txt,sha256=lhFKHmaZ6HEPhVstIgSoU4uB_56cyry_Ndl-8EPQsJ0,21
+sphinx_simrofy_theme-0.2.0.dist-info/RECORD,,
