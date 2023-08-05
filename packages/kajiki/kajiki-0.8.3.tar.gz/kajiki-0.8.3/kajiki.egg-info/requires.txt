@@ -1,0 +1,8 @@
+nine
+
+[docs]
+sphinx
+
+[testing]
+babel
+pytest
