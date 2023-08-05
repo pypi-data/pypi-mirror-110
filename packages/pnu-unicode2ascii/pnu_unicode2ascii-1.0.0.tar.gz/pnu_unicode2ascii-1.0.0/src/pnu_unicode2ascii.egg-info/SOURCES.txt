@@ -1,0 +1,13 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/unicode2ascii.1.gz
+man/unicode2ascii.3.gz
+src/pnu_unicode2ascii.egg-info/PKG-INFO
+src/pnu_unicode2ascii.egg-info/SOURCES.txt
+src/pnu_unicode2ascii.egg-info/dependency_links.txt
+src/pnu_unicode2ascii.egg-info/entry_points.txt
+src/pnu_unicode2ascii.egg-info/top_level.txt
+src/unicode2ascii/__init__.py
+src/unicode2ascii/main.py
