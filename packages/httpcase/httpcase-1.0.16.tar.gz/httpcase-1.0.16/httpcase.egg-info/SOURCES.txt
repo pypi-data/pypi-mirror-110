@@ -1,0 +1,9 @@
+setup.py
+httpcase/__init__.py
+httpcase/httpcase.py
+httpcase.egg-info/PKG-INFO
+httpcase.egg-info/SOURCES.txt
+httpcase.egg-info/dependency_links.txt
+httpcase.egg-info/entry_points.txt
+httpcase.egg-info/requires.txt
+httpcase.egg-info/top_level.txt
