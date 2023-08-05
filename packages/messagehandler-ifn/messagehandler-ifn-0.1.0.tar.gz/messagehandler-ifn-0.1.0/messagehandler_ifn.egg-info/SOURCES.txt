@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+messagehandler/__init__.py
+messagehandler/message_handler.py
+messagehandler_ifn.egg-info/PKG-INFO
+messagehandler_ifn.egg-info/SOURCES.txt
+messagehandler_ifn.egg-info/dependency_links.txt
+messagehandler_ifn.egg-info/requires.txt
+messagehandler_ifn.egg-info/top_level.txt
+test/test_message_handler.py
