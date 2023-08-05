@@ -1,0 +1,51 @@
+{% extends 'base/base.html' %}
+{% import 'components/block.html' as block with context %}
+{% import 'components/images.html' as images with context %}
+{% import 'components/avatar.html' as avatar with context %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+{{ icon_defs('clipboard') }}
+{% if icons_names is defined %}
+    {{ icon_defs(*icons_names) }}
+{% endif %}
+<section class="section">
+    <nav class="level mb-4">
+        <div class="level-left">
+            <div class="level-item">
+                {{ component.action_button(url_list_create, label=_("create a list")) }}
+            </div>
+        </div>
+    </nav>
+    <article class="message has-text-centered">
+      <div class="message-body">
+        {% trans %}
+        Please select the list to use.
+        {% endtrans %}
+      </div>
+    </article>
+    {% if lists_directory is defined %}
+        <div class="disco_lists">
+
+            <div class="columns is-multiline is-mobile">
+                {% for list_data in lists_directory %}
+                    {{ block.icon_item(
+                           list_data.icon_name or "clipboard",
+                           list_data.name,
+                           list_data.url,
+                           delete_icon=not list_data.from_config,
+                           data=list_data)
+                    }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</section>
+<section class="section">
+    {% call form.form(class="form--single") %}
+        {{ field.text("jid", _("list jid"), required=true)}}
+        {{ field.submit(_("Access")) }}
+    {% endcall %}
+</section>
+{% endblock body %}

@@ -1,0 +1,59 @@
+{# overview of current events
+
+    @variable item(xmlui_item): item to display
+    @variable comments(data_object.BlogItems): comments of the item
+    @variable comments_service(unicode): service for adding comments
+    @variable comments_node(unicode): node for adding comments
+#}
+
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% import 'components/block.html' as block with context %}
+
+{% block body %}
+{{ icon_defs('calendar') }}
+
+<section class="section">
+    <div class="message is-warning">
+        <div class="message-body">
+            {% trans %}There is not events discovery yet, this will come in the future.{% endtrans %}
+        </div>
+    </div>
+
+    <div class="content has-items-centered is-flex">
+        {{ component.action_button(url_event_new) }}
+    </div>
+
+    {% if events is defined %}
+        <div class="message">
+            <div class="message-body">
+                {% trans nb_events=events|length%}
+                You have currently {{nb_events}} event in your personal list
+                {% pluralize %}
+                You have currently {{nb_events}} events in your personal list
+                {% endtrans %}
+            </div>
+        </div>
+
+        {% call(part, interest) block.interests_grid(events|reverse, 'calendar') %}
+            {% if part == "header-title" %}
+                <a href="{{interest.url}}">
+                    <span class="tag is-medium is-rounded {{ 'is-light' if interest.date is in_the_past else 'is-info' }}">
+                        {{interest.date|date_fmt("full", date_only=true)}}
+                    </span>
+                </a>
+            {% elif part == "content" %}
+                <a href="{{interest.url}}">
+                    <div><em>{{ interest.name|default(_("unnamed")) }}</em></div>
+                </a>
+                <a href="{{interest.url}}">
+                    <div class="has-text-weight-semibold {{ 'has-text-grey' if interest.date is in_the_past else 'has-text-black' }}">
+                        {{interest.date|date_fmt("relative")}}
+                    </div>
+                </a>
+            {% endif %}
+
+        {% endcall %}
+
+    {% endif %}
+</section>
+{% endblock body %}

@@ -1,0 +1,21 @@
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% set dates_format='relative' if single else 'short' %}
+{% import 'components/avatar.html' as avatar with context %}
+{% import 'blog/macros.html' as blog with context %}
+{% import 'input/textbox.html' as textbox with context %}
+{% import 'input/navigation.html' as navigation with context %}
+
+{% block body %}
+
+
+<section class="section has-background-white">
+    {{ blog.show_items(blog_items["items"], expanded=true) }}
+</section>
+
+<section class="section">
+    {{- textbox.comment_or_login(service=service, node=node, placeholder=_("Enter your message here")) -}}
+</section>
+
+
+{{ navigation.prev_next(_("older articles"), _("newer articles")) }}
+{% endblock body %}

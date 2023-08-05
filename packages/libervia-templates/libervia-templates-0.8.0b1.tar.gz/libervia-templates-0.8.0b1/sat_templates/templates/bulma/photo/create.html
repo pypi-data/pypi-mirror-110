@@ -1,0 +1,17 @@
+{# create a new event #}
+
+{% extends 'base/base.html' %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+<section class="section">
+    <h3 class='title is-3'>
+        {% trans %}Create an event{% endtrans %}
+    </h3>
+    {% call form.form(class="form--paper form__panel--vertical") %}
+        {{ field.text("name", _("album name"), required=true) }}
+        {{ field.submit(_("Create a photo album")) }}
+    {% endcall %}
+</section>
+{% endblock body %}

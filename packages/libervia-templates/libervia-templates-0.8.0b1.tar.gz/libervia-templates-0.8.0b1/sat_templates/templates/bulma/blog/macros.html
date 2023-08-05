@@ -1,0 +1,17 @@
+{% import 'input/textbox.html' as textbox with context %}
+
+{% macro show_items(items, comment=False, expanded=false, dates_fmt=none) %}
+    {# show items and comments items if present after each item,
+        then post form if allow_commenting is set
+        @param items(BlogItems): items to show
+        @param comment(bool): True items are comments
+            if False, a div with "main_article" class will be added
+        @param expanded(bool): initial state of items
+    #}
+    {% if dates_format is undefined %}
+        {% set dates_format = dates_fmt or 'short' %}
+    {% endif %}
+    {% for item in items|reverse %}
+        {% include 'blog/item.html' %}
+    {% endfor %}
+{% endmacro %}

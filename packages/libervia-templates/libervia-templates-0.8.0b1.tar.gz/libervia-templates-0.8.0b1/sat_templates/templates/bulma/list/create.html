@@ -1,0 +1,20 @@
+{% extends 'base/base.html' %}
+{% import 'components/block.html' as block with context %}
+
+{% block body %}
+{{ icon_defs(*icons_names) }}
+<section class="section">
+    <article class="message has-text-centered">
+      <div class="message-body">
+        {% trans %}
+        Please select the type of list that you want to create
+        {% endtrans %}
+      </div>
+    </article>
+    <div class="columns">
+        {% for tpl in lists_templates %}
+            {{ block.icon_item(tpl.icon, tpl.name, tpl.url) }}
+        {% endfor %}
+    </div>
+</section>
+{% endblock body %}

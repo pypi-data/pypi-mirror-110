@@ -1,0 +1,72 @@
+{% extends 'base/base.html' %}
+{% import 'components/block.html' as block with context %}
+{% import 'components/images.html' as images with context %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+{{ icon_defs('server', 'desktop', 'mobile', 'globe', 'terminal') }}
+<section class="section">
+    <article class="message has-text-centered">
+        <div class="message-body">
+            {% trans %}
+            Please select the device you want to access
+            {% endtrans %}
+        </div>
+    </article>
+</section>
+<section class="section disco_files">
+    {% if disco_service_entities %}
+        <div class="files__services">
+            {{ block.separator(_("services")) }}
+            <div class="columns is-centered">
+                {% for entity,ident in disco_service_entities.items() %}
+                    {% if disco_service_entities|count == 1 %}
+                        {% set icon_label=_("your server") %}
+                    {% else %}
+                        {% set icon_label=(ident.values()|first).values()|first|first %}
+                    {% endif %}
+                    {{ block.icon_item('server', icon_label, entities_url[entity]) }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    {% if disco_own_entities %}
+        <div class="files__own">
+            {{ block.separator(_("your devices")) }}
+            <div class="columns is-centered">
+                {% for entity,ident in disco_own_entities.items() %}
+                    {{ block.icon_item(
+                           icon_from_client(ident.client),
+                           (ident.values()|first).values()|first|first,
+                           entities_url[entity],
+                       )
+                    }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    {% if disco_roster_entities %}
+        <div class="files__roster">
+            {{ block.separator(_("your contacts devices")) }}
+            <div class="columns is-centered">
+                {% for entity,ident in disco_roster_entities.items() %}
+                    {{ block.icon_item(
+                        icon_from_client(ident.client),
+                        entity.userhost(),
+                        entities_url[entity])
+                    }}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</section>
+
+<section class="section">
+    <p class="content">{% trans %}Or enter a full jid of a device{% endtrans %}</p>
+    {% call form.form(class="form--single") %}
+        {{ field.text("jid", _("device full jid"), required=true)}}
+        {{ field.submit(_("Access")) }}
+    {% endcall %}
+</section>
+{% endblock body %}

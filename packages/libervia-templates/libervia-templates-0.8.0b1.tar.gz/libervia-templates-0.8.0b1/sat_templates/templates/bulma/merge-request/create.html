@@ -1,0 +1,13 @@
+{# creata a new list item #}
+
+{% set category_menu = [('merge-requests', url_list_items)] %}
+{% extends 'base/base.html' %}
+{% block body %}
+    <section class="section">
+        <div class="message is-warning">
+            <div class="message-body">
+                {% trans %}It is not yet possible to create a merge request from inside Libervia, please use <pre>jp merge-request set</pre> for now. Merge requests welcome ;){% endtrans %}
+            </div>
+        </div>
+    </section>
+{% endblock body %}

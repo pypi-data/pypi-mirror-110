@@ -1,0 +1,24 @@
+{% import 'components/avatar.html' as avatar with context %}
+<div class="media">
+    {% if identities is defined %}
+        <div class="media-left">
+            {{ avatar.avatar(entity_jid) }}
+        </div>
+    {% endif %}
+    <div class="media-content">
+        <div class="content">
+            {{identities[entity_jid].nicknames[0] if identities[entity_jid].nicknames else entity_jid}}<br>
+            <span class="is-italic is-size-7 has-text-grey-light">
+                {{entity_jid}}
+                {% if affiliation == 'publisher' %}
+                    <i class="icon-publish has-text-success click_to_set_member"></i>
+                {% elif affiliation == 'member' %}
+                    <i class="icon-publish click_to_set_publisher"></i>
+                {% endif %}
+            </span>
+        </div>
+    </div>
+    <div class="media-right">
+        <button class="delete click_to_delete"></button>
+    </div>
+</div>

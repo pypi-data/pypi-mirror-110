@@ -1,0 +1,43 @@
+{% if not embedded %}{% extends 'base/base.html' %}{% endif %}
+{% import 'components/avatar.html' as avatar with context %}
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% block body %}
+
+<section class="section">
+    <div class="message">
+        <div class="message-body">
+            {% trans %}Please select the chat room you want to enter{% endtrans %}
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="columns is-mobile is-multiline">
+        {% for room in rooms %}
+            <div class="column is-2-desktop is-4-touch">
+                <div class="card x-is-hoverable">
+                    <a href="{{room.url}}">
+                        <div class="card-image is-flex has-items-centered px-1 py-1">
+                            {{ avatar.avatar(room.jid, "is-64x64") }}
+                        </div>
+                        <div class="card-content has-text-centered has-text-shortenable px-1 py-1">
+                            <span>{{room.name}}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="section">
+    <p class="content">{% trans %}Or enter a room address{% endtrans %}</p>
+    {% call form.form(class="form--single") %}
+        {{ field.text("jid", _("Room address (JID)"), required=true)}}
+        {{ field.submit(_("Join")) }}
+    {% endcall %}
+</section>
+
+{% endblock body %}

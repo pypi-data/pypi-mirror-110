@@ -1,0 +1,13 @@
+{# macros for generic dialogs #}
+
+{% macro search_dialog(id=none, class='') %}
+    <div{{ {'id': id}|xmlattr }} class="search_dialog dropdown is-active {{class}}">
+        <div class="dropdown-trigger">
+            {{ caller() }}
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu" role="menu">
+            <div class="search_dialog__content dropdown-content">
+            </div>
+        </div>
+    </div>
+{% endmacro %}

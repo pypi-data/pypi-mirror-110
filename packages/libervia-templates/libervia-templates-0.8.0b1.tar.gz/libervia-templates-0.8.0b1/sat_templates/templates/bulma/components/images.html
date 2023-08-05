@@ -1,0 +1,15 @@
+{% macro get_icon_client(ident, class='is-64x64') %}
+    {% if ident.client %}
+        {% if ident.client.pc %}
+            {{ icon('desktop', cls='image is-inline-block {}'.format(class)) }}
+        {% elif ident.client.phone %}
+            {{ icon('mobile', cls='image is-inline-block {}'.format(class)) }}
+        {% elif ident.client.web %}
+            {{ icon('globe', cls='image is-inline-block {}'.format(class)) }}
+        {% elif ident.client.console %}
+            {{ icon('terminal', cls='image is-inline-block {}'.format(class)) }}
+        {% else %}
+            {{ icon('desktop', cls='image is-inline-block {}'.format(class)) }}
+        {% endif %}
+    {% endif %}
+{% endmacro %}

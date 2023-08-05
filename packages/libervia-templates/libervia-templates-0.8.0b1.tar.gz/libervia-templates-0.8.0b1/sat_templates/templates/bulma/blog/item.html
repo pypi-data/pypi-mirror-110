@@ -1,0 +1,79 @@
+{# display a blog item which can be expanded/retracted by clicking on it
+
+    if the locale differs from item language, it will be totally reduced, and will need a click to be displayed
+
+    @variable item(data_object.BlogItem): item to display
+    @variable identities(data_object.Identities): identities which can be used to display info on item author
+    @variable dates_format(unicode): format of the date to use (see date_fmt filter)
+#}
+
+{% block item %}
+
+{% set item_level = (item_level or 0) + 1 %}
+
+{% if item.language and locale and locale.language != item.language %}
+    {# we may display items in different language in a specific way #}
+    {% set other_lang = " other_lang" if expanded else " other_lang state_init" %}
+{% endif %}
+    <article id="{{item.id}}" class="media has-background-white px-4 py-3" >
+        {% if identities is defined %}
+            {% if avatar is defined %}
+                <div class="media-left">
+                    {{ avatar.avatar(item.author_jid) }}
+                </div>
+            {% endif %}
+        {% endif %}
+        <div class="media-content">
+            {% set title = item.title_xhtml|safe or item.title%}
+            {% set item_http_uri = items_http_uri.get(item.id) if items_http_uri is defined else none %}
+            {% if title %}
+                <h4 class="title is-4">
+                    {% if item_http_uri %}
+                        <a href="{{item_http_uri}}" class="has-text-black">{{title}}</a>
+                    {% else %}
+                        {{title}}
+                    {% endif %}
+                </h4>
+            {% endif %}
+            <div class="content">
+                <p class="subtitle is-6 has-text-grey">
+                    {% set published = item.published|date_fmt(fmt=dates_format) %}
+                    {% if Identities is defined %}
+                        <strong>{{identities[item.author_jid].nicknames[0] if identities[item.author_jid].nicknames else item.author}}</strong>
+                    {% else %}
+                        <strong>{{item.author}}</strong>
+                    {% endif %}
+                    <small>{{published}}</small>
+                    {% if item.tags %}
+                        <small class="labels">
+                            {% if tags_http_uri is defined %}
+                                {% for tag in item.tags %}
+                                    <a href="{{tags_http_uri[tag]}}"><span class="tag is-rounded">{{tag}}</span></a>
+                                {% endfor %}
+                            {% else %}
+                                {% for tag in item.tags %}
+                                    <span class="tag">{{tag}}</span>
+                                {% endfor %}
+                            {% endif %}
+                        </small>
+                    {% endif %}
+                </p>
+                <p>
+                    {{- item.content_xhtml|safe if item.content_xhtml is defined else item.content|urlize -}}
+                </p>
+                {% for comments_data in item.comments %}
+                    {% for item in comments_data['items'] %}
+                        {% include 'blog/item.html' %}
+                    {% endfor %}
+                    {% if allow_commenting and item_level == 1 %}
+                        <div class="comment_post">
+                            {{- textbox.comment(service=comments_data.service, node=comments_data.node) -}}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
+            </div>
+        </div>
+    </article>
+
+{% endblock item %}

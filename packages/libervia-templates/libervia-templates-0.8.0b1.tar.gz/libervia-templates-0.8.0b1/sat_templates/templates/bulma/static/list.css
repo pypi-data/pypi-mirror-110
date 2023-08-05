@@ -1,0 +1,9 @@
+.list-item-closed {
+    text-decoration: line-through #dd0000 0.3em;
+    color: hsl(0, 0%, 48%);
+}
+
+.list-item.status_closed .xmlui_field__title {
+    text-decoration: line-through #000 0.2em;
+    color: hsl(0, 0%, 48%);
+}

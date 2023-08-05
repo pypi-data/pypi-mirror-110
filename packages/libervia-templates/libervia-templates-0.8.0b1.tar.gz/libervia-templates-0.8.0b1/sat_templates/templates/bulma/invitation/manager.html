@@ -1,0 +1,32 @@
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+{% import 'input/textbox.html' as textbox with context %}
+{% import 'dialogs/macros.html' as dialog with context %}
+<div class="wrapper">
+    <div class="panel_wrapper click_to_close">
+        <div class="invitation_manager_side_panel">
+            <section class="section">
+                <div class="message is-info">
+                    <div class="message-body">
+                        {% trans %}in this panel, you can manage people who can access this page, and send invitations{% endtrans %}
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div id="affiliations">
+                    <h4 class="title is-4">{% trans %}people who can access this page{% endtrans %}</h4>
+                </div>
+                {% call form.form(id="invitation_form", class="mt-4") %}
+                    {{ textbox.head(event_service, event_node, 'event') }}
+                    {{ field.meta('event_id', event_id) }}
+                    {% call dialog.search_dialog(id="invitation_contact_search", class="is-block") %}
+                        {{ field.text("contact", placeholder=_("name or identifier of a person to invite"), autocomplete="off", icon_left="person") }}
+                    {% endcall %}
+                    <button id="invite_email" class="button mt-6">
+                        <i class="icon-mail"></i> {% trans %}invite by email{% endtrans %}
+                    </button>
+                {% endcall %}
+            </section>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+{% macro avatar(jid, class) %}
+    {%- if identities is defined -%}
+        {%- if identities[jid].avatar_basename %}
+            <img class="avatar {{class}}" src="/cache/common/{{identities[jid].avatar_basename}}">
+        {% else %}
+            <span class="avatar avatar--generated {{class}}"><span class="avatar__content">{{identities[jid].nicknames[0]|first|upper}}</span></span>
+        {%- endif -%}
+    {%- endif -%}
+{% endmacro %}

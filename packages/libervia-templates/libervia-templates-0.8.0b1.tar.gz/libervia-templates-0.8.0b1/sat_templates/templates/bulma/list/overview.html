@@ -1,0 +1,43 @@
+{# display the list of list #}
+
+{% set category_menu = [('list_item_new', url_list_new)] %}
+{% extends 'base/base.html' %}
+{% import 'input/xmlui.html' as xmlui with context %}
+{% import 'input/navigation.html' as navigation with context %}
+{% import 'input/textbox.html' as textbox with context %}
+
+{% block body %}
+<section class="section has-background-white">
+    <nav class="level mb-4">
+        <div class="level-left">
+            <div class="level-item">
+                {{ component.action_button(url_list_new) }}
+            </div>
+            {% if owner %}
+                <div class="level-item">
+                    {{
+                        component.action_button(
+                            "#",
+                            label=_("manage invitations"),
+                            icon="group",
+                            id="button_manage")
+                    }}
+                </div>
+            {% endif %}
+        </div>
+        <div class="level-right">
+            <div class="level-item">
+                {{ textbox.search() }}
+            </div>
+        </div>
+    </nav>
+    {% if list_type == "todo" %}
+        {% include "list/view_todo.html" %}
+    {% elif list_type == "grocery" %}
+        {% include "list/view_grocery.html" %}
+    {% else %}
+        {% include "list/view_generic.html" %}
+    {% endif %}
+</section>
+{{ navigation.prev_next(_("previous page"), _("next page")) }}
+{% endblock body %}

@@ -1,0 +1,15 @@
+{% import 'input/textbox.html' as textbox with context %}
+{% import 'blog/macros.html' as blog with context %}
+
+<div class="wrapper">
+    <div class="panel_wrapper click_to_close">
+        <div class="comments_side_panel">
+            <section class="section">
+                {{ blog.show_items(comments, expanded=true, dates_fmt='relative') }}
+                <div class="comment_post mt-4">
+                    {{- textbox.comment_or_login(service=comments_service, node=comments_node) -}}
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

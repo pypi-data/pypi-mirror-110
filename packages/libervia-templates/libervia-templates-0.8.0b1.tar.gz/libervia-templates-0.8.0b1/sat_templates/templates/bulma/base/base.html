@@ -1,0 +1,167 @@
+{# base template managing common layout, blocks, links or scripts
+
+    except for special pages, this template should always be extended.
+
+    @variable menu_fixed_top(bool): if true, the menu will always stay on top, and padding will be added to body accordingly.
+#}
+
+
+{# embedded is set to avoid including base.html several times if a generic page is included (e.g. blog/articles.html) #}
+{% set embedded = True %}
+{% import 'components/common.html' as component with context %}
+{{ script.include('common', '') }} {# common.js is, as its name states, a common script, so it's useful to import it here #}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {# using SVG directly doesn't always play well with Bulma, so we also use the icon font #}
+    <link rel='stylesheet' type="text/css" href='{{media_path}}fonts/fontello/css/fontello.css'>
+    <link rel='stylesheet' type="text/css" href='{{build_path}}bulma_sat.css'>
+
+    {% if norobots %}
+        <meta name="robots" content="noindex, nofollow">
+    {% endif %}
+
+    <title>{% block title %}{{C.APP_NAME}}{% endblock %}</title>
+
+    {% if css_content is defined %}
+        <style type="text/css">
+            {{css_content}}
+        </style>
+        {% if css_content_noscript is defined %}
+        <noscript>
+            <style type="text/css">
+                {{css_content_noscript}}
+            </style>
+        </noscript>
+        {% endif %}
+    {% else %}
+        {% for css_file in css_files %}
+            <link rel='stylesheet' type="text/css" href='{{css_file}}'>
+        {% endfor %}
+        {% if css_files_noscript %}
+            <noscript>
+                {% for css_file in css_files_noscript %}
+                    <link rel='stylesheet' type="text/css" href='{{css_file}}'>
+                {% endfor %}
+            </noscript>
+        {% endif %}
+    {% endif %}
+
+    {% if links is defined %}
+        {% for link_data in links %}
+            <link{{link_data|xmlattr}}>
+        {% endfor %}
+    {% endif %}
+
+    {% if xmpp_uri is defined %}
+        <link rel="alternate" type="application/atom+xml" href="{{xmpp_uri}}" >
+    {% endif %}
+
+    {% if dynamic_style is defined %}
+    {# be extra careful about dynamic style, insure escaping if you use untrusted values ! #}
+        <style type="text/css">
+        {{dynamic_style}}
+        </style>
+    {% endif %}
+
+    {% if csrf_token is defined %}
+        <script>var csrf_token = "{{csrf_token}}"; var session_uuid="{{session_uuid}}";</script>
+    {% endif %}
+
+    {# FIXME: websocket handling is to be replaced by Brython #}
+    {% if websocket is defined %}
+        {{ script.include('websocket', '') }}
+    {% endif %}
+
+    {{ script.generate_scripts() }}
+
+    {% for script in scripts %}
+        <script{{ {'src': script.src, 'type': script.type} | xmlattr }}>{{script.content|safe}}</script>
+    {% endfor %}
+
+    {# FIXME: websocket handling is to be replaced by Brython #}
+    {% if websocket is defined %}
+        <script>var socket=new WSHandler("{{websocket.url}}", "{{websocket.token}}", {{websocket.debug}});</script>
+    {% endif %}
+
+    {% block favicon %}
+        <link rel="icon" href="{{media_path}}icons/apps/64/sat.png">
+    {% endblock favicon %}
+</head>
+<body{{ {'onload': body_onload} | xmlattr }} class="{{' body--fullscreen' if full_screen_body}}{{' has-navbar-fixed-top' if menu_fixed_top}}">
+    {% if atom_url is defined %}
+        {{ icon_defs('feed') }}
+    {% endif %}
+    {% if loading_screen %}
+        <div id="loading_screen" class="modal is-active">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="notification has-text-centered">
+                    <span class="icon is-large">
+                        <i class="icon-loading icon_animate_spin"></i>
+                    </span>
+                    {% trans %}page is loading, please wait…{% endtrans %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% if main_menu %}
+        {% block main_menu %}
+            {{ component.menu(main_menu) }}
+        {% endblock main_menu %}
+    {% endif %}
+    {% block body_wrapper %}
+    <div id="body" class="container">
+        {% if breadcrumbs and not no_breadcrumps and breadcrumbs|length > 1 %}
+            <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+                <ul>
+                    {% for crumb in breadcrumbs %}
+                        <li {% if loop.last %}class="is-active"{% endif %}>
+                            <a href="{{crumb.url or '#'}}">
+                                {% if crumb.icon %}
+                                    <span class="icon is-medium">
+                                        <i class="icon-{{crumb.icon}}"></i>
+                                    </span>
+                                {% endif %}
+                                <span>{{crumb.label}}</span>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        {% endif %}
+        {% if confirm %}
+            <article class="message is-success mt-4">
+                <div class="message-header">
+                    {% trans %}Success{% endtrans %}
+                    <button class="delete" aria-label="delete" onclick="this.parentElement.parentElement.remove()"></button>
+                </div>
+                <div class="message-body">
+                    {% trans %}Your data has been sent correctly.{% endtrans %}
+                </div>
+            </article>
+        {% endif %}
+        {% if notifications %}
+                {% for notification in notifications %}
+                    <article class="message {{ {C.LVL_WARNING: "is-warning"}.get(notification.level, "is-info") }} mt-4">
+                        <div class="message-header">
+                            {% trans %}Notification{% endtrans %}
+                            <button class="delete" aria-label="delete" onclick="this.parentElement.parentElement.remove()"></button>
+                        </div>
+                        <div class="message-body">
+                            {{ notification.message }}
+                        </div>
+                    </article>
+                {% endfor %}
+        {% endif %}
+        <div id="notifs_area"></div>
+        {% block body %}
+        {% endblock body %}
+    </div>
+    {% endblock body_wrapper%}
+    {% block footer %}
+    {% endblock footer %}
+</body>
+</html>

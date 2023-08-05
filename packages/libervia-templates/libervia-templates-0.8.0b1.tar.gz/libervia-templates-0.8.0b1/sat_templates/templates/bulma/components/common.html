@@ -1,0 +1,43 @@
+{% import 'components/menu_labels.html' as ml with context %}
+{# we need to use "with context" to disable cache, needed for i18n #}
+
+{% macro menu(menus, class='has-background-primary') %}
+    <nav class="navbar main_menu {{class}} {{'is-fixed-top' if menu_fixed_top}}">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+              <img src="{{media_path}}icons/apps/64/sat.png">
+            </a>
+            <a role="button" id="main_menu_burger" class="navbar-burger burger" data-target="main_menu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="main_menu" class="navbar-menu">
+            <div class="navbar-start">
+            {% for name, url in menus %}
+                <a
+                    class="navbar-item {% if name == current_page %}is-tab is-active{% endif%}"
+                    {{ {'href': url}|xmlattr }}
+                >
+                    {{ml.label[name] or name}}
+                  </a>
+            {% endfor %}
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <span class="navbar-link">{{locale.language_name}}</span>
+                    <div class="navbar-dropdown">
+                        {% for l in locales|reject("eq", locale) %}
+                            <a class="navbar-item" href="?{{C.KEY_LANG}}={{l}}">{{l.language_name}}</a>
+                        {% endfor %}
+
+                </div>
+            </div>
+        </div>
+    </nav>
+{% endmacro %}
+
+{% macro action_button(url, label=_("create"), icon="plus-circled", class="is-primary is-rounded", id=none) %}
+    <a class="button {{class}}" {{ {"href":url, "id": id} | xmlattr }}><i class="icon-{{icon}}"></i> {{label}}</a>
+{% endmacro %}

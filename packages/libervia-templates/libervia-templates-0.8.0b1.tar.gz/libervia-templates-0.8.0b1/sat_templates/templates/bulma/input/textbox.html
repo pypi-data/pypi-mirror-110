@@ -1,0 +1,87 @@
+{% import 'input/form.html' as form with context %}
+{% import 'input/field.html' as field with context %}
+
+{% macro head(service, node, type="textbox") %}
+    {# include data needed to identify the node to use for commenting #}
+    <input type="hidden" name="type" value="{{type}}">
+    <input type="hidden" name="service" value="{{service}}">
+    <input type="hidden" name="node" value="{{node}}">
+{% endmacro %}
+
+{% macro textbox(service, node, action='', placeholder='',
+                 submit_label=_("Send"), type="textbox",
+                 class='', ta_class='') %}
+    {# generic content area for comments/blog posts/etc.
+       Only a body by default, but new elements can be
+       added by using this macro with call #}
+    {% set extra_content = caller() if caller is defined else '' %}
+    {% call form.form(action=action, class="textbox " + class) %}
+        {{ head(service, node, type) }}
+        {{ extra_content }}
+        <article class="media px-4 py-3">
+          {% if identities is defined and own_jid is defined %}
+              {% if avatar is defined %}
+                  <div class="media-left">
+                      {{ avatar.avatar(own_jid.userhost()) }}
+                  </div>
+              {% endif %}
+          {% endif %}
+          <div class="media-content">
+            {{ field.textarea("body", placeholder=placeholder, required=True) }}
+            <nav class="level">
+              <div class="level-left">
+                <div class="level-item">
+                   {{ field.submit() }}
+                </div>
+              </div>
+            </nav>
+          </div>
+        </article>
+        {# {{ field.textarea("body", placeholder=placeholder, required=True,
+                          class=ta_class) }}
+        {{ submit(label=submit_label) }} #}
+    {% endcall %}
+{% endmacro %}
+
+{% macro blog_text(service, node, action='', placeholder=_("Your comment")) %}
+    {{ textbox(service, node, action=action, placeholder=placeholder, type="comment") }}
+{% endmacro %}
+
+{% macro comment(service, node, action='', placeholder=_("Your comment"), class='box--medium') %}
+    {{ textbox(service, node, action=action, placeholder=placeholder, type="comment", class=class) }}
+{% endmacro %}
+
+{% macro comment_or_login(service, node, action='', placeholder=none) %}
+    {# show comment form a a message asking to log in
+       login is checked using profile #}
+    {% if profile %}
+        {% if placeholder is none %}
+            {{ comment(service, node, action) }}
+        {% else %}
+            {{ comment(service, node, action, placeholder=placeholder) }}
+        {% endif %}
+    {% else %}
+        <div class="container">
+            <article class="message">
+                <div class="message-body">
+                    <p>{% trans %}You are not logged. You need to log in to comment.{% endtrans %}</p>
+                    {% if login_url is defined %}
+                        <p class="log_in_url">
+                        {% trans link_start=('<a href="',login_url,'">')|join|safe, link_end='</a>'|safe %}
+                        To log in {{link_start}}follow this link{{link_end}}
+                        {% endtrans %}
+                        </p>
+                    {% endif %}
+                </div>
+            </article>
+        </div>
+    {% endif %}
+{% endmacro %}
+
+{% macro search() %}
+    {% call form.form(method="get", use_csrf_token=false) %}
+        {% call field.text("search", class="has-addons", required=true, icon_left="search") %}
+            {{ field.submit(_("Search")) }}
+        {% endcall %}
+    {% endcall %}
+{% endmacro %}

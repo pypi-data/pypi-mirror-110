@@ -1,0 +1,10 @@
+include MANIFEST.in sat_templates/VERSION
+global-include *.py
+global-include *.html *.xml
+global-include *.css *.js
+global-include *.woff *.woff2
+global-include *.ini
+global-include *.po *.mo
+global-include *.txt
+global-include CHANGELOG COPYING* INSTALL README*
+global-exclude *.un~

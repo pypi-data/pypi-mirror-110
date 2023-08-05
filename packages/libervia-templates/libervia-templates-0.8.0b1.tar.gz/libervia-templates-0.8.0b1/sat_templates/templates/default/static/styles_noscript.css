@@ -1,0 +1,55 @@
+/*******************************************************
+ * This styles are used when javascript is not enabled *
+ *******************************************************/
+
+
+/*************
+ * Constants *
+ *************/
+
+:root {
+  --box--expand_limit: none;
+}
+
+
+/**********
+ * States *
+ **********/
+
+/* no click without JS, so we display blogs in other languages directly */
+.other_lang.state_init>* {
+    display: block;
+}
+
+/* initial state is made to display something until click,
+ * better to disable without JS */
+.state_init>.show_if_parent_init {
+    display: none;
+}
+
+
+/*********
+ * boxes *
+ *********/
+
+.box__under {
+    display: none;
+}
+
+/**********
+ * Panels *
+ **********/
+
+/* drawer needs to be opened to have the content visible */
+.panel-drawer {
+    max-height: none;
+    opacity: 1;
+}
+
+/*********
+ * Menus *
+ *********/
+
+.menu__language button {
+    display: initial;
+}

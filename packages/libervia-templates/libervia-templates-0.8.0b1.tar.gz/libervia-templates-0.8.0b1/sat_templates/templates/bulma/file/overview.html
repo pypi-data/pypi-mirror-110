@@ -1,0 +1,64 @@
+{% extends 'base/base.html' %}
+
+{% block body %}
+{{ icon_defs('level-up', 'doc','folder-open-empty', 'comment-empty') }}
+<section class="section">
+    <div class="columns files is-multiline is-mobile">
+        {% if parent_url is defined  %}
+            <div class="column is-2-desktop is-4-touch file">
+                <div class="card">
+                    <a href="{{ parent_url }}">
+                        <div class="card-image has-text-centered">
+                            {{ icon('level-up', cls='image is-64x64 is-inline-block') }}
+                        </div>
+                        <div class='card-content has-text-centered is-paddingless'>
+                            <span>{% trans %}parent dir{% endtrans %}</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endif %}
+
+        {% for file in files_data %}
+            {% if file.type == C.FILE_TYPE_DIRECTORY %}
+                <div class="column is-2-desktop is-4-touch file file_{{file.type}}">
+                    <div class="card">
+                        <a href="{{file.url}}">
+                            <div class="card-image has-text-centered">
+                                {{ icon('folder-open-empty', cls='image is-64x64 is-inline-block') }}
+                            </div>
+                            <div class='card-content has-text-centered has-text-shortenable is-paddingless'>
+                                <span>{{ file.name }}</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% else %}
+                <div class="column is-2-desktop is-4-touch file file_{{file.type}}">
+                    <div class="card">
+                        <a href="{{file.url}}">
+                            <div class="card-image has-text-centered">
+                                {% if file.thumb_url is defined %}
+                                    <img src="{{file.thumb_url}}" class="image is-64x64 is-inline-block" alt="{{file.name}}">
+                                {% else %}
+                                    {{ icon('doc', cls='image is-64x64 is-inline-block') }}
+                                {% endif %}
+                            </div>
+                            <div class='card-content has-text-centered has-text-shortenable is-paddingless'>
+                                <span>{{ file.name }}</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% if not files_data %}
+    <article class="message has-text-centered">
+        <div class="message-body">
+            {% trans %}No files are shared in this directory!{% endtrans %}
+        </div>
+    </article>
+{% endif%}
+{% endblock body %}
