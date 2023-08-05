@@ -1,0 +1,2 @@
+django_cropper_image
+example_project
