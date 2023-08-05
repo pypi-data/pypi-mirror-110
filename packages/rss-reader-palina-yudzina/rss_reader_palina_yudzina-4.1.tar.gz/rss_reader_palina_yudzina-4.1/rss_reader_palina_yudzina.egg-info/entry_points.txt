@@ -1,0 +1,3 @@
+[console_scripts]
+rss-reader = rss_reader_palina_yudzina.rss_reader:main
+
