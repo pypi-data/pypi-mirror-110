@@ -1,0 +1,11 @@
+manychat/__init__.py,sha256=AdMymbp0XviaZgMK47gAtcqo4K1P3-y6WRoVQNAUkHU,223
+manychat/api.py,sha256=bofq4KBsGmfcndJ-qTy-6IaUnxneYDpGnzZ_DoVjag4,1630
+manychat/fb/__init__.py,sha256=-f5rd3y7UoQPnaSQl0Qe9OeLvvjPp6RzLiBeT9c3WnY,499
+manychat/fb/page.py,sha256=c79RQp_7jW1NtHAfhTi8U3B1C7MplQhUO_2-MJ7L5aE,4858
+manychat/fb/sending.py,sha256=IUWtXzsb3cYevWfPOM9BVKSfLEvoWJZ31WIo32TFYGU,1541
+manychat/fb/subscriber.py,sha256=RYz522HVYyQ31v3XjHQjeD9-uEwe7uEE-7XJ_F-3tjM,7229
+manychat-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+manychat-1.0.1.dist-info/METADATA,sha256=ICdoNuRv2URNd-siGEnx0eWY-NMVLjOX99fD6DgsZI8,2151
+manychat-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+manychat-1.0.1.dist-info/top_level.txt,sha256=zI9usOT0aUt3DBcqYLUTIVAq8WZPWIe7ssujMdTpBzo,9
+manychat-1.0.1.dist-info/RECORD,,
