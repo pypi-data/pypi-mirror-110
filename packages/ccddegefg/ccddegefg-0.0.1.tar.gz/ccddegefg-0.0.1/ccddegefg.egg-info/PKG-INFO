@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ccddegefg
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Tingan Chen
+Author-email: tingan.2017chen@gmail.com
+License: MIT
+Description: This
+        
+        Change Log
+        
+        0.0.1
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
