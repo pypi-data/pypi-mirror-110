@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<page>
+    <actions>    
+        <action name="Go to login" url="https://www.messenger.com/login"
+                type="wait" value="5"></action>
+        <action name="login fill username"
+                type="fill" value="" xpath-to='//*[@id="email"]'></action>
+        <action name="login fill password"
+                type="fill" value="" xpath-to='//*[@id="pass"]'></action>
+        <action name="wait"
+                type="wait" value="5"></action>
+        <action name="login click login" 
+                type="click" xpath-to='//*[@id="loginbutton"]'></action>
+
+        <action name="wait"
+                type="wait" value="10"></action>
+        <action name="skip new features popup" bypass-error='true'
+                type="click" xpath-to='//div[@role="button" and @aria-label="Xong" and @tabindex=0]'></action>
+
+
+        <action name="wait"
+                type="wait" value="10"></action>
+
+        <action name="collect texts"
+                type="save-text" value="c:/temp/messenger.log" xpath-to='//div[@data-scope="messages_table"]'></action>
+    </actions>
+</page>
+<!-- python -m socialfeeder --social "facebook" --config ".\samples\text_logger.xml" --head -->
