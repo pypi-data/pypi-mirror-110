@@ -1,0 +1,19 @@
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.sw[po]
+*~
+
+# virtual environments
+venv/
+.env/
+
+# unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
