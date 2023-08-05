@@ -1,0 +1,7 @@
+dash
+dash_bootstrap_components
+dorianUtils>=v2.0
+flask_caching
+matplotlib
+pandas
+scipy
