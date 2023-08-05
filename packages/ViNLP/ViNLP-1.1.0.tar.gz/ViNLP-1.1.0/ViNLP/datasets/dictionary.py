@@ -1,0 +1,15 @@
+from ..utils.file_io import read
+
+
+class Dictionary:
+    def __init__(self, filepath):
+        self.filepath = filepath
+        self._words = None
+
+    @property
+    def words(self):
+        if not self._words:
+            content = read(self.filepath).strip()
+            words = content.split('\n')
+            self._words = words
+        return self._words
