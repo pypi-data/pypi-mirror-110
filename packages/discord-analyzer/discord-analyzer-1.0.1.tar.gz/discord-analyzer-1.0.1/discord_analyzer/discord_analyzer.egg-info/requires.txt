@@ -1,0 +1,5 @@
+discord
+emoji
+tabulate
+pytz
+tzlocal
