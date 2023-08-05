@@ -1,0 +1,13 @@
+selenium
+openpyxl
+argparse
+opencv-python
+scipy
+pillow
+pandas
+colorlog
+olefile
+pdf2image
+pywin32
+pypiwin32
+importlib-resources

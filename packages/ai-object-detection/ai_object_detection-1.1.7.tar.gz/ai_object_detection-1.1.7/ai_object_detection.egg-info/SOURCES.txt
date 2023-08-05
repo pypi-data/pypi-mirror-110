@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+ai_object_detection/__init__.py
+ai_object_detection/__main__.py
+ai_object_detection/libexcel.py
+ai_object_detection/libimageprocessor.py
+ai_object_detection/libselenium.py
+ai_object_detection.egg-info/PKG-INFO
+ai_object_detection.egg-info/SOURCES.txt
+ai_object_detection.egg-info/dependency_links.txt
+ai_object_detection.egg-info/requires.txt
+ai_object_detection.egg-info/top_level.txt
