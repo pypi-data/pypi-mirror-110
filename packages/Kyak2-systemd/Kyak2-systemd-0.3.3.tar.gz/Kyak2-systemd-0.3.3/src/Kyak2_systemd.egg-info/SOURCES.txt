@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/Kyak2_systemd.egg-info/Kyak2-systemd-Guinstaller.py
+src/Kyak2_systemd.egg-info/Kyak2-systemd.desktop
+src/Kyak2_systemd.egg-info/Kyak2-systemd.py
+src/Kyak2_systemd.egg-info/PKG-INFO
+src/Kyak2_systemd.egg-info/SOURCES.txt
+src/Kyak2_systemd.egg-info/dependency_links.txt
+src/Kyak2_systemd.egg-info/top_level.txt
