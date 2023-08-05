@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: unifmu
+Version: 0.0.3
+Summary: A set of tools for developing functional-mockup-units (FMUs) implemented in any language.
+Home-page: https://github.com/INTO-CPS-Association/unifmu
+Author: INTO-CPS Association
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/INTO-CPS-Association/unifmu/issues
+Project-URL: Documentation, https://into-cps-application.readthedocs.io/en/latest/submodules/unifmu/docs/index.html
+Project-URL: Source Code, https://github.com/INTO-CPS-Association/unifmu
+Description: 
+        # UniFMU
+        UniFMU is a set of tools for developing functional-mockup-units (FMUs) using the full power of Python.
+        
+        ## Documentation
+        See the online documentation on how to use to tool and FMI in general see the INTO-CPS online documentation:
+        
+        https://into-cps-application.readthedocs.io
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: gui
+Provides-Extra: protobuf-schema-generation
+Provides-Extra: python-backend
+Provides-Extra: setuptools
+Provides-Extra: dev
