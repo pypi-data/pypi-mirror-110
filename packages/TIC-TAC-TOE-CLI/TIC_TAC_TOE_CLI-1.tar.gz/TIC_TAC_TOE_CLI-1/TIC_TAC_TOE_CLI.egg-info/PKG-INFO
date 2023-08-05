@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: TIC-TAC-TOE-CLI
+Version: 1
+Summary: This package contains implementation of the game "TIC_TAC_TOE_CLI" on command line interface where the player plays as crosses X's and the opponent plays as circles O's).
+Home-page: https://github.com/GlobalCreativeCommunityFounder/TIC_TAC_TOE
+Author: GlobalCreativeCommunityFounder
+Author-email: globalcreativecommunityfounder@gmail.com
+License: MIT
+Description: # TIC_TAC_TOE_CLI
+        
+        "Tic Tac Toe" game running on command line interface where the player plays as 
+        crosses ('X's) and the opponent plays as circles ('O's).
+        
+        # Executable File
+        
+        The executable file is downloadable at https://github.com/GlobalCreativeCommunityFounder/TIC_TAC_TOE/blob/master/TIC_TAC_TOE_CLI/dist/tic_tac_toe/tic_tac_toe.exe.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

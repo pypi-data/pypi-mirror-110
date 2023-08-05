@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+TIC_TAC_TOE_CLI/tic_tac_toe.py
+TIC_TAC_TOE_CLI.egg-info/PKG-INFO
+TIC_TAC_TOE_CLI.egg-info/SOURCES.txt
+TIC_TAC_TOE_CLI.egg-info/dependency_links.txt
+TIC_TAC_TOE_CLI.egg-info/entry_points.txt
+TIC_TAC_TOE_CLI.egg-info/top_level.txt
