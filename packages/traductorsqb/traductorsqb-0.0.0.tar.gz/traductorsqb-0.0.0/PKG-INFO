@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: traductorsqb
+Version: 0.0.0
+Summary: Traductor de palabras
+Author: Santiago Quiñones
+Author-email: lsquinones@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
