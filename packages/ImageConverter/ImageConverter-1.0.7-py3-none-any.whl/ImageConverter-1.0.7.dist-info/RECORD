@@ -1,0 +1,9 @@
+ImageConverter/__init__.py,sha256=bll89GaDhapoGQOLT-Sg3WYypNLdQLQZ5lq1g_xoCLA,151
+ImageConverter/cli.py,sha256=4UpZeQJwuOBQ96UJSDoOjct6vYNrRb4LW91_QRAHsLI,380
+ImageConverter/converter.py,sha256=1U041IwgANeeNwa7zPaIep4MkoMzGSAP3BtE__NK6Fo,714
+ImageConverter/version.py,sha256=GIukrVnl8Ykjex2rUbxdz2Ov1PRc_MomFmxwSzRJH9w,21
+ImageConverter-1.0.7.dist-info/METADATA,sha256=LdA2djWTYMXTXuKlUUqoE1CYckzCV-bJi_Hy81UVXyw,1327
+ImageConverter-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ImageConverter-1.0.7.dist-info/entry_points.txt,sha256=1gMSAKbn8qcVQdtF1UlD19wCIj7hLjyEY2os223wihg,61
+ImageConverter-1.0.7.dist-info/top_level.txt,sha256=AuHoGxNdxv4kMxp78KnICAR3HkNHqN5XCxMcobuP7RI,15
+ImageConverter-1.0.7.dist-info/RECORD,,
