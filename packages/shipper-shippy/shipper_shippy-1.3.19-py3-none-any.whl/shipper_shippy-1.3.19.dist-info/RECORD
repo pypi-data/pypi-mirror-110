@@ -1,0 +1,14 @@
+shippy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shippy/__main__.py,sha256=vXBpxuAymqzdWJERV1zAuCGrzmuBQWvk2bF-ClmvgR4,6488
+shippy/client.py,sha256=qg9iKCZEpFUAxlkxSzMmw_xxIexPTuOitKqRmDyINiE,7025
+shippy/config.py,sha256=rlefp1nCVXcSONeDQEAhB323_-s_iCLBY7Rsxw7nWWA,708
+shippy/constants.py,sha256=tMU-QdkXTMa-kiVz-BJ2FEf4azK_U7jevr8cIRzNNSU,1037
+shippy/exceptions.py,sha256=fuU3641x-3m6AjhfEhiHFsr4Wbxvr7VlXyytXMVm_0k,87
+shippy/helper.py,sha256=y00w3GO-7kk-poNAhMlPdCyLIUYsPUrkjjNXrGdNDIE,2263
+shippy/version.py,sha256=TkBji7w-3QtnrmHrJEfLi4FC_SRyDC8nxEsq30ThqPs,57
+shipper_shippy-1.3.19.dist-info/LICENSE,sha256=U5Eyaq-E63ei8YTf9KKx-h3YvdFZYEf-jHBa2VrZ6mw,1066
+shipper_shippy-1.3.19.dist-info/METADATA,sha256=w-zuKux6sQjFerF_DpOgfe-kU3wc1fpujaz9xmwewZk,1196
+shipper_shippy-1.3.19.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shipper_shippy-1.3.19.dist-info/entry_points.txt,sha256=Nut8Rrg_WDpSM-kxYnyD7YlC6yJKCBbV3vgb66cWzNY,49
+shipper_shippy-1.3.19.dist-info/top_level.txt,sha256=bKzZ56t78g1rmiadqNeCfoLQeniNMgBwBHWxs4Vohmk,7
+shipper_shippy-1.3.19.dist-info/RECORD,,
