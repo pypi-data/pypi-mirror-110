@@ -1,0 +1,13 @@
+marquez/__init__.py,sha256=spbi430Td7y6Kzk07p_Mezkyl6OZc-Q9pW26sPbiBGo,603
+marquez/dataset.py,sha256=ba5JyUEuq_2xFntJoWewl7dNW22LdODWbsH4VvxZp38,5469
+marquez/models.py,sha256=EXmHVGKBw15h83AjSjHkXVnDQbs2hWyBBKIWwqFy0t4,4051
+marquez/utils.py,sha256=h5rXy-LUC6hlxfOM-WRAUveE325fsB1JQfmtpgk_-RY,1674
+marquez/provider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marquez/provider/bigquery.py,sha256=bPfujesnffT42q37iZZZWdHFHv9ia4wP94ViQLwXNAQ,9836
+marquez/schema/__init__.py,sha256=t0GJgzowpFkofyy7LGkaqkWk1AiF0nk4DZqClYjP7hc,667
+marquez/sql/__init__.py,sha256=E-btsdvbR8eKIZ4gXZsnTEuWCdd0Rs2DwR92b4Gmy-w,609
+marquez/sql/parser.py,sha256=uW7MV2GfDzBIFsY6BYSQSABIJNr6hZ9d8rOwfx6JxS8,6231
+marquez_integration_common-0.15.2.dist-info/METADATA,sha256=02YJ1vbjT46g8s8eqxd0U8YXfFgc9NzccMB4jYWXjKw,1398
+marquez_integration_common-0.15.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+marquez_integration_common-0.15.2.dist-info/top_level.txt,sha256=OGicGLqcRGcx7AmuIIpjVSn17FTlxFn7pFG99em_TBM,8
+marquez_integration_common-0.15.2.dist-info/RECORD,,
