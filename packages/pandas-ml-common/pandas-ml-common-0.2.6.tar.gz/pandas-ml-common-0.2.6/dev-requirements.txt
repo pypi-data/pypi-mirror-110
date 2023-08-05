@@ -1,0 +1,8 @@
+ipykernel
+lxml
+Markdown
+nbconvert
+nbformat
+requests
+scikit-learn
+twine
