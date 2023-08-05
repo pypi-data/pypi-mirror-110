@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: traductoregc
+Version: 0.0.0
+Summary: Traductor de palabras
+Author: Edison Gaibor
+Author-email: edisongaiborconde@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
