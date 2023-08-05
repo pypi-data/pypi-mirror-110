@@ -1,0 +1,12 @@
+requests_api/__init__.py,sha256=xSR--timZ03Dhh57S2hmmoFyTlaWOH5-06e7eC_qVy4,557
+requests_api/api.py,sha256=-D2_xG_3J9T3s3LzDUOFjSJR83oe0JTeFS2_LpGmmlI,5597
+requests_api/auth.py,sha256=w35UiewvTd8ugsUObom6P-sQpZ3fB7M4U1MGCDaC5Ww,2731
+requests_api/exception.py,sha256=bmMkV67y4_nILgIbHTLJzFykwhtqNzvhYvfViK-0SHQ,926
+requests_api/retries.py,sha256=Tr1I90kzfOcYmIhVBcDhmN_QGJeBKGhVlGbuZrxYjF0,1196
+requests_api/utils.py,sha256=k_F_NSADyYQhKY1ZgdVOxmvjK_rDEgOAAn9AmJtVrGU,1229
+requests_api/version.py,sha256=SfImExiYYVtojT_CvcAgDpXvHRghNgWxLDftp_yjBc8,17
+requests_api-0.0.1.dist-info/LICENSE,sha256=0V6y88w_DTIHjqMxPrEUfEv9w_X_KFeL7Ae8Ei8J_Sg,1069
+requests_api-0.0.1.dist-info/METADATA,sha256=pXGxBI_wJvj4YiVbUt2c_g0xc5r2dhYrIcfHyoTzM70,691
+requests_api-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+requests_api-0.0.1.dist-info/top_level.txt,sha256=F79w9_XKP0QjWdmE_AJKHDdb5td9AnNTOgEX-S1hCKw,13
+requests_api-0.0.1.dist-info/RECORD,,
