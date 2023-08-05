@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jaccount-cli
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: pillow
+
+UNKNOWN
+
