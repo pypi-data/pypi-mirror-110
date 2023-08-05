@@ -1,0 +1,3 @@
+[pdm]
+publish=pdm_publish.__init__:main
+

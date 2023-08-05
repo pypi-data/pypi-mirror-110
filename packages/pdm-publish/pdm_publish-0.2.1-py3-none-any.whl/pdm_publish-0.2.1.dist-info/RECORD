@@ -1,0 +1,8 @@
+pdm_publish/__init__.py,sha256=dCJRl64FruBp8_RO_oHuYhUC3FOhE--bK6pjbKLLLLs,221
+pdm_publish/command.py,sha256=ejbb_VmLboulhQXewa8wyh4TIgovPgGMA0RnB42d3kg,2439
+pdm_publish/config.py,sha256=dmyAuQ35jIrLzcqelaRseFX2vzEpuvxoX3WeQ9HxO24,459
+pdm_publish/core.py,sha256=VEb3HT62T5Hh5AIAZtXzjtyGwAf-wPfMBZHls9ubSzA,1803
+pdm_publish-0.2.1.dist-info/entry_points.txt,sha256=xIHTv00Kh0ENFUy5vWk55VQkYvQitbcmQ8bE6hMP77c,41
+pdm_publish-0.2.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pdm_publish-0.2.1.dist-info/METADATA,sha256=_p7BEcFwGASSVwTYkXlkKO_yT9csOqMsYaKBjoXj3ms,3737
+pdm_publish-0.2.1.dist-info/RECORD,,
