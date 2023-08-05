@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+manim_presentation/__init__.py
+manim_presentation/present.py
+manim_presentation/slide.py
+manim_presentation.egg-info/PKG-INFO
+manim_presentation.egg-info/SOURCES.txt
+manim_presentation.egg-info/dependency_links.txt
+manim_presentation.egg-info/entry_points.txt
+manim_presentation.egg-info/top_level.txt

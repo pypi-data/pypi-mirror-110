@@ -1,0 +1,3 @@
+[console_scripts]
+manim_presentation = manim_presentation.present:main
+
