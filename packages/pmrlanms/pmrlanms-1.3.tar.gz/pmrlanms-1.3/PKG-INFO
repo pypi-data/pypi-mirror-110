@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pmrlanms
+Version: 1.3
+Summary: Locality-Aware Non-Maximum Suppression for PMR
+Home-page: https://github.com/Parquery/lanms
+Author: argmen (boostczc@gmail.com) is code author, Dominik Walder (dominik.walder@parquery.com) and Marko Ristin (marko@parquery.com) only packaged the codeYash Bhambhu(basyambhu@gmail.com) packaged for other versions
+Author-email: basyambhu@gmail.com
+License: GNU General Public License v3.0
+Keywords: locality aware non-maximum suppression
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
