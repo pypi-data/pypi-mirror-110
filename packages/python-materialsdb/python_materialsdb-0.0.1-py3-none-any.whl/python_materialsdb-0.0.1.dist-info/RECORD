@@ -1,0 +1,14 @@
+materialsdb/__init__.py,sha256=2UuaCCmONhxIvpxB1eXHh88eb05i2ilR0-F0o6rKlCQ,63
+materialsdb/cache.py,sha256=vS4Sb5zR0XHyzaTSLW7NEpl5XezF6yCBGgjekAbcOo0,2577
+materialsdb/classes.py,sha256=obuS_JRfdvqKJ8RMOx65X7AzI2J5W0xNgIXJ2y7evbM,21194
+materialsdb/config.py,sha256=Bz16QTIl8u81g07www_zGdA-Ilsii_kbi3NYuSXlrlQ,1331
+materialsdb/serialiser.py,sha256=57haSVTFbRC_srvd-ZBQXLMbPE1RIQuYlF6J6pFdd80,5860
+materialsdb/utils.py,sha256=w3RXikkM0TUFlgHuZyADbckIyTNNsu3JWoYTflvPyr0,703
+materialsdb/ifc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+materialsdb/ifc/material_psets.json,sha256=g4Z-wOsnOP-TZR2R_9ikDpa9GalfyA8o3gDHvQtMAgg,15472
+materialsdb/ifc/project_library.py,sha256=N5kHW4UJ7LNJeULDAeH_W35CUsAuBhOJNtN293pLHb0,13782
+python_materialsdb-0.0.1.dist-info/LICENSE.md,sha256=M7wm1EmMGDtwPRdg7kW4d00h1uAXjKOT3HFScYQMeiE,34916
+python_materialsdb-0.0.1.dist-info/METADATA,sha256=Iyzs9-sXPmOeOkaOH6bDtanjJitpkNAOlU136d4vbro,2565
+python_materialsdb-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_materialsdb-0.0.1.dist-info/top_level.txt,sha256=5ZHbF8Oj1W24bifG65Fl3hCaivZpkO6EyOHHaRavZxE,12
+python_materialsdb-0.0.1.dist-info/RECORD,,
