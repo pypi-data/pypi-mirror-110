@@ -1,0 +1,3 @@
+[console_scripts]
+vxcube_client = vxcube_api.__main__:main
+
