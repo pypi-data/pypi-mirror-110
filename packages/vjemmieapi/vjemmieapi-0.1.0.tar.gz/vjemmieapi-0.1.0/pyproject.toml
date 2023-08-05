@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vjemmieapi"
+version = "0.1.0"
+description = ""
+authors = ["Peder Hovdan Andresen <pedeha@stud.ntnu.no>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.65.1"
+aiomysql = "^0.0.21"
+uvicorn = {extras = ["standard"], version = "^0.14.0"}
+sqlalchemy = "^1.4.18"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+requests = "^2.25.1"
+mypy = "^0.902"
+black = "^21.6b0"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
