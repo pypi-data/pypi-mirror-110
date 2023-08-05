@@ -1,0 +1,15 @@
+msorm/__init__.py,sha256=0QyoPDXOg0eauQX6x9Onae5PDz7OWBpYc6UmyZDlTHw,438
+msorm/__main__.py,sha256=_RCgOlzBlOQn8I6IDMrr-MzjdRzQNYbb-lAjNQAlnRc,3820
+msorm/exceptions.py,sha256=FMhIK9hdJjtQsMlDyFfxp4aJ9ijnFXstYYqNV97D5iE,618
+msorm/extras.py,sha256=71jhsVeWU55xEqQNsi1Ef4zLD8n9_I5uhlw9PsrCmYA,58
+msorm/main.py,sha256=vpXK3ehGVbp7mjGn6CpGaaHKJvQNoYhF_HN5HiRKpCo,364
+msorm/models.py,sha256=6mYwweP5SFOcIcPcvXk0BDnlPaXU8J0ggrW2D_6APtQ,27555
+msorm/mssql_fields.py,sha256=mRugCVBRRVqPSHR3aGzpLNV_cpjDCRFtLUOAwjUrVGg,2768
+msorm/operators.py,sha256=8RiV7SAjqpxOxDx7NsdgaS2nrYXxjJNsAoN2lsaBmsk,2899
+msorm/settings.py,sha256=PIef4lacEC9lJD3gvq4Iwtvq5Lp4zU7yp_jGLi-7Zg4,6175
+msorm/type_fields.py,sha256=g4NAEfi-6DAFJaUNGiUrS8hK9dUJJS_oCJcylxZJXyM,3628
+msorm-1.1.5a0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+msorm-1.1.5a0.dist-info/METADATA,sha256=lL4TAFpFjcZ-uwbgLtssG2i5nF1fCQszUFZjs1bFC70,13193
+msorm-1.1.5a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+msorm-1.1.5a0.dist-info/top_level.txt,sha256=wKPFJQ5Z7zhsvCdqqmvtoee_s2aW4nTe5HvTULYZaNQ,6
+msorm-1.1.5a0.dist-info/RECORD,,
