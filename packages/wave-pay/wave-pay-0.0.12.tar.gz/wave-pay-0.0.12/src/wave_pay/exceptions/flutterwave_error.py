@@ -1,0 +1,2 @@
+class FlutterWaveError(Exception):
+    pass
