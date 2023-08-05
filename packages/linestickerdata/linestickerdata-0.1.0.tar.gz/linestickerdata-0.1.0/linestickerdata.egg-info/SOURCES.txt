@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+linestickerdata/__init__.py
+linestickerdata/animation.py
+linestickerdata/linesticker_animation.csv
+linestickerdata.egg-info/PKG-INFO
+linestickerdata.egg-info/SOURCES.txt
+linestickerdata.egg-info/dependency_links.txt
+linestickerdata.egg-info/top_level.txt
+linestickerdata.egg-info/zip-safe
