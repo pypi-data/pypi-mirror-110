@@ -1,0 +1,8 @@
+setup.py
+discord_typed_flags.egg-info/PKG-INFO
+discord_typed_flags.egg-info/SOURCES.txt
+discord_typed_flags.egg-info/dependency_links.txt
+discord_typed_flags.egg-info/requires.txt
+discord_typed_flags.egg-info/top_level.txt
+typed_flags/__init__.py
+typed_flags/typed_flags.py
