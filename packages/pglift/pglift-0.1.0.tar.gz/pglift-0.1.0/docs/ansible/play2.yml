@@ -1,0 +1,30 @@
+---
+- name: my postgresql instances
+  hosts: localhost
+  tasks:
+    - name: production instance
+      postgresql_instance:
+        name: prod
+        port: 5433
+        state: started
+        ssl: true
+        configuration:
+          max_connections: 100
+          shared_buffers: 1GB
+          unix_socket_directories: /tmp
+
+    - name: pre-production instance, now dropped
+      postgresql_instance:
+        name: preprod
+        state: absent
+
+    - name: dev instance, started, with SSL
+      postgresql_instance:
+        name: dev
+        port: 5455
+        state: started
+        ssl: true
+        configuration:
+          max_connections: 42
+          unix_socket_directories: /tmp
+        prometheus_port: 9189
