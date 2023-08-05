@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: num2name
+Version: 0.0.1
+Summary: Convert any number into name ex. 44-> forty four
+Home-page: https://github.com/sumit-kushwah/num2name
+Author: ksumit
+Author-email: sumitkushwah1729@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# num2name
+
