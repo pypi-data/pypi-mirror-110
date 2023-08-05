@@ -1,0 +1,59 @@
+/*
+ * Copyright 2020-2021 Exactpro (Exactpro Systems Limited)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+syntax = "proto3";
+
+package th2.crawler;
+
+import "th2_grpc_common/common.proto";
+import "th2_grpc_data_provider/data_provider_template.proto";
+
+option java_multiple_files = true;
+option java_package = "com.exactpro.th2.crawler.check2.grpc";
+
+service Check2 {
+
+  rpc crawlerConnect (CrawlerInfo) returns (Check2Info) {
+  }
+
+  rpc sendEvent (EventData) returns (EventResponse) {
+  }
+
+  rpc sendMessage (MessageData) returns (MessageResponse) {
+  }
+}
+
+message CrawlerInfo {
+  string name = 1;
+  string version = 2;
+}
+
+message Check2Info {
+  string name = 1;
+  string version = 2;
+  oneof id {
+    EventID event_id = 3;
+    MessageID message_id = 4;
+  }
+}
+
+message EventResponse {
+  EventID id = 1;
+}
+
+message MessageResponse {
+  MessageID id = 1;
+}
