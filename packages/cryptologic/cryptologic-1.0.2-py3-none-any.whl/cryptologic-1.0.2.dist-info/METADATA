@@ -1,0 +1,235 @@
+Metadata-Version: 2.1
+Name: cryptologic
+Version: 1.0.2
+Summary: Python wrapper for cryptocompare API
+Home-page: https://github.com/secretum-inc/cryptologic
+Author: Gerrishon Sirere
+Author-email: secretum.inc@pm.me
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: requests >=2.24.0,<3.0.0 ; extra == "all"
+Requires-Dist: astroid==2.4.2 ; extra == "all"
+Requires-Dist: attrs==20.3.0 ; extra == "all"
+Requires-Dist: quo==2021.1 ; extra == "all"
+Requires-Dist: autopep8==1.5.4 ; extra == "all"
+Requires-Dist: certifi==2020.12.5 ; extra == "all"
+Requires-Dist: chardet==4.0.0 ; extra == "all"
+Requires-Dist: coveralls==3.0.0 ; extra == "all"
+Requires-Dist: doc8==0.8.1 ; extra == "all"
+Requires-Dist: docopt==0.6.2 ; extra == "all"
+Requires-Dist: docutils==0.16 ; extra == "all"
+Requires-Dist: filelock==3.0.12 ; extra == "all"
+Requires-Dist: idna==2.10 ; extra == "all"
+Requires-Dist: iniconfig==1.1.1 ; extra == "all"
+Requires-Dist: isort==5.7.0 ; extra == "all"
+Requires-Dist: lazy-object-proxy==1.4.3 ; extra == "all"
+Requires-Dist: mccabe==0.6.1 ; extra == "all"
+Requires-Dist: more-itertools==8.6.0 ; extra == "all"
+Requires-Dist: mypy==0.800 ; extra == "all"
+Requires-Dist: mypy-extensions==0.4.3 ; extra == "all"
+Requires-Dist: packaging==20.8 ; extra == "all"
+Requires-Dist: pbr==5.5.1 ; extra == "all"
+Requires-Dist: pluggy==0.13.1 ; extra == "all"
+Requires-Dist: public==2020.12.3 ; extra == "all"
+Requires-Dist: py==1.10.0 ; extra == "all"
+Requires-Dist: pycodestyle==2.6.0 ; extra == "all"
+Requires-Dist: Pygments==2.7.4 ; extra == "all"
+Requires-Dist: pylint==2.6.0 ; extra == "all"
+Requires-Dist: pyparsing==2.4.7 ; extra == "all"
+Requires-Dist: pytest==6.2.1 ; extra == "all"
+Requires-Dist: pytest-cov==2.11.1 ; extra == "all"
+Requires-Dist: pytest-mypy==0.8.0 ; extra == "all"
+Requires-Dist: query-string==2020.12.3 ; extra == "all"
+Requires-Dist: requests==2.25.1 ; extra == "all"
+Requires-Dist: restructuredtext-lint==1.3.2 ; extra == "all"
+Requires-Dist: six==1.15.0 ; extra == "all"
+Requires-Dist: stevedore==3.3.0 ; extra == "all"
+Requires-Dist: toml==0.10.2 ; extra == "all"
+Requires-Dist: typed-ast==1.4.2 ; extra == "all"
+Requires-Dist: typing-extensions==3.7.4.3 ; extra == "all"
+Requires-Dist: urllib3==1.26.5 ; extra == "all"
+Requires-Dist: wcwidth==0.2.5 ; extra == "all"
+Requires-Dist: wrapt==1.12.1 ; extra == "all"
+Project-URL: Documentation, https://github.com/secretum-inc/cryptologic
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# cryptologic
+ ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/secretum-inc/cryptologic/Test/main) [![Coverage Status](https://coveralls.io/repos/github/secretum-inc/cryptologic/badge.svg?branch=main)](https://coveralls.io/github/secretum-inc/cryptologic?branch=main) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/cryptologic) [![PyPI version](https://badge.fury.io/py/cryptologic.svg)](https://badge.fury.io/py/cryptologic)
+
+
+Python3 wrapper to query cryptocurrency prices (and more) using the [CryptoCompare](https://min-api.cryptocompare.com/) API.
+
+
+## Install
+```sh
+pip install cryptologic
+```
+
+## Usage
+
+```python
+import cryptologic
+```
+
+## API Key
+
+If you have an API key, you can either set it as environment variable `CRYPTOCOMPARE_API_KEY` or set it manually with: 
+
+```
+cryptologic.cryptologic._set_api_key_parameter(KEY_HERE)
+```
+
+### Coin List
+
+```python
+cryptologic.coin_list(format=False)
+# ...
+# },
+# 'BTC': {
+#  'Id': '1182'
+#  'Url': '/coins/btc/overview'
+#  'ImageUrl': '/media/19633/btc.png'
+#  'Name': 'BTC'
+#  'CoinName': 'Bitcoin'
+#  'FullName': 'Bitcoin (BTC)'
+#  'Algorithm': 'SHA256'
+#  'ProofType': 'PoW'
+#  'FullyPremined': '0'
+#  'TotalCoinSupply': '21000000'
+#  'PreMinedValue': 'N/A'
+#  'TotalCoinsFreeFloat': 'N/A'
+#  'SortOrder': '1'
+# },
+# ...
+```
+
+If `format` is `True`, the coin list is returned as Python list,
+containing only the abbreviations (like `BTC`).
+
+### Price
+
+```python
+cryptologic.get_price('BTC')
+# or
+cryptologic.get_price('BTC', currency='USD', full=True)
+# or
+cryptologic.get_price(['BTC', 'ETH'], ['EUR', 'GBP'])
+
+# {'BTC': {'EUR': 3709.04, 'GBP': 3354.78},
+#  'ETH': {'EUR': 258.1, 'GBP': 241.25}}
+```
+
+### Historical Prices
+
+```python
+# pass either datetime or time instance
+cryptologic.price('XMR', timestamp=datetime.datetime(2017,6,6), exchange='CCCAGG')
+# or
+cryptologic.price('XMR', 'EUR', datetime.datetime(2017,6,6))
+
+# {'XMR': {'EUR': 43.05}}
+```
+
+#### Day
+
+```python
+cryptologic.price_day('BTC', currency='EUR')
+cryptologic.price_day('BTC', currency='EUR', limit=30)
+cryptologic.price_day('BTC', 'EUR', limit=24, exchange='CCCAGG', toTs=datetime.datetime(2019,6,6))
+# or
+cryptologic.price_day('BTC', 'EUR', limit=24, exchange='CCCAGG', toTs=datetime.datetime(1559815200))
+```
+
+#### Hour
+
+```python
+cryptologic.price_hour('BTC', currency='USD')
+cryptologic.price_hour('BTC', currency='EUR', limit=24)
+cryptologic.price_hour('BTC', 'EUR', limit=24, exchange='CCCAGG')
+cryptologic.price_hour('BTC', 'EUR', limit=24, exchange='CCCAGG', toTs=datetime.datetime(2019,6,6,12))
+# or
+cryptologic.price_hour('BTC', 'EUR', limit=24, exchange='CCCAGG', toTs=datetime.datetime(1559815200))
+```
+
+#### Minute
+
+```python
+cryptologic.price_minute('BTC', currency='EUR')
+cryptologic.price_minute('BTC', currency='EUR', limit=1440)
+cryptologic.price_minute('BTC', 'EUR', limit=24, exchange='CCCAGG', toTs=datetime.datetime.now())
+```
+
+### Average
+
+```python
+cryptologic.get_average('BTC', currency='EUR', exchange='Kraken')
+# {
+# 'MARKET': 'CUSTOMAGG',
+# 'FROMSYMBOL': 'BTC',
+# 'TOSYMBOL': 'EUR',
+# 'FLAGS': 0,
+# 'PRICE': 3610,
+# 'LASTUPDATE': 1503066719,
+# 'LASTVOLUME': 0.5,
+# 'LASTVOLUMETO': 1805,
+# 'LASTTRADEID': 1503066719.7584,
+# 'VOLUME24HOUR': 12614.509997469995,
+# 'VOLUME24HOURTO': 46397723.00499387,
+# 'OPEN24HOUR': 3847.9,
+# 'HIGH24HOUR': 3848.96,
+# 'LOW24HOUR': 3555,
+# 'LASTMARKET': 'Kraken',
+# 'CHANGE24HOUR': -237.9000000000001,
+# 'CHANGEPCT24HOUR': -6.182593102731363
+# }
+```
+
+### Exchanges
+
+```python
+cryptologic.get_exchanges()
+```
+
+### Pairs
+
+```python
+cryptologic.get_pairs()
+pairs = cryptologic.get_pairs(exchange='Kraken')
+```
+
+## Developing
+
+Tests run assuming you have an API key, otherwise they will error due to rate limiting. Install the dev dependencies and run the tests:
+```sh
+pip3 install -r requirements.txt
+python3 -m pytest
+```
+
+## Credit
+
+* The [CryptoCompare API](https://min-api.cryptocompare.com/).
+
+
