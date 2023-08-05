@@ -1,0 +1,14 @@
+fast_hangle_levenshtein/__init__.py,sha256=N_EZBIbvotg6OR2uQ1-Be_-X2jNUWWUgM8VsvnK62p4,367
+fast_hangle_levenshtein/_hangle.py,sha256=Ztt6xK7fL4TkZZgqvL5QOicSoCDKcPemmVlQj6GqO-c,2449
+fast_hangle_levenshtein/_index.py,sha256=eVSffXZrYUHr-ZVffmE4-Aeyjqb0-BlBNv9WTi9ZV9Q,4068
+fast_hangle_levenshtein/_string_distance.py,sha256=TOg3DLNbvc9upS9r2jSz1Qe8UBYh1dvcWxDJ6_FZLYA,2035
+levenshtein_finder/__init__.py,sha256=ZdQy48fQqad6yDcoRrfwRPz0g1Yotezex1js8Q6w_7A,270
+levenshtein_finder/about.py,sha256=3qfFi4EtBgN7MkrmdyMUOQGFlVjRA1oMdD-0LPDrQLg,120
+levenshtein_finder/distance.py,sha256=TQBgWdoyQXR2atmU-1sb9peA1kpr4ADcP8VGj89MF-c,881
+levenshtein_finder/finder.py,sha256=cEhzQFpTEOC84q-cyca3xbp95Da1lIEGQg3a9dwIvns,3985
+levenshtein_finder/normalizer.py,sha256=LhFkFarxyX6uwRfiOMMH8r8JDivR8SkGIysNlO3WRTw,2891
+levenshtein_finder/tokenizer.py,sha256=lX5JD5adosbOsnta2zItyHxCvI62t8_sAYYsZzPFKj4,6968
+levenshtein_finder-1.0.1.dist-info/METADATA,sha256=5f957g9PA9MxBpsnGAEuSID1koykTdqxVxqZ2NZl3f8,5328
+levenshtein_finder-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+levenshtein_finder-1.0.1.dist-info/top_level.txt,sha256=vEWN9L4MkZd7o7d00HONER32Ej6NCXkHeHEA9XWa2ls,19
+levenshtein_finder-1.0.1.dist-info/RECORD,,
