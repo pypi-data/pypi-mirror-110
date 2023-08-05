@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: mokkari
+Version: 0.1.6
+Summary: Python wrapper for Metron API 
+Home-page: https://github.com/bpepple/mokkari
+Author: Brian Pepple
+Author-email: bdpepple@gmail.com
+License: GPLv3
+Keywords: comics,comic,metadata
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Requires-Dist: marshmallow
+Requires-Dist: requests
+Requires-Dist: ratelimit
+
+=======
+Mokkari
+=======
+
+.. image:: https://codecov.io/gh/bpepple/mokkari/branch/main/graph/badge.svg?token=QU1ROMMOS4
+    :target: https://codecov.io/gh/bpepple/mokkari
+
+.. image:: https://sonarcloud.io/api/project_badges/measure?project=bpepple_mokkari&metric=alert_status
+    :target: https://sonarcloud.io/dashboard?id=bpepple_mokkari
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+Quick Description
+-----------------
+A python wrapper for the metron.cloud_ API.
+
+.. _metron.cloud: https://metron.cloud
+
+Installation
+------------
+
+PyPi
+~~~~
+
+.. code:: bash
+
+  $ pip3 install --user mokkari
+
+Example Usage
+-------------
+.. code-block:: python
+
+    import mokkari
+
+    # Your own config file to keep your credentials secret
+    from config import username, password
+
+    m = mokkari.api(username, password)
+
+    # Get all Marvel comics for the week of 2021-06-07
+    this_week = m.issues_list({"store_date_range_after": "2021-06-07", "store_date_range_before": "2021-06-13", "publisher": "marvel"})
+
+    # Print the results
+    for i in this_week:
+        print(f"{i.id} {i.issue_name}")
+
+    # Retrieve the detail for an individual issue
+    asm_68 = m.issue(31660)
+
+    # Print the issue Description
+    print(asm_68.desc)
+
+Documentation
+-------------
+- `Read the project documentation <https://mokkari.readthedocs.io/en/latest/>`_
+
+Bugs/Requests
+-------------
+
+Please use the `GitHub issue tracker <https://github.com/bpepple/mokkari/issues>`_ to submit bugs or request features.
+
+License
+-------
+
+This project is licensed under the `GPLv3 License <LICENSE>`_.
+
+
