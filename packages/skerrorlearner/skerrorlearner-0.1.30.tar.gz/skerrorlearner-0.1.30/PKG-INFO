@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: skerrorlearner
+Version: 0.1.30
+Summary: Skerrorlearner is an Error Learning Package for Machine Learning
+Home-page: https://github.com/IndrashisDas/skerrorlearner
+Author: Indrashis Das
+Author-email: indrashisdas98@gmail.com
+License: Apache License 2.0
+Description: ==============
+        skerrorlearner
+        ==============
+        
+        ``skerrorlearner`` is a Python library which learns error to produce another model that can be used to predict the error that may occur. It uses ``numpy``, ``pandas``, ``scikit-learn``, ``xgboost``, ``ligtgbm`` and ``catboost`` for the same.
+        
+        Installation
+        ------------
+        
+        **Using pip**
+        
+        Use the package manager ``pip`` to install skerrorlearner.
+        
+           ``pip install skerrorlearner``
+        
+        Initialization
+        --------------
+        
+           
+           ``from skerrorlearner.learn_error import LearnRegressionError``
+           
+           ``from skerrorlearner.learn_error import LearnClassificationError``
+           
+           ``from skerrorlearner.learn_error import ProductionPredictionGeneration``
+        
+        
+           ``#initialise a skerrorlearner instance``
+        
+           ``lre = LearnRegressionError(rdf_train.copy(), rdf_val.copy(), rdf_test.copy(), feat.copy(), 'cnt', lgbm, 'rmse', True)``
+           
+           ``lce = LearnClassificationError(cdf_train.copy(), cdf_val.copy(), cdf_test.copy(), feat.copy(), 'income', cat,'accuracy', 'binary', 'macro', True, True)``
+           
+           ``cdf_ppg = ProductionPredictionGeneration()``
+        
+Keywords: skerrorlearner,machine learning,artificial intelligence,scikit learn,sklearn,numpy,pandas,scipy,xgboost,lightgbm,catboost
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
