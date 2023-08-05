@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: opensanctions
+Version: 3.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/alephdata/opensanctions
+Author: Friedrich Lindenberg
+Author-email: info@opensanctions.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev

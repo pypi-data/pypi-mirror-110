@@ -1,0 +1,4 @@
+[console_scripts]
+opensanctions = opensanctions.cli:cli
+osanc = opensanctions.cli:cli
+
