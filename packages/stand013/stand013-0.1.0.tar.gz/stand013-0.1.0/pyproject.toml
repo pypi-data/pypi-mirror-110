@@ -1,0 +1,77 @@
+[tool.poetry]
+name = "stand013"
+version = "0.1.0"
+description = "STAND13 file format parsing, writing, and validation."
+authors = ["Stein Magnus Jodal <stein.magnus.jodal@oda.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kolonialno/python-stand013"
+repository = "https://github.com/kolonialno/python-stand013"
+classifiers = [
+   "Development Status :: 3 - Alpha",
+   "Intended Audience :: Developers",
+   "Topic :: Software Development :: Libraries",
+   "License :: OSI Approved :: MIT License",
+   "Programming Language :: Python :: 3",
+   "Programming Language :: Python :: 3.7",
+   "Programming Language :: Python :: 3.8",
+   "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+importlib_metadata = {version = ">=1.6,<5.0", python = "<3.8"}
+lxml = "^4.6.3"
+typer = "^0.3.2"
+xmlschema = "^1.6.4"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+flake8 = "^3.9.2"
+flake8-annotations = "^2.6.2"
+flake8-black = "^0.2.1"
+flake8-bugbear = "^21.4.3"
+flake8-isort = "^4.0.0"
+isort = "^5.8.0"
+mypy = "^0.902"
+nox = "^2021.6.12"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+
+[tool.poetry.scripts]
+stand013 = "stand013.cli:app"
+
+[tool.black]
+target-version = ["py37"]
+
+[tool.coverage.run]
+branch = true
+source = ["src"]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+python_version = "3.7"
+warn_return_any = true
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+module = "stand013.*"
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = [
+    "importlib_metadata.*",
+    "lxml.*",
+    "xmlschema.*",
+]
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
