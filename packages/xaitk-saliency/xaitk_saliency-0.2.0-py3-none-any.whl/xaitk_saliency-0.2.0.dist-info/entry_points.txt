@@ -1,0 +1,6 @@
+[smqtk_plugins]
+impls.perturb_image.occlusion=xaitk_saliency.impls.perturb_image.sliding_window
+impls.perturb_image.rise=xaitk_saliency.impls.perturb_image.rise
+impls.vis_sal_similarity.similarityscoring=xaitk_saliency.impls.vis_sal_similarity.similarityscoring
+xaitk_saliency.impls.vis_sal_classifier.occlusion_scoring=xaitk_saliency.impls.vis_sal_classifier.occlusion_scoring
+
