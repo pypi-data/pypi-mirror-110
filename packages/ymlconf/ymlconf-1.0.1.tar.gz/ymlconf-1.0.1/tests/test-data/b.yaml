@@ -1,0 +1,4 @@
+B:
+  b1:
+    attr1: attr  # str
+    attr2: 1 # int

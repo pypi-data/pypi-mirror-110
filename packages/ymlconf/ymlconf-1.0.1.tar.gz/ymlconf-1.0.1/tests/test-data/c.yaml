@@ -1,0 +1,9 @@
+C:
+  c1:
+    c11:
+      attr1: attr_c  # str
+      attr2: 12315 # int
+
+    c12:
+      attr1: attr_c12
+      attr2: 123456
