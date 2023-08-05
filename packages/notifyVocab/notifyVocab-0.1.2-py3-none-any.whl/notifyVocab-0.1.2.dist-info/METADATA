@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: notifyVocab
+Version: 0.1.2
+Summary: a small library that notifies you of a new word and its meaning every time you run it
+Home-page: UNKNOWN
+Author: Mohammad Tayyib
+Author-email: tayyibsofi@gmail.com
+License: UNKNOWN
+Keywords: python,random-words,vocab,vocabulary,notification
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: PyDictionary
+Requires-Dist: plyer
+
+You can customize it a little bit by using task shedular so that you can get to learn a new word (every let`s say one hour)
+
+
