@@ -1,0 +1,24 @@
+
+{% load thumbnail %}
+
+
+<ul class="pgwSlideshow">
+    {% for image in images %}
+        <li>
+            <a href="{{ MEDIA_URL }}{{ image.file }}">
+                {% thumbnail image.file preview_size|default:'120' crop="center" as img %}
+                    <img src="{{ img.url }}"
+                         data-large-src="{{ MEDIA_URL }}{{ image.file }}"
+                         alt="{{ image }}"
+                         itemprop="image" />
+                {% endthumbnail %}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+<style>
+    .pgwSlideshow ul {
+        padding: 0;
+    }
+</style>

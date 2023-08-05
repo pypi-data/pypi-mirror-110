@@ -1,0 +1,16 @@
+
+<link rel="stylesheet" href="{{ STATIC_URL }}slider/jquery.fancybox.min.css">
+<script src="{{ STATIC_URL }}slider/jquery.fancybox.min.js"></script>
+
+<link rel="stylesheet" href="{{ STATIC_URL }}slider/pgwslideshow.min.css">
+<link rel="stylesheet" href="{{ STATIC_URL }}slider/pgwslideshow_light.min.css">
+<script src="{{ STATIC_URL }}slider/pgwslideshow.min.js"></script>
+
+<script>
+    $(window).on('load', function() {
+        $('.pgwSlideshow').pgwSlideshow();
+        $('.pgwSlideshow .ps-current a')
+            .attr('data-fancybox', '{{ group_name }}')
+            .fancybox();
+    });
+</script>
