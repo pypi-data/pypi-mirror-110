@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "pdm-publish"
+version = "0.2.0"
+description = "A PDM plugin to publish to PyPI"
+authors = ["Branch Vincent <branchevincent@gmail.com>"]
+repository = "https://github.com/branchvincent/pdm-publish"
+packages = [{ include = "pdm_publish", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+twine = "^3"
+pdm = "^1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+flake8 = "^3.9.2"
+isort = "^5.8.0"
+mypy = "^0.902"
+pre-commit = "^2.13.0"
+pyproject-flake8 = "^0.0.1-alpha.2"
+pytest = "^6.2.4"
+taskipy = "^1.8.1"
+pytest-mock = "^3.6.1"
+
+[tool.poetry.plugins.pdm]
+publish = "pdm_publish.__init__:main"
+
+[tool.taskipy.tasks]
+clean = { cmd = "rm -rf .mypy_cache/ .pytest_cache/ build/ dist/ *.egg-info", help = "Remove build artifacts" }
+lint = { cmd = "pre-commit run --all-files", help = "Run linters and formatters" }
+test = { cmd = "pytest", help = "Run tests" }
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = "E203"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+disallow_untyped_decorators = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[build-system]
+requires = ["pdm-pep517"]
+build-backend = "pdm.pep517.api"
+
+
+[project]
+name = "pdm-publisher"
+version = "0.1.5"
+description = "A PDM plugin to publish to PyPI"
+authors = [{name = "Branch Vincent", email = "branchevincent@gmail.com"}]
+requires-python = ">=3.7"
+dynamic = ["version", "classifiers"]
+dependencies = [
+    "pdm>=1",
+    "twine>=3"
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black<22.0,>=21.6b0",
+    "flake8<4.0.0,>=3.9.2",
+    "isort<6.0.0,>=5.8.0",
+    "mypy<1.0,>=0.902",
+    "pre-commit<3.0.0,>=2.13.0",
+    "pyproject-flake8<1.0.0.0,>=0.0.1-alpha.2",
+    "pytest<7.0.0,>=6.2.4",
+    "taskipy<2.0.0,>=1.8.1",
+]
+
+[tool.pdm.scripts]
+clean = { cmd = "rm -rf .mypy_cache/ .pytest_cache/ build/ dist/ *.egg-info", help = "Remove build artifacts" }
+lint = { cmd = "pre-commit run --all-files", help = "Run linters and formatters" }
+test = { cmd = "pytest", help = "Run tests" }
+
+
+[project.urls]
+Repository = "https://github.com/branchvincent/pdm-publish"
+
+[project.entry-points.pdm]
+publish = "pdm_publish.__main__:main"
