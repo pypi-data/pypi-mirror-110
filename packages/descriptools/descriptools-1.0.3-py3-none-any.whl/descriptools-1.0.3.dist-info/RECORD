@@ -1,0 +1,13 @@
+descriptools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+descriptools/downslope.py,sha256=dHP3nBMVW_GOKbrP2t5bCslsIe4L1I3UnLW5g-JaIMc,18643
+descriptools/evaluation.py,sha256=Vzx0Aewaamwkyb2ebGPpr-ltvwOF2M7_dyrfwtg5cqc,6786
+descriptools/flowhand.py,sha256=E1DXzqo5xertOS476l6CK2sciq6L4eMnj5Av6-sHUPM,34032
+descriptools/gfi.py,sha256=HIVqBpD--UI_J10f_LpKgpAJf02SwMThk2Cs6pO95bE,13295
+descriptools/helpers.py,sha256=C8E1S_Hbbz7IGlaiPIj4u9Zwvd9hPGWR_Vv3_CVpVMs,605
+descriptools/slope.py,sha256=IM_1JWpqfeGrOWlx4Sex-8V1tL0HKGeTgkurz0haofw,8160
+descriptools/topoindexes.py,sha256=dpHpO2XgJYsVuR6WYo_7hVZJlVtCFueUJ-cbxUDPj18,9699
+descriptools-1.0.3.dist-info/LICENSE.txt,sha256=2bK9Cct6wxETBHq0H-e-2j-QpmKpSbdMsK7P6KGsVw8,1111
+descriptools-1.0.3.dist-info/METADATA,sha256=uuAKz-vIfulq0hj-ZaAtoJd7JcI4BJPb_pgwOCjSmCE,2803
+descriptools-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+descriptools-1.0.3.dist-info/top_level.txt,sha256=zL7kCCr2BcqbaekisWZpHI-PYlnsM7Qeq050b3uqp-s,13
+descriptools-1.0.3.dist-info/RECORD,,
