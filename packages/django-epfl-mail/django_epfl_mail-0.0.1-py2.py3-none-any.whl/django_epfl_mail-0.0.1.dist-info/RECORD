@@ -1,0 +1,16 @@
+django_epflmail/__init__.py,sha256=IS0ILuZp7NxDxNjS-4EfFmZcD59z5PpnAeOkL2td8-g,95
+django_epflmail/locale/de/LC_MESSAGES/django.mo,sha256=tiFouvIL46eyi5Rvi6CM3H0bZuYjwrEZ2zImukqwhG0,417
+django_epflmail/locale/en/LC_MESSAGES/django.mo,sha256=Dt-KfrUdb4Xjihut7gT4qRD_fMU7uv0DFTIEduiBD9U,413
+django_epflmail/locale/fr/LC_MESSAGES/django.mo,sha256=RCk7McyGd7ZOgz9fzXKwdrZaHCuBvLlaKvNyYp9yniU,416
+django_epflmail/templates/epflmail/base.html,sha256=XBXehUG_ivFz4GKjCd_hVSh2P4rjLgkzeMA03KDLXfA,786
+django_epflmail/templates/epflmail/default.html,sha256=UoRt2meqow6b74mJwWcb3fjRi_qNCOVvxTUrBP4ANuI,603
+django_epflmail/templates/epflmail/includes/app-title.inc.html,sha256=r0pFPOQdptqiXaJ8osQzEog7FvxoMz5trt4NRBuNzsc,411
+django_epflmail/templates/epflmail/includes/copyright.inc.html,sha256=nO6bIqpP5XcNdpYGcYS0fs87EVIOVkjd1t2Rcdg8ihs,446
+django_epflmail/templates/epflmail/includes/header.inc.html,sha256=u2-Z4ng-3CTrsPF_mCpNjnyXOaEBwHeVUODWKUP8FKQ,287
+django_epflmail/templates/epflmail/includes/logo.inc.html,sha256=8V1GKjnPBeZErG-aFMwAy1CTrB--_JUde0iafmyQGYQ,175
+django_epflmail/templates/epflmail/includes/spacer.inc.html,sha256=Gb_5Eblai0Dk7gqXcAq7_SxYqVfybMwzJtFUIix_AdY,51
+django_epflmail/templates/epflmail/includes/style.inc.html,sha256=E5bm6c1a9uXYqNzcR0TehJIQMBUqwUNbJ5vnQr-BtLM,926
+django_epfl_mail-0.0.1.dist-info/METADATA,sha256=NA8RtSSoQecqjkz48ne4NIe4FYhq1Ksl121KROt1RR4,2565
+django_epfl_mail-0.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+django_epfl_mail-0.0.1.dist-info/top_level.txt,sha256=8AP-G_oXWUUh8TCh2wsk_R7aZVwbe_76BYye3Ln397s,16
+django_epfl_mail-0.0.1.dist-info/RECORD,,
