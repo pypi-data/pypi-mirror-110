@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: shitposts
+Version: 0.1.1
+Summary: Asynchronous wrapper for ShitpostAPI.
+Home-page: https://github.com/regulad/shitposts
+Author: regulad
+Author-email: regulad@outlook.com
+License: GPLv3
+Download-URL: https://codeload.github.com/regulad/shitposts/zip/refs/heads/main
+Keywords: async,api
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# shitposts
+
+Asynchronous wrapper for ShitpostAPI. 
+
+### Example
+
+```python
+import asyncio
+from shitposts import AsyncShitpostingSession
+
+
+async def main():
+    with open("input.mp4", "rb") as input_media:
+        input_bytes = input_media.read()
+
+    async with AsyncShitpostingSession() as session:
+        output_bytes = await session.edit(input_bytes, "video/mp4", frame={"bottom": "Text"})
+
+    with open("output.mp4", "xb") as output_media:
+        output_media.write(output_bytes)
+
+asyncio.run(main())
+```
+
+

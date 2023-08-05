@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+shitposts/__init__.py
+shitposts/errors.py
+shitposts/session.py
+shitposts.egg-info/PKG-INFO
+shitposts.egg-info/SOURCES.txt
+shitposts.egg-info/dependency_links.txt
+shitposts.egg-info/requires.txt
+shitposts.egg-info/top_level.txt
