@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: slack-messages
+Version: 0.0.1
+Summary: Slack messages made easy. Send slack messages to channels from you backend api etc.
+Home-page: https://github.com/joegasewicz/slack-messages
+Author: Joe Gasewicz
+Author-email: joegasewicz@gmail.com
+License: UNKNOWN
+Description: # slack-messages
+        Slack messages made easy. Send slack messages to channels from you backend api etc.
+        
+        ## install
+        ```bash
+        pip install slask-messages
+        ```
+        
+        ## Examples
+        Send a message
+        ```bash
+        slack = SlackMessages("<Access Token>")
+        res = slack.send_message(channel_name="my-chan", message="Hello!")
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
