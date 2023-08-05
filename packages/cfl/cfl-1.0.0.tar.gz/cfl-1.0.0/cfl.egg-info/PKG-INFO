@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: cfl
+Version: 1.0.0
+Summary: Causal Feature Learning (CFL) is an unsupervised algorithm designed to construct macro-variables from low-level data, while maintaining the causal relationships between these macro-variables. 
+Home-page: https://github.com/eberharf/cfl
+Author: Jenna Kahn and Iman Wahle
+Author-email: iwahle@caltech.edu
+License: UNKNOWN
+Description: See cfl.readthedocs.io for a full description
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7

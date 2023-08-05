@@ -1,0 +1,8 @@
+tqdm
+matplotlib
+tensorflow>=2.4.0
+numpy>=1.19.2
+scikit-learn>=0.23
+jupyter
+ipykernel
+joblib>=0.16.0
