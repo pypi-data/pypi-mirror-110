@@ -1,0 +1,36 @@
+CHANGES
+=======
+
+* fix: requirements.txt
+* docs: add a record gif
+* docs: update input formats
+* add plot sample to the docs
+* use mkdocs to build the docs
+* use pandas to read files, add progress bar
+* make empty string transform to 0
+* update plot
+* update README.md
+* fix a bug caused by a new release of canvasapi, fix its version to 1.0.0
+* plot
+* update user interface
+* fix exception handle
+* fix a bug on only total grade modified
+* update docs
+* update docs
+* fix a bug on modified rubric\_assessment
+* fix a bug on modified rubric\_assessment
+* fix a bug on modified rubric\_assessment
+
+0.1.0
+-----
+
+* catch CanvasException in update\_grade
+* add no-comment argument
+* prevent reedit not modified grades
+* add canvas-auto-rubric timestamp
+* add header
+* python version
+* python canvas api
+* update
+* template
+* Initial Commit

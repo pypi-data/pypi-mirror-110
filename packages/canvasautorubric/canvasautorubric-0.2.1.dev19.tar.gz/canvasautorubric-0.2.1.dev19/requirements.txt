@@ -1,0 +1,9 @@
+canvasapi==1.0.0
+click
+pbr
+logzero
+scipy
+pandas
+openpyxl
+matplotlib
+enlighten
