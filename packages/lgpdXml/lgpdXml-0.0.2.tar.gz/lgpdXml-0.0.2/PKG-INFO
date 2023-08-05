@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: lgpdXml
+Version: 0.0.2
+Summary: An simple and easy method to find and replace values of xml
+Home-page: https://github.com/claudiotorresarbe/lgpdXml
+Author: Claudio Torres Arbe
+Author-email: claudiotarbe@gmail.com
+License: UNKNOWN
+Description: # lgpd_xml
+        ## 1 - pip Install
+        ```
+        pip install lgpdXml
+        ```
+        ## 2 - example replace value
+        ```
+        #library
+        from lgpdXml import *
+        
+        #text
+        xml = '''<name>john</name><uf>rn</uf><city>natal</city><age>31</age>'''
+        
+        #call class
+        text = lgpdXml(xml)
+        
+        #replace using tag
+        newText = text.replace('<city>','natal','</city>','parnamirim')
+        
+        #result
+        print(newText)
+        ```
+        ## 3 - example find value of tag
+        ```
+        #library
+        from lgpdXml import *
+        
+        #text
+        xml = '''<name>john</name><uf>rn</uf><city>natal</city><age>31</age>'''
+        
+        #call class
+        text = lgpdXml(xml)
+        
+        #find using tag
+        searchVal = text.find('<uf>','</uf>')
+        
+        #result
+        print(searchVal)
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

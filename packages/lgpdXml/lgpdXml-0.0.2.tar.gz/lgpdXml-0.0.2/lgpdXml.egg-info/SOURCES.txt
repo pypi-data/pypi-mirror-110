@@ -1,0 +1,7 @@
+README.md
+setup.py
+lgpdXml/__init__.py
+lgpdXml.egg-info/PKG-INFO
+lgpdXml.egg-info/SOURCES.txt
+lgpdXml.egg-info/dependency_links.txt
+lgpdXml.egg-info/top_level.txt
