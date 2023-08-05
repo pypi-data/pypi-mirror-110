@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pharos
+Version: 0.2.0
+Summary: Graviti Pharos Python SDK
+Home-page: UNKNOWN
+Author: Graviti
+Author-email: pypi@graviti.com
+License: UNKNOWN
+Description: # pharos
+        
+        TensorBay visualization SDK
+        
+Keywords: graviti,tensorbay,dataset,pharos,visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
