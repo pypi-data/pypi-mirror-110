@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+py_multiapi/__init__.py
+py_multiapi/main.py
+py_multiapi.egg-info/PKG-INFO
+py_multiapi.egg-info/SOURCES.txt
+py_multiapi.egg-info/dependency_links.txt
+py_multiapi.egg-info/requires.txt
+py_multiapi.egg-info/top_level.txt
