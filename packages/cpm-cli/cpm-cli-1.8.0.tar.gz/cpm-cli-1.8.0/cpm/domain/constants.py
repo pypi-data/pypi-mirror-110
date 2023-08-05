@@ -1,0 +1,7 @@
+PROJECT_DESCRIPTOR_FILE = 'project.yaml'
+BUILD_DIRECTORY = 'build'
+CMAKELISTS = 'CMakeLists.txt'
+CMAKE_COMMAND = 'cmake'
+NINJA_COMMAND = 'ninja'
+DEFAULT_PROJECT_VERSION = '0.0.1'
+DEFAULT_TARGET = 'default'

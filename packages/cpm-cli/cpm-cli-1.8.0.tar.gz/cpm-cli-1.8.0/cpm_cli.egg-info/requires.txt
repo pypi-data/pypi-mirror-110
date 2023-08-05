@@ -1,0 +1,14 @@
+urllib3
+pyyaml
+requests
+docker
+ninja
+cmake
+ruamel.yaml
+six
+
+[testing]
+pytest
+mock
+werkzeug
+Flask
