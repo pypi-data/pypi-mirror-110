@@ -1,0 +1,6 @@
+README
+setup.py
+hello_dave_donaghy.egg-info/PKG-INFO
+hello_dave_donaghy.egg-info/SOURCES.txt
+hello_dave_donaghy.egg-info/dependency_links.txt
+hello_dave_donaghy.egg-info/top_level.txt

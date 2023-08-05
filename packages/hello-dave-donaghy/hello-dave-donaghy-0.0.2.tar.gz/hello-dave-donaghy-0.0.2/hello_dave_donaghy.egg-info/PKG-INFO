@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hello-dave-donaghy
+Version: 0.0.2
+Summary: Hello, World! Python project
+Home-page: https://github.com/dave-donaghy/hello
+Author: Dave Donaghy
+Author-email: dave.donaghy@example.com
+License: UNKNOWN
+Description: Hello, World! Python project
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
