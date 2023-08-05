@@ -1,0 +1,14 @@
+data_manipulation/__init__.py,sha256=Zcf4iAdC9YNUzkF9Rav8fYHqzlxq28gQOr_btLa-D6s,205
+data_manipulation/_version.py,sha256=KAalP2Ig5KWm9rLVwkuLVf49VMmdiE35rnVtHEFBUE8,496
+data_manipulation/base.py,sha256=7MoyI7xqHRXM8Nw4eqkC8bDf9anmvo5mD-n5XC8T6UU,7179
+data_manipulation/beautifulsoup_.py,sha256=z9hbn2aPM06QKPffR-89qJhHLUmVVR6JkLkdE3adTR8,641
+data_manipulation/django_.py,sha256=jy5iVa5zrhqQifeRC3iiCdIKL_x-b6YmDL4NWrTIA6w,939
+data_manipulation/geopandas_.py,sha256=7jlHI3xu12C6KzCl2n6S9wdi_R-MYNM-IN5Hco1InSs,954
+data_manipulation/pandas_.py,sha256=PhcNBCSHKWcfWIkfc39FTVU9tglR7EBYTCprkEo-PDo,20390
+data_manipulation/psycopg2_.py,sha256=4Incx8Oljj-906dnoPPh5Us5EwBl_Ns4qqkCug2sdGM,1240
+data_manipulation/pyspark_.py,sha256=2vdSHcXY-y8yTpYCufL_45oLZOM3HsK_ucFSj-9evbY,12929
+data_manipulation-0.26.dist-info/LICENSE,sha256=037VZt0ToeGMEK5WwYjEooTF5GUj6mdyn5tRE7SgmII,1521
+data_manipulation-0.26.dist-info/METADATA,sha256=OyotmhBned5QVBf4TdcZyMQbvZKCUS9b3gjieWa8tKs,1203
+data_manipulation-0.26.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+data_manipulation-0.26.dist-info/top_level.txt,sha256=TJSC67QNU35IaBmddaUkyUI4HxbuCWt6YmlCcPsEUqY,18
+data_manipulation-0.26.dist-info/RECORD,,
