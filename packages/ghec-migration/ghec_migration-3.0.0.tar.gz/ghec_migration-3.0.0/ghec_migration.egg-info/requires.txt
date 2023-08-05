@@ -1,0 +1,7 @@
+requests
+regex
+PyInquirer
+python-jenkins
+pbr
+multi-key-dict
+xmltodict
