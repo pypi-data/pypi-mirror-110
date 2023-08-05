@@ -1,0 +1,3 @@
+[console_scripts]
+ccard = ccard.main:main
+
