@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Similarity-Score-Module
+Version: 1.0
+Summary: Check Similarity Score
+Home-page: https://github.com/sonucr7/Similarity_Score_Module
+Author: Sonu Kumar
+Author-email: sonu1000raw@gmail.com
+License: MIT
+Download-URL: https://github.com/sonucr7/Similarity_Score_Module/archive/v_01.tar.gz
+Description: # Similarity_Score_Module
+Keywords: Similarity_Score,Pandas,neattext,sklearn
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
