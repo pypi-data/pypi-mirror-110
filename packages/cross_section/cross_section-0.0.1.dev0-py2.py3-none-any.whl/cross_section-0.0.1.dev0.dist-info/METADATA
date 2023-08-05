@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cross_section
+Version: 0.0.1.dev0
+Summary: Structural cross-section analysis.
+Author: Patrick Simon
+Author-email: mail@patricksimon.info
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# cross_section: Structural cross-section analysis
+
+
