@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: envdataclass
+Version: 0.3
+Summary: Parses .env files against dataclass based schema validation
+Home-page: UNKNOWN
+Author: briccardo
+Author-email: rbiagini02@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+
+# envdataclass
+
+Parses .env files against dataclass based schema validation
+
+`pip install envdataclass`
+
+# Supported schema types
+
+- `int`
+- `str`
+- `List[int]`
+- `bool` 
+
+# Example usage (short and sweet)
+
+```python
+from dataclasses import dataclass
+from typing import List
+
+from envdataclass import from_string
+
+
+@dataclass
+class my_cool_config_schema:
+    test_list_int: List[int]
+
+
+foo = from_string(my_cool_config_schema, 'test_list_int=1,2,3,5')
+print(foo)
+print(type(foo.test_list_int))
+print(type(foo.test_list_int[1]))
+```
+
+Output: 
+```python
+my_cool_config_schema(test_list_int=[1, 2, 3, 5])
+<class 'list'>
+<class 'int'>
+```
+
+# Example usage (longer version)
+
+Define a data class for your config schema:
+
+```python
+@dataclass
+class my_cool_config_schema:
+    test_list_int: List[int]
+
+    test_int: int
+    test_string: str = '123'
+    test_bool: bool = False
+
+    test_string_d: str = 'hello'
+    test_int_d: int = 1234
+    test_bool_d: bool = False
+```
+
+The variables without a default value assigned will be assumed to be required. This means an exception will be thrown when
+any number of required variables are not present or are invalid in the environment file.
+
+Example: `TypeError: __init__() missing 1 required positional argument: 'test_int'`
+
+Setup a `.env` file:
+```
+test_string_d=hellofromtheotherside
+test_int=98766
+test_bool_d=true
+test_list_int=123,456,123
+```
+
+Load it:
+
+```python
+foo = from_file(my_cool_config_schema, '/path/.env')
+```
+
+Result:
+
+```python
+lol(test_list_int=[123, 456, 123], 
+    test_int=98766, 
+    test_string='123', 
+    test_bool=False, 
+    test_string_d='hellofromtheotherside', 
+    test_int_d=1234, 
+    test_bool_d=True)
+```
+
+- `test_list_int` got parsed from a `str` equal to `'123,456,123'` to a `List` equal to `[123, 456, 123]`
+- `test_bool_d` got parsed from `str` equal to `'true'` to `True`
+
