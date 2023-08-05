@@ -1,0 +1,6 @@
+[console_scripts]
+jhydc=jexp.cli.jhyd_clean:main
+jpin=jexp.cli.jpin:main
+jstar=jexp.cli.star_file:main
+jwdc=jexp.cli.jwb_clean:main
+
