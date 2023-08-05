@@ -1,0 +1,14 @@
+snowbim/__init__.py,sha256=oayciHa8gWfYm6pQ_OgooB14B-7xdt4UwGMfRSWRIws,44
+snowbim/__main__.py,sha256=leq9QooO6DSw10F_uQIeZ_fIOGqWdrAEvMUCN22u_GY,2510
+snowbim/snowbim.py,sha256=UtEPO4qNdzvFQXbyUzLvdfaZYJJXBmAm78X9kvxeR5M,2450
+snowbim/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowbim/engines/bimengine.py,sha256=YXOQGqy2QM9e60JvqF56bv7B1H986764-b29dHrV_os,5169
+snowbim/engines/snowengine.py,sha256=EsyJHSXYeMJszWW_Uju1SuDtgD7hDp3idsw9vVdC3Jk,8692
+snowbim/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snowbim/utilities/common.py,sha256=aV7MY0t0Qg3ubjWzQbj8PeCkoTPu-n8ZYQJtkFo4h74,1611
+snowbim-1.0.12.dist-info/LICENSE,sha256=AUszzHNVL0A3_dIGHeizSGU7l6Dh1hdZQxu6SGsOsts,1086
+snowbim-1.0.12.dist-info/METADATA,sha256=mlRrEPUqs0R5rwFoybrfZLH8ISoOCJCW1LQtUuej2rY,2469
+snowbim-1.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+snowbim-1.0.12.dist-info/entry_points.txt,sha256=I3T2H0ZD0n7ssxNf8ALs91t6G00lrPqXG4qMIzQGJ5k,51
+snowbim-1.0.12.dist-info/top_level.txt,sha256=wn50Ff3Rm_0EptySn3aHWz2thS8Y-F1imqETuez2swQ,8
+snowbim-1.0.12.dist-info/RECORD,,
