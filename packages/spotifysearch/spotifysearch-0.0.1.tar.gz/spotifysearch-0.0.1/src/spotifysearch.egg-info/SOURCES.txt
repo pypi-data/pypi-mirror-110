@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spotifysearch/__init__.py
+src/spotifysearch/calls.py
+src/spotifysearch/classes.py
+src/spotifysearch/client.py
+src/spotifysearch/constructor.py
+src/spotifysearch/urlbuilder.py
+src/spotifysearch.egg-info/PKG-INFO
+src/spotifysearch.egg-info/SOURCES.txt
+src/spotifysearch.egg-info/dependency_links.txt
+src/spotifysearch.egg-info/top_level.txt
