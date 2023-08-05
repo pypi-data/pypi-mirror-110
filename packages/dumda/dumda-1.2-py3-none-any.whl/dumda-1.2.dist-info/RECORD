@@ -1,0 +1,11 @@
+dumda/__init__.py,sha256=50BFYeXbqZW2LI95Cq942VICvbF_Eh1ScABU9UftPQ0,65
+dumda/baby-names.csv,sha256=EllSP6duXBgVGkx2ErhUsiYF0HEnxZYSaUDilBuhXTw,7447879
+dumda/cities.py,sha256=4xRRJro9846riM5x33VxZEOG0srLg_2CGXaakrJA6Rs,2108
+dumda/names.py,sha256=CC9FP9Td_jnfaxSyTvpypomO1p3c_KceR0NItkiqNrk,2836
+dumda/phones.py,sha256=4jMzUSFR6BUIqEW7yAD8updVUsGJuIr23rLJq56YMRc,412
+dumda/world_cities.csv,sha256=J_iSmBHOnSNfpU0yLIjqXt3dBalkK8-MID3NcR3dGC4,895586
+dumda-1.2.dist-info/LICENCE,sha256=w58IZwqQbDfb-GO_aKuQk3ff5ZEzmliRsnBVGOBEyWA,1084
+dumda-1.2.dist-info/METADATA,sha256=l8kaNMo4i_OVpvlOAEtaPcveHAh4TxM0w225YhSSXqQ,5396
+dumda-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dumda-1.2.dist-info/top_level.txt,sha256=G6xcGVsukrNFS5SQVhaMfzIdx4-9cLHTZKQjEUoIBgk,6
+dumda-1.2.dist-info/RECORD,,
