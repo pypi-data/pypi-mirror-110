@@ -1,0 +1,16 @@
+flaskstarter/__init__.py,sha256=BY7yCz8JAMQWaM5g-KUwW4eWgnfc7Q5ArMwJP4idB90,628
+flaskstarter/flaskstart_cli.py,sha256=o6m_bBpx0TFxgNoDdFBDTEKpF13XNT65ile8P2k9a4c,4682
+flaskstarter/templates/configuration.pyt,sha256=C03rSUkBEsj2iaFLy2oHiA5MkU-QPuNodkzhpm8lm3Q,359
+flaskstarter/templates/index.htmlt,sha256=H49pLRMG0ei5y5riZ6GI9ztvNzfBtjwwzaIU46a0tyI,374
+flaskstarter/templates/init.pyt,sha256=EWM2WIICUjGos4FQ0SWg-NIPGIaw16ZEDepUL2fIQ9o,336
+flaskstarter/templates/manage.pyt,sha256=vkpf4sMGzl5NxiM_EoEoROMI8ai0aGD-GGehUg6N8QY,2022
+flaskstarter/templates/settings.tomlt,sha256=HHC2tnjmM-TNKegbcCiO6UWCHyPJ6IvjvrC2KU0563g,110
+flaskstarter/templates/views.pyt,sha256=J06tdC3csODoDXtNwbGcUrhYGEPiXDQ7s0b01bNOSg0,124
+flaskstarter/tools/__init__.py,sha256=RNyw4_YG6IirIM0ttJm95SCnJVUWOt6ClC9XpkgRv1Y,632
+flaskstarter/tools/requirements.py,sha256=_cwRBbDiG2fL0YA_56oNhe1JBA9mhNS49CP2fZxDdQg,1472
+flaskstarter-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+flaskstarter-0.2.1.dist-info/METADATA,sha256=9VgJJ9VpIKGmPTKnEnRwN9iJ32YrKgqvcHXc7Abgnss,2627
+flaskstarter-0.2.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+flaskstarter-0.2.1.dist-info/entry_points.txt,sha256=GoUGjU-d7u9EHWgmm7W_HXzSptbLBv-r5ZrUwLfvqv0,75
+flaskstarter-0.2.1.dist-info/top_level.txt,sha256=x0QY3pbvMGUGehzZ5Iy6Br3efdja1GA95E3IkjGMukY,13
+flaskstarter-0.2.1.dist-info/RECORD,,
