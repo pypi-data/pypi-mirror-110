@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: geococu
+Version: 0.0.1
+Summary: A python package for interactive mapping.
+Home-page: https://github.com/Vaibhav170216/geococu
+Author: Vaibhav Nagar
+Author-email: vaib3hab@gmail.com
+License: MIT license
+Description: # geococu
+        
+        
+        [![image](https://img.shields.io/pypi/v/geococu.svg)](https://pypi.python.org/pypi/geococu)
+        
+        
+        **A python package for interactive mapping.**
+        
+        
+        -   Free software: MIT license
+        -   Documentation: https://Vaibhav170216.github.io/geococu
+            
+        
+        ## Features
+        
+        -   TODO
+        
+        ## Credits
+        
+        This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
+        
+Keywords: geococu
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
