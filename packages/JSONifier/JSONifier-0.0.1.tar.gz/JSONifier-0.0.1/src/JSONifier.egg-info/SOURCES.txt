@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/jsonify.py
+src/JSONifier.egg-info/PKG-INFO
+src/JSONifier.egg-info/SOURCES.txt
+src/JSONifier.egg-info/dependency_links.txt
+src/JSONifier.egg-info/top_level.txt
