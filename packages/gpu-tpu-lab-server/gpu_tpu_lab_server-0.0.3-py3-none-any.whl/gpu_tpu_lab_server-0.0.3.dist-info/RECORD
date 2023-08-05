@@ -1,0 +1,9 @@
+gpu_tpu_lab_server/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+gpu_tpu_lab_server/_nbdev.py,sha256=rvQsT06n_C19vlkToLlusJHabcjBE2I0TLRNb4nqstM,377
+gpu_tpu_lab_server/core.py,sha256=BJs_PAcaaVDHCEF8DsIe19Z9P3RiNe5mQMs0OpY3OL8,1467
+gpu_tpu_lab_server-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gpu_tpu_lab_server-0.0.3.dist-info/METADATA,sha256=epZY9IFglwPlH3DDAv-ePLJMjNk9Rjk3o7b6PUz4vbU,1711
+gpu_tpu_lab_server-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gpu_tpu_lab_server-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+gpu_tpu_lab_server-0.0.3.dist-info/top_level.txt,sha256=vHranJvZqVSVs1bxou_So1_rxHlHGyPJ56xrVA749Qg,19
+gpu_tpu_lab_server-0.0.3.dist-info/RECORD,,
