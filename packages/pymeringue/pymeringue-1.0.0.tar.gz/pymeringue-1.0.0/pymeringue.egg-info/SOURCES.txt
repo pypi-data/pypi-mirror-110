@@ -1,0 +1,8 @@
+README.md
+setup.py
+meringue/__init__.py
+meringue/meringue.py
+pymeringue.egg-info/PKG-INFO
+pymeringue.egg-info/SOURCES.txt
+pymeringue.egg-info/dependency_links.txt
+pymeringue.egg-info/top_level.txt
