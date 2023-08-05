@@ -1,0 +1,11 @@
+sniparinject/__init__.py,sha256=e6SXifSM2k8jxos7320W_19mIId1HR8VlK8Y3VL_U0w,69
+sniparinject/network_sniffer.py,sha256=zCwWtDYYpVQPYaUhN4UaWCQvvIsY-3FaYkQMiXyDBHE,1972
+sniparinject/core/__init__.py,sha256=e6SXifSM2k8jxos7320W_19mIId1HR8VlK8Y3VL_U0w,69
+sniparinject/core/game.py,sha256=TtjYZqeCw_XmDtCmj6QphhuhxHXS3mGVtkr_ZAkRLTs,17806
+sniparinject/core/settings.py,sha256=Fl8xgULJaAC8qkhsaZMtqbMcnJKaAE4V-U0WBXHDRGc,1054
+sniparinject/core/text_style.py,sha256=aK5aB_HT_qHIsTRGms1EcjRj8wJLofoloP20mzenMao,273
+sniparinject/core/utility.py,sha256=hM7xO77KBqFHvM_wC4p57b_cLr-vxdGfcJzH6ymy_8Q,1607
+sniparinject-0.0.0.dev6.dist-info/METADATA,sha256=LbcrQCXzAnlMFNKREzRvmQBek5Q33cwNjEQLCmI1gnw,12796
+sniparinject-0.0.0.dev6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sniparinject-0.0.0.dev6.dist-info/top_level.txt,sha256=txiwH5zWpKjjp0CCQWnWpRBOnMO33DEzuuXd7DpFAlE,13
+sniparinject-0.0.0.dev6.dist-info/RECORD,,
