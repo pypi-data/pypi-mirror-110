@@ -1,0 +1,63 @@
+{%- block navigation %}
+    <div class="thunlp-menu" data-spy="affix" role="navigation" aria-label="{{ _('Main') }}">
+        <div class="project-name">
+            {{ project }}
+        </div>
+        <div class="project-search">
+            {%- include "searchbox.html" %}
+        </div>
+        <div class="project-nav">
+            {%- block menu %}
+                {%- set toctree = toctree(includehidden=True, collapse=False, maxdepth=1) %}
+                {%- if toctree %}
+                    <div class="navbar">
+                        {{ toctree }}
+                    </div>
+                    <script>
+                    (function(){
+                        var menu = document.querySelector(".thunlp-menu .navbar").children;
+                        var nw_dom = document.createElement("div");
+                        nw_dom.classList.add("navbar");
+                        while (menu.length > 0) {
+                            
+                            if (menu[0].tagName.toLowerCase() == "p") {
+                                var has_current = (menu[1].querySelector(".current") != null);
+                                var sub_menu = document.createElement("div");
+                                sub_menu.classList.add("link-group", "nav-top");
+                                sub_menu.appendChild(menu[0]);
+                                sub_menu.appendChild(menu[0]);
+                                if (has_current) sub_menu.classList.add("current");
+                                nw_dom.appendChild(sub_menu);
+                            } else {
+                                var lis = menu[0].children;
+                                var orig_length = lis.length;
+                                for (var i = 0; i < lis.length; ++ i) {
+                                    var sub_menu = document.createElement("div");
+                                    var _p = document.createElement("p");
+                                    var has_current = (lis[i].querySelector(".current") != null);
+                                    _p.appendChild(lis[i].querySelector("a"))
+                                    sub_menu.appendChild( _p );
+                                    sub_menu.classList.add("nav-top");
+                                    if (has_current) sub_menu.classList.add("current");
+                                    nw_dom.appendChild(sub_menu);
+                                }
+                                menu[0].remove()
+                            }
+                        }
+                        document.querySelector(".thunlp-menu .navbar").parentNode.replaceChild(nw_dom, document.querySelector(".thunlp-menu .navbar"));
+                    })();
+                    </script>
+                {%- endif %}
+            {%- endblock %}
+        </div>
+        <div class="project-source" >
+            {%- if github_url %}
+            <a href="{{github_url}}" style="width: 1.5rem; height: 1.5rem; display: block; margin-left: 1rem;">
+                <svg viewBox="0 0 16 16" version="1.1">
+                    <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                </svg>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+{%- endblock %}
