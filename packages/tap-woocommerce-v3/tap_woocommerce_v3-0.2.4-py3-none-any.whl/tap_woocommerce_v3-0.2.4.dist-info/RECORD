@@ -1,0 +1,8 @@
+tap_woocommerce/__init__.py,sha256=D9cfZc6is-eNu5qlCMX1mLSK2zoj2gfYirtA_NEGugk,8851
+tap_woocommerce/schemas/orders.json,sha256=ULAZ2YF-t9Ns5qd1ovm4ZxFrLkYYX9jhwLzfCXtvvM0,3181
+tap_woocommerce_v3-0.2.4.dist-info/LICENSE,sha256=xNuDgLmykYhajKZueHKWS9ZgnCFZ47hzbPCyI5-hs9c,32393
+tap_woocommerce_v3-0.2.4.dist-info/METADATA,sha256=FI71EP76y7outd87nYzNU7oADvUkGxUtTMDjdionZX8,488
+tap_woocommerce_v3-0.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tap_woocommerce_v3-0.2.4.dist-info/entry_points.txt,sha256=dQjPTjz6qvawYpuIE6pq8rtZIglzE8mS5CzJVbqgsQU,71
+tap_woocommerce_v3-0.2.4.dist-info/top_level.txt,sha256=NKT2hvdMPXAEGouLq83sCP2tl1oYZND3JV7osCClECs,16
+tap_woocommerce_v3-0.2.4.dist-info/RECORD,,
