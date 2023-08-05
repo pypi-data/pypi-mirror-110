@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trell-ai-utils
+Version: 0.1.30
+Summary: Utility code for trell ai repos
+Home-page: https://gitlab.com/trell/trell-ai-util
+Author: Abhay Kumar
+Author-email: abhay@trell.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6.9
+
+Trell AI Pip Package    
+ ![PyPI](https://img.shields.io/pypi/v/trell-ai-utils)    
+ ![PyPI - Downloads](https://img.shields.io/pypi/dm/trell-ai-utils?logo=Python&style=social)
+
+
