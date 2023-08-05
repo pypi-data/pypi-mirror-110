@@ -1,0 +1,42 @@
+name: build
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    build:
+        runs-on: self-hosted
+
+        env:
+            USING_COVERAGE: "3.9"
+
+        steps:
+            - name: Checkout sources
+              uses: actions/checkout@v2
+
+            - name: Set up Python
+              working-directory: ${{runner.workspace}}/gr-lora_sdr-profiler
+              shell: bash
+              run: |
+                  if [ ! -d "venvprofiler" ]; then
+                    python3 -m venv venvprofiler
+                  fi
+
+            - name: Install dependencies
+              working-directory: ${{runner.workspace}}/gr-lora_sdr-profiler
+              shell: bash
+              run: |
+                  source venvprofiler/bin/activate
+                  pip3 install -r requirements.txt
+
+            - name: Run tox
+              shell: bash
+              working-directory: ${{runner.workspace}}/gr-lora_sdr-profiler
+              run: |
+                  python3 -m tox
+
+            - name: Upload coverage to Codecov
+              uses: codecov/codecov-action@v1
+              with:
+                  fail_ci_if_error: true

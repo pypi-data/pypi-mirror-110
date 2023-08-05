@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "gr_lora_sdr_profiler"
+author = "Martyn van Dijke"
+author-email = "martijnvdijke600@gmail.com"
+home-page = "https://github.com/martynvdijke/gr-lora_sdr-profiler"
+requires=[
+    "flit_core>=2.2.0",
+    "coloredlogs",
+    "prompt_toolkit",
+    "pandas",
+    "wandb"
+]
+classifiers = [ "License :: OSI Approved :: MIT License"]
+requires-python = ">=3.7"
+description-file = "README.md"
+
+[tool.black]
+line-length = 100
+
+[tool.flit.scripts]
+gr_lora_sdr_profiler = "gr_lora_sdr_profiler:main"
