@@ -1,0 +1,14 @@
+
+[adsi]
+
+[adsi:sys_platform == "win32" and platform_python_implementation != "PyPy"]
+pywin32>=300
+
+[all]
+python-ldap>=3.3
+
+[all:sys_platform == "win32" and platform_python_implementation != "PyPy"]
+pywin32>=300
+
+[ldap]
+python-ldap>=3.3
