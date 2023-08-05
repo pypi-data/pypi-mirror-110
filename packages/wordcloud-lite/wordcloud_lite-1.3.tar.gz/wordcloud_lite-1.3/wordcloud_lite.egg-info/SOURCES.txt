@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+wordcloud_lite/wcl.py
+wordcloud_lite.egg-info/PKG-INFO
+wordcloud_lite.egg-info/SOURCES.txt
+wordcloud_lite.egg-info/dependency_links.txt
+wordcloud_lite.egg-info/requires.txt
+wordcloud_lite.egg-info/top_level.txt
