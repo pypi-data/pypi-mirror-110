@@ -1,0 +1,5 @@
+neptune-client>=0.9.10
+sacred
+flatten-dict
+
+[all]
