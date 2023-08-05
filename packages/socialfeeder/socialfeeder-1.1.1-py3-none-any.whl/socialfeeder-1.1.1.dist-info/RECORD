@@ -1,0 +1,17 @@
+socialfeeder/__init__.py,sha256=ZRU1q9mBt2zHISEv_GpUbRLZ0g2iYBH0T43unow5I0g,21
+socialfeeder/__main__.py,sha256=zoMCU0bdHXXo7P5M9Qy-eFmMPng7yQC7WuPwmxUaOAs,755
+socialfeeder/feeder.py,sha256=S1dTdpGKmDBkc2X81AujSuKfgAPdX7975GVV6ByYm6M,495
+socialfeeder/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socialfeeder/engines/core.py,sha256=gww_WagSnvta2BUtiEkjf5SfrDjc3dm6UcrMSNjcBVk,3431
+socialfeeder/engines/facebook.py,sha256=G4Tf5rvex5bJf5qODURy-EkiRxJJEpsELZt5CLAXT0w,5071
+socialfeeder/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socialfeeder/utilities/common.py,sha256=XA8Xx_qpAorWT7Ex48u1ES4119MxkjiqXDPOUF8O3IY,1218
+socialfeeder/utilities/configuration.py,sha256=x7X9-z6MPu0FYLGepiwXD_HJthsmGYnxSvvTA1uVgog,2322
+socialfeeder/utilities/configuration.xsd,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socialfeeder/utilities/constants.py,sha256=1N1chxAJVmXLA_WtPJglGHadp3UYv1tVRRHEbbqwhpc,215
+socialfeeder-1.1.1.dist-info/LICENSE,sha256=vGZywU444TsqEk7ywKOsUfop6fwsqEXUfRuOgjJjG_o,1065
+socialfeeder-1.1.1.dist-info/METADATA,sha256=yPa--EoG4bXmxNeeTWblLUWe_ooB_1d4Cwwkq9DZJTA,1717
+socialfeeder-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+socialfeeder-1.1.1.dist-info/entry_points.txt,sha256=vonPNili8LYYeDQSiqj-p2zF_ohIrlsuW2KPkOteiE8,55
+socialfeeder-1.1.1.dist-info/top_level.txt,sha256=yPA5jaSzN9PByzKBSCqMwAz2cRL65dlXFJQzN2dTHvs,13
+socialfeeder-1.1.1.dist-info/RECORD,,
