@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sl_abuse/__init__.py
+sl_abuse/__main__.py
+sl_abuse.egg-info/PKG-INFO
+sl_abuse.egg-info/SOURCES.txt
+sl_abuse.egg-info/dependency_links.txt
+sl_abuse.egg-info/entry_points.txt
+sl_abuse.egg-info/requires.txt
+sl_abuse.egg-info/top_level.txt

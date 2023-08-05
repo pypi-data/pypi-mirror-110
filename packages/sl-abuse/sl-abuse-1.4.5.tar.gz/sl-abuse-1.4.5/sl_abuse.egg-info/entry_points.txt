@@ -1,0 +1,3 @@
+[console_scripts]
+sl-abuse = sl_abuse.__main__:main
+
