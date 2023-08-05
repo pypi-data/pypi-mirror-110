@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fluidai-sanatio
+Version: 1.0.1
+Summary: Run different validation tests on machine learning models.
+Home-page: https://github.com/
+Author: FluidAI
+Author-email: info@fluid.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: flask
+Requires-Dist: sqlalchemy
+Requires-Dist: pymssql
+
+# FluidAI - Sanatio
+
+> sanatio(Latin) OR validation(English) <br>
+>> noun <br>
+>> 1. the action of checking or proving the validity or accuracy of something.
+>> 2. the action of making or declaring something legally or officially acceptable.
+>> 3. recognition or affirmation that a person or their feelings or opinions are valid or worthwhile.
+
+The FluidAI - Sanatio package provides functions to perform different types of validation functions, the results of 
+which can be used for ensuring the machine learning model trained is robust and the accuracy levels attained are 
+dependable. <br>
+
+The future versions (greater than 1.0.0) will include recommendations based on the test results. 
+
+## Creating a PIP Package on Pypi.org
+[Steps to Create a pip package](https://packaging.python.org/tutorials/packaging-projects/)
+
+Use the fluidai username for logging into test.pypi.org or pypi.org respectively
+
+Use 192.168.1.90 to upload packages, all packages are uploaded from there
+
+
