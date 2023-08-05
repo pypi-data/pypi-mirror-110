@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyArchiver/__init__.py
+pyArchiver/pyArchiver.py
+pyArchiverVadim.egg-info/PKG-INFO
+pyArchiverVadim.egg-info/SOURCES.txt
+pyArchiverVadim.egg-info/dependency_links.txt
+pyArchiverVadim.egg-info/top_level.txt
+tests/__init__.py
+tests/test_archiver.py
