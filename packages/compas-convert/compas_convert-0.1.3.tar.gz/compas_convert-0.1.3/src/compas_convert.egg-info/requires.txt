@@ -1,0 +1,16 @@
+compas<1.8,>=0.17.2
+
+[dev]
+black>=21.5b2
+build>=0.4.0
+flake8
+graphviz>=0.16
+invoke>=1.5.0
+mypy>=0.790
+pydocstyle[toml]
+pytest>=6
+reorder-python-imports>=2.5.0
+setuptools_scm[toml]<7.0,>=4.1
+
+[dev:python_version < "3.8"]
+importlib_metadata
