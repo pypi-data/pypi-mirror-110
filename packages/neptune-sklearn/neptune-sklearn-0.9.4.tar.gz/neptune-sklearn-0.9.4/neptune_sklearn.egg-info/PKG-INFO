@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: neptune-sklearn
+Version: 0.9.4
+Summary: Neptune.ai scikit-learn integration library
+Home-page: https://neptune.ai/
+Author: neptune.ai
+Author-email: contact@neptune.ai
+License: Apache License 2.0
+Project-URL: Tracker, https://github.com/neptune-ai/neptune-sklearn/issues
+Project-URL: Source, https://github.com/neptune-ai/neptune-sklearn
+Project-URL: Documentation, https://docs.neptune.ai/integrations-and-supported-tools/model-training/sklearn
+Description: # Neptune: sklearn integration
+        
+        See [the official docs](https://docs.neptune.ai/integrations-and-supported-tools/model-training/sklearn).
+        
+        Minimal example:
+        
+        ```python
+        from sklearn.datasets import load_boston
+        from sklearn.ensemble import RandomForestRegressor
+        from sklearn.model_selection import train_test_split
+        import neptune.new as neptune
+        import neptune.new.integrations.sklearn as npt_utils
+        
+        run = neptune.init(project='common/sklearn-integration',
+                           api_token='ANONYMOUS',
+                           name='regression-example',
+                           tags=['RandomForestRegressor', 'regression'])
+        
+        parameters = {'n_estimators': 70,
+                      'max_depth': 7,
+                      'min_samples_split': 3}
+        
+        
+        rfr = RandomForestRegressor(**parameters)
+        
+        X, y = load_boston(return_X_y=True)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=28743)
+        
+        rfr.fit(X_train, y_train)
+        
+        run['rfr_summary'] = npt_utils.create_regressor_summary(rfr, X_train, X_test, y_train, y_test)
+        ```
+Keywords: MLOps,ML Experiment Tracking,ML Model Registry,ML Model Store,ML Metadata Store
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Provides-Extra: all
