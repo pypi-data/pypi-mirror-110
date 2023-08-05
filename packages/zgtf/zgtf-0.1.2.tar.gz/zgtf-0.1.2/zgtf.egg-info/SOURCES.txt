@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+scripts/gtf2bed12
+zgtf/__init__.py
+zgtf/zgtf.py
+zgtf.egg-info/PKG-INFO
+zgtf.egg-info/SOURCES.txt
+zgtf.egg-info/dependency_links.txt
+zgtf.egg-info/requires.txt
+zgtf.egg-info/top_level.txt
