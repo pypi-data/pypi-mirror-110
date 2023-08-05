@@ -1,0 +1,2 @@
+cooptools==0.12
+numpy==1.19.4
