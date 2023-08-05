@@ -1,0 +1,10 @@
+cmh/__build__,sha256=TgdAhWK-24tgzgXB3s_jrRa3IjCWfeAfZAt-Rym0n84,1
+cmh/__init__.py,sha256=4it1Jb-I6Wl7aiR-zrl8C-e3udHf_7SWdFwO5MzvrWg,350
+cmh/_version.py,sha256=dUQYYzqaT1N6rWj81Lgc0ZUz6HnJlW9Ggs5XP8NlOrs,566
+cmh/cmh.py,sha256=o3HRnoSQlwTV372oFPNZ-mzImcVA_ksfuEAo89JDfM8,6404
+tests/__init__.py,sha256=yC-A6y8gFcdS-Z0SBqxHlWOuF2LUz16TQ4PnqbgbE3I,33
+CMH-1.0.1.dist-info/LICENSE,sha256=S-K-Fna8JU1XoQ3Qj126jHhO6I8bsoXOa2c9OinAuQw,1074
+CMH-1.0.1.dist-info/METADATA,sha256=3umQi1_YM2uK_cXU4IqsPamarWXiZePY5vXkYqOVLBQ,2133
+CMH-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+CMH-1.0.1.dist-info/top_level.txt,sha256=xhgixSSMCh_4PPjw0pJqBCLzAW7kd430YCBW84rmWZU,10
+CMH-1.0.1.dist-info/RECORD,,
