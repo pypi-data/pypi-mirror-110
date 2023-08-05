@@ -1,0 +1,17 @@
+click
+cytoolz
+numpy
+pygeoogc
+pygeoutils
+rasterio
+shapely
+xarray
+
+[test]
+nox
+pytest
+pytest-clarity
+pytest-console-scripts
+pytest-cov
+pytest-sugar
+pytest-xdist[psutil]
