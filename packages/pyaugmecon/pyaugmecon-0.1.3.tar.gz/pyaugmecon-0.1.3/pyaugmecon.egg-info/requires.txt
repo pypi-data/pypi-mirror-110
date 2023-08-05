@@ -1,0 +1,5 @@
+pyomo>=5.7
+numpy>=1.2
+pandas>=1.2
+pymoo>=0.4.2
+cloudpickle>=1.6.0
