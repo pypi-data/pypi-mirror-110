@@ -1,0 +1,13 @@
+README.md
+setup.py
+syncgit/__init__.py
+syncgit/_config.py
+syncgit/_gitcmd.py
+syncgit/_repo.py
+syncgit/_threadloop.py
+syncgit/_threadsafe_dict.py
+syncgit.egg-info/PKG-INFO
+syncgit.egg-info/SOURCES.txt
+syncgit.egg-info/dependency_links.txt
+syncgit.egg-info/requires.txt
+syncgit.egg-info/top_level.txt
