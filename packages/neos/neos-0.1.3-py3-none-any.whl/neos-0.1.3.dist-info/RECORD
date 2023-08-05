@@ -1,0 +1,13 @@
+neos/__init__.py,sha256=vBrQmjNin0tAE2A6XWp7gvIXXfsvjy7CKOdMA1weP00,73
+neos/_version.py,sha256=EmE9e3SDY8LFG36toeKzMsdfCdJPAswq0Y7LpEvajJY,142
+neos/data.py,sha256=acff7R6hG8k2sK7trVH1_nEH09SwPZi7J2O6dyq4wuI,2379
+neos/makers.py,sha256=YUsBzm1UpU6UshQXuhC21HwEWh_zBIY9WPag_njwLis,16605
+neos/models.py,sha256=_IjFEilOzfqNshcCqLjm1sdt9OqQ2VsODJFNOJC7WxM,1635
+neos/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neos/examples/__init__.py,sha256=Ad1f70Dpu18h56xovyeDP0yxKafL1duNF10x6kYgC7c,76
+neos/examples/nn_pyhf_cls.py,sha256=W9IPr6PGKQLD0zCZXoJR5ewc_3lcUr8MwvdBy7uyhZ8,2921
+neos-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+neos-0.1.3.dist-info/METADATA,sha256=R-pWV8BDOHesyK2M8bJ7ACGUjl3xay0_gyAgSjgCx14,10883
+neos-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+neos-0.1.3.dist-info/top_level.txt,sha256=vFeuoCJUpLKqBwUU9orjsFRQ9mSlP4899v8s6AdSOhk,5
+neos-0.1.3.dist-info/RECORD,,
