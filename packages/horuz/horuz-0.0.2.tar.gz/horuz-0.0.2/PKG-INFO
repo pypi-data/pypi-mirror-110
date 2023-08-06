@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: horuz
+Version: 0.0.2
+Summary: Save and query your recon data on ElasticSearch.
+Home-page: https://github.com/misalabs/horuz
+Author: Misa G.
+Author-email: hi@misalabs.com
+Maintainer: Misa G.
+Maintainer-email: hi@misalabs.com
+License: MIT license
+Download-URL: https://github.com/misalabs/horuz/archive/refs/tags/0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: recon,elasticsearch,fuzzing,hacking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
