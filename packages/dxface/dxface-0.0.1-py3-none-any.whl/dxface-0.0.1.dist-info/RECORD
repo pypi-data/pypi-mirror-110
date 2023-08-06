@@ -1,0 +1,13 @@
+dxface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dxface/arc.py,sha256=29bZCaGGokHbgtVciQIScAjiSlwBqJknkgriygcidRA,2510
+dxface/circle.py,sha256=4PaY_jFfOn5rQoj0cGQfMXhUhCe08-A4ErdVrnGmvX0,1685
+dxface/entities.py,sha256=-cQUxbHur2rNjZOf-3FBhe8Q72myWE0QJOFrTebgr0o,2640
+dxface/hatch.py,sha256=vxTiEVdXVRsWE3GTGZ2oX0PbzilJUlBLtAJT57BQ0eI,2410
+dxface/line.py,sha256=UuUOtD59k1rUDc4jx_ZNVU-6OpBjfhXBCG78QxDA0h0,2094
+dxface/lwpolyline.py,sha256=TAHkalJkdxda5WAa3glU3K-aMU63CJlCpiERiCjF54c,3787
+dxface/polyline.py,sha256=dGHtCmNSH-30FvVuu97gTCpPK8s7qTU_v4jR5zlXb20,2701
+dxface-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dxface-0.0.1.dist-info/METADATA,sha256=vLAVRFCfuUxVzUHpvJH5jqq79ckIKvgKmzK40i5dC5Q,524
+dxface-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dxface-0.0.1.dist-info/top_level.txt,sha256=rge0fJ9FydixbWWSl3OtLoE3RI6BgO_ud1y37M8G7oQ,7
+dxface-0.0.1.dist-info/RECORD,,
