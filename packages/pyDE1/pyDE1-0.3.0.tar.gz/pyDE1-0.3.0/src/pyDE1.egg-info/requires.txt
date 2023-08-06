@@ -1,0 +1,3 @@
+aiologger
+asyncio-mqtt>=0.9.1
+bleak>=0.11.0
