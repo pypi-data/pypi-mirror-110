@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "schism"
+version = "0.1.0"
+description = "Schism will be a microservices framework designed to keep everything dead simple."
+readme = "readme.md"
+authors = ["Zech Zimmerman <hi@zech.codes>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
