@@ -1,0 +1,4 @@
+[console_scripts]
+hl=human_lambdas.hl_cli:cli
+human-lambdas=human_lambdas.hl_cli:cli
+
