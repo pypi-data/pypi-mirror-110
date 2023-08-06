@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: 3dRenderPy
+Version: 0.0.5
+Summary: This is an implementation of a ray tracer based on Jamis Buck's The Ray Tracer Challenge. It supports several primitives.
+Home-page: https://github.com/woes-lynne/3DRenderPy
+Author: Ulysses Lynne
+Author-email: yufeilin@bennington.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/woes-lynne/3DRenderPy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: Pillow (>=5.1.0)
+
+# 3DRenderPy
+
+This is an implementation of a ray tracer based on Jamis Buck's The Ray Tracer Challenge. It supports several primitives:
+
+1. Sphere
+2. Plane
+3. Cube
+4. Cylinder
+5. Cone
+6. Group
+7. Triangle and Somooth Triangle
+8. CSG
+
+Installation:
+```
+pip install 3DRenderPy
+```
+
