@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BonkersDB/__init__.py
+BonkersDB.egg-info/PKG-INFO
+BonkersDB.egg-info/SOURCES.txt
+BonkersDB.egg-info/dependency_links.txt
+BonkersDB.egg-info/top_level.txt

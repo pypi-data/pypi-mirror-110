@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: BonkersDB
+Version: 0.0.1
+Summary: BonkersDB
+Home-page: https://replit.com/@A1PHA1/BonkersDB
+Author: Vivaan S.
+Author-email: vivaan@blabbr.xyz
+License: UNKNOWN
+Description: # Welcome to BonkersDB
+        
+        ### An easy-to-use key-value database
+        
+        ------
+        
+        ## How to Use:
+        Import BonkersDB:
+        ```python
+        from BonkersDB import BonkersDB
+        # Import BonkersDB
+        ```
+        Now you can start using it. Let's create a value.
+        ```python
+        database = BonkersDB("./database.db") 
+        # create a database
+        database.set("name" , "Josh")
+        # set an item
+        ```
+        Now let's pull a value:
+        ```python
+        name = database.get("name")
+        # pull an item from the database
+        print(name)
+        # print it
+        ```
+        You're all set! Enjoy BonkersDB! 🎉
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
