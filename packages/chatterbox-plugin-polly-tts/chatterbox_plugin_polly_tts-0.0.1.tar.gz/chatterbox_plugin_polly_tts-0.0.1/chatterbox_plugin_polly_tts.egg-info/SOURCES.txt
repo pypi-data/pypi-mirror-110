@@ -1,0 +1,9 @@
+setup.py
+chatterbox_plugin_polly_tts.egg-info/PKG-INFO
+chatterbox_plugin_polly_tts.egg-info/SOURCES.txt
+chatterbox_plugin_polly_tts.egg-info/dependency_links.txt
+chatterbox_plugin_polly_tts.egg-info/entry_points.txt
+chatterbox_plugin_polly_tts.egg-info/requires.txt
+chatterbox_plugin_polly_tts.egg-info/top_level.txt
+chatterbox_plugin_polly_tts.egg-info/zip-safe
+chatterbox_tts_plugin_polly/__init__.py
