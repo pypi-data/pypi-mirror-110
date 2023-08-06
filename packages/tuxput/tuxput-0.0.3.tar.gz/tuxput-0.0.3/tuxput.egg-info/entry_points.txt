@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tpcli=tpcli:tuxput_cli
+    
