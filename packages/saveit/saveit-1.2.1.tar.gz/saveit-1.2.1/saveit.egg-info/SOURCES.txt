@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+saveit.egg-info/PKG-INFO
+saveit.egg-info/SOURCES.txt
+saveit.egg-info/dependency_links.txt
+saveit.egg-info/entry_points.txt
+saveit.egg-info/requires.txt
+saveit.egg-info/top_level.txt
