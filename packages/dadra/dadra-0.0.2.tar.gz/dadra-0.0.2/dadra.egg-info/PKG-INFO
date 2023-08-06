@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: dadra
+Version: 0.0.2
+Summary: Library for Data-Driven Reachability Analysis
+Home-page: https://github.com/JaredMejia/dadra
+Author: Jared Mejia
+Author-email: jaredmejia@berkeley.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
