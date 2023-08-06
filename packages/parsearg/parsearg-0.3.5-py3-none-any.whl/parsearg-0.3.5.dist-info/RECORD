@@ -1,0 +1,11 @@
+parsearg/__init__.py,sha256=4VZomFNtVw4lotkealt6ITdxHEDDc6eZvlsk8Ag1t-k,74
+parsearg/data_structures.py,sha256=SRq8ncyfVLd2dm-BW6sZq70raOq5nUSoqYA35qsIM5M,5583
+parsearg/example_trees.py,sha256=sawc7xood5KXdjcH7DyDDacV-ZKLgBmjMBC-qH59Cts,6992
+parsearg/parser.py,sha256=Ri5AV3az65anG1CPJQuPYOmNFyN4OP3jdalwA6I7qZs,3786
+parsearg/utils.py,sha256=cyOdYIHxO-Bq6_PzT32VykHA2qdfs7wwaWKuyvdfGcE,3021
+parsearg/version.py,sha256=AgCOGXgjj6kCkSzjlj4jd_JuBYmDS4iQOmjFv2QQ3lc,131
+parsearg-0.3.5.dist-info/LICENSE,sha256=VDsifUzpIfU5DHdAVGAuWzsqv02LFO6P4HaxDoU7zfs,1072
+parsearg-0.3.5.dist-info/METADATA,sha256=94DRh-Xom0oUBsWpTOElTWDspgxXffKYFa2aOL8rRbI,5845
+parsearg-0.3.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parsearg-0.3.5.dist-info/top_level.txt,sha256=3_FbURssfZlysWgcv2E82UWB02jnygel75wxDcbkY0k,9
+parsearg-0.3.5.dist-info/RECORD,,
