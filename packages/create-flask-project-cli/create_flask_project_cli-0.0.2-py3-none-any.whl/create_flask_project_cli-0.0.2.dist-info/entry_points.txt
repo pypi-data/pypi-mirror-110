@@ -1,0 +1,3 @@
+[console_scripts]
+flaskcli = flask_cli.__main__:main
+
