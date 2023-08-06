@@ -1,0 +1,11 @@
+joblib
+numpy
+pandas
+scikit-learn
+scipy
+
+[jax]
+jax==0.2.14
+jaxlib==0.1.67
+dm-haiku==0.0.4
+optax==0.0.8
