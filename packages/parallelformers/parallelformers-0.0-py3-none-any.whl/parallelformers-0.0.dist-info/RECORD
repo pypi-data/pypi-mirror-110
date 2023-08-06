@@ -1,0 +1,12 @@
+parallelformers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallelformers/base/__init__.py,sha256=349vBXdVNYT1koKJ_T4yBpF95CP6K7RtINarUgs-6TY,74
+parallelformers/deploy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallelformers/inference/__init__.py,sha256=Z1NM7I-aKjhUO-6zwhENJGT-A3HAOJP6GhZufxu9PIY,155
+parallelformers/inference/parallel.py,sha256=KbNUMPtqoc8hYL8bKdQ-3GcEnYHeGLGAfEOre6rkkN0,781
+parallelformers/policies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallelformers/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallelformers-0.0.dist-info/METADATA,sha256=eBYm1l3U8Dvuv0qwVv_pKnfnaYkQKJTaTgIgwbzS1NI,1169
+parallelformers-0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parallelformers-0.0.dist-info/top_level.txt,sha256=oEtXt9-Mf0ZM-9WwhQxphIUPAxk0YBDZRMeROKJYt3w,22
+parallelformers-0.0.dist-info/RECORD,,
