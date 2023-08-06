@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+hawser/__init__.py
+hawser/errors.py
+hawser/gateway.py
+hawser/http.py
+hawser/meta.py
+hawser/utils.py
+hawser.egg-info/PKG-INFO
+hawser.egg-info/SOURCES.txt
+hawser.egg-info/dependency_links.txt
+hawser.egg-info/requires.txt
+hawser.egg-info/top_level.txt
