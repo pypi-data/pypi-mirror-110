@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+mangabat_dl/__init__.py
+mangabat_dl/__main__.py
+mangabat_dl/classes.py
+mangabat_dl/constants.py
+mangabat_dl/downloader.py
+mangabat_dl/errors.py
+mangabat_dl/fetcher.py
+mangabat_dl/utils.py
+mangabat_dl.egg-info/PKG-INFO
+mangabat_dl.egg-info/SOURCES.txt
+mangabat_dl.egg-info/dependency_links.txt
+mangabat_dl.egg-info/entry_points.txt
+mangabat_dl.egg-info/requires.txt
+mangabat_dl.egg-info/top_level.txt
