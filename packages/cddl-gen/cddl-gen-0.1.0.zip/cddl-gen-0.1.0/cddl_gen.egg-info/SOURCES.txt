@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cddl_gen/__init__.py
+cddl_gen/cddl_gen.py
+cddl_gen.egg-info/PKG-INFO
+cddl_gen.egg-info/SOURCES.txt
+cddl_gen.egg-info/dependency_links.txt
+cddl_gen.egg-info/entry_points.txt
+cddl_gen.egg-info/requires.txt
+cddl_gen.egg-info/top_level.txt
+scripts/requirements-base.txt
