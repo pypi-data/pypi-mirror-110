@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: deepss_unsupervised
+Version: 0.4.1
+Summary: Tools for unsupervised classification of acoustic signals.
+Home-page: https://github.com/janclemenslab/deepss_unsupervised
+Author: Jan Clemens
+Author-email: clemensjan@googlemail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+Requires-Dist: colorcet
+Requires-Dist: seaborn
+Requires-Dist: librosa
+Requires-Dist: noisereduce
+Requires-Dist: Pillow
+Requires-Dist: umap-learn
+Requires-Dist: hdbscan
+
+_DeepSS-unsupervised_ has been renamed _DAS-unsupervised_ and can be found on github at [https://github.com/janclemenslab/das_unsupervised]() and on pypi at [https://pypi.org/project/das_unsupervised]().
+
+
