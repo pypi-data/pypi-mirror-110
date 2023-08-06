@@ -1,0 +1,13 @@
+nepsense/Nepse.py,sha256=7CG6YQoDbfLarm0J7RTinZyHkR9FrmDJVadWLXy31dE,10860
+nepsense/Stock.py,sha256=819ooynwnwqdLPfRHz5EgscbMRl6JWbyEMz4sXsSxUw,4797
+nepsense/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nepsense/company_list.csv,sha256=UvM80dgGvmNe6ARCvRpMxm_VwfaHDgyAfLVrHiJT1mI,62472
+nepsense/data.py,sha256=gBe2wGvAkPUO076-v6Y9Iimw0FQ3q_v2dJyE0B3nBOI,8565
+nepsense/index.txt,sha256=LgCzErCpaBvvCfkIWk6Ri4_OsMCxwEPcF8kL7vX6RGw,3
+nepsense/priceof,sha256=Im11bWvRW7_yuxKcjftn5pmOAUIVPDm-CWBgV_olWvs,4726
+nepsense-0.0.1.data/scripts/priceof,sha256=UXs8oidueji8qYFFHxD9NmZ3Bmo5fsbb6XBtHsHnWwk,4712
+nepsense-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+nepsense-0.0.1.dist-info/METADATA,sha256=JeO53oLVmza6ktmj4yvlE9P37f33ZQQksMxiRcs6mX4,3343
+nepsense-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nepsense-0.0.1.dist-info/top_level.txt,sha256=wa1CdcMw3U5LZDCPc8pDXmE-Dt1N2zaPdlg1Rz8Ni8s,9
+nepsense-0.0.1.dist-info/RECORD,,
