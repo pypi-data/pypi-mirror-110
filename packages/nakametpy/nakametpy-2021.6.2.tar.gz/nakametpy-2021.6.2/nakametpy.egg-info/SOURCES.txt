@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+nakametpy.egg-info/PKG-INFO
+nakametpy.egg-info/SOURCES.txt
+nakametpy.egg-info/dependency_links.txt
+nakametpy.egg-info/requires.txt
+nakametpy.egg-info/top_level.txt
