@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+AutoTS/AutoTS.py
+AutoTS/__init__.py
+AutoTS/utils/CandidateModel.py
+AutoTS/utils/__init__.py
+AutoTS/utils/error_metrics.py
+AutoTS/utils/validation.py
+auto_bots.egg-info/PKG-INFO
+auto_bots.egg-info/SOURCES.txt
+auto_bots.egg-info/dependency_links.txt
+auto_bots.egg-info/requires.txt
+auto_bots.egg-info/top_level.txt
