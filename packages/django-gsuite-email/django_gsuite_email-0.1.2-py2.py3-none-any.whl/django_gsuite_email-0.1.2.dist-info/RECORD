@@ -1,0 +1,10 @@
+django_gsuite_email/__init__.py,sha256=aR3ObJiHmgdGdn-tio5_g3v_qszyl5cTOfNCoIlbVJw,229
+django_gsuite_email/apps.py,sha256=aEKCBOySY6WJzenC5y90TARhYpHuJId2Hzm7l3wBDiI,150
+django_gsuite_email/backends.py,sha256=9pCaiJvv2N4WINzjQyna8bk-s7JPafuhPyLO4LGgPk4,4191
+django_gsuite_email/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_gsuite_email/utils.py,sha256=oMPj7C2zMWF7N9rtNL3nsS2tMZXMuZ5S1K1EY5t3udk,1299
+django_gsuite_email-0.1.2.dist-info/LICENSE,sha256=X7cMcDAcyZUiNJNDaLM8Q379Of2aVe6MiW4pT9M_6SM,1065
+django_gsuite_email-0.1.2.dist-info/METADATA,sha256=Ry9lfXOIHr-aE6YPGCG_wKw_iMoS5d5UJQSWF5daBxI,2709
+django_gsuite_email-0.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_gsuite_email-0.1.2.dist-info/top_level.txt,sha256=QGws3TUEiwOBbc5U7h5FY0aWyPWNkWcYkVxBtPjGk5M,20
+django_gsuite_email-0.1.2.dist-info/RECORD,,
