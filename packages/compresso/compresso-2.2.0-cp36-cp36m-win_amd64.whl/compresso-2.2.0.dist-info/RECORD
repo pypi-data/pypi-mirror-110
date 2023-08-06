@@ -1,0 +1,12 @@
+compresso.cp36-win_amd64.pyd,sha256=FFXFw0RcRlcALm121JOyv6ncqsdFVeZQQBjvgqJp_AY,433664
+compresso_cli/__init__.py,sha256=b1VfA4Miuu-0YE_wHw-wr3KiXYVsnIfhQy2XCeP4VEs,18
+compresso_cli/cli.py,sha256=6HV7XHjyBGUaCg_jZWGB_ziz63MO0kf0e19zJKuBXjk,3298
+compresso-2.2.0.dist-info/AUTHORS,sha256=Aa4H7O3dtmfq0lF_eATudy11i8K6QAI8LykzASr9bL0,52
+compresso-2.2.0.dist-info/COPYING.LESSER,sha256=UC9kjZmnz0jSw56LdR0I4nDvnCgoTLuWU_zdpuxhEi0,7621
+compresso-2.2.0.dist-info/LICENSE,sha256=ZGZZ2epY94JUwZ_XdPGe9Mz7Ib4o85p_D-_s04AJrIU,1176
+compresso-2.2.0.dist-info/METADATA,sha256=asoeviN3Z3Q2JuLR1O90fKNShnukiNPQCx5Uz_HxhaI,10812
+compresso-2.2.0.dist-info/WHEEL,sha256=epucrC2yyYTysDCMzXuz8eGMTMKryzRfNOvMGdslbjc,101
+compresso-2.2.0.dist-info/entry_points.txt,sha256=fm1gEbpXF_zr-ur9qEVL1lCKDDQJE06WQvF5-deY5RA,50
+compresso-2.2.0.dist-info/pbr.json,sha256=DPyEfOa4GnwCxNBuqOwuf4J1zloxAh58YlHNU5Eldt8,47
+compresso-2.2.0.dist-info/top_level.txt,sha256=fPvA5iPMKpsUMYb-N471dA14Gp69UC4AWTj9oDoBfew,24
+compresso-2.2.0.dist-info/RECORD,,
