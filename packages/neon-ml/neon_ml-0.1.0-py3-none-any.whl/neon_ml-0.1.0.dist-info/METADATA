@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: neon-ml
+Version: 0.1.0
+Summary: 
+Author: yutayamazaki
+Author-email: tppymd@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: gensim (>=4.0.1,<5.0.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
