@@ -1,0 +1,7 @@
+setup.py
+pathlib2-python2-stubs/METADATA.toml
+pathlib2-python2-stubs/__init__.pyi
+types_pathlib2.egg-info/PKG-INFO
+types_pathlib2.egg-info/SOURCES.txt
+types_pathlib2.egg-info/dependency_links.txt
+types_pathlib2.egg-info/top_level.txt
