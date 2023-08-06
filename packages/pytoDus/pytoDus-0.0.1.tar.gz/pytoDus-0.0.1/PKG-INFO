@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pytoDus
+Version: 0.0.1
+Summary: toDus python API
+Home-page: https://github.com/RathHunt/pytoDus
+Author: Jose Angel Sanchez Velazquez
+Author-email: sanchezvelazquezjoseangel@gmail.com
+License: UNKNOWN
+Description: # Lorem ipsum
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
