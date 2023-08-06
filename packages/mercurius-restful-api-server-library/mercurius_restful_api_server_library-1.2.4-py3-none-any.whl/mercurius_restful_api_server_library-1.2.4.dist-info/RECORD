@@ -1,0 +1,9 @@
+majormode/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/service/__init__.py,sha256=nBWj93N_jIPP4XwDoRhoi5Xc5NdHEw126EbO65uZgls,1189
+majormode/mercurius/service/place/__init__.py,sha256=4f38w1l_AGXVPyFIkWrRWYfbaT9qOQTO3UBgx3-y-Sc,1113
+majormode/mercurius/service/place/place_service.py,sha256=xPXPa10qO8cwKO32uh8QhkZr9IAn95voXUV3w1FnKAs,88743
+mercurius_restful_api_server_library-1.2.4.dist-info/METADATA,sha256=UNVAmBz9_PdFxkZYUnwpHjYQimRVkyUtvcOHvP6ndik,786
+mercurius_restful_api_server_library-1.2.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mercurius_restful_api_server_library-1.2.4.dist-info/top_level.txt,sha256=qLr6h4oeLqaugRahQG2kHWqnLf2QDgu8LP6VtCUDw7M,10
+mercurius_restful_api_server_library-1.2.4.dist-info/RECORD,,
