@@ -1,0 +1,10 @@
+setup.py
+seuif97/README.rst
+seuif97/__init__.py
+seuif97/libseuif97.dll
+seuif97/libseuif97.so
+seuif97/libseuif9732.dll
+seuif97.egg-info/PKG-INFO
+seuif97.egg-info/SOURCES.txt
+seuif97.egg-info/dependency_links.txt
+seuif97.egg-info/top_level.txt
