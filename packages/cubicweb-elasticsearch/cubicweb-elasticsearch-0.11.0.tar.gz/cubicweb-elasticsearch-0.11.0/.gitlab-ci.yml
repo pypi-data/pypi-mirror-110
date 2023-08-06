@@ -1,0 +1,29 @@
+---
+default:
+  image: python:3.7
+
+include:
+  # uncomment and uses to customize/extend the configuration here if needed
+  # (it needs to be at the same level than "- project")
+  # - ".gitlab-ci-extended.yml"
+  - project: "open-source/gitlab-ci-templates"
+    ref: "branch/default"
+    file:
+      - "templates/no-duplicated-ci-pipelines.yml"  # use workflow to avoid duplicated pipelines
+      - "templates/lint/flake8.yml"  # will do the equivalent of 'tox -e flake8'
+      - "templates/lint/black.yml"  # will do the equivalent of 'tox -e black'
+      - "templates/lint/check-manifest.yml"  # will do the equivalent of 'tox -e check-manifest'
+      - "templates/lint/mypy.yml"  # will do the equivalent of 'tox -e mypy'
+      - "templates/lint/yamllint.yml"  # will do the equivalent of 'tox -e yamllint'
+      - "templates/tests/py3.yml"  # will do the equivalent of 'tox -e py3'
+      - "templates/build-debian-package.yml"  # will build a .deb and upload it to heptapod files
+      - "templates/create-release-on-heptapod-including-debian-package.yml"  # this will create a release on heptapod AND uses uploaded .deb by build-debian-package
+      - "templates/upload-to-pypi.yml"  # on a new mercurial tag (expected to be done with release-new), will push a release on pypi
+
+stages:
+  - lint
+  - tests
+  - build-debian-package
+  - upload-deb-to-heptapod
+  - release
+  - publish
