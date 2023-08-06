@@ -1,0 +1,13 @@
+amply/__init__.py,sha256=_WRaUkkB-pw_YOnjjAsu90LyVUTzCq7Kac4AFTver5A,182
+amply/client.py,sha256=6RItmlQhflA9d4_RVnqTTpUkX-pnxA9SBQrUGDT1yos,2703
+amply/email.py,sha256=LvF44QI5740WEXsKux5hclO2mQzl1ax1bX5vMnss3jo,364
+amply/exceptions.py,sha256=_E8uNcweHurQ9NijRCyP66-GBEdeH54tDUP-uKjA6jY,1339
+amply/version.py,sha256=4FuTxxw1QUDwrweZZxAz4kZhdQmR1BVQJMc5Un3el30,25
+amply/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amply/helpers/email/__init__.py,sha256=AZ1vmxuUEudxXtUffxV-QnNd9VdWUM97A1XRCmCokbQ,9427
+amply/helpers/email/email_address.py,sha256=pyzLudV5F2utmepWSQzB8HUMoHhrU1F6dzaUlqo_aAY,2033
+amply_mail-0.0.1rc2.dist-info/LICENSE,sha256=Vrm3BFE-D69hfwMAyeefP2cqvweFrQizUWu3Tw3WINU,1099
+amply_mail-0.0.1rc2.dist-info/METADATA,sha256=BIAjz3MhIzhKBdW-kZE0GUmJXW-FWii-Zeub808pfsg,5927
+amply_mail-0.0.1rc2.dist-info/WHEEL,sha256=oh0NKYrTcu1i1-wgrI1cnhkjYIi8WJ-8qd9Jrr5_y4E,110
+amply_mail-0.0.1rc2.dist-info/top_level.txt,sha256=avFo6lh5RyFiJCbHrejp0-ETAYQITKSaxJWgVHfKL7Y,6
+amply_mail-0.0.1rc2.dist-info/RECORD,,
