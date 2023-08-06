@@ -1,0 +1,12 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+fsSignal/__init__.py
+fsSignal/__main__.py
+fsSignal/fsSignal.py
+python_fssignal.egg-info/PKG-INFO
+python_fssignal.egg-info/SOURCES.txt
+python_fssignal.egg-info/dependency_links.txt
+python_fssignal.egg-info/not-zip-safe
+python_fssignal.egg-info/top_level.txt
