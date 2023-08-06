@@ -1,0 +1,8 @@
+setup.py
+src/knada_composer_wrappers/__init__.py
+src/knada_composer_wrappers/composer_operators.py
+src/knada_composer_wrappers/init_containers.py
+src/knada_composer_wrappers.egg-info/PKG-INFO
+src/knada_composer_wrappers.egg-info/SOURCES.txt
+src/knada_composer_wrappers.egg-info/dependency_links.txt
+src/knada_composer_wrappers.egg-info/top_level.txt
