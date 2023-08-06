@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+envariable/__init__.py
+envariable/unix.py
+envariable/windows.py
+envariable.egg-info/PKG-INFO
+envariable.egg-info/SOURCES.txt
+envariable.egg-info/dependency_links.txt
+envariable.egg-info/top_level.txt
