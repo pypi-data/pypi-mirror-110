@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+napari_oclrfc/__init__.py
+napari_oclrfc/_function.py
+napari_oclrfc.egg-info/PKG-INFO
+napari_oclrfc.egg-info/SOURCES.txt
+napari_oclrfc.egg-info/dependency_links.txt
+napari_oclrfc.egg-info/entry_points.txt
+napari_oclrfc.egg-info/requires.txt
+napari_oclrfc.egg-info/top_level.txt
+napari_oclrfc/_tests/__init__.py
+napari_oclrfc/_tests/test_function.py

@@ -1,0 +1,3 @@
+[napari.plugin]
+OpenCL_Random_Forest_Classifier = napari_oclrfc
+
