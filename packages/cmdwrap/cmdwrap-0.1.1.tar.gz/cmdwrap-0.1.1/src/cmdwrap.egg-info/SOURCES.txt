@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cmdwrap/__init__.py
+src/cmdwrap/main.py
+src/cmdwrap/meta.py
+src/cmdwrap.egg-info/PKG-INFO
+src/cmdwrap.egg-info/SOURCES.txt
+src/cmdwrap.egg-info/dependency_links.txt
+src/cmdwrap.egg-info/entry_points.txt
+src/cmdwrap.egg-info/requires.txt
+src/cmdwrap.egg-info/top_level.txt
+src/cmdwrap/cli/__init__.py
+src/cmdwrap/cli/wrap.py
