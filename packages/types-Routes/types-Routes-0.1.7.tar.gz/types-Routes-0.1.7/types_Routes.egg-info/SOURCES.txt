@@ -1,0 +1,9 @@
+setup.py
+routes-python2-stubs/METADATA.toml
+routes-python2-stubs/__init__.pyi
+routes-python2-stubs/mapper.pyi
+routes-python2-stubs/util.pyi
+types_Routes.egg-info/PKG-INFO
+types_Routes.egg-info/SOURCES.txt
+types_Routes.egg-info/dependency_links.txt
+types_Routes.egg-info/top_level.txt
