@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ggi
+Version: 0.5.0
+Summary: UNKNOWN
+Home-page: https://github.com/Ulises-Rosas/GGpy
+Maintainer: Ulises Rosas
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: dendropy (==4.4.0)
+
+UNKNOWN
+
+
