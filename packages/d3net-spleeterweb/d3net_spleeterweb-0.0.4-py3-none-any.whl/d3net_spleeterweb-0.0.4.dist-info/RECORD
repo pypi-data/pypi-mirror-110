@@ -1,0 +1,9 @@
+d3net/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+d3net/filter.py,sha256=ceaoFBl-5cv7jlNTkYTLVwjyvRUvSZVEGAGUKqPYqEU,4681
+d3net/model.py,sha256=YXtsCc_IADsgGniRJoAuWKHb-mDmP3cMtiLJJiIaZoE,11217
+d3net/separate.py,sha256=Srxo-Xu7p7EP3G6kUZOnpolrDB48LE5ujK1qqzKeWoo,3494
+d3net/util.py,sha256=z6zSJ_cQlNCdryrl0tkO6T4g9lh5NRmDjIkISiS65hE,6247
+d3net_spleeterweb-0.0.4.dist-info/METADATA,sha256=OoEDl3Jen0ET3NxOX-qPwKn0mt1G9f0jKW6QYXg7YaY,2457
+d3net_spleeterweb-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+d3net_spleeterweb-0.0.4.dist-info/top_level.txt,sha256=k7yHTrnrwCxhYsP0IEfY8ae4w5qJUlxB1rLtlG7YET4,6
+d3net_spleeterweb-0.0.4.dist-info/RECORD,,
