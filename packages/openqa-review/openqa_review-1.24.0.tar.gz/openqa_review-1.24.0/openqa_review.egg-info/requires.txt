@@ -1,0 +1,7 @@
+beautifulsoup4
+sortedcontainers
+humanfriendly
+requests
+PyYAML
+pika
+certifi
