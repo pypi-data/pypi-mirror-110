@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gfunction-auth
+Version: 0.0.4
+Summary: A lightweight package for makeing authorized requests to Google Cloud Functions.
+Home-page: https://github.com/andrewdircks/gfunctions-auth
+Author: Andrew Dircks
+Author-email: abd93@cornell.edu
+License: UNKNOWN
+Description: # GFunction Auth
+        
+        Make authorized, lightweight calls to Cloud Functions in Python.
+        
+        ## Install
+        
+        `pip install gfunction-auth`
+        
+        ## Usage
+        
+        To make a simple post request to a Cloud Function with url `fn_url`
+        
+        ```
+        from gfunction_auth import gfunction_post
+        data = {'example': 42}
+        response = gfunction_post(fn_url, data)
+        ```
+        
+        Note, the caller of the function must be registered by GCP. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
