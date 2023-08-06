@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+hdf5_udf.py
+setup.py
+PyHDF5_UDF.egg-info/PKG-INFO
+PyHDF5_UDF.egg-info/SOURCES.txt
+PyHDF5_UDF.egg-info/dependency_links.txt
+PyHDF5_UDF.egg-info/not-zip-safe
+PyHDF5_UDF.egg-info/requires.txt
+PyHDF5_UDF.egg-info/top_level.txt
+hdf5_udf_resources/__init__.py
+hdf5_udf_resources/hdf5_udf-schema.json
