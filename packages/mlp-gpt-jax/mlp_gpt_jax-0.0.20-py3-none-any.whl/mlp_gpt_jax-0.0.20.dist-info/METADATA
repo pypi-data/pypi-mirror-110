@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mlp-gpt-jax
+Version: 0.0.20
+Summary: MLP GPT - Jax
+Home-page: https://github.com/lucidrains/mlp-gpt-jax
+Author: Phil Wang
+Author-email: UNKNOWN
+License: MIT
+Keywords: artificial intelligence,deep learning,language model,multilayered-perceptron,jax
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: click
+Requires-Dist: click-option-group
+Requires-Dist: einops (>=0.3)
+Requires-Dist: dm-haiku
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: optax
+Requires-Dist: torch
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
