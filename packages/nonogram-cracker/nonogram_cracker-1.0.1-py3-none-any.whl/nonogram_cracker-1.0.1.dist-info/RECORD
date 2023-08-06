@@ -1,0 +1,15 @@
+nonogram_cracker/__init__.py,sha256=cWnG8wmS-5qDGQMHqWIuCFPepwyhJw3WwNM5emU1Uws,25
+nonogram_cracker/schemas.py,sha256=9-mnWWc30AYnAaS3LIVursAyZeFWzH-sskpa25z-BP4,1678
+nonogram_cracker/solution_response.py,sha256=IEim5LQXjh16GgeXWvB1d1rnzQwe9g85aMLpvQYUiEg,162
+nonogram_cracker/solve.py,sha256=edicCIoKevgvm3MZwdooDRI8Sge7qzMpCmPjgBVJ_PY,2806
+nonogram_cracker/solve_seq.py,sha256=MsN2OOsaVbfLb3YWe1ccW18Fe7YF5tYWwCdxmXti4LM,1352
+nonogram_cracker/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonogram_cracker/helpers/converter.py,sha256=h_O727k2AA6NkqOwyIe-fvSzhpLCUe41LwQUrP1gVOw,702
+nonogram_cracker/helpers/identifiers.py,sha256=d-adQSKCfarLDitbAHHF0-kJOrBTjQ0iVMl9TVUK5A0,646
+nonogram_cracker/helpers/is_solved.py,sha256=V4HNZJRCTz_jhbRHMsr2227qnJVIpr-HqXHGSBeizIw,433
+nonogram_cracker/helpers/segmentation.py,sha256=PIPmi0H0DWTZlRJRL_6foYKYCP2Z_Mb0pvu8nPuDljU,5735
+nonogram_cracker-1.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+nonogram_cracker-1.0.1.dist-info/METADATA,sha256=LXbE2IFF-MXijXQv_ssw3XAO7U_dSLbVAlwdad3KQIc,1175
+nonogram_cracker-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nonogram_cracker-1.0.1.dist-info/top_level.txt,sha256=1EnzTdBx8FbQB-4x2bOHquTq56pzrXcaWUDB47Mizys,17
+nonogram_cracker-1.0.1.dist-info/RECORD,,
