@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+src/py4hy/__init__.py
+src/py4hy/courses.py
+src/py4hy/people.py
+src/py4hy.egg-info/PKG-INFO
+src/py4hy.egg-info/SOURCES.txt
+src/py4hy.egg-info/dependency_links.txt
+src/py4hy.egg-info/requires.txt
+src/py4hy.egg-info/top_level.txt
