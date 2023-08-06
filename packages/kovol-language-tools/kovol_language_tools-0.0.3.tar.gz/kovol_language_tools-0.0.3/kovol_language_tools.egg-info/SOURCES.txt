@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+kovol_language_tools/__init__.py
+kovol_language_tools/get_verb_data.py
+kovol_language_tools/kovol_verbs.py
+kovol_language_tools/phonemics.py
+kovol_language_tools.egg-info/PKG-INFO
+kovol_language_tools.egg-info/SOURCES.txt
+kovol_language_tools.egg-info/dependency_links.txt
+kovol_language_tools.egg-info/requires.txt
+kovol_language_tools.egg-info/top_level.txt
