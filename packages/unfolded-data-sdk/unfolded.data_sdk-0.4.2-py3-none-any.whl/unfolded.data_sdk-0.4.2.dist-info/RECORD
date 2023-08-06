@@ -1,0 +1,11 @@
+unfolded/data_sdk/__init__.py,sha256=lEdvt3TJdah0U8XJq7of1YnUZyLswmymzgVzYbmizOk,60
+unfolded/data_sdk/cli.py,sha256=OL4VF7k9-_Ltr3NS41cz9c8BN1GUMH2GIqWtLy5DdP4,8986
+unfolded/data_sdk/data_sdk.py,sha256=YVrs-DHTnbgTs7H7I2CRXNJfgWTDN5o2oB9u3ZMMt_8,25757
+unfolded/data_sdk/errors.py,sha256=YkQ2eeYedo5UHVIJyYWRrkiffKuablGI189_P0kKy-4,369
+unfolded/data_sdk/models.py,sha256=GN_Z4kXoa6UkKxWP4cbqbH95RZlgSGDAhQ6mvQQxtdM,1820
+unfolded/data_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unfolded/data_sdk/utils.py,sha256=NwZnL1dD3_la_EdcUIpSxK5Q1amG7h3p8VNKL0gp17o,1895
+unfolded.data_sdk-0.4.2.dist-info/entry_points.txt,sha256=KOsl-sdcGJjV5aAZqtrX3D4D0r570EvaDomz5tf6vaE,58
+unfolded.data_sdk-0.4.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+unfolded.data_sdk-0.4.2.dist-info/METADATA,sha256=MqTH0sOq6GyrT-t-Amr-fDnY4aK814L4A-LH1qpAycY,1154
+unfolded.data_sdk-0.4.2.dist-info/RECORD,,
