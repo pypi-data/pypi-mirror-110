@@ -1,0 +1,10 @@
+twittertennis
+networkx
+pandas
+numpy
+scipy
+gensim
+sympy
+plotly
+tqdm
+python-Levenshtein
