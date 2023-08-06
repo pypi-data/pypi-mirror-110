@@ -1,0 +1,3 @@
+[console_scripts]
+tomni = tomni.cli:__init__
+
