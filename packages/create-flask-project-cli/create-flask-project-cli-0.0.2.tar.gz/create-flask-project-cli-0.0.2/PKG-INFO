@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: create-flask-project-cli
+Version: 0.0.2
+Summary: Create flask project with html and css ready using cli.
+Home-page: https://github.com/logan0501/flaskcli.git
+Author: Loganathan
+Author-email: logan05012001@gmail.com
+License: MIT
+Description: flaskcli
+        ======
+        
+        A python package to create your flask project easily
+        with html and css using cli.
+        
+        Installation
+        ------------
+        
+        Fast install:
+        
+        ::
+        
+            pip install create-flask-project-cli
+        
+        For a manual install get this package:
+        
+        ::
+        
+            wget https://github.com/logan0501/flaskcli.git
+            unzip flaskcli.zip
+            rm flaskcli.zip
+            cd flaskcli
+        
+        Install the package:
+        
+        ::
+        
+            python setup.py install    
+        
+        Example
+        --------
+        
+        .. code:: python
+        
+            
+        
+            # create flask app with html,css using cli.
+            flaskcli create-flask-app
+        
+            flaskcli create-flask-app main
+            #Here main is python file name.
+            
+        
+Keywords: flaskapp cli html css flaskcli
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
