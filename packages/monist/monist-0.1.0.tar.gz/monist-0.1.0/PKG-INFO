@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: monist
+Version: 0.1.0
+Summary: Simple singleton to share variables across modules
+Home-page: https://github.com/datagazing/monist
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com
