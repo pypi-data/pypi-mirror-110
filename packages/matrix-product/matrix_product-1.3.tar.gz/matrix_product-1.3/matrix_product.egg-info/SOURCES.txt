@@ -1,0 +1,13 @@
+setup.py
+matrix_product/FaceSplittingProduct.py
+matrix_product/FrobeniusProduct.py
+matrix_product/HadamardProduct.py
+matrix_product/KhatriRaoColumnProduct.py
+matrix_product/KroneckerProduct.py
+matrix_product/Multiplication.py
+matrix_product/__init__.py
+matrix_product.egg-info/PKG-INFO
+matrix_product.egg-info/SOURCES.txt
+matrix_product.egg-info/dependency_links.txt
+matrix_product.egg-info/not-zip-safe
+matrix_product.egg-info/top_level.txt
