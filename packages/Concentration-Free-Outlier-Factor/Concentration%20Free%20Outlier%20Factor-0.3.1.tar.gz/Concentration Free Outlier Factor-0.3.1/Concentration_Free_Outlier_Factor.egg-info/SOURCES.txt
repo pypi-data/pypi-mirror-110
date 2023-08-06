@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Concentration_Free_Outlier_Factor.egg-info/PKG-INFO
+Concentration_Free_Outlier_Factor.egg-info/SOURCES.txt
+Concentration_Free_Outlier_Factor.egg-info/dependency_links.txt
+Concentration_Free_Outlier_Factor.egg-info/top_level.txt
+pyCFOF/__init__.py
+pyCFOF/_cfof.py
+pyCFOF/tests/__init__.py
+pyCFOF/tests/test_cfof.py
