@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: oknlp
+Version: 0.0.1rc3
+Summary: OKNLP
+Home-page: https://github.com/thunlp/ink
+Author: THUNLP
+Author-email: thunlp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYaml
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: transformers (>=4)
+Requires-Dist: kara-storage
+Requires-Dist: py3nvml
+
+# INK
+
+
+
