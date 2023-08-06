@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: haros-plugin-pbt-gen
+Version: 0.3.0
+Summary: HAROS plugin to generate Property-based tests.
+Home-page: https://github.com/git-afsantos/haros-plugin-pbt-gen
+Author: André Santos
+Author-email: contact.andre.santos@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: test-generation ros testing property-based-testing
+Platform: UNKNOWN

@@ -1,0 +1,523 @@
+{# SPDX-License-Identifier: MIT #}
+{# Copyright © 2021 André Santos #}
+
+{##############################################################################
+ # Test Case Macros
+ ##############################################################################}
+
+{% macro _unittest_setup(publishers, subscribers) %}
+def setUp(self):
+    unittest.TestCase.setUp(self)
+    self.trace_start_time = 0
+    uuid = rospy.get_param("/run_id")
+    {# uuid = roslaunch.rlutil.get_or_generate_uuid(None, True) #}
+    roslaunch.configure_logging(uuid)
+    self.launches = []
+    self.monitors = []
+    self.axioms = []
+    self.subs = {}
+    {% for sub in subscribers %}
+        {% if sub.fake %}
+    self.subs["{{ sub.topic }}"] = FakeTestSubscriber("{{ sub.topic }}")
+        {% else %}
+    self.subs["{{ sub.topic }}"] = TestSubscriber("{{ sub.topic }}", {# -#}
+        {{ sub.type_token.type_name.replace("/", ".") }})
+        {% endif %}
+    {% endfor %}
+    self.pubs = {}
+    {% for pub in publishers %}
+    self.pubs["{{ pub.topic }}"] = TestPublisher("{{ pub.topic }}", {# -#}
+        {{ pub.rospy_type }}, self.subs["{{ pub.topic }}"])
+    {% endfor %}
+    self.n_examples = 0
+    self.n_failed_assumptions = 0
+    self.first_fail = None
+    self.counterexample_size = -1
+    self.n_fail = 0
+    self.times = []
+    self.clock = 0
+{% endmacro %}
+
+{% macro _setup_test(main_monitor, monitors, axioms) %}
+def _setup_test(self):
+    self.launch_time = 0
+    self.clock = 0
+    self.deadline = 0
+    self.monitors = []
+    {% for monitor in monitors %}
+    m = {{ monitor.class_name }}()
+    self.monitors.append(m)
+        {% if monitor.class_name == main_monitor %}
+    self.main_monitor = m
+    m.on_enter_scope = self._on_enter_scope
+    m.on_exit_scope = self._on_exit_scope
+    m.on_success = self._on_early_success
+        {% endif %}
+    m.on_violation = partial(self._on_property_violation, m, False)
+        {% for event in monitor.events %}
+    self.subs["{{ event.topic }}"].add(m.on_msg_{{ event.topic.replace('/', '_')}})
+        {% endfor %}
+    {% endfor %}
+    self.axioms = []
+    {% for monitor in axioms %}
+    m = {{ monitor.class_name }}()
+    self.axioms.append(m)
+    m.on_violation = partial(self._on_property_violation, m, True)
+        {% for event in monitor.events %}
+    self.subs["{{ event.topic }}"].add(m.on_msg_{{ event.topic.replace('/', '_')}})
+        {% endfor %}
+    {% endfor %}
+    self.launches = []
+    self.trace_done = False
+    self.assumptions_ok = True
+    self.witness = None
+    self.pub_log = []
+    self.n_scopes = 0
+    self.monitor_active = False
+    self.fail_time = None
+{% endmacro %}
+
+
+{% macro _setup_sut(commands, settings) %}
+def _setup_sut(self):
+    self.launch_time = get_time()
+    self.clock = self.launch_time
+    self.deadline = self.launch_time + {# defaults to 15 seconds -#}
+        {{ settings['deadline']|d(15, true) }}
+    for monitor in self.monitors:
+        monitor.on_launch(self.launch_time)
+    for monitor in self.axioms:
+        monitor.on_launch(self.launch_time)
+    with HiddenPrints():
+    {% for cmd in commands %}
+        {# uuid = rospy.get_param("/run_id") #}
+        uuid = roslaunch.rlutil.get_or_generate_uuid(None, True)
+        {% if cmd.command == 'roslaunch' %}
+        launch = roslaunch.parent.ROSLaunchParent(uuid,
+            ["{{ cmd.args[0] }}"],
+            is_core=False, verbose=False)
+        launch.start(auto_terminate=False)
+        {% elif cmd.command == 'rosrun' %}
+        launch = roslaunch.parent.ROSLaunchParent(uuid, [],
+            is_core=False, verbose=False)
+            {% if cmd.args|length >= 3 %}
+        node = roslaunch.core.Node("{{ cmd.args[0] }}", "{{ cmd.args[1] }}",
+            name="{{ cmd.args[2] }}")
+            {% else %}
+        node = roslaunch.core.Node("{{ cmd.args[0] }}", "{{ cmd.args[1] }}")
+            {% endif %}
+        launch.start()
+        process, success = launch.runner.launch_node(node)
+    if not success:
+        raise RuntimeError("failed to launch {{ cmd.args[0] }}/{# -#}
+            {{ cmd.args[1] }}")
+        {% endif %}
+    self.launches.append(launch)
+    {% endfor %}
+    self._wait_for_nodes()
+    self._wait_for_interfaces()
+{% endmacro %}
+
+
+{% macro _test_hypothesis(settings, is_liveness) %}
+@settings(max_examples={{ settings['max_examples']|d(1000, true) }}, {# -#}
+            deadline=None,
+          suppress_health_check=(HealthCheck.filter_too_much, HealthCheck.too_slow))
+@given(trace=traces(), hz=strategies.sampled_from((1000, 100, 10, 5, 1)))
+def _test_hypothesis_properties(self, trace, hz):
+    if rospy.is_shutdown():
+        return
+    self._eval_trace(trace, hz)
+    passed = False
+    self.n_examples += 1
+    self._setup_test()
+    print("[Example #{}]: Launching SUT...".format(self.n_examples))
+    self._setup_sut()
+    self.trace_done = False
+    rate = rospy.Rate(hz)
+    if rospy.is_shutdown():
+        return
+    try:
+        self._update()
+        self.trace_start_time = get_time()
+        mon = self.main_monitor
+        for rep in range(trace.repetitions):
+            if self.n_scopes < rep:
+                raise BuggyTestError.missing_terminator()
+            while self.monitor_active and self.n_scopes == rep:
+                self._update()
+                rate.sleep()
+            for chunk in trace:
+                if chunk.req_scope:
+                    if self.n_scopes == rep:
+                        while not self.monitor_active:
+                            self._update()
+                            rate.sleep()
+                    else:
+                        if not self.monitor_active: # already terminated
+                            continue
+                elif chunk.req_not_scope:
+                    if self.monitor_active:
+                        if not self.n_scopes > rep:
+                            raise BuggyTestError.missing_terminator()
+                        continue
+                if chunk.delay > 0.0:
+                    if chunk.relative_delay:
+                        while (get_time() - self.clock) < chunk.delay:
+                            self._update()
+                            rate.sleep()
+                    else:
+                        rospy.sleep(chunk.delay)
+                else:
+                    rate.sleep()
+                self._update()
+                pub_time = get_time()
+                for msg, topic in chunk.messages:
+                    self.pubs[topic].publish(msg, time=pub_time)
+                    self.pub_log.append(MsgRecord(topic, pub_time, msg))
+                if chunk.set_clock:
+                    self.clock = get_time()
+        self.trace_done = True
+        self._check_status()
+        self._update()
+        assert mon.verdict is not False, mon.HPL_PROPERTY
+        # self._check_outcome(trace)
+        passed = True
+        print("[Example #{}]: OK".format(self.n_examples))
+    except AssertionError as e:
+        raise e
+    except EarlySuccess:
+        passed = True
+        print("[Example #{}]: OK".format(self.n_examples))
+    finally:
+        self.times.append(get_time() - self.launch_time)
+        if self.assumptions_ok:
+            if not passed:
+                self.n_fail += 1
+                if self.first_fail is None:
+                    self.first_fail = self.n_examples
+                print("[Example #{}]: FAIL".format(self.n_examples))
+        else:
+            self.n_failed_assumptions += 1
+            print("[Example #{}]: INVALID".format(self.n_examples))
+        if self.witness is not None:
+            self._report_witness()
+        self._teardown_sut()
+{% endmacro %}
+
+
+{# FIXME old code, not yet reused #}
+{% macro _check_outcome(is_liveness) %}
+def _check_outcome(self, trace):
+    now = get_time()
+    if trace.ends_via_timeout:
+    {% if is_liveness %}
+        if trace.n_triggers > 0 and not self.main_monitor.triggered:
+            raise BuggyTestError.missing_trigger()
+        if not self.main_monitor.at_least_once:
+            raise InconclusiveTestError.timeout()
+    {% endif %}
+        if self.main_monitor.active:
+            self.main_monitor._deactivate(now)
+    else:
+    {% if is_liveness %}
+        if self.main_monitor.slack_max_time < inf:
+            while self.main_monitor.active and self.main_monitor.slack_max_time >= now:
+                rospy.sleep(self.main_monitor.slack_max_time - now)
+                now = get_time()
+                self.main_monitor.update(now)
+    {% endif %}
+        if self.main_monitor.active:
+            raise BuggyTestError.missing_terminator()
+    {% if is_liveness %}
+        if trace.n_triggers > 0 and not self.main_monitor.triggered:
+            raise BuggyTestError.missing_trigger()
+        assert self.main_monitor.at_least_once, self.main_monitor.HPL_PROPERTY
+    {% endif %}
+    assert not self.main_monitor.has_failed, self.main_monitor.HPL_PROPERTY
+{% endmacro %}
+
+
+{% macro _eval_trace(axioms) %}
+def _eval_trace(self, trace, hz):
+{% if axioms %}
+    self._time_analysis(trace, hz)
+    try:
+    {% for monitor in axioms %}
+        assume(eval_{{ monitor.class_name }}(trace))
+    {% endfor %}
+    except UnsatisfiedAssumption as e:
+        self.assumptions_ok = False
+        raise e
+{% else %}
+    pass
+{% endif %}
+{% endmacro %}
+
+
+{##############################################################################}
+{# RENDERED CODE #}
+{##############################################################################}
+
+{#
+    Builds the main test case class, which contains the main logic of the test.
+    It is responsible for setting up and tearing down the SUT, building
+    the various property monitors and replaying a random trace given by
+    hypothesis.
+#}
+
+{#
+    expects:
+        main_monitor, monitors, axioms, publishers,
+        subscribers, commands, nodes, settings, is_liveness
+#}
+
+class EarlySuccess(Exception):
+    pass
+
+
+class TestTracer(unittest.TestCase):
+    NODES = {{ nodes }}
+
+{{ _unittest_setup(publishers, subscribers)|indent(width=4, first=true) }}
+
+    def tearDown(self):
+        unittest.TestCase.tearDown(self)
+        for sub in self.subs.values():
+            sub.unregister()
+        self.subs = {}
+        for pub in self.pubs.values():
+            pub.unregister()
+        self.pubs = {}
+
+    def test_properties(self):
+        # test once that the SUT is OK, before Hypothesis begins its loop
+        try:
+            self._setup_sut()
+        finally:
+            self._teardown_sut()
+        try:
+            self.n_examples = 0
+            self.n_fail = 0
+            self.n_failed_assumptions = 0
+            self._test_hypothesis_properties()
+        finally:
+            if self.times:
+                s = sum(self.times)
+                avg = s / len(self.times)
+                print("Avg. test time:", avg)
+                print("Total time:", s)
+            print("Number of examples: {} ({} failures)".format(
+                self.n_examples, self.n_fail))
+            print("Number of failed assumptions: {}".format(
+                self.n_failed_assumptions))
+            if self.first_fail is not None:
+                print("First failure at example #{} ({} shrink attempts)".format(
+                    self.first_fail, (self.n_examples - self.first_fail)))
+                print("Counterexample trace size: {} messages".format(
+                    self.counterexample_size))
+
+{{ _test_hypothesis(settings, is_liveness)|indent(width=4, first=true) }}
+
+{{ _eval_trace(axioms)|indent(width=4, first=true) }}
+
+    def _time_analysis(self, trace, hz):
+        clock = 0.0
+        relative_clock = 0.0
+        sleep_time = 1.0 / hz
+        for chunk in trace.chunks:
+            delta = sleep_time
+            if chunk.delay > 0.0:
+                if chunk.relative_delay:
+                    t = relative_clock + chunk.delay
+                    if t > clock + delta:
+                        delta = t - clock
+                else:
+                    delta += chunk.delay
+            clock += delta
+            if chunk.set_clock:
+                relative_clock = clock
+            chunk._trace_time = clock
+            chunk._delta_time = delta
+
+{{ _setup_test(main_monitor, monitors, axioms)|indent(width=4, first=true) }}
+
+{{ _setup_sut(commands, settings)|indent(width=4, first=true) }}
+
+    def _teardown_sut(self):
+        with HiddenPrints():
+            for launch in self.launches:
+                launch.shutdown()
+            try:
+                kill_nodes(self.NODES)
+            except ROSNodeException as e:
+                if e.message.startswith("Unknown node"):
+                    pass
+                else:
+                    raise e
+        for sub in self.subs.values():
+            sub.reset()
+        self._wait_for_nodes(online=False)
+        rospy.sleep(1.0)
+
+    def _update(self, set_clock=False):
+        if rospy.is_shutdown():
+            raise InconclusiveTestError.rospy_shutdown()
+        for launch in self.launches:
+            launch.spin_once()
+        now = get_time()
+        if set_clock:
+            self.clock = now
+        for monitor in self.monitors:
+            monitor.on_timer(now)
+        for monitor in self.axioms:
+            monitor.on_timer(now)
+
+{# {{ _check_outcome(is_liveness)|indent(width=4, first=true) }} #}
+
+    def _on_early_success(self, time, witness):
+        # called only for the main monitor
+        raise EarlySuccess()
+
+    def _on_property_violation(self, monitor, is_axiom, time, witness):
+        self.witness = witness
+        self.fail_time = time
+        if is_axiom:
+            self.assumptions_ok = False
+            assume(False)
+        else:
+            assert False, monitor.HPL_PROPERTY
+
+    def _on_enter_scope(self, time):
+        # called only for the main monitor
+        self.n_scopes += 1
+        self.monitor_active = True
+
+    def _on_exit_scope(self, time):
+        # called only for the main monitor
+        self.monitor_active = False
+
+    def _wait_for_nodes(self, timeout=60.0, online=True):
+        if online:
+            rospy.logdebug("Waiting for the SUT to start")
+        else:
+            rospy.logdebug("Waiting for the SUT to shut down")
+        now = get_time()
+        rate = rospy.Rate(20)
+        while now == 0.0 and not rospy.is_shutdown():
+            rate.sleep()
+            now = get_time()
+        end = now + timeout
+        pending = list(self.NODES)
+        with HiddenPrints():
+            while now < end and pending and not rospy.is_shutdown():
+                node_name = pending.pop()
+                if not rosnode_ping(node_name, max_count=1) is online:
+                    pending.append(node_name)
+                    rate.sleep()
+                now = get_time()
+        if not rospy.is_shutdown():
+            if pending:
+                if online:
+                    raise LookupError("Failed to find nodes " + str(pending))
+                else:
+                    raise LookupError("Failed to kill nodes " + str(pending))
+            pending = [n for n in get_node_names() if n in self.NODES]
+            if not online: # exclude self
+                while now < end and len(pending) > 1 and not rospy.is_shutdown():
+                    rate.sleep()
+                    now = get_time()
+                if len(pending) > 1:
+                    raise LookupError("Failed to kill nodes " + str(pending))
+
+    def _wait_for_interfaces(self, timeout=10.0):
+        rospy.logdebug("Waiting for publishers and subscribers")
+        now = get_time()
+        rate = rospy.Rate(20)
+        end = now + timeout
+        for pub in self.pubs.values():
+            if rospy.is_shutdown():
+                break
+            while now < end and not pub.ready and not rospy.is_shutdown():
+                rate.sleep()
+                now = get_time()
+            if now >= end and not rospy.is_shutdown():
+                raise LookupError(
+                    "Failed to connect to topic: " + str(pub.resolved_name))
+        for sub in self.subs.values():
+            if rospy.is_shutdown():
+                break
+            while now < end and not sub.ready and not rospy.is_shutdown():
+                rate.sleep()
+                now = get_time()
+            if now >= end and not rospy.is_shutdown():
+                raise LookupError(
+                    "Failed to connect to topic: " + str(sub.resolved_name))
+
+    def _check_status(self):
+        if not rospy.is_shutdown():
+            for node_name in self.NODES:
+                assert rosnode_ping(node_name, max_count=1), (
+                    "Failed to find " + node_name)
+            for pub in self.pubs.values():
+                assert pub.ready, "Failed to find " + pub.resolved_name
+            for sub in self.subs.values():
+                assert sub.ready, "Failed to find " + sub.resolved_name
+
+    def _report_witness(self):
+        self.counterexample_size = 0
+        if not self.witness and not self.pub_log:
+            note("No messages were sent or received.")
+            return
+        # Build counterexample timeline ---------------------
+        ce = []
+        #   1. Published messages up until a failure was registered.
+        for record in self.pub_log:
+            if record.timestamp > self.fail_time:
+                break
+            ce.append((record, True, False))
+        self.counterexample_size = len(ce)
+        #   2. Witness messages placed in order.
+        i = 0
+        for record in self.witness:
+            if record.topic in self.pubs:
+                # published by the test; must be somewhere
+                while i < len(ce):
+                    rec2 = ce[i][0]
+                    i += 1
+                    if rec2.timestamp != record.timestamp:
+                        continue
+                    if rec2.topic != record.topic:
+                        continue
+                    if rec2.msg != record.msg:
+                        continue
+                    ce[i] = (rec2, True, True)
+                    break
+                else:
+                    raise BuggyTestError.bad_witness()
+            else:
+                # not published by the test; should not be there
+                while i < len(ce):
+                    rec2 = ce[i][0]
+                    if rec2.timestamp >= record.timestamp:
+                        ce.insert(i, (record, False, True))
+                        break
+                    i += 1
+                else:
+                    ce.append((record, False, True))
+                    i += 1
+        prev = None
+        for record, sent, witness in ce:
+            age = record.timestamp - self.launch_time
+            age = "@{:,}ms".format(int(age * 1000))
+            tag = "witness" if witness else "spam"
+            if sent:
+                note(">> {} sent {} on {}".format(age, tag, record.topic))
+            else:
+                note("<< {} received on {}".format(age, record.topic))
+            if not prev or record.topic != prev.topic or record.msg != prev.msg:
+                msg = str(record.msg) or "(empty msg)"
+                note(msg)
+            else:
+                note("(same as above)")
+            prev = record

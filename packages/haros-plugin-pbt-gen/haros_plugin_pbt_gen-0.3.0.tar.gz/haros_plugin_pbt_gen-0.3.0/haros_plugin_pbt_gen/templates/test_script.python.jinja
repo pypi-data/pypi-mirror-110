@@ -1,0 +1,389 @@
+{# SPDX-License-Identifier: MIT #}
+{# Copyright © 2021 André Santos #}
+
+{##############################################################################}
+{# RENDERED CODE #}
+{##############################################################################}
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# SPDX-License-Identifier: MIT
+# Copyright © 2021 André Santos
+
+###############################################################################
+# Imports
+###############################################################################
+
+from __future__ import print_function, unicode_literals
+from builtins import object, range, str
+from collections import deque, namedtuple
+from functools import partial
+from math import pi as PI
+from math import e as E
+from math import (
+    ceil, floor, log, log10, sqrt, acos, asin,
+    atan, atan2, cos, sin, tan, degrees, radians,
+)
+import os
+from threading import Lock
+from time import time as get_time
+import unittest
+import sys
+
+from hypothesis import assume, given, HealthCheck, note, settings
+from hypothesis.errors import UnsatisfiedAssumption
+import hypothesis.strategies as strategies
+import rospy
+import roslaunch
+from rosnode import get_node_names, rosnode_ping, kill_nodes, ROSNodeException
+from rospy import Publisher, Subscriber, SubscribeListener
+
+{% for pkg_name in pkg_imports %}
+import {{ pkg_name }}.msg as {{ pkg_name }}
+{% endfor %}
+
+
+################################################################################
+# Constants
+################################################################################
+
+INF = inf = float("inf")
+NAN = nan = float("nan")
+
+INT8_MIN_VALUE = -(2 ** 7)
+INT8_MAX_VALUE = (2 ** 7) - 1
+
+INT16_MIN_VALUE = -(2 ** 15)
+INT16_MAX_VALUE = (2 ** 15) - 1
+
+INT32_MIN_VALUE = -(2 ** 31)
+INT32_MAX_VALUE = (2 ** 31) - 1
+
+INT64_MIN_VALUE = -(2 ** 63)
+INT64_MAX_VALUE = (2 ** 63) - 1
+
+UINT8_MAX_VALUE = (2 ** 8) - 1
+
+UINT16_MAX_VALUE = (2 ** 16) - 1
+
+UINT32_MAX_VALUE = (2 ** 32) - 1
+
+UINT64_MAX_VALUE = (2 ** 64) - 1
+
+FLOAT32_MIN_VALUE = -3.3999999521443642e+38
+FLOAT32_MAX_VALUE = 3.3999999521443642e+38
+
+FLOAT64_MIN_VALUE = -1.7E+308
+FLOAT64_MAX_VALUE = 1.7E+308
+
+
+################################################################################
+# Utility
+################################################################################
+
+MsgRecord = namedtuple('MsgRecord', ('topic', 'timestamp', 'msg'))
+
+def do_nothing(time=None, msg=None):
+    pass
+
+def range_excluding(start, end, exclude):
+    for i in range(start, end):
+        if i not in exclude:
+            yield i
+
+def all_except(array, exclude):
+    for i in range(len(array)):
+        if i not in exclude:
+            yield array[i]
+
+def prod(iterable):
+    x = 1
+    for y in iterable:
+        x = x * y
+        if x == 0:
+            return 0
+    return x
+
+
+class HiddenPrints(object):
+    __slots__ = ("_original_stdout", "_original_stderr")
+
+    def __enter__(self):
+        self._original_stdout = sys.stdout
+        self._original_stderr = sys.stderr
+        sys.stdout = open(os.devnull, "w")
+        sys.stderr = sys.stdout
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        sys.stdout.close()
+        sys.stdout = self._original_stdout
+        sys.stderr = self._original_stderr
+
+
+################################################################################
+# Base Strategies
+################################################################################
+
+{{ default_msg_strategies }}
+
+
+################################################################################
+# Custom Message Strategies
+################################################################################
+
+{{ custom_msg_strategies }}
+
+
+################################################################################
+# Trace Strategies
+################################################################################
+
+class Trace(object):
+    __slots__ = ("chunks", "repetitions", "_ends_via_timeout")
+
+    def __init__(self, chunks, reps=1, ends_via_timeout=True):
+        self.chunks = chunks
+        self.repetitions = reps
+        self._ends_via_timeout = ends_via_timeout
+
+    @property
+    def ends_via_timeout(self):
+        #return (not self.chunks
+        #    or (not self.chunks[-1].messages and self.chunks[-1].delay > 0.0))
+        return self._ends_via_timeout
+
+    @property
+    def n_triggers(self):
+        return sum(1 for chunk in self.chunks if chunk.contains_trigger)
+
+    @property
+    def n_messages(self):
+        return sum(len(chunk.messages) for chunk in self.chunks)
+
+    def __len__(self):
+        return len(self.chunks)
+
+    def __iter__(self):
+        return iter(self.chunks)
+
+    def __str__(self):
+        return " >> ".join(str(c) for c in self.chunks)
+
+    def __repr__(self):
+        return "Trace({})".format(repr(self.chunks))
+
+
+class Chunk(object):
+    __slots__ = ("messages", "delay", "relative_delay", "set_clock",
+                 "req_scope", "req_not_scope",
+                 "contains_trigger", "_trace_time", "_delta_time")
+
+    def __init__(self, msgs=None, delay=0.0, relative=False, clock=False):
+        # msgs :: [(Message, string (topic))]
+        self.messages = msgs if msgs is not None else []
+        self.delay = delay
+        self.relative_delay = relative
+        self.set_clock = clock
+        self.contains_trigger = False
+        self.req_scope = False
+        self.req_not_scope = False
+        self._trace_time = 0.0
+        self._delta_time = 0.0
+
+    def __str__(self):
+        return "({} s) {}".format(self.delay, self.messages)
+
+    def __repr__(self):
+        return "Chunk(msgs={}, delay={}, relative={}, clock={})".format(
+            repr(self.messages), self.delay, self.relative_delay, self.set_clock)
+
+
+@strategies.composite
+def chunk_splits(draw, msgs):
+    cs = draw(strategies.lists(
+        strategies.builds(Chunk), min_size=1, max_size=len(msgs)))
+    n = len(cs)
+    i = 0
+    for msg in msgs:
+        cs[i].messages.append(msg)
+        i = (i + 1) % n
+    return cs
+
+
+{{ trace_strategy }}
+
+
+################################################################################
+# Runtime Verification Classes
+################################################################################
+
+EvalScope = namedtuple("EvalScope", ("chunks", "state",))
+
+
+{% for monitor in monitors %}
+
+{{ monitor }}
+
+{% endfor %}
+
+{% for monitor in axioms %}
+
+{{ monitor }}
+
+{% endfor %}
+
+
+################################################################################
+# Evaluation Functions
+################################################################################
+
+{% for fn in eval_functions %}
+
+{{ fn }}
+
+{% endfor %}
+
+################################################################################
+# Test Tracer
+################################################################################
+
+class InconclusiveTestError(Exception):
+    @classmethod
+    def timeout(cls):
+        return cls("Test timed out before reaching a verdict.")
+
+    @classmethod
+    def rospy_shutdown(cls):
+        return cls("rospy shut down during the test.")
+
+
+class BuggyTestError(Exception):
+    @classmethod
+    def missing_terminator(cls):
+        return cls("Terminator message was not observed.")
+
+    @classmethod
+    def missing_trigger(cls):
+        return cls("Trigger message was not observed.")
+
+    @classmethod
+    def bad_witness(cls):
+        return cls("Witness report does not match publication log.")
+
+
+class TestPublisher(SubscribeListener):
+    __slots__ = ("pub", "subscriber")
+
+    def __init__(self, topic, msg_type, subscriber):
+        self.pub = Publisher(topic, msg_type, queue_size=10)
+        #                    subscriber_listener=self
+        self.subscriber = subscriber
+
+    @property
+    def ready(self):
+        if self.subscriber.fake:
+            return self.pub.get_num_connections() >= 1
+        return self.pub.get_num_connections() >= 2
+
+    @property
+    def resolved_name(self):
+        return self.pub.resolved_name
+
+    def peer_subscribe(self, topic_name, topic_publish, peer_publish):
+        print(">> SUBSCRIBED ON", topic_name)
+
+    def peer_unsubscribe(self, topic_name, num_peers):
+        print(">> UNSUBSCRIBED ON", topic_name)
+
+    def unregister(self):
+        self.pub.unregister()
+
+    def publish(self, msg, time=None):
+        time = time if time is not None else get_time()
+        self.subscriber._cb(msg, time)
+        self.pub.publish(msg)
+
+
+class FakeTestSubscriber(object):
+    __slots__ = ("topic", "callbacks",)
+
+    def __init__(self, topic):
+        self.topic = topic
+        self.callbacks = []
+
+    @property
+    def ready(self):
+        return True
+
+    @property
+    def fake(self):
+        return True
+
+    @property
+    def resolved_name(self):
+        return self.topic
+
+    def reset(self):
+        self.callbacks = []
+
+    unregister = reset
+
+    def add(self, cb):
+        self.callbacks.append(cb)
+
+    def _cb(self, msg, time):
+        for cb in self.callbacks:
+            cb(msg, time)
+
+
+class TestSubscriber(object):
+    __slots__ = ("sub", "callbacks",)
+
+    def __init__(self, topic, msg_type):
+        self.sub = Subscriber(topic, msg_type, self._cb, queue_size=10)
+        self.callbacks = []
+
+    @property
+    def ready(self):
+        return self.sub.get_num_connections() >= 1
+
+    @property
+    def fake(self):
+        return False
+
+    @property
+    def resolved_name(self):
+        return self.sub.resolved_name
+
+    def reset(self):
+        self.callbacks = []
+
+    def unregister(self):
+        self.reset()
+        self.sub.unregister()
+
+    def add(self, cb):
+        self.callbacks.append(cb)
+
+    def _cb(self, msg):
+        time = get_time()
+        for cb in self.callbacks:
+            cb(msg, time)
+
+
+{{ test_case }}
+
+
+################################################################################
+# Entry Point
+################################################################################
+
+def main():
+    # {{ property_text }}
+    rospy.init_node("property_tester", log_level=rospy.{{ log_level }})
+    unittest.main(module=__name__, argv=[__name__], exit=False)
+    sys.stdout.flush()
+
+if __name__ == "__main__":
+    main()
