@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: byestore
+Version: 0.0.4
+Summary: A library for ByeStore
+Home-page: https://github.com/byestore/byestorelibs
+Author: ByeMC
+Author-email: byestore@byemc.xyz
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/byestore/byestorelibs/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ByeStore
+
+An App Store for all (except iOS, you know why)
+
+[![Documentation Status](https://readthedocs.org/projects/byestore/badge/?version=latest)](https://byestore.readthedocs.io/en/latest/?badge=latest) [![Discord](https://img.shields.io/discord/827083552155238460?color=7289DA&label=Official%20Chats%20%5Bwith%20ByeStore%20channels%5D&logo=discord&logoColor=white)](https://discord.gg/XvHXmeuzdg)
+
+Visit the store [online](//apps.byemc.xyz/)
+
+[Download it!](//apps.byemc.xyz/byemc/byestore/)
+
+NOTE: LINKS ARE **NOT** OPERATIONAL AT THIS MOMENT.
+
+
