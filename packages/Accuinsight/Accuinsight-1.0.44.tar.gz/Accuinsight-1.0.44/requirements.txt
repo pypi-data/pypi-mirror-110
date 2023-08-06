@@ -1,0 +1,22 @@
+wrapt==1.12.1
+requests
+gorilla==0.3.0
+more-itertools
+py-cpuinfo==5.0.0
+packaging==20.3
+GitPython
+munch
+nest-asyncio
+scipy==1.5.3
+sklearn
+numpy
+matplotlib
+cython
+keras
+tensorflow
+lightgbm
+# torch
+pandas
+# xgboost
+Asyncio
+boto3
