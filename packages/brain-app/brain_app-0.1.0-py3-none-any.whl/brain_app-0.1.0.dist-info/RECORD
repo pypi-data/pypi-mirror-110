@@ -1,0 +1,8 @@
+brain_app/__init__.py,sha256=-aU-zEYIepPVytRdFt6VhEhyqulFq2ARzQZbfLsycNU,130
+brain_app/brain_app.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+brain_app/cli.py,sha256=qupflZukS8t-5QgxcPKgaRr0XamtX_er1kU4ZbTGgHs,242
+brain_app-0.1.0.dist-info/entry_points.txt,sha256=ygb0cxWUiXXfRnMoH6DGRph9CT3WjzGOvXw8pl80eCI,48
+brain_app-0.1.0.dist-info/LICENSE,sha256=QkiPjH0hrIA_VSBVOz_JY3SHTZeW4tX-8OFQh1mfzEQ,1071
+brain_app-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+brain_app-0.1.0.dist-info/METADATA,sha256=XeJwuc0Uvb0gk9Uf5jxCgcL8pkHhCv5ZiLO3-65H-1w,2772
+brain_app-0.1.0.dist-info/RECORD,,

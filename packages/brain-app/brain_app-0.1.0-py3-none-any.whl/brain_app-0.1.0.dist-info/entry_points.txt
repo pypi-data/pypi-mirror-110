@@ -1,0 +1,3 @@
+[console_scripts]
+brain_app=brain_app.cli:main
+
