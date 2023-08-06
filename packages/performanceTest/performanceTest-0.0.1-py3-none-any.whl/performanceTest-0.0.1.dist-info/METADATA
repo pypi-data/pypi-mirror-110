@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: performanceTest
+Version: 0.0.1
+Summary: A collection of testing methods with various purposes.
+Home-page: https://github.com/erlete/perftesting
+Author: Paulo Sanchez
+Author-email: szblzpaulo@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/erlete/perftesting/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# performanceTest
+A collection of testing methods with various purposes.
+
+
