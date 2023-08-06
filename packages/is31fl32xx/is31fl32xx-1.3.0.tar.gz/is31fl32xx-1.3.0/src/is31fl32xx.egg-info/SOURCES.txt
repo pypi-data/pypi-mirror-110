@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/is31fl32xx/__init__.py
+src/is31fl32xx/is31fl32xx.py
+src/is31fl32xx.egg-info/PKG-INFO
+src/is31fl32xx.egg-info/SOURCES.txt
+src/is31fl32xx.egg-info/dependency_links.txt
+src/is31fl32xx.egg-info/requires.txt
+src/is31fl32xx.egg-info/top_level.txt

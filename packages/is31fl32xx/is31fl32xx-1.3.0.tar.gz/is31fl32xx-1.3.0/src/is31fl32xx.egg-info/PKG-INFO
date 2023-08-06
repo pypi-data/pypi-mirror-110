@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: is31fl32xx
+Version: 1.3.0
+Summary: Support for the is31fl32xx LED controller
+Home-page: https://github.com/matteoscordino/python-IS31FL3218-controller
+Author: Matteo Scordino
+License: UNKNOWN
+Keywords: IS31FL3218,IS31FL3219,IS31FL32xx
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-IS31FL3218-controller
+Python 3 module for ISSI IS31FL3218 LED PWM controller
+
+See [here](http://www.issi.com/WW/pdf/31FL3218.pdf) for the official datasheet
+
+
