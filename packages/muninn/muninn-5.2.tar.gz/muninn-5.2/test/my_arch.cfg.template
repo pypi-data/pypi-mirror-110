@@ -1,0 +1,5 @@
+[archive]
+storage = {storage}
+database = {database}
+product_type_extensions = product_type
+hook_extensions = hook_extension
