@@ -1,0 +1,6 @@
+requests
+websocket_client==1.1.0
+pydantic
+
+[extra]
+wsaccel
