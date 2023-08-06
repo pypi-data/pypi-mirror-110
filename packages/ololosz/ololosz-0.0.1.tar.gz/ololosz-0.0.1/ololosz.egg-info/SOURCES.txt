@@ -1,0 +1,5 @@
+setup.py
+ololosz.egg-info/PKG-INFO
+ololosz.egg-info/SOURCES.txt
+ololosz.egg-info/dependency_links.txt
+ololosz.egg-info/top_level.txt
