@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: mmrwrapper
+Version: 0.0.5
+Summary: API-Wrapper WhatIsMyMMR
+Home-page: UNKNOWN
+Author: Sunta
+Author-email: noneofyour@business.com
+License: UNKNOWN
+Description: 
+        
+        Simple-Async API Wrapper for WhatIsMyMMR Website (League of Legends)
+        
+        Creator-Attribution:
+        
+        Title: WhatIsMyMMR
+        
+        Creator: Josh Kross / josh@whatismymmr.com
+        
+        Source: https://euw.whatismymmr.com/ / https://dev.whatismymmr.com/
+        
+        License: https://creativecommons.org/licenses/by/4.0/
+        
+        
+        
+        
+Keywords: python,api,wrapper
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
