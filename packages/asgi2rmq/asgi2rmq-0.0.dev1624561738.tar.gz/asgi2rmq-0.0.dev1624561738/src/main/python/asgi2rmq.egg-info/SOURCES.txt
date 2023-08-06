@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/main/python/asgi2rmq/__init__.py
+src/main/python/asgi2rmq/__main__.py
+src/main/python/asgi2rmq.egg-info/PKG-INFO
+src/main/python/asgi2rmq.egg-info/SOURCES.txt
+src/main/python/asgi2rmq.egg-info/dependency_links.txt
+src/main/python/asgi2rmq.egg-info/requires.txt
+src/main/python/asgi2rmq.egg-info/top_level.txt

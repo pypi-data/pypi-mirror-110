@@ -1,0 +1,3 @@
+asgi2async
+http2rmq
+uvicorn[standard]~=0.14
