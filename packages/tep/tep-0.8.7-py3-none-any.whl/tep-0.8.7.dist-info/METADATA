@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: tep
+Version: 0.8.7
+Summary: tep is a testing tool to help you write pytest more easily. Try Easy Pytest!
+Home-page: https://github.com/dongfanger/tep
+License: Apache-2.0
+Keywords: testing,pytest
+Author: dongfanger
+Author-email: dongfanger@outlook.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Requires-Dist: allure-pytest (>=2.8.16,<3.0.0)
+Requires-Dist: allure-python-commons (>=2.8.16,<3.0.0)
+Requires-Dist: faker (>=4.1.1,<5.0.0)
+Requires-Dist: jmespath (>=0.10.0,<0.11.0)
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
+Requires-Dist: pytest-assume (>=2.4.2,<3.0.0)
+Requires-Dist: pytest-xdist (>=2.2.1,<3.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: urllib3 (>=1.25.9,<2.0.0)
+Project-URL: Repository, https://github.com/dongfanger/tep
+Description-Content-Type: text/markdown
+
+# tep
+
+`tep` is a testing tool to help you write pytest more easily. Try Easy Pytest!
+
+# Design Philosophy
+
+- Simple is better
+- Ready is better
+- Fast is better
+
+# Key Features
+
+- Inherit all features of `requests`，what `tep.client.request` adds is just a little log.
+- A single parameter `--tep-reports` generates the allure html test report.
+- Integrate common packages such as `faker`, `jmespath`, `loguru`, `pytest-xdist`, `pytest-assume`.
+- Provide a `requirements.txt` that contains some extension packages for optional manual installation.
+- The `fixtures` directory is automatically imported by `conftest.py`.
+
+# Installation
+
+`tep` is developed with Python, it supports Python `3.6+` and most operating systems.
+
+`tep` is available on [`PyPI`](https://pypi.python.org/pypi) and can be installed through `pip`:
+
+```
+$ pip install tep
+```
+
+or domestic mirror:
+
+```
+$ pip --default-timeout=600 install -i https://pypi.tuna.tsinghua.edu.cn/simple tep
+```
+
+# Check Installation
+
+When tep is installed, tep command will be added in your system.
+
+To see `tep` version:
+
+```
+$ tep -V  # tep --version
+0.2.3
+```
+
+# Docs
+
+[fixture_env_vars a global variable](https://github.com/dongfanger/tep/blob/master/docs/fixture_env_vars%20a%20global%20variable.md)
+
+[fixture_login reuse a api](https://github.com/dongfanger/tep/blob/master/docs/fixture_login%20reuse%20a%20api.md)
+
+[websocket protobuf](https://github.com/dongfanger/tep/blob/master/docs/websocket%20protobuf.md)
+
+# Contact me
+
+WeChat: dongfangpy
+
