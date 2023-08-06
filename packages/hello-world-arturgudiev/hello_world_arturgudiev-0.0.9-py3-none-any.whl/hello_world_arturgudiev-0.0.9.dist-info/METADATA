@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hello-world-arturgudiev
+Version: 0.0.9
+Summary: A Hello World package
+Home-page: UNKNOWN
+Author: Artur Gudiev
+Author-email: arturgudiev93@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colour-text
+
+# My first description
+
+This is a simple exercise to publish a package onto PyPi.
+
