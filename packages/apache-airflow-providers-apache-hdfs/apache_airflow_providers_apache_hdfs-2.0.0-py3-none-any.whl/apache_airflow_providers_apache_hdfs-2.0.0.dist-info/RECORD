@@ -1,0 +1,15 @@
+airflow/providers/apache/hdfs/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/hdfs/get_provider_info.py,sha256=f4HvrGWs8F3aS2OZGfVmXaiXZTeduPro0vb-8O1Om-4,3074
+airflow/providers/apache/hdfs/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/hdfs/hooks/hdfs.py,sha256=w1ZgC73Zr9oxGwBsUYENVn8QkA9TWbz-33vo03gmXF8,4090
+airflow/providers/apache/hdfs/hooks/webhdfs.py,sha256=3nVSlrcoP1V1wHwVZiVE6UN8RBb6w4CwuVeAnzSI8zE,5746
+airflow/providers/apache/hdfs/sensors/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/apache/hdfs/sensors/hdfs.py,sha256=FIALuHAtjos54CBkKry3EzhMtpIQhOKqHxoxwXTeanM,7987
+airflow/providers/apache/hdfs/sensors/web_hdfs.py,sha256=OnHSkXk_KqrGwt8YtWfJtdiXrntrR4wuGTTVBedEdUw,1524
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/METADATA,sha256=TuQNuI02iGCbygZmwktdVAz54pwPlbjuHYp_zAlxlF0,5270
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/NOTICE,sha256=irN1W_XwjRh8XRlHEhVpRCSY7NZfQgGdnEfjFvGrxK4,240
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/entry_points.txt,sha256=4qFYG-ipwXXc53po3BuQp_iStUrqUkavITspByAVUZ0,109
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_apache_hdfs-2.0.0.dist-info/RECORD,,
