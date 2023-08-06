@@ -1,0 +1,12 @@
+melodically/__init__.py,sha256=3BZ6hgEZpDKIIGfrd-n_aPzqn07m_OCE-HvKCRn3Jhg,248
+melodically/chords.py,sha256=4eoMeYJ0Aj-ZxSZwFimZ2e2DHCr1j2wQX0keD9VXw2Y,3342
+melodically/harmonic_state.py,sha256=epUCrxR-MidgBEW3ntgoeKk2ImDaFRzGAyfZVZiYloI,2342
+melodically/harmony.py,sha256=2Jwckj9n7fjSnkALF8NIOL_XMIj9oX3B5-AVVwLw5Jo,5350
+melodically/midi_note_queue.py,sha256=07zN4pjUzC-dS6Zp8lgVBFqxj_fDKqMQBOub-ecl50c,3992
+melodically/parsers.py,sha256=lRHRtk0ZDG-T_bdq1vWMYSypiUiKtr7fjH8Nr4zbPUY,3610
+melodically/rhythm.py,sha256=aWXYKhcvZglFO6at9bZzPZcCGu0DXX1cT768zaiSmbo,2802
+melodically-0.0.11.dist-info/LICENSE,sha256=1O50UfexR1qRmsBxAaCHJUHb6QkG0ay6QzWffZa_WFA,1095
+melodically-0.0.11.dist-info/METADATA,sha256=EF7BOkRnRumaP8B4FAxe-VVK1yIkvVwbJ3dCG-6ZXro,8911
+melodically-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+melodically-0.0.11.dist-info/top_level.txt,sha256=xAeKe-gK2f2l9ABJT6bWNnIHX-nJG5VB_KRnH6S1A28,12
+melodically-0.0.11.dist-info/RECORD,,
