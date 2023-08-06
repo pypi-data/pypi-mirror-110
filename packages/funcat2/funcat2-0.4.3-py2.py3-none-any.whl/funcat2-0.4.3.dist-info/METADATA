@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: funcat2
+Version: 0.4.3
+Summary: funcat2
+Home-page: https://github.com/pchaos/funcat2
+Author: Hua Liang, p19992003
+Author-email: p19992003@gmail.com
+License: Apache License v2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: six
+Requires-Dist: pandas
+Requires-Dist: lxml
+Requires-Dist: requests
+Requires-Dist: TA-Lib
+Requires-Dist: cached-property
+Requires-Dist: tqdm
+Requires-Dist: py-singleton
+Requires-Dist: backtrader
+
+UNKNOWN
+
