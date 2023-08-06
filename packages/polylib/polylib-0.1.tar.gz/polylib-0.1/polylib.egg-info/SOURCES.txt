@@ -1,0 +1,12 @@
+README.rst
+setup.py
+polylib/__init__.py
+polylib/bernoulli.py
+polylib/polynomial.py
+polylib/utils.py
+polylib.egg-info/PKG-INFO
+polylib.egg-info/SOURCES.txt
+polylib.egg-info/dependency_links.txt
+polylib.egg-info/entry_points.txt
+polylib.egg-info/not-zip-safe
+polylib.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+[console_scripts]
+bernoulli = polylib.bernoulli:main
+
+[gui_scripts]
+
+
