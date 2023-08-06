@@ -1,0 +1,10 @@
+README.md
+setup.py
+sekte/Dwrapper.py
+sekte/__init__.py
+sekte/__main__.py
+sekte2pdf.egg-info/PKG-INFO
+sekte2pdf.egg-info/SOURCES.txt
+sekte2pdf.egg-info/dependency_links.txt
+sekte2pdf.egg-info/requires.txt
+sekte2pdf.egg-info/top_level.txt
