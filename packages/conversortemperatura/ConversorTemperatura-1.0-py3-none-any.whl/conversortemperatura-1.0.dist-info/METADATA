@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: conversortemperatura
+Version: 1.0
+Summary: Paquete que convierte temperatura de Celcius a Farenheit y Rankine  y De Farenheit a Rankine
+Author: Ramiro Israel Vivanco Gualan
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
