@@ -1,0 +1,10 @@
+uberlimb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uberlimb/frame.py,sha256=a7Rm_xiQGQbrW-1wWK4L17DUNja_ha4O705179zsihQ,1434
+uberlimb/input_space.py,sha256=g_MFedq2zrd1IprGmYap_TfC-BSd-IiOU8BWzIJnL80,2240
+uberlimb/model/model.py,sha256=E6vZxJvgH7mD9dGcYEP7-mnnAWIDODWZ677ZQtCv9IQ,2324
+uberlimb/model/models_impl.py,sha256=wI5_RQrac0_mqibkoGGkrffYJCYvw-ocMCZXXPdUIiY,4382
+uberlimb/parameters.py,sha256=sPNVEB5d6TfUAp5bPbUay642NJKVHR4EX347Z008lio,1655
+uberlimb/renderer.py,sha256=cZAifl5tI6qni-kw8kiGfUSYYOlQEVaMuP5_i9JuyGg,2331
+uberlimb-0.4.0.dist-info/WHEEL,sha256=MyIjaRglnKvxtgGXLbj0ZYwRIpKJzMIEcf1_g2pW9II,85
+uberlimb-0.4.0.dist-info/METADATA,sha256=c2YofDxGKGoxAHVtpko8yqhhmsf2YOnr73aj8-hG_zc,1198
+uberlimb-0.4.0.dist-info/RECORD,,
