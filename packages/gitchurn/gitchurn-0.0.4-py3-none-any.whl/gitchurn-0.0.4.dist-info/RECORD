@@ -1,0 +1,11 @@
+gitchurn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitchurn/__main__.py,sha256=fPOZ8-m0WgspXbMlGiO6SUvLpdFQ8HMcb9zmdb7_Rls,2394
+gitchurn/gitchurn.py,sha256=xDI7gxQgT794cku7xBSvaxqcTW4iLogp5Wa256rA1Iw,6052
+gitchurn/gitparser.py,sha256=McFyDy5fjinzLyp4Djjn3nKmazzgYy0uaqPqG7julHc,4615
+gitchurn/ir.py,sha256=X2az7kc-ZaoINhwAPvj7Rb3PT6KanR-pLDuLyUMOznE,1270
+gitchurn-0.0.4.dist-info/LICENSE,sha256=ZqMQfVrWoFiqt1PqrCBHzLLtDjlGXdD-WETaPjANUXI,16727
+gitchurn-0.0.4.dist-info/METADATA,sha256=mvmQqKveym6jO8mwTTje9K7mTaun9gpIXVaaF4xFijo,3726
+gitchurn-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gitchurn-0.0.4.dist-info/entry_points.txt,sha256=Lv5EzIoE3gXmsq6EHrosR8Q6ipIwF6gswGNcDoP-z1k,53
+gitchurn-0.0.4.dist-info/top_level.txt,sha256=b61VOC2WUt6qDPZEggPjaLdkQWvsv5M1-spngf9jYkk,9
+gitchurn-0.0.4.dist-info/RECORD,,
