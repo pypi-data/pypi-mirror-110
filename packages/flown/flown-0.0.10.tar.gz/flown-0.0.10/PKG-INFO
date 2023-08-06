@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: flown
+Version: 0.0.10
+Summary: Notebook friendly MLflow viewer
+Home-page: https://github.com/advtec/flown
+Maintainer: tokoi
+Maintainer-email: mkt.tokoi@gmail.com
+License: MIT
+Keywords: mlflow,experiment manager,jupyter-notebook,jupyter-lab
+Platform: UNKNOWN
+Classifier: Framework :: Flask
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# What is this ?
+
+This package provides the following
+- `ProjectStore` for MLflow
+    - This is a tracking store for the `project://` scheme. It is the same as the `FileStore` in `mlflow` package that can be used in File schema except for the following points.
+    - Use uuid instead of "incremental int" when naming new MLflow experiment directory.
+        - This makes it possible to store the team's experiments/runs in any code repository.
+- A "Serverless" experiment record viewer for use in rich `IPython` environments such as `Jupyter-Notebook` or `Jupyterlab`.
+
+
+# Usage
+
+## Record your experiments on ProjectStore
+
+```jupyterpython
+import mlflow
+mlflow.set_tracking_uri('project://./mlruns') # set storage-uri for tracking
+experiment_id = mlflow.create_experiment('sample')
+
+with mlflow.start_run(experiment_id=experiment_id) as run:
+    mlflow.log_param("p", 1)
+    mlflow.log_param("q", 10)
+    mlflow.log_param("r", 100)
+    mlflow.log_metric('r2', 0.6)
+```
+
+## Explore experiments record on your IPython environments
+
+For "rich" `IPython` environments such as `Jupyter-Notebook` or `Jupyterlab`.
+
+```jupyterpython
+import flown.api as flown_api
+flown_api.list_experiments()
+```
+
+For "poor" `IPython` environments such as `Notebook Preview on PyCharm`. 
+
+```jupyterpython
+import flown.api as flown_api
+flown_api.list_experiments(restricted=True)
+```
+
+**Note:** Any interactive function is disabled on this `restricted` mode. Any link does not work.
+
+## Run MLflow Server with ProjectStore
+
+### Using default directory './mlruns' 
+
+```bash
+$ flown ui
+```
+
+Then you can browse your experiment record via MLflow WEB-UI. ( http://127.0.0.1:5000 )
+
+### Using other directory. 
+
+```bash
+$ flown ui --backend-store-uri project://./relational/path/to/dir --default-artifact-root s3://your-bucket/prefix-key
+```
+
+Type `flown ui --help` for farther information.
+
+
+# How to register to PyPI / for my private memo :)
+
+1. Update version in `flown/__version__.py`
+2. Upload to pypi.
+
+```bash
+pip install twine
+pip install build
+cd src
+python -m build 
+python -m twine upload --repository pypi dist/*
+```
+
+# License
+MIT
+
+
+Copyright 2012 advtec
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
