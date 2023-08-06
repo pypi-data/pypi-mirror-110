@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Local-DB
+Version: 0.0.1
+Summary: A local PyMongo version rewritten
+Home-page: https://github.com/stav10/Local-DB
+Author: Stav Vanunu
+Author-email: shutzi@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: DB,PyMongo
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

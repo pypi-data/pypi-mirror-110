@@ -1,0 +1,7 @@
+README.txt
+setup.py
+Local-DB/__init__.py
+Local_DB.egg-info/PKG-INFO
+Local_DB.egg-info/SOURCES.txt
+Local_DB.egg-info/dependency_links.txt
+Local_DB.egg-info/top_level.txt
