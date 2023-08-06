@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "autococonut"
+version = "0.9.5"
+description = "A workflow recording tool."
+authors = ["Lukáš Růžička <lruzicka@redhat.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+include = ['README.md', 'autococonut/docs/*', 'autococonut/templates/*']
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mss = "^6.1.0"
+Jinja2 = "^3.0.1"
+pynput = "^1.7.3"
+Pillow = "^8.2.0"
+evdev = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+mss = "^6.1.0"
+Pillow = "^8.2.0"
+pynput = "^1.7.3"
+Jinja2 = "^3.0.1"
+evdev = "^1.4.0"
+
+[tool.poetry.scripts]
+autococonut = 'autococonut.autococonut:main'
+autococonut-gui = 'autococonut.autococonut_gui:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
