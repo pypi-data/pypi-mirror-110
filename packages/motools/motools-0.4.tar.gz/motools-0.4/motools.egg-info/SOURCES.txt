@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+motools/__init__.py
+motools/allout.py
+motools/quality.py
+motools/selection.py
+motools.egg-info/PKG-INFO
+motools.egg-info/SOURCES.txt
+motools.egg-info/dependency_links.txt
+motools.egg-info/not-zip-safe
+motools.egg-info/requires.txt
+motools.egg-info/top_level.txt
