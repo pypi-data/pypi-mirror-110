@@ -1,0 +1,14 @@
+kirchhoff/__init__.py,sha256=Mz1yCNCDi5QTNYQldW1R98hSAZ8PzPKtCXEGbAr_g5U,224
+kirchhoff/circuit_dual.py,sha256=tFpcXJs0DpIZHAUDpJVekQR-n6eE5y74Vl9cHK3thEE,3777
+kirchhoff/circuit_flow.py,sha256=3QDybGYgo9O0GC_qmcAODoA-iswxnbY46PVIk0EoX4s,10007
+kirchhoff/circuit_flux.py,sha256=bO6DiRaptPxjltl-9O3-D8CFwOgkDMihgp505VoPBXg,6994
+kirchhoff/circuit_init.py,sha256=3yFB2BT8MS_zkaA4swMbrzgiXM9LUXkzFP7esW4wT0k,7560
+kirchhoff/draw_networkx.py,sha256=NcmnKJb-wMFgOL9Wfj2LJuwCA4kl3CsSpOWq7UymdYA,7745
+kirchhoff/init_crystal.py,sha256=nv8Q454W85bjldCRf3tSNkT2JvSuOoQskmr4q-FBDsY,15454
+kirchhoff/init_dual.py,sha256=PyIo1OTxydAcGxI2jZj21ip-Q9MulM5g0UBP8Zef4NQ,11625
+kirchhoff/init_random.py,sha256=b7VgCLMAWN8VxN-chMG208wGH4MqixzhpMSpSWSBiPM,6114
+kirchhoff-0.1.1.dist-info/LICENSE,sha256=WpaXts4uufyFNrNZJDXvCLi6Z5AocWF0fogGfct4Omw,1062
+kirchhoff-0.1.1.dist-info/METADATA,sha256=O7bIsBvXy4d2RzNulo88Z9rbrMvMdiFb8adUQjg-O70,749
+kirchhoff-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kirchhoff-0.1.1.dist-info/top_level.txt,sha256=X3amJrDyNmrZPE2e5DORSc_UG1KiXkfk6HqO-rg2mRw,10
+kirchhoff-0.1.1.dist-info/RECORD,,
