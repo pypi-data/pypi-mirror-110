@@ -1,0 +1,9 @@
+chemplot/__init__.py,sha256=BzGMWk3CtZpZN2xtf9xN0CR3NYRQvHkJv3m4mJSTfBY,31
+chemplot/chemplot.py,sha256=RUa-pNzr5xmmUeqwA9To-UjDho9oVMAMDZohQMC-LfE,25098
+chemplot/descriptors.py,sha256=1cp3EC-Oy_qbkANk9MfLl20G8Awdh1VwC6Z_52KZG-E,9498
+chemplot/parameters.py,sha256=sfwHECu9KIHXluaDj2Y4wRLLdEDauIESH5XvKCSTWfA,3547
+chemplot-1.0.0.dist-info/LICENSE,sha256=p9nQJIcsN5kt2eWLdVncJmev9Yog3I2iEdAGz5pxPVo,1547
+chemplot-1.0.0.dist-info/METADATA,sha256=yk3fc4ZhLBrsq5k_b0UJ-vXTjsZT4WMvye1nZHq0q4s,6885
+chemplot-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+chemplot-1.0.0.dist-info/top_level.txt,sha256=wFBBJHOYWgmMmRlSjJzCupybf-pKuyTh9S0x2lf_OWI,9
+chemplot-1.0.0.dist-info/RECORD,,
