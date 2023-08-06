@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Similarity_Score_Module/__init__.py
+Similarity_Score_Module/app.py
+Similarity_Score_Module.egg-info/PKG-INFO
+Similarity_Score_Module.egg-info/SOURCES.txt
+Similarity_Score_Module.egg-info/dependency_links.txt
+Similarity_Score_Module.egg-info/requires.txt
+Similarity_Score_Module.egg-info/top_level.txt
