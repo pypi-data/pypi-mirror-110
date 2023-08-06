@@ -1,0 +1,12 @@
+pyxides/__init__.py,sha256=wGj6NOrUZ_JLRn6Wmvg3PALA8IjkOyk5SQ_QBqdSfYQ,85
+pyxides/containers.py,sha256=P1Ril0coZYCXKJSUJvdK4xr3TeohHjSAcxVMlTH7k9I,974
+pyxides/getitem.py,sha256=l_vJswYNDIYHoDtxJygSbA7ABGVPEXIZSvU_9N-hZng,2760
+pyxides/grouping.py,sha256=qEP-dps99bcBaw1abOXEzOy5sthBqnLisc6Zj3Swb9Y,10702
+pyxides/pprint.py,sha256=zcqilqbpmFcNfF1KrVlP1f88nURAc9ZVMLtYs8sSUB4,4800
+pyxides/type_check.py,sha256=eYeMKjuR9oAH7N8eWcIaujKwQ5jzn0P9vwVMttXfw5I,8215
+pyxides/vectorize.py,sha256=DlsaIVXQAV2sycdg9c9tUNcR-8dGfINvCeakBS1cqWE,6117
+pyxides-0.1.0.dist-info/LICENSE,sha256=7HW8eP_qXmE7AfdMCuFWx9WJBNiDzw18gBtk765Ae3c,1075
+pyxides-0.1.0.dist-info/METADATA,sha256=PSYbNwMMJAzc-vUi_gA9YPsDGtovQ8koZ5jEqW_c97k,3673
+pyxides-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyxides-0.1.0.dist-info/top_level.txt,sha256=7RXU2O7Dty2o-DDWf5Xba9Tj5zkZYf54PkXNe9CI15U,8
+pyxides-0.1.0.dist-info/RECORD,,
