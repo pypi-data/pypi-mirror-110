@@ -1,0 +1,5 @@
+peewee
+cachetools
+requests
+boto3
+pycryptodome
