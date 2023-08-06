@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+gitmixin/gitmixin.egg-info/PKG-INFO
+gitmixin/gitmixin.egg-info/SOURCES.txt
+gitmixin/gitmixin.egg-info/dependency_links.txt
+gitmixin/gitmixin.egg-info/top_level.txt
