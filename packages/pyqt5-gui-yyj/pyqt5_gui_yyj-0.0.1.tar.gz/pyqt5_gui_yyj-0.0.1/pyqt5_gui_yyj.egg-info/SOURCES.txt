@@ -1,0 +1,10 @@
+README.md
+setup.py
+design1/__init__.py
+design1/dashboard.py
+design1/pix_source_rc.py
+design1/ui_Dashboard.py
+pyqt5_gui_yyj.egg-info/PKG-INFO
+pyqt5_gui_yyj.egg-info/SOURCES.txt
+pyqt5_gui_yyj.egg-info/dependency_links.txt
+pyqt5_gui_yyj.egg-info/top_level.txt
