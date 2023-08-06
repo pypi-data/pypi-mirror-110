@@ -1,0 +1,9 @@
+SpectroBinary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SpectroBinary/doppler_shift.py,sha256=nYOA8zD08wQ_oUbKIvg7maDoHCU24cEj8MYzKbwmgPg,3537
+SpectroBinary/test_doppler_shift.py,sha256=6W_YOrJUgqqzeaZR2bmFOTO1f9UleyBKxDYI6xbWdkA,1204
+SpectroBinary/trajectory.py,sha256=VRvFca1BIzqa8xkkODGQZvb7GgXX7-JST_tc7amiUZ0,3760
+SpectroBinary-1.0.0.dist-info/LICENSE,sha256=ntAmHvzFHzVTzGHHiNBuEHFXo75MYubysc1cScBPtvY,1065
+SpectroBinary-1.0.0.dist-info/METADATA,sha256=RxXBg17TCa4Y61tXRaajK1InUBmioWPlziPMbJa5kAA,533
+SpectroBinary-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+SpectroBinary-1.0.0.dist-info/top_level.txt,sha256=PiPlbClnpAs2yxq8V1l7OgktJPayT8Yf9PIBOWNOxYw,14
+SpectroBinary-1.0.0.dist-info/RECORD,,
