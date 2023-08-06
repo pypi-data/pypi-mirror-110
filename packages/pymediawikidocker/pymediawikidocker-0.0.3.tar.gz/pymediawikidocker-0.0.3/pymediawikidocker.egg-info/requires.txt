@@ -1,0 +1,4 @@
+Jinja2
+python-on-whales
+six
+mysql-connector-python
