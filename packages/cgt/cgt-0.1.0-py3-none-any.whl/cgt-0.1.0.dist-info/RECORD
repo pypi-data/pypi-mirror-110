@@ -1,0 +1,14 @@
+cgt/__init__.py,sha256=XpmNtrTij0sBSIjSKiLbtbn01Qy0p_zCCRUgX6Tc_Xo,256
+cgt/distances.py,sha256=EwnKm2N25DARggVCF2gUrlRfE32XF2bH2Z0X5jVHm1I,528
+cgt/enums.py,sha256=WepdyWbl1BhGluY-qaA1mTmZs1g5abRPH0tnZyF9x8c,844
+cgt/genome.py,sha256=VdtWpiZVHQmp5tO-jMbwjWxI9OD7e-BF0d_1YjzGWWQ,437
+cgt/models.py,sha256=KzcEIF6nv2MDs5iEbUTqNfBuP1NIogq1AU_iHQFrxBA,2307
+cgt/position_paradigm.py,sha256=8ajega_D0OdSGzOtE4qdJ7c1FZjNN8gAlP0QbGZLFJU,15365
+cgt/rearrangements.py,sha256=ZpMKSCFJiLqNUwPwdqe77y9L56YlUOpyEK8-bqWXB8Q,4002
+cgt/structures.py,sha256=mhfIH4SGZ15TryoThBVvm_bs1s2eBAXbTiu-vncI1BQ,598
+cgt/visualisation.py,sha256=TxaomKJ3GHvk1rZ0qAg4kNr54Qks8Zv66pHs-WXL9lM,2645
+cgt-0.1.0.dist-info/LICENSE,sha256=OvlMj2QX1MTRac2cEIgrqlHjm-4fUeudcKinza-C7FA,1073
+cgt-0.1.0.dist-info/METADATA,sha256=3Yo0-SeOYDqBjqWWX7Q9Qw1kRQ2zAFdEkeLlebGWIEw,1496
+cgt-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cgt-0.1.0.dist-info/top_level.txt,sha256=xlH4MeemuzNzEEW8J1HvfLJ8YOjPv_b-8NwfelWjMno,4
+cgt-0.1.0.dist-info/RECORD,,
