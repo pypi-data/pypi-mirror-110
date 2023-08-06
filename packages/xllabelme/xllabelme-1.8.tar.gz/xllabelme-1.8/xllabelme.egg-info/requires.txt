@@ -1,0 +1,9 @@
+pyxllib
+imgviz
+matplotlib<3.3
+numpy
+Pillow>=2.8.0
+PyYAML
+qtpy
+termcolor
+colorama
