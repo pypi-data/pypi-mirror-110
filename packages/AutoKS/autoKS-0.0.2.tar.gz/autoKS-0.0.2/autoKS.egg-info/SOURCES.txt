@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+autoKS.egg-info/PKG-INFO
+autoKS.egg-info/SOURCES.txt
+autoKS.egg-info/dependency_links.txt
+autoKS.egg-info/top_level.txt
