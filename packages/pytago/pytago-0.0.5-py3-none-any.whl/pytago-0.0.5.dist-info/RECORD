@@ -1,0 +1,10 @@
+pytago/__init__.py,sha256=vPGsLFggOT0zr6Rlv9NmWsWXwXahzA7st4949LCiOn4,26
+pytago/cmd.py,sha256=GjqnnBhWv1T1mrs-bgKuv7Vh8DXFj4iFi77qRHPHS6w,670
+pytago/core.py,sha256=PtMeCRoTUJMMmkC6gFd6w_p7lnoUHd-5ZdTntscgdng,1001
+pytago/web.py,sha256=ZKKpgiGo1EnCIxQJSVlWYK14waykOnX6qEHdFfy0284,822
+pytago-0.0.5.dist-info/LICENSE,sha256=wHg_c0m_WAlpL3Eye4RBklvwqFY_eBezYkz0KYkmiOk,1054
+pytago-0.0.5.dist-info/METADATA,sha256=nH6rjOwQZUeXs1XR00Qg9MnfliGZtg0_zrig-H1Lv8c,56613
+pytago-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytago-0.0.5.dist-info/entry_points.txt,sha256=31nGI7aJVHVgMQhX7GM0Al_3w_rbHQr2icTWngWDCoY,44
+pytago-0.0.5.dist-info/top_level.txt,sha256=KeQAyLXwQyqjOi7JWKPPauq63xze-Lnlgh2uUi8sYqA,7
+pytago-0.0.5.dist-info/RECORD,,
