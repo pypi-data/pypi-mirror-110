@@ -1,0 +1,3 @@
+[console_scripts]
+event_herald = event_herald.cli:main
+
