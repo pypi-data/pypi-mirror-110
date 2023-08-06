@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/gexecute.py
+src/gexecute.egg-info/PKG-INFO
+src/gexecute.egg-info/SOURCES.txt
+src/gexecute.egg-info/dependency_links.txt
+src/gexecute.egg-info/requires.txt
+src/gexecute.egg-info/top_level.txt
