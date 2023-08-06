@@ -1,0 +1,8 @@
+pytz
+blinker
+requests
+simplejson
+lxml
+cologer
+ctpbee_api
+numpy
