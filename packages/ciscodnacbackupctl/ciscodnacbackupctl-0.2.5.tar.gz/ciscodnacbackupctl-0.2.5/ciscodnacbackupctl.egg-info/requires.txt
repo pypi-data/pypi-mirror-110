@@ -1,0 +1,8 @@
+click
+daemonocle
+hurry.filesize
+requests
+rich
+schedule
+setuptools
+tabulate
