@@ -1,0 +1,82 @@
+{% extends "_layout.html" %}
+{% block body %}
+    <h2>Experiment : {{ exp_info.name }} </h2>
+    <section>
+        <div>
+            Experiment ID : <code>{{ exp_info.experiment_id }}</code>
+        </div>
+        <div>
+            Artifact Locations :
+            <a href="{{ exp_info.artifact_console_url }}" target="_blank">
+                <i class="fa-forward fa">{{ exp_info.artifact_location }}</i>
+            </a>
+        </div>
+    </section>
+
+    <h3>Note :</h3>
+    <div>
+        <a href="#" onclick="pyexec('markdown_editor', ['\'exp\'', '\'{{ exp_info.experiment_id }}\'']);">
+            <i class="fa-edit fa">edit</i>
+        </a>
+    </div>
+    <section>
+        {{ exp_info.note_html | safe }}
+    </section>
+
+    <h3>Runs :</h3>
+    <section>
+        <table>
+            <tr>
+                <th rowspan="2" style="text-align: left;">run_name</th>
+                <th colspan="{{ param_keys | length }}">params</th>
+                <th colspan="{{ metrics_keys | length }}">metrics</th>
+                <th rowspan="2">user_id</th>
+                <th rowspan="2">status</th>
+                <th rowspan="2">start_time</th>
+                <th rowspan="2">end_time</th>
+                <th rowspan="2">artifact_uri</th>
+                <th rowspan="2">lifecycle_stage</th>
+            </tr>
+            <tr>
+                {% for param in param_keys %}
+                    <th>
+                        {{ param }}
+                    </th>
+                {% endfor %}
+                {% for metrics in metrics_keys %}
+                    <th>
+                        {{ metrics }}
+                    </th>
+                {% endfor %}
+            </tr>
+            {% for run in run_infos %}
+                <tr>
+                    <td style="text-align: left; padding-left: {{ run.generation_index }}em;">
+                        <a href="#" onclick="pyexec('disp_run', ['\'{{ run.run_id }}\'']);">
+                            {{ run.run_name or 'Untitled' }}
+                        </a>
+                    </td>
+                    {% for param in param_keys %}
+                        <td>
+                            {{ run.detail.data.params.get(param,'-') }}
+                        </td>
+                    {% endfor %}
+                    {% for metrics in metrics_keys %}
+                        <td>
+                            {{ run.detail.data.metrics.get(metrics, '-') }}
+                        </td>
+                    {% endfor %}
+                    <td>{{ run.user_id }}</td>
+                    <td>{{ run.status }}</td>
+                    <td>{{ run.start_time.strftime('%y/%m/%d %H:%M:%S') }}</td>
+                    <td>{{ run.end_time.strftime('%y/%m/%d %H:%M:%S') }}</td>
+                    <td><a href="{{ run.artifact_console_url }}" target="_blank" title="{{ run.artifact_uri }}">
+                        <i class="fa-forward fa">artifacts</i>
+                    </a></td>
+                    <td>{{ run.lifecycle_stage }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+{% endblock %}
