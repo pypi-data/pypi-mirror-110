@@ -1,0 +1,5 @@
+[console_scripts]
+dogsbody = dogsbody.__main__:main
+dogsbody-create = dogsbody.create:main
+dogsbody-daemon = dogsbody.daemon:main
+
