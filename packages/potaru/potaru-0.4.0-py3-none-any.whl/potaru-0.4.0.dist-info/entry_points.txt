@@ -1,0 +1,3 @@
+[console_scripts]
+potaru=potaru.__main__:cli
+
