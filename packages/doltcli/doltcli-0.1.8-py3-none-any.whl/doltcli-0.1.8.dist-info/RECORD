@@ -1,0 +1,16 @@
+doltcli/__init__.py,sha256=08xtuTEaVxfhFdDRBR_nrInbfGVnrdv2xygoDVb_Yrg,529
+doltcli/branch_mixin.py,sha256=luVhnjtGvEwrI9Q07pJLnBGGnQnUZbTt10w7_FzZcaY,228
+doltcli/config_mixin.py,sha256=XrgZR64Zfl-UbgVZpE32CrNOaIt7u4uWgDxXMsf-bTE,184
+doltcli/creds_mixin.py,sha256=rafAo7KY5-1lpBQP5SqCpTnc9POuaULZATqojmdTO1s,260
+doltcli/dolt.py,sha256=pl7Jx4yXqEF-YARgLEKmgFn2V4Q7aCT8I3fkCGBoyrw,48660
+doltcli/misc_mixin.py,sha256=lxWd85DFBXCNfvWOsk0X-TjX7jyUgOIjPk-bu98mLFA,180
+doltcli/schema_mixin.py,sha256=BS33Z1EjYZ-5K5gw3psdQNjWWGcbnk8sRKZ_oF20f4M,145
+doltcli/schemas.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doltcli/table_mixin.py,sha256=IqpKse1bb48IPHpBHCvp-4xRrZxBVo6KLTKZvtBzzVw,223
+doltcli/tag_mixin.py,sha256=AgGPHRgzgVJdjB0tMiQ_1AJ05v8zsdCmoMU11HTwKs8,133
+doltcli/types.py,sha256=dTBBY0xi1IGgE6w4FFMYofXg9LJSFmm1IZzSR-ix5nE,4904
+doltcli/utils.py,sha256=gSiGRygE7b-P-WTSJe1lXlz4saR9H5k4XnNQskQ8j_A,7879
+doltcli-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+doltcli-0.1.8.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+doltcli-0.1.8.dist-info/METADATA,sha256=TICKd3z3DBl8NQ3dqFMvadA972K15e6gKDvdKruMwZE,487
+doltcli-0.1.8.dist-info/RECORD,,
