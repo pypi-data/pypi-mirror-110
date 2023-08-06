@@ -1,0 +1,15 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+liveproxy/__init__.py
+liveproxy/argparser.py
+liveproxy/files.py
+liveproxy/main.py
+liveproxy/server.py
+liveproxy.egg-info/PKG-INFO
+liveproxy.egg-info/SOURCES.txt
+liveproxy.egg-info/dependency_links.txt
+liveproxy.egg-info/entry_points.txt
+liveproxy.egg-info/top_level.txt
