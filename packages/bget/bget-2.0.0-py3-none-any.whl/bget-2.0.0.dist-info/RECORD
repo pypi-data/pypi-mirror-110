@@ -1,0 +1,13 @@
+bgetcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgetcli/bget.py,sha256=BS5uVAN9qGnVMnXenPjcGd2MWT7VDwSCRl1p72wJckY,6012
+bgetcli/const.py,sha256=LdRRVePiuy-G715Dw5ErimK8poP6CZw98stoKpXDAk0,830
+bgetcli/downloader.py,sha256=KQ5DTuSiPcO2WK-Jt7hXHNVXEFI1xKQZ49IYr_b89_E,3945
+bgetcli/logger.py,sha256=i8R3NULSKrOQBxNcr9gKN-HmajlKYev93ITpI4_2uH8,510
+bgetcli/model.py,sha256=PcDAY34sUu2-k17LqV1Gi9hC-tvPbXiN6APRcMCVhnY,1206
+bgetcli/utils.py,sha256=12WyA80Kk_ogkVx1lHHAVfveH1zhVjCwe7-ATGb58vw,3411
+bget-2.0.0.dist-info/METADATA,sha256=cPmtD_ixzT3mhUDziKyg2GpRar2P2-2NKHK8mVkE84U,593
+bget-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bget-2.0.0.dist-info/entry_points.txt,sha256=8HqQFmhYC80EUh3J10PGJ8PVXtLWVbCaNGyiVv7NyDE,44
+bget-2.0.0.dist-info/top_level.txt,sha256=QjxwylyDPXxdE-VtTnpQbkWAP4oSGqvrqi6_R381Nz8,8
+bget-2.0.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+bget-2.0.0.dist-info/RECORD,,
