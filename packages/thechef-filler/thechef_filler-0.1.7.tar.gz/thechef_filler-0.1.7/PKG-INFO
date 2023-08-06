@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: thechef-filler
+Version: 0.1.7
+Summary: 
+Author: kohkubo
+Author-email: kohkubo@student.42tokyo.jp
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
