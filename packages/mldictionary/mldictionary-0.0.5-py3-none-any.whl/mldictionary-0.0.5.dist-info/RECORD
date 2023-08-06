@@ -1,0 +1,10 @@
+mldictionary/__init__.py,sha256=VSwszTxaRvnQ7obBD197w5MwZfqaXsWw2CPH3G5UXc8,215
+mldictionary/dictionary.py,sha256=7nbk-J241exYs2oj2QbkmQ2ZKU1_ThZZovb72L3SBgs,1045
+mldictionary/english.py,sha256=6w4BSD_HnAEUS7sMjpUE5MvfWyQq6sHSkRD0f8kWHYw,640
+mldictionary/portuguese.py,sha256=8Y1-MPWBEo4mwUj9myqjcxscdGfF9uvqcqC_bKSdTzY,687
+mldictionary/spanish.py,sha256=niSOM5EafNi_i-osXAy0G-Bp5A3JnNwcG03y__WYMnA,524
+mldictionary-0.0.5.dist-info/LICENSE.md,sha256=EhWkApmvnmgkJb6BWv9x9ehH-STAOJmGsccx4x-smIo,1085
+mldictionary-0.0.5.dist-info/METADATA,sha256=mw0j6qeHh3NzXFnUejhNSNqf9vGWE5RbEJ-lynK0rvw,2391
+mldictionary-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mldictionary-0.0.5.dist-info/top_level.txt,sha256=PymBfDTI3W3nPA2AlMxL0MDHbxtlaWKX4iXXP_ywxzI,13
+mldictionary-0.0.5.dist-info/RECORD,,
