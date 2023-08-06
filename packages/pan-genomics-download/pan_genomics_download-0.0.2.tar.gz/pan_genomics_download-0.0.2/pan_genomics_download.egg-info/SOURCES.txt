@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pan_genomics_download/__init__.py
+pan_genomics_download/pan_genomics_download.py
+pan_genomics_download.egg-info/PKG-INFO
+pan_genomics_download.egg-info/SOURCES.txt
+pan_genomics_download.egg-info/dependency_links.txt
+pan_genomics_download.egg-info/entry_points.txt
+pan_genomics_download.egg-info/requires.txt
+pan_genomics_download.egg-info/top_level.txt

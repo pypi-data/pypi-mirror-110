@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: pan_genomics_download
+Version: 0.0.2
+Summary: Download all files from pan.genomics.cn using a shared url.
+Home-page: https://github.com/JaylanLiu/pan-genomics-download
+Author: JaylanLiu
+Author-email: liujilong@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pan_genomics_download
+pgd, short for pan_genomics_download, is a convenient command line tool to download all files from pan.genomics.cn using a shared link.
+
+
+
+## Installation
+
+### From pypi
+```
+$ pip install pan-genomcis-download
+```
+
+### From github
+```
+$ git clone https://github.com/JaylanLiu/pan-genomcis-download
+$ cd pan-genomcis-download
+$ python setup.py install
+```
+
+## Usage 
+```
+$ pgd -h
+usage: pgd [-h] -u URL [-o TARGET_PATH] [-s SUFFIX] [-f]
+
+pan-genomics_download
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     shared link
+  -o TARGET_PATH, --target_path TARGET_PATH
+                        target path to store files
+  -s SUFFIX, --suffix SUFFIX
+                        allowed file suffix
+  -f, --flat            ignore the directory hierarchy and download all files to target path directly
+```
+
+
+## Example
+```
+$pgd -u https://pan.genomics.cn/ucdisk/s/Qzaxxxxxxx
+2021-06-18 14:51:02,091 - pan_genomics_download.py[line:38] - INFO: get files list successfully
+2021-06-18 14:51:03,042 - pan_genomics_download.py[line:84] - INFO: ./生信分析文件/2021年6月/f300007033_202106151126.zip download successfully
+2021-06-18 14:51:03,801 - pan_genomics_download.py[line:84] - INFO: ./生信分析文件/2021年6月/F300007060_202106091332.zip download successfully
+2021-06-18 14:51:06,400 - pan_genomics_download.py[line:84] - INFO: ./生信分析文件/2021年5月/F300007070_202105240906分析文件.zip download successfully
+```
+
+
+
