@@ -1,0 +1,8 @@
+pandas>=1.2.4
+aiohttp>=3.7.4
+pyjwt>=2.1.0
+pytz>=2020.5
+python-dateutil>=2.8.1
+six>=1.15.0
+
+
