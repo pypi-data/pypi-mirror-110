@@ -1,0 +1,7 @@
+azure-core
+azure-identity
+azure-mgmt-core
+azure-storage-blob
+msrest
+numpy
+deprecated
