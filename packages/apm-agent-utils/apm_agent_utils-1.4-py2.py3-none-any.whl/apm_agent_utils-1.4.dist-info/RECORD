@@ -1,0 +1,8 @@
+apm_agent_utils/__init__.py,sha256=Y3LSfRioSl2xch70pq_ULlvyECXyEtN3krVaWeGyaxk,22
+apm_agent_utils/client.py,sha256=rLNMduas23ZJb8aWXC1EzRogoB5AJKMRXPw4xcbrDiw,1191
+apm_agent_utils/instrumentation.py,sha256=U2ceHfjWGgKnw1RSgXgsDeUC3oEx7qfg-lMSBmvYWxQ,2626
+apm_agent_utils/utils.py,sha256=0yiAA8YJ75dm9uSL2-e5cqrauaOvtPQCapemNn-dKCA,2578
+apm_agent_utils-1.4.dist-info/LICENSE,sha256=uSDa5wA-aT3bFqXSfPhFBC7BRkdRmvwABdbiZ1vEdV4,1064
+apm_agent_utils-1.4.dist-info/WHEEL,sha256=dqElwnlLMc7-lr24lzizalXwnuKWWcPA6D2n0jC3DJ8,87
+apm_agent_utils-1.4.dist-info/METADATA,sha256=pHf-ANU6MBmCJDA3A-ACEhK77n_GjTX00TGxBVmRgvA,2921
+apm_agent_utils-1.4.dist-info/RECORD,,
