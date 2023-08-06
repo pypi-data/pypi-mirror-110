@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: omniblack.caddy
+Version: 0.0.2
+Summary: A python client for Caddy's admin api.
+Home-page: https://gitlab.com/terryp/caddy
+License: AGPL-3.0-or-later
+Author: Terry Patterson
+Author-email: Terryp@wegrok.net
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: async
+Requires-Dist: aiohttp[speedups] (>=3.7.4,<4.0.0); extra == "async"
+Requires-Dist: anyio (>=3.1.0,<4.0.0); extra == "async"
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: multidict (>=5.1.0,<6.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: urllib3 (>=1.26.5,<2.0.0)
+Project-URL: Repository, https://gitlab.com/terryp/caddy
+Description-Content-Type: text/x-rst
+
+A python client for Caddy's admin api.
+
