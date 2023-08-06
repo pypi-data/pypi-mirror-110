@@ -1,0 +1,4 @@
+[wai.annotations.plugins]
+from-voc-od = wai.annotations.voc.od.specifier:VOCODInputFormatSpecifier
+to-voc-od = wai.annotations.voc.od.specifier:VOCODOutputFormatSpecifier
+
