@@ -1,0 +1,8 @@
+mdformat_myst/__init__.py,sha256=5A0tgnmzKRcCANHEBQERZl5Ok3W73r6zV0Ko7GsJ094,69
+mdformat_myst/_directives.py,sha256=fcF_Yje9NS9tUBQqVhd5XkqBObLTtvalhwxbXFqxo2w,4749
+mdformat_myst/plugin.py,sha256=ErFbEcvA3d33W8XvnZesqF7wWvM_iT79cyT-YWE-ktY,5415
+mdformat_myst-0.1.4.dist-info/entry_points.txt,sha256=C4ZBdIvZDfn5Y0akt8d5KjZGiGqZm0U5yiTuk_SDVZY,55
+mdformat_myst-0.1.4.dist-info/LICENSE,sha256=uAgWsNUwuKzLTCIReDeQmEpuO2GSLCte6S8zcqsnQv4,1072
+mdformat_myst-0.1.4.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+mdformat_myst-0.1.4.dist-info/METADATA,sha256=YpabSd_kRdB6BseKha4leg72BGkppGX5z0WcRATsq0c,2927
+mdformat_myst-0.1.4.dist-info/RECORD,,
