@@ -1,0 +1,16 @@
+cryoCARE-0.1.1.data/scripts/cryoCARE_extract_train_data.py,sha256=7Pe07GqNMbYHhZXY5Tdq4Y9YU4aFoaAXJ-jeiL-6vbU,979
+cryoCARE-0.1.1.data/scripts/cryoCARE_predict.py,sha256=pZAPA-ItaVwmawCmzzyGNYgfQVcOXA_CI-SJdY790-s,1764
+cryoCARE-0.1.1.data/scripts/cryoCARE_train.py,sha256=MltmOlxt-v0WfDSrv_xddIyEwOw62xrRxqr06NHQeh0,1314
+cryocare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cryocare/internals/CryoCARE.py,sha256=-QvdVirX2MDAqs1JZRgLhj_34ZoNvB6VELh99ijKWuE,16187
+cryocare/internals/CryoCAREDataModule.py,sha256=38Xp9tInCTl3lUkvs-08O3loL7RS1Ze3jF8XUf_71Rs,11020
+cryocare/internals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cryocare/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cryocare/scripts/cryoCARE_extract_train_data.py,sha256=EbGNgh1RRyTxSKbrf_gmyPJAuM8PfS_hP_5HT3X2alU,980
+cryocare/scripts/cryoCARE_predict.py,sha256=kbK-w9bfy7pppGEkMp0QQAU0qpicr8Dck5Nhrxd36vw,1765
+cryocare/scripts/cryoCARE_train.py,sha256=x0kEgCoyNbg4P7uPVm0XexnOh1XQ61qB5prTPTB2ibA,1315
+cryoCARE-0.1.1.dist-info/LICENSE,sha256=yi61s1SIUTeaVqzDb0kbCQ3HwxICYjiDQwQFLWK2qss,1514
+cryoCARE-0.1.1.dist-info/METADATA,sha256=YFmTSumEHeTWJ4Ph_wPpAi3kMGhbiaqdsLd2q8JtkUo,6119
+cryoCARE-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cryoCARE-0.1.1.dist-info/top_level.txt,sha256=R04S3MSLxHs5RIgrFhyKh4bfTx5kD-V5jnIvtTo38ww,9
+cryoCARE-0.1.1.dist-info/RECORD,,
