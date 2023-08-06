@@ -1,0 +1,6 @@
+matplotlib
+pandas>=1.0.0
+numpy>=1.16.5
+scipy
+fast-curator
+fast-flow
