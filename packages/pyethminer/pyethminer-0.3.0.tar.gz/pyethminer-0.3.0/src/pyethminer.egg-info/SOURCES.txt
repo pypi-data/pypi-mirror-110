@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+minectl-2.wip.py
+minectl-example.toml
+pyproject.toml
+setup.cfg
+src/pyethminer/__init__.py
+src/pyethminer/ethminerapi.py
+src/pyethminer/minectl.py
+src/pyethminer.egg-info/PKG-INFO
+src/pyethminer.egg-info/SOURCES.txt
+src/pyethminer.egg-info/dependency_links.txt
+src/pyethminer.egg-info/entry_points.txt
+src/pyethminer.egg-info/top_level.txt
