@@ -1,0 +1,17 @@
+torchprofile/__init__.py,sha256=XI7rRi7_b_DrIUKyM32PFeJh7LD1lP4z__7weZGxzMs,67
+torchprofile/handlers.py,sha256=fVrOe0NeKWSEz78beeV_P0rEW4eJS-uHnfBgF81g0UU,4841
+torchprofile/profile.py,sha256=s0LVW83apoiXNjT_GqiKnEkl_vfPUEMKhZSasrJlJWo,757
+torchprofile/version.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+torchprofile/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchprofile/utils/flatten.py,sha256=48SEnVAhE5jFz9kJnvVDpc2CTK1ImWOAgTvNWQ26QRw,676
+torchprofile/utils/math.py,sha256=HwHW3uIY9suP2nzVEPKPqAGPW_9uy7jVnwtRQjgWxO4,132
+torchprofile/utils/trace.py,sha256=KzL8yBWV83xo0Dnq9xxB8H5ZsMdfS6-OUToeQfKUlwQ,1830
+torchprofile/utils/ir/__init__.py,sha256=9znZf7f0TVrr4qjEEvlb1faRIW_Kd2C4LJLrAe9It6Q,79
+torchprofile/utils/ir/graph.py,sha256=70pVNcFjs2ILfQ2NfB7G2mHBUrvlmcHvgCQCsfmw5Ro,1324
+torchprofile/utils/ir/node.py,sha256=JiI1dTraiADjMzGxNeRe38MH4AWSmDHQbb2ZV_fpOCw,1411
+torchprofile/utils/ir/variable.py,sha256=b0CtGXJbY_D9sFw4T-0dYuDfdmIDcOWDZctLKCHkmX4,945
+torchprofile-0.0.4.dist-info/LICENSE,sha256=W5qxV5EqTu2rhH3kIwu89LksfuPjF1iumU2QiGfb2uk,1068
+torchprofile-0.0.4.dist-info/METADATA,sha256=tGk9LhuEFbgcbGzukCtXX28EAat2xAiQ3n3zj6YLmaQ,303
+torchprofile-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+torchprofile-0.0.4.dist-info/top_level.txt,sha256=mvYu-AXwKfdIRLwEGRHIGTs9ai74tRVtDgo2vERtpGU,13
+torchprofile-0.0.4.dist-info/RECORD,,
