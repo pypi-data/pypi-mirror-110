@@ -1,0 +1,17 @@
+GPUtil
+torch>=1.8.0
+torchvision
+psutil
+ncempy
+matplotlib_scalebar
+matplotlib
+tifffile
+jupyterlab
+ipympl
+ipywidgets
+scikit-image
+numba
+sigpy
+tensorboard
+pytorch-lightning
+fastcore
