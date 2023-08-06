@@ -1,0 +1,3 @@
+[console_scripts]
+try_filler=try_filler.cli:main
+
