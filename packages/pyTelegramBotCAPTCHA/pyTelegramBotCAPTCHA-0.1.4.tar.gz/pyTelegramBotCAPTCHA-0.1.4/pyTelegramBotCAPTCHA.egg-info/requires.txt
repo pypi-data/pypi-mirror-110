@@ -1,0 +1,6 @@
+pyTelegramBotAPI==3.7.7
+captcha
+Pillow
+
+[json]
+ujson
