@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pass_admin/__init__.py
+src/pass_admin/admin.py
+src/pass_admin/login_err.py
+src/pass_admin/main.py
+src/pass_admin/r_w_data.py
+src/pass_admin/user.py
+src/pass_admin_pkg_Smarv.egg-info/PKG-INFO
+src/pass_admin_pkg_Smarv.egg-info/SOURCES.txt
+src/pass_admin_pkg_Smarv.egg-info/dependency_links.txt
+src/pass_admin_pkg_Smarv.egg-info/top_level.txt
