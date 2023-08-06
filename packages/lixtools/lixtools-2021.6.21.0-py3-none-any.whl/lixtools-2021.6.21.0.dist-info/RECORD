@@ -1,0 +1,15 @@
+lixtools/__init__.py,sha256=lhNmxoK2wqXEFes8Pv46m7HGQ3BlIBv3fPED_sZO0RY,28
+lixtools/atsas.py,sha256=ijkzYgMsEWFqRXQODFdIB7kChjernEAdhWkgq5BmNeQ,17534
+lixtools/hdf.py,sha256=AYDjga8z6gb3H3XKfc_j4umHSuApJWsqq5g4sjTO6BM,33323
+lixtools/mailin.py,sha256=OiA9Goqd2hkDSR_TJAYlv7WfR8uSaVP5bsRKKuWPi30,29000
+lixtools/modeling.py,sha256=OZx-gTj_VM6Xoi-vFnxgNadF6Nu3s0mwliG4FGl48tc,11839
+lixtools/notebooks.py,sha256=Dej6LeD7ttlOyQR0SU38gSf92b2S7YqASk88JLGQYSk,30432
+lixtools/ot2.py,sha256=DIsZCtnOpclN3cl3hyzXd-BDzMkX_ahSWhTh8cMtRIw,4409
+lixtools/plate_label_template.html,sha256=eMbWCfPDHr_1oOR9Q4y96_kz1MLu7OjL6GwElQgyshE,519
+lixtools/template_report.ipynb,sha256=GtfaqTyvuGY9EeRXYG_gw8IXvbPqcn27xUeP6miVYA8,1455
+lixtools/webcam.py,sha256=Tz224C1HLsTr7LI9_GeC4cP_GhVjrYbqUkDu0q322vE,7992
+lixtools-2021.6.21.0.dist-info/LICENSE,sha256=rc6XZq_4heAIqSC19MVGQsdM5K72blAFvqyQkHTxtlc,1528
+lixtools-2021.6.21.0.dist-info/METADATA,sha256=RxrLv22udCHd8oofOKPp_5fifzUvjLXlmsiEzY1IwxE,744
+lixtools-2021.6.21.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lixtools-2021.6.21.0.dist-info/top_level.txt,sha256=6JYmApNegBDdNlxB4cTt112d3RwcMp5mEa8jkst7xqA,9
+lixtools-2021.6.21.0.dist-info/RECORD,,
