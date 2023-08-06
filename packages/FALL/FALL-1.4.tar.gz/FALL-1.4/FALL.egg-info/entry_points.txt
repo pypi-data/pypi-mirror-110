@@ -1,0 +1,3 @@
+[console_scripts]
+FALL = FALL.__main__:main
+
