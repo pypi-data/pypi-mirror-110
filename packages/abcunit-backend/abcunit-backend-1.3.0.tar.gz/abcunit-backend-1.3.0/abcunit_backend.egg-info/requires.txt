@@ -1,0 +1,13 @@
+psycopg2>=2.8.0
+
+[dev]
+psycopg2>=2.8.0
+pytest>=5.4.3
+
+[docs]
+sphinx
+sphinx-rtd-theme
+nbsphinx
+pandoc
+ipython
+m2r2
