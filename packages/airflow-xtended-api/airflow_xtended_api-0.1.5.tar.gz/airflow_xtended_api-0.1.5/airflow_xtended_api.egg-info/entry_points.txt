@@ -1,0 +1,3 @@
+[airflow.plugins]
+airflow_xtended_api = airflow_xtended_api.main:XtendedApi
+
