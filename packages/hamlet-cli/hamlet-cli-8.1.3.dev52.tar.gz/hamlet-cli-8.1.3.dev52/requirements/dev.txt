@@ -1,0 +1,12 @@
+## Testing
+pytest
+
+coverage
+freezegun
+setuptools
+flake8
+
+## packaging
+build
+wheel
+twine
