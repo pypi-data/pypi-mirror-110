@@ -1,0 +1,9 @@
+ballad/__init__.py,sha256=lA-BudnbDJ7C9lgSEQQ2LVLIjSzEdH59WwGbEUd85d0,111
+ballad/__main__.py,sha256=xlQw4V-JGpnmzFWHiZkPHtbZ6J42EyV_tkE6v1LwETg,869
+ballad/core.py,sha256=AaquJfIJR3JYSKvjSECakqrMavv_B3m-SfcX5TDifgI,3157
+ballad/utils.py,sha256=CuNPQ8xMOxVvIX0K2ZiTtD6FpCmQjGltn9de8yX3xWs,695
+ballad-2.0.0a2.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+ballad-2.0.0a2.dist-info/METADATA,sha256=aCFcnhmDfmWMJ2o2bXyMk_MBWn5Vhlw6SbxW8oR73QM,1519
+ballad-2.0.0a2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ballad-2.0.0a2.dist-info/top_level.txt,sha256=MmH_SYRhLhJEcmWId6cpGV-wjQTa_XjuBXIBePSAq4s,7
+ballad-2.0.0a2.dist-info/RECORD,,
