@@ -1,0 +1,16 @@
+servicex/ConfigSettings.py,sha256=OJj7xuj_YYGw1K1h8ldZOjc2pLhKVrAluM5fiyXec8I,1932
+servicex/__init__.py,sha256=vCFnwoFSPbafzqk4bozl1Nk4tmH4KhJJxIWq7pH3jBw,431
+servicex/cache.py,sha256=7IfX2G-VjUdlAG6JtqWiENXXvdWjGPn3voUSp35fZhs,6475
+servicex/config_default.yaml,sha256=df9Qoc7h61bmHP1kC3cTPu6oPeyjY0DUnMP4PYl4KA8,972
+servicex/data_conversions.py,sha256=5PVgil43gSMxaoHSmw3ReUI-Jxlw5cyhYSLbnTcO1aI,5781
+servicex/minio_adaptor.py,sha256=ZDcbtj01459d23pBaglMg4a__NJQOg4-kZawmGfxJ0k,8171
+servicex/servicex.py,sha256=D8e_AMCBxuBIAv3v7sAvyjnf6MbOgQLL94NIvK9FrKI,37904
+servicex/servicex_adaptor.py,sha256=4UaWEK5Ekcg3YhlSg7jfnvuLVqVvc6Z_wqeW4IUKgnE,9788
+servicex/servicex_config.py,sha256=zuw0zlDjYo2rGoNRj-3oRAezosk3d27bLyDqmcY1pYQ,6251
+servicex/servicex_utils.py,sha256=zfQdMqjxig7vz8uOF_qnXAvF9WwvYAXQKlE5PKjMywA,1994
+servicex/servicexabc.py,sha256=vY1r-omJRYaCqfwkXCHi-EH63jp_I5-uWynE3hUyQ14,6641
+servicex/utils.py,sha256=xIt-qseTKgsSFW2K13j71WsjnVWGG-ZIwW1MK8M9UM8,14950
+servicex-2.3a1.dist-info/METADATA,sha256=2sI9EAGLgwWF5Nznq5mQPBm05u_lGcQiSFD7svY8-Fo,20849
+servicex-2.3a1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+servicex-2.3a1.dist-info/top_level.txt,sha256=IJheyj4IEC_XNdXT_n3136i2iRJmpipYjbpSKIbl_Tc,9
+servicex-2.3a1.dist-info/RECORD,,
