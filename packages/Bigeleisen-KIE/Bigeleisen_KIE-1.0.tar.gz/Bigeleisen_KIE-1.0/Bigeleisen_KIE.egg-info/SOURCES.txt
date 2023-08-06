@@ -1,0 +1,6 @@
+Bigeleisen_KIE.py
+setup.py
+Bigeleisen_KIE.egg-info/PKG-INFO
+Bigeleisen_KIE.egg-info/SOURCES.txt
+Bigeleisen_KIE.egg-info/dependency_links.txt
+Bigeleisen_KIE.egg-info/top_level.txt
