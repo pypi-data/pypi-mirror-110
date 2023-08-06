@@ -1,0 +1,3 @@
+[console_scripts]
+jengahq_generate_key_pair = jengahq.auth:generate_key_pair
+
