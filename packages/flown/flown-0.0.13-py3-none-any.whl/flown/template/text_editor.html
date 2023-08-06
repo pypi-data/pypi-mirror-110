@@ -1,0 +1,23 @@
+{% extends "_layout.html" %}
+{% block body %}
+
+    <input type="text" id="txteditor{{ display_id }}" style="width:100%;" value="{{text_value}}" />
+    <div>
+        <button onclick="save{{ display_id }}();" >Save</button>
+        <button onclick="cancelEdit{{ display_id }}();" >Cancel</button>
+    </div>
+
+    <script>
+        function save{{ display_id }}(){
+            let val = $('#txteditor{{ display_id }}').val();
+            {% if text_type == 'run_name' %}
+            pyexec('update_run_name', ['\'{{ entity_id }}\'', '"""' + val + '"""']);
+            {% endif %}
+        }
+        function cancelEdit{{ display_id }}(){
+            {% if text_type == 'run_name' %}
+            pyexec('disp_run', ['\'{{ entity_id }}\'']);
+            {% endif %}
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,94 @@
+{% extends "_layout.html" %}
+{% block body %}
+
+    <h2>Run : {{ run_data.run_name or 'Untitled' }} </h2>
+    <p class="small">
+        <a href="#" onclick="pyexec('text_editor', ['\'run_name\'', '\'{{ run_data.run_id }}\'']);">
+            <i class="fa-edit fa">edit</i>
+        </a>
+    </p>
+    <section>in experiment :
+        <a href="#" onclick="pyexec('disp_experiment', ['\'{{ exp_info.experiment_id }}\'']);">
+            {{ exp_info.name }}
+        </a>
+    </section>
+    <section>by user : {{ run_data.user_id }}</section>
+
+    <section>
+        <div>
+            Run ID : <code>{{ run_data.run_id }}</code>
+            Run UUID : <code>{{ run_data.run_uuid }}</code>
+        </div>
+        <div>
+            Artifact Locations :
+            <a href="#" onclick="pyexec('startfile', ['\'{{ run_data.artifact_console_url }}\'']);">
+                <i class="fa-forward fa">{{ run_data.artifact_console_url }}</i>
+            </a>
+        </div>
+        <div>
+            Time :
+            {{ run_data.start_time.strftime('%y/%m/%d %H:%M:%S') }} - {{ run_data.end_time.strftime('%y/%m/%d %H:%M:%S') }}
+        </div>
+        <div>
+            Status :
+            {{ run_data.status }}
+        </div>
+    </section>
+
+    <h3>Note :</h3>
+    <div>
+        <a href="#" onclick="pyexec('markdown_editor', ['\'run\'', '\'{{ run_data.run_id }}\'']);">
+            <i class="fa-edit fa">edit</i>
+        </a>
+    </div>
+    <section>
+        {{ run_data.note_html | safe }}
+    </section>
+
+    <h3>Params :</h3>
+    <section>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            {% for k,v in run_data.params.items() %}
+                <tr>
+                    <td>{{ k }}</td>
+                    <td>{{ v }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+    <h3>Metrics :</h3>
+    <section>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            {% for k,v in run_data.metrics.items() %}
+                <tr>
+                    <td>{{ k }}</td>
+                    <td>{{ v }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+<!--    <h3>Artifacts :</h3>-->
+<!--    <section>-->
+<!--        <ul>-->
+<!--            {% for a in run_data.artifacts %}-->
+<!--                <li class="{{'selected' if a.is_selected else ''}}">-->
+<!--                    <a href="#" onclick="pyexec('disp_run', ['\'{{ run_data.run_id }}\'', '\'{{ a.path }}\'']);">-->
+<!--                        {{ a.path }}-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--            {% endfor %}-->
+<!--        </ul>-->
+<!--        {{ selected_artifact_html | safe }}-->
+<!--    </section>-->
+
+{% endblock %}

@@ -1,0 +1,27 @@
+<div id="flown-ui-{{ display_id }}">
+    <a href="#" onclick="pyexec('list_experiments', []);">
+        <i class="fa-home fa"> Experiment List</i>
+    </a>
+    <div class="content">
+        {% block body %}
+        {% endblock %}
+    </div>
+</div>
+
+<script href="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script>
+    function handle_output(out){
+        // let res = out.content.data["text/plain"];
+        // console.log(res);
+    }
+
+    function pyexec(api_function, params) {
+        const display_id = '{{ display_id }}';
+        params = params || []
+        params.push(`display_id='${display_id}'`)
+        let command = `flown_api.${api_function}(${params.join(', ')})`;
+        let callbacks = { 'iopub' : {'output' : handle_output}};
+        console.log(`sending command to python-kernel : ${command}`)
+        IPython.notebook.kernel.execute(command, callbacks, {silent:false});
+    }
+</script>

@@ -1,0 +1,27 @@
+{% extends "_layout.html" %}
+{% block body %}
+
+    <textarea id="mdeditor{{ display_id }}" style="width:100%; height: 10em;">{{ markdown_str }}</textarea>
+    <div>
+        <button onclick="save{{ display_id }}();" >Save</button>
+        <button onclick="cancelEdit{{ display_id }}();" >Cancel</button>
+    </div>
+
+    <script>
+        function save{{ display_id }}(){
+            let val = $('#mdeditor{{ display_id }}').val();
+            {% if note_type == 'exp' %}
+            pyexec('update_experiment_note', ['\'{{ note_id }}\'', '"""' + val + '"""']);
+            {% elif note_type == 'run' %}
+            pyexec('update_run_note', ['\'{{ note_id }}\'', '"""' + val + '"""']);
+            {% endif %}
+        }
+        function cancelEdit{{ display_id }}(){
+            {% if note_type == 'exp' %}
+            pyexec('disp_experiment', ['\'{{ note_id }}\'']);
+            {% elif note_type == 'run' %}
+            pyexec('disp_run', ['\'{{ note_id }}\'']);
+            {% endif %}
+        }
+    </script>
+{% endblock %}
