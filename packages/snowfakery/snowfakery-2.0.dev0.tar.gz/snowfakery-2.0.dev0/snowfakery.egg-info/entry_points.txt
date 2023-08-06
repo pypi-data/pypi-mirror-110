@@ -1,0 +1,4 @@
+[console_scripts]
+snowbench = snowfakery.tools.snowbench:main
+snowfakery = snowfakery.cli:main
+
