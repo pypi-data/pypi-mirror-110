@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ds-framework-cli=api_cli:cli
+    
