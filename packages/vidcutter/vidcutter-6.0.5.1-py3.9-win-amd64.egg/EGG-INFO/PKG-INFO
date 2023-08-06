@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vidcutter
+Version: 6.0.5.1
+Summary: the simplest + fastest media cutter and joiner
+Home-page: https://vidcutter.ozmartians.com
+Author: Pete Alexandrou
+Author-email: pete@ozmartians.com
+License: GPLv3+
+Keywords: vidcutter ffmpeg audiovideo mpv libmpv videoeditor video videoedit pyqt Qt5 multimedia
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Multimedia :: Video :: Non-Linear Editor
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+
+https://vidcutter.ozmartians.com
+
