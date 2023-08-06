@@ -1,0 +1,10 @@
+cubejsclientasync/__init__.py,sha256=bDjBkNRPJKd7nYM2oSPRCPaoduirjfSBuEJkizSFK0E,168
+cubejsclientasync/client.py,sha256=m2ybMypwXSXhzoPs-lbB5jlh5zdLc1bovCzUc5rLBzY,3525
+cubejsclientasync/enums.py,sha256=YpWOtzO86tPNFtAI8wjtIKe1KrdeIn80MSfZ-G8bNqk,804
+cubejsclientasync/filters.py,sha256=PqaQAyhLrZnsAADXXjVPBQx2RUQSAF9ILkarkC5BGk0,4934
+cubejsclientasync/objects.py,sha256=KXhGhMkI011829h3pXlgaq-XBFaOhp2altiiAxfQi8o,2613
+cubejsclientasync/query.py,sha256=kYdgwRkepzalGbFjQm-PwAKr6vMtL5Y6cfgw8rpTeFY,2579
+cubejsclientasync-0.1.0.dist-info/LICENSE.md,sha256=yYSOPwtfDE2SHKEZ9XGGTSkk4ZymuP4bUSHpyJIJMqw,1464
+cubejsclientasync-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cubejsclientasync-0.1.0.dist-info/METADATA,sha256=6Je2W7bgV2qZjeKVjTeAMlQGSgIiTQTN4DvD9N2IU04,1592
+cubejsclientasync-0.1.0.dist-info/RECORD,,
