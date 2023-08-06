@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+MyLib5.egg-info/PKG-INFO
+MyLib5.egg-info/SOURCES.txt
+MyLib5.egg-info/dependency_links.txt
+MyLib5.egg-info/top_level.txt
+misha/__init__.py

@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: MyLib5
+Version: 0.0.1
+Summary: Мои скрыпты
+Home-page: UNKNOWN
+Author: Mikhail Yurkevich
+Author-email: kane666r@yandex.ru
+License: MIT
+Description: РњРѕРё СЃРєСЂРёРїС‚С‹
+        sql(name_table)
+        typoi(name)
+        
+        Change Log
+        ==========
+        
+        0.0.1 (23/06/2021)
+        ------------------
+        -First  Release
+        
+Keywords: sql-typoi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
