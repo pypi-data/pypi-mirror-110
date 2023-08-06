@@ -1,0 +1,10 @@
+websockets
+paramiko
+psutil
+jupyter_client
+ipykernel
+jupyter
+matlab-kernel
+jupyter_nbextensions_configurator
+powershell_kernel
+bash_kernel
