@@ -1,0 +1,3 @@
+[nufeb_tools.cli]
+nufeb_seed = nufeb_tools.generate_atom:run
+
