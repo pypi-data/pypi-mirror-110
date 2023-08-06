@@ -1,0 +1,4 @@
+[console_scripts]
+pyw = run_web_pycode.__main__:entry_point
+run_web_pycode = run_web_pycode.__main__:entry_point
+
