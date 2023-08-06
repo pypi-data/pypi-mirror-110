@@ -1,0 +1,14 @@
+dnsdist_console/__init__.py,sha256=kyqP_S_P0156qUYHK-uf763qWi2DJ48UlFedsOjKTXY,177
+dnsdist_console/console.py,sha256=nhlehveu-8BKh9m9gmSIyqQgGKICG3X4tqqpMfdFxvE,3469
+dnsdist_console/dashboard.py,sha256=hXuI8CxzjCpAPimREvAkawKHJyfPhFyM9FKWeLVO5QE,3762
+dnsdist_console/key.py,sha256=J7Cl9MC-Q7Vqy0pTl0CFFmqdKysDTJ21gVpQOeJ8PpI,219
+dnsdist_console/statistics.py,sha256=pKrtOR1WRPevcqzpLZhnGO0pnhxqBJUDcr3_PF8DxmU,2529
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_console.py,sha256=KzpZ9__VtAXGDRrH3jN4AKhF-OFD0H6tPn3D5Jpbmwo,549
+tests/test_key.py,sha256=hy6IHlrPCXWnrANhwXvjgM6plGLX1KYBTsHrJnAo8jE,251
+tests/test_statistics.py,sha256=7dG9XqMQGE_xtL_HVz6o9C11iYh3fKBVz_a1O_b7ol4,1310
+dnsdist_console-1.3.0.dist-info/LICENSE,sha256=nDXMKq2jNXCi2ehkGsy2haVfeO8_SjhMy5gs-eAMljg,1079
+dnsdist_console-1.3.0.dist-info/METADATA,sha256=AR3PofwhkYo8fpcn62qn_2S5KZ8RuOOMi_LTRtGwWF4,8676
+dnsdist_console-1.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dnsdist_console-1.3.0.dist-info/top_level.txt,sha256=khRwqRtMLNJabaTngMqHwvLJ5fZ-zc3_0rKFx5Zobdw,22
+dnsdist_console-1.3.0.dist-info/RECORD,,
