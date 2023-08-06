@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gitchurn/__init__.py
+gitchurn/__main__.py
+gitchurn/gitchurn.py
+gitchurn/gitparser.py
+gitchurn/ir.py
+gitchurn.egg-info/PKG-INFO
+gitchurn.egg-info/SOURCES.txt
+gitchurn.egg-info/dependency_links.txt
+gitchurn.egg-info/entry_points.txt
+gitchurn.egg-info/top_level.txt

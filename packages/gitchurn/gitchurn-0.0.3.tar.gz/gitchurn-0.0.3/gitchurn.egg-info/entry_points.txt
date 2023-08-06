@@ -1,0 +1,3 @@
+[console_scripts]
+gitchurn = gitchurn.__main__:main
+
