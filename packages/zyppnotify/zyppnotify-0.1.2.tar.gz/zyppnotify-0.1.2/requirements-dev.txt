@@ -1,0 +1,4 @@
+keyvault
+pytest
+pymsteams
+pandas
