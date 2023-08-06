@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: snapflow
+Version: 0.7.0a5
+Summary: DataFunctional Data Pipelines
+License: BSD-3-Clause
+Author: Ken Van Haren
+Author-email: kenvanharen@gmail.com
+Requires-Python: >=3.7.4,<4.0.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: alembic (>=1.5.5,<2.0.0)
+Requires-Dist: backoff (>=1.10.0,<2.0.0)
+Requires-Dist: cleo (>=0.8.1,<0.9.0)
+Requires-Dist: click (>=7.1.1,<8.0.0)
+Requires-Dist: colorful (>=0.5.4,<0.6.0)
+Requires-Dist: common-model (>=0.1.4,<0.2.0)
+Requires-Dist: cookiecutter (>=1.7.2,<2.0.0)
+Requires-Dist: datacopy (>=0.1.6,<0.2.0)
+Requires-Dist: jinja2 (>=3.0.0,<4.0.0)
+Requires-Dist: loguru (>=0.5.1,<0.6.0)
+Requires-Dist: networkx (>=2.4,<3.0)
+Requires-Dist: pandas (>=1.0.1,<2.0.0)
+Requires-Dist: pyarrow (>=3.0.0,<4.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: pydantic-sqlalchemy (>=0.0.9,<0.0.10)
+Requires-Dist: ratelimit (>=2.2.1,<3.0.0)
+Requires-Dist: requests (>=2.23.0,<3.0.0)
+Requires-Dist: sqlalchemy (>=1.4.1,<2.0.0)
+Requires-Dist: sqlparse (>=0.3.1,<0.4.0)
+Requires-Dist: strictyaml (>=1.0.6,<2.0.0)
