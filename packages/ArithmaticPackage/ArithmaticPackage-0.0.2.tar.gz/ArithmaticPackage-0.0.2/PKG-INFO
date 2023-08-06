@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ArithmaticPackage
+Version: 0.0.2
+Summary: Simple arithmatic problem
+Home-page: https://github.com/pooja-solaikannu/jubilant-garbanzo
+Author: Pooja Solaikannu
+Author-email: poojasolai97@gmail.com
+License: UNKNOWN
+Description: Just a simple function which does addition of two numbers given inputs of two numbers(a, b)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain

@@ -1,0 +1,5 @@
+setup.py
+ArithmaticPackage.egg-info/PKG-INFO
+ArithmaticPackage.egg-info/SOURCES.txt
+ArithmaticPackage.egg-info/dependency_links.txt
+ArithmaticPackage.egg-info/top_level.txt
