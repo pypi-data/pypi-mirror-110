@@ -1,0 +1,230 @@
+{
+    "permissions": [
+        {
+            "name": "dashboard",
+            "codename": "dashboard_read",
+            "access" : "read"
+        },
+        {
+            "name": "dashboard",
+            "codename": "dashboard_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "report",
+            "codename": "report_read",
+            "access" : "read"
+            
+        },
+        {
+            "name": "report",
+            "codename": "report_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "collection",
+            "codename": "collection_read",
+            "access" : "read"
+        },
+        {
+            "name": "collection",
+            "codename": "collection_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "connector",
+            "codename": "connector_read",
+            "access" : "read"
+        },
+        {
+            "name": "connector",
+            "codename": "connector_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "snapshot",
+            "codename": "snapshot_read",
+            "access" : "read"
+        },
+        {
+            "name": "snapshot",
+            "codename": "snapshot_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "generated_snapshot",
+            "codename": "generated_snapshot_read",
+            "access" : "read"
+        },
+        {
+            "name": "generated_snapshot",
+            "codename": "generated_snapshot_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "crawler",
+            "codename": "crawler_read",
+            "access" : "read"
+        },
+        {
+            "name": "crawler",
+            "codename": "crawler_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "compliance",
+            "codename": "compliance_read",
+            "access" : "read"
+        },
+        {
+            "name": "compliance",
+            "codename": "compliance_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "scheduler",
+            "codename": "scheduler_read",
+            "access" : "read"
+        },
+        {
+            "name": "scheduler",
+            "codename": "scheduler_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "notification",
+            "codename": "notification_read",
+            "access" : "read"
+        },
+        {
+            "name": "notification",
+            "codename": "notification_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "log",
+            "codename": "log_read",
+            "access" : "read"
+        },
+        {
+            "name": "log",
+            "codename": "log_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "user_management",
+            "codename": "user_management_read",
+            "access" : "read"
+        },
+        {
+            "name": "user_management",
+            "codename": "user_management_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "configuration",
+            "codename": "configuration_read",
+            "access" : "read"
+        },
+        {
+            "name": "configuration",
+            "codename": "configuration_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "vault",
+            "codename": "vault_read",
+            "access" : "read"
+        },
+        {
+            "name": "vault",
+            "codename": "vault_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "sso",
+            "codename": "sso_read",
+            "access" : "read"
+        },
+        {
+            "name": "sso",
+            "codename": "sso_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "user_access_token",
+            "codename": "user_access_token_read",
+            "access" : "read"
+        },
+        {
+            "name": "user_access_token",
+            "codename": "user_access_token_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "role",
+            "codename": "role_read",
+            "access" : "read"
+        },
+        {
+            "name": "role",
+            "codename": "role_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "api",
+            "codename": "api_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "resource",
+            "codename": "resource_read",
+            "access" : "read"
+        },
+        {
+            "name": "resource",
+            "codename": "resource_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "query",
+            "codename": "query_read",
+            "access" : "read"
+        },
+        {
+            "name": "query",
+            "codename": "query_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "policy",
+            "codename": "policy_read",
+            "access" : "read"
+        },
+        {
+            "name": "policy",
+            "codename": "policy_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "remediation",
+            "codename": "remediation_read",
+            "access" : "read"
+        },
+        {
+            "name": "remediation",
+            "codename": "remediation_full_control",
+            "access" : "full_control"
+        },
+        {
+            "name": "wizard",
+            "codename": "wizard_read",
+            "access" : "read"
+        },
+        {
+            "name": "wizard",
+            "codename": "wizard_full_control",
+            "access" : "full_control"
+        }
+    ]
+}
