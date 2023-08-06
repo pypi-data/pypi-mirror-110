@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+jupyter_www_proxy/__init__.py
+jupyter_www_proxy.egg-info/PKG-INFO
+jupyter_www_proxy.egg-info/SOURCES.txt
+jupyter_www_proxy.egg-info/dependency_links.txt
+jupyter_www_proxy.egg-info/entry_points.txt
+jupyter_www_proxy.egg-info/requires.txt
+jupyter_www_proxy.egg-info/top_level.txt
+jupyter_www_proxy/icons/www.dio
+jupyter_www_proxy/icons/www.svg

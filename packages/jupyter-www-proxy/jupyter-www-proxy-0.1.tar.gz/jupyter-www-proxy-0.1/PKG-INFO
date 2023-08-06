@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jupyter-www-proxy
+Version: 0.1
+Summary: HTTP server for Jupyter
+Home-page: UNKNOWN
+Author: Chung Chan
+License: MIT
+Description: # jupyter_www_proxy
+        
+        A simple HTTP server for Jupyter.
+Keywords: Jupyter,http,server
+Platform: UNKNOWN
+Classifier: Framework :: Jupyter
+Description-Content-Type: text/markdown
