@@ -1,0 +1,10 @@
+[console_scripts]
+panorama_to_image_light = splendor.scripts.panorama_to_image_light:main
+panorama_to_strip = splendor.scripts.panorama_to_strip:main
+reflect_to_diffuse = splendor.scripts.reflect_to_diffuse:main
+splendor_asset_installer = splendor.scripts.splendor_asset_installer:main
+splendor_mask_inspector = splendor.scripts.splendor_mask_inspector:main
+splendor_render = splendor.scripts.splendor_render:main
+splendor_viewer = splendor.scripts.splendor_viewer:main
+triangulate_obj = splendor.scripts.triangulate_obj:main
+
