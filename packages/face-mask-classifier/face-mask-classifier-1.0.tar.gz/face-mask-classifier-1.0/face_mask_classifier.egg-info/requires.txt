@@ -1,0 +1,6 @@
+Keras==2.4.3
+keras-facenet==0.3.2
+tensorflow==2.5.0
+scikit-learn==0.24.2
+mtcnn==0.1.0
+numpy==1.19.5
