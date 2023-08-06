@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: postcode-validator
+Version: 0.0.4
+Summary: Postcode Validator Library
+Home-page: https://github.com/GouthamSiddhaarth/postcode_validator
+Author: Goutham Siddhaarth M.S.K
+Author-email: mskgouthamsiddhaarth@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A Postcode Validator Library.
+
+The initial releas includes validation for only UK Postcodes
+
+
+## Install
+
+postcode_validator is available on PyPI:
+
+```bash
+$ pip install postcode-validator
+```
+
+
+## Usage
+
+```python
+from postcode_validator.uk.uk_postcode_validator import UKPostcode
+
+postcode = UKPostcode('w1a0ax')
+
+postcode.postcode
+# output
+'W1A 0AX'
+
+postcode.outward
+# output
+'W1A'
+
+postcode.inward
+# output
+'0AX'
+
+postcode.area
+# output
+'W'
+
+postcode.district
+# output
+'1A'
+
+postcode.sector
+# output
+'0'
+
+postcode.unit
+# output
+'AX'
+```
+
+
