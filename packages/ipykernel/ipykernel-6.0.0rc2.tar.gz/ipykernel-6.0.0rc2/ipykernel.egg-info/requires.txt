@@ -1,0 +1,18 @@
+debugpy>=1.0.0
+ipython>=7.23.1
+traitlets>=4.1.0
+jupyter_client
+tornado>=4.2
+
+[:platform_system == "Darwin"]
+matplotlib-inline<0.2.0appnope,>=0.1.0
+
+[:python_version < "3.8.0"]
+importlib-metadata<4
+
+[test]
+pytest!=5.3.4
+pytest-cov
+flaky
+nose
+ipyparallel
