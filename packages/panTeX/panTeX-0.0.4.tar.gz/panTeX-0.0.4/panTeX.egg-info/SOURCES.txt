@@ -1,0 +1,10 @@
+README.md
+setup.py
+panTeX.egg-info/PKG-INFO
+panTeX.egg-info/SOURCES.txt
+panTeX.egg-info/dependency_links.txt
+panTeX.egg-info/requires.txt
+panTeX.egg-info/top_level.txt
+pantex/__init__.py
+pantex/edit.py
+pantex/publish.py

@@ -1,0 +1,8 @@
+pandas>=1.0.0
+seaborn
+tabulate
+typing-extensions
+
+[dev]
+ipython
+pytest
