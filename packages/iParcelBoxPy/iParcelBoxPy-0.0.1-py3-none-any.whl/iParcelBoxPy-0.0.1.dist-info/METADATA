@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: iParcelBoxPy
+Version: 0.0.1
+Summary: Python wrapper for the iParcelBox Local API
+Home-page: https://github.com/gadget-man/iparcelboxpy
+Author: iParcelBox Ltd
+Author-email: support@iparcelbox.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/gadget-man/iparcelboxpy/issues
+Platform: Cross Platform
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+# iparcelboxpy
+Python wrapper for the iParcelBox Local API 
+
+[View on PyPI](https://pypi.org/project/iParcelBoxPY/)
+
+# Features
+
+[iParcelBox API Documentation](https://www.iparcelbox.com/local-api-instructions/)
+
+
+## Supported
+
+- Get Status
+- Get Info
+- Lock Box
+- Empty Box
+- Allow Deliver
+
+## Not yet supported
+
+- All other functions
+
+# Contributors
+
+- @gadget-man
+
+
