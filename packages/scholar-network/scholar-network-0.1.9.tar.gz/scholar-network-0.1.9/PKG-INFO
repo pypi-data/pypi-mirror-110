@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: scholar-network
+Version: 0.1.9
+Summary: Graph Network Analysis for scraping Google Scholar authors.
+License: MIT
+Author: Nick Anthony
+Author-email: nanthony007@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Welcome to Scholar Network
+
+This package is intended for people wanting to scrape Google Scholar
+to build graph networks of Google Scholar authors and identify network
+connections as opportunities for collaboration.
+
+## Features
+
+1. Selenium based web scraping
+2. Poetry based dependency management
+3. Basic Graph algorithms and metrics
+
