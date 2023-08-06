@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-rgd-geometry
+Version: 0.2.0rc4
+Summary: UNKNOWN
+Home-page: https://github.com/ResonantGeoData/ResonantGeoData
+Author: Kitware, Inc.
+Author-email: rgd@kitware.com
+License: Apache 2.0
+Description: # ResonantGeoData Geometry
+        
+        A submodule of ResonantGeoData for storing shapefiles
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: worker
