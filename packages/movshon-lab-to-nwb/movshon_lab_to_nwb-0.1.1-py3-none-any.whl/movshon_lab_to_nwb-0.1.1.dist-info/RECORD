@@ -1,0 +1,11 @@
+movshon_lab_to_nwb/__init__.py,sha256=4XfCMNxc-ybJe669UQ-Le5FerFNIZlEW1tUjDp4SpNA,166
+movshon_lab_to_nwb/cmd_line.py,sha256=bdXTP31g0t1hAWYt2dz27ABc7gy4ULgM97BxMgFbK6w,3024
+movshon_lab_to_nwb/expodatainterface.py,sha256=5b6IubB1Q8Y1PbS48XdPxd8O41LcTg0DaZCquSxFNtI,4848
+movshon_lab_to_nwb/movshonnwbconverter.py,sha256=zvP8J6NnnhEWLnHPpUUJmejTtjGp0y3FkcjjU0OYO3Y,1908
+movshon_lab_to_nwb/utils_expo.py,sha256=kf8YLhl43ajVQve94dQuMx_0dMxPQw9z7PMNReOKliM,2477
+movshon_lab_to_nwb-0.1.1.dist-info/LICENSE,sha256=7CuvCHGLxQ69LTWIlJP5rM-rX8NQgmHmSUf7RXp5CAU,1070
+movshon_lab_to_nwb-0.1.1.dist-info/METADATA,sha256=6oLH4hqk8UBzMSwLbyd7_RZUHtQPdH6O3GLRxqUdl5w,3255
+movshon_lab_to_nwb-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+movshon_lab_to_nwb-0.1.1.dist-info/entry_points.txt,sha256=9UYZ1ZFPczHorqfhrPBRzf4VS9RfDuKM_U3rjvPeJak,82
+movshon_lab_to_nwb-0.1.1.dist-info/top_level.txt,sha256=JVq5yGkc9W6vZph_kVTGZc0a3UGmt8uQIludWfOED24,19
+movshon_lab_to_nwb-0.1.1.dist-info/RECORD,,
