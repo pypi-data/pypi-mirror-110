@@ -1,0 +1,12 @@
+.DS_Store,sha256=oeuVFEd7LCZT8OqWTZgAYyS1xuZYxSS3YcRD-1j9HBQ,6148
+wud/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+wud/aws.py,sha256=55FxRLG8Fr_fNv0m5hoGndiRb_fd8DToxwPmjX2Ch30,5068
+wud/football.py,sha256=ARePhn7WegKhkad7k77zhJBJYMDPKf5lBVNyoncVZNU,4007
+wud/football_team_name.csv,sha256=AJXAoKggk_1NZ7p1EODjXfBic_mMCdztkovQIyzFT6k,7500
+wud/helper.py,sha256=yxIoJcKsP1iW2FgB8lLddaBeBXpaFeH2lumKpjPdMR4,3717
+wud/linebot.py,sha256=lo4WoqqTjYZwur5FfgRzvWTjQqALQwf6RwFvX4aZ6lE,3958
+wud/scrap.py,sha256=JP3fhtY3Q9UsJw1qHEw5i-Ittq7VHSSSCegeK5Ggsjw,1531
+wud-0.1.14.dist-info/METADATA,sha256=rharL_Yx0I1lix7bKiylwWl7tszz36Lpr6suFVA3ZSk,1196
+wud-0.1.14.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+wud-0.1.14.dist-info/top_level.txt,sha256=cWTUXAKk-4tbtanGJQx0tVoslCia3TvsfyRdwrb1AcM,4
+wud-0.1.14.dist-info/RECORD,,
