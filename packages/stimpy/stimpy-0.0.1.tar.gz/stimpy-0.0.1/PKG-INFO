@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: stimpy
+Version: 0.0.1
+Summary: A PsychoPy wrapper to create moving visual stimuli without loops.
+License: MIT
+Author: Ka Chung Lam
+Author-email: kclamar@connect.ust.hk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PsychoPy (>=2021.2.0,<2022.0.0)
+Requires-Dist: numpy (>=1.21.0,<2.0.0)
