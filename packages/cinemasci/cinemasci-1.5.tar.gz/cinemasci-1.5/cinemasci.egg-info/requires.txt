@@ -1,0 +1,6 @@
+pandas
+jupyterlab
+ipywidgets
+pyyaml
+scikit-image
+h5py
