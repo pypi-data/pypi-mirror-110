@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: deepvac
+Version: 0.6.0
+Summary: PyTorch python project standard
+Home-page: https://github.com/DeepVAC/deepvac
+Author: Gemfield
+Author-email: gemfield@civilnet.cn
+License: UNKNOWN
+Keywords: PyTorch python project standard
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: tensorboard
+
+PyTorch python project standard
+
+
