@@ -1,0 +1,6 @@
+boltons
+glom
+numpy
+i2
+anytree
+scikit-learn==0.22.2
