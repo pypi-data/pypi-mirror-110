@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "diaspora.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "diaspora.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "diaspora.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "diaspora.hooking.post_release_hook"
+    ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+diaspora = diaspora.__main__:main
+
