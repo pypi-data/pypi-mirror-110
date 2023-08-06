@@ -1,0 +1,20 @@
+{
+  "editor": "linear",
+  "reviewer": "linear",
+  "scheduler": "base",
+  "tags": [],
+  "history": [
+    [
+      "2021-06-22",
+      0,
+      0
+    ]
+  ],
+  "deleted": false,
+  "due_date": "2021-06-22",
+  "siblings": [],
+  "string": "",
+  "editor_config": {},
+  "reviewer_config": {},
+  "scheduler_config": {}
+}
