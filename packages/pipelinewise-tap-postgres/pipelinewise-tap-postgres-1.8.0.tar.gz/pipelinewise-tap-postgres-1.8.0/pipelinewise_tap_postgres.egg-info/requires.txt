@@ -1,0 +1,8 @@
+pipelinewise-singer-python==1.*
+psycopg2-binary==2.8.6
+strict-rfc3339==0.7
+
+[test]
+pytest==6.2.1
+pylint==2.6.0
+pytest-cov==2.10.1
