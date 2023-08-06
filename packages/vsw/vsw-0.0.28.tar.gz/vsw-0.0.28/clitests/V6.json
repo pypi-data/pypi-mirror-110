@@ -1,0 +1,68 @@
+{
+  "requested_attributes": [
+    {
+      "names": [
+        "softwareName",
+        "softwareVersion",
+        "developerDid",
+        "softwareDid",
+        "softwareHash",
+        "softwareUrl",
+        "mediaType",
+        "sourceDid",
+        "sourceUrl",
+        "sourceHash",
+        "builderToolDidList",
+        "dependencyDidList",
+        "buildLog",
+        "builderDid"
+      ],
+      "restrictions": [
+        {
+          "schema_id": "UyDtaEFuTySAV9VZDykHkh:2:softwareCertificate:0.3",
+          "softwareName": "vsw",
+          "softwareVersion": "0.0.11",
+          "issuer_did": "SYzPAV7MYqVcj9NGd81TeM",
+          "softwareDid": "8gaKPGRxukBaFcqey1n218"
+        }
+      ]
+    },
+    {
+      "names": [
+        "testerDid",
+        "testSpecDid",
+        "testSpecUrl",
+        "testSpecHash",
+        "testResult",
+        "testResultDetailDid",
+        "testResultDetailUrl",
+        "testResultDetailHash",
+        "comments",
+        "softwareDid"
+      ],
+      "restrictions": [
+        {
+          "schema_id": "UyDtaEFuTySAV9VZDykHkh:2:testCertificate:0.1",
+          "testspecUrl": "https://github.com/verifiablesoftware/vsw-repo/tree/master/tests",
+          "testResult": "Pass",
+          "softwareDid": "8gaKPGRxukBaFcqey1n218",
+          "testerDid": "2Bi6tsLd6djb6XxGgfrbye"
+        }
+      ]
+    }
+  ],
+  "requested_predicates": {
+    "1_ranking_GE_uuid": {
+      "name": "ranking",
+      "p_type": ">=",
+      "p_value": 3,
+      "restrictions": [
+        {
+          "schema_id": "UyDtaEFuTySAV9VZDykHkh:2:testCertificate:0.1",
+          "issuer_did": "2Bi6tsLd6djb6XxGgfrbye",
+          "softwareDid": "8gaKPGRxukBaFcqey1n218"
+        }
+      ]
+    }
+  }
+}

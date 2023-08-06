@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vsw
+Version: 0.0.28
+Summary: Command line tool for interacting with the verifiable software repository
+Home-page: https://github.com/verifiablesoftware/vsw.git
+Author: Futurewei Technologies, Inc.
+Author-email: chu.wenjing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
