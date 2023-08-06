@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Ocr-Req
+Version: 0.6
+Summary: An example python package
+Home-page: UNKNOWN
+Author: Vardhani k 
+Author-email: vardhanikanamarlapudi@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+install package with following command:
+pip install Ocr-Req==0.4
+
+
+

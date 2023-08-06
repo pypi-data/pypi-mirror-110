@@ -1,0 +1,8 @@
+setuptools
+numpy
+fitz
+opencv-python
+imutils
+PyMuPDF
+pdfminer
+PyPDF2
