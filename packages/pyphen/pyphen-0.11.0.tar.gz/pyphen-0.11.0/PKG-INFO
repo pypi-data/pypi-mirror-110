@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pyphen
+Version: 0.11.0
+Summary: Pure Python module to hyphenate text
+Home-page: None
+Author: None
+Author-email: Guillaume Ayoub <contact@courtbouillon.org>
