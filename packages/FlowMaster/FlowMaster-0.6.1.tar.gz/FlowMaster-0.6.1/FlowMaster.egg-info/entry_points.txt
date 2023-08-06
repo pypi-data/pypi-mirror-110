@@ -1,0 +1,3 @@
+[console_scripts]
+flowmaster = flowmaster.__main__:app
+
