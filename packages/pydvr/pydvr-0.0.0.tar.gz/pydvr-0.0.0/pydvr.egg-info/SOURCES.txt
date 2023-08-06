@@ -1,0 +1,6 @@
+setup.py
+pydvr/__init__.py
+pydvr.egg-info/PKG-INFO
+pydvr.egg-info/SOURCES.txt
+pydvr.egg-info/dependency_links.txt
+pydvr.egg-info/top_level.txt
