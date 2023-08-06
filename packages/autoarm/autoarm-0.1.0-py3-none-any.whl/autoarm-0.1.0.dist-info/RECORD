@@ -1,0 +1,15 @@
+autoarm/__init__.py,sha256=4OvGXxbt60Dh3b2gpeiZ-AQHB9YWURqLltwVar8hkNU,219
+autoarm/association_rules.py,sha256=Uii0dGS_mps-8DZgDl7C_73VM6RqWmVkvIcTpxqg4x0,1838
+autoarm/dataset.py,sha256=zjiMf5qFAMjaR6LMRuYi3gblvvsGrUM67STxglC89xg,839
+autoarm/frequent_itemsets.py,sha256=mCNnr7Qd8kGp9swISVpPGjpJ2SQODMeTITWTqSw2ekc,686
+autoarm/recommender.py,sha256=q9GnhGsPRghDBFyZMxT9CwsMTHdUiEQpBz-UXcx2nFE,6773
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_association_rules.py,sha256=f9gGvsaNL091mJA9xbOQEm05zZ9HpcvOEebXgmZcVUA,2946
+tests/test_dataset.py,sha256=JPx0FmyAYSSDr8Bv7c179xD3syf7ak69UuMoHYrDLHI,945
+tests/test_frequent_itemsets.py,sha256=TprkQDIHNBV9TC8kNzujLeS09KijDGbwYj5xtPc46-k,1534
+tests/test_recommender.py,sha256=q9GnhGsPRghDBFyZMxT9CwsMTHdUiEQpBz-UXcx2nFE,6773
+autoarm-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autoarm-0.1.0.dist-info/METADATA,sha256=Tu-NUNna-WWK1kKonzbGusgNnltyryth5hHz35mmf_o,3154
+autoarm-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autoarm-0.1.0.dist-info/top_level.txt,sha256=bQjQ4zUzYzXC0Zb2H-EAMITLiADNwrYNhjjCsH7_xsM,14
+autoarm-0.1.0.dist-info/RECORD,,
