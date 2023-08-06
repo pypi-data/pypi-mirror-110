@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: geodepy
+Version: 0.0.26
+Summary: GA Geodesy Package
+Home-page: https://github.com/GeoscienceAustralia/GeodePy
+Author: Geoscience Australia
+Author-email: geodesy@ga.gov.au
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+A toolkit for Geodesy and Surveying in Python
+
