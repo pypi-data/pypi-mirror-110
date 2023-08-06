@@ -1,0 +1,5 @@
+numpy>=1.14
+omegaconf
+astropy
+future-fstrings
+importlib_resources>=3.3.0
