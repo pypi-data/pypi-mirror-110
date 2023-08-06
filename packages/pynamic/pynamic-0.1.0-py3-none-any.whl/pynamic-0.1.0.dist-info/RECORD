@@ -1,0 +1,12 @@
+pynamic/__init__.py,sha256=tLIfgDl9kfbqvmq-MeMoRuInol6_sqXOXLYYDdguqL0,665
+pynamic/core.py,sha256=HKanF4qUURD37pevZHWfL8HbJcoTqXuQJgx9G-2foRQ,12956
+pynamic/dynamic_variables.py,sha256=7TAUoRw8V0mK-7yI1f9PecNsvSLYSgfdeLRGOYUD3iY,3739
+pynamic/parser.py,sha256=wcr2cqbhIFpSPjS2m4aEtdRIbG-nzejAd3XFrRvJKWs,1744
+pynamic/proxy.py,sha256=QCYF6EV-HJwq5MyafthAVG9hxRvtu7-1JU9edr6uGBw,3111
+pynamic/token.py,sha256=4xIfQObhAHwncRMzToCuWdl_VLF5Q9Vu8p9qRYz-M-8,9539
+pynamic/utils.py,sha256=CbG8b8irc0iM9zGyFJAcsNjoTHb-LyAETOTAEpGFa9o,1570
+pynamic-0.1.0.dist-info/LICENSE,sha256=GbuVAA-FovuT-vyL0ZR0Gmuu83eb6hx2TbwSBMqOTfc,1057
+pynamic-0.1.0.dist-info/METADATA,sha256=x4s1qlcJrGuX2a9eZ2sOFiC_1k26KlxODl8um9fIn6Q,1381
+pynamic-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pynamic-0.1.0.dist-info/top_level.txt,sha256=SpxkBAFYd3e6wqfUtp6mOh-qyy5b4JHpUP3WCLTwhDg,8
+pynamic-0.1.0.dist-info/RECORD,,
