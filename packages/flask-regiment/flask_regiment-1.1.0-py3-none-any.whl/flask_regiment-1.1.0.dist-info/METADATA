@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: flask_regiment
+Version: 1.1.0
+Summary: flask extension for bulletlog
+Home-page: https://www.regiment.tech/
+Author: regiment.tech
+Author-email: support@regiment.tech
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: blinker
