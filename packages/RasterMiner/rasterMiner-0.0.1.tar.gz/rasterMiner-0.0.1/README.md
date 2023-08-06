@@ -1,0 +1,1 @@
+This software is released under the the Creative Commons Attribution-NonCommercial 4.0 International License, see LICENSE.
