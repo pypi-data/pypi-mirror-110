@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: CSBRAIN
+Version: 0.0.1
+Summary: A package designed for making data science easy!
+Home-page: https://github.com/Phytonking/CSBrain
+Author: Avi Agola
+Author-email: avi.agola@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CSBRAIN v0.0.1
+
+This was a package designed for the sole purpose of designing and making Data allocation and data science easier for all coders. This package contains functions which can allocate data from SQL .db files into a .txt file written with a special notation that can be processed by this library and is easy to encrypt. 
+
+
+Github: [https://github.com/Phytonking/CSBrain]
+
