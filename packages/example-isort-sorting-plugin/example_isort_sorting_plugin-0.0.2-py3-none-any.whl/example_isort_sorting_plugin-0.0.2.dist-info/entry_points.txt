@@ -1,0 +1,3 @@
+[isort.sort_function]
+natural_plus=example_isort_sorting_plugin:natural_plus
+
