@@ -1,0 +1,3 @@
+[console_scripts]
+mfc_scraper = mfc_scraper.__main__:main
+
