@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+bospell/__init__.py
+bospell/config.py
+bospell/error.py
+bospell/lm.py
+bospell/text.py
+bospell/tokenizers.py
+bospell/utils.py
+bospell.egg-info/PKG-INFO
+bospell.egg-info/SOURCES.txt
+bospell.egg-info/dependency_links.txt
+bospell.egg-info/requires.txt
+bospell.egg-info/top_level.txt
+bospell/candidates/__init__.py
+bospell/candidates/symspell.py
