@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: autonn
+Version: 0.0.2
+Summary: Configurable deep neural networks for neural architecture searchand hyper-parameter tuning; Cloud deployment of DNN models
+Home-page: UNKNOWN
+Author: Hao Wang, Yuanhao Guo, and Zhiheng Li
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aliyun-python-sdk-core (==2.13.35)
+Requires-Dist: aliyun-python-sdk-kms (==2.15.0)
+Requires-Dist: bayes-optim (==0.2.2)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cffi (==1.14.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: crcmod (==1.7)
+Requires-Dist: cryptography (==3.4.7)
+Requires-Dist: dill (==0.3.4)
+Requires-Dist: idna (==2.10)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: joblib (==1.0.1)
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: oss2 (==2.14.0)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pycryptodome (==3.10.1)
+Requires-Dist: pyDOE (==0.3.8)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: scipy (==1.7.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: threadpoolctl (==2.1.0)
+Requires-Dist: torch (==1.9.0)
+Requires-Dist: torchvision (==0.10.0)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Requires-Dist: urllib3 (==1.26.5)
+
+# AutoNN
+
+[![Unittest](https://github.com/Universal-Analysis/autonn/actions/workflows/python-test.yml/badge.svg)](https://github.com/Universal-Analysis/autonn/actions/workflows/python-test.yml)
+
+
+## Development Guide
+
+* Install EditorConfig plugin within your IDE
+
+
+
