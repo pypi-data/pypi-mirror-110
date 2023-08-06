@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+ntripstreams/__init__.py
+ntripstreams/__main__.py
+ntripstreams/__version__.py
+ntripstreams/crc.py
+ntripstreams/ntripstreams.py
+ntripstreams/rtcm3.py
+ntripstreams.egg-info/PKG-INFO
+ntripstreams.egg-info/SOURCES.txt
+ntripstreams.egg-info/dependency_links.txt
+ntripstreams.egg-info/requires.txt
+ntripstreams.egg-info/top_level.txt
