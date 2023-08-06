@@ -1,0 +1,6 @@
+pysmi
+pysnmpcrypto
+pyasn1>=0.2.3
+
+[:python_version < "2.7"]
+ordereddict
