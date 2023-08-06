@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pymmaster
+Version: 0.1.2
+Summary: pymmaster is a python package for processing of ASTER DEMs using MMASTER.
+Home-page: https://github.com/luc-girod/MMASTER-workflows
+Author: Luc Girod, Romain Hugonnet, Chris Nuth, Bob McNabb
+Author-email: robertmcnabb@gmail.com
+Maintainer: iamdonovan
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: fiona
+Requires-Dist: gdal
+Requires-Dist: geopandas
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyproj
+Requires-Dist: pybob (>0.25)
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: shapely
+
+# MMASTER-workflows
+
+This repository hosts the workflows for the MMASTER procesing methods of ASTER-L1A stereo imagery. The method itself is documented in [Girod et al, 2017, http://dx.doi.org/10.3390/rs9070704 ]
+
+Documentation on readthe docs : https://mmaster-workflows.readthedocs.io/en/latest/index.html
+
+
