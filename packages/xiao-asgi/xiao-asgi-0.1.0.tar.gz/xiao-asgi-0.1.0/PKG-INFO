@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: xiao-asgi
+Version: 0.1.0
+Summary: A small ASGI framework.
+Home-page: https://github.com/limber-project/limberframework
+License: MIT
+Keywords: python,asgi
+Author: Jonathan Staniforth
+Author-email: jonathanstaniforth@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pytest-asyncio (>=0.14.0,<0.15.0)
+Project-URL: Repository, https://github.com/limber-project/limberframework
+Description-Content-Type: text/markdown
+
+# xiao asgi
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+A small ASGI framework.
+
+## License
+
+xiao asgi is open-sourced software licensed under the MIT license.
+
