@@ -1,0 +1,7 @@
+gmsh
+pygmsh
+meshio
+scipy
+sympy
+pyamg
+matplotlib
