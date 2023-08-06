@@ -1,0 +1,7 @@
+README.md
+setup.py
+videostreamer.py
+mlagents_video_streamer.egg-info/PKG-INFO
+mlagents_video_streamer.egg-info/SOURCES.txt
+mlagents_video_streamer.egg-info/dependency_links.txt
+mlagents_video_streamer.egg-info/top_level.txt
