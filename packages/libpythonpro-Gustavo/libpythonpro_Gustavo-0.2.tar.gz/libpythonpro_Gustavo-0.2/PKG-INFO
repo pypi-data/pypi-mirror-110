@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: libpythonpro_Gustavo
+Version: 0.2
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/EstudosPython/libpythonpro2
+Author: GustavoGuesser
+Author-email: gustavoguesser@gmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Description: # libpythonpro2
+        Criado para curso pyTools
+        
+        Link do curso: [Python Pro](https://plataforma.dev.pro.br/)
+        
+        Suportada versÃ£o 3 do Python
+        
+        Topicos a seremm abordados:
+        1-Git
+        2-Virtualenv
+        3-Pip
+        [![Build Status](https://travis-ci.com/EstudosPython/libpythonpro2.svg?token=hxgdVvd52hyYrMw5v15K&branch=main)](https://travis-ci.com/EstudosPython/libpythonpro2)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
