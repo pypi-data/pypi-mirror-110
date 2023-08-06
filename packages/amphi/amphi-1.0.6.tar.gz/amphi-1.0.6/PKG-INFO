@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: amphi
+Version: 1.0.6
+Summary: MoviePy OOP wrapper
+Home-page: https://github.com/rmaniego/amphi
+Author: Rodney Maniego Jr.
+Author-email: rod.maniego23@gmail.com
+License: MIT
+Download-URL: https://github.com/rmaniego/amphi/archive/v1.0.tar.gz
+Keywords: MoviePy,Video,Editor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# amphi
+MoviePy OOP wrapper
+
+## Additional Requirements
+ - ImageMagick binary file
+ - Matplotlib
+ - OpenCV
+
+## Usage
+```python
+from amphi import Amphi
+
+movie = Amphi()
+
+movie.new_audio("music", "<path/to/audio/file>")
+movie.new_video("video1", "<path/to/audio/file>")
+movie.new_video("video2", "<path/to/audio/file>")
+movie.new_video("video3", "<path/to/audio/file>", stabilize=True)
+movie.new_text("title", "My Video", font="Arial", fontsize=100, duration=4)
+
+
+
+print("Processing media resources...")
+movie.video("video1").subclip(0, 5).keep("video1a")
+movie.video("video2").subclip(0, 2).keep("video2a")
+movie.video("video3").subclip(2).keep("video3a")
+
+movie.video("video1a").composite("title").keep("intro")
+movie.concatenate_by_video_id(["intro", "video2a", "video3a"])
+movie.set_audio("music")
+movie.render()
+
+if movie.save("my-movie.mp4", fps=30, bitrate="16000k"):
+    print("The video has been successfully saved.")
+
+```
+
+
+
+
