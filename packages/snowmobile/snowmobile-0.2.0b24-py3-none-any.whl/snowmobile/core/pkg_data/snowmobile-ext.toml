@@ -1,0 +1,133 @@
+# =============================================================================
+# ../snowmobile-ext.toml
+# DO NOT DELETE UNLESS ALTERNATE EXTENSION FILE IS SPECIFED IN SNOWMOBILE.TOML
+# =============================================================================
+
+# todo: + 'tabs-to-spaces' and 'tab-size' for reserved attributes.sql
+
+# -- Configuration options for snowmobile.script() ----------------------------
+[script]
+
+    [script.markup.attributes]
+
+        [script.markup.attributes.markers]
+            [script.markup.attributes.markers."__script__"]
+                as-group = 'Author Information'
+                # ====/ start-attributes /====
+                team = 'Sample Team Name'
+                email = 'first.last@domain.com'
+
+            [script.markup.attributes.markers."__appendix__"]
+                as-group = ''
+                # ====/ marker-attributes /====
+
+        [script.markup.attributes.reserved.rendered-sql]
+            # The literal sql for a given statement.
+            include-by-default = true
+            attribute-name = 'sql'
+            default-to = 'SQL***'
+            # TODO: Make each of these a dictionary of derived classes like QA for Script
+            #   with the .process() method being all the operations that have access to
+            #   the tagged values from the script and the arguments in this block
+            # tabs-to-spaces = true
+            # tab-size = 2
+
+        [script.markup.attributes.reserved.query-results]
+            # The literal results returned by a given statement.
+            include-by-default = false
+            attribute-name = 'results'
+            default-to = 'results*_***'
+            format = 'markdown'
+            tabulate-format = 'grid'
+
+        [script.markup.attributes.from-namespace]
+            # TODO: period separated values for nested vals to vars(obj)[k]
+            #   :: execution.time.str to check if str in obj.callables or obj.wrap
+            #   :: * only applying if the bool(val) that's returned is True
+            execution_time_txt = 'Execution Time'
+            outcome_txt = 'Last Outcome'
+
+        [script.markup.attributes.groups]
+            "Execution-Information**" = [
+                # todo
+                #   :: 'Execution Time', 'Last Outcome', etc
+                'execution_time_txt',
+                'outcome_txt'
+            ]
+            "QA-Specifications**" = [
+                'partition-on',
+                'end-index-at',
+                'compare-patterns',
+                'ignore-patterns',
+                'absolute-tolerance',
+                'relative-tolerance',
+            ]
+
+        [script.markup.attributes.order]
+            attribute-order = [
+                'authored-date',
+                'author-information',
+                'execution-information',
+                'qa-specifications',
+                'outcome_txt',
+                'execution_time_txt',
+                'description',
+                'p',
+                'sql',
+                'results'
+            ]
+
+
+# -- Type mapping of how attribute values should be parsed based on attr name -
+[script.tag-to-type-xref]
+    string = [
+        'name', 'partition-on', 'end-index-at', 'description'
+    ]
+    list = [
+        'compare-patterns', 'ignore-patterns'
+    ]
+    float = [
+        'absolute-tolerance', 'relative-tolerance'
+    ]
+    bool = [
+        'results', 'sql', 'transpose'
+    ]
+
+# -- Named object, generic anchors, and keyword-exceptions for sql parsing ----
+[sql]
+ provided-over-generated = true
+    desc-is-simple = true
+
+    named-objects = [
+        # 'grant' statements
+        "select",
+        "all",
+        "drop",
+
+        # base objects
+        "temp table",
+        "transient table",
+        "table",
+        "view",
+        "schema",
+        "warehouse",
+        "file format",
+
+        # plural bases
+        "tables",
+        "views",
+        "schemas",
+    ]
+
+    [sql.generic-anchors]
+        "select" = "select data"
+        "set" = "set param"
+        "unset" = "unset param"
+        "insert" = "insert into"
+        "delete" = "delete from"
+
+    [sql.keyword-exceptions]
+        "with" = "select"
+
+    [sql.information-schema-exceptions]
+        schema = "schemata"
