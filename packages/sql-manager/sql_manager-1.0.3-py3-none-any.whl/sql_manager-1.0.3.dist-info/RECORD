@@ -1,0 +1,9 @@
+sql_manager/__init__.py,sha256=phKeY3b8Rk09cBq2PW4Gjl7FodIpRim3j_En4u3KCkI,293
+sql_manager/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_manager/core/manager.py,sha256=qKopO03hZiRrBe1z4LveLKHl3CYxMdBXK-ImxsUYbO0,3387
+sql_manager/core/model.py,sha256=zReJ6ml3KYUIJv6cLzxuSYuHJxs31-1BKCcyLCt4at0,1255
+sql_manager/version/version.json,sha256=x8yJ2026y-GE8Mx9dlXTnHhkqWOBo89uJ5ClKYJYZ8s,187
+sql_manager-1.0.3.dist-info/METADATA,sha256=jwbte35YMplZMNTr7sym68DIxAmHmHnyK7qXbzBDAwI,3697
+sql_manager-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sql_manager-1.0.3.dist-info/top_level.txt,sha256=_cp2X-hSY2hu-NkdCz9LT7QPCqOJmFg3g_IjGYavFnE,12
+sql_manager-1.0.3.dist-info/RECORD,,
