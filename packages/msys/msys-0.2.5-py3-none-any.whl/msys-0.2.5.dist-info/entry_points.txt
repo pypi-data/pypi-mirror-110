@@ -1,0 +1,9 @@
+[console_scripts]
+msys = msys.scripts.msys:msys
+
+[msys.modules]
+network = msys.modules.network:NetworkModule
+
+[msys.types]
+file = msys.types.file:FileType
+

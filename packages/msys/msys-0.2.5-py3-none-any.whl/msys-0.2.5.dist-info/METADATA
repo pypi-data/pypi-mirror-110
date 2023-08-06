@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: msys
+Version: 0.2.5
+Summary: UNKNOWN
+Home-page: https://github.com/willi-z/mdd
+Author: WILLI Zschiebsch
+License: BSD-3-Clause
+Project-URL: Source Code, https://github.com/willi-z/msys
+Project-URL: Issue Tracker, https://github.com/willi-z/msys/issues/
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy (~=1.20.2)
+Requires-Dist: pyparsing (~=2.4.7)
+Requires-Dist: setuptools (~=56.0)
+Requires-Dist: fastapi (~=0.65)
+Requires-Dist: uvicorn (~=0.13)
+Requires-Dist: click (~=7.0)
+
+UNKNOWN
+
+
