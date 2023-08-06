@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/example1111111_pkg_bravo1996.egg-info/PKG-INFO
+src/example1111111_pkg_bravo1996.egg-info/SOURCES.txt
+src/example1111111_pkg_bravo1996.egg-info/dependency_links.txt
+src/example1111111_pkg_bravo1996.egg-info/top_level.txt
