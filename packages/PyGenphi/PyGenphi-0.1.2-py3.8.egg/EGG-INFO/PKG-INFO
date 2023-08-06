@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: PyGenphi
+Version: 0.1.2
+Summary: Standard Datasource of Quant Trading
+Home-page: https://github.com/eigenphi/PyGenphi
+Author: David
+Author-email: david@eigenphi.com
+License: MIT
+Description: # PyGenphi
+        Standard Datasource of Quant Trading
+        
+        Example code:
+        
+        ```python
+        from PyGenphi import *
+        import uuid
+        
+        if __name__ == '__main__':
+            data = Client().get(Locator.BINANCE, Category.KLINE_1Min, 
+                                "ETHUSDT", "2017-12-01", "2017-12-10", str(uuid.uuid4()))
+            for line in data:
+                print(line)
+        ```
+        
+        current symbol list:
+        - AAVEUSDT
+        - ADAUSDT
+        - ATOMUSDT
+        - BCHUSDT
+        - BNBUSDT
+        - BTCUSDT
+        - DASHUSDT
+        - DOGEUSDT
+        - DOTUSDT
+        - EOSUSDT
+        - ETCUSDT
+        - ETHUSDT
+        - FILUSDT
+        - LINKUSDT
+        - LTCUSDT
+        - MATICUSDT
+        - NEOUSDT
+        - ONEUSDT
+        - QTUMUSDT
+        - SHIBUSDT
+        - SNXUSDT
+        - SOLUSDT
+        - SUSHIUSDT
+        - TRXUSDT
+        - UNIUSDT
+        - VETUSDT
+        - XLMUSDT
+        - XRPUSDT
+        - YFIUSDT
+        - ZECUSDT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
