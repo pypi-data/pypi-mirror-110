@@ -1,0 +1,15 @@
+codingame/__init__.py,sha256=Qsm-qzOV7nmW_H9wezwYi9jNHiMkvvWe-i_fecasD-4,1248
+codingame/abc.py,sha256=b-zq-LC9CX_Bs4MHSLOv4ycZcUPKYwRysrOjylIiG_8,1345
+codingame/clash_of_code.py,sha256=PllAiqkJVIRULVBf6I4J8bTr29cZ6SANOaL4xV5rYjQ,7769
+codingame/client.py,sha256=BF1ns2j9ND0S0uLeulW0HuX75Ge4TYVq4JszjrL1xHc,11068
+codingame/codingamer.py,sha256=FJDFrE5-QmXcWLTnsqTVZtOFNGBLQS4iLtmoLq3B14A,7034
+codingame/endpoints.py,sha256=yE4VkKYR62FBEaHALYcKRwANLD6MRGAV9EZlGQXvAgA,1304
+codingame/exceptions.py,sha256=weKewqB1MlVlp9aVfxbrq59amQKnzxMYylAsZDKtmN0,606
+codingame/leaderboard.py,sha256=7MOXcCO5KL6tojW2i9dq2f990FT1s_TOJy0sYuK12Cs,11108
+codingame/notification.py,sha256=0DUVst5zYn4qRjve_xl7DCQBdnQHVYGs_PAfDKNQmbU,1823
+codingame/utils.py,sha256=IzkZEL6tEEM33RW5be6KsAWhgAtzKL6dJwPfMyo2LkA,1132
+codingame-0.4.0.dist-info/LICENSE,sha256=Q4DbkjnojW2GqqjjXUqkOXdybV7f0xIwmbNVoAP5oXs,1062
+codingame-0.4.0.dist-info/METADATA,sha256=5hU5zgelQK0t9xZb8LM0mqXxyz7RKEN-UYIU0A9D-Ew,3218
+codingame-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codingame-0.4.0.dist-info/top_level.txt,sha256=4olRCHmozWxYYVxgZ7qxq5Nfocf9xdgkcf9INVzHgVk,10
+codingame-0.4.0.dist-info/RECORD,,
