@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rubrix
+Version: 0.1.1a1
+Summary: UNKNOWN
+Home-page: https://recogn.ai
+Author: recognai
+Author-email: contact@recogn.ai
+Maintainer: recognai
+Maintainer-email: contact@recogn.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: httpx (~=0.15.0)
+Requires-Dist: attrs (~=20.1)
+Requires-Dist: python-dateutil (>=2.8.1)
+Requires-Dist: pandas (<2.0.0,>=1.0.0)
+Requires-Dist: pydantic (>=1.7.1)
+Requires-Dist: starlette (<1.0.0,>=0.13.0)
+Provides-Extra: server
+Requires-Dist: fastapi (~=0.63.0) ; extra == 'server'
+Requires-Dist: uvicorn[standard] (~=0.13.4) ; extra == 'server'
+Requires-Dist: elasticsearch (<8.0.0,>=7.1.0) ; extra == 'server'
+Requires-Dist: smart-open ; extra == 'server'
+Requires-Dist: stopwordsiso (~=0.6.1) ; extra == 'server'
+Requires-Dist: aiofiles (~=0.6.0) ; extra == 'server'
+Requires-Dist: PyYAML (~=5.4.1) ; extra == 'server'
+Requires-Dist: python-multipart (~=0.0.5) ; extra == 'server'
+Requires-Dist: python-jose[cryptography] (~=3.2.0) ; extra == 'server'
+Requires-Dist: passlib[bcrypt] (~=1.7.4) ; extra == 'server'
+Requires-Dist: hurry.filesize ; extra == 'server'
+Requires-Dist: psutil (~=5.8.0) ; extra == 'server'
+
+UNKNOWN
+
