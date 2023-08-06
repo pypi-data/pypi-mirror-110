@@ -1,0 +1,7 @@
+requests
+xmltodict
+url-normalize
+cassandra-driver
+pandas
+simple-salesforce
+boto3
