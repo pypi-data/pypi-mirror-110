@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: psnprofiles_scraper
+Version: 1.3.2
+Summary: Scrape PSNProfiles profile pages using a Python CLI script
+Home-page: https://github.com/robiningelbrecht/psnprofiles-scraper
+Author: Robin Ingelbrecht
+Author-email: ingebrechtrobin@gmail.com
