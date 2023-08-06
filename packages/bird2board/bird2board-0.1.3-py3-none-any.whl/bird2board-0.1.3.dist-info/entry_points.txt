@@ -1,0 +1,3 @@
+[console_scripts]
+bird2board = bird2board.app:convert
+
