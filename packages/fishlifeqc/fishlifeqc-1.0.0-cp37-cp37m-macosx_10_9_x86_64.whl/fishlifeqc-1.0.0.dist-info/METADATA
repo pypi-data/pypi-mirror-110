@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: fishlifeqc
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/Ulises-Rosas/fishlifeqc
+Author: Ulises Rosas
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: boldminer
+Requires-Dist: fishlifetraits (>=0.4.0)
+Requires-Dist: dendropy (==4.4.0)
+
+# fishlifeqc
+
+Features:
+
+- [x] quality control for exon alignments
+
+Software requierements:
+
+* pip
+* git
+
+## Installation
+
+Get the development version:
+
+```Bash
+git clone https://github.com/Ulises-Rosas/fishlifeqc.git && cd fishlifeqc
+python3 -m pip install .
+```
+
+## Usage
+
+Main command:
+```Bash
+fishlifeqc -h
+```
+
+```
+usage: fishlifeqc [-h] {mdata,rblast,bold,tlike,bl,para,srh} ...
+
+                                 Quality Control Steps
+
+
+positional arguments:
+  {mdata,rblast,bold,tlike,bl,para,srh}
+    mdata               Trim sequences in function of gap ocurrences
+    rblast              Reciprocal blastn comparing taxonomical groups
+    bold                Match sequences against the BOLD database
+    tlike               Find T-like clades in trees
+    bl                  Branch length ratios and correlations
+    para                Test paraphyly with AU tests
+    srh                 Test stationarity, reversibility and homogeneity
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+Utilities command:
+```Bash
+qcutil -h
+```
+
+```
+usage: qcutil [-h] {qstats,fstats,itt,rf,delete,knockdown} ...
+
+                                 Utilities from fishlifeqc
+
+
+positional arguments:
+  {qstats,fstats,itt,rf,delete,knockdown}
+    qstats              quick summary of alignment information
+    fstats              full summary of both alignment and tree information
+    itt                 Incongruence through time
+    rf                  Robinson-Foulds distances
+    delete              Delete specific sequences from files
+    knockdown           Replace specific codon positions with gaps
+
+optional arguments:
+  -h, --help            show this help message and exit
+```
+
+Yet unintegrated scripts into `qcutil`:
+
+* `merge.py` : join two set of exons by using a map file
+* `concatenate.py` : concatenate exons
+* `codon_partition.py` : generate a condon partition file
+* `cons_trees.py` : for each exon, constrain a reference tree by exon taxa
+* `collapse.py` : collapse edges in function of support values
+
+
