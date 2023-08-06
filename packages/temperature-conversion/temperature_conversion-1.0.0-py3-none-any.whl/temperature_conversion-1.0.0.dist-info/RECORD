@@ -1,0 +1,7 @@
+LICENSE,sha256=OikKT2isyMOkhG-XldS8bfJn5gFpbWEg6QE9yM77EoM,1071
+temperature_conversion/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+temperature_conversion/convert.py,sha256=kipZWnRpx5dJU7Tn-CghWGZMS6hLWTOzTrB4cUuRXdo,1053
+temperature_conversion-1.0.0.dist-info/LICENSE,sha256=OikKT2isyMOkhG-XldS8bfJn5gFpbWEg6QE9yM77EoM,1071
+temperature_conversion-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+temperature_conversion-1.0.0.dist-info/METADATA,sha256=Ff2GinsHIialX1NZE8Bi0p9zNx-omaOV9Zy2TbxGT4U,1184
+temperature_conversion-1.0.0.dist-info/RECORD,,
