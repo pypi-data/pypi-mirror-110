@@ -1,0 +1,7 @@
+[console_scripts]
+ballet = ballet.cli:cli
+
+[mlblocks]
+pipelines = ballet.mlprimitives:PIPELINES_PATH
+primitives = ballet.mlprimitives:PRIMITIVES_PATH
+
