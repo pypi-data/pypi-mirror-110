@@ -1,0 +1,13 @@
+numpy==1.19.5
+torch==1.7.1
+matplotlib==3.4.2
+pandas==1.2.4
+tqdm==4.60.0
+Unidecode==1.2.0
+click==8.0.1
+fpdf==1.7.2
+pyYaml==5.4.1
+pydantic==1.8.2
+tldextract==3.1.0
+uvicorn==0.14.0
+fastapi==0.65.2
