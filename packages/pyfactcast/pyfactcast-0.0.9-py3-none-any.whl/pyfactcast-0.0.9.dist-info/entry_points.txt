@@ -1,0 +1,3 @@
+[console_scripts]
+factcast=pyfactcast.app.ui.cli:app
+
