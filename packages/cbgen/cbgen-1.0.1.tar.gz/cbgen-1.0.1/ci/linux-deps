@@ -1,0 +1,11 @@
+#!/bin/bash
+
+yum install -y libffi libffi-devel zlib-devel
+yum remove -y cmake
+
+python -m pip install pip --upgrade
+python -m pip install cmake numpy
+
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/horta/zstd.install/main/install)"
+bash -c "$(curl -fsSL https://git.io/JerYI)" -s horta/almosthere
+bash -c "$(curl -fsSL https://git.io/JerYI)" -s limix/bgen
