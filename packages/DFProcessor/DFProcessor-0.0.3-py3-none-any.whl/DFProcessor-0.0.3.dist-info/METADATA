@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: DFProcessor
+Version: 0.0.3
+Summary: Preprocessing tools for pandas dataframe
+Home-page: UNKNOWN
+Author: Benjamín Serra
+Author-email: <benjaserrau@gmail.com>
+License: UNKNOWN
+Keywords: python,preprocessing,pandas,preprocess,dataframe,toolkit
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: spacy
+Requires-Dist: nltk
+Requires-Dist: re
+Requires-Dist: math
+
+
+# README
+
