@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+scigym/__init__.py
+scigym/version.py
+scigym.egg-info/PKG-INFO
+scigym.egg-info/SOURCES.txt
+scigym.egg-info/dependency_links.txt
+scigym.egg-info/not-zip-safe
+scigym.egg-info/requires.txt
+scigym.egg-info/top_level.txt
+scigym/envs/__init__.py
+scigym/envs/tests/__init__.py
+scigym/envs/tests/spec_list.py
+scigym/envs/tests/test_determinism.py
+scigym/envs/tests/test_envs.py

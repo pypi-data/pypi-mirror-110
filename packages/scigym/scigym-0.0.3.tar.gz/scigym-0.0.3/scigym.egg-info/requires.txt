@@ -1,0 +1,11 @@
+gym==0.18.0
+
+[all]
+matplotlib==3.4.2
+
+[entangled_ions]
+
+[teleportation]
+
+[toricgame]
+matplotlib==3.4.2
