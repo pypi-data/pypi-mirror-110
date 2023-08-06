@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        myp=myp.__main__:cli
+    

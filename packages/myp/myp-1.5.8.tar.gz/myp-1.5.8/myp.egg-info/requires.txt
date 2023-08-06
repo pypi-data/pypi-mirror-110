@@ -1,0 +1,6 @@
+PyInquirer
+click
+pipenv
+pipfile
+prettytable
+termcolor2
