@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ameypdf.egg-info/PKG-INFO
+ameypdf.egg-info/SOURCES.txt
+ameypdf.egg-info/dependency_links.txt
+ameypdf.egg-info/top_level.txt
