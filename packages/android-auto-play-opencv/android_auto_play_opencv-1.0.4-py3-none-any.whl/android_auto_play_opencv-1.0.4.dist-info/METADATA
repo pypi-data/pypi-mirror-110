@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: android-auto-play-opencv
+Version: 1.0.4
+Summary: Operate Android using OpenCV.
+Home-page: https://github.com/noitaro/android-auto-play-opencv
+Author: noita
+Author-email: noitalog.tokyo@gmail.com
+License: MIT
+Requires-Dist: opencv-python
+
+# android-auto-play-opencv
+
+
