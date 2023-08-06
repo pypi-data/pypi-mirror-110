@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ReadOutputXml_RobotFramework.egg-info/PKG-INFO
+ReadOutputXml_RobotFramework.egg-info/SOURCES.txt
+ReadOutputXml_RobotFramework.egg-info/dependency_links.txt
+ReadOutputXml_RobotFramework.egg-info/requires.txt
+ReadOutputXml_RobotFramework.egg-info/top_level.txt
+ReaderOutputXmlRobotFramework/AnalyzeErrorLog.py
+ReaderOutputXmlRobotFramework/ReaderRobotFramework.py
+ReaderOutputXmlRobotFramework/__init__.py
+tests/__init__.py
+tests/test_ReadOutputXmlRobotFramework.py
