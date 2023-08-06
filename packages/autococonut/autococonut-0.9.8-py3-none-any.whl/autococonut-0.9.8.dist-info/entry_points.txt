@@ -1,0 +1,4 @@
+[console_scripts]
+autococonut=autococonut.autococonut:main
+autococonut-gui=autococonut.autococonut_gui:main
+
