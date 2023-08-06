@@ -1,0 +1,10 @@
+gjf/__init__.py,sha256=H2L6glHttdxQR3wms2NPPhrTVF8VFHxNEfU-qDMfDc8,96
+gjf/__main__.py,sha256=OQb60dR16dNJ_juTpi29-5I16JWIw4PZ-bjwMgxxSzA,33
+gjf/cli.py,sha256=ZtNzN7Y27J09A_QQns6YimJf_BDFhI6jn8s1Wj4W6_g,2847
+gjf/geojson_fixer.py,sha256=WN-QmGVzQlc0DNj1oEOXYSffgf-92DNy1S2agtDW3zM,4026
+gjf-0.1.1.dist-info/LICENSE,sha256=UQkOQj6BhufVC31kBr2FvjCNe8BRxoroGFMJIZy4gP0,1084
+gjf-0.1.1.dist-info/METADATA,sha256=dOBUrOj4pGW7adWVUP_hffPkVsrufucjiaSC2f2j-ms,3558
+gjf-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gjf-0.1.1.dist-info/entry_points.txt,sha256=jJUxjHWeO-HNY_EozGxNnFrGFIEzQw3g0jjnZy9MTYA,38
+gjf-0.1.1.dist-info/top_level.txt,sha256=iO__ZvzxGfFsKZrRo9zvxF0H5BvE4yPAmBa6fjxoZJs,4
+gjf-0.1.1.dist-info/RECORD,,

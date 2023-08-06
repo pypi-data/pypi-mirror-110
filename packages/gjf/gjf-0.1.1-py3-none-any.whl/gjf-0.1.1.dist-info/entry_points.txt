@@ -1,0 +1,3 @@
+[console_scripts]
+gjf = gjf.cli:main
+
