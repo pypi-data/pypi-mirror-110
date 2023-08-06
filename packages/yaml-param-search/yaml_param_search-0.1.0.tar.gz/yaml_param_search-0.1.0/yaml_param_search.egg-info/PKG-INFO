@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: yaml-param-search
+Version: 0.1.0
+Summary: parameter search
+Home-page: https://github.com/wanghexie/yaml_param_search
+Author: wanghexie
+Author-email: test@test.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
