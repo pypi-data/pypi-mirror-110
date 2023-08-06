@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyqt5-gui-yyj
+Version: 0.1.9
+Summary: A developing pyqt gui, change __init__.py
+Home-page: https://gitee.com/yangyijian1202/PyQt5_GUI
+Author: YangYijian
+Author-email: 2715336141@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+long_description
+
+
