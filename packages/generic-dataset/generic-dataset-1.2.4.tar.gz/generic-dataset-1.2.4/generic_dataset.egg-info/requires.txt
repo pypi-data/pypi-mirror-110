@@ -1,0 +1,9 @@
+opencv-python
+numpy
+termcolor
+stub-generator
+
+[test]
+pytest
+pytest-cov
+opencv-python
