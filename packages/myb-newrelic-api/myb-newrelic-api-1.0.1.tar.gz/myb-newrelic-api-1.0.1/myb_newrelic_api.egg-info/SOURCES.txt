@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+myb_newrelic_api.egg-info/PKG-INFO
+myb_newrelic_api.egg-info/SOURCES.txt
+myb_newrelic_api.egg-info/dependency_links.txt
+myb_newrelic_api.egg-info/not-zip-safe
+myb_newrelic_api.egg-info/requires.txt
+myb_newrelic_api.egg-info/top_level.txt
+newrelic/__init__.py
+newrelic/alerts_channels_client.py
+newrelic/insights_client.py
