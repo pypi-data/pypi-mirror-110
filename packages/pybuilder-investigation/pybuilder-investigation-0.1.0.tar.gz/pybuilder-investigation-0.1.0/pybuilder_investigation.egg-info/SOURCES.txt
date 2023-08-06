@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+pipeline/__init__.py
+pipeline/test.py
+pybuilder_investigation.egg-info/PKG-INFO
+pybuilder_investigation.egg-info/SOURCES.txt
+pybuilder_investigation.egg-info/dependency_links.txt
+pybuilder_investigation.egg-info/namespace_packages.txt
+pybuilder_investigation.egg-info/top_level.txt
+pybuilder_investigation.egg-info/zip-safe
