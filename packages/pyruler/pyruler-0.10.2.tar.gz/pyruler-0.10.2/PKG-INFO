@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyruler
+Version: 0.10.2
+Summary: Simple and powerful rule engine to generate complex data validations on an easy way
+Home-page: https://github.com/danteay/pyruler
+License: MIT
+Keywords: rule,engine,ruler,package
+Author: Eduardo Aguilar
+Author-email: dante.aguilar41@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Documentation, https://github.com/danteay/pyruler/wiki
+Project-URL: Repository, https://github.com/danteay/pyruler
+Description-Content-Type: text/markdown
+
+[![codecov](https://codecov.io/gh/danteay/pyruler/branch/master/graph/badge.svg?token=WZ9QXIJ3Z7)](https://codecov.io/gh/danteay/pyruler)
+
+# Pyruler
+
+Simple and powerful rule engine to generate complex data validations on an easy way.
+
+## Requirements
+
+- Python >= 3.6
+
+### Usage
+
+#### Installation
+
+```bash
+pip3 install pyruler
+```
+
+### Documentation
+
+[Github Wiki](https://github.com/danteay/pyruler/wiki)
+
