@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: soumayan4
+Version: 0.0.2
+Summary: This is a fake news detector trained on different languages and mainly on COVID19 domain
+Home-page: https://github.com/soumayan/fake-news-detection
+Author: Soumayan Bandhu Majumder
+Author-email: soumayanmajumder@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
