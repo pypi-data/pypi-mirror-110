@@ -1,0 +1,2 @@
+rctiplus_rabbitmq_python_sdk
+tests
