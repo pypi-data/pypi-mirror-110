@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: openmc-plotter
+Version: 0.1.1
+Summary: Plotting tool for OpenMC models and tally data
+Home-page: https://github.com/openmc-dev/plotter
+Author: OpenMC Development Team
+Author-email: openmc-users@googlegroups.com
+License: UNKNOWN
+Download-URL: https://github.com/openmc-dev/plotter
+Project-URL: Issue Tracker, https://github.com/openmc-dev/plotter/issues
+Project-URL: Source Code, https://github.com/openmc-dev/plotter
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Provides-Extra: test
+Provides-Extra: vtk
