@@ -1,0 +1,9 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1623931750" />
+    <testcase name="socket_test" classname="basil.utils.sim.Test" file="/faust/user/themperek/git/basil_dev/basil/utils/sim/Test.py" lineno="33" time="3.9450650215148926" sim_time_ns="41785.001" ratio_time="10591.714147199198" />
+    <testcase name="bringup_test" classname="basil.utils.sim.Test" file="/faust/user/themperek/git/basil_dev/basil/utils/sim/Test.py" lineno="120" time="0" sim_time_ns="0" ratio_time="nan">
+      <skipped />
+    </testcase>
+  </testsuite>
+</testsuites>

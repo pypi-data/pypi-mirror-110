@@ -1,0 +1,1972 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Reading design: pixel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "pixel.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "pixel"
+Output Format                      : NGC
+Target Device                      : xc3s1000-5-fg320
+
+---- Source Options
+Top Module Name                    : pixel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../../../../basil/firmware/modules/utils/IDDR_s3.v" in library work
+Compiling verilog file "../../../../basil/firmware/modules/utils/ODDR_s3.v" in library work
+Module <IDDR> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/generic_fifo.v" in library work
+Module <ODDR> compiled
+Compiling verilog include file "../../../../basil/firmware/modules/fast_spi_rx/../includes/log2func.v"
+Compiling verilog file "../../../../basil/firmware/modules/utils/flag_domain_crossing.v" in library work
+Module <gerneric_fifo> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/ddr_des.v" in library work
+Module <flag_domain_crossing> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/cdc_syncfifo.v" in library work
+Module <ddr_des> compiled
+Module <cdc_syncfifo> compiled
+Module <cdc_fifomem> compiled
+Module <rptr_empty> compiled
+Module <wptr_full> compiled
+Module <cdc_sync_r2w> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/cdc_pulse_sync.v" in library work
+Module <cdc_sync_w2r> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/3_stage_synchronizer.v" in library work
+Module <cdc_pulse_sync> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/bus_to_ip.v" in library work
+Module <three_stage_synchronizer> compiled
+Compiling verilog file "../../../../basil/firmware/modules/tdc_s3/tdc_s3_core.v" in library work
+Module <bus_to_ip> compiled
+Compiling verilog file "../../../../basil/firmware/modules/sram_fifo/sram_fifo_core.v" in library work
+Module <tdc_s3_core> compiled
+Compiling verilog file "../../../../basil/firmware/modules/seq_gen/seq_gen_core.v" in library work
+Module <sram_fifo_core> compiled
+Compiling verilog include file "../../../../basil/firmware/modules/fast_spi_rx/../includes/log2func.v"
+Compiling verilog file "../../../../basil/firmware/modules/gpio/gpio_core.v" in library work
+Module <seq_gen_core> compiled
+Compiling verilog file "../../../../basil/firmware/modules/fast_spi_rx/fast_spi_rx_core.v" in library work
+Module <gpio_core> compiled
+Compiling verilog file "../src/clk_gen.v" in library work
+Module <fast_spi_rx_core> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/reset_gen.v" in library work
+Module <clk_gen> compiled
+Compiling verilog file "../../../../basil/firmware/modules/utils/fx2_to_bus.v" in library work
+Module <reset_gen> compiled
+Compiling verilog file "../../../../basil/firmware/modules/tdc_s3/tdc_s3.v" in library work
+Module <fx2_to_bus> compiled
+Compiling verilog file "../../../../basil/firmware/modules/sram_fifo/sram_fifo.v" in library work
+Module <tdc_s3> compiled
+Compiling verilog file "../../../../basil/firmware/modules/seq_gen/seq_gen.v" in library work
+Module <sram_fifo> compiled
+Compiling verilog file "../../../../basil/firmware/modules/rrp_arbiter/rrp_arbiter.v" in library work
+Module <seq_gen> compiled
+Compiling verilog file "../../../../basil/firmware/modules/gpio/gpio.v" in library work
+Module <rrp_arbiter> compiled
+Compiling verilog file "../../../../basil/firmware/modules/fast_spi_rx/fast_spi_rx.v" in library work
+Module <gpio> compiled
+Compiling verilog file "../src/pixel.v" in library work
+Module <fast_spi_rx> compiled
+Module <pixel> compiled
+No errors in compilation
+Analysis of file <"pixel.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <pixel> in library <work> with parameters.
+	FAST_SR_AQ_BASEADDR = "0000000100000000"
+	FAST_SR_AQ_HIGHADDR = "00000000000000000000000100001111"
+	FIFO_BASEADDR = "0000000000100000"
+	FIFO_HIGHADDR = "00000000000000000000000000101111"
+	GPIO_BASEADDR = "0000000000000000"
+	GPIO_HIGHADDR = "0000000000001111"
+	SEQ_GEN_BASEADDR = "0001000000000000"
+	SEQ_GEN_HIGHADDR = "00000000000000000011000000001111"
+	TDC_BASEADDR = "0000001000000000"
+	TDC_HIGHADDR = "00000000000000000000001000001111"
+
+Analyzing hierarchy for module <reset_gen> in library <work> with parameters.
+	CNT = "10000000"
+
+Analyzing hierarchy for module <clk_gen> in library <work>.
+
+Analyzing hierarchy for module <fx2_to_bus> in library <work> with parameters.
+	WIDTH = "00000000000000000000000000010000"
+
+Analyzing hierarchy for module <rrp_arbiter> in library <work> with parameters.
+	WIDTH = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <sram_fifo> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000000000100000"
+	DEPTH = "100000000000000000000"
+	FIFO_ALMOST_EMPTY_THRESHOLD = "00000000000000000000000000000101"
+	FIFO_ALMOST_FULL_THRESHOLD = "00000000000000000000000001011111"
+	HIGHADDR = "00000000000000000000000000101111"
+
+Analyzing hierarchy for module <seq_gen> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0001000000000000"
+	HIGHADDR = "00000000000000000011000000001111"
+	MEM_BYTES = "00000000000000000010000000000000"
+	OUT_BITS = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <ODDR> in library <work>.
+
+Analyzing hierarchy for module <fast_spi_rx> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000000100000000"
+	HIGHADDR = "00000000000000000000000100001111"
+	IDENTIFIER = "0001"
+
+Analyzing hierarchy for module <tdc_s3> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000001000000000"
+	BROADCAST = "00000000000000000000000000000000"
+	CLKDV = "00000000000000000000000000000010"
+	DATA_IDENTIFIER = "0100"
+	FAST_TDC = "00000000000000000000000000000001"
+	FAST_TRIGGER = "00000000000000000000000000000000"
+	HIGHADDR = "00000000000000000000001000001111"
+
+Analyzing hierarchy for module <gpio> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000000000000000"
+	HIGHADDR = "0000000000001111"
+	IO_DIRECTION = "11111111"
+	IO_TRI = "00000000000000000000000000000000"
+	IO_WIDTH = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <bus_to_ip> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000000000100000"
+	DBUSWIDTH = "00000000000000000000000000001000"
+	HIGHADDR = "00000000000000000000000000101111"
+
+Analyzing hierarchy for module <sram_fifo_core> in library <work> with parameters.
+	DEPTH = "100000000000000000000"
+	FIFO_ALMOST_EMPTY_THRESHOLD = "00000000000000000000000000000101"
+	FIFO_ALMOST_FULL_THRESHOLD = "00000000000000000000000001011111"
+	READ_NOP_SRAM = "00000000000000000000000000000010"
+	READ_SRAM = "00000000000000000000000000000000"
+	READ_TRY_SRAM = "00000000000000000000000000000011"
+	VERSION = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <bus_to_ip> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0001000000000000"
+	DBUSWIDTH = "00000000000000000000000000001000"
+	HIGHADDR = "00000000000000000011000000001111"
+
+Analyzing hierarchy for module <seq_gen_core> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	ADDR_SIZEA = "00000000000000000000000000001101"
+	ADDR_SIZEB = "00000000000000000000000000001101"
+	DEF_BIT_OUT = "00000000000000000010000000000000"
+	MEM_BYTES = "00000000000000000010000000000000"
+	OUT_BITS = "00000000000000000000000000001000"
+	VERSION = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <bus_to_ip> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000000100000000"
+	DBUSWIDTH = "00000000000000000000000000001000"
+	HIGHADDR = "00000000000000000000000100001111"
+
+Analyzing hierarchy for module <fast_spi_rx_core> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	IDENTIFIER = "0001"
+	VERSION = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <bus_to_ip> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000001000000000"
+	DBUSWIDTH = "00000000000000000000000000001000"
+	HIGHADDR = "00000000000000000000001000001111"
+
+Analyzing hierarchy for module <tdc_s3_core> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	ARMED = "01"
+	BROADCAST = "00000000000000000000000000000000"
+	CLKDV = "00000000000000000000000000000010"
+	COUNT = "10"
+	DATA_IDENTIFIER = "0100"
+	FAST_TDC = "00000000000000000000000000000001"
+	FAST_TRIGGER = "00000000000000000000000000000000"
+	IDLE = "00"
+	VERSION = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <bus_to_ip> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	BASEADDR = "0000000000000000"
+	DBUSWIDTH = "00000000000000000000000000001000"
+	HIGHADDR = "0000000000001111"
+
+Analyzing hierarchy for module <gpio_core> in library <work> with parameters.
+	ABUSWIDTH = "00000000000000000000000000010000"
+	IO_BYTES = "00000000000000000000000000000001"
+	IO_DIRECTION = "11111111"
+	IO_TRI = "00000000000000000000000000000000"
+	IO_WIDTH = "00000000000000000000000000001000"
+	VERSION = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <gerneric_fifo> in library <work> with parameters.
+	DATA_SIZE = "00000000000000000000000000100000"
+	DEPTH = "00000000000000000000010000000000"
+	POINTER_SIZE = "00000000000000000000000000001010"
+
+Analyzing hierarchy for module <ODDR> in library <work>.
+
+Analyzing hierarchy for module <cdc_pulse_sync> in library <work>.
+
+Analyzing hierarchy for module <cdc_syncfifo> in library <work> with parameters.
+	ASIZE = "00000000000000000000000000000010"
+	DSIZE = "00000000000000000000000000100000"
+
+Analyzing hierarchy for module <flag_domain_crossing> in library <work>.
+
+Analyzing hierarchy for module <three_stage_synchronizer> in library <work> with parameters.
+	WIDTH = "00000000000000000000000000000001"
+
+Analyzing hierarchy for module <gerneric_fifo> in library <work> with parameters.
+	DATA_SIZE = "00000000000000000000000000100000"
+	DEPTH = "00000000000000000000001000000000"
+	POINTER_SIZE = "00000000000000000000000000001001"
+
+Analyzing hierarchy for module <ddr_des> in library <work> with parameters.
+	CLKDV = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <cdc_sync_r2w> in library <work> with parameters.
+	ADDRSIZE = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <cdc_sync_w2r> in library <work> with parameters.
+	ADDRSIZE = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <cdc_fifomem> in library <work> with parameters.
+	ADDRSIZE = "00000000000000000000000000000010"
+	DATASIZE = "00000000000000000000000000100000"
+	DEPTH = "00000000000000000000000000000100"
+
+Analyzing hierarchy for module <rptr_empty> in library <work> with parameters.
+	ADDRSIZE = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <wptr_full> in library <work> with parameters.
+	ADDRSIZE = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <IDDR> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <pixel>.
+	FAST_SR_AQ_BASEADDR = 16'b0000000100000000
+	FAST_SR_AQ_HIGHADDR = 32'b00000000000000000000000100001111
+	FIFO_BASEADDR = 16'b0000000000100000
+	FIFO_HIGHADDR = 32'b00000000000000000000000000101111
+	GPIO_BASEADDR = 16'b0000000000000000
+	GPIO_HIGHADDR = 16'b0000000000001111
+	SEQ_GEN_BASEADDR = 16'b0001000000000000
+	SEQ_GEN_HIGHADDR = 32'b00000000000000000011000000001111
+	TDC_BASEADDR = 16'b0000001000000000
+	TDC_HIGHADDR = 32'b00000000000000000000001000001111
+WARNING:Xst:852 - "../src/pixel.v" line 219: Unconnected input port 'SEQ_EXT_START' of instance 'i_seq_gen' is tied to GND.
+WARNING:Xst:852 - "../src/pixel.v" line 293: Unconnected input port 'FAST_TRIGGER_IN' of instance 'i_tdc' is tied to GND.
+Module <pixel> is correct for synthesis.
+ 
+    Set user-defined property "KEEP =  {TRUE}" for signal <CLK160>.
+    Set user-defined property "KEEP =  {TRUE}" for signal <TDC_WCLK>.
+    Set user-defined property "KEEP =  {TRUE}" for signal <CLK320>.
+    Set user-defined property "KEEP =  {TRUE}" for signal <SPI_CLK>.
+    Set user-defined property "KEEP =  {TRUE}" for signal <BUS_CLK>.
+Analyzing module <reset_gen> in library <work>.
+	CNT = 8'b10000000
+Module <reset_gen> is correct for synthesis.
+ 
+Analyzing module <clk_gen> in library <work>.
+Module <clk_gen> is correct for synthesis.
+ 
+    Set user-defined property "CLKDV_DIVIDE =  4.000000" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLKFX_DIVIDE =  3" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLKFX_MULTIPLY =  5" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLKIN_PERIOD =  20.833000" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "STARTUP_WAIT =  TRUE" for instance <DCM_BUS> in unit <clk_gen>.
+    Set user-defined property "CLKDV_DIVIDE =  16.000000" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "CLKFX_DIVIDE =  4" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "CLKFX_MULTIPLY =  2" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "CLKIN_PERIOD =  12.500000" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "SIM_MODE =  SAFE" for instance <DCM_U2> in unit <clk_gen>.
+    Set user-defined property "STARTUP_WAIT =  TRUE" for instance <DCM_U2> in unit <clk_gen>.
+Analyzing module <fx2_to_bus> in library <work>.
+	WIDTH = 32'sb00000000000000000000000000010000
+Module <fx2_to_bus> is correct for synthesis.
+ 
+Analyzing module <rrp_arbiter> in library <work>.
+	WIDTH = 32'sb00000000000000000000000000000010
+Module <rrp_arbiter> is correct for synthesis.
+ 
+Analyzing module <sram_fifo> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000000000100000
+	DEPTH = 21'b100000000000000000000
+	FIFO_ALMOST_EMPTY_THRESHOLD = 32'sb00000000000000000000000000000101
+	FIFO_ALMOST_FULL_THRESHOLD = 32'sb00000000000000000000000001011111
+	HIGHADDR = 32'b00000000000000000000000000101111
+Module <sram_fifo> is correct for synthesis.
+ 
+Analyzing module <bus_to_ip.1> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000000000100000
+	DBUSWIDTH = 32'sb00000000000000000000000000001000
+	HIGHADDR = 32'b00000000000000000000000000101111
+Module <bus_to_ip.1> is correct for synthesis.
+ 
+Analyzing module <sram_fifo_core> in library <work>.
+	DEPTH = 21'b100000000000000000000
+	FIFO_ALMOST_EMPTY_THRESHOLD = 32'sb00000000000000000000000000000101
+	FIFO_ALMOST_FULL_THRESHOLD = 32'sb00000000000000000000000001011111
+	READ_NOP_SRAM = 32'sb00000000000000000000000000000010
+	READ_SRAM = 32'sb00000000000000000000000000000000
+	READ_TRY_SRAM = 32'sb00000000000000000000000000000011
+	VERSION = 32'sb00000000000000000000000000000010
+Module <sram_fifo_core> is correct for synthesis.
+ 
+Analyzing module <gerneric_fifo.1> in library <work>.
+	DATA_SIZE = 32'sb00000000000000000000000000100000
+	DEPTH = 32'sb00000000000000000000010000000000
+	POINTER_SIZE = 32'sb00000000000000000000000000001010
+Module <gerneric_fifo.1> is correct for synthesis.
+ 
+Analyzing module <seq_gen> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0001000000000000
+	HIGHADDR = 32'b00000000000000000011000000001111
+	MEM_BYTES = 32'sb00000000000000000010000000000000
+	OUT_BITS = 32'sb00000000000000000000000000001000
+Module <seq_gen> is correct for synthesis.
+ 
+Analyzing module <bus_to_ip.2> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0001000000000000
+	DBUSWIDTH = 32'sb00000000000000000000000000001000
+	HIGHADDR = 32'b00000000000000000011000000001111
+Module <bus_to_ip.2> is correct for synthesis.
+ 
+Analyzing module <seq_gen_core> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	ADDR_SIZEA = 32'sb00000000000000000000000000001101
+	ADDR_SIZEB = 32'sb00000000000000000000000000001101
+	DEF_BIT_OUT = 32'sb00000000000000000010000000000000
+	MEM_BYTES = 32'sb00000000000000000010000000000000
+	OUT_BITS = 32'sb00000000000000000000000000001000
+	VERSION = 32'sb00000000000000000000000000000010
+Module <seq_gen_core> is correct for synthesis.
+ 
+Analyzing module <cdc_pulse_sync> in library <work>.
+Module <cdc_pulse_sync> is correct for synthesis.
+ 
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <aq_sync_ff_1>.
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <aq_sync_ff_2>.
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <out_sync_ff_1>.
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <out_sync_ff_2>.
+Analyzing module <ODDR> in library <work>.
+Module <ODDR> is correct for synthesis.
+ 
+Analyzing module <fast_spi_rx> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000000100000000
+	HIGHADDR = 32'b00000000000000000000000100001111
+	IDENTIFIER = 4'b0001
+Module <fast_spi_rx> is correct for synthesis.
+ 
+Analyzing module <bus_to_ip.3> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000000100000000
+	DBUSWIDTH = 32'sb00000000000000000000000000001000
+	HIGHADDR = 32'b00000000000000000000000100001111
+Module <bus_to_ip.3> is correct for synthesis.
+ 
+Analyzing module <fast_spi_rx_core> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	IDENTIFIER = 4'b0001
+	VERSION = 32'sb00000000000000000000000000000000
+Module <fast_spi_rx_core> is correct for synthesis.
+ 
+Analyzing module <cdc_syncfifo> in library <work>.
+	ASIZE = 32'sb00000000000000000000000000000010
+	DSIZE = 32'sb00000000000000000000000000100000
+Module <cdc_syncfifo> is correct for synthesis.
+ 
+Analyzing module <cdc_sync_r2w> in library <work>.
+	ADDRSIZE = 32'sb00000000000000000000000000000010
+Module <cdc_sync_r2w> is correct for synthesis.
+ 
+Analyzing module <cdc_sync_w2r> in library <work>.
+	ADDRSIZE = 32'sb00000000000000000000000000000010
+Module <cdc_sync_w2r> is correct for synthesis.
+ 
+Analyzing module <cdc_fifomem> in library <work>.
+	ADDRSIZE = 32'sb00000000000000000000000000000010
+	DATASIZE = 32'sb00000000000000000000000000100000
+	DEPTH = 32'sb00000000000000000000000000000100
+Module <cdc_fifomem> is correct for synthesis.
+ 
+Analyzing module <rptr_empty> in library <work>.
+	ADDRSIZE = 32'sb00000000000000000000000000000010
+Module <rptr_empty> is correct for synthesis.
+ 
+Analyzing module <wptr_full> in library <work>.
+	ADDRSIZE = 32'sb00000000000000000000000000000010
+Module <wptr_full> is correct for synthesis.
+ 
+Analyzing module <tdc_s3> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000001000000000
+	BROADCAST = 32'sb00000000000000000000000000000000
+	CLKDV = 32'sb00000000000000000000000000000010
+	DATA_IDENTIFIER = 4'b0100
+	FAST_TDC = 32'sb00000000000000000000000000000001
+	FAST_TRIGGER = 32'sb00000000000000000000000000000000
+	HIGHADDR = 32'b00000000000000000000001000001111
+Module <tdc_s3> is correct for synthesis.
+ 
+Analyzing module <bus_to_ip.4> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000001000000000
+	DBUSWIDTH = 32'sb00000000000000000000000000001000
+	HIGHADDR = 32'b00000000000000000000001000001111
+Module <bus_to_ip.4> is correct for synthesis.
+ 
+Analyzing module <tdc_s3_core> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	ARMED = 2'b01
+	BROADCAST = 32'sb00000000000000000000000000000000
+	CLKDV = 32'sb00000000000000000000000000000010
+	COUNT = 2'b10
+	DATA_IDENTIFIER = 4'b0100
+	FAST_TDC = 32'sb00000000000000000000000000000001
+	FAST_TRIGGER = 32'sb00000000000000000000000000000000
+	IDLE = 2'b00
+	VERSION = 32'sb00000000000000000000000000000010
+Module <tdc_s3_core> is correct for synthesis.
+ 
+Analyzing module <flag_domain_crossing> in library <work>.
+Module <flag_domain_crossing> is correct for synthesis.
+ 
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <flag_out_d_ff_1>.
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <flag_out_d_ff_2>.
+Analyzing module <three_stage_synchronizer> in library <work>.
+	WIDTH = 32'sb00000000000000000000000000000001
+Module <three_stage_synchronizer> is correct for synthesis.
+ 
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <out_d_ff_1>.
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <out_d_ff_2>.
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <out_d_ff_3>.
+Analyzing module <gerneric_fifo.2> in library <work>.
+	DATA_SIZE = 32'sb00000000000000000000000000100000
+	DEPTH = 32'sb00000000000000000000001000000000
+	POINTER_SIZE = 32'sb00000000000000000000000000001001
+Module <gerneric_fifo.2> is correct for synthesis.
+ 
+Analyzing module <ddr_des> in library <work>.
+	CLKDV = 32'sb00000000000000000000000000000010
+Module <ddr_des> is correct for synthesis.
+ 
+Analyzing module <IDDR> in library <work>.
+Module <IDDR> is correct for synthesis.
+ 
+Analyzing module <gpio> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000000000000000
+	HIGHADDR = 16'b0000000000001111
+	IO_DIRECTION = 8'b11111111
+	IO_TRI = 32'sb00000000000000000000000000000000
+	IO_WIDTH = 32'sb00000000000000000000000000001000
+Module <gpio> is correct for synthesis.
+ 
+Analyzing module <bus_to_ip.5> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	BASEADDR = 16'b0000000000000000
+	DBUSWIDTH = 32'sb00000000000000000000000000001000
+	HIGHADDR = 16'b0000000000001111
+Module <bus_to_ip.5> is correct for synthesis.
+ 
+Analyzing module <gpio_core> in library <work>.
+	ABUSWIDTH = 32'sb00000000000000000000000000010000
+	IO_BYTES = 32'sb00000000000000000000000000000001
+	IO_DIRECTION = 8'b11111111
+	IO_TRI = 32'sb00000000000000000000000000000000
+	IO_WIDTH = 32'sb00000000000000000000000000001000
+	VERSION = 32'sb00000000000000000000000000000000
+Module <gpio_core> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2561 - Always blocking tristate driving signal <SDA> in unit <pixel> is removed.
+INFO:Xst:2561 - Always blocking tristate driving signal <SCL> in unit <pixel> is removed.
+INFO:Xst:2679 - Register <bi> in unit <gpio_core> has a constant value of 0001 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <reset_gen>.
+    Related source file is "../../../../basil/firmware/modules/utils/reset_gen.v".
+    Found 8-bit down counter for signal <rst_cnt>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <reset_gen> synthesized.
+
+
+Synthesizing Unit <fx2_to_bus>.
+    Related source file is "../../../../basil/firmware/modules/utils/fx2_to_bus.v".
+    Found 16-bit subtractor for signal <BUS_ADD>.
+    Found 1-bit register for signal <RD_B_FF>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <fx2_to_bus> synthesized.
+
+
+Synthesizing Unit <rrp_arbiter>.
+    Related source file is "../../../../basil/firmware/modules/rrp_arbiter/rrp_arbiter.v".
+    Found 1-bit register for signal <hold>.
+    Found 2-bit register for signal <prev_select>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <rrp_arbiter> synthesized.
+
+
+Synthesizing Unit <bus_to_ip_1>.
+    Related source file is "../../../../basil/firmware/modules/utils/bus_to_ip.v".
+    Found 8-bit tristate buffer for signal <BUS_DATA>.
+    Found 16-bit comparator greatequal for signal <CS$cmp_ge0000> created at line 33.
+    Found 16-bit comparator lessequal for signal <CS$cmp_le0000> created at line 33.
+    Found 16-bit subtractor for signal <IP_ADD$addsub0000> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   8 Tristate(s).
+Unit <bus_to_ip_1> synthesized.
+
+
+Synthesizing Unit <gerneric_fifo_1>.
+    Related source file is "../../../../basil/firmware/modules/utils/generic_fifo.v".
+    Found 1024x33-bit dual-port RAM <Mram_mem> for signal <mem>.
+    Found 32-bit register for signal <data_out>.
+    Found 1-bit register for signal <empty>.
+    Found 10-bit addsub for signal <size>.
+    Found 10-bit comparator equal for signal <empty$cmp_eq0001> created at line 83.
+    Found 10-bit comparator equal for signal <empty_loc>.
+    Found 10-bit adder for signal <full$addsub0000> created at line 88.
+    Found 10-bit comparator equal for signal <full$cmp_eq0002> created at line 88.
+    Found 10-bit up counter for signal <rd_pointer>.
+    Found 10-bit adder for signal <rd_tmp$add0000> created at line 61.
+    Found 10-bit adder for signal <size$addsub0000> created at line 102.
+    Found 10-bit comparator greatequal for signal <size$cmp_ge0000> created at line 99.
+    Found 10-bit up counter for signal <wr_pointer>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <gerneric_fifo_1> synthesized.
+
+
+Synthesizing Unit <bus_to_ip_2>.
+    Related source file is "../../../../basil/firmware/modules/utils/bus_to_ip.v".
+    Found 8-bit tristate buffer for signal <BUS_DATA>.
+    Found 16-bit comparator greatequal for signal <CS$cmp_ge0000> created at line 33.
+    Found 16-bit comparator lessequal for signal <CS$cmp_le0000> created at line 33.
+    Found 16-bit subtractor for signal <IP_ADD$addsub0000> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   8 Tristate(s).
+Unit <bus_to_ip_2> synthesized.
+
+
+Synthesizing Unit <cdc_pulse_sync>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_pulse_sync.v".
+    Found 1-bit register for signal <aq_sync_ff_1>.
+    Found 1-bit register for signal <aq_sync_ff_2>.
+    Found 2-bit register for signal <in_pre_sync>.
+    Found 1-bit register for signal <in_sync_pulse>.
+    Found 1-bit register for signal <out_sync_ff_1>.
+    Found 1-bit register for signal <out_sync_ff_2>.
+    Found 1-bit register for signal <out_sync_ff_3>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <cdc_pulse_sync> synthesized.
+
+
+Synthesizing Unit <bus_to_ip_3>.
+    Related source file is "../../../../basil/firmware/modules/utils/bus_to_ip.v".
+    Found 8-bit tristate buffer for signal <BUS_DATA>.
+    Found 16-bit comparator greatequal for signal <CS$cmp_ge0000> created at line 33.
+    Found 16-bit comparator lessequal for signal <CS$cmp_le0000> created at line 33.
+    Found 16-bit subtractor for signal <IP_ADD$addsub0000> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   8 Tristate(s).
+Unit <bus_to_ip_3> synthesized.
+
+
+Synthesizing Unit <cdc_sync_r2w>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_syncfifo.v".
+    Found 3-bit register for signal <wq2_rptr>.
+    Found 3-bit register for signal <cdc_sync_wq1_rptr>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <cdc_sync_r2w> synthesized.
+
+
+Synthesizing Unit <cdc_sync_w2r>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_syncfifo.v".
+    Found 3-bit register for signal <rq2_wptr>.
+    Found 3-bit register for signal <cdc_sync_rq1_wptr>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <cdc_sync_w2r> synthesized.
+
+
+Synthesizing Unit <cdc_fifomem>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_syncfifo.v".
+    Found 4x32-bit dual-port RAM <Mram_cdc_mem> for signal <cdc_mem>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <cdc_fifomem> synthesized.
+
+
+Synthesizing Unit <rptr_empty>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_syncfifo.v".
+    Found 1-bit register for signal <rempty>.
+    Found 3-bit register for signal <rptr>.
+    Found 3-bit register for signal <rbin>.
+    Found 3-bit adder for signal <rbinnext>.
+    Found 3-bit comparator equal for signal <rempty_val>.
+    Found 1-bit xor2 for signal <rgraynext$xor0000> created at line 144.
+    Found 1-bit xor2 for signal <rgraynext$xor0001> created at line 144.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <rptr_empty> synthesized.
+
+
+Synthesizing Unit <wptr_full>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_syncfifo.v".
+    Found 3-bit register for signal <wptr>.
+    Found 1-bit register for signal <wfull>.
+    Found 3-bit register for signal <wbin>.
+    Found 3-bit adder for signal <wbinnext>.
+    Found 3-bit comparator equal for signal <wfull_val>.
+    Found 1-bit xor2 for signal <wgraynext$xor0000> created at line 177.
+    Found 1-bit xor2 for signal <wgraynext$xor0001> created at line 177.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <wptr_full> synthesized.
+
+
+Synthesizing Unit <bus_to_ip_4>.
+    Related source file is "../../../../basil/firmware/modules/utils/bus_to_ip.v".
+    Found 8-bit tristate buffer for signal <BUS_DATA>.
+    Found 16-bit comparator greatequal for signal <CS$cmp_ge0000> created at line 33.
+    Found 16-bit comparator lessequal for signal <CS$cmp_le0000> created at line 33.
+    Found 16-bit subtractor for signal <IP_ADD$addsub0000> created at line 36.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   8 Tristate(s).
+Unit <bus_to_ip_4> synthesized.
+
+
+Synthesizing Unit <flag_domain_crossing>.
+    Related source file is "../../../../basil/firmware/modules/utils/flag_domain_crossing.v".
+    Found 1-bit xor2 for signal <FLAG_OUT_CLK_B>.
+    Found 1-bit register for signal <flag_out_d_ff_1>.
+    Found 1-bit register for signal <flag_out_d_ff_2>.
+    Found 1-bit register for signal <flag_out_d_ff_3>.
+    Found 1-bit register for signal <FLAG_TOGGLE_CLK_A>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <flag_domain_crossing> synthesized.
+
+
+Synthesizing Unit <three_stage_synchronizer>.
+    Related source file is "../../../../basil/firmware/modules/utils/3_stage_synchronizer.v".
+    Found 1-bit register for signal <out_d_ff_1<0>>.
+    Found 1-bit register for signal <out_d_ff_2<0>>.
+    Found 1-bit register for signal <out_d_ff_3<0>>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <three_stage_synchronizer> synthesized.
+
+
+Synthesizing Unit <gerneric_fifo_2>.
+    Related source file is "../../../../basil/firmware/modules/utils/generic_fifo.v".
+    Found 512x33-bit dual-port RAM <Mram_mem> for signal <mem>.
+    Found 32-bit register for signal <data_out>.
+    Found 1-bit register for signal <empty>.
+    Found 9-bit addsub for signal <size>.
+    Found 9-bit comparator equal for signal <empty$cmp_eq0001> created at line 83.
+    Found 9-bit comparator equal for signal <empty_loc>.
+    Found 9-bit adder for signal <full$addsub0000> created at line 88.
+    Found 9-bit comparator equal for signal <full$cmp_eq0002> created at line 88.
+    Found 9-bit up counter for signal <rd_pointer>.
+    Found 9-bit adder for signal <rd_tmp$add0000> created at line 61.
+    Found 9-bit adder for signal <size$addsub0000> created at line 102.
+    Found 9-bit comparator greatequal for signal <size$cmp_ge0000> created at line 99.
+    Found 9-bit up counter for signal <wr_pointer>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Counter(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+Unit <gerneric_fifo_2> synthesized.
+
+
+Synthesizing Unit <bus_to_ip_5>.
+    Related source file is "../../../../basil/firmware/modules/utils/bus_to_ip.v".
+    Found 8-bit tristate buffer for signal <BUS_DATA>.
+    Found 16-bit comparator lessequal for signal <CS>.
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   8 Tristate(s).
+Unit <bus_to_ip_5> synthesized.
+
+
+Synthesizing Unit <gpio_core>.
+    Related source file is "../../../../basil/firmware/modules/gpio/gpio_core.v".
+    Found 8-bit register for signal <BUS_DATA_OUT>.
+    Found 18-bit subtractor for signal <$sub0000> created at line 58.
+    Found 18-bit subtractor for signal <$sub0001> created at line 60.
+    Found 18-bit subtractor for signal <$sub0002> created at line 62.
+    Found 18-bit comparator greatequal for signal <BUS_DATA_OUT$cmp_ge0000> created at line 62.
+    Found 18-bit comparator greatequal for signal <BUS_DATA_OUT$cmp_ge0001> created at line 60.
+    Found 18-bit comparator greatequal for signal <BUS_DATA_OUT$cmp_ge0002> created at line 58.
+    Found 18-bit comparator less for signal <BUS_DATA_OUT$cmp_lt0000> created at line 58.
+    Found 18-bit comparator less for signal <BUS_DATA_OUT$cmp_lt0001> created at line 60.
+    Found 8-bit register for signal <DIRECTION_DATA<0>>.
+    Found 8-bit register for signal <OUTPUT_DATA<0>>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   5 Comparator(s).
+Unit <gpio_core> synthesized.
+
+
+Synthesizing Unit <clk_gen>.
+    Related source file is "../src/clk_gen.v".
+Unit <clk_gen> synthesized.
+
+
+Synthesizing Unit <ODDR>.
+    Related source file is "../../../../basil/firmware/modules/utils/ODDR_s3.v".
+Unit <ODDR> synthesized.
+
+
+Synthesizing Unit <gpio>.
+    Related source file is "../../../../basil/firmware/modules/gpio/gpio.v".
+Unit <gpio> synthesized.
+
+
+Synthesizing Unit <seq_gen_core>.
+    Related source file is "../../../../basil/firmware/modules/seq_gen/seq_gen_core.v".
+WARNING:Xst:1780 - Signal <BUS_OUT_MEM> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <BUS_ADD_MEM<15:13>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 8192x8-bit dual-port RAM <Mram_.mem> for signal <.mem>.
+    Found 8-bit register for signal <SEQ_OUT>.
+    Found 16-bit subtractor for signal <BUS_ADD_MEM>.
+    Found 16-bit comparator less for signal <BUS_DATA_OUT$cmp_lt0000> created at line 150.
+    Found 16-bit comparator less for signal <BUS_DATA_OUT$cmp_lt0001> created at line 152.
+    Found 8-bit register for signal <BUS_DATA_OUT_REG>.
+    Found 16-bit comparator less for signal <BUS_DATA_OUT_REG$cmp_lt0000> created at line 135.
+    Found 8-bit register for signal <BUS_IN_MEM>.
+    Found 8-bit 32-to-1 multiplexer for signal <BUS_STATUS_OUT>.
+    Found 8-bit subtractor for signal <CONF_CLK_DIV>.
+    Found 1-bit register for signal <CONF_DONE>.
+    Found 8-bit up counter for signal <dev_cnt>.
+    Found 1-bit register for signal <DONE>.
+    Found 16-bit comparator greater for signal <DONE$cmp_gt0000> created at line 289.
+    Found 13-bit subtractor for signal <memout_addrb>.
+    Found 16-bit comparator less for signal <memout_addrb$cmp_lt0000> created at line 162.
+    Found 16-bit register for signal <out_bit_cnt>.
+    Found 8-bit comparator not equal for signal <out_bit_cnt$cmp_ne0000> created at line 260.
+    Found 16-bit adder for signal <out_bit_cnt$mux0000>.
+    Found 16-bit register for signal <PREV_BUS_ADD>.
+    Found 16-bit comparator equal for signal <REP_NESTED_START$cmp_eq0000> created at line 246.
+    Found 16-bit comparator less for signal <REP_NESTED_START$cmp_lt0000> created at line 246.
+    Found 16-bit comparator equal for signal <REP_START$cmp_eq0000> created at line 243.
+    Found 8-bit comparator equal for signal <REP_START$cmp_eq0001> created at line 243.
+    Found 16-bit comparator less for signal <REP_START$cmp_lt0000> created at line 243.
+    Found 16-bit up counter for signal <REPEAT_COUNT>.
+    Found 16-bit comparator lessequal for signal <REPEAT_COUNT$cmp_le0000> created at line 274.
+    Found 16-bit up counter for signal <REPEAT_NESTED_COUNT>.
+    Found 8-bit register for signal <SEQ_OUT_MEM>.
+    Found 256-bit register for signal <status_regs>.
+    Found 16-bit adder for signal <STOP_BIT>.
+    Found 16-bit comparator greatequal for signal <WEA$cmp_ge0000> created at line 179.
+    Found 16-bit comparator less for signal <WEA$cmp_lt0000> created at line 179.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <status_regs>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Counter(s).
+	inferred 322 D-type flip-flop(s).
+	inferred   5 Adder/Subtractor(s).
+	inferred  14 Comparator(s).
+	inferred   8 Multiplexer(s).
+Unit <seq_gen_core> synthesized.
+
+
+Synthesizing Unit <cdc_syncfifo>.
+    Related source file is "../../../../basil/firmware/modules/utils/cdc_syncfifo.v".
+Unit <cdc_syncfifo> synthesized.
+
+
+Synthesizing Unit <IDDR>.
+    Related source file is "../../../../basil/firmware/modules/utils/IDDR_s3.v".
+Unit <IDDR> synthesized.
+
+
+Synthesizing Unit <seq_gen>.
+    Related source file is "../../../../basil/firmware/modules/seq_gen/seq_gen.v".
+Unit <seq_gen> synthesized.
+
+
+Synthesizing Unit <sram_fifo_core>.
+    Related source file is "../../../../basil/firmware/modules/sram_fifo/sram_fifo_core.v".
+WARNING:Xst:646 - Signal <status_regs<7:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <status_regs<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CONF_SIZE_BYTE_BUF<7:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 16-bit tristate buffer for signal <SRAM_IO>.
+    Found 1-bit register for signal <FIFO_NEAR_FULL>.
+    Found 8-bit register for signal <BUS_DATA_OUT>.
+    Found 1-bit adder for signal <$add0000> created at line 301.
+    Found 1-bit adder for signal <$add0001> created at line 303.
+    Found 1-bit register for signal <byte_to_read>.
+    Found 8-bit up counter for signal <CONF_READ_ERROR>.
+    Found 21-bit register for signal <CONF_SIZE>.
+    Found 21-bit addsub for signal <CONF_SIZE$addsub0000>.
+    Found 21-bit adder for signal <CONF_SIZE$addsub0001> created at line 289.
+    Found 21-bit subtractor for signal <CONF_SIZE$addsub0002> created at line 285.
+    Found 20-bit comparator greatequal for signal <CONF_SIZE$cmp_ge0000> created at line 283.
+    Found 23-bit adder for signal <CONF_SIZE$sub0000> created at line 289.
+    Found 22-bit register for signal <CONF_SIZE_BYTE_BUF>.
+    Found 20-bit comparator equal for signal <empty>.
+    Found 21-bit comparator greatequal for signal <FIFO_NEAR_FULL$cmp_ge0000> created at line 303.
+    Found 21-bit comparator lessequal for signal <FIFO_NEAR_FULL$cmp_le0000> created at line 301.
+    Found 20-bit comparator equal for signal <full$cmp_eq0001> created at line 266.
+    Found 1-bit register for signal <full_ff>.
+    Found 20-bit adder for signal <full_ff$addsub0000> created at line 274.
+    Found 20-bit comparator equal for signal <full_ff$cmp_eq0001> created at line 272.
+    Found 20-bit comparator equal for signal <full_ff$cmp_eq0003> created at line 274.
+    Found 20-bit adder for signal <next_rd_pointer$addsub0000> created at line 239.
+    Found 20-bit adder for signal <next_wr_pointer$add0000> created at line 254.
+    Found 20-bit register for signal <rd_pointer>.
+    Found 2-bit register for signal <read_state>.
+    Found 2-bit 4-to-1 multiplexer for signal <read_state_next>.
+    Found 16-bit register for signal <sram_data_read>.
+    Found 16-bit register for signal <status_regs<2:1>>.
+    Found 16-bit comparator greatequal for signal <status_regs_1$cmp_ge0000> created at line 74.
+    Found 1-bit register for signal <usb_read_dly>.
+    Found 20-bit register for signal <wr_pointer>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred 129 D-type flip-flop(s).
+	inferred   9 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+	inferred   2 Multiplexer(s).
+	inferred  16 Tristate(s).
+Unit <sram_fifo_core> synthesized.
+
+
+Synthesizing Unit <fast_spi_rx_core>.
+    Related source file is "../../../../basil/firmware/modules/fast_spi_rx/fast_spi_rx_core.v".
+WARNING:Xst:647 - Input <BUS_DATA_IN<7:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <BUS_DATA_OUT>.
+    Found 5-bit up counter for signal <bit_cnt>.
+    Found 1-bit register for signal <CONF_EN>.
+    Found 12-bit up counter for signal <frame_cnt>.
+    Found 8-bit up counter for signal <LOST_DATA_CNT>.
+    Found 1-bit register for signal <SEN_DLY>.
+    Found 16-bit register for signal <spi_data>.
+    Found 8-bit up counter for signal <sync_cnt>.
+    Summary:
+	inferred   4 Counter(s).
+	inferred  26 D-type flip-flop(s).
+Unit <fast_spi_rx_core> synthesized.
+
+
+Synthesizing Unit <ddr_des>.
+    Related source file is "../../../../basil/firmware/modules/utils/ddr_des.v".
+    Found 8-bit register for signal <OUT>.
+    Found 4-bit register for signal <DATA_IN>.
+    Found 8-bit register for signal <DATA_IN_SR>.
+    Found 4-bit register for signal <DDRQ_DATA>.
+    Found 4-bit register for signal <DDRQ_DATA_BUF>.
+    Found 2-bit register for signal <DDRQ_DLY>.
+    Summary:
+	inferred  30 D-type flip-flop(s).
+Unit <ddr_des> synthesized.
+
+
+Synthesizing Unit <sram_fifo>.
+    Related source file is "../../../../basil/firmware/modules/sram_fifo/sram_fifo.v".
+Unit <sram_fifo> synthesized.
+
+
+Synthesizing Unit <fast_spi_rx>.
+    Related source file is "../../../../basil/firmware/modules/fast_spi_rx/fast_spi_rx.v".
+Unit <fast_spi_rx> synthesized.
+
+
+Synthesizing Unit <tdc_s3_core>.
+    Related source file is "../../../../basil/firmware/modules/tdc_s3/tdc_s3_core.v".
+WARNING:Xst:647 - Input <FAST_TRIGGER_IN> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <status_regs<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <TRIG_DES_WFIX<9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <TDC_DES_WFIX<9>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 5                                              |
+    | Clock              | DV_CLK                    (rising_edge)        |
+    | Reset              | RST_DV_CLK                (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <BUS_DATA_OUT>.
+    Found 8-bit register for signal <.TRIG_DES_OUT>.
+    Found 4-bit register for signal <.TRIGGER_DATA_IN>.
+    Found 8-bit register for signal <.TRIGGER_DATA_IN_SR>.
+    Found 4-bit register for signal <.TRIGGER_DDRQ_DATA>.
+    Found 4-bit register for signal <.TRIGGER_DDRQ_DATA_BUF>.
+    Found 2-bit register for signal <.TRIGGER_DDRQ_DLY>.
+    Found 5-bit adder for signal <ALL_ONES_TDC>.
+    Found 5-bit adder for signal <ALL_ONES_TRIG>.
+    Found 1-bit register for signal <ARM_TDC_CLK160_FF>.
+    Found 1-bit register for signal <BUS_RST_FF>.
+    Found 1-bit register for signal <BUS_RST_FF2>.
+    Found 1-bit register for signal <CNT_TRIG>.
+    Found 16-bit register for signal <CURR_TIMESTAMP>.
+    Found 32-bit up counter for signal <EVENT_CNT>.
+    Found 32-bit register for signal <event_cnt_buf>.
+    Found 24-bit register for signal <event_cnt_buf_read>.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk<0>>.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_0$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_1$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_10$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_11$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_12$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_13$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_14$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_15$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_16$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_17$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_18$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_19$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_2$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_20$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_21$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_22$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_23$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_24$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_25$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_26$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_27$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_28$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_29$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_3$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_4$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_5$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_6$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_7$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_8$xor0000> created at line 414.
+    Found 1-bit xor2 for signal <event_cnt_bus_clk_9$xor0000> created at line 414.
+    Found 32-bit register for signal <event_cnt_cdc0>.
+    Found 32-bit register for signal <event_cnt_cdc1>.
+    Found 32-bit register for signal <event_cnt_gray>.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0000> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0001> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0002> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0003> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0004> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0005> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0006> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0007> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0008> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0009> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0010> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0011> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0012> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0013> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0014> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0015> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0016> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0017> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0018> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0019> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0020> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0021> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0022> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0023> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0024> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0025> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0026> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0027> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0028> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0029> created at line 402.
+    Found 1-bit xor2 for signal <event_cnt_gray$xor0030> created at line 402.
+    Found 8-bit up counter for signal <LOST_DATA_CNT>.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk<0>>.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk_0$xor0000> created at line 687.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk_1$xor0000> created at line 687.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk_2$xor0000> created at line 687.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk_3$xor0000> created at line 687.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk_4$xor0000> created at line 687.
+    Found 1-bit xor2 for signal <lost_data_cnt_bus_clk_5$xor0000> created at line 687.
+    Found 8-bit register for signal <lost_data_cnt_cdc0>.
+    Found 8-bit register for signal <lost_data_cnt_cdc1>.
+    Found 8-bit register for signal <lost_data_cnt_gray>.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0000> created at line 675.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0001> created at line 675.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0002> created at line 675.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0003> created at line 675.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0004> created at line 675.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0005> created at line 675.
+    Found 1-bit xor2 for signal <lost_data_cnt_gray$xor0006> created at line 675.
+    Found 5-bit adder for signal <old_ONES_TDC_34$addsub0000> created at line 294.
+    Found 5-bit adder for signal <old_ONES_TDC_37$addsub0000> created at line 294.
+    Found 5-bit adder for signal <old_ONES_TDC_40$addsub0000> created at line 294.
+    Found 5-bit adder for signal <old_ONES_TDC_43$addsub0000> created at line 294.
+    Found 5-bit adder for signal <old_ONES_TDC_46$addsub0000> created at line 294.
+    Found 5-bit adder for signal <old_ONES_TRIG_54$addsub0000> created at line 525.
+    Found 5-bit adder for signal <old_ONES_TRIG_57$addsub0000> created at line 525.
+    Found 5-bit adder for signal <old_ONES_TRIG_60$addsub0000> created at line 525.
+    Found 5-bit adder for signal <old_ONES_TRIG_63$addsub0000> created at line 525.
+    Found 5-bit adder for signal <old_ONES_TRIG_66$addsub0000> created at line 525.
+    Found 5-bit adder for signal <ONES_TDC$addsub0000> created at line 294.
+    Found 5-bit adder for signal <ONES_TRIG$addsub0000> created at line 525.
+    Found 4-bit down counter for signal <rst_cnt>.
+    Found 4-bit down counter for signal <rst_cnt_dv_clk>.
+    Found 1-bit register for signal <RST_LONG>.
+    Found 1-bit register for signal <RST_LONG_DV_CLK>.
+    Found 1-bit register for signal <SOFT_RST_FF>.
+    Found 1-bit register for signal <SOFT_RST_FF2>.
+    Found 8-bit register for signal <status_regs<1>>.
+    Found 16-bit comparator greatequal for signal <status_regs_1$cmp_ge0000> created at line 109.
+    Found 1-bit register for signal <TDC_DES_BUF_0>.
+    Found 5-bit comparator not equal for signal <TDC_ERR$cmp_ne0000> created at line 366.
+    Found 13-bit register for signal <TDC_PRE>.
+    Found 13-bit adder for signal <TDC_VAL$add0000> created at line 390.
+    Found 12-bit adder for signal <TDC_VAL$addsub0000> created at line 390.
+    Found 13-bit comparator greater for signal <TDC_VAL$cmp_gt0000> created at line 390.
+    Found 7-bit subtractor for signal <TRIG_CNT$sub0000> created at line 562.
+    Found 7-bit adder for signal <TRIG_CNT$sub0001> created at line 566.
+    Found 1-bit register for signal <TRIG_DES_BUF_0>.
+    Found 9-bit register for signal <TRIG_DIST>.
+    Found 9-bit adder for signal <TRIG_DIST$addsub0001> created at line 589.
+    Found 9-bit adder carry out for signal <TRIG_DIST$addsub0002> created at line 586.
+    Found 10-bit comparator greater for signal <TRIG_DIST$cmp_gt0000> created at line 586.
+    Found 5-bit comparator greater for signal <TRIG_ERR$cmp_gt0000> created at line 543.
+    Found 5-bit comparator not equal for signal <TRIG_ERR$cmp_ne0000> created at line 543.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   4 Counter(s).
+	inferred 270 D-type flip-flop(s).
+	inferred  32 Adder/Subtractor(s).
+	inferred   6 Comparator(s).
+Unit <tdc_s3_core> synthesized.
+
+
+Synthesizing Unit <tdc_s3>.
+    Related source file is "../../../../basil/firmware/modules/tdc_s3/tdc_s3.v".
+Unit <tdc_s3> synthesized.
+
+
+Synthesizing Unit <pixel>.
+    Related source file is "../src/pixel.v".
+WARNING:Xst:647 - Input <LEMO_RX<2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <LEMO_RX<0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <RJ45_TRIGGER> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2565 - Inout <SDA> is never assigned.
+WARNING:Xst:2565 - Inout <SCL> is never assigned.
+WARNING:Xst:647 - Input <RJ45_RESET> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <FMODE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <TLU_FIFO_READ> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <TLU_FIFO_PEEMPT_REQ> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <TLU_FIFO_EMPTY> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <TLU_FIFO_DATA> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <CLK_LOCKED> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <pixel> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 6
+ 1024x33-bit dual-port RAM                             : 2
+ 4x32-bit dual-port RAM                                : 2
+ 512x33-bit dual-port RAM                              : 1
+ 8192x8-bit dual-port RAM                              : 1
+# Adders/Subtractors                                   : 70
+ 1-bit adder                                           : 2
+ 10-bit adder                                          : 6
+ 10-bit addsub                                         : 2
+ 12-bit adder                                          : 1
+ 13-bit adder                                          : 1
+ 13-bit subtractor                                     : 1
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 6
+ 18-bit subtractor                                     : 3
+ 20-bit adder                                          : 3
+ 21-bit adder                                          : 1
+ 21-bit addsub                                         : 1
+ 21-bit subtractor                                     : 1
+ 23-bit adder                                          : 1
+ 3-bit adder                                           : 4
+ 5-bit adder                                           : 26
+ 7-bit adder                                           : 1
+ 7-bit subtractor                                      : 1
+ 8-bit subtractor                                      : 1
+ 9-bit adder                                           : 4
+ 9-bit adder carry out                                 : 1
+ 9-bit addsub                                          : 1
+# Counters                                             : 19
+ 10-bit up counter                                     : 4
+ 12-bit up counter                                     : 1
+ 16-bit up counter                                     : 2
+ 32-bit up counter                                     : 1
+ 4-bit down counter                                    : 2
+ 5-bit up counter                                      : 1
+ 8-bit down counter                                    : 1
+ 8-bit up counter                                      : 5
+ 9-bit up counter                                      : 2
+# Registers                                            : 196
+ 1-bit register                                        : 99
+ 13-bit register                                       : 1
+ 16-bit register                                       : 5
+ 2-bit register                                        : 4
+ 20-bit register                                       : 2
+ 21-bit register                                       : 1
+ 22-bit register                                       : 1
+ 24-bit register                                       : 1
+ 3-bit register                                        : 16
+ 32-bit register                                       : 7
+ 4-bit register                                        : 6
+ 8-bit register                                        : 52
+ 9-bit register                                        : 1
+# Comparators                                          : 58
+ 10-bit comparator equal                               : 6
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator greater                             : 1
+ 13-bit comparator greater                             : 1
+ 16-bit comparator equal                               : 2
+ 16-bit comparator greatequal                          : 7
+ 16-bit comparator greater                             : 1
+ 16-bit comparator less                                : 7
+ 16-bit comparator lessequal                           : 6
+ 18-bit comparator greatequal                          : 3
+ 18-bit comparator less                                : 2
+ 20-bit comparator equal                               : 4
+ 20-bit comparator greatequal                          : 1
+ 21-bit comparator greatequal                          : 1
+ 21-bit comparator lessequal                           : 1
+ 3-bit comparator equal                                : 4
+ 5-bit comparator greater                              : 1
+ 5-bit comparator not equal                            : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator not equal                            : 1
+ 9-bit comparator equal                                : 3
+ 9-bit comparator greatequal                           : 1
+# Multiplexers                                         : 2
+ 2-bit 4-to-1 multiplexer                              : 1
+ 8-bit 32-to-1 multiplexer                             : 1
+# Tristates                                            : 6
+ 16-bit tristate buffer                                : 1
+ 8-bit tristate buffer                                 : 5
+# Xors                                                 : 86
+ 1-bit xor2                                            : 86
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <i_tdc/i_tdc_s3_core/state/FSM> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+INFO:Xst:2261 - The FF/Latch <rbin_2> in Unit <rptr_empty_inst> is equivalent to the following FF/Latch, which will be removed : <rptr_2> 
+INFO:Xst:2261 - The FF/Latch <wbin_2> in Unit <wptr_full_inst> is equivalent to the following FF/Latch, which will be removed : <wptr_2> 
+INFO:Xst:2261 - The FF/Latch <rbin_2> in Unit <rptr_empty_inst> is equivalent to the following FF/Latch, which will be removed : <rptr_2> 
+INFO:Xst:2261 - The FF/Latch <wbin_2> in Unit <wptr_full_inst> is equivalent to the following FF/Latch, which will be removed : <wptr_2> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DLY_0> in Unit <.iddr_des_tdc> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_0> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DLY_1> in Unit <.iddr_des_tdc> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_1> 
+INFO:Xst:2261 - The FF/Latch <CURR_TIMESTAMP_0> in Unit <i_tdc_s3_core> is equivalent to the following 15 FFs/Latches, which will be removed : <CURR_TIMESTAMP_1> <CURR_TIMESTAMP_2> <CURR_TIMESTAMP_3> <CURR_TIMESTAMP_4> <CURR_TIMESTAMP_5> <CURR_TIMESTAMP_6> <CURR_TIMESTAMP_7> <CURR_TIMESTAMP_8> <CURR_TIMESTAMP_9> <CURR_TIMESTAMP_10> <CURR_TIMESTAMP_11> <CURR_TIMESTAMP_12> <CURR_TIMESTAMP_13> <CURR_TIMESTAMP_14> <CURR_TIMESTAMP_15> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DDRQ_DLY_0> in Unit <i_tdc_s3_core> is equivalent to the following 3 FFs/Latches, which will be removed : <.TRIGGER_DDRQ_DLY_1> <.TRIGGER_DDRQ_DATA_0> <.TRIGGER_DDRQ_DATA_1> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DATA_2> in Unit <.iddr_des_tdc> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_BUF_0> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DATA_3> in Unit <.iddr_des_tdc> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_BUF_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DDRQ_DATA_2> in Unit <i_tdc_s3_core> is equivalent to the following 3 FFs/Latches, which will be removed : <.TRIGGER_DDRQ_DATA_3> <.TRIGGER_DDRQ_DATA_BUF_0> <.TRIGGER_DDRQ_DATA_BUF_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_0> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DDRQ_DATA_BUF_2> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DDRQ_DATA_BUF_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_0> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_2> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_0> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_4> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_5> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_4> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_5> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_2> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_2> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_6> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_7> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_6> in Unit <i_tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_7> 
+WARNING:Xst:1710 - FF/Latch <in_pre_sync_0> (without init value) has a constant value of 0 in block <ext_start_pulse_sync>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <in_sync_pulse> has a constant value of 0 in block <ext_start_pulse_sync>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CURR_TIMESTAMP_0> (without init value) has a constant value of 0 in block <i_tdc_s3_core>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <in_pre_sync_1> (without init value) has a constant value of 0 in block <ext_start_pulse_sync>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <data_out_varindex0000_32> of sequential type is unconnected in block <i_buf_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_0> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_1> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_2> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_3> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_4> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_5> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_6> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_7> of sequential type is unconnected in block <i_sram_fifo>.
+WARNING:Xst:2677 - Node <data_out_varindex0000_32> of sequential type is unconnected in block <fifo_i>.
+WARNING:Xst:2677 - Node <data_out_varindex0000_32> of sequential type is unconnected in block <fifo_i>.
+WARNING:Xst:2404 -  FFs/Latches <CURR_TIMESTAMP<15:0>> (without init value) have a constant value of 0 in block <tdc_s3_core>.
+
+Synthesizing (advanced) Unit <cdc_fifomem>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_cdc_mem> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 32-bit                     |          |
+    |     clkA           | connected to signal <wclk>          | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <waddr>         |          |
+    |     diA            | connected to signal <wdata>         |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 4-word x 32-bit                     |          |
+    |     addrB          | connected to signal <raddr>         |          |
+    |     doB            | connected to signal <rdata>         |          |
+    -----------------------------------------------------------------------
+Unit <cdc_fifomem> synthesized (advanced).
+
+Synthesizing (advanced) Unit <gerneric_fifo_1>.
+INFO:Xst:3226 - The RAM <Mram_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <data_out_varindex0000>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1024-word x 33-bit                  |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <wr_pointer>    |          |
+    |     diA            | connected to signal <data_in>       |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 1024-word x 33-bit                  |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <rd_tmp>        |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <gerneric_fifo_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <gerneric_fifo_2>.
+INFO:Xst:3226 - The RAM <Mram_mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <data_out_varindex0000>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 512-word x 33-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <wr_pointer>    |          |
+    |     diA            | connected to signal <data_in>       |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 512-word x 33-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <clk>           | rise     |
+    |     addrB          | connected to signal <rd_tmp>        |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <gerneric_fifo_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rptr_empty>.
+The following registers are absorbed into accumulator <rbin>: 1 register on signal <rbin>.
+Unit <rptr_empty> synthesized (advanced).
+
+Synthesizing (advanced) Unit <seq_gen_core>.
+INFO:Xst:3226 - The RAM <Mram_.mem> will be implemented as a BLOCK RAM, absorbing the following register(s): <BUS_IN_MEM> <SEQ_OUT_MEM>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8192-word x 8-bit                   |          |
+    |     mode           | read-first                          |          |
+    |     clkA           | connected to signal <BUS_CLK>       | rise     |
+    |     weA            | connected to signal <WEA>           | high     |
+    |     addrA          | connected to signal <BUS_ADD_MEM>   |          |
+    |     diA            | connected to signal <BUS_DATA_IN>   |          |
+    |     doA            | connected to signal <BUS_IN_MEM>    |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8192-word x 8-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkB           | connected to signal <SEQ_CLK>       | rise     |
+    |     addrB          | connected to signal <memout_addrb>  |          |
+    |     doB            | connected to signal <SEQ_OUT_MEM>   |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <seq_gen_core> synthesized (advanced).
+
+Synthesizing (advanced) Unit <wptr_full>.
+The following registers are absorbed into accumulator <wbin>: 1 register on signal <wbin>.
+Unit <wptr_full> synthesized (advanced).
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_0> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_1> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_2> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_3> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_4> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_5> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_6> of sequential type is unconnected in block <sram_fifo_core>.
+WARNING:Xst:2677 - Node <CONF_SIZE_BYTE_BUF_7> of sequential type is unconnected in block <sram_fifo_core>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 6
+ 1024x33-bit dual-port block RAM                       : 2
+ 4x32-bit dual-port distributed RAM                    : 2
+ 512x33-bit dual-port block RAM                        : 1
+ 8192x8-bit dual-port block RAM                        : 1
+# Adders/Subtractors                                   : 70
+ 1-bit adder                                           : 2
+ 10-bit adder                                          : 6
+ 10-bit addsub                                         : 2
+ 12-bit adder                                          : 1
+ 13-bit adder                                          : 1
+ 13-bit subtractor                                     : 2
+ 16-bit adder                                          : 2
+ 16-bit subtractor                                     : 5
+ 18-bit subtractor                                     : 3
+ 20-bit adder                                          : 3
+ 21-bit adder                                          : 2
+ 21-bit addsub                                         : 1
+ 21-bit subtractor                                     : 1
+ 3-bit adder                                           : 4
+ 5-bit adder                                           : 26
+ 7-bit adder                                           : 1
+ 7-bit subtractor                                      : 1
+ 8-bit subtractor                                      : 1
+ 9-bit adder                                           : 4
+ 9-bit adder carry out                                 : 1
+ 9-bit addsub                                          : 1
+# Counters                                             : 19
+ 10-bit up counter                                     : 4
+ 12-bit up counter                                     : 1
+ 16-bit up counter                                     : 2
+ 32-bit up counter                                     : 1
+ 4-bit down counter                                    : 2
+ 5-bit up counter                                      : 1
+ 8-bit down counter                                    : 1
+ 8-bit up counter                                      : 5
+ 9-bit up counter                                      : 2
+# Accumulators                                         : 4
+ 3-bit up accumulator                                  : 4
+# Registers                                            : 880
+ Flip-Flops                                            : 880
+# Comparators                                          : 58
+ 10-bit comparator equal                               : 6
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator greater                             : 1
+ 13-bit comparator greater                             : 1
+ 16-bit comparator equal                               : 2
+ 16-bit comparator greatequal                          : 7
+ 16-bit comparator greater                             : 1
+ 16-bit comparator less                                : 7
+ 16-bit comparator lessequal                           : 6
+ 18-bit comparator greatequal                          : 3
+ 18-bit comparator less                                : 2
+ 20-bit comparator equal                               : 4
+ 20-bit comparator greatequal                          : 1
+ 21-bit comparator greatequal                          : 1
+ 21-bit comparator lessequal                           : 1
+ 3-bit comparator equal                                : 4
+ 5-bit comparator greater                              : 1
+ 5-bit comparator not equal                            : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator not equal                            : 1
+ 9-bit comparator equal                                : 3
+ 9-bit comparator greatequal                           : 1
+# Multiplexers                                         : 9
+ 1-bit 32-to-1 multiplexer                             : 8
+ 2-bit 4-to-1 multiplexer                              : 1
+# Xors                                                 : 86
+ 1-bit xor2                                            : 86
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <DDRQ_DLY_0> in Unit <ddr_des> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_0> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DLY_1> in Unit <ddr_des> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_1> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DATA_2> in Unit <ddr_des> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_BUF_0> 
+INFO:Xst:2261 - The FF/Latch <DDRQ_DATA_3> in Unit <ddr_des> is equivalent to the following FF/Latch, which will be removed : <DDRQ_DATA_BUF_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DDRQ_DLY_0> in Unit <tdc_s3_core> is equivalent to the following 3 FFs/Latches, which will be removed : <.TRIGGER_DDRQ_DLY_1> <.TRIGGER_DDRQ_DATA_0> <.TRIGGER_DDRQ_DATA_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DDRQ_DATA_2> in Unit <tdc_s3_core> is equivalent to the following 3 FFs/Latches, which will be removed : <.TRIGGER_DDRQ_DATA_3> <.TRIGGER_DDRQ_DATA_BUF_0> <.TRIGGER_DDRQ_DATA_BUF_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_0> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DDRQ_DATA_BUF_2> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DDRQ_DATA_BUF_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_0> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_2> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_0> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_1> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_4> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_5> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_4> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_5> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_2> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_2> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_3> 
+INFO:Xst:2261 - The FF/Latch <.TRIGGER_DATA_IN_SR_6> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIGGER_DATA_IN_SR_7> 
+INFO:Xst:2261 - The FF/Latch <.TRIG_DES_OUT_6> in Unit <tdc_s3_core> is equivalent to the following FF/Latch, which will be removed : <.TRIG_DES_OUT_7> 
+WARNING:Xst:2677 - Node <PREV_BUS_ADD_0> of sequential type is unconnected in block <seq_gen_core>.
+WARNING:Xst:2677 - Node <PREV_BUS_ADD_1> of sequential type is unconnected in block <seq_gen_core>.
+WARNING:Xst:2677 - Node <PREV_BUS_ADD_2> of sequential type is unconnected in block <seq_gen_core>.
+WARNING:Xst:2677 - Node <PREV_BUS_ADD_3> of sequential type is unconnected in block <seq_gen_core>.
+WARNING:Xst:2677 - Node <PREV_BUS_ADD_4> of sequential type is unconnected in block <seq_gen_core>.
+WARNING:Xst:1293 - FF/Latch <TDC_PRE_12> has a constant value of 0 in block <tdc_s3_core>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <rptr_2> in Unit <rptr_empty> is equivalent to the following FF/Latch, which will be removed : <rbin_2> 
+INFO:Xst:2261 - The FF/Latch <wptr_2> in Unit <wptr_full> is equivalent to the following FF/Latch, which will be removed : <wbin_2> 
+WARNING:Xst:2040 - Unit pixel: 8 multi-source signals are replaced by logic (pull-up yes): BUS_DATA<0>_MLTSRCEDGE, BUS_DATA<1>_MLTSRCEDGE, BUS_DATA<2>_MLTSRCEDGE, BUS_DATA<3>_MLTSRCEDGE, BUS_DATA<4>_MLTSRCEDGE, BUS_DATA<5>_MLTSRCEDGE, BUS_DATA<6>_MLTSRCEDGE, BUS_DATA<7>_MLTSRCEDGE.
+
+Optimizing unit <pixel> ...
+
+Optimizing unit <rrp_arbiter> ...
+
+Optimizing unit <gerneric_fifo_1> ...
+
+Optimizing unit <cdc_pulse_sync> ...
+
+Optimizing unit <rptr_empty> ...
+
+Optimizing unit <wptr_full> ...
+
+Optimizing unit <gerneric_fifo_2> ...
+
+Optimizing unit <gpio_core> ...
+
+Optimizing unit <clk_gen> ...
+
+Optimizing unit <seq_gen_core> ...
+
+Optimizing unit <ddr_des> ...
+
+Optimizing unit <fast_spi_rx_core> ...
+
+Optimizing unit <tdc_s3_core> ...
+WARNING:Xst:1303 - From in and out of unit i_out_fifo/i_sram_fifo/i_buf_fifo, both signals clk and BUS_CLK have a KEEP attribute, signal clk will be lost.
+WARNING:Xst:1303 - From in and out of unit i_seq_gen/i_seq_gen_core, both signals SEQ_CLK and SPI_CLK have a KEEP attribute, signal SEQ_CLK will be lost.
+WARNING:Xst:1303 - From in and out of unit i_seq_gen/i_seq_gen_core, both signals BUS_CLK and BUS_CLK have a KEEP attribute, signal BUS_CLK will be lost.
+WARNING:Xst:1710 - FF/Latch <i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/in_pre_sync_0> (without init value) has a constant value of 0 in block <pixel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/in_sync_pulse> has a constant value of 0 in block <pixel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/in_pre_sync_1> (without init value) has a constant value of 0 in block <pixel>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2399 - RAMs <i_pixel_sr_fast_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem31>, <i_pixel_sr_fast_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem30> are equivalent, second RAM is removed
+INFO:Xst:2399 - RAMs <i_pixel_sr_fast_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem31>, <i_pixel_sr_fast_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem32> are equivalent, second RAM is removed
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block pixel, actual ratio is 15.
+FlipFlop i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_3 has been replicated 1 time(s)
+FlipFlop i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_4 has been replicated 1 time(s)
+FlipFlop i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_5 has been replicated 1 time(s)
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_3 has been replicated 2 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_2 has been replicated 2 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_4 has been replicated 3 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_0 has been replicated 2 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_5 has been replicated 3 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_1 has been replicated 3 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_7 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop i_seq_gen/i_seq_gen_core/SEQ_OUT_6 has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+Processing Unit <pixel> :
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.iddr_des_tdc/DDRQ_DATA_2>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.iddr_des_tdc/DDRQ_DATA_3>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.iddr_des_tdc/DATA_IN_SR_0>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.iddr_des_tdc/DATA_IN_SR_1>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.iddr_des_tdc/DATA_IN_SR_2>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.iddr_des_tdc/DATA_IN_SR_3>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_7>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_6>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_5>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_4>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_3>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_2>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_1>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/lost_data_cnt_cdc1_0>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_31>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_30>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_29>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_28>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_27>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_26>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_25>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_24>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_23>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_22>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_21>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_20>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_19>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_18>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_17>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_16>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_15>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_14>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_13>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_12>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_11>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_10>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_9>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_8>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_7>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_6>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_5>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_4>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_3>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_2>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_1>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/event_cnt_cdc1_0>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.TRIGGER_DATA_IN_SR_2>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.TRIGGER_DATA_IN_SR_0>.
+	Found 2-bit shift register for signal <i_tdc/i_tdc_s3_core/.TRIGGER_DDRQ_DATA_2>.
+Unit <pixel> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 977
+ Flip-Flops                                            : 977
+# Shift Registers                                      : 49
+ 2-bit shift register                                  : 49
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : pixel.ngr
+Top Level Output File Name         : pixel
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 124
+
+Cell Usage :
+# BELS                             : 3511
+#      GND                         : 10
+#      INV                         : 58
+#      LUT1                        : 225
+#      LUT2                        : 391
+#      LUT2_D                      : 5
+#      LUT2_L                      : 2
+#      LUT3                        : 298
+#      LUT3_D                      : 9
+#      LUT3_L                      : 10
+#      LUT4                        : 1049
+#      LUT4_D                      : 46
+#      LUT4_L                      : 22
+#      MUXCY                       : 717
+#      MUXF5                       : 146
+#      MUXF6                       : 32
+#      MUXF7                       : 16
+#      MUXF8                       : 8
+#      VCC                         : 1
+#      XORCY                       : 466
+# FlipFlops/Latches                : 1030
+#      FD                          : 244
+#      FDE                         : 227
+#      FDR                         : 70
+#      FDRE                        : 442
+#      FDRSE                       : 2
+#      FDS                         : 7
+#      FDSE                        : 34
+#      IFDDRRSE                    : 1
+#      OFDDRRSE                    : 3
+# RAMS                             : 71
+#      RAM16X1D                    : 62
+#      RAMB16                      : 9
+# Shift Registers                  : 49
+#      SRL16                       : 49
+# Clock Buffers                    : 7
+#      BUFG                        : 7
+# IO Buffers                       : 113
+#      IBUF                        : 22
+#      IBUFG                       : 1
+#      IOBUF                       : 24
+#      OBUF                        : 66
+# DCMs                             : 2
+#      DCM                         : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1000fg320-5 
+
+ Number of Slices:                     1196  out of   7680    15%  
+ Number of Slice Flip Flops:            991  out of  15360     6%  
+ Number of 4 input LUTs:               2288  out of  15360    14%  
+    Number used as logic:              2115
+    Number used as Shift registers:      49
+    Number used as RAMs:                124
+ Number of IOs:                         124
+ Number of bonded IOBs:                 117  out of    221    52%  
+    IOB Flip Flops:                      39
+ Number of BRAMs:                         9  out of     24    37%  
+ Number of GCLKs:                         7  out of      8    87%  
+ Number of DCMs:                          2  out of      4    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                       | Load  |
+-----------------------------------+---------------------------------------------+-------+
+FCLK_IN                            | i_clkgen/DCM_BUS:CLK0                       | 737   |
+FCLK_IN                            | i_clkgen/DCM_BUS:CLKDV                      | 190   |
+FCLK_IN                            | i_clkgen/DCM_BUS:CLKFX+i_clkgen/DCM_U2:CLKFX| 11    |
+FCLK_IN                            | i_clkgen/DCM_BUS:CLKFX+i_clkgen/DCM_U2:CLK2X| 23    |
+FCLK_IN                            | i_clkgen/DCM_BUS:CLKFX+i_clkgen/DCM_U2:CLK0 | 197   |
+-----------------------------------+---------------------------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 27.205ns (Maximum Frequency: 36.758MHz)
+   Minimum input arrival time before clock: 17.493ns
+   Maximum output required time after clock: 11.557ns
+   Maximum combinational path delay: 15.408ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FCLK_IN'
+  Clock period: 27.205ns (frequency: 36.758MHz)
+  Total number of paths / destination ports: 749017 / 2402
+-------------------------------------------------------------------------
+Delay:               16.323ns (Levels of Logic = 13)
+  Source:            i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_2 (FF)
+  Destination:       i_tdc/i_tdc_s3_core/TRIG_DIST_7 (FF)
+  Source Clock:      FCLK_IN rising 1.7X
+  Destination Clock: FCLK_IN rising 1.7X
+
+  Data Path: i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_2 to i_tdc/i_tdc_s3_core/TRIG_DIST_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              10   0.626   1.134  i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_2 (i_tdc/i_tdc_s3_core/.iddr_des_tdc/OUT_2)
+     LUT4_D:I1->O         14   0.479   1.068  i_tdc/i_tdc_s3_core/_old_FOUND_TDC_EDGE_331_SW1 (N299)
+     LUT3:I2->O           10   0.479   0.987  i_tdc/i_tdc_s3_core/_old_FOUND_TDC_EDGE_331 (i_tdc/i_tdc_s3_core/_old_FOUND_TDC_EDGE_33)
+     LUT4_D:I3->O          2   0.479   0.768  i_tdc/i_tdc_s3_core/LENGTH_TDC_and00021 (i_tdc/i_tdc_s3_core/LENGTH_TDC_and0002)
+     LUT4:I3->O            3   0.479   0.794  i_tdc/i_tdc_s3_core/LENGTH_TDC<0>_SW0 (N173)
+     LUT4_D:I3->O          7   0.479   0.929  i_tdc/i_tdc_s3_core/LENGTH_TDC<0> (i_tdc/i_tdc_s3_core/LENGTH_TDC<0>)
+     LUT4:I3->O            1   0.479   0.000  i_tdc/i_tdc_s3_core/TRIG_CNT<4>15_G (N591)
+     MUXF5:I1->O          11   0.314   0.995  i_tdc/i_tdc_s3_core/TRIG_CNT<4>15 (i_tdc/i_tdc_s3_core/TRIG_CNT<3>55)
+     LUT4:I3->O            1   0.479   0.000  i_tdc/i_tdc_s3_core/Madd_TRIG_DIST_addsub0002_lut<3> (i_tdc/i_tdc_s3_core/Madd_TRIG_DIST_addsub0002_lut<3>)
+     MUXCY:S->O            1   0.435   0.000  i_tdc/i_tdc_s3_core/Madd_TRIG_DIST_addsub0002_cy<3> (i_tdc/i_tdc_s3_core/Madd_TRIG_DIST_addsub0002_cy<3>)
+     XORCY:CI->O           2   0.786   0.915  i_tdc/i_tdc_s3_core/Madd_TRIG_DIST_addsub0002_xor<4> (i_tdc/i_tdc_s3_core/TRIG_DIST_addsub0002<4>)
+     LUT4:I1->O            4   0.479   0.802  i_tdc/i_tdc_s3_core/TRIG_DIST_cmp_gt0000211_SW0 (N530)
+     LUT4_D:I3->O          4   0.479   0.802  i_tdc/i_tdc_s3_core/TRIG_DIST_cmp_gt0000222_SW0 (N282)
+     LUT4:I3->O            1   0.479   0.000  i_tdc/i_tdc_s3_core/TRIG_DIST_mux0000<1>1 (i_tdc/i_tdc_s3_core/TRIG_DIST_mux0000<1>)
+     FDSE:D                    0.176          i_tdc/i_tdc_s3_core/TRIG_DIST_7
+    ----------------------------------------
+    Total                     16.323ns (7.127ns logic, 9.196ns route)
+                                       (43.7% logic, 56.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FCLK_IN'
+  Total number of paths / destination ports: 307858 / 1112
+-------------------------------------------------------------------------
+Offset:              17.493ns (Levels of Logic = 11)
+  Source:            ADD<8> (PAD)
+  Destination:       i_seq_gen/i_seq_gen_core/CONF_DONE (FF)
+  Destination Clock: FCLK_IN rising
+
+  Data Path: ADD<8> to i_seq_gen/i_seq_gen_core/CONF_DONE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            29   0.715   1.856  ADD_8_IBUF (ADD_8_IBUF)
+     LUT4:I0->O            1   0.479   0.000  i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_lut<1> (i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_lut<1>)
+     MUXCY:S->O            1   0.435   0.000  i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_cy<1> (i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.056   0.000  i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_cy<2> (i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_cy<2>)
+     MUXCY:CI->O          49   0.264   1.828  i_seq_gen/i_bus_to_ip/Mcompar_CS_cmp_le0000_cy<3> (i_seq_gen/i_bus_to_ip/CS_cmp_le0000)
+     LUT2:I1->O          140   0.479   2.396  i_seq_gen/i_bus_to_ip/IP_RD11 (N40)
+     LUT4:I0->O            4   0.479   1.074  i_seq_gen/i_seq_gen_core/Msub_BUS_ADD_MEM_Madd_xor<11>11 (i_seq_gen/i_seq_gen_core/N7)
+     LUT4:I0->O            4   0.479   0.838  i_seq_gen/i_seq_gen_core/RST1 (i_seq_gen/i_seq_gen_core/BUS_DATA_OUT_REG_and0000)
+     LUT3:I2->O            1   0.479   0.851  i_seq_gen/i_seq_gen_core/RST21_SW0 (N736)
+     LUT4:I1->O            2   0.479   0.804  i_seq_gen/i_seq_gen_core/RST21 (i_seq_gen/i_seq_gen_core/N38)
+     LUT4:I2->O          146   0.479   2.130  i_seq_gen/i_seq_gen_core/RST3 (i_seq_gen/i_seq_gen_core/RST)
+     FDRE:R                    0.892          i_seq_gen/i_seq_gen_core/status_regs_0_0
+    ----------------------------------------
+    Total                     17.493ns (5.715ns logic, 11.778ns route)
+                                       (32.7% logic, 67.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FCLK_IN'
+  Total number of paths / destination ports: 445 / 88
+-------------------------------------------------------------------------
+Offset:              11.557ns (Levels of Logic = 10)
+  Source:            i_seq_gen/i_seq_gen_core/PREV_BUS_ADD_5 (FF)
+  Destination:       BUS_DATA<7> (PAD)
+  Source Clock:      FCLK_IN rising
+
+  Data Path: i_seq_gen/i_seq_gen_core/PREV_BUS_ADD_5 to BUS_DATA<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              2   0.626   1.040  i_seq_gen/i_seq_gen_core/PREV_BUS_ADD_5 (i_seq_gen/i_seq_gen_core/PREV_BUS_ADD_5)
+     LUT1:I0->O            1   0.479   0.000  i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<0>_0_rt (i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<0>_0_rt)
+     MUXCY:S->O            1   0.435   0.000  i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<0>_0 (i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<0>1)
+     MUXCY:CI->O           1   0.056   0.000  i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<1>_0 (i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<1>1)
+     MUXCY:CI->O           1   0.056   0.000  i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<2>_0 (i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<2>1)
+     MUXCY:CI->O           1   0.056   0.000  i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<3>_0 (i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<3>1)
+     MUXCY:CI->O           8   0.264   0.944  i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<4> (i_seq_gen/i_seq_gen_core/Mcompar_BUS_DATA_OUT_cmp_lt0000_cy<4>)
+     LUT4:I3->O            1   0.479   0.000  BUS_DATA<7>_MLTSRCEDGELogicTrst65_SW01 (BUS_DATA<7>_MLTSRCEDGELogicTrst65_SW0)
+     MUXF5:I1->O           1   0.314   0.740  BUS_DATA<7>_MLTSRCEDGELogicTrst65_SW0_f5 (N684)
+     LUT4:I2->O            1   0.479   0.681  BUS_DATA<7>_MLTSRCEDGELogicTrst65 (BUS_DATA<7>_MLTSRCEDGE)
+     IOBUF:I->IO               4.909          BUS_DATA_7_IOBUF (BUS_DATA<7>)
+    ----------------------------------------
+    Total                     11.557ns (8.152ns logic, 3.405ns route)
+                                       (70.5% logic, 29.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2216 / 8
+-------------------------------------------------------------------------
+Delay:               15.408ns (Levels of Logic = 8)
+  Source:            ADD<9> (PAD)
+  Destination:       BUS_DATA<7> (PAD)
+
+  Data Path: ADD<9> to BUS_DATA<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            26   0.715   1.841  ADD_9_IBUF (ADD_9_IBUF)
+     LUT3:I0->O           18   0.479   1.499  i_tdc/i_bus_to_ip/IP_ADD<12>11 (N31)
+     LUT3:I0->O            6   0.479   0.912  i_tdc/i_bus_to_ip/IP_ADD<14>11 (N10)
+     LUT4:I2->O           17   0.479   1.438  i_pixel_sr_fast_rx/i_bus_to_ip/BUS_DATA_or0000 (i_pixel_sr_fast_rx/i_bus_to_ip/BUS_DATA_IP_DATA_OUT_not0000_inv)
+     LUT4:I0->O            1   0.479   0.000  BUS_DATA<7>_MLTSRCEDGELogicTrst14_G (N771)
+     MUXF5:I1->O           1   0.314   0.704  BUS_DATA<7>_MLTSRCEDGELogicTrst14 (BUS_DATA<7>_MLTSRCEDGELogicTrst14)
+     LUT4:I3->O            1   0.479   0.681  BUS_DATA<7>_MLTSRCEDGELogicTrst65 (BUS_DATA<7>_MLTSRCEDGE)
+     IOBUF:I->IO               4.909          BUS_DATA_7_IOBUF (BUS_DATA<7>)
+    ----------------------------------------
+    Total                     15.408ns (8.333ns logic, 7.075ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 21.34 secs
+ 
+--> 
+
+
+Total memory usage is 676128 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   61 (   0 filtered)
+Number of infos    :   52 (   0 filtered)
+

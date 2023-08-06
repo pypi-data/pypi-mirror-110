@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_FCLK_IN</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_FCLK_IN</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_BUS</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_U1_CLK0 = PERIOD &quot;i_clkgen_U1_CLK0&quot; TS_FCLK_IN HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_FCLK_IN</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_FCLK_IN</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_BUS</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLKDV</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_U1_CLKDV = PERIOD &quot;i_clkgen_U1_CLKDV&quot; TS_FCLK_IN * 4 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_FCLK_IN</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_FCLK_IN</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_BUS</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_U1_CLKFX = PERIOD &quot;i_clkgen_U1_CLKFX&quot; TS_FCLK_IN / 1.666666667 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">i_clkgen_U1_CLKFX</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_i_clkgen_U1_CLKFX</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_U2</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_U2_CLK0 = PERIOD &quot;i_clkgen_U2_CLK0&quot; TS_i_clkgen_U1_CLKFX HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">i_clkgen_U1_CLKFX</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_i_clkgen_U1_CLKFX</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_U2</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLK2X</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_U2_CLK2X = PERIOD &quot;i_clkgen_U2_CLK2X&quot; TS_i_clkgen_U1_CLKFX / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">i_clkgen_U1_CLKFX</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_i_clkgen_U1_CLKFX</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_U2</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_U2_CLKFX = PERIOD &quot;i_clkgen_U2_CLKFX&quot; TS_i_clkgen_U1_CLKFX / 0.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;WR_B&quot; OFFSET = IN : 5 : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(149)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;RD_B&quot; OFFSET = IN : 10 : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(150)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[7]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(151)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[6]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(152)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[5]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(153)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[4]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(154)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[3]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(155)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[2]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(156)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[1]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(157)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[0]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf(158)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="new" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SDA</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="new" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SCL</arg>&apos; has no legal driver
+</msg>
+
+</messages>
+

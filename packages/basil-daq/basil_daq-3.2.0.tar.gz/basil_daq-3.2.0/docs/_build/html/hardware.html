@@ -1,0 +1,312 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Hardware &mdash; basil 3.2.0dev0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="http://wavedrom.com/skins/default.js"></script>
+        <script src="http://wavedrom.com/WaveDrom.js"></script>
+        <script src="_static/WaveDrom_load.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Firmware" href="firmware.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> basil
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.2.0dev0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mio-multi-io-card">MIO (Multi IO Card)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gpac-general-purpose-analog-card">GPAC (General Purpose Analog Card)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mio3-multi-io-card-usb3">MIO3 (Multi IO Card USB3)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lx9">LX9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="firmware.html">Firmware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">basil</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Hardware</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/hardware.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="hardware">
+<h1>Hardware<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h1>
+<p>Basil also allows easy integration with custom Hardware.</p>
+<p>For our purpuse we developed general purpose hardware components which connect to custom DUTs. The MultiIO board (MIO) implements the main FPGA for digital IO, memory ressources, and the interface (USB 2.0) to the PC. To add analog functionality, the Gerneral Purpose Analog Card (GPAC) was developed. It connects to the MultiIO board and provides 4 programmable power supplies, 12 current sources, 4 voltage sources, 4 fast ADC channels, digital IO with scalable voltages, LVDS, and a programmable injection pulse generator. The device under test (DUT) will be connected with a custom PCB to the MIO/GPAC hardware.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>MultiIO - Digital IO card with FPGA and USB 2.0 interface</p></li>
+<li><p>MIO3 - Digital IO card with FPGA and USB 3.0 interface based on Enclustra <a class="reference external" href="http://www.enclustra.com/en/products/fpga-modules/mercury-kx1/">KX1</a> module</p></li>
+<li><p>GPAC - General Purpose Analog Card</p></li>
+</ul>
+</div></blockquote>
+<div class="section" id="mio-multi-io-card">
+<h2>MIO (Multi IO Card)<a class="headerlink" href="#mio-multi-io-card" title="Permalink to this headline">¶</a></h2>
+<p>The “S3 Multi IO System” is developed as an easy to use multi purpose digital IO card. It includes a free programmable Xilinx Spartan3 FPGA, SRAM Memory, USB2.0 Interface and a 8051 microcontroller with I2C and SPI functionality. It is designed to provide sufficient digital IO capability to any kind of daughter card.</p>
+<img alt="_images/MIO.jpg" src="_images/MIO.jpg" />
+<dl class="simple">
+<dt>Features:</dt><dd><dl class="simple">
+<dt>Silicon devices</dt><dd><ul class="simple">
+<li><p>Xilinx Spartan3 FPGA - XC3S1000 FG320 4C</p></li>
+<li><p>Cypress USB Controller - CY7C68013A 128AXC</p></li>
+<li><p>Cypress async. SRAM - CY7C1061AV33 10ZXC</p></li>
+<li><p>Programmable clock generator - Cypress CY22150</p></li>
+</ul>
+</dd>
+<dt>IO connections</dt><dd><ul class="simple">
+<li><p>USB2.0 B-type as host interface</p></li>
+<li><p>Multi-IO-Connector with 80 user IO´s (VccIO 1:2 V to 3:3 V)</p></li>
+<li><p>Agilent debug connector (1253-3620)</p></li>
+<li><p>JTAG connection</p></li>
+<li><p>RJ-45 connector for 2 LVDS transmitter and 2 LVDS receiver</p></li>
+<li><p>Header with I2C and SPI functionality</p></li>
+<li><p>Header with additional FPGA user IO´s</p></li>
+<li><p>3 buffered LVTTL outputs with LEMO</p></li>
+<li><p>3 buffered LVTTL inputs with LEMO</p></li>
+</ul>
+</dd>
+<dt>Power supply</dt><dd><ul class="simple">
+<li><p>via external 5V supply</p></li>
+<li><p>via USB cable</p></li>
+</ul>
+</dd>
+<dt>Configuration capability</dt><dd><ul class="simple">
+<li><p>via JTAG</p></li>
+<li><p>via USB2.0</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+<p><a class="reference external" href="https://silab-redmine.physik.uni-bonn.de/documents/5">Documentation for MIO card.</a></p>
+</div>
+<div class="section" id="gpac-general-purpose-analog-card">
+<h2>GPAC (General Purpose Analog Card)<a class="headerlink" href="#gpac-general-purpose-analog-card" title="Permalink to this headline">¶</a></h2>
+<p>GPAC Card is developed as an easy to use multi purpose analog IO card compatible with MIO Card.</p>
+<img alt="_images/MIO_GPAC_DUT.png" src="_images/MIO_GPAC_DUT.png" />
+<dl class="simple">
+<dt>Features:</dt><dd><ul class="simple">
+<li><p>4 regulated power supples, 0.8-1.83/2.83 V, max. 1000 mA,  (controlled by I2C)</p></li>
+<li><p>4 RX and 4 TX LVDS Lines</p></li>
+<li><p>4 channel ADC, 25MS, 14bit</p></li>
+<li><p>16 CMOS Outputs</p></li>
+<li><p>8 CMOS Inouts</p></li>
+<li><p>12 current source/sink, -1mA to +1mA, 12bit  (controlled by I2C)</p></li>
+<li><p>4 voltage outputs, 0-2.048 V, 12bit (controlled by I2C)</p></li>
+<li><p>64x (4 available to DUT) channel slow ADC for monitoring (controlled by I2C)</p></li>
+<li><p>Injection Pulse Generator with programmable voltage levels (high and low)</p></li>
+</ul>
+</dd>
+</dl>
+<p><a class="reference external" href="https://silab-redmine.physik.uni-bonn.de/documents/6">Documentation for GPAC card.</a></p>
+</div>
+<div class="section" id="mio3-multi-io-card-usb3">
+<h2>MIO3 (Multi IO Card USB3)<a class="headerlink" href="#mio3-multi-io-card-usb3" title="Permalink to this headline">¶</a></h2>
+<p>TBD.</p>
+</div>
+<div class="section" id="lx9">
+<h2>LX9<a class="headerlink" href="#lx9" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://www.em.avnet.com/en-us/design/drc/Pages/Xilinx-Spartan-6-FPGA-LX9-MicroBoard.aspx">LX9 Board.</a></p>
+<p><strong>4 channel FE-I4 adepter with TLU:</strong></p>
+<blockquote>
+<div><img alt="_images/lx9_fei4_a.jpg" src="_images/lx9_fei4_a.jpg" />
+<img alt="_images/lx9_fei4_b.jpg" src="_images/lx9_fei4_b.jpg" />
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="firmware.html" class="btn btn-neutral float-right" title="Firmware" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="introduction.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2015, SiLab, Institute of Physics, University of Bonn.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

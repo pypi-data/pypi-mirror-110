@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise/pixel.xst" -ofn "/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise/pixel.syr" 
+xst -intstyle ise -ifn "/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise/pixel.xst" -ofn "/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise/pixel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.ucf -p xc3s1000-fg320-5 pixel.ngc pixel.ngd  
+map -intstyle ise -p xc3s1000-fg320-5 -cm area -ir off -pr off -c 100 -o pixel_map.ncd pixel.ngd pixel.pcf 
+par -w -intstyle ise -ol high -t 1 pixel_map.ncd pixel.ncd pixel.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml pixel.twx pixel.ncd -o pixel.twr pixel.pcf 
+bitgen -intstyle ise -f pixel.ut pixel.ncd 

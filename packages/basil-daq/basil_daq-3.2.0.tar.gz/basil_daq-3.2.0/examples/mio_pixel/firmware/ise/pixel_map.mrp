@@ -1,0 +1,386 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'pixel'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1000-fg320-5 -cm area -ir off -pr off
+-c 100 -o pixel_map.ncd pixel.ngd pixel.pcf 
+Target Device  : xc3s1000
+Target Package : fg320
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Thu Mar 11 12:49:03 2021
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of Slice Flip Flops:           974 out of  15,360    6%
+  Number of 4 input LUTs:             2,073 out of  15,360   13%
+Logic Distribution:
+  Number of occupied Slices:          1,436 out of   7,680   18%
+    Number of Slices containing only related logic:   1,436 out of   1,436 100%
+    Number of Slices containing unrelated logic:          0 out of   1,436   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,303 out of  15,360   14%
+    Number used as logic:             1,900
+    Number used as a route-thru:        230
+    Number used for Dual Port RAMs:     124
+      (Two LUTs used per Dual Port RAM)
+    Number used as Shift registers:      49
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                122 out of     221   55%
+    IOB Flip Flops:                      47
+  Number of RAMB16s:                      9 out of      24   37%
+  Number of BUFGMUXs:                     6 out of       8   75%
+  Number of DCMs:                         2 out of       4   50%
+
+Average Fanout of Non-Clock Nets:                3.28
+
+Peak Memory Usage:  732 MB
+Total REAL time to MAP completion:  5 secs 
+Total CPU time to MAP completion:   3 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:43 - No license file was found in the standard Xilinx license
+directory.
+WARNING:Security:44 - Since no license file was found,
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:67 - XILINXD_LICENSE_FILE is set to
+'/cadence/xilinx/Vivado/2020.1/data/ip/core_licenses:/cadence/xilinx:/cadence/xi
+linx/Vivado/2014.4/data/ip/core_licenses:/cadence/xilinx/13.3/ISE_DS/ISE/coregen
+/core_licenses:/cadence/xilinx/13.3/ISE_DS/EDK/data/core_licenses:/cadence/xilin
+x/12.1/ISE_DS/ISE/coregen/core_licenses:/cadence/xilinx/12.1/ISE_DS/EDK/data/cor
+e_licenses:/cadence/xilinx/11.1/ISE/coregen/core_licenses:/faust/user/themperek/
+.Xilinx:/cadence/xilinx/license:8004@faust02' in
+/faust/user/themperek/.flexlmrc.
+INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to
+'8000@faust02.physik.uni-bonn.de'.
+INFO:Security:54 - 'xc3s1000' is a WebPack part.
+INFO:LIT:243 - Logical network
+   i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/aq_sync_ff_2 has no load.
+INFO:LIT:395 - The above info message is repeated 69 more times for the
+   following (max. 5 shown):
+   RJ45_TRIGGER,
+   RJ45_RESET,
+   SDA_IBUF,
+   SCL_IBUF,
+   FMODE_IBUF
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp i_clkgen/DCM_U2, consult
+   the device Interactive Data Sheet.
+INFO:PhysDesignRules:772 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp i_clkgen/DCM_BUS, consult
+   the device Interactive Data Sheet.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   3 block(s) removed
+  66 block(s) optimized away
+   9 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/aq_sync_ff_2" is
+loadless and has been removed.
+ Loadless block "i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/aq_sync_ff_2" (FF)
+removed.
+  The signal "i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/aq_sync_ff_1" is
+loadless and has been removed.
+   Loadless block "i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/aq_sync_ff_1" (FF)
+removed.
+Loadless block "i_clkgen/CLKDV_2_BUFG_INST" (CKBUF) removed.
+ The signal "i_clkgen/U2_CLKDV" is loadless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/out_sync_ff_1" is
+unused and has been removed.
+The signal "i_tdc/i_tdc_s3_core/ARM_TDC_FLAG_CLK160" is unused and has been
+removed.
+The signal
+"i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/FLAG_TOGGLE_CLK_A_not0001" is
+unused and has been removed.
+The signal "i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/flag_out_d_ff_1" is
+unused and has been removed.
+The signal
+"i_tdc/i_tdc_s3_core/three_stage_arm_tdc_synchronizer_clk_160/out_d_ff_1" is
+unused and has been removed.
+The signal
+"i_tdc/i_tdc_s3_core/three_stage_arm_tdc_synchronizer_clk_160/out_d_ff_2" is
+unused and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+LUT3 		i_seq_gen/i_seq_gen_core/CONF_DONE_not0001_SW1
+   optimized to 1
+FD 		i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/out_sync_ff_1
+   optimized to 0
+FD 		i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/out_sync_ff_2
+   optimized to 0
+FD 		i_seq_gen/i_seq_gen_core/ext_start_pulse_sync/out_sync_ff_3
+   optimized to 0
+FD 		i_tdc/i_tdc_s3_core/ARM_TDC_CLK160_FF
+   optimized to 0
+LUT2 		i_tdc/i_tdc_s3_core/ARM_TDC_FLAG_CLK1601
+   optimized to 0
+FDE 		i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/FLAG_TOGGLE_CLK_A
+   optimized to 0
+INV
+		i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/FLAG_TOGGLE_CLK_A_not00011_IN
+V_0
+FD 		i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/flag_out_d_ff_1
+   optimized to 0
+FD 		i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/flag_out_d_ff_2
+   optimized to 0
+FD 		i_tdc/i_tdc_s3_core/arm_tdc_flag_domain_crossing/flag_out_d_ff_3
+   optimized to 0
+LUT4 		i_tdc/i_tdc_s3_core/state_FSM_FFd2-In_SW0
+   optimized to 1
+FD 		i_tdc/i_tdc_s3_core/three_stage_arm_tdc_synchronizer_clk_160/out_d_ff_1_0
+   optimized to 0
+FD 		i_tdc/i_tdc_s3_core/three_stage_arm_tdc_synchronizer_clk_160/out_d_ff_2_0
+   optimized to 0
+FD 		i_tdc/i_tdc_s3_core/three_stage_arm_tdc_synchronizer_clk_160/out_d_ff_3_0
+   optimized to 0
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ADD<0>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<1>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<2>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<3>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<4>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<5>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<6>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<7>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<8>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<9>                             | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<10>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<11>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<12>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<13>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<14>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| ADD<15>                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| BUS_DATA<0>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<1>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<2>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<3>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<4>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<5>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<6>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| BUS_DATA<7>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| DEBUG_D<0>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<1>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<2>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<3>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<4>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<5>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<6>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<7>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<8>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<9>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<10>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<11>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<12>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<13>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<14>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| DEBUG_D<15>                        | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| EN_VA1                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| EN_VA2                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| EN_VD1                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| EN_VD2                             | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FCLK_IN                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| FD<0>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<1>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<2>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<3>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<4>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<5>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<6>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FD<7>                              | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| FMODE                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| FREAD                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| FSTROBE                            | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| GLOBAL_CTR_LD                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| GLOBAL_DAC_LD                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| GLOBAL_SR_CLK                      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OUTDDR       |          |          |
+| GLOBAL_SR_EN                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| HIT_OR                             | IOB              | INPUT     | LVCMOS25             |       |          |      | INFF1        |          |          |
+|                                    |                  |           |                      |       |          |      | INFF2        |          |          |
+| INJECT                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| LED1                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| LED2                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| LED3                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| LED4                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| LED5                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| LEMO_RX<0>                         | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| LEMO_RX<1>                         | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| LEMO_RX<2>                         | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| LEMO_TX<0>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW | OFF1         |          |          |
+| LEMO_TX<1>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| LEMO_TX<2>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| PIXEL_SR_CLK                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OUTDDR       |          |          |
+| PIXEL_SR_EN                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| PIXEL_SR_OUT                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| RD_B                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
+| SCL                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| SDA                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| SRAM_A<0>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<1>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<2>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<3>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<4>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<5>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<6>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<7>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<8>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<9>                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<10>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<11>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<12>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<13>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<14>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<15>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<16>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<17>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<18>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_A<19>                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_BHE_B                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_BLE_B                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_CE1_B                         | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_IO<0>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<1>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<2>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<3>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<4>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<5>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<6>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<7>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<8>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<9>                         | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<10>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<11>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<12>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<13>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<14>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_IO<15>                        | IOB              | BIDIR     | LVCMOS33             |       | 12       | FAST | INFF1        |          |          |
+| SRAM_OE_B                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SRAM_WE_B                          | IOB              | OUTPUT    | LVCMOS33             |       | 12       | FAST | OUTDDR       |          |          |
+| SR_IN                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW | OFF1         |          |          |
+| WR_B                               | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

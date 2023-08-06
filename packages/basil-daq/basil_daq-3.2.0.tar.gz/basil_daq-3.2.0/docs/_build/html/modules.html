@@ -1,0 +1,612 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Modules &mdash; basil 3.2.0dev0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="http://wavedrom.com/skins/default.js"></script>
+        <script src="http://wavedrom.com/WaveDrom.js"></script>
+        <script src="_static/WaveDrom_load.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Examples" href="examples.html" />
+    <link rel="prev" title="Software" href="software.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> basil
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.2.0dev0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="firmware.html">Firmware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Modules</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-basil.HL.gpio">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">Driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">Driver</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">basil</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Modules</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/modules.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="modules">
+<h1>Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-basil.HL.gpio">
+<span id="driver"></span><h2>Driver<a class="headerlink" href="#module-basil.HL.gpio" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.gpio.gpio">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.gpio.</span></span><span class="sig-name descname"><span class="pre">gpio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/gpio.html#gpio"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.gpio.gpio" title="Permalink to this definition">¶</a></dt>
+<dd><p>GPIO interface</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.gpio.gpio.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/gpio.html#gpio.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.gpio.gpio.reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Soft reset the module.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id1">
+<h2>Driver<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.spi"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.spi.spi">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.spi.</span></span><span class="sig-name descname"><span class="pre">spi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Implement serial programming interface (SPI) driver.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.get_data">
+<span class="sig-name descname"><span class="pre">get_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">addr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets data for incoming stream</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.get_en">
+<span class="sig-name descname"><span class="pre">get_en</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.get_en"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.get_en" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets state of enable.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.get_repeat">
+<span class="sig-name descname"><span class="pre">get_repeat</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.get_repeat"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.get_repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets Number of repetitions of sequence with delay ‘wait’ (if 0 –&gt; repeat forever)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.get_size">
+<span class="sig-name descname"><span class="pre">get_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.get_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.get_size" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get size of shift register length</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.get_wait">
+<span class="sig-name descname"><span class="pre">get_wait</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.get_wait"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.get_wait" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets time delay between repetitions in clock cycles</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.is_done">
+<span class="sig-name descname"><span class="pre">is_done</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.is_done"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.is_done" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the status of transfer/sequence.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Soft reset the module.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.set_data">
+<span class="sig-name descname"><span class="pre">set_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">addr</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.set_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.set_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets data for outgoing stream</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.set_en">
+<span class="sig-name descname"><span class="pre">set_en</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.set_en"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.set_en" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enable start on external EXT_START signal (inside FPGA)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.set_repeat">
+<span class="sig-name descname"><span class="pre">set_repeat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.set_repeat"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.set_repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>If 0: Repeat sequence forever
+Other: Number of repetitions of sequence with delay ‘wait’</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.set_size">
+<span class="sig-name descname"><span class="pre">set_size</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.set_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.set_size" title="Permalink to this definition">¶</a></dt>
+<dd><p>Number of clock cycles for shifting in data
+ex. length of matrix shift register (number of pixels daisy chained)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.set_wait">
+<span class="sig-name descname"><span class="pre">set_wait</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.set_wait"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.set_wait" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets time delay between repetitions in clock cycles</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.spi.spi.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/spi.html#spi.start"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.spi.spi.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the shifting data</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id2">
+<h2>Driver<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.seq_gen"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.seq_gen.seq_gen">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.seq_gen.</span></span><span class="sig-name descname"><span class="pre">seq_gen</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/seq_gen.html#seq_gen"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.seq_gen.seq_gen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sequencer generator controller interface for seq_gen FPGA module.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id3">
+<h2>Driver<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.pulse_gen"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.pulse_gen.</span></span><span class="sig-name descname"><span class="pre">pulse_gen</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pulser generator</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen.get_en">
+<span class="sig-name descname"><span class="pre">get_en</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen.get_en"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen.get_en" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return info if pulse starts with a fixed delay w.r.t. shift register finish signal (true) or if it only starts with .start() (false)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen.set_delay">
+<span class="sig-name descname"><span class="pre">set_delay</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen.set_delay"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen.set_delay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pulse delay w.r.t. shift register finish signal [in clock cycles(?)]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen.set_en">
+<span class="sig-name descname"><span class="pre">set_en</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen.set_en"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen.set_en" title="Permalink to this definition">¶</a></dt>
+<dd><p>If true: The pulse comes with a fixed delay with respect to the external trigger (EXT_START).
+If false: The pulse comes only at software start.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen.set_repeat">
+<span class="sig-name descname"><span class="pre">set_repeat</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen.set_repeat"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen.set_repeat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pulse repetition in range of 0-255</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen.set_width">
+<span class="sig-name descname"><span class="pre">set_width</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen.set_width"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen.set_width" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pulse width in terms of clock cycles</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.pulse_gen.pulse_gen.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/pulse_gen.html#pulse_gen.start"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.pulse_gen.pulse_gen.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Software start of pulse at random time</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id4">
+<h2>Driver<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.seq_rec"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.seq_rec.seq_rec">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.seq_rec.</span></span><span class="sig-name descname"><span class="pre">seq_rec</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/seq_rec.html#seq_rec"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.seq_rec.seq_rec" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sequencer receiver controller interface for seq_rec FPGA module.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id5">
+<h2>Driver<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.cmd_seq"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.cmd_seq.cmd_seq">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.cmd_seq.</span></span><span class="sig-name descname"><span class="pre">cmd_seq</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/cmd_seq.html#cmd_seq"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.cmd_seq.cmd_seq" title="Permalink to this definition">¶</a></dt>
+<dd><p>FEI4 Command Sequencer Controller Interface for cmd_seq FPGA module.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id6">
+<h2>Driver<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.fei4_rx"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.fei4_rx.fei4_rx">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.fei4_rx.</span></span><span class="sig-name descname"><span class="pre">fei4_rx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/fei4_rx.html#fei4_rx"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.fei4_rx.fei4_rx" title="Permalink to this definition">¶</a></dt>
+<dd><p>FEI4 receiver controller interface for fei4_rx FPGA module</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id7">
+<h2>Driver<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.fast_spi_rx"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.fast_spi_rx.fast_spi_rx">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.fast_spi_rx.</span></span><span class="sig-name descname"><span class="pre">fast_spi_rx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/fast_spi_rx.html#fast_spi_rx"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.fast_spi_rx.fast_spi_rx" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fast SPI interface</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.fast_spi_rx.fast_spi_rx.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/fast_spi_rx.html#fast_spi_rx.reset"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.fast_spi_rx.fast_spi_rx.reset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Soft reset the module.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id8">
+<h2>Driver<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.tlu"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.tlu.tlu">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.tlu.</span></span><span class="sig-name descname"><span class="pre">tlu</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/tlu.html#tlu"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.tlu.tlu" title="Permalink to this definition">¶</a></dt>
+<dd><p>TLU controller interface</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id9">
+<h2>Driver<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.tdc_s3"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.tdc_s3.tdc_s3">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.tdc_s3.</span></span><span class="sig-name descname"><span class="pre">tdc_s3</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/tdc_s3.html#tdc_s3"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.tdc_s3.tdc_s3" title="Permalink to this definition">¶</a></dt>
+<dd><p>TDC controller interface</p>
+</dd></dl>
+
+</div>
+<div class="section" id="id10">
+<h2>Driver<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.sram_fifo"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.sram_fifo.</span></span><span class="sig-name descname"><span class="pre">sram_fifo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo" title="Permalink to this definition">¶</a></dt>
+<dd><p>SRAM FIFO controller interface for sram_fifo FPGA module.</p>
+<dl class="py property">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.FIFO_INT_SIZE">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">FIFO_INT_SIZE</span></span><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.FIFO_INT_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get FIFO size in units of integers (32 bit).</p>
+<dl class="simple">
+<dt>fifo_size<span class="classifier">int</span></dt><dd><p>FIFO size in units of integers (32 bit).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.get_FIFO_INT_SIZE">
+<span class="sig-name descname"><span class="pre">get_FIFO_INT_SIZE</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo.get_FIFO_INT_SIZE"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.get_FIFO_INT_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get FIFO size in units of integers (32 bit).</p>
+<dl class="simple">
+<dt>fifo_size<span class="classifier">int</span></dt><dd><p>FIFO size in units of integers (32 bit).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.get_data">
+<span class="sig-name descname"><span class="pre">get_data</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo.get_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.get_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reading data in SRAM.</p>
+<dl class="simple">
+<dt>array<span class="classifier">numpy.ndarray</span></dt><dd><p>Array of unsigned integers (32 bit).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.get_fifo_int_size">
+<span class="sig-name descname"><span class="pre">get_fifo_int_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo.get_fifo_int_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.get_fifo_int_size" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>Deprecated</em> Get FIFO size in units of integers (32 bit).</p>
+<dl class="simple">
+<dt>fifo_size<span class="classifier">int</span></dt><dd><p>FIFO size in units of integers (32 bit).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.get_fifo_size">
+<span class="sig-name descname"><span class="pre">get_fifo_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo.get_fifo_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.get_fifo_size" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>Deprecated</em> Get FIFO size in units of bytes (8 bit).</p>
+<dl class="simple">
+<dt>fifo_size<span class="classifier">int</span></dt><dd><p>FIFO size in units of bytes (8 bit).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.get_read_error_counter">
+<span class="sig-name descname"><span class="pre">get_read_error_counter</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo.get_read_error_counter"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.get_read_error_counter" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>Deprecated</em> Get read error counter.</p>
+<dl class="simple">
+<dt>fifo_size<span class="classifier">int</span></dt><dd><p>Read error counter (read attempts when SRAM is empty).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.sram_fifo.sram_fifo.get_size">
+<span class="sig-name descname"><span class="pre">get_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/sram_fifo.html#sram_fifo.get_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.sram_fifo.sram_fifo.get_size" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>Deprecated</em></p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id11">
+<h2>Driver<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.fadc_rx"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.fadc_rx.fadc_rx">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.fadc_rx.</span></span><span class="sig-name descname"><span class="pre">fadc_rx</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/fadc_rx.html#fadc_rx"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.fadc_rx.fadc_rx" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fast ADC channel receiver</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.fadc_rx.fadc_rx.set_align_to_sync">
+<span class="sig-name descname"><span class="pre">set_align_to_sync</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/fadc_rx.html#fadc_rx.set_align_to_sync"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.fadc_rx.fadc_rx.set_align_to_sync" title="Permalink to this definition">¶</a></dt>
+<dd><p>Align data taking to a synchronization signal, reset signal is the synchronization signal (hard coded connection in Verilog source code)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.fadc_rx.fadc_rx.set_single_data">
+<span class="sig-name descname"><span class="pre">set_single_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">value</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/fadc_rx.html#fadc_rx.set_single_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.fadc_rx.fadc_rx.set_single_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id12">
+<h2>Driver<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-basil.HL.i2c"></span><dl class="py class">
+<dt class="sig sig-object py" id="basil.HL.i2c.i2c">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">basil.HL.i2c.</span></span><span class="sig-name descname"><span class="pre">i2c</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">intf</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">conf</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/i2c.html#i2c"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.i2c.i2c" title="Permalink to this definition">¶</a></dt>
+<dd><p>Implement master i2c programming interface driver.</p>
+<dl class="py property">
+<dt class="sig sig-object py" id="basil.HL.i2c.i2c.is_ready">
+<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">is_ready</span></span><a class="headerlink" href="#basil.HL.i2c.i2c.is_ready" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">raises ExceptionType</dt>
+<dd class="field-odd"><p>IOError</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Transfer not acknowledged.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.i2c.i2c.read">
+<span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">addr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">size</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/i2c.html#i2c.read"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.i2c.i2c.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read access.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>addr</strong> (<em>char</em>) – i2c slave address</p></li>
+<li><p><strong>size</strong> (<em>int</em>) – size of transfer</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>data byte array</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>array.array(‘B’)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="basil.HL.i2c.i2c.write">
+<span class="sig-name descname"><span class="pre">write</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">addr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/basil/HL/i2c.html#i2c.write"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#basil.HL.i2c.i2c.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write access.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>addr</strong> (<em>char</em>) – i2c slave address</p></li>
+<li><p><strong>data</strong> (<em>iterable</em>) – array/list of bytes</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="examples.html" class="btn btn-neutral float-right" title="Examples" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="software.html" class="btn btn-neutral float-left" title="Software" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2015, SiLab, Institute of Physics, University of Bonn.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

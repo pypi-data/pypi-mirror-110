@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/fast_spi_rx/fast_spi_rx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/fast_spi_rx/fast_spi_rx_core.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/gpio/gpio.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/gpio/gpio_core.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/rrp_arbiter/rrp_arbiter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/seq_gen/seq_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/seq_gen/seq_gen_core.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/faust/user/themperek/git/basil_dev/basil/firmware/modules/seq_gen/seq_gen_core.v</arg>&quot; Line <arg fmt="%d" index="2">42</arg>. <arg fmt="%s" index="3">Include file found: &apos;/faust/user/themperek/git/basil_dev/basil/firmware/modules/seq_gen/../includes/log2func.v&apos; in file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/seq_gen/seq_gen_core.v&quot; line 42
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/sram_fifo/sram_fifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/sram_fifo/sram_fifo_core.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/tdc_s3/tdc_s3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/tdc_s3/tdc_s3_core.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/3_stage_synchronizer.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/IDDR_s3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/ODDR_s3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/bus_to_ip.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/cdc_pulse_sync.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/cdc_syncfifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/ddr_des.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/flag_domain_crossing.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/fx2_to_bus.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/generic_fifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/generic_fifo.v</arg>&quot; Line <arg fmt="%d" index="2">32</arg>. <arg fmt="%s" index="3">Include file found: &apos;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/../includes/log2func.v&apos; in file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/generic_fifo.v&quot; line 32
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/basil/firmware/modules/utils/reset_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/clk_gen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/src/pixel.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

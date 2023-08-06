@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise/pixel.ncd
+OUTFILE=/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise/pixel.bit
+FAMILY=Spartan3
+PART=xc3s1000-5fg320
+WORKINGDIR=/faust/user/themperek/git/basil_dev/examples/mio_pixel/firmware/ise
+LICENSE=ISE
+USER_INFO=175435115_174154030_210672043_607
