@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo12-addon-sm-report-data
+Version: 12.0.0.0.3
+Summary: Module to generate reports xlsx and be able to send it via mail.
+Home-page: http://www.sommobilitat.coop
+Author: Som Mobilitat
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Requires-Python: >=3.5
+Requires-Dist: odoo12-addon-report-xlsx
+Requires-Dist: odoo12-addon-vertical-carsharing
+Requires-Dist: odoo (<12.1dev,>=12.0a)
+
+
+The module allows establishing a periodicity to generate and send a report automatically.
+
+
