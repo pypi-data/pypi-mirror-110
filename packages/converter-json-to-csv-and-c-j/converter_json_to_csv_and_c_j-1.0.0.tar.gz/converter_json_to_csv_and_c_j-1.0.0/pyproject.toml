@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "converter_json_to_csv_and_c_j"
+version = "1.0.0"
+description = ""
+authors = ["Mimikrim <andreyblokhin010@yandex.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
