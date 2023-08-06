@@ -1,0 +1,8 @@
+README.md
+automatedweb.py
+setup.py
+automatedweb.egg-info/PKG-INFO
+automatedweb.egg-info/SOURCES.txt
+automatedweb.egg-info/dependency_links.txt
+automatedweb.egg-info/requires.txt
+automatedweb.egg-info/top_level.txt

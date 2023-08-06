@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: automatedweb
+Version: 1.0.2
+Summary: A tool to make it easy to communicate with web systems writting and reading data from them
+Home-page: https://github.com/renanleonellocastro/automatedweb.git
+Author: Renan Leonello Castro
+Author-email: renanleonellocastro@gmail.com
+License: MIT License
+Description: # automatedweb
+        A tool to help in web requests such as POST and GET. It parses the html using jquery selectors as well.
+        
+        To use this tool, it is necessary to install the following packages:
+         - Python 3
+         - Python Requests
+         - Python PyQuery
+         - Python Urllib3
+        
+Keywords: automatedweb web automated post get requests rest restfull
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
