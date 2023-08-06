@@ -1,0 +1,9 @@
+rhasspy_skills_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rhasspy_skills_cli/__main__.py,sha256=qEFAQFZQ3IZysor9yjPUnxhUkmyE7ckQNktY1_pFgSQ,58
+rhasspy_skills_cli/main.py,sha256=XJj-ecgDTV2gYsbWOxP4IjIil4F5o8AbrF_96iuYGAw,6696
+rhasspy_skills_cli/manifest.py,sha256=-iEJ2JjeWX1X-7NP2Uj-NoekaCX7j22U_2xwjBIv9Dw,356
+rhasspy_skills_cli-0.1.0.dist-info/entry_points.txt,sha256=4T_U_tRvyFk_THPw7QIrWpEA68nWiy2R5xpiHh8mQLk,55
+rhasspy_skills_cli-0.1.0.dist-info/LICENSE,sha256=mjFHQGfE4GAcFtnlmWOxxMhTUmzGpVAm-1ZfAxWhPAU,1083
+rhasspy_skills_cli-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+rhasspy_skills_cli-0.1.0.dist-info/METADATA,sha256=TY5A6AV6ApB-OPd4P4D82KGOgHeMEY6i1uQ6ZqhDgB4,697
+rhasspy_skills_cli-0.1.0.dist-info/RECORD,,
