@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cytominer-database
+Version: 0.3.4
+Summary: UNKNOWN
+Home-page: https://github.com/cytomining/cytominer-database
+Author: Shantanu Singh
+Author-email: shsingh@broadinstitute.org
+Maintainer: Gregory Way
+Maintainer-email: gregory.way@gmail.com
+License: BSD
+Platform: UNKNOWN
+License-File: LICENSE.md
+Requires-Dist: backports.tempfile (>=1.0rc1)
+Requires-Dist: click (>=6.7)
+Requires-Dist: configparser (>=3.5.0)
+Requires-Dist: csvkit (>=1.0.2)
+Requires-Dist: pandas (>=0.20.3)
+
+cytominer-database provides mechanisms to import CSV files generated in a morphological profiling experiment into a database backend. Please refer to the online documentation at http://cytominer-database.readthedocs.io
+
