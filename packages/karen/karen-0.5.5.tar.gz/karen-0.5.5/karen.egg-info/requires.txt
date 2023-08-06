@@ -1,0 +1,8 @@
+deepspeech
+fann2
+numpy
+padatious
+pyaudio
+requests
+urllib3
+webrtcvad
