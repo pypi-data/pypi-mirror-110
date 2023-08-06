@@ -1,0 +1,17 @@
+numpy>=1.19
+matplotlib>=3.3
+scipy>=1.7
+
+[dev]
+pylint
+black
+Sphinx
+sphinx-autobuild
+
+[dist]
+pylint
+black
+Sphinx
+sphinx-autobuild
+twine
+coverage
