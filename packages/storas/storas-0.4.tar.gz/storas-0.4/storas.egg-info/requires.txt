@@ -1,0 +1,8 @@
+
+[develop]
+mypy
+nose2
+pre-commit
+pylint
+twine
+wheel
