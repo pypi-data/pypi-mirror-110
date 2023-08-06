@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tensorneko
+Version: 0.0.8
+Summary: A small package for PyTorch utils
+Home-page: https://github.com/ControlNet/tensorneko
+Author: ControlNet
+Author-email: smczx@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ControlNet/tensorneko/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.9.0)
+Requires-Dist: torchaudio (~=0.9.0)
+Requires-Dist: torchvision (~=0.10.0)
+Requires-Dist: pytorch-lightning (~=1.3.6)
+Requires-Dist: lightning-bolts (~=0.3.3)
+Requires-Dist: numpy (~=1.20.1)
+Requires-Dist: fn (~=0.4.3)
+Requires-Dist: einops (~=0.3.0)
+Requires-Dist: av (~=8.0.3)
+Requires-Dist: matplotlib (~=3.3.4)
+Requires-Dist: clean-fid (~=0.1.12)
+
+# tensorneko
+Tensor Neural Engine Kompanion. 
+
+
