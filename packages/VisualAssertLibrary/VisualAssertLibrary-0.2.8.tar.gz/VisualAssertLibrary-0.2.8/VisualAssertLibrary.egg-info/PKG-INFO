@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: VisualAssertLibrary
+Version: 0.2.8
+Summary: Robot Framework Visual Assert Library
+Home-page: UNKNOWN
+Author: Dmytro Bondarchuk
+Author-email: d.bondarchuk.spv@gmail.com
+License: UNKNOWN
+Description: Visual Assert Library
+        =====================
+        Robot Framework library for visual verification in selenium tests.
+        
+        This library allows easy way for visual regression verifications in selenium based tests in Robot Framework.
+        
+        
+        How it Works
+        ------------
+        The main idea is to compare the screenshot of a rendered web page or web element against known good screenshots with expected result.
+        
+        In other words, this tool follows these steps:
+        
+        - It takes a screenshot of the current web page or needed element on the page.
+        
+        - If a previous capture of this element exists in the baseline, it compares the current screenshot (actual result) with the previous one (actual result). If these screenshots differ, test fails with embedded picture showing their differences.
+        
+        - If not, the screenshot is saved to the baseline to be used as expected results in later executions. Probably this new image might be reviewed manually.
+        
+        At the moment mega.nz is used to store baseline with screenshots.
+        
+        
+        Installation
+        ------------
+        
+        ``python3 -m venv /path/to/virtual/environment``
+        
+        ``source /path/to/virtual/environment/bin/activate``
+        
+        ``pip install VisualAssertLibrary``
+        
+        
+        Usage
+        -----
+        
+            *** Settings ***
+            Library    SeleniumLibrary
+            Library    VisualAssertLibrary
+        
+            *** Variables ***
+            # In case of use mega.nz to store baseline of screenshots
+            ${MEGA_BASELINE_DIR_NAME} =    Name of the directory
+            ${MEGA_EMAIL} = XXXXXXX
+            ${MEGA_PASSW} = YYYYYYY
+        
+        
+            *** Test Cases ***
+            Example of test
+                open browser   https://some.test.site.com/some/page     Chrome
+                set window size   1366   769
+                Visual assert  Review has got 3 stars         # Text explaining verification. As well this text will be in the report in a case of test failure.
+                ...  //*[@class="some_class"]                 # XPATH locator to the element on the which should be captured
+                ...  file_name_with_expected_result.png       # File name of the screenshot with expected result.
+                ...  exclude=//*[@class="to_be_excluded"]     # XPATH locator to the element to be excluded from the screenshot.
+        
+            *** Keywords ***
+            Visual assert
+                [Arguments]  @{varargs}  &{named}
+                run keyword and continue on failure   assert screenshot     @{varargs}  &{named}
+                ...    cols=30  rows=30  # Number of columns and rows the screenshot area should be divided (optional parameter, default is 20)
+                ...    factor=1000  Empiric parameter for accuracy of comparing images (optional parameter, default is 1000)
+                ...    trim=3  # Number of pixels to be removed from the top/bottom/left/right of the screenshot (optional, default is 0)
+        
+        
+        WARRANTY
+        --------
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+        COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+        IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+        CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

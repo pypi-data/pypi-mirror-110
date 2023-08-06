@@ -1,0 +1,4 @@
+mega.py
+Pillow
+robotframework
+robotframework-seleniumlibrary

@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+VisualAssertLibrary/__init__.py
+VisualAssertLibrary/artifacts.py
+VisualAssertLibrary/baseline.py
+VisualAssertLibrary/browser.py
+VisualAssertLibrary/comparator.py
+VisualAssertLibrary/config.py
+VisualAssertLibrary.egg-info/PKG-INFO
+VisualAssertLibrary.egg-info/SOURCES.txt
+VisualAssertLibrary.egg-info/dependency_links.txt
+VisualAssertLibrary.egg-info/not-zip-safe
+VisualAssertLibrary.egg-info/requires.txt
+VisualAssertLibrary.egg-info/top_level.txt
