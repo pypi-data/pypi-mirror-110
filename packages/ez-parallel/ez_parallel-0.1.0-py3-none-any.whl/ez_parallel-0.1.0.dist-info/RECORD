@@ -1,0 +1,11 @@
+ez_parallel/__init__.py,sha256=z3ehaNp7AYmVCRvreS6viZof9aQlC1ehVnCQlGYykFk,558
+ez_parallel/__main__.py,sha256=W0dJAi81Z2iaeH525JY17GEi9Ht5dP188SRsHtzNEK0,1552
+ez_parallel/example.py,sha256=LGLU6ShWSJtu2zPbGXmQJw5ktJkNlGnRhFjY8OTlePM,366
+ez_parallel/misc.py,sha256=WdAGgdz8rNH3AaDN3K3WBZS-iGgg6ZUPLyzcPP7RfSQ,1488
+ez_parallel/multiprocess.py,sha256=3AhffQXTR4hctsFBG6hvD50pfbmLpLDH1kvKCEW4icU,6175
+ez_parallel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ez_parallel-0.1.0.dist-info/entry_points.txt,sha256=tZoWKRECG6H0eagyX2wt9DXVQ8bPAZMzO7_SSLgpcRk,56
+ez_parallel-0.1.0.dist-info/LICENSE,sha256=IQHTwfPet_R7JL0j-xSBghsn1Xw6WNlyMHGYXPaDrCw,1099
+ez_parallel-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ez_parallel-0.1.0.dist-info/METADATA,sha256=I0uQf4gWwZeYTuXSrXpVMLY6pN0_O8W7Hy1QbM1-ol0,13400
+ez_parallel-0.1.0.dist-info/RECORD,,
