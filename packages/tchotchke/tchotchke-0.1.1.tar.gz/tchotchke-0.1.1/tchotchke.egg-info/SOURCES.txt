@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+tchotchke.egg-info/PKG-INFO
+tchotchke.egg-info/SOURCES.txt
+tchotchke.egg-info/dependency_links.txt
+tchotchke.egg-info/top_level.txt
