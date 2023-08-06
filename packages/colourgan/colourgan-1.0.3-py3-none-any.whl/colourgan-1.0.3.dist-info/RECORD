@@ -1,0 +1,13 @@
+colourgan/__init__.py,sha256=8p0LPGSkwiCqJbV-_sl1DdG-U2l8I_d_QNjwzXiTpHU,141
+colourgan/config.py,sha256=nYdq9WdkSxF7sI-74Xf87V_mZhuiYQjdD4SnRXgDS4g,596
+colourgan/data.py,sha256=BvGKUyJsYHykkOh1qKR7bkwa9QYUtCVPmHYhF6Q7nBs,5135
+colourgan/logger.py,sha256=ZpfuVFOBuaVtkO8lZoKvhOam8KwfTj8ueV1NdHNIOns,483
+colourgan/model.py,sha256=dDJgkEGmMIZ2OEhRsj9Qgo-rG92S2N3r8GwBFSA4cxc,9625
+colourgan/networks.py,sha256=eF7Qop3q4bze_OoU85MLo5LJAmpgmu3ACjI1zN5WXT0,11370
+colourgan/streamlit.py,sha256=6OrJn2dobiwKakSvkRy5YNGMAUX3klyn_g4jRMQqd4s,918
+colourgan/utils.py,sha256=mKAG8mkU3I-a1VclOwAwn7azxhaM4YL_-xPNZHodz00,1380
+colourgan-1.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+colourgan-1.0.3.dist-info/METADATA,sha256=hJxw6YB2n8itJ_blHgwMo3u_Z1GE6bQLyaCN3c-0vbw,3238
+colourgan-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+colourgan-1.0.3.dist-info/top_level.txt,sha256=UhDj6w3erWI5qXd9KkWewJ2OJFBPAKgQnxH_2_i81l0,10
+colourgan-1.0.3.dist-info/RECORD,,
