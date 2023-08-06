@@ -1,0 +1,3 @@
+[console_scripts]
+bordercrop = bordercrop.__main__:main
+
