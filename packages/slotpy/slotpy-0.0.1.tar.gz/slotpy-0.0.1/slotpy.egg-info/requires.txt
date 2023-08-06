@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+vaex
+tk
+plotly
+jupyter
