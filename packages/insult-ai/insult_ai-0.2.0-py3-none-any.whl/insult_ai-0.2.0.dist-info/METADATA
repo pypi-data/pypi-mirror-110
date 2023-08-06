@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: insult-ai
+Version: 0.2.0
+Summary: 
+Author: Richard Brooker
+Author-email: richard@anghami.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: detoxify (>=0.2.2,<0.3.0)
+Requires-Dist: pandas (>=1.2.5,<2.0.0)

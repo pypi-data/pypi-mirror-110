@@ -1,0 +1,3 @@
+[console_scripts]
+insult-ai=insult_ai.console:insult_me
+
