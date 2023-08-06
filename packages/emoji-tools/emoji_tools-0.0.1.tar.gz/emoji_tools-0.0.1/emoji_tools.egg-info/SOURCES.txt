@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+emoji_tools/__init__.py
+emoji_tools/core.py
+emoji_tools.egg-info/PKG-INFO
+emoji_tools.egg-info/SOURCES.txt
+emoji_tools.egg-info/dependency_links.txt
+emoji_tools.egg-info/top_level.txt
+emoji_tools/unicode_codes/__init__.py
+emoji_tools/unicode_codes/de.py
+emoji_tools/unicode_codes/en.py
+emoji_tools/unicode_codes/es.py
+emoji_tools/unicode_codes/fr.py
+emoji_tools/unicode_codes/it.py
+emoji_tools/unicode_codes/pt.py
