@@ -1,0 +1,8 @@
+pytest_perf/plugin.py,sha256=N1-vgIO098Znlqvgw-eZ5VYkDD94UYQq0SJOqJUrbZ4,1233
+pytest_perf/runner.py,sha256=lg3oUxdAX3gKVv7i2zj8p1gzeO5-W8X-3kZDek32Gv0,1420
+pytest_perf-0.2.0.dist-info/LICENSE,sha256=2z8CRrH5J48VhFuZ_sR4uLUG63ZIeZNyL4xuJUKF-vg,1050
+pytest_perf-0.2.0.dist-info/METADATA,sha256=pZgMvyF5p1d1ZKLrR5ak3y4d6V6tHJRAqCFjm703ycc,2072
+pytest_perf-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_perf-0.2.0.dist-info/entry_points.txt,sha256=ODuzmabs_yxFs77k9MAdx-vOIaCpg7DUj0M-WryISQQ,45
+pytest_perf-0.2.0.dist-info/top_level.txt,sha256=Z5ELQ-NcKmPRTy6jpsPHkqaSf0EHX93K-Qj0Br0Wpuk,12
+pytest_perf-0.2.0.dist-info/RECORD,,
