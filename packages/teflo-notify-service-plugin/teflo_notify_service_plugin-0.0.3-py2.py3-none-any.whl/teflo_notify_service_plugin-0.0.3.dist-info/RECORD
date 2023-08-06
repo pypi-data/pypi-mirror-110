@@ -1,0 +1,11 @@
+teflo_notify_service_plugin/__init__.py,sha256=fRe8Btg9gYTDem7pwgmSonZcKNP6l9nq7GkKGz7-mvU,967
+teflo_notify_service_plugin/notify_service_plugin.py,sha256=L5wCV9ctq23DkTH0rmqafyMe4vEBQWcTQ1M2cviSHCk,13147
+teflo_notify_service_plugin/files/schema.yml,sha256=wxPVoruoHT_VPZuoZAIU2xiW-7EOsP11L0gtogOQlDw,2621
+teflo_notify_service_plugin/files/schema_extensions.py,sha256=UxKuiRbr5fomSIxkonU30YjTvoMhwIw2TukcjUZ_RYg,1479
+teflo_notify_service_plugin-0.0.3.dist-info/AUTHORS,sha256=lAAZjFJwaSb6KL8Q_Vh9Xf2_ZeJ7fO6zJV2T3UpOtqE,43
+teflo_notify_service_plugin-0.0.3.dist-info/LICENSE,sha256=KGEkynILDVcDCqO9qMAqrw1FWGYYIXJE9v6I--b1z-w,32463
+teflo_notify_service_plugin-0.0.3.dist-info/METADATA,sha256=-yMd2ZOv4fOH0_TGBRdYYQ-I2apOYLuU4jADqhdFNuY,1255
+teflo_notify_service_plugin-0.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+teflo_notify_service_plugin-0.0.3.dist-info/entry_points.txt,sha256=D-ZEaOr2zP89N_gkDWLjpNIlntdYUzvh_IFDF_jnLqA,96
+teflo_notify_service_plugin-0.0.3.dist-info/top_level.txt,sha256=gHJqW5XjM8ggrgLwqZ0xfj4nMXd1SF_ci37S3niT4z0,28
+teflo_notify_service_plugin-0.0.3.dist-info/RECORD,,
