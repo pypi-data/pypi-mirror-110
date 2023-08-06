@@ -1,0 +1,11 @@
+README.md
+setup.py
+smallPowerDash/appSmallPower_realTime_v3_1.py
+smallPowerDash/appSmallPower_v3_1.py
+smallPowerDash/configFilesSmallPower.py
+smallPowerDash/fitSmallPowerData.py
+smallPowerDash/smallPowerTabs.py
+smallPowerDash.egg-info/PKG-INFO
+smallPowerDash.egg-info/SOURCES.txt
+smallPowerDash.egg-info/dependency_links.txt
+smallPowerDash.egg-info/top_level.txt
