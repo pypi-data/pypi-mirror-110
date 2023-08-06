@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: torch-checker
+Version: 1.0.0
+Summary: my function tools for training neural network with pytorch.
+Home-page: UNKNOWN
+Author: Han Xu
+Author-email: hxu10670@gmail.com
+Maintainer: Han Xu
+Maintainer-email: hxu10670@gmail.com
+License: MIT Licence
+Description: my function tools for training neural network with pytorch. long description
+Keywords: pytorch,function tools
+Platform: any
