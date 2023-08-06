@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyForecasting
+Version: 0.0.0
+Summary: Forecasting Tool for Predictive Analytics
+Home-page: http://github.com/jdvelasq/pyForecasting
+Author: Juan D. Velasquez
+Author-email: jdvelasq@unal.edu.co
+License: MIT
+Keywords: analytics
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides: pyForecasting
+License-File: LICENSE
+
+Forecasting Tool for Predictive Analytics
+
