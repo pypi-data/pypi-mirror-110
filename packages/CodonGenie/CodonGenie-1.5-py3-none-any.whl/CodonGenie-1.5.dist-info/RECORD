@@ -1,0 +1,13 @@
+codon_genie/__init__.py,sha256=yua7QORp0hWV6ogL26l6U8XnKapETOOEp7AAuG2aWt0,105
+codon_genie/client.py,sha256=Z4MmZoc5k8A0Ab9A-ZIe-OJxx9BZYrXt_o-uQxKQY2c,1158
+codon_genie/codon_genie.py,sha256=IiLNQIZFkVw2vLDQkG2HP95NMgh69RgkOHS3Tl47eTw,6233
+codon_genie/example/__init__.py,sha256=EA9FNk1e3408d-lSjs4GLGIThIcbTShUkffWr5IAnJk,202
+codon_genie/example/align.py,sha256=F2XAoSWwpJJM6Fmeqjg2GARq3fthiG9Gr4iXoADGbFM,1507
+codon_genie/test/__init__.py,sha256=yua7QORp0hWV6ogL26l6U8XnKapETOOEp7AAuG2aWt0,105
+codon_genie/test/test_client.py,sha256=XrwFgzfxNMKZbj_NdnNogvRwzw91cs-EKK22UK4QHVM,1661
+codon_genie/test/test_codon_genie.py,sha256=V5ryYiyDtqxD-q8NXklc2pSoJ7YU3_gPNeel9mPHAy8,613
+CodonGenie-1.5.dist-info/LICENSE,sha256=YwlB1AvphKfUBK4gztDAFASyVOZ4kekYCug_6RxxOag,1067
+CodonGenie-1.5.dist-info/METADATA,sha256=Va0AHVd5oZ8X0EoC0jH-J6tYV8flKnX_IbjbZak5cUc,744
+CodonGenie-1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CodonGenie-1.5.dist-info/top_level.txt,sha256=GyWnXA2vpCjunQQzjvi748Mrm5RSc2MgGLAFmo8_834,12
+CodonGenie-1.5.dist-info/RECORD,,
