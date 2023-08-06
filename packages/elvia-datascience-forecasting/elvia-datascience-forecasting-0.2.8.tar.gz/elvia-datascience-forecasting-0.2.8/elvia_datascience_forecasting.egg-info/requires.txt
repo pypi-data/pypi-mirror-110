@@ -1,0 +1,7 @@
+numpy
+pandas
+requests
+azureml-core
+
+[dev]
+jupyterlab
