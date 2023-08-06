@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: labelspark
+Version: 0.1.0
+Summary: Labelbox & Databricks integration helper library
+Home-page: https://github.com/Labelbox/LabelSpark.git
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
