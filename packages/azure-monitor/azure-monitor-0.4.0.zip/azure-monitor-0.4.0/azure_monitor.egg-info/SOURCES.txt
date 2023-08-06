@@ -1,0 +1,7 @@
+README.md
+setup.py
+azure_monitor.egg-info/PKG-INFO
+azure_monitor.egg-info/SOURCES.txt
+azure_monitor.egg-info/dependency_links.txt
+azure_monitor.egg-info/not-zip-safe
+azure_monitor.egg-info/top_level.txt
