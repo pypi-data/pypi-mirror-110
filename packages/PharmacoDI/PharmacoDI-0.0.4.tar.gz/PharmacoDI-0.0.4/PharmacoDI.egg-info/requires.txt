@@ -1,0 +1,9 @@
+dask[dataframe]
+swifter
+datatable
+pandas
+chembl_webresource_client
+wget
+bs4
+selenium
+lxml
