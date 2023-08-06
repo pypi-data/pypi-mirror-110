@@ -1,0 +1,5 @@
+setup.py
+python_fhirtypes.egg-info/PKG-INFO
+python_fhirtypes.egg-info/SOURCES.txt
+python_fhirtypes.egg-info/dependency_links.txt
+python_fhirtypes.egg-info/top_level.txt
