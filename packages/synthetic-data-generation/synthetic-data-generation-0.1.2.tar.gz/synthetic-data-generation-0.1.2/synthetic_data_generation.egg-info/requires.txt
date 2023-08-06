@@ -1,0 +1,13 @@
+thomas-core
+diffprivlib
+pyjanitor
+pandas-flavor
+dill
+lifelines
+dython
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
