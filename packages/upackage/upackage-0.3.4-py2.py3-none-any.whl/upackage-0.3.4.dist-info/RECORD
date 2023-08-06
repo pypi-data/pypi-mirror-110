@@ -1,0 +1,10 @@
+upackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upackage/__main__.py,sha256=ZtK-neVTO_sh1JaaDbOz6F6AUJ6UfvUG_Zbkk9_cReo,381
+upackage/metafile_template.yaml,sha256=VfKNcJ1o6c2RLXXDVcNDxnXENDMxpFyUPxkzpJSsLWo,169
+upackage/upackage.py,sha256=g2buFhG8oGXGVw6L_EYzfBq-5j5f3rV_SHuZwZmWYq4,6407
+upackage-0.3.4.dist-info/LICENSE,sha256=g-TdIUKakft86mekdgMqlkFCXlNV3y4PWJpzi27J_Sw,1057
+upackage-0.3.4.dist-info/METADATA,sha256=eyVF14AbsCKcQy9UBeoGhO5JaOZ1mr8N8ZPHj-DIARU,2090
+upackage-0.3.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+upackage-0.3.4.dist-info/entry_points.txt,sha256=MBJ_3FF_gqA3uY7IY9Z_14gi9OMgxbI4xsXDNcUFJ1g,53
+upackage-0.3.4.dist-info/top_level.txt,sha256=RuzCsUgqUmvjQlZVE3x4RrTN5HWO4YP3ZWdGCtOinlw,9
+upackage-0.3.4.dist-info/RECORD,,
