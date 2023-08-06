@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+iva_tpu.egg-info/PKG-INFO
+iva_tpu.egg-info/SOURCES.txt
+iva_tpu.egg-info/dependency_links.txt
+iva_tpu.egg-info/not-zip-safe
+iva_tpu.egg-info/requires.txt
+iva_tpu.egg-info/top_level.txt
