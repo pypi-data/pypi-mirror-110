@@ -1,0 +1,15 @@
+docstr_coverage/__init__.py,sha256=qmJd6LGW0epnK18_OyvStFN8VeLMaZw2bQ-0o9PmPSQ,552
+docstr_coverage/badge.py,sha256=3ibKiaCEDJj6FlmDGl405AauyTm4jt0rMKQ2VuLT0L4,3005
+docstr_coverage/cli.py,sha256=TBQg3cFdLxyYFfPollK-wn7wx_bwcgdltmMQP4AqLZ8,12645
+docstr_coverage/config_file.py,sha256=xZaxD15708sMkBZCiXy8c9RdVQl2dxThUgSMTZQd9JY,2841
+docstr_coverage/coverage.py,sha256=g8HzT35p5kdHX2MACLHVV-WvJfFPZee2DYTqqDcMDvA,10433
+docstr_coverage/ignore_config.py,sha256=kRKyItIrZhbMdhObGxGgVKt4GfUoObC2y8tDMwOb-x4,2248
+docstr_coverage/printers.py,sha256=a6U3Q4cpnTvZQ34tbXj3wIjU3TttnbwW_JTSV-_dLpg,4811
+docstr_coverage/result_collection.py,sha256=E_ZmrwmnUWG7WyUixGn6OPphfoRXcp6R7YiHy_Ud0vo,12005
+docstr_coverage/visitor.py,sha256=SUipouHfHG2Zb3pjqlUJTz1QOUEnqI_WqILRiDMlkTU,4038
+docstr_coverage/templates/flat.svg,sha256=IcKhhAUCZiqVdjyakV8Nh4dLGnI_Vrh1BfOqRjL509s,1108
+docstr_coverage-2.1.0.dist-info/METADATA,sha256=ZOilwZuPkK88i8j3QWWNPX4oMqUMATu4B7ESQIEMKYc,10343
+docstr_coverage-2.1.0.dist-info/RECORD,,
+docstr_coverage-2.1.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+docstr_coverage-2.1.0.dist-info/entry_points.txt,sha256=qQK1FGTFFiie2eb8jUU8XUQGYwHVdCgzXlhrgGuM-q8,65
+docstr_coverage-2.1.0.dist-info/top_level.txt,sha256=iZ1cg0aDlr3LeYnvxColilouXEvAIfgfGxipr8dI94E,16
