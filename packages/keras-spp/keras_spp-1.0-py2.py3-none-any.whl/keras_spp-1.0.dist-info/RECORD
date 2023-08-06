@@ -1,0 +1,9 @@
+spp/RoiPooling.py,sha256=tK8-KCvr1Ia1gdKzXWNcY2xmjHloI130ndbD3G7xsH0,4923
+spp/RoiPoolingConv.py,sha256=zq-4GAsDaE7bjnYZmd03FlxJKn0iGYK9B5tzp6P_w6g,4549
+spp/SpatialPyramidPooling.py,sha256=ejPEBx0vwuTIaRtr_fo-gZdC3EKB2xx-XlwLXDc9Yik,5000
+spp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keras_spp-1.0.dist-info/LICENSE,sha256=c5bvdbNp1yS_pY8NMuaRxbL62FI2SXa1If12QqfrkDI,1067
+keras_spp-1.0.dist-info/METADATA,sha256=i-1opAPMlFTxrAmbpFhC-PWSUBWMJyj7Zto9v62thCg,351
+keras_spp-1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+keras_spp-1.0.dist-info/top_level.txt,sha256=QCqDblWclL_GAcSWzgdLPgNg84tN0SF68y_spCJI6vc,4
+keras_spp-1.0.dist-info/RECORD,,

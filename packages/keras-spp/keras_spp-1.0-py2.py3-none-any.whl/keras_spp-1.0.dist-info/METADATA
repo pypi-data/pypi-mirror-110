@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keras-spp
+Version: 1.0
+Summary: Spatial pyramid pooling layers for keras, based on https://arxiv.org/abs/1406.4729 . This code requires Keras version 2.0 or greater.
+Home-page: https://github.com/yhenon/keras-spp
+Author: yhenon
+Author-email: yhenon@peanuts.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: keras
+
+UNKNOWN
+
+
