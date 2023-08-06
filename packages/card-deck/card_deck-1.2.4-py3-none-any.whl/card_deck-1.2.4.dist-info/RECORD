@@ -1,0 +1,10 @@
+card_deck/__init__.py,sha256=G5dP4XxeeTyz9mfZ-83ikP_XQ42LcuAKcvUKkQ488eQ,120
+card_deck/card_deck.py,sha256=Gl5cC2ZR9MbJ5Kv2kWMnBC0qwSWWnxJlS9ECvfYNHoQ,12365
+card_deck/examples.py,sha256=zmwocErRJdicUSgB_n9k82KMUOH2jUaJEeUjotp0gYw,2124
+card_deck/model.py,sha256=UeUV0dlztE23sjTRwD19Qqfqdeclk1YzR0yCk_s0boc,12717
+card_deck/tests.py,sha256=tvurILVTAVpDFOXZScpPqfN4gV_vBniFkS9yAW4icGE,4962
+card_deck-1.2.4.dist-info/LICENSE.txt,sha256=1BWD_7CLUkdv6gptoPBgNzsOuX6pYA6NXAiM_yIrOhk,1092
+card_deck-1.2.4.dist-info/METADATA,sha256=SbiVR_Nn37O7Q4-EoiyChevhmhfmsgm4KLltn51k6JM,1430
+card_deck-1.2.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+card_deck-1.2.4.dist-info/top_level.txt,sha256=b9y5JItdpC_W-Yh9NDf4DqwWBf4EYvjfNIJIIdy9AUE,10
+card_deck-1.2.4.dist-info/RECORD,,
