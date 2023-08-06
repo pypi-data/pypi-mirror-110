@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: grolt
+Version: 1.0.6
+Summary: Docker-based development and testing framework for Neo4j
+Home-page: UNKNOWN
+Author: Nigel Small
+Author-email: technige@py2neo.org
+License: Apache License, Version 2.0
+Description: Please see https://github.com/technige/grolt for details.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development

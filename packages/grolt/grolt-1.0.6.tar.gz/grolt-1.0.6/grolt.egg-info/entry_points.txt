@@ -1,0 +1,3 @@
+[console_scripts]
+grolt = grolt.__main__:grolt
+
