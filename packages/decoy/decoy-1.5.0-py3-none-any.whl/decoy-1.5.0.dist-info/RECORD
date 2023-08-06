@@ -1,0 +1,16 @@
+decoy/__init__.py,sha256=d7pyq7fvd_zTbBgT0mGdrU8CF_iF4nlajjuPnxDBock,8905
+decoy/matchers.py,sha256=xJfBuHicxq6r0m_hflJuhSZ298pRdmdsvkvsQYmlqpk,9807
+decoy/mypy/__init__.py,sha256=_Va3O7r0QoniZAD3IaRWo2DHt1OF0o5vgR9gmr48U3s,85
+decoy/mypy/plugin.py,sha256=LLJCfYQdEEayym0S6Re3BZG4gdi3drmyoIjiFXasfw0,1358
+decoy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decoy/pytest_plugin.py,sha256=aT5Cdct0GSlYq40KDpcSa5owOOwsrgpuuGGSHF-AkZM,200
+decoy/registry.py,sha256=VIcAYZtnMCHT1UK8GnW9ghDyToetOa3M1tS6K1DxiAQ,2863
+decoy/spy.py,sha256=B52bfIJMoMOeSWKkN2jzxIzKmbXWZ1bVoZepXr6VJ-s,4458
+decoy/stub.py,sha256=oy2GXD5JhZ67vxVS4wmnprUVycOKVT7X8H2IEWoYnlw,2069
+decoy/types.py,sha256=8f_xcgGRVUJJhBcfxxS4m0VqzTy32EIET_fuuoSh_E4,311
+decoy/warnings.py,sha256=KJhZqcYktokyg1NxlLY8hAvbBDNHSZdc-U6biBKR0VQ,971
+decoy-1.5.0.dist-info/entry_points.txt,sha256=P2wF8zdthEM-3Yo32kxHDhZDjbW6AE489HPWqnvPLOU,38
+decoy-1.5.0.dist-info/LICENSE,sha256=aIX90ancczljXC4kcT790HN8VPOo2RHAeBGA62Ywgbg,1078
+decoy-1.5.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+decoy-1.5.0.dist-info/METADATA,sha256=LU28iZHUgXMweO15s7zwbzojG1WcaX7JFzwJF9taexQ,3086
+decoy-1.5.0.dist-info/RECORD,,
