@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: surface_tracker
+Version: 0.0.1
+Summary: Surface tracker
+Home-page: https://github.com/pupil-labs/surface-tracker
+Author: Pupil Labs GmbH
+Author-email: pypi@pupil-labs.com
+License: LGPL-3.0
+Project-URL: Changelog, https://github.com/pupil-labs/surface-tracker/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://docs.pupil-labs.com/cloud/enrichments/#marker-mapper
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: deploy
+Provides-Extra: example
+License-File: LICENSE
+
+# surface-tracker
+
+

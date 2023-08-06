@@ -1,0 +1,17 @@
+numpy
+
+[deploy]
+build
+twine
+bump2version
+
+[dev]
+pre-commit
+tox
+
+[example]
+opencv-python
+pupil-apriltags
+matplotlib
+Pillow
+msgpack
