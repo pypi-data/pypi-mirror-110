@@ -1,0 +1,4 @@
+flask-restful
+minio
+pymysql
+psutil
