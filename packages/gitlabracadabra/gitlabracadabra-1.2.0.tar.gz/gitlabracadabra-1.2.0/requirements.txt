@@ -1,0 +1,8 @@
+jsonschema>=2.6.0
+python-gitlab>=1.6.0
+PyYAML
+# approximation of libgit2 1.0 transition:
+pygit2<1.1.0;python_version<"3.9"
+pygit2;python_version>="3.9"
+pygithub
+semantic_version
