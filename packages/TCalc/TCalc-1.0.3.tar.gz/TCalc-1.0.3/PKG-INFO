@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: TCalc
+Version: 1.0.3
+Summary: Telescope Calculator! A tool for your telescope
+Home-page: https://github.com/Bhavesh012/Telescope-Calculator
+Author: Bhavesh Rajpoot, Ryan Keenan, Binod Bhattarai, Dylon Benton
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: Telescopes Astronomy Eyepiece Magnification
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
