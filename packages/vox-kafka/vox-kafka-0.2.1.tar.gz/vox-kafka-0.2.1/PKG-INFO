@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vox-kafka
+Version: 0.2.1
+Summary: Sinple kafka abstraction
+License: MIT
+Author: Jhonatan Teixeira
+Author-email: jhonatan.teixeira@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.0,<3.1)
+Requires-Dist: django-health-check
+Requires-Dist: kafka-python
