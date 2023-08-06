@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nychka/__init__.py
+nychka/setup.py
+nychka.egg-info/PKG-INFO
+nychka.egg-info/SOURCES.txt
+nychka.egg-info/dependency_links.txt
+nychka.egg-info/requires.txt
+nychka.egg-info/top_level.txt
+nychka/distribution/__init__.py
+nychka/distribution/approx_class.h
+nychka/distribution/cdf_ufunc.cpp
+nychka/distribution/polylogarithm.cpp
+nychka/distribution/setup.py

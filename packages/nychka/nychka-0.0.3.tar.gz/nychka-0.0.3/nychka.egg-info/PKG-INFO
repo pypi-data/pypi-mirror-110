@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nychka
+Version: 0.0.3
+Summary: TryNychka: trying to figure out
+Home-page: https://github.com/ainmukh/nychka
+Maintainer: Nychka Developers
+Maintainer-email: aynurmukh@gmail.com
+License: MIT
+Download-URL: https://github.com/ainmukh/nychka/releases
+Project-URL: Source Code, https://github.com/ainmukh/nychka
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Just to try it
+
+
