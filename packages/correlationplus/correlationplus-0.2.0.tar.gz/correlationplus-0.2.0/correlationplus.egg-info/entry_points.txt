@@ -1,0 +1,3 @@
+[console_scripts]
+correlationplus = correlationplus.scripts.correlationplus:main
+
