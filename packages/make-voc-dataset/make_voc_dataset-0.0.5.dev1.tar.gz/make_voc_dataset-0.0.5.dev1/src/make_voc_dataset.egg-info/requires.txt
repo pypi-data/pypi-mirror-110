@@ -1,0 +1,5 @@
+mmcv-full
+numpy
+setuptools>=42
+tqdm
+wheel
