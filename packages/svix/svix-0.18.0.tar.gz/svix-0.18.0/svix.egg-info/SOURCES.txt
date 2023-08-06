@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+svix/__init__.py
+svix/api.py
+svix/receiver.py
+svix.egg-info/PKG-INFO
+svix.egg-info/SOURCES.txt
+svix.egg-info/dependency_links.txt
+svix.egg-info/requires.txt
+svix.egg-info/top_level.txt
