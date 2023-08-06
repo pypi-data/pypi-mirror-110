@@ -1,0 +1,13 @@
+napari[all]>=0.4.3
+omero-py
+omero-rois
+
+[dev]
+pytest
+pytest-cov
+pytest-qt
+pre-commit>=1.16.1
+black==19.10b0
+flake8==3.8.3
+mypy==0.782
+pre-commit
