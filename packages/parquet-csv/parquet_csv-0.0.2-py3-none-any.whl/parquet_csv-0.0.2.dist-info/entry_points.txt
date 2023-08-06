@@ -1,0 +1,3 @@
+[console_scripts]
+parquet_to_csv=parquet_csv.parquet_to_csv:parquet_to_csv
+
