@@ -1,0 +1,12 @@
+ko_lm_dataformat/__init__.py,sha256=WxhIm1TWPa3IqBQ3UFkBM36U7_TJw5NRlf_4PdU7iRg,208
+ko_lm_dataformat/archive.py,sha256=aHHJgfWfebmrNQGVyMMoUI8BO74xS8pcr29ZWd52mTI,6758
+ko_lm_dataformat/reader.py,sha256=KqTEF32eMxEBJwfo-SVljmL917rJ_GmDmS41JOLPR58,5381
+ko_lm_dataformat/sentence_cleaner.py,sha256=hVC3RYAtTq5hEZ710zUUZyblBhfYoUo0_dyxPzdN6VI,1005
+ko_lm_dataformat/sentence_splitter.py,sha256=UP5UKotPI0HPSa-sjTzLA97YgEejZuHKel6fp9z6U7I,1218
+ko_lm_dataformat/utils.py,sha256=2MQFX0aSAskWE8NXgJd4VaSeB9_PORNPVsZ9dKLs9Ns,3839
+ko_lm_dataformat/version.txt,sha256=1AGf3dXdiv-rVM66CsD_1S7GgTMxyaQ8J1CrR-xtSCM,8
+ko_lm_dataformat-0.1.0rc2.dist-info/LICENSE,sha256=vMqotsCflOgfBmluF52-BYRku9-8gjttScraHXHoSsM,1022
+ko_lm_dataformat-0.1.0rc2.dist-info/METADATA,sha256=ZuUpc9p-_UWM1R6TJGcgOTx8YHodQQ5FFopSAORdPuA,1607
+ko_lm_dataformat-0.1.0rc2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ko_lm_dataformat-0.1.0rc2.dist-info/top_level.txt,sha256=O75ETwNb0XAelJpT5jxIDXuPhK4P-45nvF6vq7IPJNg,17
+ko_lm_dataformat-0.1.0rc2.dist-info/RECORD,,
