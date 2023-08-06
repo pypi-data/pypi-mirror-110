@@ -1,0 +1,111 @@
+// Monostyle User Configuration
+{
+	"tool_selection": {
+		"markup": {
+			"tools": ["highlight", "heading-level", "indention", "kbd", "leak", "markup-names", "structure"],
+			"ext": ".rst"
+		},
+		"listsearch": {
+			"tools": ["avoid/*", "blender/Editors", "blender/Modes", "blender/UI", "dev/*", "simplify"],
+			"ext": ".rst"
+		},
+		"spelling": {
+			"tools": ["new-word"],
+			"ext": ".rst"
+		},
+		"capitalization": {
+			"tools": ["heading-caps", "pos-case", "start-case", "ui"],
+			"ext": ".rst"
+		},
+		"punctuation": {
+			"tools": ["mark", "number", "pairs", "whitespace"],
+			"ext": ".rst"
+		},
+		"char": {
+			"tools": ["char-search"],
+			"ext": ".rst"
+		},
+		"natural": {
+			"tools": ["article", "grammar", "hyphen", "metric", "overuse", "repeated"],
+			"ext": ".rst"
+		},
+		"code_style": {
+			"tools": ["blank-line", "flavor", "heading-line-length", "line-style", "long-line", "style-extra"],
+			"ext": ".rst"
+		},
+		"monitor": {
+			"tools": ["monitor"],
+			"ext": ""
+		}
+	},
+
+	// Project Directories
+	// -------------------
+
+	"project_dirs": {
+		"doc": "manual",
+		"loc": "locale",
+		"build": "build",
+		"img": "manual/images"
+	},
+
+	// Console Output
+	// --------------
+
+	"console_options": {
+		"show_file_title": true,
+		"file_title_ruler": "-",
+		"compact": true,
+		"show_summary": true,
+		"summary_ruler": "_",
+
+		"formatting": [
+			["filename", "location", "severity", "output", "message", "fix"],
+			["line"]
+		],
+		"show_filename": true,
+		"absolute_path": true,
+		"filename_end": ":",
+
+		"location_column": ":",
+		"show_location_end": false,
+		"location_span": " - ",
+		// add a zero at the start to fill with zeros instead of spaces.
+		"number_width": "0",
+
+		// options: 'long', 'letter', 'ascii', 'icon', 'emoji', 'color', 'shape'
+		"severity_display": "long",
+
+		"output_start": "´",
+		"output_end": "´ ",
+		"output_limit": 100,
+		"output_ellipsis": "…",
+
+		"show_line": true,
+		"line_limit": 200,
+		"line_start": ">>>",
+		"line_ellipsis": "…",
+		"show_marker": false,
+		"marker_start": "▕",
+		"marker_end": "▏",
+		"marker_both": "▌",
+
+		"show_autofix": true,
+		// options: same as severity_display
+		"autofix_display": "long"
+	},
+
+	// Tool Config Override
+	// --------------------
+
+	// module name : {function name : {variable name: variable value}}
+	"config_override": {
+	},
+
+	// Message Template Override
+	// -------------------------
+
+	// template name : string
+	"template_override": {
+	}
+}

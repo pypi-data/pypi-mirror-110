@@ -1,0 +1,113 @@
+{
+"UI":{
+	"flags": "I",
+	"terms":[
+		[["tool[ -]bar"], "Toolbar"],
+		[["top[ -]bar"], "Topbar"],
+		[["side[ -]bar"], "Sidebar"],
+		[["status\\-?bar"], "status bar"],
+
+		[["textbox"], "text field"],
+		[["search ?box"], "search field"],
+		[["check[ -]box", "\\btick", "tickbox", "toogle button"], "checkbox"],
+		[["number input", "number button"], "number field"],
+		[["drop[ -]?down", "drop[ -]?list"], "pop up (menu), selector"],
+		[["flyout", "dialog", "message box"], "pop up"],
+		[["right[ -]click menu", "contextual menu"], "context menu"],
+		[["menu section"], "submenu"],
+		[["menu option"], "just menu"],
+		[["menu item"], "tool or the tool's name"],
+		[["swatch", "color button"], "color field"],
+		[["search menu"], "Menu Search"],
+		[["list box"], "list view"],
+		[["color band"], "color ramp"],
+
+		[["node graph", "node map"], "node tree"],
+		[["noodles"], "node setup"],
+		[["node wires?"], "node link"],
+		[["command(?![ -]line)"], "tool (if not console command)"],
+		[["windows?"], "as an UI element only for an OS window"],
+
+		[["top header", "Info editor header"], "Topbar"],
+		[["Tool Shelf", "toolshelf", "tools shelf", "toolsshelf"], "Sidebar"],
+		[["Property region", "properties panel", "Properties region"], "Sidebar"],
+		[["operator panel"], "Adjust Last Operation panel"],
+
+		[["3D View(?!port)"], "3D Viewport"],
+		[["command prompt", "terminal"], "console"]
+	]
+},
+"Editors":{
+	"flags": "",
+	"terms":[
+		[["3D\\-[vV]iewport"], "3D Viewport"],
+		[["3d [vV]iew", "3[dD] view"], "3D Viewport"],
+		[["(?<!external )image editor"], "Image editor"],
+		[["u[vV].editor", "[uU][v] editor"], "UV editor"],
+		[["compositor", "[cC]ompositor [eE]ditor"], "Compositor"],
+		[["(?<!r[ey]) Node [eE]ditor"], "node editor"],
+		[["texture [nN]ode [eE]ditor",
+		  "[tT]exture node [eE]ditor"], "Texture Node editor"],
+		[["geometry [nN]ode [eE]ditor",
+		  "[gG]eometry node [eE]ditor"], "Geometry Node editor"],
+		[["shader [eE]ditor"], "Shader editor"],
+		[["vse"], "VSE"],
+		[["sequencer", "sequence [eE]ditor"], "Sequencer"],
+		[["movie [cC]lip [eE]ditor",
+		  "[mM]ovie clip [eE]ditor"], "Movie Clip editor"],
+
+		[["dope [sS]heet", "[dD]ope sheet"], "Dope Sheet"],
+		[["timeline"], "Timeline (when the editor)"],
+		[["graph [eE]ditor"], "Graph editor"],
+		[["drivers? [eE]ditor"], "Drivers editor"],
+		[["\\bnla\\b"], "NLA"],
+		[["non.?[lL]inear [Aa]nimation [eE]ditor",
+		  "[nN]on.?linear [Aa]nimation [eE]ditor",
+		  "[nN]on.?[lL]inear animation [eE]ditor"], "Nonlinear Animation editor"],
+
+		[["text [eE]ditor"], "Text editor"],
+		[["python [cC]onsole", "[pP]ython console"], "Python Console"],
+		[["info [eE]ditor"], "Info editor"],
+
+		[["outliner"], "Outliner"],
+		[["properties [eE]ditor"], "Properties editor"],
+		[["file [bB]rowser", "[fF]ile browser"], "File Browser"],
+		[["asset [bB]rowser", "[aA]sset browser"], "Asset Browser"],
+		[["spread[ -]?sheet"], "Spreadsheet"],
+		[["user [pP]references",
+		  "[uU]ser preferences",
+		  "[uU]ser [pP]reference\\b"], "Preferences"],
+
+		[["u[vV].image editor", "UV/Image editor"], "UV editor or Image editor"],
+
+		[["cycles"], "Cycles"],
+		[["eevee", "EEVEE"], "Eevee"],
+		[["workbench", "[wW]ork.bench"], "Workbench"],
+		[["[gG]rease pencil", "grease [pP]encil"], "Grease Pencil"],
+		[["free[sS]tyle"], "Freestyle"],
+		[["[dD]ynamic paint", "dynamic [pP]aint"], "Dynamic Paint"]
+	]
+},
+"Modes":{
+	"flags": "",
+	"terms":[
+		[["object [mM]ode", "Object mode"], "Object Mode"],
+		[["edit [mM]ode", "Edit mode"], "Edit Mode"],
+		[["sculpt [mM]ode", "Sculpt mode"], "Sculpt Mode"],
+		[["vertex [pP]aint [mM]ode",
+		  "[vV]ertex paint [mM]ode",
+		  "[vV]ertex [pP]aint mode"], "Vertex Paint Mode"],
+		[["weight [pP]aint [mM]ode",
+		  "[wW]eight paint [mM]ode",
+		  "[wW]eight [pP]aint mode"], "Weight Paint Mode"],
+		[["texture [pP]aint [mM]ode",
+		  "[tT]exture paint [mM]ode",
+		  "[tT]exture [pP]aint mode"], "Texture Paint Mode"],
+		[["particle [pP]aint [mM]ode",
+		  "[pP]article paint [mM]ode",
+		  "[pP]article [pP]aint mode"], "Particle Paint Mode"],
+		[["pose [mM]ode", "Pose mode"], "Pose Mode"],
+		[["draw [mM]ode", "Draw mode"], "Draw Mode"]
+	]
+}
+}
