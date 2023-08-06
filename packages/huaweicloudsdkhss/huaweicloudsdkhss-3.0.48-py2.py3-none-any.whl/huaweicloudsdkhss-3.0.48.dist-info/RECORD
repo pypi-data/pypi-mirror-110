@@ -1,0 +1,15 @@
+huaweicloudsdkhss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huaweicloudsdkhss/v1/__init__.py,sha256=EbSqDJaqHfIZRZcpAmz3aRziKZLNcBpILOlBntZTMJ0,430
+huaweicloudsdkhss/v1/hss_async_client.py,sha256=LBLE8gC-lf0vTaF3deYExtrtM3zZK9MulPpdD9Wb7MY,6532
+huaweicloudsdkhss/v1/hss_client.py,sha256=IbbN_1Egtc_k3fz7rMGzaJSgwbDXMY8_4AdM8kFZkjA,6479
+huaweicloudsdkhss/v1/model/__init__.py,sha256=BgwYvxOQkXYBLh9yxhDJ8UHZxMV63Jnm4518__o8Rxc,293
+huaweicloudsdkhss/v1/model/host.py,sha256=6hpmNWcZdHhmiEJI0bCzmd-_AMAFJORhsG-sfI4epbQ,19181
+huaweicloudsdkhss/v1/model/list_hosts_request.py,sha256=tmsYG9_jJ1568qqEt1Gqrt9ff76kx6PBJb2P5u4rXjE,10999
+huaweicloudsdkhss/v1/model/list_hosts_response.py,sha256=pcMMwb_FHeEOeX6-kFB9kxwgPiwlhlFtRLMnhdj5M3s,3636
+huaweicloudsdkhss/v1/region/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huaweicloudsdkhss/v1/region/hss_region.py,sha256=rTUZoUkpB_pkxMPwn3ZM7nYJrzsKPDmPrZZTKdCSR84,1501
+huaweicloudsdkhss-3.0.48.dist-info/LICENSE,sha256=4_VSTLuxcsybRG9N4Isktlj1rAIBBsfl0Tjc0gBTijo,604
+huaweicloudsdkhss-3.0.48.dist-info/METADATA,sha256=jVgxc94g6pEX05RkBBT43kxQr2fC1vtSjc8YKsin1Io,1168
+huaweicloudsdkhss-3.0.48.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+huaweicloudsdkhss-3.0.48.dist-info/top_level.txt,sha256=Dx7Twcz-yA3KCAxuCTmeoHabQogPCTZC_HoaXOQ3IQs,18
+huaweicloudsdkhss-3.0.48.dist-info/RECORD,,
