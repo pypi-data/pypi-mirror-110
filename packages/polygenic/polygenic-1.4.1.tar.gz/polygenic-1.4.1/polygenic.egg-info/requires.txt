@@ -1,0 +1,4 @@
+numpy==1.20.3
+progressbar2==3.53.1
+pytabix==0.1
+python-utils==2.5.6
