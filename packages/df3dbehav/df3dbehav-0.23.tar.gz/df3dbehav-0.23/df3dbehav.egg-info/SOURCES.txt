@@ -1,0 +1,16 @@
+README.md
+setup.py
+df3dbehav/augmentation.py
+df3dbehav/dataset.py
+df3dbehav/df3dbehav.py
+df3dbehav/model.py
+df3dbehav/tstrans.py
+df3dbehav/utils.py
+df3dbehav.egg-info/PKG-INFO
+df3dbehav.egg-info/SOURCES.txt
+df3dbehav.egg-info/dependency_links.txt
+df3dbehav.egg-info/entry_points.txt
+df3dbehav.egg-info/requires.txt
+df3dbehav.egg-info/top_level.txt
+df3dbehav/data/__init__.py
+df3dbehav/data/epoch=445-step=6243.ckpt
