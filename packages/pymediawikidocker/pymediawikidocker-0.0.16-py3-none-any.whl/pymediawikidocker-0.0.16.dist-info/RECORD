@@ -1,0 +1,11 @@
+mwdocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwdocker/docker.py,sha256=ximWpt0_K8jkO8pIZP9_ZoIj7YDQfbUkg1JCg9lVfXg,13948
+mwdocker/mw.py,sha256=LSs7RL5kFDW8SOFfHbx1MwfF2jh1OOzWebSBf3fTpUM,2281
+mwdocker/mwcluster.py,sha256=rgZQMIl3X4BHKdoHHA8qpC0OD2M57A-1qJ_f3Ex3gD0,10273
+mwdocker/resources/extensions.json,sha256=Vr1nQdlG6-AfjY4bouyod8z9H2dYtUD7urQbcy3yvN8,877
+pymediawikidocker-0.0.16.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pymediawikidocker-0.0.16.dist-info/METADATA,sha256=5GWtcM5G2_i7cA1wlxtCzwHl19rglyDTmprsIYnbCwE,2106
+pymediawikidocker-0.0.16.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymediawikidocker-0.0.16.dist-info/entry_points.txt,sha256=qhChjmaNU7n_PjoliNskHMM64tN2XWc1bUbi8CcqimY,55
+pymediawikidocker-0.0.16.dist-info/top_level.txt,sha256=GQ3DG-oN9qkbbCHZluf231NO7QgvYwDlSQ0KRp4m9ME,9
+pymediawikidocker-0.0.16.dist-info/RECORD,,
