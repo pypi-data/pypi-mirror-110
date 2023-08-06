@@ -1,0 +1,9 @@
+unoserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unoserver/converter.py,sha256=oOIqi941-nl8AnI7qhTLcot7NQGhI1jDyfVm5oe8LU0,5429
+unoserver/server.py,sha256=jIAhNWl1Pfb6pR_hNQPLeMCykiE6Pxv083oVVCOSMh8,2091
+unoserver-1.0b2.dist-info/LICENSE,sha256=6I6VF83paFVq9oRPS8rLhqvSIH7uYFveBsjkeNNsATM,1064
+unoserver-1.0b2.dist-info/METADATA,sha256=sOPiO3ZGK8K6mihdVpv_aa5v4HDLXjG9jpu6wLBdefQ,5620
+unoserver-1.0b2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+unoserver-1.0b2.dist-info/entry_points.txt,sha256=NKCum92_N1W7ya7HEztfeuehFEhk5BUK03C6KaSNbLM,91
+unoserver-1.0b2.dist-info/top_level.txt,sha256=al7ilgWYcDGbHAOXClkCFguaYbAh0bT4RXf4RJqbobI,10
+unoserver-1.0b2.dist-info/RECORD,,
