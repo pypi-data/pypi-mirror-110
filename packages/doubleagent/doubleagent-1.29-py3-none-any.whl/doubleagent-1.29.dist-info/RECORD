@@ -1,0 +1,17 @@
+doubleagent/__init__.py,sha256=8Ce77Pw7_LTwRf60vksx12gRu9XOlxpEx_97iwWjrWs,420
+doubleagent/alpacomposite.py,sha256=5EhMgvPj3k1hKliUOvYii6zARFwoQMYYMXhLeaLdz6g,375
+doubleagent/horizonpaste.py,sha256=XNGDQagpLgOO4sf-BUcIDsL5EMm3P5BBaEZG0grbCfU,313
+doubleagent/listsplit.py,sha256=ZS-VuRJSPPUxnOsGnbae_jfCPZuixAPbXfMFuYsws8c,80
+doubleagent/ll2l.py,sha256=iZB-VA1DUdrxNI8wBPnTbPTY3sDnRJzxKACfXqUV5R4,174
+doubleagent/multiplesplit.py,sha256=5dpON1v6t7ocWESKpQLLeFoDovu7X2nARq7INtHkNHU,694
+doubleagent/removeAlpha.py,sha256=wUCWueRXS0F18zao3GIt0OeJ3xHUvWVfYs1iJrkwGsQ,820
+doubleagent/report.py,sha256=fa_psGzD8RdFGXPx8lwSPVekB6N2zUxycY52uEHoCzI,109
+doubleagent/rightreplace.py,sha256=1Mk9qmJ4U2BdfTsB6J-00rLcseGMsdDcsW-2B_Vg084,710
+doubleagent/roundimage.py,sha256=u1sI5uCjG9YFptsNPMSDE8_jaFkDns7mypvyDkdx5Mo,589
+doubleagent/s2l.py,sha256=sUJn9nV2oFFJKKPopz81zY6Kjr0G0P6vfqILIMLs0dk,56
+doubleagent/txt2crop.py,sha256=_KjQRpdeLbvvtUd_iPxNTEAfeWd1cmqYov0tmsze46A,2085
+doubleagent/verticalpaste.py,sha256=ARlFjWIqAJyb0g36tJrL3Ac2dtVYaNcdZlVtYdlgsag,323
+doubleagent-1.29.dist-info/METADATA,sha256=xOHM2QLyph2SlYQG_8UkMEnaTWbJXtTDvvgvQ-0hoXo,205
+doubleagent-1.29.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+doubleagent-1.29.dist-info/top_level.txt,sha256=r_XXLXxr5bGLUROU5tnFtR956Ns5kUSjD6BOai4mY1Q,46
+doubleagent-1.29.dist-info/RECORD,,
