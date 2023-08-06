@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: PJWSTK-Tetris_game
+Version: 0.9.7
+Summary: Tetris game
+Home-page: UNKNOWN
+Author: Tomasz Lemke & Krzysztof Skwira
+Author-email: s19471@pjwstk.edu.pl
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# TETRIS 1.01
+
+This is a game made for the purpose of filling out the requirements for our IT studies.
+
+
+## Installation
+
+Run the following to install:
+
+python 
+
+pip install PJWSTK-Tetris1.0_game
+
+## Usage
+
+Run the following to execute:
+
+python
+
+Tetris
+
+
+## And you can enjoy the game :)
+
+
