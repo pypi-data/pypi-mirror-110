@@ -1,0 +1,7 @@
+potaru/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+potaru/__main__.py,sha256=oxPO6zelZkTOfPTuSNzfibQX5HcOi4HFMNhhbAK2ofo,339
+potaru/client.py,sha256=VvZjyhtncvBiKcX4wl_UYDNZZKZdF6CEfJKxYMx8gjY,631
+potaru-0.0.4.dist-info/entry_points.txt,sha256=n-wI8Y2T_omMi7kQKuLdLuKXwjgBLm5dy64Z_tFfGe0,46
+potaru-0.0.4.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+potaru-0.0.4.dist-info/METADATA,sha256=4PLHEHsA8d1dt8hGLlFpndmLFCyx23Q8bMSgtpg9o9s,330
+potaru-0.0.4.dist-info/RECORD,,
