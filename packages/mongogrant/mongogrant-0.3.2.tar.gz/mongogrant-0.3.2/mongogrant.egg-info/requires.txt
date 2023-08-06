@@ -1,0 +1,4 @@
+Click
+pymongo>=3.8
+Flask>=1.0
+requests
