@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: manga-up
+Version: 0.0.1
+Summary: A simple manga update checker and downloader
+Home-page: https://git.kucharczyk.xyz/lukas/manga-up
+Author: Lukáš Kucharczyk
+Author-email: lukas@kucharczyk.xyz
+License: GPLv3+
+Project-URL: Bug Tracker, https://git.kucharczyk.xyz/lukas/manga-up/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# manga-up, a manga updater and downloader
+
+This simple program allows you to check for updates of your favorite manga,
+automatically download new chapters, and send notifications to a service
+of your choice.
+
