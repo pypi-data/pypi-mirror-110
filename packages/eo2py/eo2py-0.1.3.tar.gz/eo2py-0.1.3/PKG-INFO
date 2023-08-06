@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: eo2py
+Version: 0.1.3
+Summary: Everything required to run Python files created by eo2py-maven-plugin
+Home-page: https://github.com/nikololiahim/eo-python
+Author: Mikhail Olokin
+Author-email: olomishcak@outlook.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/nikololiahim/eo-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python runtime for [EO](https://github.com/cqfn/eo)
+A suite of Python objects necessary to execute Python code created by `eo2py-maven-plugin`.
+
+## How to use
+Install from `pip` repository:
+
+```shell
+pip install eo2py
+```
+
+OR 
+
+Install locally:
+
+```shell
+git clone https://github.com/nikololiahim/eo-python.git
+cd eo-python-runtime
+pip install --editable .
+```
+
+
