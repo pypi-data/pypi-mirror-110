@@ -1,0 +1,10 @@
+metaMS/__init__.py,sha256=DxbedzA2L9Kxn0FmLaWuYUQdnvibBwFR9VZRunbzUCg,5333
+metaMS/cli.py,sha256=z2azHSj3BCGDwp_8ZTPX4svf7u5TtAgf1iGeFVYJOsA,3126
+metaMS/gcmsWorkflow.py,sha256=MjCh3FZGp2tIFnd2yH4kxc4JuzaR0G4TPYnxVpltDpQ,7140
+metaMS/metadata_factory.py,sha256=TsObhRQxMvSygW86tC7KPDMOtaex-oLhI6G0WYX53fU,6761
+metaMS-2.1.3.dist-info/LICENSE,sha256=v9TyTQzgVSIKCS7sku1-VrUqqICIkUHg07QMKTv383s,1295
+metaMS-2.1.3.dist-info/METADATA,sha256=p6oLeR_ViyUCUTiCqavKhLZ2p3nd4wpQgBGmPUxPfIU,5631
+metaMS-2.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+metaMS-2.1.3.dist-info/entry_points.txt,sha256=QWtOXj9CbojWMP6kjZByYn-qoOCq13sCpZz-rS858H4,43
+metaMS-2.1.3.dist-info/top_level.txt,sha256=VbHK5v5sQnrmpecbD8FkwXR4MQWxTn1is3zKUZRqhjY,7
+metaMS-2.1.3.dist-info/RECORD,,
