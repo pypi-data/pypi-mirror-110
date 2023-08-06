@@ -1,0 +1,4 @@
+papersize
+reportlab
+sphinx-argparse
+sphinx>=4
