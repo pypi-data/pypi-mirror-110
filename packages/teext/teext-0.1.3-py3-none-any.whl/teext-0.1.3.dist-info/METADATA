@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: teext
+Version: 0.1.3
+Summary: Typing extensions extensions
+Home-page: https://github.com/predictive-analytics-lab/teext
+Author: PAL
+Author-email: info@predictive-analytics-lab.com
+License: Apache License 2.0
+Keywords: typing,python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: typing-extensions (>=3.10)
+
+# teext – typing extensions extensions
+
+Package which provides useful types.
+
+### [Documentation](https://predictive-analytics-lab.com/teext/)
+
+## Examples
+
+### Constraint types without runtime overhead
+
+These types are most useful in conjunction with static type checkers like mypy.
+
+```python
+import teext as tx
+
+a = tx.PositiveInt(5)  # OK
+
+def f(x: tx.PositiveInt) -> None:
+    print(x)
+
+f(a)  # OK
+f(7)  # works at runtime but mypy gives error
+
+b = tx.PositiveInt(-3)  # AssertionError
+```
+
+
