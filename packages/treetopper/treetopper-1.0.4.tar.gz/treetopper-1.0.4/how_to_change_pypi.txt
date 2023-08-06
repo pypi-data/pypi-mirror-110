@@ -1,0 +1,8 @@
+Open POWERSHELL (not cmd)
+
+Navigate to Directory
+
+
+input -> python setup.py sdist
+
+next input -> twine upload --respository-url https://upload.pypi.org/legacy/ dist/*
