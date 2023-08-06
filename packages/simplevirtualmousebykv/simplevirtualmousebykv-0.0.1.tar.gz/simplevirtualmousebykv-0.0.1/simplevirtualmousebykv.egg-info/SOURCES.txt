@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+krishnavyshakmouse/__init__.py
+krishnavyshakmouse/model/__init__.py
+krishnavyshakmouse/model/keypoint_classifier/keypoint_classifier.py
+krishnavyshakmouse/utils/__init__.py
+krishnavyshakmouse/utils/cvfpscalc.py
+simplevirtualmousebykv.egg-info/PKG-INFO
+simplevirtualmousebykv.egg-info/SOURCES.txt
+simplevirtualmousebykv.egg-info/dependency_links.txt
+simplevirtualmousebykv.egg-info/top_level.txt

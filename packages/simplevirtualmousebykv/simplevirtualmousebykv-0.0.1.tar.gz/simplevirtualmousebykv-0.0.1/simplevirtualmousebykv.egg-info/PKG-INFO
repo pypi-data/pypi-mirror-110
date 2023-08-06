@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: simplevirtualmousebykv
+Version: 0.0.1
+Summary: A simple virtual mouse
+Home-page: UNKNOWN
+Author: Krishnavyshak
+Author-email: birdscript.service@gmail.com
+License: MIT
+Keywords: mouse
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+A Simple virtual mouse made by Krishnavyshak
+
+
+Change Log
+==========
+
+0.0.1 (22/06/2021)
+-------------------
+- First Release
+
+
