@@ -1,0 +1,2 @@
+graft potluck_testarea/
+exclude potluck_testarea*/logs* potluck_testarea*/reports* potluck_testarea*/rubrics potluck_testarea*/extensions*

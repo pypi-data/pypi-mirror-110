@@ -1,0 +1,18 @@
+2021-06-26 12:47:17.170 Python[16363:5098766] ApplePersistenceIgnoreState: Existing state will not be touched. New state will be written to /var/folders/sb/njhjnvlx3wz0f_8l_szm1m000000gp/T/org.python.python.savedState
+This is potluck version 0.4.2
+Evaluating functionsTest for user test...
+Submission is (explicit): /Users/pmawhort/projects/potluck/potluck_testarea/test_course/fall2021/submissions/test/test_initial_functions.py
+Evaluating submission:
+    task: functionsTest
+    user: test
+    file: /Users/pmawhort/projects/potluck/potluck_testarea/test_course/fall2021/submissions/test/test_initial_functions.py
+    report: /Users/pmawhort/projects/potluck/potluck_testarea/test_course/fall2021/reports/test/initial-test-functionsTest-20210626@16:47:16-115.json
+    html_report: /Users/pmawhort/projects/potluck/potluck_testarea/test_course/fall2021/reports/test/initial-test-functionsTest-20210626@16:47:16-115.html
+Loading specification for 'functionsTest'
+    loading from: ./specs/functionsTest/spec.py
+...done loading specification
+Evaluating rubric...
+Rendering report to '/Users/pmawhort/projects/potluck/potluck_testarea/test_course/fall2021/reports/test/initial-test-functionsTest-20210626@16:47:16-115.json' and '/Users/pmawhort/projects/potluck/potluck_testarea/test_course/fall2021/reports/test/initial-test-functionsTest-20210626@16:47:16-115.html'...
+...done evaluating submission.
+...evaluation complete.
+completed successfully
