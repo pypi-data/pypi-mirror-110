@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "jayson.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "jayson.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "jayson.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "jayson.hooking.post_release_hook"
+    ]
+}

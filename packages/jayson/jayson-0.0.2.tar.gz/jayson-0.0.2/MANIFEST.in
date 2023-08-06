@@ -1,0 +1,4 @@
+recursive-include jayson *
+global-exclude *.py[cod]
+include VERSION
+
