@@ -1,0 +1,3 @@
+[console_scripts]
+super_ryaoi=super_ryaoi.nori.py:main
+
