@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+card_deck/__init__.py
+card_deck/examples.py
+card_deck/model.py
+card_deck/tests.py
+card_deck.egg-info/PKG-INFO
+card_deck.egg-info/SOURCES.txt
+card_deck.egg-info/dependency_links.txt
+card_deck.egg-info/top_level.txt
