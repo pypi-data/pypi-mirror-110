@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  slai-{{SLAI_PROJECT_NAME}}-{{SLAI_PROJECT_ID}}-workspace:
+    image: public.ecr.aws/m5l6f1y3/slai-project-workspace-beta:latest
+    command:
+      ["/bin/bash", "-c", "tail -f /dev/null"]
+    ports:
+      - 8888
+    volumes:
+      - ./models:/workspace/models
+      - ./handlers:/workspace/handlers
+      - ./.slai:/workspace/.slai
