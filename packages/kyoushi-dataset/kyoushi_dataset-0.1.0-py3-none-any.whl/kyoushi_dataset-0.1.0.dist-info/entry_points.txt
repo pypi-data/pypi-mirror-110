@@ -1,0 +1,3 @@
+[console_scripts]
+cr-kyoushi-dataset=kyoushi.dataset.cli:cli
+
