@@ -1,0 +1,13 @@
+df3dbehav/augmentation.py,sha256=Nt9y5pnFB3VzYimW9-4opvF7N-o-i43mI9lzEdbSmN4,1423
+df3dbehav/dataset.py,sha256=wlb3kyoOjUILoKr1UOPMM3gd2IdPKHT4RPwRId8heuA,2499
+df3dbehav/df3dbehav.py,sha256=AEcSqNpFFdupQLOdWEIQbryxaPkmAA7yYhu5eoLl_OA,1844
+df3dbehav/model.py,sha256=LmWN_2FFm_BR5yueG5lABT1N8B6vLRJf4qtf191jX8E,3758
+df3dbehav/tstrans.py,sha256=ZPKwhXPGozciOjC2FP3oZLYsSEQZBV_8TFLHl_JA0ug,5811
+df3dbehav/utils.py,sha256=GWiM2kxlJWp57ovJp4S684o07OxqQMLFciCppWKf0bM,817
+df3dbehav/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+df3dbehav/data/epoch=445-step=6243.ckpt,sha256=QBRafGGSUqV1ZhKsVHIjVGnaivBsIiT61aZ1zHOlacs,536607
+df3dbehav-0.24.dist-info/METADATA,sha256=7iy79kFsQuZ5439tv_GlILxNYuaDyzj0-uuMXXT195o,1009
+df3dbehav-0.24.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+df3dbehav-0.24.dist-info/entry_points.txt,sha256=cTs5l4bjMH0zpRkedozp3aCDchfi5M_z22tf8YtUx2k,56
+df3dbehav-0.24.dist-info/top_level.txt,sha256=xjA-lpKbyU5aNaTUiy-w-u5Si8HxI0VN4gubrwb6UfE,10
+df3dbehav-0.24.dist-info/RECORD,,
