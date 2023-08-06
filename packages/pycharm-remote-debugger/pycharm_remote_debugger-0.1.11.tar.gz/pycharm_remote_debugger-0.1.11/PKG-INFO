@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pycharm_remote_debugger
+Version: 0.1.11
+Summary: Easily debug your remote project
+Home-page: https://github.com/eliorerz/pycharm-remote-debugger
+Author: Elior Erez
+Author-email: elior123@gmail.com
+License: MIT
+Description: # Pycharm Remote Debugger
+        
+        With PyCharm you can debug your application using an interpreter that is located on the other computer, 
+        for example, on a web server or dedicated test machine.
+        
+        ## Installation 
+        ```shell
+        pip install pycharm_remote_debugger
+        ```
+        
+        ### Steps
+        1. Create a deployment configuration for a remote interpreter.
+           - Ensure that you have SSH access to the remote machine
+        2. Deploy your application to a remote host
+        3. Create a Python Debug Server run/debug configuration
+            - Specify the port number, and the IDE host address
+            - Map the path on the local machine to the path on the remote machine
+        4. Make sure you are installing pycharm_remote_debugger on the remote machine/container   
+        5. Run your software using pycharm_remote_debugger module: 
+           - Create and entry point file that execute your code and login to the debugger.
+           ```python
+           from pycharm_remote_debugger import PycharmRemoteDebugger
+           
+           remote_addr = "10.2.55.1"
+           port = 6789
+           
+           debugger = PycharmRemoteDebugger(remote_addr, int(port))
+           debugger.debug()
+           
+           main()  # run your software here
+           ```
+           - Use the command line: 
+           ```shell
+           python -m pycharm_remote_debugger -r 10.2.55.1 -p 6789 -m my_module_name -k module_arg1 -s -k module_arg2
+           ```
+        6. Start debugger on pycharm
+        7. Debug your program :) 
+        
+        ## Arguments:
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Debuggers 
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
