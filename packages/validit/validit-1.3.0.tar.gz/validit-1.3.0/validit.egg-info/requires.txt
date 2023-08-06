@@ -1,0 +1,20 @@
+termcolor==1.1.0
+
+[:python_version < "3.7"]
+dataclasses
+
+[all]
+pyyaml<5.5,>=5.4
+toml<0.11,>=0.10.2
+
+[dev]
+pytest<6.3,>=6.2
+flake8<3.10,>=3.9
+pyyaml<5.5,>=5.4
+toml<0.11,>=0.10.2
+
+[toml]
+toml<0.11,>=0.10.2
+
+[yaml]
+pyyaml<5.5,>=5.4
