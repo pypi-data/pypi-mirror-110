@@ -1,0 +1,3 @@
+
+include input/*.i
+include input/*.sh
