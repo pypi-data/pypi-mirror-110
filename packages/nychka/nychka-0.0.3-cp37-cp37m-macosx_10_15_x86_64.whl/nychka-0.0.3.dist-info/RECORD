@@ -1,0 +1,11 @@
+nychka/__config__.py,sha256=09N_tDY07-FnZ4cSz3EhVWOehoxFLsAIRsueWHzqajA,2182
+nychka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nychka/setup.py,sha256=sHvtYzkVTpkq3Z_1LrntbaMU4CQZoFnFIe95lIs9UjA,381
+nychka/distribution/__init__.py,sha256=zdQzj-flJ6gTU-AxMNrQH5Tjnvu390VubxY1TUDWz_E,69
+nychka/distribution/cdf_ufunc.cpython-37m-darwin.so,sha256=gROl5r9OTcn237pLOgP2p4azcAZrby5MN2I0fRF_wtI,206952
+nychka/distribution/setup.py,sha256=kreGeGZXUc4hXG45SVm3Y14asJuWIi6w0LJOsEXxRxY,1675
+nychka-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+nychka-0.0.3.dist-info/METADATA,sha256=EiSduc2p8oXo96xJRQeMMzFP1GicMyqg29ZUa0ZxrPA,1082
+nychka-0.0.3.dist-info/WHEEL,sha256=zjhvVxjD6g7O3ejxlonIResSLzKh91a-Z9sfR3zAQ80,111
+nychka-0.0.3.dist-info/top_level.txt,sha256=VUpugju4Sot1Mol3h9t_PEuaPJUzeBOjYAS7R7GgmGI,7
+nychka-0.0.3.dist-info/RECORD,,
