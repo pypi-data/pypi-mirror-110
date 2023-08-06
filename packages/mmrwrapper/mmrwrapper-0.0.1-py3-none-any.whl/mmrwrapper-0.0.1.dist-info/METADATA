@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mmrwrapper
+Version: 0.0.1
+Summary: API-Wrapper WhatIsMyMMR
+Home-page: UNKNOWN
+Author: Sunta
+Author-email: noneofyour@business.com
+License: UNKNOWN
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+Requires-Dist: datetime
+Requires-Dist: functools
+
+
+WhatIsMyMMR - API Wrapper
+
