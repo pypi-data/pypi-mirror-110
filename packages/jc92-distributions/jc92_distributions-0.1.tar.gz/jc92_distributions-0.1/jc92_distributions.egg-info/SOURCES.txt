@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+jc92-distributions/Binomialdistribution.py
+jc92-distributions/Gaussiandistribution.py
+jc92-distributions/Generaldistribution.py
+jc92-distributions/__init__.py
+jc92_distributions.egg-info/PKG-INFO
+jc92_distributions.egg-info/SOURCES.txt
+jc92_distributions.egg-info/dependency_links.txt
+jc92_distributions.egg-info/not-zip-safe
+jc92_distributions.egg-info/top_level.txt
