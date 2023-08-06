@@ -1,0 +1,115 @@
+Metadata-Version: 1.1
+Name: incenp.click-shell
+Version: 2.1.0
+Summary: A shell extension for Click
+Home-page: https://github.com/gouttegd/click-shell
+Author: Damien Goutte-Gattat
+Author-email: dgouttegattat@incenp.org
+License: BSD
+Description: Incenp.Click-Shell - A shell extension for Click
+        ================================================
+        
+        Incenp.Click-Shell is an extension to `click`_ that easily turns your
+        Click-powered Python command-line application into a shell utility. It
+        is built on top of the built in Python `cmd`_ module, with modifications
+        to make it work with Click.
+        
+        
+        Features
+        --------
+        
+        * Adds a "shell" mode **with command completion** to any Click app.
+        * Just a one line change for most click apps.
+        
+        
+        Usage
+        -----
+        
+        Simply replace ``@click.group`` with ``@incenp.click_shell.shell`` on
+        the root level command:
+        
+        .. code-block:: python
+        
+            import click
+            from incenp.click_shell import shell
+        
+            # @click.group()  # no longer
+            @shell(prompt='my-app> ', intro='Starting my app...')
+            def my_app():
+                pass
+        
+            @my_app.command()
+            def testcommand():
+                click.echo("testcommand is running")
+        
+            # more commands
+        
+            if __name__ == '__main__':
+                my_app()
+        
+        
+        When run, you should expect an output like so:
+        
+        .. code-block:: bash
+        
+            $ python my_app.py
+            Starting my app...
+            my-app> testcommand
+            testcommand is running
+            my-app>
+        
+        Using the Incenp.Click-Shell decorator alters the functionality of your
+        program **only** when the program is called without a subcommand
+        argument. Otherwise, your app will function identically to how it did
+        before.
+        
+        
+        History
+        -------
+        
+        Incenp.Click-Shell is a fork of Clark Perkins’ `click-shell`_, motivated
+        by the lack of recent development in the original project and in
+        particular the lack of support for recent versions of Click, which
+        introduced changes that completely broke the original ``click-shell``.
+        
+        Incenp.Click-Shell is used in exactly the same way as the original
+        ``click-shell``, the only difference being that the module to import is
+        named ``incenp.click_shell`` instead of ``click_shell``.
+        
+        Importantly, in this fork Python 2 support has been completely removed.
+        If support for Python 2 is important for you, then you may keep using
+        the original ``click-shell`` module instead; it won’t work with Click 8,
+        but if you’re using Python 2 you’re stuck with older versions of Click
+        anyway, since Click 8 also dropped support for Python 2.
+        
+        
+        Copying
+        -------
+        
+        Incenp.Click-Shell is distributed under a 3-clause BSD license. The full
+        license is included in the LICENSE file of the source distribution.
+        
+        
+        Homepage and repository
+        -----------------------
+        
+        The project is located at https://github.com/gouttegd/click-shell with
+        the manual at https://incenp.org/dvlpt/click-shell/index.html.
+        
+        .. _click: https://click.pocoo.org/
+        .. _cmd: https://docs.python.org/3/library/cmd.html
+        .. _click-shell: https://github.com/clarkperkins/click-shell
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
