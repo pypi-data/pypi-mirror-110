@@ -1,0 +1,6 @@
+asyncio
+aiokafka==0.7.0
+boto3
+crc32c
+python-snappy
+aioredis==1.3.1
