@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pdns_exporter/__init__.py
+pdns_exporter/exporter.py
+pdns_exporter/webapp.py
+pdns_exporter.egg-info/PKG-INFO
+pdns_exporter.egg-info/SOURCES.txt
+pdns_exporter.egg-info/dependency_links.txt
+pdns_exporter.egg-info/entry_points.txt
+pdns_exporter.egg-info/requires.txt
+pdns_exporter.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+SQLAlchemy
+aiohttp
+aiomysql
+requests
