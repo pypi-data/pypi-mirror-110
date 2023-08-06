@@ -1,0 +1,10 @@
+Attribution
+
+Title: WhatIsMyMMR
+
+Creator: Josh Kross
+
+Source: https://euw.whatismymmr.com/ / https://dev.whatismymmr.com/
+
+License: https://creativecommons.org/licenses/by/4.0/
+
