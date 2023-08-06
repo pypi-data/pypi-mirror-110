@@ -1,0 +1,1 @@
+ovos_wake_word_plugin_pocketsphinx
