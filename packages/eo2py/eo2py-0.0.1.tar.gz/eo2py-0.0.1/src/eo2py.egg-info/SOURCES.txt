@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/atoms/__init__.py
+src/atoms/atoms.py
+src/eo2py.egg-info/PKG-INFO
+src/eo2py.egg-info/SOURCES.txt
+src/eo2py.egg-info/dependency_links.txt
+src/eo2py.egg-info/top_level.txt
+src/recursive-dataization/__init__.py
+src/recursive-dataization/atoms.py
+src/recursive-dataization/atoms1.py
+src/recursive-dataization/eoif.py
+src/recursive-dataization/old-fibo.py
+src/recursive-dataization/oldatoms.py
+src/recursive-dataization/that-fibonacci-thing.py
