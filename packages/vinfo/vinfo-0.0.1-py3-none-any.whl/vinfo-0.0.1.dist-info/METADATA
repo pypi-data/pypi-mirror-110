@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vinfo
+Version: 0.0.1
+Summary: video or image file information 
+Home-page: https://github.com/ytakefuji/vinfo
+Author: yoshiyasu takefuji
+Author-email: takefuji@keio.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ytakefuji/vinfo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# vinfo
+This repository shows how to build a pypi library. 
+This is a simle example of vinfo for video or image file information.
+
+# How to run vinfo
+
+$ vinfo videofile
+
+$ vinfo imagefile
+
+# How to install vinfo
+
+$ pip install vinfo
+
+
+
+
