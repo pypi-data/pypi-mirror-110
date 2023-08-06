@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tsp-solvers
+Version: 0.0.1
+Summary: Set of different methods to solve the Travelling Salesman Problem. Each method has its own class
+Home-page: https://github.com/ggsdc/tsp-solvers
+Author: Guillermo González-Santander
+Author-email: g.gsantanderdelacruz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: amply (==0.1.4)
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: PuLP (==2.4)
+Requires-Dist: pyparsing (==2.4.7)
+Provides-Extra: plot
+Requires-Dist: cycler (==0.10.0) ; extra == 'plot'
+Requires-Dist: kiwisolver (==1.3.1) ; extra == 'plot'
+Requires-Dist: matplotlib (==3.4.2) ; extra == 'plot'
+Requires-Dist: numpy (==1.21.0) ; extra == 'plot'
+Requires-Dist: Pillow (==8.2.0) ; extra == 'plot'
+Requires-Dist: python-dateutil (==2.8.1) ; extra == 'plot'
+Requires-Dist: six (==1.16.0) ; extra == 'plot'
+
+UNKNOWN
+
