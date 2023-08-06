@@ -1,0 +1,10 @@
+eclipsegen_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eclipsegen_cli/cmd.py,sha256=y7MRbIG63M0ROpPSXe9uorfDL32HJWO2MCdbAsDjKsg,6122
+eclipsegen_cli/main.py,sha256=Z7tzSXkTk4-yWPwlRwlfD-1qQJXmIyDzk9X9qefxHdY,271
+eclipsegen_cli-0.2.7.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+eclipsegen_cli-0.2.7.dist-info/METADATA,sha256=vYh8iPtCDCsm1JMivjoDjr1oO-sKX32pjETFok__01s,353
+eclipsegen_cli-0.2.7.dist-info/NOTICE,sha256=6d5kE3n-ZqMfVeCLT0Bk8x9xYoSqDEjfp37RQ61hxcA,44
+eclipsegen_cli-0.2.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eclipsegen_cli-0.2.7.dist-info/entry_points.txt,sha256=E2U8d4g7x7wSuR0wHNX-CLVy_V6YNQtGqVk20HtgxdM,57
+eclipsegen_cli-0.2.7.dist-info/top_level.txt,sha256=8F_eImY1fV7xXPu5dw7uChfROzOZoy4-A_XJ2Tn-S5g,15
+eclipsegen_cli-0.2.7.dist-info/RECORD,,

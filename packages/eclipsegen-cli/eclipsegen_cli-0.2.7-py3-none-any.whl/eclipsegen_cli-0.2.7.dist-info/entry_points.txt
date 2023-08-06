@@ -1,0 +1,3 @@
+[console_scripts]
+eclipsegen = eclipsegen_cli.main:main
+
