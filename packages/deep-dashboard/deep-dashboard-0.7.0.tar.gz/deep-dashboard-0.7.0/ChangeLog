@@ -1,0 +1,112 @@
+CHANGES
+=======
+
+0.7.0
+-----
+
+* Update Docker container version
+* Initial cache management using aiocache
+
+0.6.0
+-----
+
+* Implement better locking mechanism
+* Bump deep-dashboard version on Dockerfile
+* Use different cookie names for different backends
+* Fix errors on catalog due to missing keys
+* Include aiojobs dependency
+* Rename function
+* Make download of the catalog actually async
+
+0.5.0
+-----
+
+* Render module information inside the dashboard
+* Load whole DEEP OC catalog from repository
+* Remove the env\_file variable in compose file
+
+0.4.0
+-----
+
+* Implement training history management
+* Remove leftover template
+
+0.3.2
+-----
+
+* Update sample configuration file
+* Add SSL configuration to Docker compose and update options in code
+* Remove Docker container and move to Docker Compose
+* Try to remove UNIX socket on exit
+* requirements: install aiohttp speedups as well
+* Docker: fix runtime configuration
+* Update Dockerfile to install from PyPI
+
+0.3.1
+-----
+
+* Update requirements.txt
+* Rely only on aiohttp client, not on requests
+* Add Dockerfile and docker Makefile entries
+
+0.3.0
+-----
+
+* Use sessions to store oauth\_meta stuff
+* Include locking of tosca directory
+* Pass version when setting configuration
+* Implement memcached to store sessions
+* Add deep-dashboard command and define entrypoint
+* Include link to create development environment
+* Include sample configuration file
+
+0.2.0
+-----
+
+* Add template configuration and deployment creation pages and routes
+
+0.1.0
+-----
+
+* Add version information
+* Open links in new tabs
+* Rename link
+* Remove old orchestrator logo
+* Include favicon
+* Remove prints and use logging
+* Allow to define a configuration file in Makefile
+* Update template, showing metadata for modules
+* Fix auth middleware
+* Update readme
+* Include middleware to handle HTTP errors
+* Initial support for logging
+* Add missing route
+* Remove leftovers from previous version
+* Add missing requirement
+* Add missing requirements
+* Change python versions
+* Update .gitlab-ci.yml
+* Update .gitlab-ci.yml
+* Add .gitlab-ci.yml from template
+* Fix pep8 errors
+* Implement authentication via middleware
+* Change dashboard theme
+* config: start using oslo\_config to manage configuration
+* Organize templates into folders
+* Move related handlers into invidivudla modules
+* Move handlers into a package
+* WIP on configuration
+* Load modules from DEEP OC catalog
+* fix wrong route name
+* deployments: include more actions
+* Remove log from deployment, as we are not using IM for trainings
+* deployments: include deletion of deployments
+* deployments: include initial code and templates
+* Move IAM client to top-level application
+* Remove debug message
+* Separate handlers from app
+* Do not check the virtualenv folder
+* Render the portfolio when entering the dashboard
+* Initial authentication version
+* Add initial skeleton
+* Initial commit
