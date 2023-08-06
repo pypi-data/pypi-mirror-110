@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+setuptools_git_versioning.py
+lcdp_setuptools_git_versioning.egg-info/PKG-INFO
+lcdp_setuptools_git_versioning.egg-info/SOURCES.txt
+lcdp_setuptools_git_versioning.egg-info/dependency_links.txt
+lcdp_setuptools_git_versioning.egg-info/entry_points.txt
+lcdp_setuptools_git_versioning.egg-info/not-zip-safe
+lcdp_setuptools_git_versioning.egg-info/requires.txt
+lcdp_setuptools_git_versioning.egg-info/top_level.txt
