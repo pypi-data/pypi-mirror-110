@@ -1,0 +1,8 @@
+envariable/__init__.py,sha256=zrzE2OSvDIFYK42nad36GxrMYgWx5p2_MmJJ8MmcPXk,253
+envariable/unix.py,sha256=KnPSAQeM9LREhYzqWeBFr5LPsg1ARUoJjNw3Z201oV0,1578
+envariable/windows.py,sha256=GeQqPzMsxmILcwdtsQDN3MA_Az__Qc9-Dmq4xTI0DlQ,815
+envariable-1.1.dist-info/LICENSE,sha256=qYsC0wAOe0GdsPVQpPVxlEOluRvQNbCYXjvm0GUyoYI,1070
+envariable-1.1.dist-info/METADATA,sha256=qXcfJoe779DbNE2ISbTwu4l9XKhiSQw0TxXOys9IUQs,1706
+envariable-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+envariable-1.1.dist-info/top_level.txt,sha256=fkeIGIFGwR4_rGTXSfrQbRExCn_41kKBAYim1yQXC4I,11
+envariable-1.1.dist-info/RECORD,,

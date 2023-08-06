@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: envariable
+Version: 1.1
+Summary: Change System Environment Variable permanently
+Home-page: https://github.com/blueboy-tm/python-envariable/
+Author: Arshia Ihammi
+Author-email: arshiaihammi@gmail.com
+License: MIT
+Download-URL: https://github.com/blueboy-tm/python-envariable/blob/main/dist/envariable-1.0.tar.gz
+Keywords: env,variable,environment,os,system,Environment Variable,environ
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: ~=3.3
+Description-Content-Type: text/markdown
+
+
+Change System Environment Variable permanently
+
+## Install
+```shell
+pip install envariable
+```
+
+## Example
+```python
+from envarible import setenv, unsetenv, getenv, getenvall
+# The variable TEST is stored permanently with the VALUE value
+setenv('TEST', 'VALUE') 
+
+print(getenv('TEST'))
+>>> VALUE
+
+# The TEST variable is permanently deleted
+unsetenv('TEST')
+
+
+print(getenv('TEST'))
+>>> None
+
+# returned all Environment Variable
+all_env = getenvall()
+```
+
+## Example 2
+```python
+from envariable import setenv, getenv
+
+path = getenv('PATH')
+setenv('PATH', f'{path}:/my/dir')
+```
+
