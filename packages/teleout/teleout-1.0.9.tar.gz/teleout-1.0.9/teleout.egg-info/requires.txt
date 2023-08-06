@@ -1,0 +1,3 @@
+pyrogram>=1.0.7
+tgcrypto
+tqdm>=4.57.0
