@@ -1,0 +1,10 @@
+aws_cdk/aws_codestarconnections/__init__.py,sha256=D8AIsFY3eZmYfYn_9lLcHqYMG9jWxrCPMBpOOjcmANo,10720
+aws_cdk/aws_codestarconnections/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_codestarconnections/_jsii/__init__.py,sha256=jdtl8hT39bjplxVBvk8dP63Y6u1FjGik64uYG2cHhMM,386
+aws_cdk/aws_codestarconnections/_jsii/aws-codestarconnections@1.110.0.jsii.tgz,sha256=ZJDSPh0winD5xottqNPYYNNvZIkk390TkH9rQB4y9d8,15945
+aws_cdk.aws_codestarconnections-1.110.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_codestarconnections-1.110.0.dist-info/METADATA,sha256=-uNbKFdxL2AXsR4blM7JW1wVYm7-5MDoGDJTSNeXi24,1715
+aws_cdk.aws_codestarconnections-1.110.0.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_codestarconnections-1.110.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk.aws_codestarconnections-1.110.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_codestarconnections-1.110.0.dist-info/RECORD,,
