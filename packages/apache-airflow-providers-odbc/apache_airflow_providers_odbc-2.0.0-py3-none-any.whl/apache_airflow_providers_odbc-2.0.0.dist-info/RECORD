@@ -1,0 +1,11 @@
+airflow/providers/odbc/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/odbc/get_provider_info.py,sha256=Brdw0SI3VCVtk6oi0jmS7GzoEeG1i2k1LOc4LrIEviM,1812
+airflow/providers/odbc/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/odbc/hooks/odbc.py,sha256=zrW2b-q1ijEdynTmiBRYvyqwEqGxvdMq6-D5XLn2yb0,7664
+apache_airflow_providers_odbc-2.0.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_odbc-2.0.0.dist-info/METADATA,sha256=cThZTJUWR8r9TSOj2qhiSNA_-wL_0tCUEfB30BfA2Ck,5467
+apache_airflow_providers_odbc-2.0.0.dist-info/NOTICE,sha256=irN1W_XwjRh8XRlHEhVpRCSY7NZfQgGdnEfjFvGrxK4,240
+apache_airflow_providers_odbc-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+apache_airflow_providers_odbc-2.0.0.dist-info/entry_points.txt,sha256=_gHt4tgybB-UAo9XIoOnQiR4FoRYwDEmRYNDE-zIxZM,102
+apache_airflow_providers_odbc-2.0.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_odbc-2.0.0.dist-info/RECORD,,
