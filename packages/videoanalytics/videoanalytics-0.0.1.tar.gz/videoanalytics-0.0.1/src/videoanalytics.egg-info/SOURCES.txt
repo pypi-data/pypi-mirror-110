@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/videoanalytics/__init__.py
+src/videoanalytics/example.py
+src/videoanalytics.egg-info/PKG-INFO
+src/videoanalytics.egg-info/SOURCES.txt
+src/videoanalytics.egg-info/dependency_links.txt
+src/videoanalytics.egg-info/top_level.txt
