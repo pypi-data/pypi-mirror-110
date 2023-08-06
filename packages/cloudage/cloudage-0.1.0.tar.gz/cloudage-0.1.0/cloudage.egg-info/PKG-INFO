@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cloudage
+Version: 0.1.0
+Summary: Converts AWS CloudFormation to Graphviz DOT.
+Home-page: UNKNOWN
+Author: Ross Fenning
+Author-email: github@rossfenning.co.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test

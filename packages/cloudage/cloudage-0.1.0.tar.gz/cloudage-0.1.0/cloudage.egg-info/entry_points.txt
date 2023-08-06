@@ -1,0 +1,3 @@
+[console_scripts]
+cloudage = cloudage:main
+

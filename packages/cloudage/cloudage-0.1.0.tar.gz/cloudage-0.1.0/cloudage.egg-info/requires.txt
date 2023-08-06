@@ -1,0 +1,6 @@
+setuptools
+
+[test]
+pytest
+pytest-pikachu
+pytest-mypy
