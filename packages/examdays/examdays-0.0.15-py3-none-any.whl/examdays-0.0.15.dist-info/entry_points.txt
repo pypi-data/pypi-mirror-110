@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        examdays=examdays.function:cli
+        
