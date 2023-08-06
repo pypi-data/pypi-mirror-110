@@ -1,0 +1,5 @@
+include README.rst
+include gnodatapackages/*.csv
+include gnodatapackages/*.txt
+include gnodatapackages/*.bin
+include gnodatapackages/*.ftz
