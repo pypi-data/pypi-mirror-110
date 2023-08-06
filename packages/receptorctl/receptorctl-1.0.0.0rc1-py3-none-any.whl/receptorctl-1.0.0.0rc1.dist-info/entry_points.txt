@@ -1,0 +1,3 @@
+[console_scripts]
+receptorctl = receptorctl:run
+
