@@ -1,0 +1,10 @@
+gytrash/__about__.py,sha256=ZSRiJ3Vv0hnl0TXNCgdb_YyQUfk6TLOpixYwPyBUTPw,3633
+gytrash/__init__.py,sha256=sIdFUfa0bDmYlIaTqKschsBdzB2g1mZ9CozYQoQvN-g,1622
+gytrash/logging_mixin.py,sha256=hNyuUcdyXWpQjV-KicMi0pGd0DXRm5hrcxjitCcuB_k,1301
+gytrash/handlers/__init__.py,sha256=x8p5F_368z-qRX8u020erKaQutZYNoDXUI_9-_UVOM0,41
+gytrash/handlers/slack.py,sha256=PF4qmSbAGhXLtqW0VqCm_YrjCEE2nith2-tZAQgdzAI,3330
+gytrash-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gytrash-0.0.9.dist-info/METADATA,sha256=aVpVDCaIJX4r-V70RNyjmmKN6thv2UJZ8UDwSF4DjEw,2416
+gytrash-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gytrash-0.0.9.dist-info/top_level.txt,sha256=naz_3LZTWMZalzlDOrj2rfDfu0zxxWtB9ATK9BDn7aU,8
+gytrash-0.0.9.dist-info/RECORD,,
