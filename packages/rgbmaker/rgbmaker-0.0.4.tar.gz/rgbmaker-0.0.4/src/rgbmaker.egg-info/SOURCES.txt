@@ -1,0 +1,9 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.py
+src/rgbmaker.egg-info/PKG-INFO
+src/rgbmaker.egg-info/SOURCES.txt
+src/rgbmaker.egg-info/dependency_links.txt
+src/rgbmaker.egg-info/requires.txt
+src/rgbmaker.egg-info/top_level.txt

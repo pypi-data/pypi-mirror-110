@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rgbmaker
+Version: 0.0.4
+Summary: A python package which communicates to different astronomical services and fetches fits and numerical data.
+Home-page: https://github.com/avialxee/rgbmaker
+Author: Avinash Kumar
+Author-email: avialxee@gmail.com
+License: UNKNOWN
+Description: # rgbmaker
+        A python package which communicates to different astronomical services and fetches fits and numerical data.
+        
+        # Developement
+        ```bash
+        $ pip install -e .[dev]
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Description-Content-Type: text/markdown
+Provides-Extra: dev
