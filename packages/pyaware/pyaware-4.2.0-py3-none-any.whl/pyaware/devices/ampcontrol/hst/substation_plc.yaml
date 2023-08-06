@@ -1,0 +1,1054 @@
+default_cos: &default_cos
+  [state]
+  
+flag_send: &flag_send
+  [time, 300]
+  
+data_send: &data_send
+  [time, 60]
+
+sources:
+  poll:
+    poll_interval: 5
+    blocks:
+      - [10001, 10064]
+      - [30001, 30025]
+parameters:
+  transformer-oil-temperature-trip-latched:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10001
+      idx: transformer-oil-temperature-trip-latched
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  transformer-low-oil-trip-latched:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10002
+      idx: transformer-low-oil-trip-latched
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  transformer-tank-pressure-trip-latched:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10003
+      idx: transformer-tank-pressure-trip-latched
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-xy-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10004
+      idx: ht-xy-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-1-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10005
+      idx: outlet-1-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-2-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10006
+      idx: outlet-2-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-3-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10007
+      idx: outlet-3-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-4-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10008
+      idx: outlet-4-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-5-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10009
+      idx: outlet-5-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-6-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10010
+      idx: outlet-6-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-7-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10011
+      idx: outlet-7-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-8-relay-discrepancy-fault:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10012
+      idx: outlet-8-relay-discrepancy-fault
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  safety-relay-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10013
+      idx: safety-relay-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-mcb-shunt-trip-active:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10014
+      idx: ht-mcb-shunt-trip-active
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-mcb-undervoltage-active:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10015
+      idx: ht-mcb-undervoltage-active
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-mcb-trip-x-relay-energised:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10016
+      idx: ht-mcb-trip-x-relay-energised
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-mcb-trip-y-relay-energised:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10017
+      idx: ht-mcb-trip-y-relay-energised
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-1-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10018
+      idx: outlet-1-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-1-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10019
+      idx: outlet-1-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-1-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10020
+      idx: outlet-1-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-2-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10021
+      idx: outlet-2-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-2-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10022
+      idx: outlet-2-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-2-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10023
+      idx: outlet-2-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-3-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10024
+      idx: outlet-3-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-3-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10025
+      idx: outlet-3-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-3-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10026
+      idx: outlet-3-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-4-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10027
+      idx: outlet-4-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-4-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10028
+      idx: outlet-4-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-4-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10029
+      idx: outlet-4-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-5-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10030
+      idx: outlet-5-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-5-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10031
+      idx: outlet-5-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-5-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10032
+      idx: outlet-5-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-6-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10033
+      idx: outlet-6-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-6-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10034
+      idx: outlet-6-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-6-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10035
+      idx: outlet-6-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-7-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10036
+      idx: outlet-7-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-7-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10037
+      idx: outlet-7-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-7-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10038
+      idx: outlet-7-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-8-eflo-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10039
+      idx: outlet-8-eflo-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-8-ec-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10040
+      idx: outlet-8-ec-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-8-fc-trip:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10041
+      idx: outlet-8-fc-trip
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-1-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10042
+      idx: outlet-1-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-2-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10043
+      idx: outlet-2-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-3-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10044
+      idx: outlet-3-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-4-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10045
+      idx: outlet-4-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-5-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10046
+      idx: outlet-5-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-6-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10047
+      idx: outlet-6-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-7-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10048
+      idx: outlet-7-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-8-glanded-mode-selected:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10049
+      idx: outlet-8-glanded-mode-selected
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-earth-switch-open:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10050
+      idx: ht-earth-switch-open
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  ht-oc-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10051
+      idx: ht-oc-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  backup-el-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10052
+      idx: backup-el-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  main-txf-ner-monitor-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10053
+      idx: main-txf-ner-monitor-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  main-txf-ner-monitor-watchdog-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10054
+      idx: main-txf-ner-monitor-watchdog-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  smart-relay-trip-output-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10055
+      idx: smart-relay-trip-output-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-1-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10056
+      idx: outlet-1-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-2-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10057
+      idx: outlet-2-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-3-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10058
+      idx: outlet-3-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-4-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10059
+      idx: outlet-4-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-5-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10060
+      idx: outlet-5-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-6-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10061
+      idx: outlet-6-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-7-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10062
+      idx: outlet-7-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  outlet-8-efl-cb-relay-healthy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 10063
+      idx: outlet-8-efl-cb-relay-healthy
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *default_cos
+          - *flag_send
+  transformer-oil-temperature:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30001
+      idx: transformer-oil-temperature
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  transformer-oil-temperature-minimum:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30003
+      idx: transformer-oil-temperature-minimum
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  transformer-oil-temperature-maximum:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30005
+      idx: transformer-oil-temperature-maximum
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  current-backup-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30007
+      idx: current-backup-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-1-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30009
+      idx: outlet-1-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-2-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30011
+      idx: outlet-2-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-3-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30013
+      idx: outlet-3-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-4-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30015
+      idx: outlet-4-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-5-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30017
+      idx: outlet-5-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-6-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30019
+      idx: outlet-6-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-7-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30021
+      idx: outlet-7-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
+  outlet-8-el:
+    source: poll
+    form:
+      type: ParamCType
+      address: 30023
+      idx: outlet-8-el
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - *data_send
