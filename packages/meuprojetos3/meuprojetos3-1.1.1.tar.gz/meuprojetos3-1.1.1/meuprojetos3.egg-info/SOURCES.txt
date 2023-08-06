@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+S3Upload/__init__.py
+S3Upload/s3.py
+meuprojetos3.egg-info/PKG-INFO
+meuprojetos3.egg-info/SOURCES.txt
+meuprojetos3.egg-info/dependency_links.txt
+meuprojetos3.egg-info/top_level.txt
