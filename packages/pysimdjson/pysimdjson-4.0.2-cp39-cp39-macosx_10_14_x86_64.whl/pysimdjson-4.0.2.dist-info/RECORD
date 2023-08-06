@@ -1,0 +1,9 @@
+csimdjson.cpython-39-darwin.so,sha256=USdD912omhaljZQFSOZ4P7l3Z6EdP7VPVvmrIHKrd3Q,483024
+simdjson/__init__.py,sha256=53_eEId5yidf9QbKSg9-0WY8deFCGSMoEji8e1ZYNUw,1495
+simdjson/__init__.pyi,sha256=R-0bvr0tqeaDlAjvLAoirNrFF4nbX6v9rZiCT9mhZ_o,2507
+simdjson/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pysimdjson-4.0.2.dist-info/LICENSE,sha256=EGfDCmkqUvZsO4wb1t8m7919hKQ--OvhDMs5X3553ew,1208
+pysimdjson-4.0.2.dist-info/METADATA,sha256=YWUMln6voflkChpncYDE9AfOSJcfXX8BPxs5n_DCfh0,2045
+pysimdjson-4.0.2.dist-info/WHEEL,sha256=7vkJ3ZnexegyTUl8grQkOVww_TVBMjxMIgcotcWEQj4,110
+pysimdjson-4.0.2.dist-info/top_level.txt,sha256=llYcylPIrtsro1ULjUe-uLEK435CizKAsMAixqQStyI,19
+pysimdjson-4.0.2.dist-info/RECORD,,
