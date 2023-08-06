@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: python-bigquery-validator
+Version: 0.0.1a7
+Summary: Python module for validating BigQuery sql queries with support for Jinja templated variables
+Home-page: https://github.com/tunnelWithAC/python-bigquery-validator
+Author: Conall Daly
+Author-email: conalldalydev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Python BigQuery Validator
+Python module for validating BigQuery sql queries with support for Jinja templated variables
+
+This package was built with the goal of automating testing of sql for [Apache Airflow](https://github.com/apache/airflow) dags.
+
+```python
+pip install python-bigquery-validator==0.0.1a3
+```
+
+python -m bigquery_validator dry_run_query 'select true'
+
+```python
+python -m bigquery_validator -f dry_run_query -p 'select true'
+render_templated_query 'select date("{{ params.date }}") as date'
+validate_query 'select true'
+validate_query_from_file './valid_query.sql'
+```
+
+### Build Instructions
+Build steps
+```python
+python3 -m pip install --upgrade build
+python3 -m build
+```
+
+Upload
+```python
+python3 -m pip install --upgrade twine
+python3 -m twine upload --repository pypi dist/*
+```
+
+
