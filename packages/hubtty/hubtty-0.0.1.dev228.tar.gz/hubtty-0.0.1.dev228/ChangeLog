@@ -1,0 +1,217 @@
+CHANGES
+=======
+
+* Be more consistent with github terminology
+* Implement Close/Reopen pull request
+* Fix display of labels in change view
+* Add ability to set labels to PRs
+* Sync PR labels
+* Sync repo labels
+* Fix Cancel button for merge dialog
+* Avoid overwriting the dialog variable
+* Remove Merge button from commit row
+* Implement merge dialog
+* Save pending merges to a dedicated table
+* Use change.canMerge() where possible
+* Document merge property in review key
+* Implement the missing merge actions
+* Fix 404 while syncing change after merge
+* Expand scope to allow merging to repo
+* Remap merge change to meta m
+* Introduce change.canMerge()
+* Rename Submit to Merge
+* Drop commit can\_submit
+* Properly detect if we can merge a change
+* Initial WIP for merging PRs from Hubtty
+* Account for HTTP 400 errors too
+* Add project can\_push
+* Discard non-available repositories
+* Rework project sync
+* Fix call to SearchCompiler() for easier debugging
+* Fix integer and number tokenization
+* Do not assume commits are unique
+* Do not assume PR has commits
+* Fix upload review event type
+* Remove confusing paragraph about github installations
+* Update links in Contributing doc
+* Update issue tracker's URL
+* Remove incorrect install instruction
+* Remove unused gitreview file
+* Order checks alphabetically
+* More DB tweaking
+* Update models to reflect DB
+* Update indices
+* Remove file status
+* Remove approval labels
+* Rename categories to review\_states
+* Rename approval.category to approval.state
+* Rename getChangeByID to getChangeByChangeID
+* Removed unused commit fields
+* Restrict commit regex a bit
+* Make bz regex broader
+* Add note about replacement order
+* Apply BZ replacement before sha
+* Add example configuration file for OpenShift
+* Update reference-hubtty.yaml with useful commentlinks
+* Document reviewkeys
+* Implement review key
+* Ensure uniqueness for approval
+* Skip pending reviews
+* Remove duplicate approvals from DB
+* There can be only one vote per user per commit
+* Fix commit search operator
+* Fix change search operator
+* Rename status search operator to state
+* Remove message and comment search operators
+* Somewhat implement \`in\` search operator
+* Remove label search operator
+* Remove unused \`ref\` search operator
+* Alias base search operator to branch
+* Remove \`project\` and \`projects\` search operator
+* Add ability to search within a user's or org's repo
+* Implement updated search operator
+* Implement created search operator
+* Remove broken is:reviewed search operator
+* Implement review search operators
+* Implement involves query operator
+* Rename reviewer search operator to reviewed-by
+* Implement commenter search operator
+* Implements \`mentions:USERNAME\` search operator
+* Remove is:submitted query
+* Alias is:abandoned to is:unmerged
+* Fix is:abandoned query
+* Sync projects in batch of 10
+* Filter our invalid changes from query results
+* Better handle rate limiting
+* Initial support for rate limiting
+* Update REST URL for statuses
+* Remove old checks during sync
+* Remove checker table
+* Delete commit that no longer belong to change
+* Fix condition for showing job result
+* Fix search query to sync all changes that need a sync
+* Tolerate empty values in check results
+* Adjust welcome dialog height
+* More explicit HTTP error messages
+* Update welcome message
+* Changes to reference-hubtty.yaml to make it the default config
+* Create a default configuration file if missing
+* Document the new api-url config
+* Use XDG base directories for all hubtty's files
+* Guard against empty listbox
+* Remove the need for setting own username
+* Add additional-repositories setting
+* Fix scope to get access to org repos list
+* Fix handling of configuration file
+* Create base dir for config file if missing
+* Implement oauth device flow for obtaining auth token
+* Remove unused code
+* Introduce api-url to differentiate with service URL
+* Fix possible constraint error when saving draft approval
+* Tolerate empty PR description
+* Account for possible empty check url or description
+* Fix query when subscribing to more than one repo
+* Improve default vi keymap
+* Diff action shows the diff of the first commit
+* Add support for pagination
+* Comment out non-implemented sync tasks
+* Sync user details when creating them locally
+* Default to username when we don't know the user's name
+* Remove outdated mention of Patch Set on draft messages
+* Remove note about message duplicates
+* Enable review upload
+* Enable mass review from change list
+* Create draft message when saving comments
+* Submit code reviews to github
+* Save reviews to the database
+* Set reviews on change requests
+* Comment out abandon/restore changes
+* Update help message to reflect what the action does
+* Rename revision to commit in UI elements
+* A couple more revision -> commit changes
+* Comment out upload task until it is implemented
+* Add reference to commit in approval
+* Use author username for hide-comments
+* Associate inline comments with reviews
+* Show original line for inline comments in change view
+* Add file.current\_comments to filter our outdated inline comments
+* Best guess which inline comment goes with which review
+* Order message by creation time
+* Fix sync after recent changes
+* Display all inline comments in change view
+* Fix initial quoted text for Reply messages
+* Always reply to the latest commit
+* Pick change messages directly from message table
+* Break dependency between commit and messages
+* Make comments belong to change
+* Actually delete the branch
+* Refresh comments on edit
+* First pass at showing reviews votes
+* Change search query in examples
+* Drop uniqueness on change number
+* Search: rename owner to author
+* Remove gertty-env from gitignore
+* Use force option to delete unmerged refs
+* Prune old changes from database
+* Rename change status -> state
+* Start using merged attribute of changes
+* Remove outdated flag after change sync
+* Refresh missing fields from changes
+* Add merged and mergeable to changes
+* Fix project deletion
+* Show shortened sha of commit rather than PS number
+* Strip carriage return chars from comments
+* Add a periodic task to sync accounts
+* Prevent the app from exiting when reviewing
+* Slightly improve comment view
+* Fetch issues comments
+* Get PR reviews
+* Add commit comments in base
+* Fix change refresh
+* Fix new changes sync
+* Show test results in change view
+* Sync commit checks when available
+* Sync commit files
+* Fetch remote refs
+* Implement next/previous commit in diff view
+* Disable the select patchsets dialog
+* Fix title for diff view
+* Rename revision to commit in diff view
+* Slightly improve commit list
+* List commits in change view
+* Rename revision table to commit
+* Remove change conflicts
+* Fix more calls to SyncChangeTask
+* We need the html\_url after all
+* Fix permalink to the PR's URL
+* Show the PR description in change view
+* Store body, additions and deletions in change
+* Fix migration
+* Remove topic from change table
+* Remove last remnants of change topics
+* Remove topics from change and change list views
+* ChangeId is a gerrit concept and doesn't apply to github workflow
+* Prevent Change view from crashing
+* Disable upload task until it's ready
+* Enable sync tasks that are ready
+* Implement SyncProjectBranchesTask
+* Sync project if it does not exist
+* Fix change branch
+* We don't expect to see threaded changes
+* First try at listing PRs
+* First pass at inserting changes in DB
+* We're already retrieving open changes
+* Fetch latest PRs from projects
+* Fix a bunch of pyflakes issues
+* Rename the project to Hubtty
+* Retrieve the list of all repos the user is affiliated to
+* First stab at getting users' repos
+* Comment out all sync tasks that are not supposed to work yet
+* Make authenticated requests to github API
+* Get SyncOwnAccountTask to work with Github
+* Github API doesn't expose version
+* Remove unused options from config file
+* Make url optional and use token instead of password
+* Remove unused example config files
+* s/gertty/ghubtty
+* Fork Gertty
