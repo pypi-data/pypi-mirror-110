@@ -1,0 +1,9 @@
+setup.py
+htmlparsers/__init__.py
+htmlparsers/google_search.py
+htmlparsers.egg-info/PKG-INFO
+htmlparsers.egg-info/SOURCES.txt
+htmlparsers.egg-info/dependency_links.txt
+htmlparsers.egg-info/requires.txt
+htmlparsers.egg-info/top_level.txt
+test/test_google_search_desktop.py
