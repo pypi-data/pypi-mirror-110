@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bqplot_gl/__init__.py
+bqplot_gl.egg-info/PKG-INFO
+bqplot_gl.egg-info/SOURCES.txt
+bqplot_gl.egg-info/dependency_links.txt
+bqplot_gl.egg-info/not-zip-safe
+bqplot_gl.egg-info/requires.txt
+bqplot_gl.egg-info/top_level.txt

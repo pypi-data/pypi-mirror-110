@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bqplot-gl
+Version: 0.0.0
+Summary: Plugin to bqplot powered by WebGL.
+Home-page: https://github.com/bqplot/bqplot-gl
+Author: The BQplot Development Team
+License: Apache
+Description: # bqplot-gl
+        
+Keywords: ipython,jupyter,widgets,graphics,plotting,d3,webgl
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
