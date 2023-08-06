@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+System_Information/__init__.py
+System_Information/__main__.py
+System_Information.egg-info/PKG-INFO
+System_Information.egg-info/SOURCES.txt
+System_Information.egg-info/dependency_links.txt
+System_Information.egg-info/entry_points.txt
+System_Information.egg-info/requires.txt
+System_Information.egg-info/top_level.txt

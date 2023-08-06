@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: System-Information
+Version: 1.0
+Summary: It finds basic information about the system.
+Home-page: UNKNOWN
+Author: Udit Vashisht
+Author-email: admin@saralgyaan.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+System
+It finds the infromation about the system.
+
+Installation
+pip install System_Iformation
+
+How to use it?
+
+Use it like how you use OS Module in Python.
+
+License
+
+© 2021 Ram Prasanna
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
