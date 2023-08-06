@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/escriptorium_connector/__init__.py
+src/escriptorium_connector/connector.py
+src/escriptorium_connector.egg-info/PKG-INFO
+src/escriptorium_connector.egg-info/SOURCES.txt
+src/escriptorium_connector.egg-info/dependency_links.txt
+src/escriptorium_connector.egg-info/top_level.txt
