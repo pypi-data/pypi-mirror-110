@@ -1,0 +1,1 @@
+PyBoolNet @ git+https://github.com/hklarner/PyBoolNet#egg=2.3.0
