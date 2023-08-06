@@ -1,0 +1,11 @@
+AreaVolume/ComputeCylinderVolume.py,sha256=K1TMvn_4-2WTpSwDUMsigXETnqaF7h0xY_az8ACArFE,101
+AreaVolume/ComputeRectangleArea.py,sha256=UPxpEe9H7ir6PVZ0luQGQjNhwWqts_TcF67gFNs8XCE,71
+AreaVolume/__init__.py,sha256=QimY7Kd3eA6W1UYUM6_-4LOWpQrvVJuLK7F6Di30Zi8,118
+AreaVolume/SimpleMath/ComputeCircleAera.py,sha256=PZis55Fgr4rEKhRSxFSJa-ofTGYSPc8rBfzKa7-dIx4,85
+AreaVolume/SimpleMath/ComputeCircleArea.py,sha256=PZis55Fgr4rEKhRSxFSJa-ofTGYSPc8rBfzKa7-dIx4,85
+AreaVolume/SimpleMath/ComputeSphereVolume.py,sha256=4VVTRb__rkjiH0gFsjMzP4UXlDaNR_y5V5s70s5HEwg,91
+AreaVolume/SimpleMath/__init__.py,sha256=Vz9VCcDERmx7BHBOHfy0siinpdpBU9WBQnb635wHHC0,108
+AreaVolume-1.0.4.dist-info/METADATA,sha256=QnTrL6EHXNMtsNz4pF-t-uNACUGKB55hCghagpNHIRs,559
+AreaVolume-1.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+AreaVolume-1.0.4.dist-info/top_level.txt,sha256=lx3-3KqcleLGHJGnZgBAIjPmBYOkmMchZApqPH5a0G4,11
+AreaVolume-1.0.4.dist-info/RECORD,,
