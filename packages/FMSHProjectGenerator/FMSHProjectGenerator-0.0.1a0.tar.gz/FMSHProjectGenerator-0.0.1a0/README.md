@@ -1,0 +1,114 @@
+<h1 align="center">
+    <br>
+    FMSH Project Generator
+    <br>
+</h1>
+<h2 align="center">
+复旦微MCU工程生成工具
+</h2>
+
+
+
+## 简介
+FMSHProjectGenerator是基于python开发的复旦微电子通用MCU的工程生成工具，只需通过一份yaml工程描述文件，就可以生成Keil、IAR、以及各类基于GCC的IDE等的工程。FMSHProjectGenerator也可以通过各个IDE的工程文件来导入工程并生成.yaml工程描述文件，从而避免大部分繁重的工程描述文件编写工作。
+
+本项目是用作复旦微电子通用MCU的工程生成工具，不正式支持其他MCU芯片。当然，本工具在添加相应芯片的配置文件后可以用于支持其他ARM-Cortex M的芯片工程的生成；通过自定义工程生成器类（Generator）和工程导入器（Converter），还可以自由拓展支持生成的IDE种类和支持导入的IDE种类。
+
+本项目的开发是受到开源项目 [project_generator](https://github.com/project-generator/project_generator) 的启发。
+
+## 安装
+
+用户可以从[PyPI Package](https://pypi.org/project/FMSHProjectGenerator/)下载安装该工具包进行安装，或者通过pip命令安装：
+
+``` shell
+$ pip install -U FMSHProjectGenerator
+```
+
+## 使用
+
+目前FMSHProjectGenerator支持2种功能：生成工程和导入工程。以下示例简单介绍了这两种功能的使用方法。
+
+### 生成工程
+
+以下代码演示了如何通过yaml工程描述文件生成Keil5工程（假定希望在**'./my_project_path'**处生成Keil5工程文件，工程描述文件位于**'./my_project_path/project.yaml'**）。工程文件会生成在该目录下的MDK-ARM文件夹中，没有会新建文件夹：
+
+``` python
+from FMSHProjectGenerator.generators import Keil5Generator
+from FMSHProjectGenerator import ProjectGenerator
+
+# 创建ProjectGenerator实例
+prog_gen = ProjectGenerator()
+
+# 根据传入的yaml文件生成工程
+prog_gen.generate(dest_prj_path='./my_project_path', 
+                	generator=Keil5Generator(),
+               		input_file='./my_project_path/project.yaml')
+```
+
+### 导入工程
+
+以下代码演示了如何通过Keil5工程导入工程，并生成yaml工程描述文件（假定希望在**'./my_project_path'**处寻找并导入位于MDK-ARM目录下的Keil5工程文件，并生成工程描述文件到**'./my_project_path/project.yaml'**）。
+
+```python
+from FMSHProjectGenerator.generators import Keil5Generator
+from FMSHProjectGenerator import ProjectGenerator
+
+# 创建ProjectGenerator实例
+prog_gen = ProjectGenerator()
+
+# 根据传入的yaml文件生成工程
+prog_gen.generate(dest_prj_path='./my_project_path', 
+                	generator=Keil5Generator(),
+               		input_file='./my_project_path/project.yaml')
+```
+
+**input_file**参数为可选项，如果不指定**input_file**参数，ProjectGenerator对象仍会将工程信息保持在其中，可以通过不指定**input_file**参数调用**generate**方法（代码示例见下节）直接生成转换后的工程。这个特性为一些简单工程（即不含IDE间差异部分选项的工程）提供了简洁的转换途径。
+
+### 工程信息保持
+
+在生成工程或者导入工程后，ProjectGenerator都会保持最新一次**加载或者导入**的工程信息，因此如果需要生成多个IDE版本的工程时，在指定过一次**generate**方法的**input_file**参数后，**无需再次指定**：
+
+```python
+from FMSHProjectGenerator.generators import Keil5Generator, IAR832Generator
+from FMSHProjectGenerator import ProjectGenerator
+
+# 创建ProjectGenerator实例
+prog_gen = ProjectGenerator()
+
+# 生成Keil5版本工程
+prog_gen.generate(dest_prj_path='./my_project_path', 
+                	generator=Keil5Generator(),
+               		input_file='./my_project_path/project.yaml')
+
+# 再次生成IAR 8.32版本工程
+prog_gen.generate(dest_prj_path='./my_project_path', 
+                	generator=IAR832Generator())
+```
+
+## 项目状态
+
+本项目处于alpha发布阶段，支持的IDE和芯片系列还不完整。当前进行中的任务请查看如下任务列表。
+
+### 任务列表
+
+#### 功能
+
+- 提出中...
+
+#### IDE支持
+
+理解如下版本间的区别并添加对应版本支持：
+
+- Keil5 5.27版本和之后的版本
+- Keil5 5.27版本之前的版本
+- IAR 8.32版本
+- IAR 8.x版本
+- IAR 7.x版本
+- Eclipse GCC工程
+
+#### MCU支持
+
+- FM33LC0全系列
+- FM33LG0全系列
+- 更多MCU正提上日程...
+
