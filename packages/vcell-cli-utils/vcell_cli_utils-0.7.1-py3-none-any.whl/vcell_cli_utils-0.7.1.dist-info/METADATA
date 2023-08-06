@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: vcell-cli-utils
+Version: 0.7.1
+Summary: Python utility package for VCell CLI Java App
+Home-page: https://github.com/virtualcell/vcell_cli_utils
+Author: Virtual Cell
+Author-email: marupilla@uchc.edu
+License: MIT
+Download-URL: https://github.com/virtualcell/vcell_cli_utils
+Keywords: HDF5,Visualization,YAML,Fire
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: biosimulators-utils (>=0.1.85)
+Requires-Dist: fire
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: python-libsbml
+Requires-Dist: python-libsedml
+Requires-Dist: pyyaml
+Requires-Dist: seaborn
+Provides-Extra: all
+Provides-Extra: docs
+Provides-Extra: tests
+
+README.rst
+
