@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pb2df
+Version: 0.1.0
+Summary: A python module for converting proto3 type/object to spark dafaframe object.
+Home-page: https://github.com/zhangxianbing/pb2df
+Author: Xianbing Zhang
+Author-email: zhangxianbing09@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any

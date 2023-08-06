@@ -1,0 +1,10 @@
+README.md
+setup.py
+pb2df/__init__.py
+pb2df/convert.py
+pb2df.egg-info/PKG-INFO
+pb2df.egg-info/SOURCES.txt
+pb2df.egg-info/dependency_links.txt
+pb2df.egg-info/not-zip-safe
+pb2df.egg-info/requires.txt
+pb2df.egg-info/top_level.txt
