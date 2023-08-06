@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+swatcher/__init__.py
+swatcher/color.py
+swatcher/export.py
+swatcher/image.py
+swatcher/palette.py
+swatcher/swatcher_quick_action.py
+swatcher.egg-info/PKG-INFO
+swatcher.egg-info/SOURCES.txt
+swatcher.egg-info/dependency_links.txt
+swatcher.egg-info/requires.txt
+swatcher.egg-info/top_level.txt
