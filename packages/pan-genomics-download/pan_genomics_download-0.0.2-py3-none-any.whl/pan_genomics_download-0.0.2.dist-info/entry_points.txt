@@ -1,0 +1,3 @@
+[console_scripts]
+pgd = pan_genomics_download.pan_genomics_download:main
+
