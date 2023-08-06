@@ -1,0 +1,7 @@
+PyQt5
+apt-wrapper
+essentia
+librosa
+musicnn
+pillow
+pycairo
