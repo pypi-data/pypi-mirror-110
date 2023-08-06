@@ -1,0 +1,208 @@
+# `potluck`
+
+Code for automatically evaluating Python programming tasks, including a
+`flask` WSGI server for handling submissions.
+
+Specifications API design by Peter Mawhorter.
+
+Server design by Peter Mawhorter, Scott Anderson, and Franklyn Turbak.
+
+Based on `codder` program by Ben Wood w/ contributions by Franklyn Turbak
+and Peter Mawhorter.
+
+
+## Dependencies
+
+The core evaluation code depends on the `jinja2` and `pygments` packages.
+
+If you want to run the `potluck_server` WSGI app, you'll also need
+`flask` and `flask_cas`. These dependencies are listed in the
+distribution files and should be installed automatically if you install
+through PyPI.
+
+If you're running the WSGI app on a server without a windowing system but
+still want to be able to evaluation submissions that use graphics
+(notably submissions which use the `turtle` module), there is support for
+using `xvfb-run`.
+
+
+## Installing
+
+To install from PyPI, run the following command on the command-line:
+
+```sh
+python3 -m pip install potluck-eval
+```
+
+Or just put the directory that this README is in on your Python path.
+Confirm installation from within Python by running:
+
+```py
+import potluck
+```
+
+Once that's done, you can perform a basic test on the command-line by
+moving into the `potluck_testarea/test_course/fall2021/` directory and
+running:
+
+```sh
+potluck_eval -t debugTest --rubric
+```
+
+That should create a `rubrics/rubric-debugTest.html` file containing a
+blank rubric for the "debugTest" task. Note that if you get a command not
+found error, the `potluck_eval` script might not have been installed
+somewhere that's on your command line's path, but you should still be
+able to run it directly for testing purposes without figuring that out by
+invoking `../../../scripts/potluck_eval`.
+
+To test evaluation, run:
+
+```sh
+potluck_eval -t debugTest -u test
+```
+
+...which will evaluate the provided test submission for the same task,
+creating an evaluation file `reports/test/debugTest_TIMESTAMP.html`
+where TIMESTAMP is a time-stamp based on when you run the command.
+
+If these two commands work, then `potluck` is properly installed and you
+can start figuring out how to set up your own evaluation area and define
+your own tasks. The documentation for the `potluck.specifications` module
+describes the task-definition process and provides a worked example that
+shows off many of the possibilities; you can find that example
+specification at:
+
+`potluck_testarea/test_course/fall2021/specs/functionsTest/spec.py`
+
+
+## Evaluation Setup
+
+Once `potluck` is installed and working , you'll need to set up your own
+folder for evaluating submissions. The `potluck_testarea` folder contains
+an example of this, including task specifications and example
+submissions. You can test things out there, but eventually you'll want to
+create your own evaluation directory, which should have at minimum:
+
+- `tasks.json`: This file specifies which tasks exist and how to load
+  their specifications, as well as which submitted files to look for and
+  evaluate. You can work from the example in
+  `potluck_testarea/test_course/fall2021/tasks.json`.
+- A `specs` folder with one or more task sub-folders, named by their task
+  IDs. Each task sub-folder should have a `spec.py` file that defines the
+  task, as well as `starter/` and `soln/` folders which hold starter and
+  solution code. These files and folders need to match what's specified
+  in `tasks.json`.
+- A submissions folder, with per-user submissions folders containing
+  per-task folders that have actual submitted files in them. Note that if
+  you're going to use the `potluck_server` WSGI app, this can be created
+  automatically.
+
+If you're going to use the `potluck_server` WSGI app, your evaluation
+directory will also need:
+
+- `potluck-admin.json`: Defines which users have admin privileges and
+  allows things like masquerading and time travel. Work from the provided
+  example `potluck_testarea/test_course/fall2021/potluck-admin.json`.
+
+
+## Running `potluck_server`
+
+To set up `potluck_server, in addition to an evaluation directory set up
+as described above, you'll need to create `secret`, `syncauth`, and
+`config.py` files in the `potluck_server` directory. The `Makefile` in
+that directory can be used to create these if you have `make`; if not,
+the first two files are just 16 random bytes in hex format, while the
+last file can be created by copying `config.py.example`.
+
+For testing purposes, you will not need to change the `config.py` file
+from the defaults supplied in `config.example.py`, but you'll want to
+edit it extensively before running the server for real.
+
+Once these three files have been created, from the `potluck_server`
+directory you should be able to run:
+
+```py
+python -m app
+```
+
+to run the WSGI app on a local port in debugging mode. It will print
+several messages including a prompt about running without authentication,
+and you'll have to press enter to actually start the server, after which
+it should provide you with a link you can use in a browser to access it.
+
+NOTE THAT THE POTLUCK WEB APP ALLOWS AUTHENTICATED USERS TO RUN ARBITRARY
+PYTHON CODE ON THE SERVER!
+
+In addition to this, in debugging mode the server has no authetication,
+and is only protected by the fact that it's only accessible to localhost.
+Accordingly, you will need to set up CAS (Central Authentication Server)
+via the values in `config.py` to run the server for real. If you don't
+have access to a CAS instance via your company or institution, you can
+either set one up yourself, or you'll have to modify the server to use
+some other form of authentication.
+
+In debugging mode, you will automatically be logged in as the "test"
+user, and with the default `potluck-admin.json` file, this will be an
+admin account, allowing you to do things like view full feedback before
+the submission deadline is past. With the default setup, you should be
+able to submit files for the testing tasks, and view the feedback
+generated for those files. You can find files to submit in the
+`potluck_testarea/test_course/fall2021/submissions/test` directory, and
+you can always try submitting some of the solution files.
+
+See the documentation at the top of `python_server/app.py` for a run-down
+of how the server works and what's available.
+
+To actually install the server as a WSGI app, you'll need to follow the
+standard procedure for whatever HTTP server you're using. For example,
+with Apache, this involves installing mod_wsgi and creating various
+configuration files. An example Apache mod_wsgi configuration might look
+like this (to be placed in `/etc/httpd/conf.d`):
+
+```cfg
+# ================================================================
+# Potluck App for code submission & grading (runs potluck_eval)
+
+# the following is now necessary in Apache 2.4; the default seems to be to deny.
+<Directory "/home/potluck/private/potluck/potluck_server">
+    Require all granted
+</Directory>
+
+WSGIDaemonProcess potluck user=potluck processes=5 display-name=httpd-potluck home=/home/potluck/private/potluck/potluck_server python-home=/home/potluck/private/potluck-venv python-path=/home/potluck/private/potluck/potluck_server/
+WSGIScriptAlias /potluck /home/potluck/private/potluck/potluck_server/potluck.wsgi process-group=potluck
+```
+
+
+## Security
+
+Running the potluck_server WSGI app on a public-facing port represents a
+significant security vulnerability, since any authenticated user can
+submit tasks, and the evaluation mechanisms currently do not use any
+sandboxing, meaning that they RUN UNTRUSTED PYTHON CODE DIRECTLY ON YOUR
+SERVER (even if they used sandboxing, which is a target feature for the
+future, they would be vulnerable to any means of circumventing the
+sandboxing used).
+
+You therefore need to trust that your CAS setup is secure, and trust that
+your users will be responsible about submitting files and about keeping
+their accounts secure. If you can't depend on these things, DO NOT run
+the web app.
+
+Even if you do not run the web app, and instead collect submissions via
+some other mechanism, the evaluation machinery still runs submitted code
+directly. You will need to trust the users submitting tasks for
+evaluation, and watch out for accidental mis-use of resources (e.g.,
+creating files in an infinite loop). It's not a bad idea to run the
+entire evaluation process in a virtual machine, although the details of
+such a setup are beyond this document.
+
+
+## Documentation
+
+Extracted documentation can be viewed online at:
+[https://cs.wellesley.edu/~pmwh/potluck/docs/potluck/](https://cs.wellesley.edu/~pmwh/potluck/docs/potluck/)
+
+You can also read the same documentation in the docstrings of the source
+code, or compile it yourself if you've got `pdoc` installed by running
+the `makedoc.sh` script on the command-line.
