@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pomodoropy.py
+setup.py
+PomodoroPy.egg-info/PKG-INFO
+PomodoroPy.egg-info/SOURCES.txt
+PomodoroPy.egg-info/dependency_links.txt
+PomodoroPy.egg-info/entry_points.txt
+PomodoroPy.egg-info/requires.txt
+PomodoroPy.egg-info/top_level.txt

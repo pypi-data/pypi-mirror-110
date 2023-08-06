@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: PomodoroPy
+Version: 0.0.6
+Summary: A simple command-line Pomodoro timer
+Home-page: https://github.com/yzhang-dev/PomodoroPy
+Author: Yi Zhang
+Author-email: yizhang.dev@gmail.com
+License: MIT
+Download-URL: https://github.com/yzhang-dev/PomodoroPy
+Keywords: pomodoro,pomodoro-timer,terminal-app,productivity
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PomodoroPy
+
+PomodoroPy is
+
+* a simple command-line Pomodoro timer
+
+PomodoroPy supports to
+
+* quickly set up a series of repeatable Pomodoros
+* log the historical Pomodoros including corresponding tag, task, time interval, self-rating and comment
+* start session with interactive mode, customizing a Pomodoro each round
+
+
+
+## Quickstart
+
+```bash
+$ pomodoro -h
+```
+
+
+
+### Requirements
+
+#### Desktop Notification
+
+* Install [`terminal-notifier`](https://github.com/julienXX/terminal-notifier) for macOS, e.g.,
+
+  ```bash
+  $ brew install terminal-notifier
+  ```
+
+#### Voice Notification
+
+* Choose voice notification sound with macOS built-in `say`
+
+  ```bash
+  $ say -v ?
+  ```
+
+
+
+### Install PomodoroPy
+
+`pip` can handle all other package dependencies.
+
+```bash
+$ pip install pomodoropy
+```
+
+
