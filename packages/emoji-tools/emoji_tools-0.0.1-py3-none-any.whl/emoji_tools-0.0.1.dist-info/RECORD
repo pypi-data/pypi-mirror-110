@@ -1,0 +1,14 @@
+emoji_tools/__init__.py,sha256=ZJl7wTkpdIIwJkJRrUyLMeAY8TWLFsPpADSAeo2TW_E,588
+emoji_tools/core.py,sha256=wvvu7pwzULVz2L2cxC-hSI9qPQ-kesVaEAQmnFbJ1Ns,5121
+emoji_tools/unicode_codes/__init__.py,sha256=zpBoAOeraG0-M5yzL0CEDYfaucCWSV-R0Pnf9kzJ0qs,1169
+emoji_tools/unicode_codes/de.py,sha256=mgQjiyae6xvZ8nv_FkXl63E_G5zOcLFzAlPe-ZIUvQc,211886
+emoji_tools/unicode_codes/en.py,sha256=NY_q3t75Uxbeig86DoCDmNKdMQVmwJthJJnyUY8pdIw,295380
+emoji_tools/unicode_codes/es.py,sha256=HCkopKeA283rC3S8ixuZYjhZWIe4aix-K22DPCwWJJ4,231684
+emoji_tools/unicode_codes/fr.py,sha256=wCAmDpfV0w0YQJKtM4ha-06H0EiVUs7AhXXh8hnZJxQ,220029
+emoji_tools/unicode_codes/it.py,sha256=mIJJ6A8wuo3JPeN_o-uLuOEWIZHaHdugU5rE1SOp3Vs,219262
+emoji_tools/unicode_codes/pt.py,sha256=dketyfYS7QGTLo-1TAiun4yN2J3oH-qoUcdhkF8kzoY,216248
+emoji_tools-0.0.1.dist-info/LICENSE,sha256=QXtBv9uSnDRs86kNzGZgiDg5RHk-R6GAIOHhYgpFUE8,1092
+emoji_tools-0.0.1.dist-info/METADATA,sha256=U2qyfsavaGRWNXzHDEfkph1zId9TLOjpotz0WVzf9VE,2105
+emoji_tools-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+emoji_tools-0.0.1.dist-info/top_level.txt,sha256=z9uqAJFM7_Z8HLfBt0-sGvV6SsWFEKzTrToUWxOe7dc,12
+emoji_tools-0.0.1.dist-info/RECORD,,
