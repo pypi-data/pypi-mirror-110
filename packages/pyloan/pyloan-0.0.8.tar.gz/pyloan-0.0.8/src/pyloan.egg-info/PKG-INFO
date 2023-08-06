@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyloan
+Version: 0.0.8
+Summary: A package for mortgage/loan calculations.
+Home-page: https://github.com/sudo-dakix/pyloan
+Author: Da.Ki.X
+Author-email: dakix@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sudo-dakix/pyloan/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyLoan
+
+PyLoan can perform mortgage/loan calculations:
+
+* Calculate payment amount to fully amortize a loan over its term.
+* Amortize a loan based on the specified payment schedule.
+* Consider ad-hoc or periodic special principal repayments during loan amortization schedule (under development).
+* Calculate interest payments using either 30/360 methods or actual methods.
+
+All documentation is in the "docs" directory and online at https://pyloan.readthedocs.io/en/latest/.
+
+## To-Do
+
+* Extend documentation.
+
+
