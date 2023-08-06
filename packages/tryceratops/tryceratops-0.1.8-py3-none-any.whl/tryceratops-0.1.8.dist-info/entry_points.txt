@@ -1,0 +1,3 @@
+[console_scripts]
+tryceratops=tryceratops.__main__:main
+
