@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: handwritting-generator
+Version: 0.7
+Summary: Generates images of handwritten text
+Home-page: https://github.com/constantin50/handwritting_generator
+Author: Constantin Werner
+Author-email: const.werner@gmail.com
+License: MIT
+Keywords: data,computer vision,augmentation,handwritting,generator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Pillow
+
+UNKNOWN
+
+
