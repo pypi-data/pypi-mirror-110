@@ -1,0 +1,7 @@
+django_regiment/__init__.py,sha256=EwL9yZPN3tiVHsg0pFJ8_22kROX2y4xhOhfAjHrfGYg,61
+django_regiment/bulletlog/__init__.py,sha256=SdKNT3VWxOpJtR4k_GUC0HHjuMfyvlhVAiDHs6LBxfs,1869
+django_regiment/bulletlog/middleware.py,sha256=xAZkk_lL37MDsXvm1ZoNGktXqmMfoc5Fhn5wiykVYxY,570
+django_regiment/bulletlog/utils.py,sha256=CY56k2QvtdOmqnEirmlst87MgiiCE97ddgQ7gqk89Jk,4029
+django_regiment-1.0.0.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+django_regiment-1.0.0.dist-info/METADATA,sha256=ZINONIzK9JXPlbVdYLc7p_kN8ZdnjpBE2F9WLO_pDTo,316
+django_regiment-1.0.0.dist-info/RECORD,,
