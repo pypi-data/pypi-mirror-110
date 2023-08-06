@@ -1,0 +1,12 @@
+KakaoV2/__init__.py,sha256=D6JithbNw69pdqJv2HclXu8HTWKRxyuURQ3aZlP1epE,152
+KakaoV2/channel.py,sha256=xV7TegzU4hH1291zwEUerm4Y2onRJ_mtt1f6TMxFc8s,1591
+KakaoV2/client.py,sha256=H_ygmsoINK5wnJODYvhtm9QNYosspcqklnmH1S__zPY,1540
+KakaoV2/error.py,sha256=oxF5PGXvm27TchckW018JRmRJBX1UYp3_yxVjohhCL8,90
+KakaoV2/http.py,sha256=xugn5zBaco6DBzMTA2aZjyzu8L4HUPVlJVHH0y0tGVI,11958
+KakaoV2/message.py,sha256=GOEusK1mpeAeEcUW_iB91mvZ5YUis2ur-aRxqB4X6T8,2925
+KakaoV2/utils.py,sha256=FrRlQxMRNCC_2R4q5gC7ko9llMSh0cdEi5feiFetm-E,5169
+KakaoV2-1.0.9.dist-info/LICENSE,sha256=XPGJGLAcuUbdIYD_b4yxIhoGq8IliQSqFhL9DO02k6A,1062
+KakaoV2-1.0.9.dist-info/METADATA,sha256=ZoIy-RUfMdaEtlkfHblqCdoK6EXdR1d91OuXFHwA_nw,957
+KakaoV2-1.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+KakaoV2-1.0.9.dist-info/top_level.txt,sha256=rdC8Hg4TOTLpNYJ8P8SkA-tMqdELUS2zQR8VwQXqI40,8
+KakaoV2-1.0.9.dist-info/RECORD,,
