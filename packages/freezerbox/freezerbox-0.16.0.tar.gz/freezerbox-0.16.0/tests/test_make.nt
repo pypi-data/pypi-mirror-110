@@ -1,0 +1,296 @@
+
+test_make:
+  -
+    id: solo
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=Fields(['a'], {'protocol': ['1']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['2']}),
+        >             Fields(['c'], {'protocol': ['3']}),
+        >         ],
+        > )
+    expected:
+      - 1
+      - Label the product: x1
+      - 2
+      - 3
+  -
+    id: combo
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=Fields(['a'], {'protocol': ['1']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['2']}),
+        >             Fields(['c'], {'protocol': ['3']}),
+        >         ],
+        > )
+      x2:
+        > MockReagent(
+        >         synthesis=Fields(['a'], {'protocol': ['4']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['5']}),
+        >             Fields(['c'], {'protocol': ['6']}),
+        >         ],
+        > )
+    expected:
+      - 1
+      - Label the product: x1
+      - 4
+      - Label the product: x2
+      - 2
+      - 5
+      - 3
+      - 6
+  -
+    id: combo
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=Fields(['merge'], {'protocol': ['1']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['2']}),
+        >             Fields(['c'], {'protocol': ['3']}),
+        >         ],
+        > )
+      x2:
+        > MockReagent(
+        >         synthesis=Fields(['merge'], {'protocol': ['4']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['5']}),
+        >             Fields(['c'], {'protocol': ['6']}),
+        >         ],
+        > )
+    expected:
+      - 1
+      - 4
+      - Label the products: x1, x2
+      - 2
+      - 5
+      - 3
+      - 6
+  -
+    id: combo
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=Fields(['a'], {'protocol': ['1']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['2']}),
+        >             Fields(['c'], {'protocol': ['3']}),
+        >         ],
+        > )
+      x2:
+        > MockReagent(
+        >         synthesis=Fields(['a'], {'protocol': ['4'], 'deps': ['x1']}),
+        >         cleanups=[
+        >             Fields(['b'], {'protocol': ['5']}),
+        >             Fields(['c'], {'protocol': ['6']}),
+        >         ],
+        > )
+    expected:
+      - 1
+      - Label the product: x1
+      - 2
+      - 3
+      - 4
+      - Label the product: x2
+      - 5
+      - 6
+  -
+    id: ready
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=Fields(['a'], {'protocol': ['1']}),
+        >         ready=False,
+        > )
+      x2:
+        > MockReagent(
+        >         synthesis=Fields(['b'], {'protocol': ['2']}),
+        >         ready=True,
+        > )
+      x3:
+        > MockReagent(
+        >         synthesis=Fields(['c'], {'protocol': ['3'], 'deps': ['x1', 'x2']}),
+        > )
+    tags:
+      - x3
+    expected:
+      - 1
+      - Label the product: x1
+      - 3
+      - Label the product: x3
+
+  -
+    id: sw
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=parse_fields('sw step A'),
+        >         cleanups=parse_fields_list('sw step B; sw step C'),
+        > )
+    expected:
+      - A
+      - Label the product: x1
+      - B
+      - C
+  -
+    id: sw
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=parse_fields('sw step A'),
+        >         cleanups=parse_fields_list('sw step B; sw step C'),
+        > )
+      x2:
+        > MockReagent(
+        >         synthesis=parse_fields('sw step A'),
+        >         cleanups=parse_fields_list('sw step B; sw step C'),
+        > )
+    expected:
+      - A
+      - Label the products: x1, x2
+      - B
+      - C
+  -
+    id: sw-cwd
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=parse_fields(f'sw mock_protocol.sh cwd={TEST_DIR}/mock_project/notebook/mock_experiment_1'),
+        > )
+    expected:
+      - A
+      - Label the product: x1
+  -
+    id: sw-cwd
+    # Make sure the cwd is set individually for each maker.  This actually 
+    # checks for a bug in stepwise, where the current working directory was 
+    # calculated only the first time the library singleton was instantiated.
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=parse_fields(f'sw mock_protocol.sh cwd={TEST_DIR}/mock_project/notebook/mock_experiment_1'),
+        >         cleanups=parse_fields_list(f'sw mock_protocol.sh cwd={TEST_DIR}/mock_project/notebook/mock_experiment_2'),
+        > )
+    expected:
+      - A
+      - Label the product: x1
+      - B
+  -
+    id: sw-exmemo
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=parse_fields(f'sw mock_protocol.sh expt=1 project={TEST_DIR}/mock_project'),
+        > )
+    expected:
+      - A
+      - Label the product: x1
+
+  -
+    id: order
+    db:
+      x1:
+        > MockReagent(
+        >         synthesis=parse_fields('order vendor=IDT'),
+        > )
+    expected:
+      - Order x1 from IDT.
+
+test_builtin_maker_attrs:
+  -
+    id: sw-seq
+    maker: sw step A seq=GATTACA
+    expected:
+      product_seqs: ['GATTACA']
+  -
+    id: sw-deps
+    maker: sw step A
+    expected:
+      dependencies: set()
+  -
+    id: sw-deps
+    maker: sw step A deps=x2
+    expected:
+      dependencies: {'x2'}
+  -
+    id: sw-deps
+    maker: sw step A deps=x2,x3
+    expected:
+      dependencies: {'x2', 'x3'}
+  -
+    id: sw-deps
+    maker: sw step A deps='x2, x3'
+    expected:
+      dependencies: {'x2', 'x3'}
+  -
+    id: sw-deps
+    maker: sw step A deps=x2,x2
+    expected:
+      dependencies: {'x2'}
+  -
+    id: sw-conc
+    maker: sw step A conc=75nM
+    expected:
+      product_conc: Quantity(75, 'nM')
+  -
+    id: sw-conc
+    maker: sw step A conc='75 nM'
+    expected:
+      product_conc: Quantity(75, 'nM')
+  -
+    id: sw-volume
+    maker: sw step A volume=10µL
+    expected:
+      product_volume: Quantity(10, 'µL')
+  -
+    id: sw-volume
+    maker: sw step A volume='10 µL'
+    expected:
+      product_volume: Quantity(10, 'µL')
+  -
+    id: sw-molecule
+    maker: sw step A molecule=dsDNA
+    expected:
+      product_molecule: 'dsDNA'
+  -
+    id: order
+    maker: order vendor=IDT
+    expected:
+      vendor: 'IDT'
+      dependencies: set()
+      label_products: False
+  -
+    id: order-seq
+    maker: order vendor=IDT seq=GATTACA
+    expected:
+      product_seqs: ['GATTACA']
+  -
+    id: order-conc
+    maker: order vendor=IDT conc=75nM
+    expected:
+      product_conc: Quantity(75, 'nM')
+  -
+    id: order-conc
+    maker: order vendor=IDT conc='75 nM'
+    expected:
+      product_conc: Quantity(75, 'nM')
+  -
+    id: order-volume
+    maker: order vendor=IDT volume=10µL
+    expected:
+      product_volume: Quantity(10, 'µL')
+  -
+    id: order-volume
+    maker: order vendor=IDT volume='10 µL'
+    expected:
+      product_volume: Quantity(10, 'µL')
+  -
+    id: order-molecule
+    maker: order vendor=IDT molecule=dsDNA
+    expected:
+      product_molecule: 'dsDNA'
