@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+flaskdesign/__init__.py
+flaskdesign/main.py
+flaskdesign.egg-info/PKG-INFO
+flaskdesign.egg-info/SOURCES.txt
+flaskdesign.egg-info/dependency_links.txt
+flaskdesign.egg-info/top_level.txt
