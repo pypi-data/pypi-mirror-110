@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: apache-airflow-backport-providers-smtp
+Version: 2021.6.24
+Summary: Email provider package apache-airflow-backport-providers-smtp for Apache Airflow
+Home-page: https://airflow.apache.org/
+Author: Apache Software Foundation
+Author-email: dev@airflow.apache.org
+License: Apache License 2.0
+Download-URL: https://archive.apache.org/dist/airflow/backport-providers
+Project-URL: Documentation, https://airflow.apache.org/docs/
+Project-URL: Bug Tracker, https://github.com/apache/airflow/issues
+Project-URL: Source Code, https://github.com/apache/airflow
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Monitoring
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+License-File: licenses/LICENSE-bootstrap-toggle.txt
+License-File: licenses/LICENSE-bootstrap.txt
+License-File: licenses/LICENSE-bootstrap3-typeahead.txt
+License-File: licenses/LICENSE-d3-tip.txt
+License-File: licenses/LICENSE-d3js.txt
+License-File: licenses/LICENSE-dagre-d3.txt
+License-File: licenses/LICENSE-datatables.txt
+License-File: licenses/LICENSE-elasticmock.txt
+License-File: licenses/LICENSE-eonasdan-bootstrap-datetimepicker.txt
+License-File: licenses/LICENSE-flask-kerberos.txt
+License-File: licenses/LICENSE-hue.txt
+License-File: licenses/LICENSE-jqclock.txt
+License-File: licenses/LICENSE-jquery.txt
+License-File: licenses/LICENSE-moment-strftime.txt
+License-File: licenses/LICENSE-moment.txt
+License-File: licenses/LICENSE-normalize.txt
+License-File: licenses/LICENSE-python-nvd3.txt
+License-File: licenses/LICENSE-python-slugify.txt
+
+UNKNOWN
+
