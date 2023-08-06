@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: stargen
+Version: 0.8.6
+Summary: Framework for wordlist generation, combination and expansion
+Home-page: https://github.com/codeswhite/stargen
+Author: Max G
+Author-email: max3227@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Menu-based wordlist generator:
+
+#### Features include:
+- Moodular and expandable project structure
+- Manipulate your own or download from a list of predefined wordlists
+- Easily generate via `crunch` charsets or masks
+- Concatenate and intermix various wordlists
+- Intellegent pre-run size calculations
+
+![Some Commands Show-down](https://i.imgur.com/o6XCY7p.png)
+
+## Usage:
+### Setup:
+    git clone https://github.com/codeswhite/stargen
+    pip install interutils
+
+### Run:
+    cd stargen
+    python3 run.py
+
+---
+
+
