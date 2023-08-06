@@ -1,0 +1,11 @@
+transmorph/__init__.py,sha256=n9FPGYVK2U-J6NrPinK49RqDvZ0tCLxIrF1YN7amT3Y,59
+transmorph/density.py,sha256=4N4PloDtgqaImpQx5S2tS2fz1PTzI8itWtuWmwpCkp0,2825
+transmorph/integration.py,sha256=_KzGuiDcBV2MQTxkhz1025Pt-_kxa9lIOhy3QKEkyHM,4072
+transmorph/tdata.py,sha256=-DeLCud-WoEK-3_1iaBccXwRcKYFSJAWKfj35PPnnMw,2634
+transmorph/transmorph.py,sha256=XukSZT37TE1LQc-iYd1hs2mxNhbRf30KwHVYKTdQam0,10535
+transmorph/utils.py,sha256=3yGWY5lR24cUJNpS175ek4UT5AU1pMTUkLGh2XQT1T8,1719
+transmorph-0.0.7.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+transmorph-0.0.7.dist-info/METADATA,sha256=VGWvQviLFTkRaE8oI9nCzw2jYv2X22HpX9nwxbawB94,3243
+transmorph-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+transmorph-0.0.7.dist-info/top_level.txt,sha256=BpDbfrDR3sWwTiXGapKkSSjGI6riKm4Iof2-7u8bLDs,11
+transmorph-0.0.7.dist-info/RECORD,,
