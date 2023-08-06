@@ -1,0 +1,59 @@
+= {{title}}
+
+{% for event in report %}
+{% if event.type == "mouse" and event.action == "click" %}
+{% if event.combined  %}
+. Press and hold *{{event.combined}}*.
+{% endif %}
+. Click with the *{{event.button}}* button at coordinates *{{event.coordinates[0], event.coordinates[1]}}*. See the screenshot for the aproximate
+area of the click. 
++
+image::{{event.screens[0]}}[]
+{% elif event.type == "mouse" and event.action == "doubleclick" %}
+{% if event.combined  %}
+. Press and hold *{{event.combined}}*.
+{% endif %}
+. Doubleclick with the *{{event.button}}* button at coordinates *{{event.coordinates[0], event.coordinates[1]}}*. See the screenshot for the aproximate
+area of the click. 
++
+image::{{event.screens[0]}}[]
+{% elif event.type == "mouse" and event.action == "scroll" %}
+{% if event.combined  %}
+. Press and hold *{{event.combined}}*.
+{% endif %}
+. Scroll the mouse to the *{{event.direction}}* by *{{event.horizontal}}* horizontal and *{{event.vertical}}* vertical steps. See the screenshot for the result of the action. 
++
+image::{{event.screens[0]}}[]
+{% elif event.type == "mouse" and event.action == "drag" %}
+{% if event.combined  %}
+. Press and hold *{{event.combined}}*.
+{% endif %}
+. Click and hold the *{{event.button}}* button at coordinates *{{event.coordinates[0], event.coordinates[1]}}*, drag the mouse to the coordinates *{{event.end_coordinates[0], event.end_coordinates[1]}}*, and release the mouse button. See the screenshot for the area affected by the action. 
++
+image::{{event.screens[0]}}[]
+{% elif event.type == "key combination" and event.subtype == "modifier" and event.action == "press" %}
+{% if event.combined %}
+. Press and hold the *{{event.combined}}* modifier.
+{% endif %}
+. Press *{{event.key}}*. See the modifier release screenshot for the result of the action. 
+{% elif event.type == "key" and event.subtype == "special" and event.action == "press" %}
+{% if event.combined  %}
+. Press and hold the *{{event.combined}}* modifier.
+{% endif %}
+. Press *{{event.key}}*. See the screenshot for the result of the action. 
++
+image::{{event.screens[0]}}[]
+{% elif event.type == "typing" %}
+. Type *{{event.text}}*.
+{% elif event.type == "key" and event.subtype == "modifier" and event.action == "release"%}
+. Release modifier. See the screenshot for the result of the action. 
++
+image::{{event.screens[0]}}[]
+{% elif event.type == "key" and event.subtype == "stop" and event.action == "press" %}
+. This is the end of the recording. See the screenshot that shows the situation at the end of the recording. 
++
+image::{{event.screens[0]}}[]
+{% endif %}
+{% endfor %}
+
+
