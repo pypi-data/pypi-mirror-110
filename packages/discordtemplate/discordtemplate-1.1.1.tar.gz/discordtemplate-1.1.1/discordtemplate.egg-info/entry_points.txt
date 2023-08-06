@@ -1,0 +1,3 @@
+[console_scripts]
+discord = discord_template.__main__:run
+

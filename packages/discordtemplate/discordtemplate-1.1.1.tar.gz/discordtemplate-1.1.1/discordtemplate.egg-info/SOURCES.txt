@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+discord_template/__init__.py
+discord_template/__main__.py
+discord_template/startup
+discord_template/env/config
+discord_template/env/main
+discordtemplate.egg-info/PKG-INFO
+discordtemplate.egg-info/SOURCES.txt
+discordtemplate.egg-info/dependency_links.txt
+discordtemplate.egg-info/entry_points.txt
+discordtemplate.egg-info/not-zip-safe
+discordtemplate.egg-info/requires.txt
+discordtemplate.egg-info/top_level.txt
