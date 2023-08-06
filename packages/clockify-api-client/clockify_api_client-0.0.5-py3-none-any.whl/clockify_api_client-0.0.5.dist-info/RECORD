@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+abstract_clockify.py,sha256=Gd9wAu-n3-K0VzaPC7eo0K_eEebI2UtXVgNsgB2tBMg,936
+client.py,sha256=WsBHA9yzAaAOavFre3SXCW0f2srqCsBHulPwDiRB9ts,1277
+utils.py,sha256=b32E6lxgeHGHWb0J6GhlJ22sGswZMMmPTc_cYCvfYl8,354
+clockify_api_client/__init__.py,sha256=7aDYJ-oIxJ3U5KGHHiv6rh4CJPRNvZIwPS2P8CUftDE,74
+clockify_api_client/abstract_clockify.py,sha256=Gd9wAu-n3-K0VzaPC7eo0K_eEebI2UtXVgNsgB2tBMg,936
+clockify_api_client/client.py,sha256=WsBHA9yzAaAOavFre3SXCW0f2srqCsBHulPwDiRB9ts,1277
+clockify_api_client/utils.py,sha256=b32E6lxgeHGHWb0J6GhlJ22sGswZMMmPTc_cYCvfYl8,354
+clockify_api_client-0.0.5.dist-info/LICENSE,sha256=AsZTcUqQn9zz_cTds_1vsYKMkUBHMojuYH6A1xvyTaw,1090
+clockify_api_client-0.0.5.dist-info/METADATA,sha256=KqlbhTKKWca-UoPfMclfp6FZmWfyRIdvckqzfXd6zEA,1301
+clockify_api_client-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+clockify_api_client-0.0.5.dist-info/top_level.txt,sha256=_98ElkDDAQ7TwXAJvYpZxf61IiLsixvmzRPCrKxblpk,20
+clockify_api_client-0.0.5.dist-info/RECORD,,
