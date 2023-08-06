@@ -1,0 +1,9 @@
+README.md
+setup.py
+ChiTH/__init__.py
+ChiTH/lib2.py
+ChiTH.egg-info/PKG-INFO
+ChiTH.egg-info/SOURCES.txt
+ChiTH.egg-info/dependency_links.txt
+ChiTH.egg-info/not-zip-safe
+ChiTH.egg-info/top_level.txt
