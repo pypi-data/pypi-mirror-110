@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+django_drf_jwt/__init__.py
+django_drf_jwt/apps.py
+django_drf_jwt/settings.py
+django_drf_jwt/urls.py
+django_drf_jwt.egg-info/PKG-INFO
+django_drf_jwt.egg-info/SOURCES.txt
+django_drf_jwt.egg-info/dependency_links.txt
+django_drf_jwt.egg-info/requires.txt
+django_drf_jwt.egg-info/top_level.txt
