@@ -1,0 +1,3 @@
+include README.md
+include sec_vault/core/models/*.json
+recursive-include data *
