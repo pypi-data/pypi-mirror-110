@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: modpoll
+Version: 0.1.0
+Summary: A CLI app to poll modbus registers
+Author: Ying Shaodong
+Author-email: helloysd@foxmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: paho-mqtt (>=1.5.1,<2.0.0)
+Requires-Dist: pymodbus (>=2.5.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+#modpoll
+
+A command line tool to poll modbus registers
+
+### Basic usages
+
+- Poll Modbus RTU device and save to local csv file
+```bash
+modpoll --config config/scpm-s6.csv --rtu /dev/ttyUSB0 --rtu-baud 9600 --export export.csv
+```
+- Poll Modbus TCP device and publish to MQTT broker
+```bash
+modpoll --config config/scpm-s6.csv --tcp 192.168.1.10 --tcp-port 502 --mqtt-host localhost
+```
+
