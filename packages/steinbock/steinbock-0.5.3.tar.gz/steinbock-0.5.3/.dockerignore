@@ -1,0 +1,14 @@
+# /.git/  # required for versioning!
+/.github/
+/.vscode/
+/data/
+/dist/
+/docs/
+/steinbock/version.py
+/.dockerignore
+# /.gitignore  # since including .git, also include .gitignore
+/docker-compose.yml
+/Dockerfile
+/LICENSE
+/mkdocs.yml
+/README.md
