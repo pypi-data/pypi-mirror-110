@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mdformat_myst
+Version: 0.1.4
+Summary: Mdformat plugin for MyST compatibility.
+Home-page: https://github.com/hukkinj1/mdformat-myst
+Author: Taneli Hukkinen
+Author-email: executablebooks@gmail.com
