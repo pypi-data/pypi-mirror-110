@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gfunction-auth
+Version: 0.0.2
+Summary: A lightweight package for makeing authorized requests to Google Cloud Functions.
+Home-page: https://github.com/andrewdircks/gfunctions-auth
+Author: Andrew Dircks
+Author-email: abd93@cornell.edu
+License: UNKNOWN
+Description: # GFunction Auth
+        
+        Make authorized, lightweight calls to Cloud Functions in Python.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
