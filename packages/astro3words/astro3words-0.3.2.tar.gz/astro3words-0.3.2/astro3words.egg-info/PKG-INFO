@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: astro3words
+Version: 0.3.2
+Summary: astro3words - get a simple 3-word coordinate of your favorite object!
+Home-page: https://github.com/astro-nova/astro-3-words
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: Astronomy Astrometry
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Programming Language :: Python :: 3
