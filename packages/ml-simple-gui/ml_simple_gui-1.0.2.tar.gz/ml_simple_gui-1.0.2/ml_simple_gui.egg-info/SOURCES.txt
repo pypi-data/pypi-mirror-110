@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ml_simple_gui/__init__.py
+ml_simple_gui/utils.py
+ml_simple_gui.egg-info/PKG-INFO
+ml_simple_gui.egg-info/SOURCES.txt
+ml_simple_gui.egg-info/dependency_links.txt
+ml_simple_gui.egg-info/requires.txt
+ml_simple_gui.egg-info/top_level.txt
