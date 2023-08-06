@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-msutils
+Version: 0.3.5
+Summary: Simple utilities for Python 3
+Home-page: https://github.com/Marco-Sulla/msutils
+Author: Marco Sulla
+Author-email: github@marco.sulla.e4ward.com
+License: LGPL v3
+Project-URL: Bug Reports, https://github.com/Marco-Sulla/msutils/issues
+Project-URL: Source, https://github.com/Marco-Sulla/msutils
+Keywords: developers stable utility
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: arrow (==0.15.5)
+Requires-Dist: more-itertools (==8.2.0)
+Requires-Dist: lxml (==4.6.3)
+
+Various utils for Python 3
+
+
