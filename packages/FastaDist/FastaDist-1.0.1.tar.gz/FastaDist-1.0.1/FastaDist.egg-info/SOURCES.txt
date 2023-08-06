@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+FastaDist.egg-info/PKG-INFO
+FastaDist.egg-info/SOURCES.txt
+FastaDist.egg-info/dependency_links.txt
+FastaDist.egg-info/entry_points.txt
+FastaDist.egg-info/requires.txt
+FastaDist.egg-info/top_level.txt
+fastadist/__init__.py
+fastadist/fastadist_functions.py
+fastadist/run_fastadist.py
