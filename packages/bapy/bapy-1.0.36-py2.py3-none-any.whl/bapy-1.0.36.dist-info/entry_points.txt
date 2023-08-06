@@ -1,0 +1,4 @@
+[console_scripts]
+bapy=bapy:app
+localbin=bapy:localbin
+
