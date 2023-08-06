@@ -1,0 +1,3 @@
+[pdm]
+run=doppler_pdm.__init__:main
+
