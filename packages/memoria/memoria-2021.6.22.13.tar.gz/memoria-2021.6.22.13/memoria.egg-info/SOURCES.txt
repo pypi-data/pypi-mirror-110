@@ -1,0 +1,16 @@
+README.md
+setup.py
+memoria/Cache.py
+memoria/__init__.py
+memoria/_get_number_of_cores.py
+memoria/_hash_file.py
+memoria/hash_object.py
+memoria/make_hashable.py
+memoria/memoize.py
+memoria/to_bytes.py
+memoria.egg-info/PKG-INFO
+memoria.egg-info/SOURCES.txt
+memoria.egg-info/dependency_links.txt
+memoria.egg-info/not-zip-safe
+memoria.egg-info/requires.txt
+memoria.egg-info/top_level.txt
