@@ -1,0 +1,9 @@
+bidsphysio.base>=21.5.27
+bidsphysio.session>=21.06.24
+bioread[mat]>=2.0.0
+
+[all]
+pytest
+
+[tests]
+pytest
