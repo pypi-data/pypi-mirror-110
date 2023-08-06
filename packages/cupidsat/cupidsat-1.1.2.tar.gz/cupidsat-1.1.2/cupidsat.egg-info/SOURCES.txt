@@ -1,0 +1,15 @@
+LICENSE
+pyproject.toml
+setup.py
+cupid/__init__.py
+cupid/backend.py
+cupid/cxdh.py
+cupid/dosi.py
+cupid/mags.py
+cupid/plotutils.py
+cupid/xray.py
+cupidsat.egg-info/PKG-INFO
+cupidsat.egg-info/SOURCES.txt
+cupidsat.egg-info/dependency_links.txt
+cupidsat.egg-info/requires.txt
+cupidsat.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cupidsat
+Version: 1.1.2
+Summary: Functions for downloading and working with CuPID data
+Home-page: https://github.com/Cupid-Cubesat/cupidsat
+Author: Connor OBrien
+Author-email: obrienco@bu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
