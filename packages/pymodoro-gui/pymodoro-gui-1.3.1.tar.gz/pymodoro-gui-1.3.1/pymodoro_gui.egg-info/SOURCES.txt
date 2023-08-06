@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+pymodoro-gui/__init__.py
+pymodoro-gui/__main__.py
+pymodoro-gui/pymodoro.py
+pymodoro_gui.egg-info/PKG-INFO
+pymodoro_gui.egg-info/SOURCES.txt
+pymodoro_gui.egg-info/dependency_links.txt
+pymodoro_gui.egg-info/top_level.txt
