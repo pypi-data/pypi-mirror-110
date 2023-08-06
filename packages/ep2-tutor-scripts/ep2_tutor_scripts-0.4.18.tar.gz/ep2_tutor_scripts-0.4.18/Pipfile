@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+python-gitlab = ">=2.1.0"
+gitpython = ">=3.1.0"
+click = ">=7.0"
+cheetah3 = ">=3.2.0"
+gitdb = "<4"
+gitdb2 = "<4"
+
+[requires]
+python_version = "3.6"

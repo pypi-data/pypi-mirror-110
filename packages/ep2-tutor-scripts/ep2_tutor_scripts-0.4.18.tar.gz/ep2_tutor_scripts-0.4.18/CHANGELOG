@@ -1,0 +1,29 @@
+0.2.3:
+    Student ids are now verified and automatically padded with leading zeroes
+    Added sudo capabilities (only usable by admins, they can now do most stuff for other people if there are problems)
+    Added further documentation to ep2_util init
+
+0.2.0:
+    Dropped support for python 2.x
+
+0.1.4:
+    Added student index to adhoc submission
+        Only students that haven't been entered can be entered
+        Only students of the group can be entered
+        Tool now shows the partner of the last ad-hoc exercise a default for writer (or for third, if team of three)
+    Added grade and idea option to adhoc submission to perform interactive entry of submissions and grading in one step
+
+0.1.3:
+    Split adhoc tagging and submission into two separate commands
+    Split attendance_<ue>.csv into attendance_<ue>.csv and pre_eval_<ue>.csv
+    Removed names from attendance_<ue>.csv
+    Added better unicode support for csv files
+    Added strict CSV verification, including headers, missing columns, extra commas, ...
+    Added file changes output after commands, that alter files
+    Improved idea subcommands, so the .idea folder will no longer be deleted
+    Deprecated idea subcommand in pre_eval and moved idea subcommand to ep2_util (can be used by all tools)
+    Added ep2_util tag command, to tag all projects of a group with arbitrary tags
+    Added confirmation prompts, before tagging adhoc exercises
+    Added verification for matriculation numbers
+    Added progress bars to long working tasks
+    Fixed a lot of bugs related to windows path names and file handling

@@ -1,0 +1,9 @@
+python-gitlab>=2.6.0
+click>=7.0
+gitpython>=3.1.0
+cheetah3>=3.2.0
+result>=0.5.0
+getversion>=1.0.2
+semver>=2.13.0
+requests>=2.23.0
+paramiko>=2.7.2
