@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cerebstats
+Version: 0.0.2
+Summary: Installable package 'cerebstats' for cerebunit
+Home-page: https://github.com/cerebunit/cerebstats
+Author: Lungsi
+Author-email: lungsi.sharma@unic.cnrs-gif.fr
+License: BSD Clause-3
+Download-URL: https://github.com/cerebunit/cerebstats/archive/refs/tags/v0.0.2.tar.gz
+Description: Statistical package necessary for running validation test on cerebellum models. Four components of CerebUnit: CerebModels, CerebData, CerebStats (install), and CerebTests (install).
+Keywords: VALIDATION,CEREBELLUM,NEUROSCIENCE,MODELING,SCIENTIFIC METHOD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
