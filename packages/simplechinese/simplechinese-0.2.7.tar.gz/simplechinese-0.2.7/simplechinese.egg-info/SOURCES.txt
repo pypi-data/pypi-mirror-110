@@ -1,0 +1,17 @@
+setup.py
+simplechinese/__init__.py
+simplechinese/conversion.py
+simplechinese/nlp.py
+simplechinese/preprocessing.py
+simplechinese/representation.py
+simplechinese/visualization.py
+simplechinese.egg-info/PKG-INFO
+simplechinese.egg-info/SOURCES.txt
+simplechinese.egg-info/dependency_links.txt
+simplechinese.egg-info/requires.txt
+simplechinese.egg-info/top_level.txt
+simplechinese/data/all_weights_64.npy
+simplechinese/data/all_words.pickle
+simplechinese/data/names.pickle
+simplechinese/data/stopwords.txt
+simplechinese/data/vocab.txt
