@@ -1,0 +1,3 @@
+[console_scripts]
+trial-hello=trial-hello.console:main
+
