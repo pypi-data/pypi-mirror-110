@@ -1,0 +1,21 @@
+{
+  "description": "Blockchain Network Model",
+  "author": "Cochise Ruhulessin",
+  "author_email": "cochise.ruhulessin@unimatrixone.io",
+  "url": "https://unimatrixone.gitlab.io/libraries/python-ibrb/meta",
+  "licenses": "Proprietary",
+  "classifiers": [
+     "Development Status :: 4 - Beta",
+     "Environment :: Console",
+     "Environment :: Web Environment",
+     "Framework :: Flask",
+     "Intended Audience :: Financial and Insurance Industry",
+     "License :: Other/Proprietary License",
+     "Operating System :: POSIX",
+     "Operating System :: POSIX :: Linux",
+     "Programming Language :: Python :: 3.9",
+     "Programming Language :: Python :: 3 :: Only",
+     "Topic :: Office/Business",
+     "Topic :: Software Development :: Libraries"
+  ]
+}
