@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: hoopR-py
+Version: 0.0.3
+Summary: Retrieve men's basketball data from ESPN in Python
+Home-page: https://github.com/saiemgilani/hoopR-py
+Author: Saiem Gilani
+Author-email: saiem.gilani@gmail.com
+Maintainer: Saiem Gilani
+License: MIT
+Keywords: basketball data nba statistics web scraping
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.13.0)
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: beautifulsoup4 (>=4.4.0)
+Requires-Dist: requests (>=2.18.1)
+Requires-Dist: lxml (>=4.2.1)
+Requires-Dist: pyarrow (>=1.0.1)
+Requires-Dist: pygithub (>=1.51)
+Requires-Dist: scipy (>=1.4.0)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: tqdm (>=4.50.0)
+Requires-Dist: attrs (>=20.3.0)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0.2) ; extra == 'test'
+Requires-Dist: mypy (>=0.782) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.10.1) ; extra == 'test'
+Requires-Dist: pytest-xdist (>=2.1.0) ; extra == 'test'
+
+# hoopR-py
+<!-- badges: start -->
+
+![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
+[![PyPI](https://img.shields.io/pypi/v/hoopR-py?label=hoopr-py&logo=python&style=for-the-badge)](https://pypi.org/project/hoopR-py/)
+![Contributors](https://img.shields.io/github/contributors/saiemgilani/hoopR-py?style=for-the-badge)
+[![Twitter
+Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
+
+<!-- badges: end -->
+
+
+See [CHANGELOG.md](CHANGELOG.md) for details.
+
+[hoopR-py](https://github.com/saiemgilani/hoopR-py) is an Python package for working with men’s basketball data and companion package to [hoopR](https://github.com/saiemgilani/hoopR)
+
+The package has functions to access live play by play and box score data from ESPN with shot locations when available.
+
+## Installation
+
+hoopR-py can be installed via pip:
+
+```bash
+pip install hoopR-py
+```
+
+or from the repo (which may at times be more up to date):
+
+```bash
+git clone https://github.com/saiemgilani/hoopR-py
+cd hoopR-py
+pip install -e .
+```
+
+
