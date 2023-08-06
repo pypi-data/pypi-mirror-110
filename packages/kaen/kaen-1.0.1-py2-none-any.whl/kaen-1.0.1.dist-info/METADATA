@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kaen
+Version: 1.0.1
+Summary: Kaen, a framework for deep learning
+Home-page: https://github.com/CounterFactualAI/kaenai
+Author: CounterFactual.AI LLC
+Author-email: kaen@counterfactual.ai
+License: GPL v3.0
+Platform: UNKNOWN
+Requires-Dist: torch
+Requires-Dist: fsspec
+Requires-Dist: pandas
+Requires-Dist: s3fs
+Requires-Dist: gcsfs
+
+UNKNOWN
+
+
