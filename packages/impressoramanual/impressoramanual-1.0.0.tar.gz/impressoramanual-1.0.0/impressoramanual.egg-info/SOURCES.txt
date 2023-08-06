@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+impressoramanual.egg-info/PKG-INFO
+impressoramanual.egg-info/SOURCES.txt
+impressoramanual.egg-info/dependency_links.txt
+impressoramanual.egg-info/top_level.txt
+imprimir/__init__.py
+imprimir/imprime.py
