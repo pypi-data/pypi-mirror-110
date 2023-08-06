@@ -1,0 +1,9 @@
+requests==2.*
+
+[dev]
+coveralls==3.*
+flake8
+mock==4.*
+pytest==6.*
+pytest-cov==2.*
+vcrpy==4.*
