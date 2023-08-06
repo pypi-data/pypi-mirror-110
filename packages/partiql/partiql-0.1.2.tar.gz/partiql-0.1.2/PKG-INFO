@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: partiql
+Version: 0.1.2
+Summary: A implementation of PartiQL
+Keywords: partiql
+Home-Page: https://github.com/fuyutarow/partiql-rs
+Author: FUKUDA Yutaro <fuyutarow@gmail.com>
+Author-Email: FUKUDA Yutaro <fuyutarow@gmail.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# partiql
+
+
+
+
