@@ -1,0 +1,4 @@
+[console_scripts]
+polygenic = polygenic.polygenic:main
+polygenicmaker = polygenic.polygenicmaker:main
+
