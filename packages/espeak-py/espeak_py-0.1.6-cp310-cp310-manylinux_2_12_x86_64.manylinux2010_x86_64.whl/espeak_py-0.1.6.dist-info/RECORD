@@ -1,0 +1,5 @@
+espeak_py-0.1.6.dist-info/METADATA,sha256=5iMPSV2V46YecENhSU-RMjGP_CJmw7yoPqqWBwWe2F0,1367
+espeak_py-0.1.6.dist-info/WHEEL,sha256=K9uFIOwDAMfKTgi_eotaCOYBx-084urCP6bPhZxgrLY,137
+espeak_py/__init__.py,sha256=yx1qyHWeY74nw0ro_6OG6_XLyxiyQt1oYlZ11p6Zftg,25
+espeak_py/espeak_py.cpython-310-x86_64-linux-gnu.so,sha256=r3UfYqwTsYoLpUYE5guIF9KIkgF4ye7R0eOpwx2JENY,4988280
+espeak_py-0.1.6.dist-info/RECORD,,
