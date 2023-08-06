@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: slotpy
+Version: 0.0.2
+Summary: Sliders and Plots
+Home-page: https://github.com/Chia-vie/slotpy
+Author: Laura Ketzer, Christine Ackerl, George Paraschos
+Author-email: lketzer@aip.de, christine.ackerl@univie.ac.at, gfparaschos@mpifr.de
+License: BSD
+Description: This package was developed during the Code/Astro workshop and is a 
+            preliminary version of something cool! =)
+Keywords: astronomy,plotting,...
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: BSD License
