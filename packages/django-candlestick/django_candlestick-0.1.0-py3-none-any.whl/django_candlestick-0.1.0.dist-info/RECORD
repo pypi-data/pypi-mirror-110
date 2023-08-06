@@ -1,0 +1,10 @@
+candlestick/__init__.py,sha256=dspjg1WYslmMiHYVhXoiRwmBES2y0fgAPlMQAykEquQ,48
+candlestick/models.py,sha256=_E_nN7IO3E59BSFJz_ILcdy9IESbheZhjlSVV6MQUvw,3527
+candlestick/utils.py,sha256=Bg0p_S9TeB3RdcU6-9FURMtopTPe_g0owBhggfyyuSc,596
+candlestick/migrations/0001_initial.py,sha256=36F8d3ML9Nxr4FM7iWxyU40ilx_N9cx9q3eNJnPRL5Q,2077
+candlestick/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_candlestick-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_candlestick-0.1.0.dist-info/METADATA,sha256=HzPX_f-rq4tOPbP6XJdHZvBKCV3n2o3B0O5e_TFZIMo,2630
+django_candlestick-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_candlestick-0.1.0.dist-info/top_level.txt,sha256=JyAw5u_SBYAA4Z1iDF7I7JahpzQWifqhfX8nKOGxhZc,12
+django_candlestick-0.1.0.dist-info/RECORD,,
