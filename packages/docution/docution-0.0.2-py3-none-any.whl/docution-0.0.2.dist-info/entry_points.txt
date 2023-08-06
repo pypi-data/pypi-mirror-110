@@ -1,0 +1,3 @@
+[console_scripts]
+docution = docution.cli:auto_document
+
