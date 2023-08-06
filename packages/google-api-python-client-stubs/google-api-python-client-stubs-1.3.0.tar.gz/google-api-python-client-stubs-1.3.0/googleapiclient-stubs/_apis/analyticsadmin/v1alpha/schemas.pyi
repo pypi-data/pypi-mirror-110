@@ -1,0 +1,488 @@
+import typing
+
+import typing_extensions
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaAccount(typing_extensions.TypedDict, total=False):
+    createTime: str
+    deleted: bool
+    displayName: str
+    name: str
+    regionCode: str
+    updateTime: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaAccountSummary(
+    typing_extensions.TypedDict, total=False
+):
+    account: str
+    displayName: str
+    name: str
+    propertySummaries: typing.List[GoogleAnalyticsAdminV1alphaPropertySummary]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaAndroidAppDataStream(
+    typing_extensions.TypedDict, total=False
+):
+    createTime: str
+    displayName: str
+    firebaseAppId: str
+    name: str
+    packageName: str
+    updateTime: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaArchiveCustomDimensionRequest(
+    typing_extensions.TypedDict, total=False
+): ...
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaArchiveCustomMetricRequest(
+    typing_extensions.TypedDict, total=False
+): ...
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaAuditUserLink(
+    typing_extensions.TypedDict, total=False
+):
+    directRoles: typing.List[str]
+    effectiveRoles: typing.List[str]
+    emailAddress: str
+    name: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaAuditUserLinksRequest(
+    typing_extensions.TypedDict, total=False
+):
+    pageSize: int
+    pageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaAuditUserLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    nextPageToken: str
+    userLinks: typing.List[GoogleAnalyticsAdminV1alphaAuditUserLink]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaBatchCreateUserLinksRequest(
+    typing_extensions.TypedDict, total=False
+):
+    notifyNewUsers: bool
+    requests: typing.List[GoogleAnalyticsAdminV1alphaCreateUserLinkRequest]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaBatchCreateUserLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    userLinks: typing.List[GoogleAnalyticsAdminV1alphaUserLink]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaBatchDeleteUserLinksRequest(
+    typing_extensions.TypedDict, total=False
+):
+    requests: typing.List[GoogleAnalyticsAdminV1alphaDeleteUserLinkRequest]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaBatchGetUserLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    userLinks: typing.List[GoogleAnalyticsAdminV1alphaUserLink]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksRequest(
+    typing_extensions.TypedDict, total=False
+):
+    requests: typing.List[GoogleAnalyticsAdminV1alphaUpdateUserLinkRequest]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaBatchUpdateUserLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    userLinks: typing.List[GoogleAnalyticsAdminV1alphaUserLink]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaChangeHistoryChange(
+    typing_extensions.TypedDict, total=False
+):
+    action: typing_extensions.Literal[
+        "ACTION_TYPE_UNSPECIFIED", "CREATED", "UPDATED", "DELETED"
+    ]
+    resource: str
+    resourceAfterChange: GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
+    resourceBeforeChange: GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaChangeHistoryChangeChangeHistoryResource(
+    typing_extensions.TypedDict, total=False
+):
+    account: GoogleAnalyticsAdminV1alphaAccount
+    androidAppDataStream: GoogleAnalyticsAdminV1alphaAndroidAppDataStream
+    conversionEvent: GoogleAnalyticsAdminV1alphaConversionEvent
+    customDimension: GoogleAnalyticsAdminV1alphaCustomDimension
+    customMetric: GoogleAnalyticsAdminV1alphaCustomMetric
+    firebaseLink: GoogleAnalyticsAdminV1alphaFirebaseLink
+    googleAdsLink: GoogleAnalyticsAdminV1alphaGoogleAdsLink
+    googleSignalsSettings: GoogleAnalyticsAdminV1alphaGoogleSignalsSettings
+    iosAppDataStream: GoogleAnalyticsAdminV1alphaIosAppDataStream
+    measurementProtocolSecret: GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+    property: GoogleAnalyticsAdminV1alphaProperty
+    webDataStream: GoogleAnalyticsAdminV1alphaWebDataStream
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaChangeHistoryEvent(
+    typing_extensions.TypedDict, total=False
+):
+    actorType: typing_extensions.Literal[
+        "ACTOR_TYPE_UNSPECIFIED", "USER", "SYSTEM", "SUPPORT"
+    ]
+    changeTime: str
+    changes: typing.List[GoogleAnalyticsAdminV1alphaChangeHistoryChange]
+    changesFiltered: bool
+    id: str
+    userActorEmail: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaConversionEvent(
+    typing_extensions.TypedDict, total=False
+):
+    createTime: str
+    custom: bool
+    eventName: str
+    isDeletable: bool
+    name: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaCreateUserLinkRequest(
+    typing_extensions.TypedDict, total=False
+):
+    notifyNewUser: bool
+    parent: str
+    userLink: GoogleAnalyticsAdminV1alphaUserLink
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaCustomDimension(
+    typing_extensions.TypedDict, total=False
+):
+    description: str
+    disallowAdsPersonalization: bool
+    displayName: str
+    name: str
+    parameterName: str
+    scope: typing_extensions.Literal["DIMENSION_SCOPE_UNSPECIFIED", "EVENT", "USER"]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaCustomMetric(typing_extensions.TypedDict, total=False):
+    description: str
+    displayName: str
+    measurementUnit: typing_extensions.Literal[
+        "MEASUREMENT_UNIT_UNSPECIFIED",
+        "STANDARD",
+        "CURRENCY",
+        "FEET",
+        "METERS",
+        "KILOMETERS",
+        "MILES",
+        "MILLISECONDS",
+        "SECONDS",
+        "MINUTES",
+        "HOURS",
+    ]
+    name: str
+    parameterName: str
+    scope: typing_extensions.Literal["METRIC_SCOPE_UNSPECIFIED", "EVENT"]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaDataSharingSettings(
+    typing_extensions.TypedDict, total=False
+):
+    name: str
+    sharingWithGoogleAnySalesEnabled: bool
+    sharingWithGoogleAssignedSalesEnabled: bool
+    sharingWithGoogleProductsEnabled: bool
+    sharingWithGoogleSupportEnabled: bool
+    sharingWithOthersEnabled: bool
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaDeleteUserLinkRequest(
+    typing_extensions.TypedDict, total=False
+):
+    name: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaEnhancedMeasurementSettings(
+    typing_extensions.TypedDict, total=False
+):
+    fileDownloadsEnabled: bool
+    name: str
+    outboundClicksEnabled: bool
+    pageChangesEnabled: bool
+    pageLoadsEnabled: bool
+    pageViewsEnabled: bool
+    scrollsEnabled: bool
+    searchQueryParameter: str
+    siteSearchEnabled: bool
+    streamEnabled: bool
+    uriQueryParameter: str
+    videoEngagementEnabled: bool
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaFirebaseLink(typing_extensions.TypedDict, total=False):
+    createTime: str
+    name: str
+    project: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaGlobalSiteTag(
+    typing_extensions.TypedDict, total=False
+):
+    name: str
+    snippet: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaGoogleAdsLink(
+    typing_extensions.TypedDict, total=False
+):
+    adsPersonalizationEnabled: bool
+    canManageClients: bool
+    createTime: str
+    creatorEmailAddress: str
+    customerId: str
+    name: str
+    updateTime: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaGoogleSignalsSettings(
+    typing_extensions.TypedDict, total=False
+):
+    consent: typing_extensions.Literal[
+        "GOOGLE_SIGNALS_CONSENT_UNSPECIFIED",
+        "GOOGLE_SIGNALS_CONSENT_CONSENTED",
+        "GOOGLE_SIGNALS_CONSENT_NOT_CONSENTED",
+    ]
+    name: str
+    state: typing_extensions.Literal[
+        "GOOGLE_SIGNALS_STATE_UNSPECIFIED",
+        "GOOGLE_SIGNALS_ENABLED",
+        "GOOGLE_SIGNALS_DISABLED",
+    ]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaIosAppDataStream(
+    typing_extensions.TypedDict, total=False
+):
+    bundleId: str
+    createTime: str
+    displayName: str
+    firebaseAppId: str
+    name: str
+    updateTime: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListAccountSummariesResponse(
+    typing_extensions.TypedDict, total=False
+):
+    accountSummaries: typing.List[GoogleAnalyticsAdminV1alphaAccountSummary]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListAccountsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    accounts: typing.List[GoogleAnalyticsAdminV1alphaAccount]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListAndroidAppDataStreamsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    androidAppDataStreams: typing.List[GoogleAnalyticsAdminV1alphaAndroidAppDataStream]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListConversionEventsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    conversionEvents: typing.List[GoogleAnalyticsAdminV1alphaConversionEvent]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListCustomDimensionsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    customDimensions: typing.List[GoogleAnalyticsAdminV1alphaCustomDimension]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListCustomMetricsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    customMetrics: typing.List[GoogleAnalyticsAdminV1alphaCustomMetric]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListFirebaseLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    firebaseLinks: typing.List[GoogleAnalyticsAdminV1alphaFirebaseLink]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListGoogleAdsLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    googleAdsLinks: typing.List[GoogleAnalyticsAdminV1alphaGoogleAdsLink]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListIosAppDataStreamsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    iosAppDataStreams: typing.List[GoogleAnalyticsAdminV1alphaIosAppDataStream]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListMeasurementProtocolSecretsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    measurementProtocolSecrets: typing.List[
+        GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret
+    ]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListPropertiesResponse(
+    typing_extensions.TypedDict, total=False
+):
+    nextPageToken: str
+    properties: typing.List[GoogleAnalyticsAdminV1alphaProperty]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListUserLinksResponse(
+    typing_extensions.TypedDict, total=False
+):
+    nextPageToken: str
+    userLinks: typing.List[GoogleAnalyticsAdminV1alphaUserLink]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaListWebDataStreamsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    nextPageToken: str
+    webDataStreams: typing.List[GoogleAnalyticsAdminV1alphaWebDataStream]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaMeasurementProtocolSecret(
+    typing_extensions.TypedDict, total=False
+):
+    displayName: str
+    name: str
+    secretValue: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaProperty(typing_extensions.TypedDict, total=False):
+    createTime: str
+    currencyCode: str
+    deleteTime: str
+    displayName: str
+    expireTime: str
+    industryCategory: typing_extensions.Literal[
+        "INDUSTRY_CATEGORY_UNSPECIFIED",
+        "AUTOMOTIVE",
+        "BUSINESS_AND_INDUSTRIAL_MARKETS",
+        "FINANCE",
+        "HEALTHCARE",
+        "TECHNOLOGY",
+        "TRAVEL",
+        "OTHER",
+        "ARTS_AND_ENTERTAINMENT",
+        "BEAUTY_AND_FITNESS",
+        "BOOKS_AND_LITERATURE",
+        "FOOD_AND_DRINK",
+        "GAMES",
+        "HOBBIES_AND_LEISURE",
+        "HOME_AND_GARDEN",
+        "INTERNET_AND_TELECOM",
+        "LAW_AND_GOVERNMENT",
+        "NEWS",
+        "ONLINE_COMMUNITIES",
+        "PEOPLE_AND_SOCIETY",
+        "PETS_AND_ANIMALS",
+        "REAL_ESTATE",
+        "REFERENCE",
+        "SCIENCE",
+        "SPORTS",
+        "JOBS_AND_EDUCATION",
+        "SHOPPING",
+    ]
+    name: str
+    parent: str
+    timeZone: str
+    updateTime: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaPropertySummary(
+    typing_extensions.TypedDict, total=False
+):
+    displayName: str
+    property: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaProvisionAccountTicketRequest(
+    typing_extensions.TypedDict, total=False
+):
+    account: GoogleAnalyticsAdminV1alphaAccount
+    redirectUri: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaProvisionAccountTicketResponse(
+    typing_extensions.TypedDict, total=False
+):
+    accountTicketId: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsRequest(
+    typing_extensions.TypedDict, total=False
+):
+    action: typing.List[str]
+    actorEmail: typing.List[str]
+    earliestChangeTime: str
+    latestChangeTime: str
+    pageSize: int
+    pageToken: str
+    property: str
+    resourceType: typing.List[str]
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaSearchChangeHistoryEventsResponse(
+    typing_extensions.TypedDict, total=False
+):
+    changeHistoryEvents: typing.List[GoogleAnalyticsAdminV1alphaChangeHistoryEvent]
+    nextPageToken: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaUpdateUserLinkRequest(
+    typing_extensions.TypedDict, total=False
+):
+    userLink: GoogleAnalyticsAdminV1alphaUserLink
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaUserLink(typing_extensions.TypedDict, total=False):
+    directRoles: typing.List[str]
+    emailAddress: str
+    name: str
+
+@typing.type_check_only
+class GoogleAnalyticsAdminV1alphaWebDataStream(
+    typing_extensions.TypedDict, total=False
+):
+    createTime: str
+    defaultUri: str
+    displayName: str
+    firebaseAppId: str
+    measurementId: str
+    name: str
+    updateTime: str
+
+@typing.type_check_only
+class GoogleProtobufEmpty(typing_extensions.TypedDict, total=False): ...
