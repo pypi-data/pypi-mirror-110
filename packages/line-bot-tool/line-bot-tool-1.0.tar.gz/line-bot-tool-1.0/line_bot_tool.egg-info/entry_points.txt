@@ -1,0 +1,3 @@
+[console_scripts]
+lb-tool = line_bot_tool:exec_from_command_line
+
