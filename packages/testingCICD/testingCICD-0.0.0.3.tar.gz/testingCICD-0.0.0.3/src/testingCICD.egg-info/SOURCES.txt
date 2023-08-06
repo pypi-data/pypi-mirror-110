@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/example_package/__init__.py
+src/example_package/example.py
+src/testingCICD.egg-info/PKG-INFO
+src/testingCICD.egg-info/SOURCES.txt
+src/testingCICD.egg-info/dependency_links.txt
+src/testingCICD.egg-info/top_level.txt
