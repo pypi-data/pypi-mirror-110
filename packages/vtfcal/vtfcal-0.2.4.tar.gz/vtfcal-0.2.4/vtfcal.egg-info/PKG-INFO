@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vtfcal
+Version: 0.2.4
+Summary: Calibration pipeline for the DKIST/VTF
+Home-page: http://dkist.nso.edu/inst/VTF
+Author: Aperio Software Ltd.
+Author-email: andrew.leonard@aperiosoftware.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+
+file: README.rst
+
