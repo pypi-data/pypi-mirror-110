@@ -1,0 +1,14 @@
+memeoverflow/__init__.py,sha256=ux7ou8XjJl51wuUThTSjvM7bvySSKNn4sp2N_FWAqa8,280
+memeoverflow/db.py,sha256=SAcrmozVBtSnsNcfWk_rxtUl-KFG-lFLkzU-xQ39bXw,1385
+memeoverflow/exc.py,sha256=ffZ3xBclQfu0RUqzjYCSdmpw_VgUP25cnyri4tnuoXc,496
+memeoverflow/memeoverflow.py,sha256=VFXtaXhvv5lHMvkHv5_w35gafRCwVtobACBTkKeAmEk,5826
+memeoverflow/stackexchange.py,sha256=zQHEH21E97asQ6ekI3c5q2DAnZzioOx40EXwHYuArvk,2028
+memeoverflow/twitter.py,sha256=73lCMLoXnyWh-Cl2o2YQxRhKVPmUUsiBdqZ-xN4bkc0,975
+memeoverflow/utils.py,sha256=X0Tq3-BGORUQ8owqH8n6mm_7hhTHJAv5Si-hgmMrYqo,1175
+memeoverflow/imgflip/__init__.py,sha256=K9PiCGDMjy3gpYmEbPdmn-HBa3Qn5fUOhmcQez131go,1354
+memeoverflow/imgflip/memes.py,sha256=Z7mV4TrzN9H7Dkg4_js6dabC5wUC17VrYsZPwyMUX-o,10569
+memeoverflow-0.8.0.dist-info/LICENSE.md,sha256=f9gWo_t2boIWZZW-rdOnqCTxoRh9SrHvqM_1oVPyjoI,1511
+memeoverflow-0.8.0.dist-info/METADATA,sha256=7uj5biko0yHAbaZxpwQi-eIMvHaLhQCvbmKSreT1rWc,2563
+memeoverflow-0.8.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+memeoverflow-0.8.0.dist-info/top_level.txt,sha256=jZ3OLOauD0p1gM_pkmtUekCp95mZ116rL3ll5FHcLZg,13
+memeoverflow-0.8.0.dist-info/RECORD,,
