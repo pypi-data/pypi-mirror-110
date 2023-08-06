@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+pyppeteer_ghost_cursor/__init__.py
+pyppeteer_ghost_cursor/math.py
+pyppeteer_ghost_cursor/mouseHelper.py
+pyppeteer_ghost_cursor/spoof.py
+pyppeteer_ghost_cursor.egg-info/PKG-INFO
+pyppeteer_ghost_cursor.egg-info/SOURCES.txt
+pyppeteer_ghost_cursor.egg-info/dependency_links.txt
+pyppeteer_ghost_cursor.egg-info/requires.txt
+pyppeteer_ghost_cursor.egg-info/top_level.txt
+pyppeteer_ghost_cursor/js/mouseHelper.js
