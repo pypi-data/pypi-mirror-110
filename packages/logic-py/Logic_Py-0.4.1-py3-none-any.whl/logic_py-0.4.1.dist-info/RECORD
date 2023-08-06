@@ -1,0 +1,13 @@
+LICENSE,sha256=y6nwKcVCmn78WYnhMg_rUazZBjuzKwdPr6mXpVOn4NI,11351
+Logic_Py/__init__.py,sha256=58tVWulctgXA90jDvUN9VMLKjFin8rDztZWiSKxtfqo,927
+Logic_Py/arithmatic_gates.py,sha256=TAxNSyLwDfvtTH-5Cz8tJMS_jwMsaJ8ylSnsU31_XRU,1851
+Logic_Py/basic_gates.py,sha256=kKe1IwO48xMh5_MaS7U5NoTApzcdmHC1_4Bna13SRjk,4029
+Logic_Py/combinational_gates.py,sha256=pqEuhoobbGPefRRvK0x7BFJ3z-Npl2b-KwdFLMRud_U,4036
+Logic_Py/Hello_World.py,sha256=V2ifj9vCBnVPaHbNg6UTvrhTJqo4za4Ijqw-hoyhiN4,905
+Logic_Py/Logic_circuits.py,sha256=zf5hfN7PVkGj9nQPxk1eQbTfAOsY6QgLSke4F_A-9ZE,3471
+Logic_Py/plotting.py,sha256=QbNAiNL1j0BkfAtKLi9uOm9NIiYfqMqij7rVPrPkA2I,4343
+Logic_Py/secondary_gates.py,sha256=VlPJnYOsxy8DTsnfYxXE2LUH11wXvsAQ-meeZFKHP7A,7353
+logic_py-0.4.1.dist-info/LICENSE,sha256=y6nwKcVCmn78WYnhMg_rUazZBjuzKwdPr6mXpVOn4NI,11351
+logic_py-0.4.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+logic_py-0.4.1.dist-info/METADATA,sha256=BqA4K0wLIhWPVwVDnABK9qM-3zcYffWVcDRzJfnUUVw,5183
+logic_py-0.4.1.dist-info/RECORD,,
