@@ -1,0 +1,12 @@
+pyMobileRobotics/IterativeRobotBase.py,sha256=NG4tdcah00VaKgrUbjLjf5pZ1ctE20b2PamaJXBXEa0,5129
+pyMobileRobotics/RobotBase.py,sha256=GRkdI8s-VVKleyTJAV0KPILCXY9ZsEDJ6mfRUUEOKHk,1102
+pyMobileRobotics/TimedRobot.py,sha256=rODjcEcqnDpBRsaMvmo3FeLHSHxJoPiFtInPKpagpKM,636
+pyMobileRobotics/Watchdog.py,sha256=uGgdR3nEElGdSKxH6ip2zyZMBu4hvCiLX6CvXAjXlx4,1284
+pyMobileRobotics/__init__.py,sha256=tBRRJ08oZqtYu75_Lp9L6fvt4GpImu0Y0snEBkNKg3U,369
+pyMobileRobotics/test.py,sha256=21LqaLss8mha-YRbie3bylNqg_5FUgT29md8yEe-fRA,235
+pyMobileRobotics/test2.py,sha256=wWhb-fazuFzSSufC0oOefCtnhRyAGTXFSapKxSuRoXI,23
+pyMobileRobotics/test3.py,sha256=drT4cofjROySSSXN8P0CfdtlIhFVeqkoUP7-G-yLLMw,699
+pyMobileRobotics-0.0.3.dist-info/METADATA,sha256=p_sXD1r55Ioz9uqEwyVAIJOnExqSBm7zz8Zss0c6xSM,532
+pyMobileRobotics-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyMobileRobotics-0.0.3.dist-info/top_level.txt,sha256=Qm0LM1x31F4jpUmkEI7hWWUDlMSsKq3Kx_vzXQxq7Sc,17
+pyMobileRobotics-0.0.3.dist-info/RECORD,,
