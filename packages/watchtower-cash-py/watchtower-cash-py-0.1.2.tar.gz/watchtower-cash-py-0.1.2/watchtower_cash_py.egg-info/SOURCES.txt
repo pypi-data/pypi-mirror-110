@@ -1,0 +1,9 @@
+README.md
+setup.py
+watchtower/__init__.py
+watchtower/subscription.py
+watchtower_cash_py.egg-info/PKG-INFO
+watchtower_cash_py.egg-info/SOURCES.txt
+watchtower_cash_py.egg-info/dependency_links.txt
+watchtower_cash_py.egg-info/requires.txt
+watchtower_cash_py.egg-info/top_level.txt
