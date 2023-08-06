@@ -1,0 +1,7 @@
+matplotlib
+IPython
+argh
+numpy
+soundfile
+pandas
+scipy
