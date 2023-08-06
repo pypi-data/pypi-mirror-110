@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: make-voc-dataset
+Version: 0.0.5.dev1
+Summary: A quick tool to make VOC style Dataset
+Home-page: https://github.com/Razin-Tailor/make_voc_dataset
+Author: Razin Tailor
+Author-email: razintailorpy@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Razin-Tailor/make_voc_dataset/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mmcv-full
+Requires-Dist: numpy
+Requires-Dist: setuptools (>=42)
+Requires-Dist: tqdm
+Requires-Dist: wheel
+
+# make-voc-dataset
+
+Majority of the current Deep Learning Frameworks like [MMDetection](https://github.com/open-mmlab/mmdetection) or [Detectron2](https://github.com/facebookresearch/detectron2) support the **VOC Formatted Data / COCO Formatted Data**
+
+This simple tool helps convert files stored in your local machine in the VOC Formatted Directory Structure
+
+The data should have images and their corresponding annotation_file in **xml** format.
+
+Tools like [LabelIMG](https://github.com/tzutalin/labelImg) can be used to annotate images.
+
+## Options
+
+`-s / --source_path`
+Provide the full path where all the images and xmls are located. Please make sure the img_names are **UNIQUE**
+
+`-d / --dest_path`
+Provide the full to save the VOC structure
+
+`-t / --test_ratio`
+Provide the ratio (between 0 and 1) that will be the test division of the dataset
+
+
