@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/org/__init__.py
+src/org/codeforrussia/__init__.py
+src/org/codeforrussia/selector/__init__.py
+src/org/codeforrussia/selector/beam/__init__.py
+src/org/codeforrussia/selector/beam/pipeline.py
+src/selector_standardization_beam.egg-info/PKG-INFO
+src/selector_standardization_beam.egg-info/SOURCES.txt
+src/selector_standardization_beam.egg-info/dependency_links.txt
+src/selector_standardization_beam.egg-info/requires.txt
+src/selector_standardization_beam.egg-info/top_level.txt
