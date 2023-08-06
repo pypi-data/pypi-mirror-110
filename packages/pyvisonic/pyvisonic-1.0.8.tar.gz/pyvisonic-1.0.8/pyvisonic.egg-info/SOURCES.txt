@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyvisonic.egg-info/PKG-INFO
+pyvisonic.egg-info/SOURCES.txt
+pyvisonic.egg-info/dependency_links.txt
+pyvisonic.egg-info/requires.txt
+pyvisonic.egg-info/top_level.txt
