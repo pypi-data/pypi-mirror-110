@@ -1,0 +1,3 @@
+[console_scripts]
+docs-translate=docs_translate.app:run
+
