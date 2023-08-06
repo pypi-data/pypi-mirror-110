@@ -1,0 +1,16 @@
+django_rest_urltoken_auth/__init__.py,sha256=P53QYsH8ah34mZ8vNF-9L0HhhXN9_DFLIcXQapuCRUg,82
+django_rest_urltoken_auth/admin.py,sha256=ngw6wphxZWqIr6Ash7ovq81jXwBBstQQiOyoudlIwEE,238
+django_rest_urltoken_auth/apps.py,sha256=vx5GFJJnT1VpAiAbX9yAjep_y7eBuzc0TnI6BeFN5AM,154
+django_rest_urltoken_auth/authentication.py,sha256=2HFYt9OKvIbaTm46THJJGElEdqgCB93fOUG44ey0MEY,851
+django_rest_urltoken_auth/models.py,sha256=X_1cN1sr-B4XAK1SCQc0XiL1iyXFy1aX8zHPTJ9OV7w,995
+django_rest_urltoken_auth/permissions.py,sha256=8NB14GOs7Zy8P4hmkwuEtovhUxPSpgaSXZYOvobAcJ4,2044
+django_rest_urltoken_auth/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_rest_urltoken_auth/migrations/0001_initial.py,sha256=0EsnWoJ6rG267ktlTppuMxQ-150wGifFIJPhdFam9L8,926
+django_rest_urltoken_auth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rest_urltoken_auth/tests/__init__.py,sha256=P53QYsH8ah34mZ8vNF-9L0HhhXN9_DFLIcXQapuCRUg,82
+django_rest_urltoken_auth/tests/tests.py,sha256=G69iTSoK8sAAe3-V8wIVuNjapMF0WAHQD5f91TArOfc,2827
+django_rest_urltoken_auth-0.1.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+django_rest_urltoken_auth-0.1.0.dist-info/METADATA,sha256=JKinkjmIP9HVvzdvdgQ06a74D2VDvw-NWXE2_9GjeGo,2912
+django_rest_urltoken_auth-0.1.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+django_rest_urltoken_auth-0.1.0.dist-info/top_level.txt,sha256=gWkFBRA9z7OlbrxaxrbA68KYYMnPG1J7VcdQapZne_E,26
+django_rest_urltoken_auth-0.1.0.dist-info/RECORD,,
