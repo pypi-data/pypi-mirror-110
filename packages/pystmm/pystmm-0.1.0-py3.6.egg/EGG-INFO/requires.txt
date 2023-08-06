@@ -1,0 +1,7 @@
+mne
+wget
+plotly
+numpy
+scipy
+scikit-learn
+pandas
