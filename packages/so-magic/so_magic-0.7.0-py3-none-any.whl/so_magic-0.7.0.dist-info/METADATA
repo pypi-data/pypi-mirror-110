@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: so-magic
+Version: 0.7.0
+Summary: Self Organising MAp Graceful InterfaCe
+Home-page: UNKNOWN
+Author: Konstantinos Lampridis
+Author-email: k.lampridis@hotmail.com
+License: GNU GPLv3
+Download-URL: https://github.com/boromir674/so-magic/archive/v0.7.0.tar.gz
+Project-URL: Issue Tracker, https://github.com/boromir674/so-magic/issues
+Project-URL: Changelog, https://github.com/boromir674/so-magic/blob/master/CHANGELOG.rst
+Project-URL: Source, https://github.com/boromir674/so-magic
+Project-URL: Documentation, https://so-magic.readthedocs.io/
+Keywords: unsupervised learning,self-organizing map
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: attrs
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: somoclu
+
+.. image:: ./docs/static/magic-logo-prototype-1.png
+   :align: center
+   :height: 200
+   :alt: So Magic
+
+*Self-Organising Map inference, data encoding, high performance, easy to use*
+
+
+.. start-badges
+
+| |circleci| |travis| |codecov| |docs|
+| |release_version| |wheel| |supported_versions| |commits_since|
+| |better_code_hub| |scrutinizer_code_quality|
+
+|
+| **Documentation:** https://so-magic.readthedocs.io/en/dev
+| **Source Code:** https://github.com/boromir674/so-magic
+|
+
+So Magic is a Python package (`import so_magic`) that can infer *Self-Organising Map* models, out of structured data.
+
+
+
+.. |circleci|  image:: https://img.shields.io/circleci/build/github/boromir674/so-magic/dev?logo=circleci
+    :alt: CircleCI
+    :target: https://circleci.com/gh/boromir674/so-magic/tree/dev
+
+.. |travis| image:: https://travis-ci.org/boromir674/so-magic.svg?branch=dev
+    :alt: Travis-CI Build Status
+    :target: https://travis-ci.org/boromir674/so-magic
+
+.. |codecov| image:: https://img.shields.io/codecov/c/github/boromir674/so-magic/dev?logo=codecov
+    :alt: Codecov
+    :target: https://codecov.io/gh/boromir674/so-magic
+
+.. |docs| image:: https://readthedocs.org/projects/so-magic/badge/?version=dev
+    :alt: Documentation Status
+    :target: https://so-magic.readthedocs.io/en/latest/?badge=dev
+
+
+.. |release_version| image:: https://img.shields.io/pypi/v/so-magic
+    :target: https://pypi.org/project/so-magic/
+    :alt: Production Version
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/so-magic.svg
+    :alt: Python Wheel
+    :target: https://pypi.org/project/so-magic
+
+.. |supported_versions| image:: https://img.shields.io/pypi/pyversions/so-magic.svg
+    :alt: Supported Python versions
+    :target: https://pypi.org/project/so-magic
+
+.. |commits_since| image:: https://img.shields.io/github/commits-since/boromir674/so-magic/v0.7.0/dev?logo=github
+    :alt: GitHub commits on branch, since tagged version
+    :target: https://github.com/boromir674/so-magic/compare/v0.7.0..dev
+
+
+.. |better_code_hub| image:: https://bettercodehub.com/edge/badge/boromir674/so-magic?branch=dev
+    :alt: Better Code Hub
+    :target: https://bettercodehub.com/
+
+.. |scrutinizer_code_quality| image:: https://img.shields.io/scrutinizer/quality/g/boromir674/so-magic/dev?logo=scrutinizer-ci
+    :alt: Scrutinizer code quality
+    :target: https://scrutinizer-ci.com/g/boromir674/so-magic/?branch=dev
+
+
+
+To read more about the library (installation guide, features, how-to-use, etc)
+please read further in the So Magic `dev documentation <https://so-magic.readthedocs.io/en/dev/>`_.
+
+
