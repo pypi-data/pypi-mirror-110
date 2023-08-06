@@ -1,0 +1,3 @@
+[pytest11]
+simplehttpserver = pytest_simplehttpserver.pytest_plugin
+

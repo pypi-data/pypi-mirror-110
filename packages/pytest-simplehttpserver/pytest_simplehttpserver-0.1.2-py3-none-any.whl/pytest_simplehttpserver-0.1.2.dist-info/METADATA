@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: pytest-simplehttpserver
+Version: 0.1.2
+Summary: Simple pytest fixture to spin up an HTTP server
+Home-page: https://github.com/ppmdo/pytest-simplehttpserver
+Author: Pablo Prieto Montes de Oca
+Author-email: pabloprieto@live.com
+Maintainer: Pablo Prieto Montes de Oca
+Maintainer-email: pabloprieto@live.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytest-simplehttpserver
+
+Simple fixture to spin up a simple HTTP server to serve static files for testing.
+
+Can be used for testing web scrapers, etc.
+
+Features
+--------
+
+* The fixture spins up a HTTP server that serves static files on port 8000.
+
+Usage
+-----
+
+When running your tests you need to point pytest-simplehttpserver to root
+directory with the static files you want to serve:
+
+
+```shell
+$ pytest --simplehttpserver-directory /home/user/mock_website/
+```
+
+In your code, just pass the fixture to your tests:
+
+```python
+import requests
+
+def mytest(simplehttpserver):
+    response = requests.get('http://localhost:8000/')
+    assert response.status_code == 200
+```
+
+
+Installation
+------------
+
+You can install "pytest-simplehttpserver" via pip from PyPI:
+
+```shell
+$ pip install pytest-simplehttpserver
+```
+
+Contributing
+------------
+Contributions are very welcome. Tests can be run with pytest, please ensure
+the coverage at least stays the same before you submit a pull request.
+
+License
+-------
+
+Distributed under the terms of the MIT license, "pytest-simplehttpserver" is free and open source software
+
+
