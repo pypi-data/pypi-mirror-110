@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "leapcli"
+version = "0.1.1"
+description = "Tensorleap CLI"
+authors = ["Assaf Lavie <assaf.lavie@tensorleap.ai>"]
+license = "MIT"
+repository = "https://github.com/tensorleap/cli"
+homepage = "https://github.com/tensorleap/cli"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+docopt = "^0.6.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+leap = "leapcli.cli:__main__"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
