@@ -1,0 +1,6 @@
+boto3
+PyYAML
+typing_extensions
+pandas==1.2.3
+gql==3.0.0a2
+elasticsearch_dsl
