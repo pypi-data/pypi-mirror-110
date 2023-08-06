@@ -1,0 +1,106 @@
+[tool.poetry]
+name = "pyfactcast"
+version = "0.0.9"
+description = "A python client library for FactCast"
+authors = ["Eduard Thamm <eduard.thamm@thammit.at>"]
+license = "Apache-2.0"
+readme = "README.md"
+documentation = "https://pyfactcast.readthedocs.io/en/stable/"
+repository = "https://gitlab.com/edthamm/pyfactcast"
+keywords = ["event-sourcing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries",
+    "Typing :: Typed"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+grpcio = "^1.37.1"
+grpcio-tools = "^1.37.1"
+typer = "^0.3.2"
+rich = "^10.2.0"
+sphinx = {version = "<4", optional = true}
+sphinx-click = {version = "^2.7.1", optional = true}
+pydantic = "^1.8.2"
+sphinx-rtd-theme = {version = "^0.5.2", optional = true}
+sphinx-autodoc-typehints = {version = "^1.12.0", optional = true}
+
+[tool.poetry.extras]
+docs = ["sphinx","sphinx-click","sphinx-rtd-theme","sphinx-autodoc-typehints"]
+
+[tool.poetry.dev-dependencies]
+Sphinx = "<4"
+black = "^21.5b1"
+flake8 = "^3.9.2"
+flake8-bugbear = "^21.4.3"
+pytest = "^6.2.4"
+mypy = "^0.812"
+rstcheck = "^3.3.1"
+sphinx-autobuild = "^2021.3.14"
+pytest-cov = "^2.11.1"
+pytest-randomly = "^3.8.0"
+pre-commit = "^2.12.1"
+sphinx-click = "^2.7.1"
+mypy-protobuf = "^2.4"
+pytest-mock = "^3.6.1"
+datamodel-code-generator = "^0.11.4"
+testcontainers = "^3.4.0"
+SQLAlchemy = "^1.4.15"
+psycopg2-binary = "^2.8.6"
+docker-compose = "^1.29.2"
+flake8-annotations = "^2.6.2"
+safety = "^1.10.3"
+flake8-docstrings = "^1.6.0"
+nox = "^2021.6.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+factcast = 'pyfactcast.app.ui.cli:app'
+
+[tool.coverage.run]
+omit = ["src/pyfactcast/grpc/generated/*", "*__init__.py"]
+
+[tool.pytest.ini_options]
+addopts = "-rsxX -l --tb=short --strict-markers --cov-report term --cov=pyfactcast --cov-fail-under=85 --cov-branch"
+xfail_strict = true
+testpaths = [
+    "tests",
+]
+filterwarnings = "ignore:.*the imp module is deprecated.*:DeprecationWarning"
+markers = [
+  "integration: marks tests that use mock and are therefore slower.",
+  "usecase: marks tests that represent business logic.",
+  "containers: marks tests that will spin up test containers."
+]
+
+[tool.black]
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | \.nox
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | src/pyfactcast/grpc/generated
+  | .cache
+  | .venv
+)
+'''
