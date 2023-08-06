@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: junitmgr
+Version: 1.0.3
+Summary: Manages Surefire XML (JUnit) XML files, especially huge files,, for generating reports.
+Home-page: https://github.com/h20dragon/junitmgr.git
+Author: H20Dragon
+Author-email: h20dragon@outlook.com
+License: Apache 2.0
+Description: JUnit Manager
+Keywords: junit surefire nunit xunit xml parser h20dragon
+Platform: UNKNOWN

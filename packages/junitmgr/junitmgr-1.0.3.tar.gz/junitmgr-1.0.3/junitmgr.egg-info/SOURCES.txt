@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/junitmgr
+junitmgr/__init__.py
+junitmgr.egg-info/PKG-INFO
+junitmgr.egg-info/SOURCES.txt
+junitmgr.egg-info/dependency_links.txt
+junitmgr.egg-info/not-zip-safe
+junitmgr.egg-info/requires.txt
+junitmgr.egg-info/top_level.txt
