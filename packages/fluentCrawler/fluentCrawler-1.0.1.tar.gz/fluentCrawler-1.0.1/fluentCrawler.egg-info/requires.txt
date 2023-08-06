@@ -1,0 +1,9 @@
+Django>=1.1.1
+caldav==0.1.4
+retrying==1.3.3
+w3lib==1.22.0
+requests==2.25.1
+lxml==4.6.3
+urllib3==1.26.4
+gne==0.2.6
+gerapy_auto_extractor==0.1.2

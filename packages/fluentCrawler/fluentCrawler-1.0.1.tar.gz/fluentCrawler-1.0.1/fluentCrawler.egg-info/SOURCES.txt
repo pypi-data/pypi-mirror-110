@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fluentCrawler/BaseModel.py
+fluentCrawler/NewsModel.py
+fluentCrawler/anno.py
+fluentCrawler/joinUtil.py
+fluentCrawler.egg-info/PKG-INFO
+fluentCrawler.egg-info/SOURCES.txt
+fluentCrawler.egg-info/dependency_links.txt
+fluentCrawler.egg-info/requires.txt
+fluentCrawler.egg-info/top_level.txt

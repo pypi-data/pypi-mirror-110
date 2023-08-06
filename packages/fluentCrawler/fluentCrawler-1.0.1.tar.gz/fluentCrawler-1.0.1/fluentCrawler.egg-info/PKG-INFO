@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fluentCrawler
+Version: 1.0.1
+Summary: A decorator crawler
+Home-page: https://gitee.com/szw1259577135/flu-crawler
+Author: szw
+Author-email: 1259577135@qq.com
+License: UNKNOWN
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+
+[Github-flavored Markdown](https://gitee.com/szw1259577135/flu-crawler)
+
+to write your content.
+
