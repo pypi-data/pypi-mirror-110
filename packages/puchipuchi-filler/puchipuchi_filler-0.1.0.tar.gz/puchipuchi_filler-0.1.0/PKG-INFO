@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: puchipuchi-filler
+Version: 0.1.0
+Summary: nothing to describe
+Author: snara tkomatsu tkano
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
