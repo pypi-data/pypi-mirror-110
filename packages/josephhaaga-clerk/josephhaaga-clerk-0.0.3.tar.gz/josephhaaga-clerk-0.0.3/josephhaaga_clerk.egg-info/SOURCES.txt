@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+clerk/__init__.py
+clerk/app.py
+clerk/config.py
+clerk/parse.py
+josephhaaga_clerk.egg-info/PKG-INFO
+josephhaaga_clerk.egg-info/SOURCES.txt
+josephhaaga_clerk.egg-info/dependency_links.txt
+josephhaaga_clerk.egg-info/entry_points.txt
+josephhaaga_clerk.egg-info/requires.txt
+josephhaaga_clerk.egg-info/top_level.txt
