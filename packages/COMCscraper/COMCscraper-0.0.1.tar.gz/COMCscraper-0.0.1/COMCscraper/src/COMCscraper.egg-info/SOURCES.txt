@@ -1,0 +1,8 @@
+README.md
+setup.py
+COMCscraper/src/COMCscraper.egg-info/PKG-INFO
+COMCscraper/src/COMCscraper.egg-info/SOURCES.txt
+COMCscraper/src/COMCscraper.egg-info/dependency_links.txt
+COMCscraper/src/COMCscraper.egg-info/requires.txt
+COMCscraper/src/COMCscraper.egg-info/top_level.txt
+COMCscraper/src/COMCscraper.egg-info/SOURCES.txt
