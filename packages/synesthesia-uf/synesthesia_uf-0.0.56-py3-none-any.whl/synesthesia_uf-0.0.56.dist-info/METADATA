@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: synesthesia-uf
+Version: 0.0.56
+Summary: A Python audio image creation tool
+Home-page: https://github.com/cbaddeley/Synesthesia
+Author: Super Fun Adventure Club Dude Man Squad
+Author-email: <georgekolasa@ufl.edu
+License: GPL 3
+Keywords: audio,visualizer,image
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: essentia
+Requires-Dist: librosa
+Requires-Dist: pillow
+
+UNKNOWN
+
+
