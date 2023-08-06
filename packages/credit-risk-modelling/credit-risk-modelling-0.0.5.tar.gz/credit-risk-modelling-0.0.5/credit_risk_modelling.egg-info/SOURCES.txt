@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+credit_risk_modelling.egg-info/PKG-INFO
+credit_risk_modelling.egg-info/SOURCES.txt
+credit_risk_modelling.egg-info/dependency_links.txt
+credit_risk_modelling.egg-info/requires.txt
+credit_risk_modelling.egg-info/top_level.txt
