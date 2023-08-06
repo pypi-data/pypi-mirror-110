@@ -1,0 +1,3 @@
+[console_scripts]
+megawidget = megawidget.__main__:main
+
