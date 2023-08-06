@@ -1,0 +1,10 @@
+README.md
+setup.py
+apollopy/__init__.py
+apollopy/config.py
+apollopy.egg-info/PKG-INFO
+apollopy.egg-info/SOURCES.txt
+apollopy.egg-info/dependency_links.txt
+apollopy.egg-info/entry_points.txt
+apollopy.egg-info/requires.txt
+apollopy.egg-info/top_level.txt
