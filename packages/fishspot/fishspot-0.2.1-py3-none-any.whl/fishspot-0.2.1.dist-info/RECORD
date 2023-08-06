@@ -1,0 +1,11 @@
+fishspot/__init__.py,sha256=r12KIYWPQoCMm8wXASt3vML9arOwcdvUoF8T9BBHBUE,5
+fishspot/assign.py,sha256=Q7eQdkF-vHE7OaAGp76wH0cWhqYVNx6nkdiSf19JzgY,710
+fishspot/detect.py,sha256=JuC_gKB60VJhxFGBxE2OC1IrztJXqdCDZTwfunhXjvo,815
+fishspot/distribute.py,sha256=6NZIjOC0qhWxzaAB8fMM3NnnAnBJFVgehafazBqFQeg,5312
+fishspot/filter.py,sha256=ZWWNZiaBuWvKTI9Cehz1MawQEKq9NjropIazeD46nGs,556
+fishspot/psf.py,sha256=T9goHOPDEwyS-g7u7hbp1r4CUaR8EfM1s5YYmr-MgPo,4540
+fishspot-0.2.1.dist-info/LICENSE,sha256=7ok8wLiBBBWLGgGLbAYjraZyrxviOFx_2E6lVCuwTBs,1067
+fishspot-0.2.1.dist-info/METADATA,sha256=yyECwSRn9kNedxwtPKiTvCTjvUpDX4WuZraPcPxTVRY,430
+fishspot-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fishspot-0.2.1.dist-info/top_level.txt,sha256=6nJgjqqo0vQ8yDvpKlzITLkROF4DaCkjOuFGvnFElXY,9
+fishspot-0.2.1.dist-info/RECORD,,
