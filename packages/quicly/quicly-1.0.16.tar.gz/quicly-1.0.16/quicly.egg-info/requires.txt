@@ -1,0 +1,8 @@
+requests
+htjs-apisdk
+jsonschema
+pyyaml
+bson
+pydes
+redis
+pymongo
