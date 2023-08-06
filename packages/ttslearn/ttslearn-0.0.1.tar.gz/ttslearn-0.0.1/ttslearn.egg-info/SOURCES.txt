@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+ttslearn/__init__.py
+ttslearn.egg-info/PKG-INFO
+ttslearn.egg-info/SOURCES.txt
+ttslearn.egg-info/dependency_links.txt
+ttslearn.egg-info/requires.txt
+ttslearn.egg-info/top_level.txt

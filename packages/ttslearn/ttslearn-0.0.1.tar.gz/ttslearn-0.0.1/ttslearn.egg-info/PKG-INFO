@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ttslearn
+Version: 0.0.1
+Summary: ttslearn: Text-to-speech with Python
+Home-page: UNKNOWN
+Author: Ryuichi Yamamoto
+Author-email: zryuichi@gmail.com
+License: UNKNOWN
+Description: # ttslearn
+        
+        To be released soon.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: recipes
+Provides-Extra: docs
+Provides-Extra: lint
