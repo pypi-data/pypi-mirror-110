@@ -1,0 +1,6 @@
+[mlflow.project_backend]
+waveletai-backend=waveletai.mlflow_plugs.project_backend:WaveletAiBackend
+
+[mlflow.tracking_store]
+waveletai-store=waveletai.mlflow_plugs.tracking_store:WaveletAIStore
+

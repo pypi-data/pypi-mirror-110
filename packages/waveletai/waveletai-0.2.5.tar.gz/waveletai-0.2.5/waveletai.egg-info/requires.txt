@@ -1,0 +1,10 @@
+pyyaml
+Minio
+simplejson
+mlflow==1.18.0
+sqlalchemy<=1.3.13
+bravado
+future
+PyJWT
+requests-oauthlib
+oauthlib
