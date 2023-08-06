@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: socketrequests
+Version: 0.1
+Summary: A small HTTP requests package.
+Home-page: https://github.com/WanderingWizards/SocketRequests
+Author: WanderingWizard
+Author-email: 86394469+WanderingWizards@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/WanderingWizards/SocketRequests/issues
+Description: A small HTTP requests package.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
