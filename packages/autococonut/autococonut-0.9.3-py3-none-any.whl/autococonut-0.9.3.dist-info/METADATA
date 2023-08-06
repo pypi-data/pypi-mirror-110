@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: autococonut
+Version: 0.9.3
+Summary: A workflow recording tool.
+License: GPL-3.0-or-later
+Author: Lukáš Růžička
+Author-email: lruzicka@redhat.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: mss (>=6.1.0,<7.0.0)
+Requires-Dist: pynput (>=1.7.3,<2.0.0)
+Description-Content-Type: text/markdown
+
+# AutoCoconut, a creative tool for OpenQA
+
+**AutoCoconut** is a tool that enables tracking mouse and keyboard events to make a workflow report with screenshot illustrations. 
+Such workflow report can be helpful when creating bug reports, tutorials, or test cases for GUI testing frameworks, such as OpenQA
+and others.
+
+## Development
+
+Currently, the development has reached **Phase 2**.
+
+Which means that the script is able:
+
+* record various events,  mouse buttons and actions (click, double click, drag, vertical scroll), keyboard events (press and release)
+* identify various types of keys (modifiers, special keys, character keys, etc.)
+* find pre-defined patterns in single events and interpret them
+* take screenshots to illustrate the workflow (or create needles for OpenQA)
+* produce various output - *raw* file, *json* file, or a workflow description in adoc and html.
+
+## Documentation
+
+So far, **AutoCoconut** works as a CLI application. It can be started using the `autococonut.py` script. The script monitors the mouse and keyboard and records their events, such as clicks, keypresses, etc. and makes a list of these single events. Later, some of the single events are merged into super events by the Interpreter part to make it more understandable. For instance, when some presses a sequence of keys, such as "h", "e", "l", "l", and "o", the Interpreter recognizes it correctly as typing "hello" instead of pressing single keys. 
+
+It also takes the pictures of screens to capture either the click areas (for mouse events) or the result of the action (keyboard events) or both. For most of the actions, two screenshots are taken: a *regular* one and a *corrected* one. The regular screenshot is taken in the moment of the event, the corrected screenshot is either taken earlier or later according to a *time_offset* that a user can set. By default the `time_offset` is **1 second**.
+
+The list of events can be obtained as a *raw* list, where all the events are recorded as is without any attempt to interpret them, as they came from the
+mouse and keyboard listeners. Alternatively, users can ask for an *interpreted* json file where interpreted *superevents* are recorded, also users can
+obtain a workflow report with screenshots in a number of formats.
+
+## Usage
+
+1. Start the script and go to the application where you want to record.
+2. When you are ready, press the **stop key** to start recording (**F10** by default).
+3. Use the application to finish your use case.
+4. When finished, press the **stop key** again to stop recording.
+5. You will receive the output according to your choice.
+
+### CLI arguments and their explanation
+
+The script also accepts various arguments to control the flow and the output:
+
+**-s, --stopkey**: The stop key is used to start and stop the recording. By default, it is **F10**. Using this option, you can choose a stop key to your likings. Note, that if you choose a stop key that you want to use as a regular key later in the process, the script will terminate. Another good key to try, if F10 does not fit, is **esc**. 
+
+**-e, --offset**: Defines a time (in seconds) that the script uses as an offset time correction to take the alternative screenshot. Usually, the offset takes an earlier screenshot for mouse actions and a later screenshot for keyboard actions. The time can be given in decimal numbers, too. Note, that with applications with slower response, the later screenshots might not show the correct screen, because it might happen before the finish of the ongoing action.The default is **1 second**.
+
+**-o, --output**: You can choose one of several outputs. The *raw* output returns a json file with all single events without interpretation. In this json file, all key presses and releases are recorded separately, including the combinations. The *json* output provides an interpreted list of super events organized in a json file. The *adoc*, *html*, and *openqa* outputs produce a list of steps in that chosen format. The *openqa* format lists the OpenQA test commands that can be used for OpenQA scripts.
+
+**-f, --file**: If a filename is given, the output will be saved to a file instead being displayed on a command line.
+
+**-r, --resolution**: Not implemented yet. It will come during the development Phase 2. If the resolution is given, the screen resolution will be changed to your selected resolution first, and then the script will start the recording.
+
