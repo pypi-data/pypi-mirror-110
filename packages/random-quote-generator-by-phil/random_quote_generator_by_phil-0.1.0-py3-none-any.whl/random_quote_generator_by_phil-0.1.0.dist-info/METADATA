@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: random-quote-generator-by-phil
+Version: 0.1.0
+Summary: 
+Author: philanton
+Author-email: jellyskate1999@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
