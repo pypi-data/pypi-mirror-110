@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: youtube_playlist_randomizer
+Version: 0.2.0
+Summary: Simple python cli script to shuffle an input list and save the playlist
+Home-page: https://github.com/martynvdijke/youtube-playlist-randomizer
+Author: Martyn van Dijke
+Author-email: martijnvdijke600@gmail.com
