@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: spymicmac
+Version: 0.1
+Summary: a python package for processing KH-9 imagery using MicMac
+Home-page: http://github.com/iamdonovan/sPyMicMac
+Author: Bob McNabb
+Author-email: robertmcnabb@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: lxml
+Requires-Dist: pybob (>0.25)
+Requires-Dist: shapely
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: pymmaster (>0.1)
+Requires-Dist: scikit-image (>=0.18)
+Requires-Dist: gdal
+Requires-Dist: llc
+Requires-Dist: sphinx-argparse
+Requires-Dist: earthengine-api
+Requires-Dist: pyasn1
+Requires-Dist: usgs
+
+UNKNOWN
+
+
