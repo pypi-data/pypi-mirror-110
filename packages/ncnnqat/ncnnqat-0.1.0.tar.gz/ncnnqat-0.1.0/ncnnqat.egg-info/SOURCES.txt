@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./src/fake_quantize.cpp
+ncnnqat/__init__.py
+ncnnqat/quantize.py
+ncnnqat.egg-info/PKG-INFO
+ncnnqat.egg-info/SOURCES.txt
+ncnnqat.egg-info/dependency_links.txt
+ncnnqat.egg-info/requires.txt
+ncnnqat.egg-info/top_level.txt
