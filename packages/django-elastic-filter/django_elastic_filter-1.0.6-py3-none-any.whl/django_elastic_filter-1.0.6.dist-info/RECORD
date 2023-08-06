@@ -1,0 +1,9 @@
+django-elastic-filter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django-elastic-filter/dynamic.py,sha256=GhifmKWkpJijT6qNOnWgtu-Da6ksMHtvaXOTksSSSv0,1465
+django-elastic-filter/elastic_filter.py,sha256=wk5ppVmcsY1zDuett7eYRA62I89knBzrSmZ1XIjzO2E,618
+django-elastic-filter/sub_serializer.py,sha256=UNVmsvMFtQNDkEUb77tNWP5WS3jEFYHBeRkybckiUyg,825
+django-elastic-filter/utils.py,sha256=32xKYOLXWt4rcyMcteWUjrwAABgl113l9nv52kzh1_c,316
+django_elastic_filter-1.0.6.dist-info/METADATA,sha256=oNYwrV3fWW3nbwXgRoE5-Krh8JCyOxTYde9e34yP2KM,790
+django_elastic_filter-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_elastic_filter-1.0.6.dist-info/top_level.txt,sha256=3JVcagAq9TcWULuqfL3oyn9KrUYnTpKuMij0DOg5Mfg,22
+django_elastic_filter-1.0.6.dist-info/RECORD,,
