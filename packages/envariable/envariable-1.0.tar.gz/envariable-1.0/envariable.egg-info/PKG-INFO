@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: envariable
+Version: 1.0
+Summary: Change System Environment Variable permanently
+Home-page: https://github.com/blueboy-tm/python-envariable/
+Author: Arshia Ihammi
+Author-email: arshiaihammi@gmail.com
+License: MIT
+Download-URL: https://github.com/blueboy-tm/python-envariable/blob/main/dist/envariable-1.0.tar.gz
+Description: UNKNOWN
+Keywords: env,variable,environment,os,system,Environment Variable,environ
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
