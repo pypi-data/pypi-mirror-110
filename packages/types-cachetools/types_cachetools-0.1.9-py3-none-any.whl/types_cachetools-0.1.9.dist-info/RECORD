@@ -1,0 +1,14 @@
+cachetools-stubs/METADATA.toml,sha256=UCeB452SPwfmvUZ_B_b1UHmJd9YZkyh6ZzO2hxh5IpI,31
+cachetools-stubs/__init__.pyi,sha256=i7v_tIZJRWRJCFiADCwVOOp_t9Vo_aZp_cEL0lcOBJ8,254
+cachetools-stubs/abc.pyi,sha256=IqWLRykYAB0tVeDGtxAv4hEBeotGQaxIPkrSMYWdlAg,182
+cachetools-stubs/cache.pyi,sha256=kMnOFD4dD2gZ712H-MunOU6qIt93ZCf3QpikZL6I3Lg,722
+cachetools-stubs/decorators.pyi,sha256=1_9yggZbIuwZQ0OuvohLMpVZVik6qlUW7gAQeAHtgYE,496
+cachetools-stubs/func.pyi,sha256=-_lL9BQ3q5D2iJMxeZ19AZG4M_WSXJdjFDxhereeYNU,534
+cachetools-stubs/lfu.pyi,sha256=l7tRfxPpDxOG6vzD_Yiy93xtxos2sexV02aiIhn0_LQ,636
+cachetools-stubs/lru.pyi,sha256=FyITvpWkOVF5VDhfgiD9SDMcBRPfBMA-IuSIGh2-vWk,611
+cachetools-stubs/rr.pyi,sha256=Cdv5MuGKCE-sAV1EYUzWm9fN4ELSr0EGPnlI6NUeGMI,687
+cachetools-stubs/ttl.pyi,sha256=kOixzUJgY__476zGxlpVNmV0l2twW8w6khJwkHQjBqk,927
+types_cachetools-0.1.9.dist-info/METADATA,sha256=LLkQfNHKzdy7d9LTUfVglkBMJOPM9YhQnRfTWKVtK-A,884
+types_cachetools-0.1.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+types_cachetools-0.1.9.dist-info/top_level.txt,sha256=wxVFpuV4igxqdFB9Ad7NFOz7kAoNX2zSBRGzzbCq8-U,17
+types_cachetools-0.1.9.dist-info/RECORD,,
