@@ -1,0 +1,7 @@
+segformer_pytorch/__init__.py,sha256=hTnhe55rg0M_yo8GmLS7fmxfwcsdk3h24rwSoAl0mAg,58
+segformer_pytorch/segformer_pytorch.py,sha256=SUMW6khLArTxOyFJizTx5YOrOi90TROSH2NHmV3F6eQ,6120
+segformer_pytorch-0.0.4.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+segformer_pytorch-0.0.4.dist-info/METADATA,sha256=NnHk_H-jNagGPwWqg65EP8ySbs6hPPUiYldLRx3wkFc,663
+segformer_pytorch-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+segformer_pytorch-0.0.4.dist-info/top_level.txt,sha256=5KZ8x3yuyeOK8QZFHVpwRvIOjU2F0nWPDXQ-2mAcWDM,18
+segformer_pytorch-0.0.4.dist-info/RECORD,,
