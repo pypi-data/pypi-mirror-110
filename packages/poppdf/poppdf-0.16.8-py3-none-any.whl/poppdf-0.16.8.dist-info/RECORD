@@ -1,0 +1,16 @@
+poppdf/__init__.py,sha256=kmquqKc193OtbXC03lss9DrHg59HyOO4agBOZjIjNHk,130
+poppdf/__version__.py,sha256=wHg1BJA8sDOgp6iw9omgNjyQYFYCJJl4dfqK25hehZ8,46
+poppdf/alto_xml.py,sha256=5ylMW9Y3PpDC_0cHxqW_yF06wuKgQff1cUR0yRrcP3Y,6665
+poppdf/common.py,sha256=ocFLAM_xn_j0orzDtx65cW6DMiY1LYUpOKwk0PJpNdA,14417
+poppdf/exceptions.py,sha256=WIdrINjh1aZLTpL73C2j2XTiwDQKs1rl5R9YxAjn0vg,581
+poppdf/generators.py,sha256=b3MEKCU31uQ9qMokaucDPpko8vIWtzOgEWyJI36K8R4,914
+poppdf/ocr.py,sha256=RDdA-PMH70ZAu3gmcdzgbMT7g2YNgcOScL7uWUhOwxE,471
+poppdf/parsers.py,sha256=USP15p99Db8l2DmuSkUBMPK8LyJdp3rh1MY4oeuAYsA,1817
+poppdf/pdfDocument.py,sha256=KJPi2RbXBqDDmiLNKl4jHm1lgMpJhreV9Uude22BKHU,4168
+poppdf/poppler.py,sha256=iugTkXc4g1CW4rRm09TL2EpeByGepeoQ09SgFdcRrmc,26790
+poppdf/utils.py,sha256=L3V58QMIm0OQPEQZkkNHJRLBiE_WafUcoggMsc7DRxc,5065
+poppdf-0.16.8.dist-info/LICENSE,sha256=e2wqmixSn9lspx3JY2DKU_VIIaFU9b--RnrL5sQUBB4,1075
+poppdf-0.16.8.dist-info/METADATA,sha256=guWifFtOGBXZyR1Fp2fWdqqgY6NV2yUBHvvL31SXPn0,2189
+poppdf-0.16.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+poppdf-0.16.8.dist-info/top_level.txt,sha256=fA-jXwafBVARmua3UF5-IP2vXNMo9G6vIBhBVYzX4SY,7
+poppdf-0.16.8.dist-info/RECORD,,
