@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/at30ts00/__init__.py
+src/at30ts00/at30ts00.py
+src/at30ts00.egg-info/PKG-INFO
+src/at30ts00.egg-info/SOURCES.txt
+src/at30ts00.egg-info/dependency_links.txt
+src/at30ts00.egg-info/requires.txt
+src/at30ts00.egg-info/top_level.txt
