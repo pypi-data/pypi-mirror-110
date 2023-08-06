@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wtoolzexceptions/__init__.py
+wtoolzexceptions/exceptions.py
+wtoolzexceptions/version.py
+wtoolzexceptions.egg-info/PKG-INFO
+wtoolzexceptions.egg-info/SOURCES.txt
+wtoolzexceptions.egg-info/dependency_links.txt
+wtoolzexceptions.egg-info/top_level.txt

@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: wtoolzexceptions
+Version: 0.1.0
+Summary: wtoolzexceptions contains core exception logic for web applications.
+Home-page: https://github.com/e-k-m/wtoolzexceptions
+Author: Eric Matti
+License: UNKNOWN
+Description: # wtoolzexceptions
+        
+        ![](https://github.com/e-k-m/wtoolzexceptions/workflows/main/badge.svg)
+        
+        > wtoolzexceptions contains core exception logic for web applications
+        
+        [Installation](#installation) | [Getting Up And Running](#getting-up-and-running) | [Examples](#examples) | [API](#api) | [See Also](#see-also)
+        
+        wtoolzexceptions contains core exception logic for web applications. The main feature are:
+        
+        - Contains error and exception classes and
+        
+        - abort function.
+        
+        ## Installation
+        
+        ```bash
+        pip install wtoolzexceptions
+        ```
+        
+        ## Getting Up and Running
+        
+        ```bash
+        nox -l
+        ```
+        
+        ## Examples
+        
+        ```python
+        import flask
+        
+        from wtoolzexceptions import exceptions
+        
+        app = flask.Flask(__name__)
+        
+        @app.errorhandler(exceptions.HTTPException)
+        def handle_it(e):
+            res = flask.jsonify(self.to_dict())
+            res.status_code = self.http_status_code
+            return res
+        
+        @app.route("/me")
+        def boom_me():
+            raise exceptions.Forbidden()
+        
+        # When calling /me you will now get 404 status code and JSON response
+        # as {"error": {"code": "XY", "message": "xy"}}.
+        ```
+        
+        ## API
+        
+        FIXME
+        
+        ## See Also
+        
+        FIXME
+Keywords: wtoolzexceptions
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
