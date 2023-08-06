@@ -1,0 +1,6 @@
+README.md
+setup.py
+joker_tool.egg-info/PKG-INFO
+joker_tool.egg-info/SOURCES.txt
+joker_tool.egg-info/dependency_links.txt
+joker_tool.egg-info/top_level.txt
