@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "thechef_filler"
+version = "0.1.13"
+description = ""
+authors = ["thechef"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+thechef_filler = "thechef_filler.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
