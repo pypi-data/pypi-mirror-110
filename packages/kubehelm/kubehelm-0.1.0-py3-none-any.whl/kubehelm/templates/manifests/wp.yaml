@@ -1,0 +1,97 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: volume-{{ app_name }}
+  namespace: {{ namespace }}
+  labels:
+    app.kubernetes.io/name: {{ manifest_name }}
+    app.kubernetes.io/instance: {{ app_name }}
+    app.kubernetes.io/part-of: {{ manifest_name }}
+    app.kubernetes.io/version: "{{ image_tag }}"
+    app.kubernetes.io/managed-by: asim
+    app.kubernetes.io/component: server
+spec:
+  storageClassName: standard
+  accessModes:
+    - "ReadWriteOnce"
+  resources:
+    requests:
+      storage: "1Gi"
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: {{ app_name }}
+  namespace: {{ namespace }}
+  labels:
+    app.kubernetes.io/name: {{ manifest_name }}
+    app.kubernetes.io/instance: {{ app_name }}
+    app.kubernetes.io/part-of: {{ manifest_name }}
+    app.kubernetes.io/version: "{{ image_tag }}"
+    app.kubernetes.io/managed-by: asim
+    app.kubernetes.io/component: server
+spec:
+  containers:
+  - image: {{ image_name }}:{{ image_tag }}
+    name: {{ app_name }}
+    ports:
+      - name: pod-main-port
+        containerPort: 8080
+    env:
+      - name: ALLOW_EMPTY_PASSWORD
+        value: "yes"
+      - name: MARIADB_HOST
+        value: "data.default.svc"
+      - name: MARIADB_PORT_NUMBER
+        value: "3306"
+      - name: WORDPRESS_DATABASE_NAME
+        value: "main_wordpress"
+      - name: WORDPRESS_DATABASE_USER
+        value: "user"
+      - name: WORDPRESS_DATABASE_PASSWORD
+        value: "password"
+
+      - name: WORDPRESS_EMAIL
+        value: "lajiti1411@animex98.com"
+      - name: WORDPRESS_USERNAME
+        value: "user"
+      - name: WORDPRESS_PASSWORD
+        value: "user"
+      - name: WORDPRESS_FIRST_NAME
+        value: "FirstName"
+      - name: WORDPRESS_LAST_NAME
+        value: "LastName"
+      - name: WORDPRESS_HTACCESS_OVERRIDE_NONE
+        value: "no"
+      - name: WORDPRESS_HTACCESS_PERSISTENCE_ENABLED
+        value: "no"
+      - name: WORDPRESS_BLOG_NAME
+        value: "User's Blog!"
+      - name: WORDPRESS_SKIP_INSTALL
+        value: "no"
+      - name: WORDPRESS_TABLE_PREFIX
+        value: "wp_"
+      - name: WORDPRESS_SCHEME
+        value: "http"
+      - name: WORDPRESS_EXTRA_WP_CONFIG_CONTENT
+        value: ""
+
+
+    volumeMounts:
+      - name: main-volume
+        mountPath: /var/www/html
+
+  volumes:
+    - name: main-volume
+      persistentVolumeClaim:
+        claimName: volume-{{ app_name }}
+
+---
+
+{% include 'manifests/network/service.yaml' %}
+
+---
+
+{% include 'manifests/network/ingress.yaml' %}
