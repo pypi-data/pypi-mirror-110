@@ -1,0 +1,93 @@
+Metadata-Version: 1.2
+Name: scanpy-utils
+Version: 0.1
+Summary: Utility functions for scanpy
+Home-page: https://github.com/NUPulmonary/scanpy-utils
+Author: Nikolay Markov
+Author-email: nikolay.markov@northwestern.edu
+License: MIT
+Project-URL: Documentation, https://scanpy-utils.readthedocs.io/
+Project-URL: Changelog, https://scanpy-utils.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/NUPulmonary/scanpy-utils/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Utility functions for `scanpy <https://scanpy.readthedocs.io>`_
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install scanpy-utils
+        
+        
+        Documentation
+        =============
+        
+        
+        See https://scanpy-utils.readthedocs.io/en/latest/reference/index.html
+        
+        
+        Development
+        ===========
+        
+        To run all the tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.1 (2021-06-24) Initial release
+        --------------------------------
+        
+        * ``get_markers`` function to extract markers from adata and add ``pct.1``, ``pct.2`` fields
+        * ``write_mtx`` function to dump adata in cellranger mtx format
+        * ``clean_metadata`` function to merge and remove duplicates from ``adata.var`` after merging
+        
+        Plotting:
+        
+        * ``feature_plot`` function to plot hexbin feature plot on UMAP
+        * ``plot_composition`` function to plot composition of clusters based on other metadata
+        * ``expr_colormap`` function with custom colormap for expression
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.7
