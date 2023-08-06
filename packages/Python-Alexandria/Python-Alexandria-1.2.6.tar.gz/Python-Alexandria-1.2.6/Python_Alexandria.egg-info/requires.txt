@@ -1,0 +1,5 @@
+termcolor
+scipy
+numpy
+coverage
+coverage-badge
