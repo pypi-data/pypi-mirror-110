@@ -1,0 +1,11 @@
+- INCLUDE TBK ? 
+- CONSIDER MAYBE INCLUDE OPTION FOR DICTIONARY WITH ESCAPE. SO CAN PROCESS WITH DIRECTLY WITH REPLACE
+
+def Remove_stopwords(Master_pd, stopwordlist, *argv): 
+options for stopwordlist as below : 
+
+*coname_stopwords_gno.csv
+*gen_stopwords_gno.csv
+*honorifics_remove_gno.csv
+*personname_wordsremove_gno.csv
+*stopwords_cn.csv
