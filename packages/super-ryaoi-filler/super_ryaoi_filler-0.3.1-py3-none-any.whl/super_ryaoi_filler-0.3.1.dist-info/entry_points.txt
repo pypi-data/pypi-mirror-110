@@ -1,0 +1,3 @@
+[console_scripts]
+super_ryaoi_filler=super_ryaoi_filler.nori:main
+
