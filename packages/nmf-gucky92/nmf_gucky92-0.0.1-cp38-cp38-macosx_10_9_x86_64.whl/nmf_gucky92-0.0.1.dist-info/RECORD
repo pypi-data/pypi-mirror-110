@@ -1,0 +1,11 @@
+nmf/__init__.py,sha256=EUglY-pv49Hjp8o1WRVhzwwuSPmUfJ1ZcBhxVU0HfVE,48
+nmf/cdnmf_fast.cpython-38-darwin.so,sha256=jfJCDOyevzijIo5QjRo4DkCrUQP3dw7t-76m2vQuhQ8,181072
+nmf/cdnmf_fast.pyx,sha256=IaONoXMHQZqjnEWw23hXze_TXNLjxzyV_nRoPRuxRjs,1186
+nmf/nmf.py,sha256=iD-q_v12mpHRe0nzOCqRWrvVB7wR_p45m7zy98N2yQk,51886
+nmf/utils.py,sha256=9S2ZUJWSEKAgvhga14nGN-0UKx0IuvhE4aQJxYs2fBA,913
+nmf_gucky92-0.0.1.dist-info/COPYING,sha256=Cl9cDk0LM0k7jmLLvrY7hAZ6O8OGVyOkYodo14ntn84,1559
+nmf_gucky92-0.0.1.dist-info/METADATA,sha256=9ie_hhIqewgXn5lwGt-GUXTOGhYBsWC8H7AAE4Jh4vU,641
+nmf_gucky92-0.0.1.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+nmf_gucky92-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+nmf_gucky92-0.0.1.dist-info/top_level.txt,sha256=DapUfkZGxEh6uTdRj4hSKnLbh--mv31MJAMYWIlPe5o,4
+nmf_gucky92-0.0.1.dist-info/RECORD,,
