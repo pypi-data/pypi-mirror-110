@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: awesome-rasam
+Version: 0.0.4
+Summary: A Beautiful Soup 4 wrapper for quickly scraping and cleaning data from the web
+Home-page: https://github.com/1upkd/awesome_rasam
+Author: Karthik D
+Author-email: karthik@1upkd.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/1upkd/awesome_rasam/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: html5lib
+Requires-Dist: requests
+
+# AwesomeRasam
+
+A Beautiful Soup 4 wrapper for lazy people. Allows you to extract and clean HTML/XML into neat formats.
+
+
+
