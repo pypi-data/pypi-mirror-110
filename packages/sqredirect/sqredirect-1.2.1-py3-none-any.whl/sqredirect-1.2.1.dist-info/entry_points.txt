@@ -1,0 +1,3 @@
+[console_scripts]
+sqredirect=sqredirect.redirect:sqredirect
+
