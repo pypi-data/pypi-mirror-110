@@ -1,0 +1,12 @@
+cupid/__init__.py,sha256=WBLxTVek96Sbp3f3a0Tsod2xHs7hFLc5ua3RCWUrtgI,292
+cupid/backend.py,sha256=_VvBLkVcNc4NGo9uCIgBFZWtcnG-QEPJZ4pG8E4HHAY,88651
+cupid/cxdh.py,sha256=Q6qjZnQTJlouo2tprLGqv8S9TmSLqS5FYzXiFblcRis,16466
+cupid/dosi.py,sha256=dOxDS_3M-rS40d_4fr9_LY20aeHlIhxsAC0uNTYsYJ4,10036
+cupid/mags.py,sha256=HdX1AGXJz-IFADbtH_5e_Ck012iHeDnedgods8MnsbE,8347
+cupid/plotutils.py,sha256=lzYim-BcGdvHnMvS2ZyyvRoqLp-76JPqhT5mOmoGwmU,37992
+cupid/xray.py,sha256=UwI6jPRONuRpIivXL4dDF46ROm6hMDjN5w9yFlXvYpg,18599
+cupidsat-1.1.2.dist-info/LICENSE,sha256=kuc7Li-pGdXumEthDSpOMtouitE_XSdgk46fIs5tVtg,1092
+cupidsat-1.1.2.dist-info/METADATA,sha256=4_sxSIUTv8w_fYxunjGg4arTP9d-Sbt1QH42YUhJBjQ,564
+cupidsat-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cupidsat-1.1.2.dist-info/top_level.txt,sha256=ievVnMq9K3hFTMsfcj-AGULHWHDUDb_d7VAWSC-mR6o,6
+cupidsat-1.1.2.dist-info/RECORD,,
