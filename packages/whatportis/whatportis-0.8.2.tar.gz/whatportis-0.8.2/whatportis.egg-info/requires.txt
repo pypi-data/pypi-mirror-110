@@ -1,0 +1,13 @@
+simplejson==3.17.2
+tinydb==4.4.0
+requests==2.25.1
+prettytable==2.1.0
+click==8.0.1
+
+[dev]
+pytest
+tox
+black
+
+[server]
+flask==1.1.2
