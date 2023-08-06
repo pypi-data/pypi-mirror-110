@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: textfile
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/kendimaru/textfile
+License: MIT
+Keywords: text,file,oneline,write,read
+Author: kenjimaru
+Author-email: kendimaru2@gmail.com
+Maintainer: kenjimaru
+Maintainer-email: kendimaru2@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/kendimaru/textfile
+Description-Content-Type: text/x-rst
+
+
+Functions that enables us to write out or read from text file in shorter syntax
+than using only standard library.
+
+
+
+
