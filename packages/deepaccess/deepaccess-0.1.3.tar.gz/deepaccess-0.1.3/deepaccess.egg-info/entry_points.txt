@@ -1,0 +1,3 @@
+[console_scripts]
+deepaccess = deepaccess.deepaccess:main
+
