@@ -1,0 +1,11 @@
+segmented/__init__.py,sha256=U5B0gPvMWFQ2sAsWkE26wUSRmYlCs797pgZqF2VnfA4,103
+segmented/demo.py,sha256=_7Ffv5XVxGwjya7-MivHkKjcfcLNeFawF7bhJopDOjM,6177
+segmented/muggeo.py,sha256=Ewpj779e_8MGG2ICNiXMOu8_s_dUBjeZG_v6dFYjvCA,1583
+segmented/segmented.py,sha256=PPUy89_8tzwFXgcavdPnsKcfWfoK6BpLAbNkejPQOOw,12953
+segmented/simple.py,sha256=THsrM_9d5krxX2lsR5oAMaXwyp6DJ1UrI3f66M-S8sI,3249
+segmented/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+segmented-0.0.3.dist-info/LICENSE.txt,sha256=goisqqBFntuRYCgFRVtyh-qEwq-KjtNU8b118HjXPYw,1078
+segmented-0.0.3.dist-info/METADATA,sha256=AjjbpXjSCGmfd2Vac1HpEDTQYPSXaROO83vxSKQS5Sw,6756
+segmented-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+segmented-0.0.3.dist-info/top_level.txt,sha256=hwE0DQylikQoSsNxuCT6hTGiSmfdIpU0Odk9uxk8A5s,10
+segmented-0.0.3.dist-info/RECORD,,
