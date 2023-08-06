@@ -1,0 +1,7 @@
+setup.py
+telib/__init__.py
+telib/clftext.py
+telib.egg-info/PKG-INFO
+telib.egg-info/SOURCES.txt
+telib.egg-info/dependency_links.txt
+telib.egg-info/top_level.txt
