@@ -1,0 +1,13 @@
+heartFEM/__init__.py,sha256=IiIJ6Xb4lbWdbcaobkL2yYKKeaXggNzQGSizBXbVDA4,91368
+heartFEM/heartParameters.py,sha256=XDumHaeeBFCvHBBsNZWAexYttcgMl3nPjxhsjmCxfLg,20038
+heartFEM/ngspice_py/LV.cir,sha256=56ljiaUuwG_hnZFEMJpHG9tC_JdowkhBjgS7JflL8S0,8975
+heartFEM/ngspice_py/__init__.py,sha256=E3LEMZaPvcEW5u0ZoTSiOYkOhoYzlaEgJv3H5i7Obn8,3592
+heartFEM/ngspice_py/createLVcircuit.py,sha256=LoPEscfJYHpuIIiPre38DXThOXeyuTxgxKxhv9SlAhc,5620
+heartFEM/ngspice_py/generateLVtable.py,sha256=tAjvVT8YU8AYMIPLODtFJgGdt5cRAp3-GV2bIQMkQ74,7099
+heartFEM/ngspice_py/simLVcircuit.py,sha256=CsIZgtXKFoq2y_Wy8XMG1nZ0MI-k0_-PlYu6NxIAMqI,8189
+heartFEM/ngspice_py/simLVcircuit_alignEStime.py,sha256=pmyAhgest7241B0h7WFbf2BDj88FfDgsdm6eoONod9I,7252
+heartFEM-3.0.0.dist-info/LICENSE,sha256=--Nv09ihrMV5tT_IAtxrPwpqphruIZ_cCL0Zpfdvnck,1067
+heartFEM-3.0.0.dist-info/METADATA,sha256=850p1jhFHWIGY30sVUzkmnjyixmYytOtlTEB_t6d8p8,1080
+heartFEM-3.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+heartFEM-3.0.0.dist-info/top_level.txt,sha256=KJ1w4kt4H20k5-44LEsEOgjO8M_oC8hL2HDGHrHtk4g,9
+heartFEM-3.0.0.dist-info/RECORD,,
