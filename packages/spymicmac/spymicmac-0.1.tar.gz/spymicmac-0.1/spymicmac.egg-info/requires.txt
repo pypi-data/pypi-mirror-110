@@ -1,0 +1,17 @@
+numpy
+scipy
+matplotlib
+lxml
+pybob>0.25
+shapely
+opencv-python
+pandas
+geopandas
+pymmaster>0.1
+scikit-image>=0.18
+gdal
+llc
+sphinx-argparse
+earthengine-api
+pyasn1
+usgs

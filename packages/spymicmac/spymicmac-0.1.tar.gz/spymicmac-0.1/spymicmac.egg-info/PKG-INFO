@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: spymicmac
+Version: 0.1
+Summary: a python package for processing KH-9 imagery using MicMac
+Home-page: http://github.com/iamdonovan/sPyMicMac
+Author: Bob McNabb
+Author-email: robertmcnabb@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
