@@ -1,0 +1,12 @@
+README.md
+setup.py
+singularity/__init__.py
+singularity/__version__.py
+singularity/api.py
+singularity/exceptions.py
+singularity_energy.egg-info/PKG-INFO
+singularity_energy.egg-info/SOURCES.txt
+singularity_energy.egg-info/dependency_links.txt
+singularity_energy.egg-info/not-zip-safe
+singularity_energy.egg-info/requires.txt
+singularity_energy.egg-info/top_level.txt
