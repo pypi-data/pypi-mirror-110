@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kaen
+Version: 1.0.1.3
+Summary: Kaen, cloud native training and deployment for deep learning models
+Home-page: https://github.com/CounterFactualAI/kaenai
+Author: CounterFactual.AI LLC
+Author-email: kaen@counterfactual.ai
+License: GPL v3.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: torch
+Requires-Dist: fsspec
+Requires-Dist: pandas
+Requires-Dist: s3fs
+Requires-Dist: gcsfs
+Requires-Dist: click
+Requires-Dist: python-dotenv
+Requires-Dist: docker
+Requires-Dist: mlflow
+Provides-Extra: optuna
+Requires-Dist: optuna ; extra == 'optuna'
+Requires-Dist: sklearn ; extra == 'optuna'
+Requires-Dist: plotly ; extra == 'optuna'
+Requires-Dist: kaleido ; extra == 'optuna'
+
+UNKNOWN
+
+
