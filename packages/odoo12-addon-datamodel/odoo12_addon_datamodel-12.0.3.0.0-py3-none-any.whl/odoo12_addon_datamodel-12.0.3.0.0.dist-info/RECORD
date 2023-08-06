@@ -1,0 +1,16 @@
+odoo/addons/datamodel/README.rst,sha256=xRApQCBEt_Nnw_zTHZ_49_4OZRn9ZDDnrj-QH-BXuRI,2033
+odoo/addons/datamodel/__init__.py,sha256=MGmRDPUGGTPhbSKnLVm4tWJDbNKC2rSx8XNk6qe21TY,47
+odoo/addons/datamodel/__manifest__.py,sha256=mkgBhLojntdtJgOsmRIKSsXyLcbiiCji3cA-aSiWoCo,634
+odoo/addons/datamodel/builder.py,sha256=0dyOSf1xwaLahMQAqTdItaqeKWn4NJ5ZutP-Ak--yOk,3714
+odoo/addons/datamodel/core.py,sha256=M2ADNV--MDeBnNxeeghwZCN-mvLO11HhQWqreclSXpk,14026
+odoo/addons/datamodel/fields.py,sha256=cC_DVJd_ElUUIfHZ_IVM3YMSwqBekA4J9FAwMXIOK3w,1113
+odoo/addons/datamodel/datamodels/__init__.py,sha256=9pIQnc7H3xgVNpi7n3I18hg04S4IkX5mnAfl9cv7RBE,19
+odoo/addons/datamodel/datamodels/base.py,sha256=KLxAVuBu2sUtA6Ibt2n-Mn8W1h1mfJxVP-QuL-R1pvQ,333
+odoo/addons/datamodel/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/datamodel/tests/__init__.py,sha256=YJTOqyh5_AGcLPPyBRhIBzQ_PdoOCAL8bKtvZMe3VqA,35
+odoo/addons/datamodel/tests/common.py,sha256=eQgsx1q2aAe87cQib1PswdWL2DL-8hdSJ8gp_9C4S2I,7879
+odoo/addons/datamodel/tests/test_build_datamodel.py,sha256=PkA8tqQDj11Jzh-jMKQt6e1QGXs5V0H-L2zE6-dKZlw,15033
+odoo12_addon_datamodel-12.0.3.0.0.dist-info/METADATA,sha256=c6rtILFZOXcxTDBzf1IWUgeBhN-9DCaEVhWPmIfo52I,2722
+odoo12_addon_datamodel-12.0.3.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+odoo12_addon_datamodel-12.0.3.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_datamodel-12.0.3.0.0.dist-info/RECORD,,
