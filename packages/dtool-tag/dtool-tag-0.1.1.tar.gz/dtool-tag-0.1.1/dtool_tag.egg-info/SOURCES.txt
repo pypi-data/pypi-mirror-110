@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+dtool_tag/__init__.py
+dtool_tag/cli.py
+dtool_tag.egg-info/PKG-INFO
+dtool_tag.egg-info/SOURCES.txt
+dtool_tag.egg-info/dependency_links.txt
+dtool_tag.egg-info/entry_points.txt
+dtool_tag.egg-info/requires.txt
+dtool_tag.egg-info/top_level.txt
