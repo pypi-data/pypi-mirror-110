@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+lex_yacc_calc/__init__.py
+lex_yacc_calc/calc.py
+lex_yacc_calc/parsetab.py
+lex_yacc_calc.egg-info/PKG-INFO
+lex_yacc_calc.egg-info/SOURCES.txt
+lex_yacc_calc.egg-info/dependency_links.txt
+lex_yacc_calc.egg-info/top_level.txt
