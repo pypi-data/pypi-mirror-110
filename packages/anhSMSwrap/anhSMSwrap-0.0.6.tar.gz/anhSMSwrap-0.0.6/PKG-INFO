@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: anhSMSwrap
+Version: 0.0.6
+Summary: Quick edits to add more services ALL RIGHTS TO THE CREATOR TEZMEN
+Home-page: https://github.com/smartahsan/anhSMSwrap
+Author: smartahsan
+Author-email: hastechtips@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Download-URL: https://github.com/smartahsan/anhSMSwrap/archive/refs/heads/master.zip
+Description: ALL RIGHTS TO THE ORIGINAL CREATOR TEZMEN!
+Keywords: sms,revice
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
