@@ -1,0 +1,14 @@
+setup.py
+mvcbotbase/__init__.py
+mvcbotbase/case_fold_dict.py
+mvcbotbase/classes_for_command_arguments.py
+mvcbotbase/command_info.py
+mvcbotbase/helpers.py
+mvcbotbase/message_classes.py
+mvcbotbase/mvcbotbase.py
+mvcbotbase/social_network_provider.py
+mvcbotbase.egg-info/PKG-INFO
+mvcbotbase.egg-info/SOURCES.txt
+mvcbotbase.egg-info/dependency_links.txt
+mvcbotbase.egg-info/requires.txt
+mvcbotbase.egg-info/top_level.txt
