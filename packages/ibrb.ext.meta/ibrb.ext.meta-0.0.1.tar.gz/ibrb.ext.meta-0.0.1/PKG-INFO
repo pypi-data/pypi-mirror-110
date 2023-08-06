@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ibrb.ext.meta
+Version: 0.0.1
+Summary: Blockchain Network Model
+Home-page: https://unimatrixone.gitlab.io/libraries/python-ibrb/meta
+Author: Cochise Ruhulessin
+Author-email: cochise.ruhulessin@unimatrixone.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Libraries
+
+UNKNOWN
+
