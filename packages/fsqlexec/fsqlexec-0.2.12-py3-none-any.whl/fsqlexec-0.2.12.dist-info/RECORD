@@ -1,0 +1,10 @@
+fsqlexec/SQLFileExecutor.py,sha256=3buj6_klzFCOz94nMvEoNaIqI3Pi3pEX_RucTczceU0,7424
+fsqlexec/__init__.py,sha256=SVac4ZVAfs4M1DnQqB65VgRRnrFB_eFjb1PFgyBpkXg,330
+fsqlexec/command.py,sha256=ZHDFlm6jsmZS7PFwd4YwpjBZYW-coxjBA6NOogFym6w,4704
+fsqlexec/fsqlexec.py,sha256=ZHDFlm6jsmZS7PFwd4YwpjBZYW-coxjBA6NOogFym6w,4704
+fsqlexec-0.2.12.dist-info/LICENSE.txt,sha256=BQXWODutS4-e98rMGqPgwXmO5Rb7sEPOpXuxtk1w4Q4,1058
+fsqlexec-0.2.12.dist-info/METADATA,sha256=4UQ3z26Gj-kuy6uaza4nU7qvdAzayqeKpcqjnHFYe5g,3419
+fsqlexec-0.2.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fsqlexec-0.2.12.dist-info/entry_points.txt,sha256=UW4xRPQ2T95BEG72Ubk4DFLdX2vliKAz4o-8Pvp995A,44
+fsqlexec-0.2.12.dist-info/top_level.txt,sha256=5fT4Xa4pE06RfQ2ayTgWuQgzNQAbXkvbYErYblBdugc,9
+fsqlexec-0.2.12.dist-info/RECORD,,
