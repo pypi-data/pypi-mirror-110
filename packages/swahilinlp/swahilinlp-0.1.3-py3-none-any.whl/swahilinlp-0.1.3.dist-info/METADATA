@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swahilinlp
+Version: 0.1.3
+Summary: Swahili Natural Language Processing (NLP) Library
+Home-page: https://github.com/shebogholo/swahilinlp
+Author: Waziri Shebogholo
+Author-email: shebogholo@gmail.com
+License: MIT
+Keywords: Swahili,Tanzania
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
