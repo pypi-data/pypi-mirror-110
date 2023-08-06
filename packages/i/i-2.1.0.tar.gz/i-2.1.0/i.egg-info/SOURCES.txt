@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+i.egg-info/PKG-INFO
+i.egg-info/SOURCES.txt
+i.egg-info/dependency_links.txt
+i.egg-info/requires.txt
+i.egg-info/top_level.txt
+icecream/__init__.py
+icecream/__version__.py
+icecream/builtins.py
+icecream/coloring.py
+icecream/icecream.py
