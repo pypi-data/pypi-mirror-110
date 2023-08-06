@@ -1,0 +1,3 @@
+[console_scripts]
+anitracker = anitracker.__main__:main
+
