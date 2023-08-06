@@ -1,0 +1,15 @@
+requests
+pandas
+docker
+jinja2
+cryptography
+aiohttp
+
+[full]
+transformers
+torch
+onnxruntime
+
+[ml]
+transformers
+torch
