@@ -1,0 +1,9 @@
+kovol_language_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kovol_language_tools/get_verb_data.py,sha256=4cBDSsB9-zw1l13H-0JaFMQenu8TbtPGH8zMM8gE2Cs,3592
+kovol_language_tools/kovol_verbs.py,sha256=6eWv_5JqjLhAkKH66elBBkBc-fW7vtEKZ1Q0BIwquQo,14853
+kovol_language_tools/phonemics.py,sha256=MxjYRdWwogFoN8kOds5xb5xfRTG2G1NAn90TJkWoNvQ,5333
+kovol_language_tools-0.0.1.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+kovol_language_tools-0.0.1.dist-info/METADATA,sha256=yxajKouBcgzRQQ6HtNslrrjdHz23jtdUgEtVygk5p-I,693
+kovol_language_tools-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kovol_language_tools-0.0.1.dist-info/top_level.txt,sha256=wpDX7ON9n9Jd4eYw_2R7iS9-qG0Sf3qfYDhKpn2QQG8,21
+kovol_language_tools-0.0.1.dist-info/RECORD,,
