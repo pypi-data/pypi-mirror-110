@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: piro
+Version: 2021.6.24
+Summary: piro is software designed to assist in planning of synthesis pathways for inorganics
+Home-page: UNKNOWN
+Author: AMDD - Toyota Research Institute
+Author-email: murat.aykol@tri.global
+Maintainer: Murat Aykol
+Maintainer-email: murat.aykol@tri.global
+License: UNKNOWN
+Description: 
+        The piro software package enables prediction and planning of synthesis pathways
+        and determination of pareto-optimal frontiers for synthesis of
+        specific inorganic materials.
+        
+Keywords: materials,battery,chemistry,science,density functional theory,energy,AI,artificial intelligence,sequential learning,active learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: web
+Provides-Extra: tests
