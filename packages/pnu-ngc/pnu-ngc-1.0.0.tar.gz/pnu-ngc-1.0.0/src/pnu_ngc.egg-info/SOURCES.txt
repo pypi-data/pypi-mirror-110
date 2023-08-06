@@ -1,0 +1,13 @@
+License
+README.md
+pyproject.toml
+setup.cfg
+man/ngc.1.gz
+src/ngc/__init__.py
+src/ngc/main.py
+src/pnu_ngc.egg-info/PKG-INFO
+src/pnu_ngc.egg-info/SOURCES.txt
+src/pnu_ngc.egg-info/dependency_links.txt
+src/pnu_ngc.egg-info/entry_points.txt
+src/pnu_ngc.egg-info/requires.txt
+src/pnu_ngc.egg-info/top_level.txt
