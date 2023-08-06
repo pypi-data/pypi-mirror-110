@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "upend"
+version = "0.0.1"
+description = ""
+authors = ["Tomáš Mládek <t@mldk.cz>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.25.1"
+
+
+[tool.poetry.dev-dependencies]
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[tool.pyright]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
