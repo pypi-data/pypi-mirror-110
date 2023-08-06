@@ -1,0 +1,14 @@
+biosimulators_utils>=0.1.85
+fire
+matplotlib
+pandas
+python_libsbml
+python_libsedml
+pyyaml
+seaborn
+
+[all]
+
+[docs]
+
+[tests]

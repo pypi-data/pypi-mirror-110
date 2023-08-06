@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+vcell_cli_utils.egg-info/PKG-INFO
+vcell_cli_utils.egg-info/SOURCES.txt
+vcell_cli_utils.egg-info/dependency_links.txt
+vcell_cli_utils.egg-info/requires.txt
+vcell_cli_utils.egg-info/top_level.txt
