@@ -1,0 +1,10 @@
+pyppeteer_ghost_cursor/__init__.py,sha256=pTw3J7OIPvYHz2RPM5JaZP1RouYZnFKUqdx0mHi8MbU,225
+pyppeteer_ghost_cursor/math.py,sha256=U1N2JtMivB16J8xUO9lfpF4C0P5D0q7E7zDzocSsXLs,2645
+pyppeteer_ghost_cursor/mouseHelper.py,sha256=zJ6g8DI1CJFTZvZ4u6dZcjkyZJG8Ri1vywT8l04hW2s,277
+pyppeteer_ghost_cursor/spoof.py,sha256=3U4mjYbIKIh4r9XiCM-DD1M610FnuTihoYPe2XZ7vn0,10747
+pyppeteer_ghost_cursor/js/mouseHelper.js,sha256=LbamYRecnrr6IiehX8jvoVQ3Dm5ZmY2I1gr36oL4fs8,3079
+pyppeteer_ghost_cursor-0.2.0.dist-info/LICENSE,sha256=iaBz8SWg7Y6goaluLtt2ozg5PNHRZh1jbZZEp5MWqbw,1069
+pyppeteer_ghost_cursor-0.2.0.dist-info/METADATA,sha256=FRx5w2AB-ZCOe35RoiMbrtllKrD3pXmrX4unASmyw9A,1792
+pyppeteer_ghost_cursor-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyppeteer_ghost_cursor-0.2.0.dist-info/top_level.txt,sha256=jfSI57VLR807KqZL5Tyo5-gpn6Ljlf2gL1nyUyLQfhU,23
+pyppeteer_ghost_cursor-0.2.0.dist-info/RECORD,,
