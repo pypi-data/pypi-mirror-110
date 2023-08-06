@@ -1,0 +1,3 @@
+[console_scripts]
+NoobNote = NoobNote.__main__:main
+
