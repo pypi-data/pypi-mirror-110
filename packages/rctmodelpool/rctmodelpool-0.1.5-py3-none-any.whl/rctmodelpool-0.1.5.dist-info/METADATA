@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: rctmodelpool
+Version: 0.1.5
+Summary: Hub for rct models
+Home-page: https://github.com/rct-ai/rct-modelpool
+Author: Shen Dezhou
+Author-email: shendezhou@rct.ai
+License: MIT
+Keywords: artificial intelligence,deep learning,attention free transformer,self-attention,transformer,natural language processing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.6)
+
+# rct-modelpool
+
+## Installation
+You can git install `rctmodelpool` via `pip`:
+
+```bash
+pip install git+https://github.com/rct-ai/rct-modelpool
+```
+
+## Usage
+You can import the *rctmodelpool.modelpool* from the package like so:
+
+### `sync_model`
+```python
+from rctmodelpool import modelpool
+
+path = modelpool.sync_model("rcthub://CPM.csv")
+print(path)
+
+```
+
+
