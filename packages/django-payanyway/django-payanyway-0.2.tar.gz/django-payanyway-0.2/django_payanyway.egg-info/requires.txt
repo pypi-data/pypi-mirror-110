@@ -1,0 +1,11 @@
+django>=2
+pydantic
+
+[dev]
+ipython
+pytest-django
+pytest
+
+[test]
+pytest-django
+pytest
