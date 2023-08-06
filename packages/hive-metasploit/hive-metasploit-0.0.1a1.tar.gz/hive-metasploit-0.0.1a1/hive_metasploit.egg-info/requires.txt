@@ -1,0 +1,4 @@
+hive-library
+marshmallow
+colorama
+libmsf
