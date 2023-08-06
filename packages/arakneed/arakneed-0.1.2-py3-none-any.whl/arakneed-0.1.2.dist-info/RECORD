@@ -1,0 +1,14 @@
+arakneed/__init__.py,sha256=slUcY082v6b_zR1m5F9nCPnzKj5OiYrNis9_ZXkOs_M,358
+arakneed/cacher.py,sha256=TlomWkH97OwJahDXtKqxrLvgflco3keIWKGV2D-lYsY,573
+arakneed/crawler.py,sha256=jE7XU7cgF06EsuKHOWNHMqMYk44paJ3Yleeh-tUxuG8,1259
+arakneed/exceptions.py,sha256=I1GjkYsowqbwNo84C5OkJqrEtV0aa1Ud9BLLKh4oLuY,486
+arakneed/logger.py,sha256=7e3_T-zt5FmJb14F1ZwGcuGFt7X-RD8wjGyFmcdw8T8,1737
+arakneed/scheduler.py,sha256=utsn6lpfZalzv1JLBJ9jB8-yjhsKkZflLcRkqfXUlnA,1879
+arakneed/shared.py,sha256=w0tOZVRr1lT9FyMxmJVdfqyrEEz6fa6gMdeXYl4u3tw,744
+arakneed/spider.py,sha256=iyeiXvtZVzyrSX9I7AUW5VmmJnF-tWlb9EmMeh2KHL0,1154
+arakneed/visitor.py,sha256=dA50K2TRcfr72MFAOD2TAAybJyuoMjR0L4RKfp_TTOQ,1651
+arakneed-0.1.2.dist-info/LICENSE,sha256=reuIrHsWLzNI03s0niJ8s_zD9ReBZ-1rayUb08tF4u0,1065
+arakneed-0.1.2.dist-info/METADATA,sha256=KmL-mc7IB1xPDPO2Lhldw-Bq2zDtrVTMQqtIn7lgNME,2797
+arakneed-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+arakneed-0.1.2.dist-info/top_level.txt,sha256=m5yfjnIAr--yiQZIs0Co1Iyqy7xWSb-5RdsvjyHXfu8,9
+arakneed-0.1.2.dist-info/RECORD,,
