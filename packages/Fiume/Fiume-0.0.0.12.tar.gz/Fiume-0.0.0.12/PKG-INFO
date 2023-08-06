@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Fiume
+Version: 0.0.0.12
+Summary: A Bittorrent client for single-file torrents.
+Home-page: https://github.com/mattyonweb/fiume
+Author: Matteo Cavada
+Author-email: cvd00@insicuri.net
+License: GNU General Public License v3.0
+Description: # Fiume
+        
+        ![alt text](docs/logo-small.png)
+        
+        A toy BitTorrent client written in python, based on the official [specs](https://www.bittorrent.org/beps/bep_0003.html).
+        
+        ## What it can do
+        
+        - Download of single-file torrents from peer!
+        - Save download state beetwen sessions, and start again at a later time
+        
+        ## What it can SOMEWHAT do
+        
+        - Reach acceptable speed downloads (I may have a very low bar)
+        
+        ## What it can NOT do
+        
+        - Download of multiple-file torrents
+        - Support DHT, Message Stream Encryption or any other extension 
+        - Manage more than one download at a time (although you could spawn more than one Fiume process to do that)
+        - Download from more than one peer concurrently
+        - Offer a decent CLI or GUI
+        - It can download, but I'm not so sure about uploading (correctly)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Internet
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
