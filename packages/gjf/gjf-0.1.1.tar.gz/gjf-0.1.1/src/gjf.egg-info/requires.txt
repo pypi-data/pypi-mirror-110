@@ -1,0 +1,4 @@
+geojson
+geojson-rewind
+click
+Shapely>=1.8a1
