@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+meena/__init__.py
+meena/main.py
+meena.egg-info/PKG-INFO
+meena.egg-info/SOURCES.txt
+meena.egg-info/dependency_links.txt
+meena.egg-info/requires.txt
+meena.egg-info/top_level.txt
