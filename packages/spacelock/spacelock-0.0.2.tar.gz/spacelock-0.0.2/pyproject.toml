@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "spacelock"
+author = "LHao"
+author-email = "bigpangl@163.com"
+home-page = "https://github.com/bigpangl/spacelock"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file="README.md"
+requires = [
+    "rtree",
+    "sortedcontainers",
+    "dynaconf"
+]
