@@ -1,0 +1,10 @@
+aio_kraken_ws/__init__.py,sha256=w3TCNdEbLg4V5O3A84x9Q-Q5cG_y-c9UCipuXAa6sHQ,194
+aio_kraken_ws/_version.py,sha256=hfc41ci8DE14-EudbJI-MIr5-13I09vDOSdrpdK9esI,18449
+aio_kraken_ws/kraken_ws.py,sha256=bqSqGzjFQKpw83l40YHYGWrf_j0K3jCbyVyRVkCO3P0,4594
+aio_kraken_ws/stream.py,sha256=4rQjbCxp6lhgUBRGTf6NEcLVejDjsd1mtoOjhy8r0YI,13405
+aio_kraken_ws/ws.py,sha256=8EvVGhIMktKamc-ueUxPRb35kpAlbx0I6Rx15ItNKBY,7573
+aio_kraken_ws-0.3.7.dist-info/LICENSE,sha256=sdJA-8sLEEyVTyhujBW1S3h_NOG-F7fG8JjrhaCDovE,1097
+aio_kraken_ws-0.3.7.dist-info/METADATA,sha256=UIsX1sQHXfrZdxLdYkSJ8lytHgAlvRDosunqhkVticI,5346
+aio_kraken_ws-0.3.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aio_kraken_ws-0.3.7.dist-info/top_level.txt,sha256=8VIWDe_30Wkw-hK9QSW8p1OxFvuBd8EF93b8MLRcAgE,14
+aio_kraken_ws-0.3.7.dist-info/RECORD,,
