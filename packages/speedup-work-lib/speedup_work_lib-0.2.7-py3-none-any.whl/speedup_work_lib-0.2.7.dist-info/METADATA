@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: speedup-work-lib
+Version: 0.2.7
+Summary: A Python library to speed up work
+Home-page: https://github.com/mndarren/Speedup-Work-Lib.git
+Author: Darren Xie
+Author-email: mndarren@gmail.com
+License: Apache
+Requires-Dist: paramiko
+
+# Speedup-Work-Lib
+
+
