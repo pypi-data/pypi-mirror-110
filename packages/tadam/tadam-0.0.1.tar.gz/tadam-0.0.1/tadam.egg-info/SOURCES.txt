@@ -1,0 +1,9 @@
+README.md
+setup.py
+tadam/__init__.py
+tadam/tadam.py
+tadam.egg-info/PKG-INFO
+tadam.egg-info/SOURCES.txt
+tadam.egg-info/dependency_links.txt
+tadam.egg-info/requires.txt
+tadam.egg-info/top_level.txt
