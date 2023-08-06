@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pylid2/__init__.py
+pylid2/wrapper.py
+pylid2.egg-info/PKG-INFO
+pylid2.egg-info/SOURCES.txt
+pylid2.egg-info/dependency_links.txt
+pylid2.egg-info/top_level.txt
+pylid2/bindings/__init__.py
+pylid2/bindings/fn_types.py
+pylid2/bindings/lsd_ctypes.py
+pylid2/lib/linux/libEDLines.so
+pylid2/lib/linux/liblsd.so
