@@ -1,0 +1,16 @@
+{
+    "isStudent": true,
+    "_id": "60bab2e60f8e380009dfa347",
+    "exemption": null,
+    "regId": "9136CCB8F66711D5BE060004AC494FFE",
+    "vaccinated": {
+        "country": "US",
+        "_id": "60babcf6f2d1130009c579c2",
+        "vaccine": "moderna",
+        "dose1Date": "2021-04-02T00:00:00.000Z",
+        "dose2Date": "2021-04-30T00:00:00.000Z"
+    },
+    "created": "2021-06-04T23:10:30.746Z",
+    "updated": "2021-06-04T23:53:26.860Z",
+    "__v": 0
+}

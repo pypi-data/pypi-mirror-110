@@ -1,0 +1,13 @@
+{
+    "isStudent": true,
+    "_id": "9136CCB8F66711D5BE060004AC494F31",
+    "exemption": {
+        "_id": "60c264809aac7700085195a5",
+        "type": "philosophical"
+    },
+    "regId": "9136CCB8F66711D5BE060004AC494F31",
+    "vaccinated": null,
+    "created": "2021-06-10T19:14:08.533Z",
+    "updated": "2021-06-10T19:14:08.533Z",
+    "__v": 0
+}
