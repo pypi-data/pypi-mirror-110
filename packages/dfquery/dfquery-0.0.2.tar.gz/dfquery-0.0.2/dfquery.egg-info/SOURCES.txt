@@ -1,0 +1,8 @@
+setup.py
+dfquery/__init__.py
+dfquery/dfquery.py
+dfquery.egg-info/PKG-INFO
+dfquery.egg-info/SOURCES.txt
+dfquery.egg-info/dependency_links.txt
+dfquery.egg-info/requires.txt
+dfquery.egg-info/top_level.txt

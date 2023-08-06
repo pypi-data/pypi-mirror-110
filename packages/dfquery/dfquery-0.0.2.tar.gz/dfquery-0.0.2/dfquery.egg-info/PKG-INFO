@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dfquery
+Version: 0.0.2
+Summary: Query interface for pandas.DataFrame
+Home-page: UNKNOWN
+Author: prs-watch
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+
+UNKNOWN
+
