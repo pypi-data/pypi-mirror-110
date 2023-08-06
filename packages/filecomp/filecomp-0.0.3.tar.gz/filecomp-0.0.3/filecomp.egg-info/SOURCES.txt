@@ -1,0 +1,9 @@
+License.txt
+README.md
+setup.py
+filecomp/__init__.py
+filecomp/filecomp.py
+filecomp.egg-info/PKG-INFO
+filecomp.egg-info/SOURCES.txt
+filecomp.egg-info/dependency_links.txt
+filecomp.egg-info/top_level.txt
