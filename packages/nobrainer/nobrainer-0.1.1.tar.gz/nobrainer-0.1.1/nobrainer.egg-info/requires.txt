@@ -1,0 +1,13 @@
+click
+nibabel
+numpy
+scikit-image
+tensorflow-probability>=0.11.0
+tensorflow>=2.4.0
+psutil
+
+[dev]
+pre-commit
+pytest
+pytest-cov
+scipy
