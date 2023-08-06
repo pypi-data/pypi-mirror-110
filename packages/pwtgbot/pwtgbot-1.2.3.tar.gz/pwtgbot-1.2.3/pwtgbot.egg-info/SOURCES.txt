@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pwtgbot/__init__.py
+pwtgbot/__main__.py
+pwtgbot/pwtgbot.py
+pwtgbot.egg-info/PKG-INFO
+pwtgbot.egg-info/SOURCES.txt
+pwtgbot.egg-info/dependency_links.txt
+pwtgbot.egg-info/entry_points.txt
+pwtgbot.egg-info/requires.txt
+pwtgbot.egg-info/top_level.txt
