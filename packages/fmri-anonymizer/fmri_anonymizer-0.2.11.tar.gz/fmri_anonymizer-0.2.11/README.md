@@ -1,0 +1,55 @@
+# fMRI Anonymizer
+
+This project contains a series of scripts that perform 2 essential steps:
+
+1. De-Identification
+2. De-Facing
+
+The main purpose of this project is to have an "all-purpose" application that can automatize the whole anonymization process on MRI, fMRI data. This includes DICOM, and NIFTI formats. 
+
+This application follows a "best-effort" approach in order to comply with [HIPAA regulations](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html).
+
+## Pre-requisites
+
+Since this is a module that leverages on other packages, there are 2 main dependencies that must be installed within your system prior to install this solution.
+
+You will need:
+1. **FSL**: Please follow [this link](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation/MacOsX) to install it.
+   
+   1.1. ***Make sure to install XQuartz before installing FSL. This is mentioned within their site.***
+2. **dcm2niix**: This is a dependency used to convert DICOM into NIFTI format.
+
+    2.1. In order to install it, you can safely use ***[brew](https://formulae.brew.sh/formula/dcm2niix)***.
+   
+    2.2. You can also follow [this tutorial](https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage).
+
+## How to install it?
+
+In order to use this package, you will need to use the following command (recommended using it in a separate environment - like conda or venv):
+
+`pip install fmri-anonymizer`
+
+## How to use it?
+
+This is pretty simple, you have 2 ways to use it:
+
+`python -m fmri_anonymizer -i <INPUT_FOLDER> --dicom --anonymize --deface YES -o <OUTPUT_FOLDER>`
+
+Or:
+
+`fmri_anonymizer -i <INPUT_FOLDER> --dicom --anonymize --deface YES -o <OUTPUT_FOLDER>`
+
+Here, a complete example:
+```shell
+python -m fmri_anonymizer -i "<path_source_dicom_files>" --dicom True --nifti True --deface True --anonymize True -o "<output_path>"
+```
+
+## How to get some help?
+
+Simply type:
+
+`python -m fmri_anonymizer -h`
+
+
+
+H4ppy H4ck1n6!

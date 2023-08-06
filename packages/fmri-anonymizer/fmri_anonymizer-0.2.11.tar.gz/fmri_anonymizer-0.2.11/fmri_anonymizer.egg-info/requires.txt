@@ -1,0 +1,11 @@
+alive-progress==1.6.2
+deid==0.1.42
+dicom2nifti
+nibabel==3.2.1
+nipype==1.6.0
+numpy==1.20.2
+pydeface==2.0.0
+pydicom
+SimpleITK==1.2.0
+tqdm==4.60.0
+ttictoc==0.5.6
