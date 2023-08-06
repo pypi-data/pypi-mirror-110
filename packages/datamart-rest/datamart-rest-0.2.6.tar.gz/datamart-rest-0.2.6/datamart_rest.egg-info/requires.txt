@@ -1,0 +1,4 @@
+d3m
+datamart==2021.3.17
+requests
+websocket_client
