@@ -1,0 +1,8 @@
+hello.py
+setup.py
+ai_team_hwlloworld.egg-info/PKG-INFO
+ai_team_hwlloworld.egg-info/SOURCES.txt
+ai_team_hwlloworld.egg-info/dependency_links.txt
+ai_team_hwlloworld.egg-info/namespace_packages.txt
+ai_team_hwlloworld.egg-info/top_level.txt
+ai_team_hwlloworld.egg-info/zip-safe
