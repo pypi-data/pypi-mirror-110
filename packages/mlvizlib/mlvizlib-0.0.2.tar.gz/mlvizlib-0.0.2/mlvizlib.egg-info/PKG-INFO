@@ -1,0 +1,72 @@
+Metadata-Version: 1.2
+Name: mlvizlib
+Version: 0.0.2
+Summary: MLVizLib is a powerful package for generating quick, insightful, and stylish visualizations for machine learning.
+Home-page: https://github.com/kristianbonnici/mlvizlib
+Author: Kristian Bonnici
+Author-email: kristiandaaniel@gmail.com
+License: MIT license
+Description: ========
+        mlvizlib
+        ========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/mlvizlib.svg
+                :target: https://pypi.python.org/pypi/mlvizlib
+        
+        .. image:: https://img.shields.io/travis/kristianbonnici/mlvizlib.svg
+                :target: https://travis-ci.com/kristianbonnici/mlvizlib
+        
+        .. image:: https://readthedocs.org/projects/mlvizlib/badge/?version=latest
+                :target: https://mlvizlib.readthedocs.io/en/latest/?version=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        MLVizLib is a powerful package for generating quick, insightful, and stylish visualizations for machine learning.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://mlvizlib.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.2 (2021-06-24)
+        ------------------
+        
+        * Project connected to GitHub.
+        
+        0.0.1 (2021-06-24)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: mlvizlib
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
