@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: RBasisPy
+Version: 1.0
+Summary: Implementation of a Radial Basis Network
+Home-page: https://github.com/2mikeg/erbn
+Author: Michael Guzmán
+Author-email: michael.guzman.personal@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent

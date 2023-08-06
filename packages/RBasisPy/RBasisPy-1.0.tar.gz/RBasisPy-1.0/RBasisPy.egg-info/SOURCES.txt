@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+RBasisPy/__init__.py
+RBasisPy/rbf.py
+RBasisPy.egg-info/PKG-INFO
+RBasisPy.egg-info/SOURCES.txt
+RBasisPy.egg-info/dependency_links.txt
+RBasisPy.egg-info/requires.txt
+RBasisPy.egg-info/top_level.txt
