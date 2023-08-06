@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: communauto
+Version: 0.1.0
+Summary: 
+Author: Hadrien David
+Author-email: hadrien@ectobal.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: httpx (>=0.18.1,<0.19.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: pytz (>=2021.1,<2022.0)
+Requires-Dist: structlog (>=21.1.0,<22.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
