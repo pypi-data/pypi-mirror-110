@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+omuse.egg-info/PKG-INFO
+omuse.egg-info/SOURCES.txt
+omuse.egg-info/dependency_links.txt
+omuse.egg-info/requires.txt
+omuse.egg-info/top_level.txt
+support/__init__.py
+support/classifiers.py
+support/setup_codes.py
