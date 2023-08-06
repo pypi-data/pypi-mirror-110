@@ -1,0 +1,17 @@
+blowtorch/__init__.py,sha256=uO0-W21n8CXiEMdYK9X41KeWhblKIynpNfH-PTStwa4,129
+blowtorch/bound_functions.py,sha256=Zka3AkXRBY55wQ6gYxPTt2nNabRkj3ankjZF3dda1Lk,2183
+blowtorch/config.py,sha256=cVCJaNbzPBUW3tOWFIkZqQoGWSFrgQQZSX_OgDUNmXo,2170
+blowtorch/loggers.py,sha256=WxM1PnWAoeFrditR33zxEJ4NNrMcsu2Zgsvj5PTVf7s,5808
+blowtorch/run.py,sha256=24YkTZqP5uiqH0Vr6yxTsPau_Aorvh6LgtvIU_y0NO0,17942
+blowtorch/setup.py,sha256=BVg1saYotqFAaMaHODQ7KhIEPOb2-wEe-2vmxrh7GeY,38
+blowtorch/utils.py,sha256=pq-J5wi15n-5viiD6lu6F9_04nlB430N-q5bcSsHBBI,4263
+blowtorch/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blowtorch/backends/apply_func.py,sha256=8kE3eop0m3ylpJShBY4u41FxmM7wWodRtQ4oxTn7nzE,4516
+blowtorch/backends/base_backend.py,sha256=3DlYKhWR49eCNOF-ZgdXnhO0rb9Xcu70NbXuW0TGZoE,1242
+blowtorch/backends/cpu_backend.py,sha256=GWWV8ltjF74MLoLvy3eZc-gIT9Z1X1s5p-V_MzuVls4,877
+blowtorch/backends/gpu_backend.py,sha256=iqH_Y-QWfG4475cPz7gjxj2WDOHXbVmvDTWEpKm-10Y,2845
+blowtorch-0.5.3.dist-info/LICENSE,sha256=_6lpkM2xJW7BQUtsp2qRHB5sQLbSAj-EfqpBaeFp6f0,1059
+blowtorch-0.5.3.dist-info/METADATA,sha256=uNSMoTU289ceU5NnsBXgbH5jTuukI4j4xk3qWOjvin4,5039
+blowtorch-0.5.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+blowtorch-0.5.3.dist-info/top_level.txt,sha256=g_Cg1HZxNoU99DEW1cUqaZBeG37t_HA8uUVFLSqW11o,10
+blowtorch-0.5.3.dist-info/RECORD,,
