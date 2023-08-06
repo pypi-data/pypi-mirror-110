@@ -1,0 +1,16 @@
+slab/__init__.py,sha256=WekTeL6iAWrOr1i53VKQ2Uc3va7xJ3nzaPmXn-Ej-Uc,344
+slab/binaural.py,sha256=zuNOBPvtLfX4nhHjY2392_-QbxY5G1A0TuT6DphO1ls,25633
+slab/filter.py,sha256=CY0n8FATrB25MfmtTCgtrnIXKmt5r4iDCnkwNkghim8,28799
+slab/hrtf.py,sha256=3R46vLpsWUFkTAws9gc2tJq65DWaPKuveWXWhImp_KU,33396
+slab/psychoacoustics.py,sha256=GAIevuwhqeiDEUyKNpuNLEdlw5LuZvJTaqmmCZ1CEss,58108
+slab/signal.py,sha256=QqTcnrh-lkOKRFFxV-sf71CYuuUogaAt6DSozB5vC_Y,19675
+slab/sound.py,sha256=TpEyO041j_ZhGkbbdlFF7o_7ztAYD88H6_ff-i4zCzA,71739
+slab/data/mit_kemar_normal_pinna.bz2,sha256=YfVipoKEukCJn9ZrnZ6XY1GkHe8E4-gmrkyz1cOn2XU,670746
+slab/experiments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slab/experiments/motion_speed.py,sha256=InWu_3opsAUtRinnKWxHdBIuBAC5X3dvYwhQAXn00F0,10724
+slab/experiments/room_voice_interference.py,sha256=BqI92q4qvyARAHOyisjiUpwVfX7-MsjtPwM6V-36FRM,11346
+slab-1.0.0.dist-info/LICENSE,sha256=ngHT_goh9dBx9V2hQ10lytn44jQkVHV8ckmUpYT_9xI,1075
+slab-1.0.0.dist-info/METADATA,sha256=LRoU9B7gWZQXvaZs_03IFan7rg823en42xvT4MXyMSY,13805
+slab-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slab-1.0.0.dist-info/top_level.txt,sha256=cggwcNSij5VkT7DwHp2Ltn_gXg_EqhwNJb-1vvNHWBI,5
+slab-1.0.0.dist-info/RECORD,,
