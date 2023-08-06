@@ -1,0 +1,10 @@
+ansible_compat/__init__.py,sha256=YsQ7xmnGZeYDaAhm83Y8Zzez8CeI3kxF2emxziT4ITc,30
+ansible_compat/config.py,sha256=vQgyMC2qMbsjjbVmK67e-IFQLLTlPktoXws_W9Zk6Xw,2640
+ansible_compat/constants.py,sha256=Q2tdFf0BZkdFMqWqmzOiG9sqeMv9yYuPDsBNeMGvC94,997
+ansible_compat/loaders.py,sha256=fF8lePc3fZYWY4fTuFevfOPtq0b-YUofe4TqBd-HIJ8,254
+ansible_compat/prerun.py,sha256=eZpvqB_wVRwdM1qzN4GMFhdcKDeip7oDpFsBXst2AP0,14728
+ansible_compat-0.1.0.dist-info/LICENSE,sha256=vLWDbva9WmMZndPU516xr3LFj1aGIWTXuYAchcTL_Jo,1095
+ansible_compat-0.1.0.dist-info/METADATA,sha256=gqZYGVR28VrFGrSvvJKCi3hK54LyeuiUE-56YehKNcY,2137
+ansible_compat-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ansible_compat-0.1.0.dist-info/top_level.txt,sha256=n0Ofr57_b4i03HK4jOKgN8o5A_hznu62yZknV0mxRJM,15
+ansible_compat-0.1.0.dist-info/RECORD,,
