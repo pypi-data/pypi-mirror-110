@@ -1,0 +1,9 @@
+prettytable
+androguard==3.4.0a1
+tqdm
+colorama
+click==8.0.1
+graphviz
+pandas
+prompt-toolkit==3.0.19
+plotly
