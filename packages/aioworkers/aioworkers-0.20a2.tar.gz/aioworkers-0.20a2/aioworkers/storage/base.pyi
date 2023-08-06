@@ -1,0 +1,39 @@
+import abc
+from abc import abstractmethod
+from aioworkers.core.base import AbstractNamedEntity as AbstractNamedEntity
+from typing import Any, Optional
+
+class AbstractBaseStorage(AbstractNamedEntity, metaclass=abc.ABCMeta):
+    @abstractmethod
+    async def raw_key(self, key: Any) -> Any: ...
+
+class AbstractStorageReadOnly(AbstractBaseStorage, metaclass=abc.ABCMeta):
+    @abstractmethod
+    async def get(self, key: Any) -> Any: ...
+
+class AbstractFindStorage(AbstractBaseStorage, metaclass=abc.ABCMeta):
+    @abstractmethod
+    async def find(self, *args: Any, **kwargs: Any) -> Any: ...
+
+class AbstractStorageWriteOnly(AbstractBaseStorage, metaclass=abc.ABCMeta):
+    @abstractmethod
+    async def set(self, key: Any, value: Any) -> Any: ...
+
+class AbstractStorage(AbstractStorageReadOnly, AbstractStorageWriteOnly, metaclass=abc.ABCMeta):
+    async def copy(self, key_source: Any, storage_dest: Any, key_dest: Any): ...
+    async def move(self, key_source: Any, storage_dest: Any, key_dest: Any): ...
+
+class AbstractListedStorage(AbstractStorage, metaclass=abc.ABCMeta):
+    @abstractmethod
+    async def list(self) -> Any: ...
+    @abstractmethod
+    async def length(self) -> Any: ...
+
+class AbstractExpiryStorage(AbstractStorage, metaclass=abc.ABCMeta):
+    @abstractmethod
+    async def expiry(self, key: Any, expiry: Any) -> Any: ...
+
+class FieldStorageMixin(AbstractStorage, metaclass=abc.ABCMeta):
+    model: Any = ...
+    async def get(self, key: Any, *, field: Optional[Any] = ..., fields: Optional[Any] = ...): ...
+    async def set(self, key: Any, value: Any, *, field: Optional[Any] = ..., fields: Optional[Any] = ...) -> None: ...
