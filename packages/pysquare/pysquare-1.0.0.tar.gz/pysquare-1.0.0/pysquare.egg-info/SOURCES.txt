@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pysquare.egg-info/PKG-INFO
+pysquare.egg-info/SOURCES.txt
+pysquare.egg-info/dependency_links.txt
+pysquare.egg-info/entry_points.txt
+pysquare.egg-info/top_level.txt
+square/__init__.py
+square/__main__.py
