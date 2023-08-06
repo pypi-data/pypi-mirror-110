@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ConversorTemperatura"
+version = "1.0"
+description = "Paquete que convierte temperatura de Celcius a Farenheit y Rankine  y De Farenheit a Rankine"
+authors = ["Ramiro Israel Vivanco Gualan"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
