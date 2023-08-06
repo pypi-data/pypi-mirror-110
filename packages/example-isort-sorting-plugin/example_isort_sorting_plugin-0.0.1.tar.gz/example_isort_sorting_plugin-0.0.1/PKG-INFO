@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: example-isort-sorting-plugin
+Version: 0.0.1
+Summary: An example plugin that modifies isorts sorting order to provide an even more natural sort by utilizing natsort.
+License: MIT
+Author: Timothy Crosley
+Author-email: timothy.crosley@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: natsort (>=7.1.1,<8.0.0)
