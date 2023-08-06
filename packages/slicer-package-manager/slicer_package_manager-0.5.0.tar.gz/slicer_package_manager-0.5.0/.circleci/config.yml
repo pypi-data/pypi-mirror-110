@@ -1,0 +1,55 @@
+---
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: girder/girder_test:latest
+      - image: circleci/mongo:4.0-ram
+        command: ["mongod", "--storageEngine", "ephemeralForTest", "--dbpath", "/dev/shm/mongo"]
+
+    steps:
+      - checkout
+      - run:
+          name: Run server tests
+          command: tox
+
+  test-cli:
+    docker:
+      - image: circleci/python:3.8
+      - image: circleci/mongo:4.0-ram
+        command: ["mongod", "--storageEngine", "ephemeralForTest", "--dbpath", "/dev/shm/mongo"]
+
+    steps:
+      - checkout
+      - run:
+          name: Install pytest_girder
+          command: pip install pytest_girder
+      - run:
+          name: Install server plugin
+          command: pip install .
+      - run:
+          name: Install CLI
+          command: pip install -e .
+          working_directory: python_client
+      - run:
+          name: Run CLI tests
+          command: pytest --tb=long
+          working_directory: plugin_tests
+
+workflows:
+  version: 2
+  ci:
+    jobs:
+      - test
+      - test-cli
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - test
+      - test-cli
