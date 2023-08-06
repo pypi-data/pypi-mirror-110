@@ -1,0 +1,12 @@
+gflex/__init__.py,sha256=Qz0liNavRrufhF73RxQdo2LaTweCC2dlbudolk_-cwc,163
+gflex/_version.py,sha256=3ddmYYp2ER2_WzIOk_QNrGIvpb6z3fjYk43E6D8ntdA,316
+gflex/base.py,sha256=xXrwMmk2Cgj6tXk8y4t0gNFIJii5380pWe8QKLiOtCw,46893
+gflex/f1d.py,sha256=vk181bfo-Xd3VW-j_WDkQBEKB9kTt9MJD4GH0GNf9Qo,24460
+gflex/f2d.py,sha256=RNbtkQAYlifVesXAkPLFE2Ewb0wBk7cnaGvaSuY8UAc,61756
+gflex/gflex.py,sha256=2sxeIvyGsPEA3wibiRzlnq84698g6wDJIFc7umb8JAQ,3629
+gFlex-1.1.1.dist-info/LICENSE.md,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+gFlex-1.1.1.dist-info/METADATA,sha256=U-w9QbfNipj3MESsawELwY7DVfkFGrH_7-o4OlXGq-g,19577
+gFlex-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gFlex-1.1.1.dist-info/entry_points.txt,sha256=-izZZBQKbuKQ0CHRROrjAUZNSGOJU-OZfY5lLYtxP_Y,38
+gFlex-1.1.1.dist-info/top_level.txt,sha256=O5dHVUPUNEmUQqvHhoEflpr0a6okJzfKULlGtEq-Qfc,6
+gFlex-1.1.1.dist-info/RECORD,,
