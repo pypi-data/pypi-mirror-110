@@ -1,0 +1,3 @@
+dacite
+numpy
+enforce_typing
