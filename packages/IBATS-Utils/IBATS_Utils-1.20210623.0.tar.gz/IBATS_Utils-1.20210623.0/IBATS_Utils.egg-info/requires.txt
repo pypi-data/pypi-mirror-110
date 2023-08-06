@@ -1,0 +1,8 @@
+pandas>=0.24.0
+redis>=2.10.6
+SQLAlchemy>=1.2.8
+xlrd>=1.1.0
+matplotlib>=3.0.3
+numba<=0.52.0,>=0.51.2
+simplejson>=3.17.2
+numpy>=1.18.5
