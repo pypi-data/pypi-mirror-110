@@ -1,0 +1,8 @@
+six
+zc.buildout
+setuptools
+slapos.recipe.build
+
+[test]
+mock
+pathlib
