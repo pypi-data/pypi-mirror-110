@@ -1,0 +1,6 @@
+[console_scripts]
+yolo_detect = yolov5.detect:main
+yolo_export = yolov5.export:main
+yolo_test = yolov5.test:main
+yolo_train = yolov5.train:run
+
