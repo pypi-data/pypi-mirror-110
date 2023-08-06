@@ -1,0 +1,15 @@
+Django
+ispyb
+djangorestframework
+psycopg2-binary
+django-dbconn-retry
+sshtunnel
+PyMySQL
+django_cas_ng
+django-guardian
+
+[dev]
+check-manifest
+
+[test]
+coverage
