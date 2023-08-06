@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: engine-pin
+Version: 1.0.0.dev14
+Summary: A functional and WSGI compliant web framework
+Home-page: https://github.com/bobobozzz/engine.git
+Author: BoBoBo
+Author-email: bobobonet@163.com
+License: GPL v3.0
+Description: UNKNOWN
+Keywords: framework,WSGI,functional,nginx
+Platform: any
