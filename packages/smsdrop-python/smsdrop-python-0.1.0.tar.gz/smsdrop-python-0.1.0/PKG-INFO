@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: smsdrop-python
+Version: 0.1.0
+Summary: A python sdk for the smsdrop.net platform
+Home-page: https://github.com/Tobi-De/smsdrop-python
+License: MIT
+Keywords: Sdk,Sms,Api,Smsdrop
+Author: Tobi DEGNON
+Author-email: tobidegnon@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.18.2,<0.19.0)
+Requires-Dist: mkdocs (>=1.2.1,<2.0.0)
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.1.4,<4.0.0)
+Requires-Dist: mkdocs-material (>=7.1.8,<8.0.0)
+Requires-Dist: mkdocs-material-extensions (>=1.0.1,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.15.2,<0.16.0)
+Requires-Dist: redis (>=3.5.3,<4.0.0)
+Requires-Dist: tenacity (>=7.0.0,<8.0.0)
+Project-URL: Repository, https://github.com/Tobi-De/smsdrop-python
+Description-Content-Type: text/markdown
+
+# Smsdrop-Python
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![](https://img.shields.io/pypi/v/smsdrop-python.svg)](https://pypi.python.org/pypi/smsdrop-python)
+
+- Documentation: <a href="https://tobi-de.github.io/smsdrop-python/" target="_blank">https://tobi-de.github.io/smsdrop-python/</a>
+- Source Code: <a href="https://github.com/Tobi-De/smsdrop-python/" target="_blank">https://github.com/Tobi-De/smsdrop-python/</a>
+
+The official python sdk for the [smsdrop](https://smsdrop.net) api.
+
+## Quickstart
+
+```python
+import datetime
+import logging
+import time
+
+import pytz
+from dotenv import dotenv_values
+
+from smsdrop import CampaignCreate, Client, RedisStorage
+
+# Enable Debug Logging
+# This will og the API request and response data to the console:
+logging.basicConfig(level=logging.DEBUG, format="%(message)s")
+
+config = dotenv_values(".env")
+
+TEST_EMAIL = config.get("TEST_EMAIL")
+TEST_PASSWORD = config.get("TEST_PASSWORD")
+MY_TIMEZONE = config.get("MY_TIMEZONE")
+
+
+def main():
+    # Initialize the client
+    client = Client(
+        email=TEST_EMAIL, password=TEST_PASSWORD, storage=RedisStorage()
+    )
+    # Get your account profile informations
+    print(client.read_me())
+    # Get your subscription informations
+    print(client.read_subscription())
+    # Get your first 500 campaigns
+    print(client.read_campaigns(skip=0, limit=500))
+
+    # Send a simple sms
+    client.send_message(message="hi", sender="Max", phone="<phone>")
+
+    # Create a new Campaign
+    cp = CampaignCreate(
+        title="Test Campaign",
+        message="Test campaign content",
+        sender="TestUser",
+        recipient_list=["<phone1>", "<phone2>", "<phone3>"],
+    )
+    cp = client.launch_campaign(cp)
+    time.sleep(20)  # wait for 20 seconds for the campaign to proceed
+    cp = client.read_campaign(cp.id)  # refresh your campaign data
+    print(cp.status)  # Output Example : COMPLETED
+
+    # create a scheduled campaign
+    naive_dispatch_date = datetime.datetime.now() + datetime.timedelta(hours=1)
+    aware_dispatch_date = pytz.timezone(MY_TIMEZONE).localize(
+        naive_dispatch_date
+    )
+    cp2 = CampaignCreate(
+        title="Test Campaign 2",
+        message="Test campaign content 2",
+        sender="TestUser",
+        recipient_list=["<phone1>", "<phone2>", "<phone3>"],
+        # The date will automatically be send in isoformat with the timezone data
+        defer_until=aware_dispatch_date,
+    )
+    cp2 = client.launch_campaign(cp2)
+    # If you check the status one hour from now it should return 'COMPLETED'
+
+    # create another scheduled campaign using defer_by
+    cp3 = CampaignCreate(
+        title="Test Campaign 3",
+        message="Test campaign content 3",
+        sender="TestUser",
+        recipient_list=["<phone1>", "<phone2>", "<phone3>"],
+        defer_by=120,
+    )
+    cp3 = client.launch_campaign(cp3)
+    time.sleep(120)  # wait for 120 seconds for the campaign to proceed
+    cp3 = client.read_campaign(cp3.id)  # refresh your campaign data
+    print(cp3.status)  # should output : COMPLETED
+    # If you get a 'SCHEDULED' printed, you can wait 10 more seconds in case the network
+    # is a little slow or the server is busy
+
+
+if __name__ == "__main__":
+    main()
+```
+
+  
+

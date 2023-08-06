@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "smsdrop-python"
+version = "0.1.0"
+description = "A python sdk for the smsdrop.net platform"
+authors = ["Tobi DEGNON <tobidegnon@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Tobi-De/smsdrop-python"
+keywords = [
+    "Sdk",
+    "Sms",
+    "Api",
+    "Smsdrop",
+]
+packages = [
+    {include = "smsdrop"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.18.2"
+mkdocs-material = "^7.1.8"
+mkdocstrings = "^0.15.2"
+mkdocs-material-extensions = "^1.0.1"
+mkdocs = "^1.2.1"
+mkdocs-include-markdown-plugin = "^3.1.4"
+redis = "^3.5.3"
+tenacity = "^7.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+mypy = "^0.902"
+flake8 = "^3.9.2"
+isort = "^5.8.0"
+python-dotenv = "^0.17.1"
+bpython = "^0.21"
+pytz = "^2021.1"
+black = "^21.6b0"
+pre-commit = "^2.13.0"
+pytest-httpx = "^0.12.0"
+Faker = "^8.8.1"
+
+[tool.black]
+line-length = 79
+target-version = ['py27']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+use_parentheses = true
+line_length = 88
+force_grid_wrap = 0
+ensure_newline_before_comments = true
+py_version = 27
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
