@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: image2face
+Version: 0.2.0
+Summary: Face Recognition package
+Home-page: UNKNOWN
+Author: Tai Le
+Author-email: <ltquoctaidn98@gmail.com>
+License: UNKNOWN
+Keywords: python,computer vision,face detection
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: torch (==1.7.0)
+Requires-Dist: torchvision (==0.8.1)
+Requires-Dist: opencv-python (==4.4.0.46)
+
+Face Recognition package
+
+
