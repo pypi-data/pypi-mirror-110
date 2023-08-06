@@ -1,0 +1,11 @@
+aliyun_img_utils/__init__.py,sha256=0Jquo93y-2uJHxOBqNtXug6UR4AdrDxj2nnm9PDGyq4,999
+aliyun_img_utils/aliyun_cli.py,sha256=r9bgYTPKdZvJn1YddYUOb22tQULuK9P_jVScW70SfMI,18219
+aliyun_img_utils/aliyun_exceptions.py,sha256=g8PLyUJdpRk5JLLUi1qUH3WnGAxrl5leNCi6wkPQtrQ,1323
+aliyun_img_utils/aliyun_image.py,sha256=kfczaNqU48l8pCK-uThtYiJFu1PGfXV34bDeMdFCPMQ,21150
+aliyun_img_utils/aliyun_utils.py,sha256=7BS36bfOk4-YqqOlNKBoanQ_GbIlO1KNN5CFNh1cz4c,6684
+aliyun_img_utils-1.2.0.dist-info/LICENSE,sha256=PEg6Le4OHFtOn6Qzm_pJEo0ETIL0gpOT5u5DvcLtOTs,32403
+aliyun_img_utils-1.2.0.dist-info/METADATA,sha256=hUCq2C41_9siQW7wVuePvUSB1SiPUtVj5Kk-xxMtE_Y,11894
+aliyun_img_utils-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aliyun_img_utils-1.2.0.dist-info/entry_points.txt,sha256=K7Q4Z8QOjtRPA5lZou4SxfC5n1rVrcg198iacix3foY,71
+aliyun_img_utils-1.2.0.dist-info/top_level.txt,sha256=nKIG_sWsZqPivGTOW_N5gdkjInEjcFPK6m35BF4Wz0w,17
+aliyun_img_utils-1.2.0.dist-info/RECORD,,
