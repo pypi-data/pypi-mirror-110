@@ -1,0 +1,30 @@
+LIBRARY
+
+EXPORTS
+  SetLogMessageFunction
+  SetTraceLevel
+  GetTraceLevelString
+  CreateClassificationBooster
+  CreateRegressionBooster
+  CreateBoosterView
+  GenerateModelUpdate
+  GetModelUpdateCuts
+  GetModelUpdateExpanded
+  SetModelUpdateExpanded
+  ApplyModelUpdate
+  GetBestModelFeatureGroup
+  GetCurrentModelFeatureGroup
+  FreeBooster
+  CreateClassificationInteractionDetector
+  CreateRegressionInteractionDetector
+  CalculateInteractionScore
+  FreeInteractionDetector
+  CutQuantile
+  CutWinsorized
+  CutUniform
+  Discretize
+  Softmax
+  SuggestGraphBounds
+  GenerateRandomNumber
+  SampleWithoutReplacement
+  StratifiedSamplingWithoutReplacement
