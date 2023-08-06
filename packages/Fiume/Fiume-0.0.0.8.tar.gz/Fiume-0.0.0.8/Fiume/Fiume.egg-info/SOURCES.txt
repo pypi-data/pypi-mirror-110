@@ -1,0 +1,8 @@
+README.md
+setup.py
+Fiume/Fiume.egg-info/PKG-INFO
+Fiume/Fiume.egg-info/SOURCES.txt
+Fiume/Fiume.egg-info/dependency_links.txt
+Fiume/Fiume.egg-info/entry_points.txt
+Fiume/Fiume.egg-info/requires.txt
+Fiume/Fiume.egg-info/top_level.txt
