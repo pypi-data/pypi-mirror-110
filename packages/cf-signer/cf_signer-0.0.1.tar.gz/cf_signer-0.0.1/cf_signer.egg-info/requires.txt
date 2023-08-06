@@ -1,0 +1,2 @@
+Click>=7.0
+PyOpenSSL>=20.0.1
