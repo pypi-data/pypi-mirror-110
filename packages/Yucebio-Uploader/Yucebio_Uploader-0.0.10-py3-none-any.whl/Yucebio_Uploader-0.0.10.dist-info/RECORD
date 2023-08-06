@@ -1,0 +1,10 @@
+yucebio_uploader/__init__.py,sha256=JdyCN-m-M-D8Wwk5Tdn7CNJFwJdzXdnQZx5HYcLVtww,525
+yucebio_uploader/ali.py,sha256=0A3zB0j8P0xrKAtfp5U47Pia3RsNA_ps6ivAcGA4JFE,3000
+yucebio_uploader/aws.py,sha256=BtztpOVSEdU-UnS1RapGGf5MiUvYTse2GEfRrjZStHw,2924
+yucebio_uploader/base.py,sha256=na_qA3ACi4RoJz00-ZZwSmLjXjQN7-XDDtmVxTxyC30,1785
+yucebio_uploader/commands.py,sha256=Nw1_7rar7GBdQ3z7s9EfnlMY6m1h-PJZFH6tO40IYAg,1055
+Yucebio_Uploader-0.0.10.dist-info/METADATA,sha256=4EgwXL5ziIw89NkGZO4kA5B8XJnpI_ARHfXxm8dk0mU,1388
+Yucebio_Uploader-0.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Yucebio_Uploader-0.0.10.dist-info/entry_points.txt,sha256=J1jD8uztk93nwkSSvMr2N6ACA8lChg1lLX5R4DQw7_Y,69
+Yucebio_Uploader-0.0.10.dist-info/top_level.txt,sha256=acprL1mbGn-7i1pe63k8DNxhnc5lR5_NH5gNGNFdZ14,17
+Yucebio_Uploader-0.0.10.dist-info/RECORD,,
