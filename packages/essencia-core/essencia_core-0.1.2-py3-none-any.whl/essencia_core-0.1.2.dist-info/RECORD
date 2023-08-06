@@ -1,0 +1,7 @@
+essencia_core/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+essencia_core/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+essencia_core/db/deta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+essencia_core/db/deta/base.py,sha256=aei-C6TPQCfG11McoKvcpRl5EakHv5aJtFAfA14xQVc,3962
+essencia_core-0.1.2.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+essencia_core-0.1.2.dist-info/METADATA,sha256=Kmnl0jAgDKOe0Pe2otMYbMkQn50x7flaA2fhNFaNbNU,419
+essencia_core-0.1.2.dist-info/RECORD,,
