@@ -1,0 +1,3 @@
+[console_scripts]
+fastadist = fastadist.run_fastadist:main
+

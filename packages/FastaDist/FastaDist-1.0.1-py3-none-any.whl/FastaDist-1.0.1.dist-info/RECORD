@@ -1,0 +1,8 @@
+FastaDist-1.0.1.dist-info/METADATA,sha256=Csl4OQM_Wdt3fBLb5U-ZHmsRzB9O5B8eO_pjn7AdMUE,2697
+FastaDist-1.0.1.dist-info/RECORD,,
+FastaDist-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+FastaDist-1.0.1.dist-info/entry_points.txt,sha256=rocwGl8hV2GDkF2gW8AdBnDLS2PwKxTocD7n8fmKJOo,60
+FastaDist-1.0.1.dist-info/top_level.txt,sha256=czV8p-Tg8i-qSNmiXB6KdMvVtrluUkwNo9uemH_xwSI,10
+fastadist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastadist/fastadist_functions.py,sha256=zDkEVNS8momTLrH0RbEvD40Cw3AoF5oa-viOCiwStzE,10447
+fastadist/run_fastadist.py,sha256=6uxW2yKBYd1r8v76YndkGlFReGl2pmbzbnVzL8m5x20,1714
