@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./gjf/__init__.py
+./gjf/__main__.py
+./gjf/cli.py
+./gjf/geojson_fixer.py
+gjf.egg-info/PKG-INFO
+gjf.egg-info/SOURCES.txt
+gjf.egg-info/dependency_links.txt
+gjf.egg-info/entry_points.txt
+gjf.egg-info/requires.txt
+gjf.egg-info/top_level.txt
