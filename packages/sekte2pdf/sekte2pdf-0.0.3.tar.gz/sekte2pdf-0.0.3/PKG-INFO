@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: sekte2pdf
+Version: 0.0.3
+Summary: Sekte2Pdf
+Home-page: https://github.com/MhankBarBar/SekteModule
+Author: MhankBarBar
+Author-email: mhankbarbar@yes.my
+License: MIT
+Download-URL: https://github.com/MhankBarBar/SekteModule/archive/0.0.3.tar.gz
+Description: # Install
+        
+        ```bash
+        > pip install sekte2pdf
+        ```
+        
+        # Python Interpreter
+        ## Save To File
+        ```python
+        >>> import sekte
+        >>> x=sekte.search('fairy').fetch
+        >>> x[2].download(chapter=1)
+        >>> x.save_to_file('filename.pdf')
+        ```
+         ## BytesIO
+         ```python
+         >>> import doujin
+        >>> x=sekte.search('fairy').fetch
+        >>> x[2].download(chapter=1)
+        ```
+        
+Keywords: manga,sektekomik,downloader,pdf,sektekomik downlader
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
