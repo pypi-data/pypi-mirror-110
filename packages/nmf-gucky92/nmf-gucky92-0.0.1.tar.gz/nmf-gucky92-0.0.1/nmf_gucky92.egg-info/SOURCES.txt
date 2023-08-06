@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+nmf/__init__.py
+nmf/cdnmf_fast.pyx
+nmf/nmf.py
+nmf/utils.py
+nmf_gucky92.egg-info/PKG-INFO
+nmf_gucky92.egg-info/SOURCES.txt
+nmf_gucky92.egg-info/dependency_links.txt
+nmf_gucky92.egg-info/entry_points.txt
+nmf_gucky92.egg-info/not-zip-safe
+nmf_gucky92.egg-info/requires.txt
+nmf_gucky92.egg-info/top_level.txt
