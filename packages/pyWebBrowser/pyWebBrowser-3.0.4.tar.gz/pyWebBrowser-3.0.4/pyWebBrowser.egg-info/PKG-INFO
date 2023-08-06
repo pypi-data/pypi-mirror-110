@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyWebBrowser
+Version: 3.0.4
+Summary: 基于 C# 开发的浏览器控制工具。整合提供了浏览器控制、键鼠控制、屏幕截图、剪切板控制等常用 API。仅支持 x64 位 Windows 系统
+Home-page: https://gitee.com/Yogurt_cry/pyWebBrowser
+Author: Yogurt_cry
+Author-email: ben.2001@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE.txt
+
+UNKNOWN
+

@@ -1,0 +1,6 @@
+recursive-include pyWebBrowser/Win64Browser *.*
+recursive-include pyWebBrowser/Win64Browser/locales *.*
+recursive-include pyWebBrowser/Win64Browser/swiftshader *.*
+
+recursive-include pyWebBrowser/Browser/ *.*
+recursive-include pyWebBrowser/MKC/ *.*
