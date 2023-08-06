@@ -1,0 +1,10 @@
+cricscraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cricscraper/cricinfo.py,sha256=q8Le6E_XXPyxXLq962LMb9c-4wZkcjDEkC2XIg0Ndgg,12824
+cricscraper/cricsheet.py,sha256=c1V2RPCv_ni7QDCpnrFxRo49qw20Kg2MnjMGXH8UHA8,4156
+cricscraper/matchinfo.py,sha256=ay_WzTkxBD2cRNVkfW1AirrObiRtQZHTMAlVq5PN_Bg,2500
+python_cricket_scraper-0.1.1.dist-info/LICENSE,sha256=hCN1sETkG9UEfIIAmZM27PlGstLwMsM01FYX72fIVYs,1071
+python_cricket_scraper-0.1.1.dist-info/METADATA,sha256=UzspFDsOUGWK64d84IVmaXCSkUBAEi6Sj5EXFjqk2fs,4294
+python_cricket_scraper-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_cricket_scraper-0.1.1.dist-info/top_level.txt,sha256=FXuGFVYcHAjLv_D_2JELylWgw-7fFY57o5KDCQajjdU,12
+python_cricket_scraper-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+python_cricket_scraper-0.1.1.dist-info/RECORD,,
