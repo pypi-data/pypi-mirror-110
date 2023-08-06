@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tc-queue-exporter
+Version: 0.1.0.dev4
+Summary: Export teamcity queue data
+Home-page: https://github.com/adesso-mobile/tc_queue_exporter
+Author: adesso mobile solutions GmbH
+Author-email: it-operations@adesso-mobile.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/adesso-mobile/tc_queue_exporter/issues
+Description: # tc_queue_exporter
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
