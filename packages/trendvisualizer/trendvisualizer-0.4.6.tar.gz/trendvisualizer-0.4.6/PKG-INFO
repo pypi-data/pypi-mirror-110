@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: trendvisualizer
+Version: 0.4.6
+Summary: Visualize trend strength across various markets.
+Home-page: https://github.com/GBERESEARCH/trendvisualizer
+Author: GBERESEARCH
+Author-email: gberesearch@gmail.com
+License: MIT
+Description: ## trendvisualizer
+        
+        ### Visualize trend strength across various markets. 
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

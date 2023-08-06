@@ -1,0 +1,10 @@
+README.md
+setup.py
+trendvisualizer/__init__.py
+trendvisualizer/trend.py
+trendvisualizer/trend_params.py
+trendvisualizer.egg-info/PKG-INFO
+trendvisualizer.egg-info/SOURCES.txt
+trendvisualizer.egg-info/dependency_links.txt
+trendvisualizer.egg-info/requires.txt
+trendvisualizer.egg-info/top_level.txt
