@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hidabc
+Version: 0.2.0
+Summary: HID interfacing abstract protocols and platform implementations
+Keywords: hid io abc abctract abstraction protocol hidraw
+Home-page: https://github.com/FFY00/python-hidabc
+Author: Filipe Laíns <lains@riseup.net>
+Author-Email: Filipe Laíns <lains@riseup.net>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Project-URL: Homepage, https://github.com/FFY00/python-hidabc
+Project-URL: Repository, https://github.com/FFY00/python-hidabc
+Project-URL: Documentation, https://hidabc.readthedocs.io
+Project-URL: Changelog, https://hidabc.readthedocs.io/en/latest/changelog.html
+Requires-Python: >=3.7
+Requires-Dist: typing_extensions; python_version < "3.8"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: furo>=2021.04.11b34; extra == "docs"
+Requires-Dist: sphinx~=3.0; extra == "docs"
+Provides-Extra: test
+Provides-Extra: docs
+Description-Content-Type: text/x-rst
+
+******
+hidabc
+******
+
+Collection of abstract protocols to interact with HID devices.
