@@ -1,0 +1,9 @@
+pyjq
+boto3
+PyYAML
+backoff
+requests
+click
+click-aliases
+oauth2client
+google-api-python-client
