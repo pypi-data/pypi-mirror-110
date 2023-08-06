@@ -1,0 +1,18 @@
+hydra:
+  help:
+    app_name: fseval
+    header: |
+      fseval benchmarking library.
+  job:
+    name: ${pipeline}
+
+defaults:
+  - base_config
+  - pipeline/rank_and_validate
+  - cv: kfold
+  - callbacks: []
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+
+callbacks:
+  _target_: "fseval.pipelines._callback_collection.CallbackCollection"
