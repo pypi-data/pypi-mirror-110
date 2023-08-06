@@ -1,0 +1,3 @@
+[console_scripts]
+ini_typefile = config_to_object.load_code:command_line_config
+
