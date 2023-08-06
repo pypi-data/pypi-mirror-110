@@ -1,0 +1,5 @@
+A:
+  attr1: attr a  # str
+  attr2: 1 # int
+  attr3: false # bool
+  attr4: [1, 2, 3]  # list
