@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tdseird/Model.py
+tdseird/US_Model.py
+tdseird/__init__.py
+tdseird.egg-info/PKG-INFO
+tdseird.egg-info/SOURCES.txt
+tdseird.egg-info/dependency_links.txt
+tdseird.egg-info/requires.txt
+tdseird.egg-info/top_level.txt

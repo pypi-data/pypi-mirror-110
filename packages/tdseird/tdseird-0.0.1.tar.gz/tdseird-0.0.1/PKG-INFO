@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tdseird
+Version: 0.0.1
+Summary: Time-dependent SEIRD Model
+Home-page: UNKNOWN
+Author: Taarak Rapolu
+Author-email: taarak.rapolu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Time-dependent-SEIRD-Model
+
+**A Time-Dependent SEIRD Model for Forecasting the COVID-19 Transmission Dynamics**  
+Taarak Rapolu, Brahmani Nutakki, T. Sobha Rani, S. Durga Bhavani  
+doi: https://doi.org/10.1101/2020.05.29.20113571
+
+
