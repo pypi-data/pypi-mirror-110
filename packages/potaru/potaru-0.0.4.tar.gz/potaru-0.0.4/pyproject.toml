@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "potaru"
+version = "0.0.4"
+description = ""
+authors = ["Alon Gubkin <alon.gubkin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[tool.poetry.scripts]
+potaru = "potaru.__main__:cli"
+
+[build-system]
+requires = ["poetry>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry.masonry.api"
