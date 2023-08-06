@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: drf-api-decorator
+Version: 0.0.11
+Summary: API decorator for drf
+Home-page: UNKNOWN
+Author: Twowix
+Author-email: twowix@kakao.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: djangorestframework
+
+UNKNOWN
+
