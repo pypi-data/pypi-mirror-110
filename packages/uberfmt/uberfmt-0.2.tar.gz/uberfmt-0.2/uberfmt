@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+
+import getopt
+import re
+import sys
+
+try:
+    from wcwidth import wcswidth
+except ImportError:
+    def wcswidth(text):
+        return len(text)
+
+def fmt_words(prefix, words, goalw):
+    spans = [wcswidth(w) + 1 for w in words]
+    spansum = [sum(spans[i:]) for i in range(len(spans))]
+    cache = [None] * len(spansum)
+    def best_breaks(i0):
+        if cache[i0] is None:
+            bestscore = (max(0, spansum[i0] - 1 - goalw))**2
+            bestbreaks = []
+            for i in range(i0 + 1, len(words)):
+                score, breaks = best_breaks(i)
+                score += (spansum[i0] - spansum[i] - 1 - goalw)**2
+                if score <= bestscore:
+                    bestscore = score
+                    bestbreaks = [i] + breaks
+            cache[i0] = (bestscore, bestbreaks)
+        return cache[i0]
+    score, breaks = best_breaks(0)
+    breaks.append(len(words))
+    idx = 0
+    for i, br in enumerate(breaks):
+        print(prefix[min(i, len(prefix) - 1)] + " ".join(words[idx:br]))
+        idx = br
+
+def fmt_lines(prefix, lines, goalw):
+    words = [word for line in lines for word in line.split()]
+    fmt_words(prefix, words, goalw)
+
+def fmt_file(f, goalw):
+    rx_line = re.compile("^([ #/(*)-]*)(.*)$")
+    current_paragraph = []
+    current_prefix = []
+    for line in f:
+        prefix, line = rx_line.match(line).groups()
+        if line == "":
+            if current_paragraph:
+                fmt_lines(current_prefix, current_paragraph, goalw - len(current_prefix[0]))
+            print(prefix)
+            current_paragraph = []
+            current_prefix = []
+        else:
+            if current_prefix == [] or len(current_prefix[0]) != len(prefix):
+                if current_paragraph:
+                    fmt_lines(current_prefix, current_paragraph, goalw - len(current_prefix[0]))
+                current_paragraph = []
+                current_prefix = []
+            current_paragraph.append(line)
+            current_prefix.append(prefix)
+    if current_paragraph:
+        fmt_lines(current_prefix, current_paragraph, goalw - len(current_prefix[0]))
+
+def usage():
+    print("usage:", sys.argv[0], "[-h] [-g goal-width] [file ...]")
+
+def main():
+    goalw = 62
+    opts, args = getopt.gnu_getopt(sys.argv[1:], "hg:")
+    for opt, val in opts:
+        if opt == "-g": goalw = int(val)
+        if opt == "-h": usage(); return
+    if args == []:
+        fmt_file(sys.stdin, goalw)
+    else:
+        for file in args:
+            with open(file, "r") as f:
+                fmt_file(f, goalw)
+
+if __name__ == "__main__":
+    main()
