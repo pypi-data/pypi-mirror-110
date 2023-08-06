@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: SpaceTimePandas
+Version: 0.2.1
+Summary: Location date features as dataframe
+Home-page: https://github.com/tianle91/SpaceTimePandas
+Author: Tianle Chen
+Author-email: tianlechen@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geopy (>=2.1.0)
+Requires-Dist: openrouteservice (>=2.3.3)
+Requires-Dist: OSMPythonTools (==0.3.0)
+
+# SpaceTimePandas
+Location and date features from a bunch of api sources to Pandas.
+Repository hosted on [GitHub](https://github.com/tianle91/SpaceTimePandas).
+
+![icon](SpaceTimePandas.png)
+```
+pip install SpaceTimePandas
+```
+
+# Demo 
+```python
+>>> from stpd.openstreetmap import OpenStreetMap
+>>> osm=OpenStreetMap()
+>>> osm('Toronto Ontario')
+[nominatim] downloading data: search
+{'count_natural=tree': 719, 'count_natural=water': 15, 'count_building=yes': 1151, 'count_building=house': 39, 'count_amenity=parking': 148, 'count_amenity=restaurant': 327, 'count_service=driveway': 77}
+```
+
+```python
+>>> from stpd.openrouteservice._openrouteservice import OpenRouteService
+>>> with open('ors.secret') as f:
+...    ors = OpenRouteService(f.read())
+>>> ors(location_strs=['toronto ontario', 'hamilton ontario'])
+{'distance': 67828.8, 'duration': 3125.3}
+```
+
+
