@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ScratchEncoder
+Version: 0.0.9
+Summary: Scratch Encoder
+Home-page: https://github.com/The-Cloud-Dev/ScratchEncoder
+Author: TheCloudDev
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ScratchEncoder
+
+## Installation
+
+```bash
+pip install ScratchEncoder
+```
+
+## Usage
+
+```python
+encoder = ScratchEncoder.Encoder()
+```
+
+Initializes a new encoder object.
+
+## Encoding
+
+```python
+encoder.encode('Text')
+# Encodes text and returns the encoded value
+encoder.decode('value')
+# Decodes a value and returns the decoded text
+```
+
+## Scratch
+
+View the project on scratch [here](https://scratch.mit.edu/projects/546443308)
+Contact me on my [Scratch Profile](https://scratch.mit.edu/users/TheCloudDev/#comments)
+
+
