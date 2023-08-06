@@ -1,0 +1,6 @@
+PyQt5
+essentia
+librosa
+pillow
+pycairo
+tensorflow==1.15
