@@ -1,0 +1,89 @@
+{
+  "name": "jupyterlab-python-file",
+  "version": "0.5.4",
+  "description": "Create Python Files from JupyterLab",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/jtpio/jupyterlab-python-file",
+  "bugs": {
+    "url": "https://github.com/jtpio/jupyterlab-python-file/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Jeremy Tuloup",
+    "email": ""
+  },
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}",
+    "style/index.js"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtpio/jupyterlab-python-file.git"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "build:prod": "jlpm run clean && jlpm run build:lib && jlpm run build:labextension",
+    "clean": "jlpm run clean:lib",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
+    "clean:labextension": "rimraf jupyterlab_python_file/labextension",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install:extension": "jlpm run build",
+    "prepare": "jlpm run clean && jlpm run build",
+    "prettier": "prettier --write '**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}'",
+    "prettier:check": "prettier --list-different '**/*{.ts,.tsx,.js,.jsx,.css,.json,.md}'",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:labextension": "jupyter labextension watch .",
+    "watch:src": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^3.0.11",
+    "@jupyterlab/filebrowser": "^3.0.11",
+    "@jupyterlab/launcher": "^3.0.9",
+    "@jupyterlab/mainmenu": "^3.0.9"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.1",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.3.0"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "jupyterlab_python_file/labextension",
+    "_build": {
+      "load": "static/remoteEntry.64bc3feb5e646206b1e9.js",
+      "extension": "./extension",
+      "style": "./style"
+    }
+  },
+  "jupyter-releaser": {
+    "hooks": {
+      "before-build-npm": [
+        "python -m pip install jupyterlab~=3.0",
+        "jlpm"
+      ]
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "styleModule": "style/index.js"
+}
