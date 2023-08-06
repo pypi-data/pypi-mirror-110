@@ -1,0 +1,16 @@
+plover_search_translation/__init__.py,sha256=dbpfRi2jpEtmFCrxWC8EUalIi0AjKYmDiZcb__oNaIM,9
+plover_search_translation/commands.py,sha256=KrsaVBYQvJwzaZRrSKtYKAECz7smjz60ShQlK_Tz340,433
+plover_search_translation/communicate.py,sha256=w7JMUq9PwIhoawcRwhYyrp_iw33HxTXqzlQ4aBbXLmI,2955
+plover_search_translation/dictionary.py,sha256=GQwg8BQeVSbzZk2JRBAB9B8NfnK1xuJjpBHGhCfOPFo,9466
+plover_search_translation/gui.py,sha256=CyIlUne8ezw6Yrb2HxgkshX5zlH0cUSmzPgGy-Ap-CE,2820
+plover_search_translation/lib.py,sha256=lDQiKZAIArKQbzqB8VJWdT4vLQED1FkFcBrCgM18fKw,2635
+plover_search_translation/manager.py,sha256=3yHy-DiOW4GCGFhRKZhhhSQD7s6qtZkmwGW2vP9orf0,4840
+plover_search_translation/process.py,sha256=TugYBAHyCsUFpct0YDqECFSuZ8-ghzZf3tsLrOAt-X0,7087
+plover_search_translation/search_translation_dialog_ui.py,sha256=fJKbysVvad0j3AwwoFJ2kddBEnATtBZy8my_jSQALRo,6514
+plover_search_translation-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+plover_search_translation-0.4.0.dist-info/METADATA,sha256=8YvwxcU81S6HX5rHUmKHWA2LBJ6-CgDj5dG8kvsvGRE,1005
+plover_search_translation-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+plover_search_translation-0.4.0.dist-info/entry_points.txt,sha256=NolC5wuQC0XN1vtsWIoyUAhNV2ypzCA749s6jndGBbI,359
+plover_search_translation-0.4.0.dist-info/top_level.txt,sha256=pRFETsugTlqSqgoOWvTRXhlTT43L2mRNL14rB2FFNEs,26
+plover_search_translation-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_search_translation-0.4.0.dist-info/RECORD,,

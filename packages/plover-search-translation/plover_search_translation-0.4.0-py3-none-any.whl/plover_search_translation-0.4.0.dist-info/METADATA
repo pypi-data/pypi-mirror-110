@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: plover-search-translation
+Version: 0.4.0
+Summary: Dictionary plugin for Plover.
+Home-page: UNKNOWN
+Author: user202729
+License: GNU General Public License v3 or later (GPLv3+)
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: plover (>=4.0.0.dev8)
+Requires-Dist: PyQt5 (>=5.15.4)
+Requires-Dist: subprocess-connection (>=0.0.5)
+
+# plover-search-translation
+
+Dictionary plugin for Plover.
+
+This package is available on [GitHub] and [PyPI].
+
+See [Usage page on the wiki](https://github.com/user202729/plover-search-translation/wiki/Usage)
+for information on how to use the plugin.
+
+[GitHub]: https://github.com/user202729/plover-search-translation
+[PyPI]: https://pypi.org/project/plover-search-translation/
+
+
