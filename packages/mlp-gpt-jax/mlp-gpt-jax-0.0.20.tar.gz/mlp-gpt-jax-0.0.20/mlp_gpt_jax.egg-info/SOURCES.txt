@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mlp_gpt_jax/__init__.py
+mlp_gpt_jax/mlp_gpt_jax.py
+mlp_gpt_jax/utils.py
+mlp_gpt_jax.egg-info/PKG-INFO
+mlp_gpt_jax.egg-info/SOURCES.txt
+mlp_gpt_jax.egg-info/dependency_links.txt
+mlp_gpt_jax.egg-info/requires.txt
+mlp_gpt_jax.egg-info/top_level.txt
