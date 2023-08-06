@@ -1,0 +1,4 @@
+[console_scripts]
+pdfsr = pdf_statement_reader:cli
+psr = pdf_statement_reader:cli
+
