@@ -1,0 +1,11 @@
+fluo/__init__.py,sha256=NHNJCNKpUhz9Pp66avvm-g1TtJ_vX2luf489Gcd_rKk,20
+fluo/fitter.py,sha256=chayVo38UpL6J8gNI6xnZ3hibbNP1KVWkOS5hNCnjbc,11619
+fluo/models.py,sha256=5fgRv-Zw0Lshsaq70JdTenaCI7YqvkILn9eKn6Ac8Zc,25049
+fluo/simulation.py,sha256=YRPnKXK11hd3yz-QKsguvpOI29U0E4asOTAqRwpW9Sk,1368
+fluo/statistics.py,sha256=4P0tfOx5W4UPVJosCw5a8WnmYYvM2qXNy8VGp6dnRtE,9228
+fluo/utils.py,sha256=US8queM6qoDVbKvvxLTUR78HfjOvanNtzJtvCsPoUpk,1975
+fluo-1.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+fluo-1.1.dist-info/METADATA,sha256=lFVh8utC4LFHvmb9L4ScYCF0UBqYfWIORU_rcKY8Jn8,1546
+fluo-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fluo-1.1.dist-info/top_level.txt,sha256=lch6MgxEslAEYJYBlmc_NRLN1mF46c5KbA6W5p7xgPE,5
+fluo-1.1.dist-info/RECORD,,
