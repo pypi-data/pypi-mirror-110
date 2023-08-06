@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: escriptorium-connector
+Version: 0.0.1
+Summary: A convenience connector to the eScriptorium platform
+Home-page: https://github.com/pypa/sampleproject
+Author: Bronson Brown-deVost
+Author-email: bronsonbdevost@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+
+# Escriptorium Connector
+
+This simple python package makes it simple to connect to escriptorium ad work with the data stored there.
+
