@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Surveys{% endblock %}
+
+{% block nav %}
+<p class="crumbs">
+  <a href="{{ urls.instance() }}">home</a>
+</p>
+{{super()}}
+{% endblock %}
+
+{% block content %}
+<h1>Surveys</h1>
+
+<p>
+  <a href="/-/surveys/new">Add new survey</a>
+</p>
+
+<p>
+  <ul>
+  {% for survey in surveys %}
+    <li><a href="/-/surveys/{{ survey.id}}">{{ survey.name }}</a> <a href="/-/surveys/form/{{ survey.id}}">(View form)</a></li>
+  {% endfor %}
+  </ul>
+</p>
+{% endblock %}
