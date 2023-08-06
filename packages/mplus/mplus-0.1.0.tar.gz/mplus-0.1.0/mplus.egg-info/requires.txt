@@ -1,0 +1,5 @@
+requests
+parsel
+pymysql
+lxml
+w3lib
