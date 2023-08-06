@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gumshoe-cli
+Version: 1.1.9
+Summary: Your habit tracking command line tool.
+Home-page: https://github.com/philipcsaplar/gumshoe-cli/tree/master/gumshoe
+Author: Philip Csaplar
+Author-email: philip@osit.co.za
+License: MIT
+Description: The GumShoe CLI app will allow you to create, complete, show and remove habits. its and easy to use command line application that stores your created habit and allows you to analyse their data. Also shows you when you have created a streak which is when you have completed your habit a certain amount of times in a row.
+Keywords: habits goals track tracking streak
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
