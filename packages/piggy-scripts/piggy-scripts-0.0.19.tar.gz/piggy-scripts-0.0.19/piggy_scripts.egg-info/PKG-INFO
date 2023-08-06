@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: piggy-scripts
+Version: 0.0.19
+Summary: Pexpect scripts to run on AWS EC2 to connect to CloudHSM Management Utility and CloudHSM
+Home-page: UNKNOWN
+Author: Altmirai LLC
+Author-email: kyle.stewart@altmirai.com
+License: MIT license
+Description: # piggy-scripts
+Keywords: altpiggybank
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
