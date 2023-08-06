@@ -1,0 +1,57 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import click
+from haveibeenpwned_asyncio.haveibeenpwned_async_client import haveibeenpwned, \
+    haveIbeenPwnedAccount, haveIbeenPwnedPasswords, haveIbeenPwnedClient
+
+import asyncio
+loop = asyncio.get_event_loop()
+
+input_format = "'input1,input2,input3' or just a single one 'input1'"
+
+@click.group()
+def main():
+    pass
+
+@click.command()
+@click.option('--passwords', default=[], help='List of passwords or single password')
+def passwords(passwords):
+    passwords = passwords.split(",")
+    if len(pastes) > 0:
+        passwords_check = haveIbeenPwnedPasswords(passwords=passwords)
+        password_res = loop.run_until_complete(passwords_check.query_passwords())
+        click.echo(f"Results: {password_res}")
+    else:
+        click.echo(f"Please enter a password or more in this format: {input_format}")
+
+@click.command()
+@click.option('--pastes', default=[], help='List of accounts for pastses')
+def pastes(pastes):
+    pastes = pastes.split(",")
+    if len(pastes) > 0:
+        pastes_check = haveIbeenPwnedPastes(pastes=pastes)
+        pastes_res = loop.run_until_complete(pastes_check.query_passwords())
+        click.echo(f"Results: {pastes_res}")
+    else:
+        click.echo(f"Please enter a paste or more in this format: {input_format}")
+
+@click.command()
+@click.option('--accounts', default=[], help='List of emails of potentially breached accounts')
+def accounts(accounts):
+    accounts = pastes.split(",")
+    if len(accounts) > 0:
+        accounts_check = haveIbeenPwnedaccounts(accounts=accounts)
+        accounts_res = loop.run_until_complete(accounts_check.query_passwords())
+        click.echo(f"Results: {accounts_res}")
+    else:
+        click.echo(f"Please enter a account or more in this format: {input_format}")
+
+
+
+main.add_command(passwords)
+main.add_command(accounts)
+main.add_command(pastes)
+
+if __name__ == '__main__':
+    main()
