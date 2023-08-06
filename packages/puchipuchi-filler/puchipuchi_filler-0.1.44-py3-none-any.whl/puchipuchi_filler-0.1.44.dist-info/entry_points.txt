@@ -1,0 +1,3 @@
+[console_scripts]
+puchipuchi_filler=puchipuchi_filler.main:main
+
