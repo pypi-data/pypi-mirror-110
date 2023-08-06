@@ -1,0 +1,42 @@
+FROM ci_base_centos:0.1
+
+# install Xvfb to be able to assign a DISPLAY for Qt tests
+RUN yum install -y xorg-x11-server-Xvfb
+
+# copy some needed stuff to /root
+COPY *.yml /root/
+
+# # update Miniconda
+# ENV miniconda_dl 'Miniconda3-latest-Linux-x86_64.sh'
+# RUN /bin/bash -i -c "\
+#     rm -rf /root/miniconda3 ; \
+#     wget https://repo.continuum.io/miniconda/$miniconda_dl -P /root/ ; \
+#     bash -i /root/$miniconda_dl -b ; \
+#     rm -f /root/$miniconda_dl"
+
+# update the ci_env environment (that already contains all packages installed via 'docker_pyenvs' repo)
+# -> also include packages for conda deployment and upload
+RUN /bin/bash -i -c "\
+    source /root/miniconda3/bin/activate ; \
+    conda update -n base -c conda-forge conda;\
+    conda install -c conda-forge mamba ; \
+    conda activate ci_env; \
+    mamba env update -n ci_env -f /root/environment_enpt_enmapboxapp.yml"
+
+# copy enmapbox code to /tmp
+COPY enmapbox /tmp/enmapbox
+
+# install enmapbox (in pip development mode)
+RUN bash -i -c "\
+    source /root/miniconda3/bin/activate ci_env ; \
+    cd /tmp/enmapbox/ ; \
+    pip install -r https://bitbucket.org/hu-geomatics/enmap-box/raw/develop/requirements.txt ; \
+    pip install -e . ; \
+    conda list"
+
+# install enpt (into separate conda environment)
+RUN bash -i -c "\
+    source /root/miniconda3/bin/activate ; \
+    mamba create -n enpt -c conda-forge enpt ; \
+    conda activate enpt ; \
+    conda list"
