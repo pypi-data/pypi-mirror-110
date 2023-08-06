@@ -1,0 +1,9 @@
+Change Log
+==========
+
+0.0.1 (6/21/21)
+
+- First Release
+- Comes with just 2 functions at the moment, we are working on adding more
+- Web crawler and Web pinger to test if the site is up.
+

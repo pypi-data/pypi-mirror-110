@@ -1,0 +1,14 @@
+CHANGELOG.txt
+HackersToolkit.py
+LICENCE.txt
+MANIFEST.in
+README.txt
+Test.py
+backup.txt
+common.txt
+setup.py
+hschacktoolkit.egg-info/PKG-INFO
+hschacktoolkit.egg-info/SOURCES.txt
+hschacktoolkit.egg-info/dependency_links.txt
+hschacktoolkit.egg-info/requires.txt
+hschacktoolkit.egg-info/top_level.txt
