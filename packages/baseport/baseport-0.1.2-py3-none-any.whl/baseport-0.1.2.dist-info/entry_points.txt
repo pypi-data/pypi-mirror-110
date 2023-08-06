@@ -1,0 +1,3 @@
+[console_scripts]
+baseport=baseport.cli:cli
+
