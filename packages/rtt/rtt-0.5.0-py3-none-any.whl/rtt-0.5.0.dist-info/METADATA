@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rtt
+Version: 0.5.0
+Summary: 
+Author: tlonny
+Author-email: t@lonny.io
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
