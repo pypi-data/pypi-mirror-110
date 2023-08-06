@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+KakaoV2/__init__.py
+KakaoV2/channel.py
+KakaoV2/client.py
+KakaoV2/error.py
+KakaoV2/http.py
+KakaoV2/message.py
+KakaoV2/utils.py
+KakaoV2.egg-info/PKG-INFO
+KakaoV2.egg-info/SOURCES.txt
+KakaoV2.egg-info/dependency_links.txt
+KakaoV2.egg-info/not-zip-safe
+KakaoV2.egg-info/requires.txt
+KakaoV2.egg-info/top_level.txt
