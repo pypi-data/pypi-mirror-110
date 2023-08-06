@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rpios-tools
+Version: 0.2.0
+Summary: Automated tools for working with raspberry pi image development
+Home-page: https://github.com/michael-sobczak/rpi-os-tools
+Author: Michael Sobczak
+Author-email: 86268116+michael-sobczak@users.noreply.github.com
+License: MIT
+Description: {LONGDESCRIPTION}
+Keywords: raspberry pi,raspbian,iot,rpi
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
