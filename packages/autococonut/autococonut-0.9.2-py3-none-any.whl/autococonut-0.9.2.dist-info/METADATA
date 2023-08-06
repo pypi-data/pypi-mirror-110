@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: autococonut
+Version: 0.9.2
+Summary: A workflow recording tool.
+License: GPLv3
+Author: Lukáš Růžička
+Author-email: lruzicka@redhat.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: mss (>=6.1.0,<7.0.0)
+Requires-Dist: pynput (>=1.7.3,<2.0.0)
