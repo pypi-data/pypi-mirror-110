@@ -1,0 +1,15 @@
+astropy
+astroquery
+corner
+emcee
+h5py
+matplotlib
+munch
+numpy
+scipy
+termcolor
+tqdm
+uncertainties
+
+[dev]
+pytest
