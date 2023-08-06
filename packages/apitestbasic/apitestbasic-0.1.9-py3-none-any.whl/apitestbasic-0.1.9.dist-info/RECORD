@@ -1,0 +1,14 @@
+apitestbasic/GraphqlApi/__init__.py,sha256=odVZI0FspJIfaMYK1rxsQWYxJbgMlX1R3BCLNCx0wP8,352
+apitestbasic/GraphqlApi/decorator.py,sha256=qbddaM5oZwTJRDKouFRHJm0J2g76osluXjURifXiXuY,2863
+apitestbasic/GraphqlApi/gen_params.py,sha256=nx0utTrR56oxjVs8tm2fIdvNEh1MxxkPyBj4MC4KRt0,4271
+apitestbasic/GraphqlApi/graphql_api.py,sha256=3dv29hd6Z4tE5I9eABKZDaTkup00ORaCZyah8kkEezM,3173
+apitestbasic/GraphqlApi/special_graphql_api.py,sha256=6ifqHETLhiFGEuILUTYIrGFJDK2U_duc1_0aJGPBGHE,3433
+apitestbasic/GraphqlApi/tools.py,sha256=rw_kJlFiEYHwO9JNOEpZCwHGAp3jPkGiUIYJ8ck8Yw8,3391
+apitestbasic/User/UserContainer.py,sha256=RIH2fa205BQPjU3wR3csgxj_wx_zEWVV7bAR727wDrA,643
+apitestbasic/User/__init__.py,sha256=8Ih374prdIsh8d-IVKJxs5DuX8t44PlNxuRwtai5AZU,167
+apitestbasic/User/get_user.py,sha256=aKUPf8tuQlGrmx4RYQCiKvZiEO6wqmzsXRnQ-Q3jGTU,3126
+apitestbasic/__init__.py,sha256=NxvdROhvrnVQ9myW6oF7514lVTbp4mxJao-KjAFrN-A,239
+apitestbasic/graphql_api_codegen.py,sha256=q_0g0bZsPenhiT4-4ilcq6axkfTCHjZmrzkT9FRM9vk,2453
+apitestbasic-0.1.9.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+apitestbasic-0.1.9.dist-info/METADATA,sha256=spReLLbMhB9Fp_4HQmhwIsq3yesqWN6tMCckGdVdOWI,204
+apitestbasic-0.1.9.dist-info/RECORD,,
