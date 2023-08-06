@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: apimate
+Version: 0.1.0
+Summary: API mate
+Home-page: https://github.com/antipooh/apimate.git
+Author: Oleg Komkov
+Author-email: okomkov@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/plain
+Provides-Extra: dev
+Provides-Extra: mongodb
+
+Collection utils for create clean architecture REST API application with FastAPI
+
