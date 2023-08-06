@@ -1,0 +1,3 @@
+[console_scripts]
+lightseq-train = examples.training.fairseq.lightseq_fairseq_train_cli:ls_cli_main
+
