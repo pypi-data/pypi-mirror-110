@@ -1,0 +1,15 @@
+mobio_license_sdk-1.0.7-py3.9-nspkg.pth,sha256=digZj_vKBO5BD5o7-vMSBQjpHYuxWIGNVCORAYbmwCY,534
+mobio/sdks/license/__init__.py,sha256=3dr3SKeA_icOayl2z2zbXFsU_6_lrVA_E3W5dqq7AvU,255
+mobio/sdks/license/config.py,sha256=1lYJXDYjPbUzKtx-oQxWciTW-XJ-EoBDVjTnJy8Zw7Y,1988
+mobio/sdks/license/crypt_utils.py,sha256=4ONuVkYVByzi9Eej5ngfJxOSzwnEcY9w6anka_qeLvc,11103
+mobio/sdks/license/license_detail_mess_used.py,sha256=GG-3SiPyW3k2X9dasw5IDSJFAyWpvlF9xhZVxk9o9bo,2535
+mobio/sdks/license/license_history_mess_used.py,sha256=NaR0Ao3pfu-wj0cOy49KAx6WJ10NF5xkUrW8UQg2Gbg,1313
+mobio/sdks/license/license_mess_used.py,sha256=61gaPeCGtmEo8F0y2OZSjoa4YGp2d0V2HicRc5G24Zs,2475
+mobio/sdks/license/license_sdk.py,sha256=Mcxp9zLvbmwFIKp2Z80TF482ElA-W2veRk_ckDjlrH8,6522
+mobio/sdks/license/mongo_connection.py,sha256=B3z3VeaNZD7CJUKEHead7g_V-GozH_vrwHlTxqmkDO4,841
+mobio/sdks/license/utils.py,sha256=MdP1V5tQPhW0zxkhHHL6FJpVQoAXxPzXitd-vsvBPsA,32547
+mobio_license_sdk-1.0.7.dist-info/METADATA,sha256=gu6FtEqleqDUCOYrLUtmtEmROQTY5aEFfwjCvzz6DZw,5028
+mobio_license_sdk-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mobio_license_sdk-1.0.7.dist-info/namespace_packages.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+mobio_license_sdk-1.0.7.dist-info/top_level.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+mobio_license_sdk-1.0.7.dist-info/RECORD,,
