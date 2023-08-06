@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: kontent-delivery
+Version: 0.1.3
+Summary: Kentico Kontent Delivery API SDK
+Home-page: https://github.com/kentico-michaelb/kontent-delivery-python-sdk
+Author: Michael Berry
+Author-email: UNKNOWN
+License: MIT
+Keywords: Kontent,Kontent SDK,Kontent API,Kentico,Kentico API,Kentico Python,Kentico SDK,Kentico Kontent,Kentico Kontent SDK,Kentico Kontent Delivery,Kentico Kontent Delivery SDK,Kentico Delivery,Kentico Delivery SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: astroid (>=2.5.1)
+Requires-Dist: atomicwrites (>=1.4.0)
+Requires-Dist: attrs (>=20.3.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3)
+Requires-Dist: bleach (>=3.3.0)
+Requires-Dist: build (>=0.3.1.post1)
+Requires-Dist: certifi (>=2020.12.5)
+Requires-Dist: chardet (>=4.0.0)
+Requires-Dist: colorama (>=0.4.4)
+Requires-Dist: docutils (>=0.17.1)
+Requires-Dist: flake8 (>=3.9.1)
+Requires-Dist: idna (>=2.10)
+Requires-Dist: importlib-metadata (>=4.0.1)
+Requires-Dist: iniconfig (>=1.1.1)
+Requires-Dist: isort (>=5.7.0)
+Requires-Dist: keyring (>=23.0.1)
+Requires-Dist: lazy-object-proxy (>=1.5.2)
+Requires-Dist: mccabe (>=0.6.1)
+Requires-Dist: packaging (>=20.9)
+Requires-Dist: pep517 (>=0.10.0)
+Requires-Dist: pep8 (>=1.7.1)
+Requires-Dist: pkginfo (>=1.7.0)
+Requires-Dist: pluggy (>=0.13.1)
+Requires-Dist: py (>=1.10.0)
+Requires-Dist: pycodestyle (>=2.7.0)
+Requires-Dist: pyflakes (>=2.3.1)
+Requires-Dist: Pygments (>=2.8.1)
+Requires-Dist: pylint (>=2.7.2)
+Requires-Dist: pyparsing (>=2.4.7)
+Requires-Dist: pytest (>=6.2.2)
+Requires-Dist: pywin32-ctypes (>=0.2.0)
+Requires-Dist: readme-renderer (>=29.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: requests-toolbelt (>=0.9.1)
+Requires-Dist: rfc3986 (>=1.4.0)
+Requires-Dist: six (>=1.15.0)
+Requires-Dist: soupsieve (>=2.2)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: tqdm (>=4.60.0)
+Requires-Dist: twine (>=3.4.1)
+Requires-Dist: urllib3 (>=1.26.4)
+Requires-Dist: webencodings (>=0.5.1)
+Requires-Dist: wrapt (>=1.12.1)
+Requires-Dist: zipp (>=3.4.1)
+
+
+The Delivery Python SDK can be used in Python projects to retrieve content from the Kentico Kontent headless CMS. This is a community project and not an official Kentico SDK. 
+If you find a bug in the SDK or have a feature request, please submit a GitHub issue at https://github.com/kentico-michaelb/kontent-delivery-python-sdk.
+
+
