@@ -1,0 +1,3 @@
+[console_scripts]
+ff=forefront_cli.main:cli
+
