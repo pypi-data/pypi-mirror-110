@@ -1,0 +1,16 @@
+smpr3d/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+smpr3d/_nbdev.py,sha256=GdCHVUCCYZYJbOqgTkQNg5pADR9Mx12VstOUFbWegtQ,7092
+smpr3d/algorithm.py,sha256=JIuJeA7JhbN6790Nu2sKLw72Wyd2lz5js5fKCTkIpiE,8821
+smpr3d/core.py,sha256=kcaVR52OR2qs2McjCaTjw6aGh01DUOGzOtdZETs9Ixo,23194
+smpr3d/functional.py,sha256=FRky4ECMFN8zUW5sYsRyqD99lwRZwwZ40nJV0J6ZpDI,6531
+smpr3d/kernels.py,sha256=fMBHRWrFmPeb_FDElW3S5QUfIwGHn0e3I57bMFTdjbk,14314
+smpr3d/operators.py,sha256=-tvHTrKI3_HQ_553zv2itniTicDJN2kL4416Wnr72_4,14415
+smpr3d/setup.py,sha256=E6Ph_2YWU_oYL1B-kZec-pnSdF-hsyuEaWSDW75-8Qw,18849
+smpr3d/torch_imports.py,sha256=bKZWB_46zDDcUWzrfMFinvCjg1B6Qv5Mbpu4haHtg4Q,321
+smpr3d/util.py,sha256=aT2Wp3xqeVCK9EzynLSnYmbepgfN84nJ_MP4Ep8_NnA,115350
+smpr3d-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+smpr3d-0.0.1.dist-info/METADATA,sha256=NYplY5WtV4OSGP5ld_uxQG2I2o_04GqBPUNu7HSKNGc,4227
+smpr3d-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+smpr3d-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+smpr3d-0.0.1.dist-info/top_level.txt,sha256=yY7IKfLBk-tilgYr4fbvLmzBlrkldPQYOiRwVx6rnrg,7
+smpr3d-0.0.1.dist-info/RECORD,,
