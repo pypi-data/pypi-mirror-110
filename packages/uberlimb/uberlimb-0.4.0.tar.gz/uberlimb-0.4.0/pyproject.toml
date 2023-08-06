@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "uberlimb"
+version = "0.4.0"
+description = "Generative art with CPPN networks."
+license = "Apache-2.0"
+authors = ["Vladimir Sotnikov <vladimir.sotnikov@jetbrains.com>"]
+readme = "README.md"
+homepage = "https://cai.jetbrains.com"
+packages = [{include = "uberlimb", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "3.8"
+tensorflow = "^2.5.0"
+Pillow = "^8.2.0"
+Wand = "^0.6.6"
+ffmpeg-python = "^0.2.0"
+pydantic = "^1.8.2"
+scikit-image = "^0.18.1"
+pytest = "^6.2.4"
+numpy = "^1.19.5"
+coverage = "^5.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
