@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: algorithmia-api-client
+Version: 1.5.0
+Summary: Algorithmia Management APIs
+Home-page: UNKNOWN
+Author: Algorithmia Support Team
+Author-email: support@algorithmia.com
+License: UNKNOWN
+Keywords: OpenAPI,OpenAPI-Generator,Algorithmia Management APIs
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+APIs for managing actions on the Algorithmia platform  # noqa: E501
+
+
