@@ -1,0 +1,3 @@
+recursive-include synesthesia *.txt
+include *.txt
+include synesthesia/images/*.*
