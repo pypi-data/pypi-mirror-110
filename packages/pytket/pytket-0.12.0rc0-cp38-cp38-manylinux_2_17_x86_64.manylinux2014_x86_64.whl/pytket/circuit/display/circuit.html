@@ -1,0 +1,277 @@
+
+{% import 'circuit_css.html' as style %}
+
+{# Define macros to help render circuit blocks #}
+{# ------------------------------------------- #}
+
+{# Gap #}
+{% macro gap(link_vertical=false) -%}
+     <div class="gate_container">
+        <div class="wire transparent-wire"></div>
+        {% if link_vertical %}
+            <div class="link-top"></div>
+        {% endif %}
+    </div>
+{%- endmacro %}
+
+{# Plain wire #}
+{% macro wire(type=1, link_vertical=false) -%}
+     <div class="gate_container">
+        <div class="wire {{ "classical" if type % 2 == 0 }}"></div>
+        {% if link_vertical %}
+            <div class="link-top"></div>
+        {% endif %}
+    </div>
+{%- endmacro %}
+
+{# Generic single qubit gate #}
+{% macro gate1(name, wire_type=1, link_vertical=false) -%}
+    <div class="gate_container nested">
+        <div class="flex_wire">
+            {{ wire(type=wire_type) }}
+        </div>
+        <div class="gate_container">
+            {% if name == "X" %}
+                    {{ wire() }}
+                <div class="gate gate_box gate_connection gate_x"></div>
+            {% elif name == "Reset" %}
+                <div class="gate gate_box gate_in gate_out gate_reset"></div>
+            {% else %}
+                <div class="gate gate_box gate_in gate_out {{ 'classical' if wire_type == 0 }}">
+                    <span class="gate_name">{{ name }}</span>
+                </div>
+            {% endif %}
+
+            {% if link_vertical %}
+                <div class="link-top"></div>
+            {% endif %}
+        </div>
+        <div class="flex_wire">
+            {{ wire(type=wire_type) }}
+        </div>
+    </div>
+
+{%- endmacro %}
+
+{# Generic multi qubit gate #}
+{% macro gateN(wire_type=1, pos=-1, name='', display_name=false, link=0, link_vertical=false) -%}
+    <div class="gate_container">
+        <div class="gate {{ 'gate_in gate_out' if link > -1 }} {{ 'classical' if wire_type == 0 }}
+                {{ 'gate_top' if pos < 0 }} {{'gate_bottom' if pos == 0}}">
+            <span class="wire-label">{{ link if link > -1 }}</span>
+            <span class="gate_name">{{ name if display_name }}</span>
+        </div>
+
+        {% if link_vertical %}
+            <div class="link-top"></div>
+        {% endif %}
+    </div>
+{%- endmacro %}
+
+{# Controlled gate #}
+{% macro c_gate(params, type, wire_type=1, pos=-1, top=false, bottom=false, args=[], options={}) -%}
+    {# Render the involved registers #}
+    {% if pos > -1 %}
+        {# If this is a gate, render it using the usual macro #}
+        {% if wire_type < 2 and pos > -1 %}
+            {{ render_gate({
+                "op": { "type": type }, "pos": -1 if top else (0 if bottom else 1),
+                "params": params, "args": [(wire_type, pos)],
+                "t_args": args|length, "n_args": - (args|get_target_args|length)
+            }, link_vertical=not top, options=options) }}
+        {% else %}
+        {# Otherwise, it's a control bit #}
+            <div class="gate_container">
+                {{ wire(type=wire_type-2) }}
+                <div class="gate gate_control {{ 'classical' if wire_type % 2 == 0 }}"></div>
+                {% if not top %}
+                    <div class="link-top"></div>
+                {% endif %}
+            </div>
+        {% endif %}
+    {# Registers that aren't involed are just vertical links #}
+    {% else %}
+        <div class="gate_container">
+            {{ wire(type=wire_type) if pos != 1}}
+            <div class="gate gate_connection {{ 'classical' if wire_type % 2 == 0 }}"></div>
+            {% if not top %}
+                <div class="link-top"></div>
+            {% endif %}
+        </div>
+    {% endif %}
+{%- endmacro %}
+
+{# SWAP #}
+{% macro swap_gate(pos=-1, link_vertical=false, is_bottom=False) -%}
+    <div class="gate_container">
+        {% if not is_bottom %}
+            <div class="link-bottom"></div>
+        {% endif %}
+        {% if link_vertical %}
+            <div class="link-top"></div>
+        {% endif %}
+        {{ wire() }}
+        <div class="gate gate_connection {{ 'gate_swap' if pos > -1 }}"></div>
+    </div>
+{%- endmacro %}
+
+{# Measurement #}
+{% macro measure_gate(pos=0, wire_type=1, link_vertical=false) -%}
+    <div class="gate_container">
+        {% if pos > -1 %}
+            <div class="link-bottom measurement"></div>
+        {% endif %}
+        {% if link_vertical %}
+            <div class="link-top"></div>
+        {% endif %}
+
+        {{ wire(type=wire_type) }}
+        <div class="gate gate_connection {{ 'gate_measure' if pos == 1 }}"></div>
+    </div>
+{%- endmacro %}
+
+{# List out the qubits #}
+{% macro register_list(qubits, bits) -%}
+    <div class="circuit-layer qubits">
+        {% for qubit in qubits %}
+            <div class="qubit">{{ qubit.reg_name ~ qubit.index }}</div>
+        {% endfor %}
+        {% for bit in bits %}
+            <div class="qubit bit">{{ bit.reg_name ~ bit.index }}</div>
+        {% endfor %}
+    </div>
+{%- endmacro %}
+
+
+{% macro render_circuit(circuit, options={}, nested=false) -%}
+{% if not nested %}<div class="circuit-preview {{ "condensed" if options.condensed }}">{% endif %}
+    <div class="circuit-container {{ "nested" if nested or options.condensed }}">
+        {{ register_list(circuit.qubits, circuit.bits) }}
+        {% for layer in circuit.layers %}
+            <div class="circuit-layer hover-highlight">
+            {% for gate in layer %}
+                {# Controlled gates get special treatment #}
+                {% if gate.op.type|is_control_gate %}
+                    {% for (arg_type, pos) in gate.args %}
+                        {{ c_gate(gate.params, gate.op.type|get_op_name(gate.op.raw), wire_type=arg_type,
+                            pos=pos, top=loop.first, bottom=loop.last, args=gate.args, options=options) }}
+                    {% endfor %}
+                {% else %}
+                    {{ render_gate(gate, options=options) }}
+                {% endif %}
+            {% endfor %}
+        </div>
+        {%  endfor %}
+        {{ register_list(circuit.qubits, circuit.bits) }}
+    </div>
+{% if not nested %}</div>{% endif %}
+{%- endmacro %}
+
+
+{% macro render_gate(gate, options={}, link_vertical=false) %}
+    {# Decide what to render by case, in 2 steps: first, type of operation, second no. of qbits involved #}
+    {% if gate.op.type == 'ID' %}
+        {% for (arg_type, pos) in gate.args %}
+            {{ wire(type=arg_type, link_vertical=link_vertical) }}
+        {% endfor %}
+
+    {# SWAP #}
+    {% elif gate.op.type == 'SWAP' %}
+        {% for arg_type, pos in gate.args %}
+            {{ swap_gate(pos=pos, link_vertical=link_vertical, is_bottom=loop.index == loop.length) }}
+        {% endfor %}
+
+    {# Measurements #}
+    {% elif gate.op.type == "Measure" %}
+        {{ measure_gate(pos=1, wire_type=gate.args[0][0], link_vertical=link_vertical) }}
+        {% for arg_type, pos in gate.args[1:-1] %}
+            {{ measure_gate(wire_type=arg_type) }}
+        {% endfor %}
+        {{ measure_gate(pos=-1, wire_type=gate.args[-1][0], link_vertical=link_vertical) }}
+
+    {# Nested circuit #}
+    {% elif gate.op.type == "CircBox" and options.recursive %}
+        <div class="gate_container nested">
+            <div class="circuit-layer">
+                {% for (arg_type, link) in gate.args %}
+                    {% if link > -1 %}
+                        {{ wire(type=arg_type) }}
+                    {% else %}
+                        {{ gap() }}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="nested-label-layer">
+                {% for (arg_type, link) in gate.args %}
+                    <div class="wire-label">{{ link if link > -1 }}</div>
+                {% endfor %}
+            </div>
+            <div class="nested-circuit-container">
+                <div>
+                {{ render_circuit(gate.op.raw.box.circuit|parse_circuit, options=options, nested=true) }}
+                </div>
+            </div>
+            <div class="nested-label-layer">
+                {% for (arg_type, link) in gate.args %}
+                    <div class="wire-label">{{ link if link > -1 }}</div>
+                {% endfor %}
+            </div>
+            <div class="circuit-layer">
+                {% for (arg_type, link) in gate.args %}
+                    {% if link > -1 %}
+                        {{ wire(type=arg_type) }}
+                    {% else %}
+                        {{ gap() }}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+    {# Generic gate #}
+    {% else %}
+        {% if gate.n_args > 1 %}
+            {{ gateN(wire_type=gate.args[0][0], link=gate.args[0][1], link_vertical=link_vertical) }}
+            {% for (arg_type,link) in gate.args[1:] %}
+                {{ gateN(
+                    wire_type=arg_type,
+                    pos=gate.n_args - loop.index - 1,
+                    name=gate.op.type ~ gate.params,
+                    display_name=loop.index * 2 == gate.n_args - 1 or loop.index * 2 == gate.n_args,
+                    link=link,
+                    link_vertical=link_vertical)
+                }}
+            {% endfor %}
+        {% elif gate.n_args < -1 %}
+            {# We are rendering an n-gate incrementally #}
+            {{ gateN(
+                wire_type=gate.args[0][0],
+                pos=gate.pos,
+                name=gate.op.type ~ gate.params,
+                display_name=gate.args[0][1] == gate.t_args + gate.n_args,
+                link=gate.args[0][1],
+                link_vertical=link_vertical)
+            }}
+        {% else %}
+            {{ gate1(gate.op.type ~ gate.params, wire_type=gate.args[0][0], link_vertical=link_vertical) }}
+        {% endif %}
+    {% endif %}
+{% endmacro %}
+
+
+
+
+{#   Render the circuit as a standalone page   #}
+{# ------------------------------------------- #}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {{ style.get_css() }}
+</head>
+<body>
+    <div {{ 'style="max-width:' ~ max_width ~ 'px"' if max_width }}>
+        {{ render_circuit(circuit|parse_circuit, options=display_options) }}
+    </div>
+</body>
+</html>
