@@ -1,0 +1,257 @@
+Metadata-Version: 2.1
+Name: approw-py-sdk
+Version: 1.0.5
+Summary: Approw SDK for Python
+Home-page: https://github.com/approw/approw-py-sdk
+Author: approw
+Author-email: info@approw.com
+Maintainer: approw
+Maintainer-email: info@approw.com
+License: UNKNOWN
+Keywords: approw sso AaaS IdaaS
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: gql (==2.0.0)
+Requires-Dist: graphql-core (<3,>=2.3.2)
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+Requires-Dist: rsa (==4.0)
+
+# Approw - Python
+
+<LastUpdated/>
+
+The Approw Python SDK is comprised of two parts: `ManagementClient` and `AuthenticationClient`.
+
+`AuthenticationClient` makes a request as a terminal user, and provides all methods for managing user identities such as login, registration, logout, user profile management, and access to authorized resources; this module also provides SDKs for various identity protocols, for example [OpenID Connect](https://docs.approw.com/concepts/federation.html#openid-connect), [OAuth 2.0](https://docs.approw.com/concepts/federation.html#oauth2), [SAML](https://docs.approw.com/concepts/federation.html#saml2) and 
+[CAS](https://docs.approw.com/concepts/federation.html#cas) This module is suitable for server environments with pure back-end interactions.
+
+The Approw Python SDK is comprised of two parts: `ManagementClient` and `AuthenticationClient`. All operations in `ManagementClient` are performed as an administrator, including managing users, managing roles, managing authority policies, and managing user pool configuration. All operations in `AuthenticationClient` are performed as the [Approw Console](https://console.approw.com/console/userpool) including login, registration, modification of user information, and logout.
+
+You should set the initialized `ManagementClient` instance to a global variable (initialize only once), and the `AuthenticationClient` should be initialized for each request.
+
+> Approw Python SDK supports both `python2` and `python3`.
+
+## Installation
+
+```
+pip install approw-py-sdk
+```
+
+## Use ManagementClient
+
+`ManagementClient` request as an Administrator for user pool management and perform adminstrative tasks, it provides management of user, role, application and resources. In a word，All operations in [Approw Console](https://console.approw.com/console/userpool) can be performed through module. This module is suitable for use in a back-end server environment.
+
+
+### Initialization
+
+Initialization of ManagementClient requires `userPoolId` and `secret`:
+
+> You can [learn how to get UserPoolId and Secret](/guides/faqs/get-userpool-id-and-secret.md) here.
+
+You should set the initialized `ManagementClient` instance to a global variable (initialize only once).
+
+```python
+from approw.v2.management import ManagementClient, ManagementClientOptions
+
+management_client = ManagementClient(
+  options=ManagementClientOptions(
+    user_pool_id='APPROW_USERPOOL_ID',
+    secret='APPROW_USERPOOL_SECRET',
+))
+```
+
+Now the `managementClient()` instance is ready to be used. For example, you can get the list of users in the user pool:
+
+```python
+data = management_client.users.list()
+```
+
+The returned data is as follows:
+
+```json
+{
+  "totalCount": 1,
+  "list": [
+    {
+      "id": "5f7ddfe62ba819802422362e",
+      "arn": "arn:cn:approw:5f7a993eb9b49dcd5c021e40:user:5f7ddfe62ba819802422362e",
+      "userPoolId": "5f7a993eb9b49dcd5c021e40",
+      "username": "nhxcpzmklk",
+      "email": null,
+      "emailVerified": false,
+      "phone": null,
+      "phoneVerified": false,
+      "unionid": null,
+      "openid": null,
+      "nickname": null,
+      "registerSource": ["import:manual"],
+      "photo": "https://usercontents.approw.cn/approw-avatar.png",
+      "password": "a56f21e5659428f9b353be4ed667fc05",
+      "oauth": null,
+      "token": null,
+      "tokenExpiredAt": null,
+      "loginsCount": 0,
+      "lastLogin": null,
+      "lastIP": null,
+      "signedUp": "2020-10-07T23:33:58+08:00",
+      "blocked": false,
+      "isDeleted": false,
+      "device": null,
+      "browser": null,
+      "company": null,
+      "name": null,
+      "givenName": null,
+      "familyName": null,
+      "middleName": null,
+      "profile": null,
+      "preferredUsername": null,
+      "website": null,
+      "gender": "U",
+      "birthdate": null,
+      "zoneinfo": null,
+      "locale": null,
+      "address": null,
+      "formatted": null,
+      "streetAddress": null,
+      "locality": null,
+      "region": null,
+      "postalCode": null,
+      "country": null,
+      "createdAt": "2020-10-07T23:33:58+08:00",
+      "updatedAt": "2020-10-07T23:33:58+08:00"
+    }
+  ]
+}
+```
+
+## Use AuthenticationClient
+
+`AuthenticationClient` makes a request as an end user (End User), and provides all methods for managing user identity, such as login, registration, logout, user information management, and access to authorized resources; this module also provides SDKs for various identity protocols , like [OpenID Connect](/guides/federation/oidc.md), [OAuth 2.0](/guides/federation/oauth.md), [SAML](/guides/federation/saml.md) 和 [CAS](/guides/federation/cas.md)。This module is suitable for server environments with pure back-end interaction.
+
+### Initialization
+
+Initialization of  `AuthenticationClient` requires `app_id` and `app_host`（For example, `https://YOUR_DOMAIN.approw.com`）：
+
+> You can view your own **application** list in the application of the console.
+
+```python
+from approw.v2.authentication import AuthenticationClient, AuthenticationClientOptions
+
+authentication_client = AuthenticationClient(
+  options=AuthenticationClientOptions(
+    app_id='APPROW_APP_ID',
+    app_host='https://YOUR_DOMAIN.approw.com'
+))
+```
+
+The complete parameters are as follows:
+
+- `app_id`: Approw [Application ID](https://docs.approw.com/guides/faqs/get-app-id-and-secret.html)（Required）；
+- `app_host`: Approw [Application host](https://docs.approw.com/guides/faqs/get-app-id-and-secret.html)(Require) For example, `https://YOUR_DOMAIN.approw.com`；
+- `token`: User [id_token](https://docs.approw.com/concepts/id-token.html) (Optional)，you can storge user `id_token` in foront-end and use `id_token` to initialize SDK，so as to achieve login without authentication.
+- `timeout`: Request timeout time (optional), in milliseconds, the default is 10000 (10 seconds);
+- `on_error`: Error handling function (optional), you can use it to globally catch all exceptions requested by the Approw client. See the complete error code[Documentant](https://docs.approw.com/reference/error-code.html)The function is :
+
+```python
+def on_error(code, message):
+    raise ApprowException(code=code, errmsg=message)
+```
+
+- `enc_public_key`: Password asymmetric encryption public key (optional), if you are using Approw public cloud service, you can ignore it; if you are using a privatized deployment of Approw, please contact the Approw IDaaS service administrator.
+- `lang`: The interface Message returns the language format (optional), the optional values ​​are `zh-CN` and `en-US`, and the default is `en-US`.
+### Quick Start
+
+We recommend to initialize a new `AuthenticationClient` for each request to ensure complete isolation between different requests.
+
+```python
+username = "bob"
+password = "passw0rd"
+user = authentication_client.login_by_username(
+    username=username,
+    password=password,
+)
+```
+
+After logging in, methods such as `update_profile` that require users to log in are available:
+
+```python
+authentication_client.update_profile({
+  'nickname': 'Nick'
+})
+```
+
+You can also use the `token` parameter to initialize the `AuthenticationClient` instead of calling the `login` method every time:
+
+```python
+from approw.v2.authentication import AuthenticationClient, AuthenticationClientOptions
+
+authentication_client = AuthenticationClient(
+  options=AuthenticationClientOptions(
+    app_id='APPROW_APP_ID',
+    app_host='https://YOUR_DOMAIN.approw.com',
+    token='ID_TOKEN'
+))
+```
+
+Executing the `update_profile` method can also succeed:
+
+```python
+user = authentication_client.update_profile({
+  'nickname': 'Nick'
+})
+```
+
+## Error handling
+
+If the function fails, it will return an exception, you need to use `try/except` to catch the exception:
+
+```python
+from approw.v2.exceptions import approwException
+
+try:
+    authentication_client.login_by_username(
+        username='bob',
+        password='passw0rd',
+    )
+except ApprowException as e:
+    print(e.code) # 2004
+    print(e.message) # User does not exist
+```
+
+> See the complete error code[Documentant](https://docs.approw.com/reference/error-code.html)
+
+## Privatization deployment
+
+**The privatization deployment** scenario needs to specify the GraphQL endpoint of your privatized Approw service (**without protocol header and Path**). If you are not sure, you can contact the Approw IDaaS service administrator.
+
+```python
+from approw.v2.management import ManagementClient, ManagementClientOptions
+
+management_client = ManagementClient(
+  options=ManagementClientOptions(
+    user_pool_id='APPROW_USERPOOL_ID',
+    secret='APPROW_USERPOOL_SECRET',
+    host="https://core.you-approw-service.com",
+    enc_public_key="YOUR_PUBLIC_KEY"
+))
+```
+
+## View full documentation
+
+You can [view full documentation](https://docs.approw.com/reference/sdk-for-python/) 。
+
+## Ger help
+
+Join us on Gitter: [#approw-chat](https://forum.approw.com/)
+
+
