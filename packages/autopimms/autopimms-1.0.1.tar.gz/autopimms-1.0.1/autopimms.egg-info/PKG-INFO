@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: autopimms
+Version: 1.0.1
+Summary: Upload tool for WebPIMMS designed for multiple queries.
+Home-page: https://pypi.org/project/AutoPIMMS/
+Author: Elizabeth G. Lincoln, Rosa W. Everson, Christopher M. Carroll
+Author-email: lincoln@astro.gsu.edu, rosa@ucsc.edu, c.m.carroll715@gmail.com
+License: MIT
+Keywords: AutoPIMMS documentation tutorial
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
+# AutoPIMMS
+Upload tool for WebPIMMS designed for multiple queries.
+
+
