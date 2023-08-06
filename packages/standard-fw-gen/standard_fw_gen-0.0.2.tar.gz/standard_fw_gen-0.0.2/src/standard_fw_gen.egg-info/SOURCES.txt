@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/standard_fw_gen/__init__.py
+src/standard_fw_gen/config_file_parser.py
+src/standard_fw_gen/fw_gen.py
+src/standard_fw_gen/fw_init.py
+src/standard_fw_gen/move_and_gen.py
+src/standard_fw_gen/standard_fw_gen.py
+src/standard_fw_gen.egg-info/PKG-INFO
+src/standard_fw_gen.egg-info/SOURCES.txt
+src/standard_fw_gen.egg-info/dependency_links.txt
+src/standard_fw_gen.egg-info/entry_points.txt
+src/standard_fw_gen.egg-info/top_level.txt
