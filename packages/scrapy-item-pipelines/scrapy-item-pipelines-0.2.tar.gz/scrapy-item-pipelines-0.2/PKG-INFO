@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: scrapy-item-pipelines
+Version: 0.2
+Summary: Collection of reusable scrapy item pipelines
+Home-page: https://github.com/singletonlabs/scrapy-item-pipelines
+Author: Kasun Herath
+Author-email: kasunh01@gmail.com
