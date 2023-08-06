@@ -1,0 +1,11 @@
+bidsphysio.base>=1.4.0
+bids
+pandas
+numpy>=1.17.1
+matplotlib
+
+[all]
+pytest
+
+[tests]
+pytest
