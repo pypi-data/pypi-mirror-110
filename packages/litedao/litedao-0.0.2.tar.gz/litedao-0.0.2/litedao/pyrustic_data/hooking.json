@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "litedao.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "litedao.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "litedao.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "litedao.hooking.post_release_hook"
+    ]
+}

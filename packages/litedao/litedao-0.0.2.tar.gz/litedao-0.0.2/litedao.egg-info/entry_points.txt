@@ -1,0 +1,3 @@
+[console_scripts]
+litedao = litedao.__main__:main
+
