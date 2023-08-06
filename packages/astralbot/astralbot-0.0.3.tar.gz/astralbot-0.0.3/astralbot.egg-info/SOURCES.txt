@@ -1,0 +1,14 @@
+README.md
+VERSION
+setup.cfg
+setup.py
+astralbot/__init__.py
+astralbot/astralbot.py
+astralbot/main.py
+astralbot.egg-info/PKG-INFO
+astralbot.egg-info/SOURCES.txt
+astralbot.egg-info/dependency_links.txt
+astralbot.egg-info/entry_points.txt
+astralbot.egg-info/not-zip-safe
+astralbot.egg-info/requires.txt
+astralbot.egg-info/top_level.txt
