@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/picross_solver/__init__.py
+src/picross_solver/picross_solver.py
+src/picross_solver.egg-info/PKG-INFO
+src/picross_solver.egg-info/SOURCES.txt
+src/picross_solver.egg-info/dependency_links.txt
+src/picross_solver.egg-info/top_level.txt
