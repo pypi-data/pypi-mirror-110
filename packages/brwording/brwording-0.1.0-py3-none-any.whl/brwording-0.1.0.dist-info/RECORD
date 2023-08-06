@@ -1,0 +1,17 @@
+brwording/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brwording/brwording.py,sha256=IZCJJO1HJJX5NAvDZ_CNYwlQ3voG1N_nGY4IYHsOGcY,15140
+brwording/config/cidades.csv,sha256=B7VaDhC8ZNb2GqF9Lz8oBjTLPt5Yy4sJPluqaHKSsr0,177459
+brwording/config/class_words.csv,sha256=ycv9nBlHlcDc8CWzZo88bumdZyPz8jwW-7yXOmp_A68,4422749
+brwording/config/cloud.jpeg,sha256=VjuBiGo05Dy5loIOgjGxcLounMNz31MjlaahH_74HZU,3649
+brwording/config/estados.csv,sha256=otlFQXIbOyfCqfkUYJu5kSVFtBrQAMD-7ry3p-qg-Uo,826
+brwording/config/lematizer.csv,sha256=ufmrogJDyuO6kj-oeYmAkysvYyM-PVnQU1OfjnAdwGY,2221888
+brwording/config/lematizer.txt,sha256=r72l3NEuODEic8ZXoegPzyaRKHGODLCHXLTy7mu4AVA,1750488
+brwording/config/negative.csv,sha256=lfFifN1ZlSD8e87Fv3lImLW-awQSwwFhXioQ6UDWj0Q,50579
+brwording/config/nomes.csv,sha256=LYW7IWhSZ_iOqMetyy6pXCy6UMa3v77LTXcC5PI7_mY,196111
+brwording/config/patriarcado-violência.pdf,sha256=q4j5xd-kMgmhq1iRaOBFsWtB3Pa7ItRGvGSTtLH8ua8,627242
+brwording/config/positive.csv,sha256=ouZHqcwoTlXIUGCwmLzo9iszdtn8cxBZ-71xyzUSuWc,8012
+brwording/config/stopwords.csv,sha256=kbrjCBXIud9WRA8fwsNOYZYRZ4AXm4-zhDOkOi2ztTM,1441
+brwording-0.1.0.dist-info/METADATA,sha256=N_MMGD90TPZWvH1x24VSciu1UnufVeL9nVD1rGiRCg8,3139
+brwording-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+brwording-0.1.0.dist-info/top_level.txt,sha256=KanbEC_LHkJXhI4XnU78-7ejewYQkSD2LjwB43Ftp4k,10
+brwording-0.1.0.dist-info/RECORD,,
