@@ -1,0 +1,3 @@
+[console_scripts]
+play_PythonDefense = PythonDefense.main:main
+
