@@ -1,0 +1,9 @@
+omniblack/caddy/__init__.py,sha256=3Shf5qFxnw285RVqyXr-zbVVKJk-ZZZqhzXLX8iHxeU,685
+omniblack/caddy/attr_cls.py,sha256=ZHKkOkHha49FybtNS7UBExKZXnjfDAT9GXURc2oxzTc,373
+omniblack/caddy/client.py,sha256=paMs3mvQPG8MQvP9sbSFWeHwlVNRB99AKja97tZRr6I,5595
+omniblack/caddy/convert_json.py,sha256=GGBesbSvBCBu98YSqh8yVlOgX0ihwF_svTiWQfhC-Uk,1001
+omniblack/caddy/route.py,sha256=1WfTlOn7pC5rWF8lIAk56yIEsI0pVYL7O4Cli-sHel8,13936
+omniblack/caddy/unix.py,sha256=Yh8BRbh5hiPznhkBYmoWJOouhOfDZgzvhFuZxSagHc4,1661
+omniblack.caddy-0.0.1rc5.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+omniblack.caddy-0.0.1rc5.dist-info/METADATA,sha256=xXOZJpp0UozsS8Wt6TQ0mad-QYJv82Eff4Sd4wFvPFA,983
+omniblack.caddy-0.0.1rc5.dist-info/RECORD,,
