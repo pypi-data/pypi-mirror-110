@@ -1,0 +1,7 @@
+README.md
+setup.py
+bin/deploymenthub
+deploymenthub.egg-info/PKG-INFO
+deploymenthub.egg-info/SOURCES.txt
+deploymenthub.egg-info/dependency_links.txt
+deploymenthub.egg-info/top_level.txt
