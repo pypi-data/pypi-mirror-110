@@ -1,0 +1,9 @@
+importlib_metadata
+plover>=4.0.0.dev9
+pyexcel>=0.4.5
+pyexcel-ods>=0.6.0
+pyexcel-xlsx>=0.3.0
+
+[test]
+plover>=4.0.0.dev10
+pytest

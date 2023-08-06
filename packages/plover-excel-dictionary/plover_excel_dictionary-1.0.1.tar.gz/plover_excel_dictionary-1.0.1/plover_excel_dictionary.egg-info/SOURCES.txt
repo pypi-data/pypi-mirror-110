@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+plover_excel_dictionary.py
+setup.cfg
+setup.py
+tox.ini
+plover_excel_dictionary.egg-info/PKG-INFO
+plover_excel_dictionary.egg-info/SOURCES.txt
+plover_excel_dictionary.egg-info/dependency_links.txt
+plover_excel_dictionary.egg-info/entry_points.txt
+plover_excel_dictionary.egg-info/requires.txt
+plover_excel_dictionary.egg-info/top_level.txt
+plover_excel_dictionary.egg-info/zip-safe
+test/conftest.py
+test/test.ods
+test/test.xlsx
+test/test_excel_dict.py

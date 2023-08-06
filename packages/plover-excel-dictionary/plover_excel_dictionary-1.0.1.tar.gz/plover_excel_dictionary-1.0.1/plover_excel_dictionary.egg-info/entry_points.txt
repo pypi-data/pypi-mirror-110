@@ -1,0 +1,4 @@
+[plover.dictionary]
+ods = plover_excel_dictionary:ExcelDictionary
+xlsx = plover_excel_dictionary:ExcelDictionary
+
