@@ -1,0 +1,8 @@
+setup.py
+fb303-python2-stubs/FacebookService.pyi
+fb303-python2-stubs/METADATA.toml
+fb303-python2-stubs/__init__.pyi
+types_fb303.egg-info/PKG-INFO
+types_fb303.egg-info/SOURCES.txt
+types_fb303.egg-info/dependency_links.txt
+types_fb303.egg-info/top_level.txt
