@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: neogiinstruments
+Version: 0.1.1
+Summary: Communication and helper functions for lab equipment
+License: MIT
+Author: UNT Neogi Lab
+Author-email: BrianSquires@my.unt.edu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyVISA-py (>=0.5.2,<0.6.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: nidaqmx (>=0.5.7,<0.6.0)
+Requires-Dist: plotly (>=5.0.0,<6.0.0)
+Requires-Dist: pyserial (>=3.5,<4.0)
+Description-Content-Type: text/markdown
+
+# Instruments
+Communication and helper functions for lab equipment
+
