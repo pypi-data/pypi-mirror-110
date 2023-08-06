@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: usgs-quake
+Version: 1.0.2
+Summary: USGS Earthquake Real-time Feed and Historical Data
+Home-page: https://github.com/josefmtd/usgs-quake
+Author: Josef Matondang
+Author-email: admin@josefmtd.com
+License: MIT
+Keywords: earthquake
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas
+
+UNKNOWN
+
+
