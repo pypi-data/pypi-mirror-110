@@ -1,0 +1,187 @@
+Metadata-Version: 2.1
+Name: kadi
+Version: 0.15.0
+Summary: Kadi4Mat, the Karlsruhe Data Infrastructure for Materials Science.
+Home-page: https://kadi.iam-cms.kit.edu
+Author: Karlsruhe Institute of Technology
+License: Apache-2.0
+Project-URL: Code, https://gitlab.com/iam-cms/kadi
+Project-URL: Documentation, https://kadi4mat.readthedocs.io/en/latest
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: alembic (==1.6.5)
+Requires-Dist: amqp (==5.0.6)
+Requires-Dist: authlib (==0.15.4)
+Requires-Dist: babel (==2.9.1)
+Requires-Dist: billiard (==3.6.4.0)
+Requires-Dist: blinker (==1.4)
+Requires-Dist: cached-property (==1.5.2)
+Requires-Dist: celery (==5.1.1)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cffi (==1.14.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: click-didyoumean (==0.0.3)
+Requires-Dist: click-plugins (==1.1.1)
+Requires-Dist: click-repl (==0.2.0)
+Requires-Dist: cryptography (==3.4.7)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: dnspython (==2.1.0)
+Requires-Dist: elasticsearch (==7.13.1)
+Requires-Dist: elasticsearch-dsl (==7.3.0)
+Requires-Dist: email-validator (==1.1.3)
+Requires-Dist: flask (==1.1.4)
+Requires-Dist: flask-babel (==2.0.0)
+Requires-Dist: flask-limiter (==1.4)
+Requires-Dist: flask-login (==0.5.0)
+Requires-Dist: flask-migrate (==3.0.1)
+Requires-Dist: flask-sqlalchemy (==2.5.1)
+Requires-Dist: flask-talisman (==0.8.1)
+Requires-Dist: flask-wtf (==0.15.1)
+Requires-Dist: fpdf2 (==2.4.1)
+Requires-Dist: greenlet (==1.1.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==4.5.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: jinja2 (==2.11.3)
+Requires-Dist: kombu (==5.1.0)
+Requires-Dist: ldap3 (==2.9)
+Requires-Dist: limits (==1.5.1)
+Requires-Dist: mako (==1.1.4)
+Requires-Dist: markdown (==3.3.4)
+Requires-Dist: markupsafe (==1.1.1)
+Requires-Dist: marshmallow (==3.12.1)
+Requires-Dist: pillow (==8.2.0)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: prompt-toolkit (==3.0.19)
+Requires-Dist: psycopg2 (==2.9.1)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pyjwt (==2.1.0)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: python-magic (==0.4.24)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: qrcode (==6.1)
+Requires-Dist: redis (==3.5.3)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: sentry-sdk[celery,flask] (==1.1.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sqlalchemy (==1.4.19)
+Requires-Dist: sqlalchemy-utils[encrypted] (==0.37.7)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Requires-Dist: urllib3 (==1.26.5)
+Requires-Dist: vine (==5.0.0)
+Requires-Dist: watchdog (==2.1.2)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: werkzeug[watchdog] (==1.0.1)
+Requires-Dist: wtforms[email] (==2.3.3)
+Requires-Dist: zipp (==3.4.1)
+Requires-Dist: setuptools (==57.0.0)
+Provides-Extra: dev
+Requires-Dist: alabaster (==0.7.12) ; extra == 'dev'
+Requires-Dist: appdirs (==1.4.4) ; extra == 'dev'
+Requires-Dist: astroid (==2.5.6) ; extra == 'dev'
+Requires-Dist: attrs (==21.2.0) ; extra == 'dev'
+Requires-Dist: babel (==2.9.1) ; extra == 'dev'
+Requires-Dist: black (==21.6b0) ; extra == 'dev'
+Requires-Dist: bleach (==3.3.0) ; extra == 'dev'
+Requires-Dist: build (==0.5.1) ; extra == 'dev'
+Requires-Dist: certifi (==2021.5.30) ; extra == 'dev'
+Requires-Dist: cffi (==1.14.5) ; extra == 'dev'
+Requires-Dist: cfgv (==3.3.0) ; extra == 'dev'
+Requires-Dist: chardet (==4.0.0) ; extra == 'dev'
+Requires-Dist: click (==7.1.2) ; extra == 'dev'
+Requires-Dist: colorama (==0.4.4) ; extra == 'dev'
+Requires-Dist: commonmark (==0.9.1) ; extra == 'dev'
+Requires-Dist: coverage (==5.5) ; extra == 'dev'
+Requires-Dist: cryptography (==3.4.7) ; extra == 'dev'
+Requires-Dist: distlib (==0.3.2) ; extra == 'dev'
+Requires-Dist: docutils (==0.16) ; extra == 'dev'
+Requires-Dist: filelock (==3.0.12) ; extra == 'dev'
+Requires-Dist: identify (==2.2.10) ; extra == 'dev'
+Requires-Dist: idna (==2.10) ; extra == 'dev'
+Requires-Dist: imagesize (==1.2.0) ; extra == 'dev'
+Requires-Dist: importlib-metadata (==4.5.0) ; extra == 'dev'
+Requires-Dist: iniconfig (==1.1.1) ; extra == 'dev'
+Requires-Dist: isort (==5.9.1) ; extra == 'dev'
+Requires-Dist: jeepney (==0.6.0) ; extra == 'dev'
+Requires-Dist: jinja2 (==2.11.3) ; extra == 'dev'
+Requires-Dist: keyring (==23.0.1) ; extra == 'dev'
+Requires-Dist: lazy-object-proxy (==1.6.0) ; extra == 'dev'
+Requires-Dist: markupsafe (==1.1.1) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: nodeenv (==1.6.0) ; extra == 'dev'
+Requires-Dist: packaging (==20.9) ; extra == 'dev'
+Requires-Dist: pathspec (==0.8.1) ; extra == 'dev'
+Requires-Dist: pep517 (==0.10.0) ; extra == 'dev'
+Requires-Dist: pip-tools (==6.2.0) ; extra == 'dev'
+Requires-Dist: pkginfo (==1.7.0) ; extra == 'dev'
+Requires-Dist: pluggy (==0.13.1) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.13.0) ; extra == 'dev'
+Requires-Dist: py (==1.10.0) ; extra == 'dev'
+Requires-Dist: pycparser (==2.20) ; extra == 'dev'
+Requires-Dist: pygments (==2.9.0) ; extra == 'dev'
+Requires-Dist: pylint (==2.8.3) ; extra == 'dev'
+Requires-Dist: pyparsing (==2.4.7) ; extra == 'dev'
+Requires-Dist: pytest (==6.2.4) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.12.1) ; extra == 'dev'
+Requires-Dist: python-dotenv (==0.18.0) ; extra == 'dev'
+Requires-Dist: pytz (==2021.1) ; extra == 'dev'
+Requires-Dist: pyyaml (==5.4.1) ; extra == 'dev'
+Requires-Dist: readme-renderer (==29.0) ; extra == 'dev'
+Requires-Dist: recommonmark (==0.7.1) ; extra == 'dev'
+Requires-Dist: regex (==2021.4.4) ; extra == 'dev'
+Requires-Dist: requests (==2.25.1) ; extra == 'dev'
+Requires-Dist: requests-toolbelt (==0.9.1) ; extra == 'dev'
+Requires-Dist: rfc3986 (==1.5.0) ; extra == 'dev'
+Requires-Dist: secretstorage (==3.3.1) ; extra == 'dev'
+Requires-Dist: six (==1.16.0) ; extra == 'dev'
+Requires-Dist: snowballstemmer (==2.1.0) ; extra == 'dev'
+Requires-Dist: sphinx (==3.5.4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.5.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-htmlhelp (==2.0.0) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-httpdomain (==1.7.0) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.5) ; extra == 'dev'
+Requires-Dist: toml (==0.10.2) ; extra == 'dev'
+Requires-Dist: tox (==3.23.1) ; extra == 'dev'
+Requires-Dist: tqdm (==4.61.1) ; extra == 'dev'
+Requires-Dist: twine (==3.4.1) ; extra == 'dev'
+Requires-Dist: typed-ast (==1.4.3) ; extra == 'dev'
+Requires-Dist: typing-extensions (==3.10.0.0) ; extra == 'dev'
+Requires-Dist: urllib3 (==1.26.5) ; extra == 'dev'
+Requires-Dist: virtualenv (==20.4.7) ; extra == 'dev'
+Requires-Dist: webencodings (==0.5.1) ; extra == 'dev'
+Requires-Dist: wheel (==0.36.2) ; extra == 'dev'
+Requires-Dist: wrapt (==1.12.1) ; extra == 'dev'
+Requires-Dist: zipp (==3.4.1) ; extra == 'dev'
+Requires-Dist: pip (==21.1.2) ; extra == 'dev'
+Requires-Dist: setuptools (==57.0.0) ; extra == 'dev'
+
+# Kadi4Mat
+
+**Kadi4Mat** is the **Karlsruhe Data Infrastructure for Materials Science**, an
+open source software for managing research data.
+
+## Links
+
+* More information: https://kadi.iam-cms.kit.edu
+* Source code: https://gitlab.com/iam-cms/kadi
+* Releases: https://pypi.org/project/kadi
+* Documentation:
+  * Stable (reflecting the latest release): https://kadi4mat.readthedocs.io/en/stable
+  * Latest (reflecting the *master* branch): https://kadi4mat.readthedocs.io/en/latest
+
+
