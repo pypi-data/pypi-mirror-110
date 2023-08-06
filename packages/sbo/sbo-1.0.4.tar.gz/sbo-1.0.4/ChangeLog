@@ -1,0 +1,103 @@
+CHANGES
+=======
+
+v1.0.4
+------
+
+* Fix typo
+
+v1.0.3
+------
+
+* Update docs
+* Update link to paper
+* Update formatter language
+
+v1.0.2
+------
+
+* Add info on paper
+
+v1.0.1
+------
+
+* Revert "Update code"
+
+v1.0
+----
+
+* Update docs
+* Update docs
+* Update docs
+* Update docs
+* Update docs
+* Update file path
+* Update docs
+* Update docs
+* Update docs
+* Add Sphinx lib
+* Update readme
+* Update docs
+* Update readme
+* Update documentation URL
+* Add docs
+
+v0.0.8
+------
+
+* Add random seed for GHO
+* Remove hs\_scale
+* Add docstring
+* Add license
+
+v0.0.7
+------
+
+* Commit to trigger CI
+
+v0.0.6
+------
+
+* Require Python 3.8 because of NumPy
+
+v0.0.5
+------
+
+* Update code
+* Update requirements
+* Update readme
+
+v0.0.4
+------
+
+* Revert "Fix imports"
+* Fix flake8
+* Fix imports
+* Revert "Fix imports"
+
+v0.0.3
+------
+
+* Fix imports
+* Update requirements
+
+v0.0.2
+------
+
+* Abide PEP
+
+v0.0.1
+------
+
+* Modularize sbo
+* Add CI
+* Add requirements.txt
+* Update readme
+* Fix linked file type
+* Remove demo file
+* Add demo plot
+* Add demo to readme
+* Add demo script
+* Add SBO and GHO
+* Add gitignore
+* Initial commit
