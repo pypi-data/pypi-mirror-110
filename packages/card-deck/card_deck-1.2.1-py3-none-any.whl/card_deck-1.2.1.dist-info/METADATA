@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: card-deck
+Version: 1.2.1
+Summary: An object model of a pack of cards
+Home-page: https://github.com/EdmundGoodman/card_deck
+Author: Edmund Goodman
+Author-email: egoodman3141@gmail.com
+License: MIT
+Download-URL: https://github.com/EdmundGoodman/card_deck/archive/refs/tags/v1.2.1.tar.gz
+Keywords: game,card,model
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+Card Deck
+=========
+
+An object model of a pack of cards, written in Python, to streamline writing programs to model/play games involving cards
+
+
+Documentation
+-------------
+
+Documentation for the library can be found here: [https://card-deck.readthedocs.io/en/latest/](https://card-deck.readthedocs.io/en/latest/)
+
+Installation
+------------
+
+The library has been published on PyPi, so can be found here: [https://pypi.org/project/card-deck/](https://pypi.org/project/card-deck/), and can be installed as follows:
+
+``` {python}
+pip install card-deck
+```
+
+Requirements
+------------
+
+There are no additional required libraries
+
+
