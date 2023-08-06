@@ -1,0 +1,17 @@
+LivestockCV/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LivestockCV/add_one.py,sha256=X8MPB275LbdlIVf8Mawtah11TDi5cPI8aDrkduPD7y8,42
+LivestockCV/classes.py,sha256=WxwLqIH4Txcv4uYWTmOEWcbkdqKPld6pXWvsggRc6BM,8365
+LivestockCV/crop.py,sha256=4HhRdTgP9unxG9cI90kQw2nVruuXIriDHOryy0nDXwM,1507
+LivestockCV/dilate.py,sha256=VwC-e-kcaTt2-nCrr3nSrFie26tgtmoDvKFbOk5VpeU,1311
+LivestockCV/erode.py,sha256=ik8LBs1Zsfzxa-x1ODIId9xfhpIsit4ywCDwphyaZns,1344
+LivestockCV/fatal_error.py,sha256=amJlxO98V0R2NUQ3AWY7mDAIn2Sq91bzYrInnpg_8yM,238
+LivestockCV/hello.py,sha256=BT-h77y2csfFHQCB8vo9KRwhubyrQDxBvApyPv3CWHU,45
+LivestockCV/invert.py,sha256=ir2J73yY7kND5dM4PiMuJFffc7yR9ScRkgswf3419_s,665
+LivestockCV/plot_image.py,sha256=EdbdTrZBkYDs7lntx-bTy2xSpPM0wE31Vm3jGMFAb_I,1263
+LivestockCV/print_image.py,sha256=mFeYNUklVtDLH_AnE2TuR0Z-u74cSNGJfsMw5D0nylQ,997
+LivestockCV/rgb2gray.py,sha256=Onei5doN_ULgDPce7nsxA_1TUidiR8BrxSK4oGKqtA8,667
+LivestockCV-0.0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+LivestockCV-0.0.0.3.dist-info/METADATA,sha256=SCulm7972OjX8AWAfdWxkqLIwB5ZGkyjcPpuw7Xhvjw,776
+LivestockCV-0.0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+LivestockCV-0.0.0.3.dist-info/top_level.txt,sha256=H8LwGIUiI2THNCkaEOHEiwTi0SAgmNZZRDeK3mVsS80,12
+LivestockCV-0.0.0.3.dist-info/RECORD,,
