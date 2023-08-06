@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dacite_ignore_case/__init__.py
+dacite_ignore_case.egg-info/PKG-INFO
+dacite_ignore_case.egg-info/SOURCES.txt
+dacite_ignore_case.egg-info/dependency_links.txt
+dacite_ignore_case.egg-info/requires.txt
+dacite_ignore_case.egg-info/top_level.txt
