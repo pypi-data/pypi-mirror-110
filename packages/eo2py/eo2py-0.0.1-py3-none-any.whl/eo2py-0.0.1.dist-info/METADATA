@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: eo2py
+Version: 0.0.1
+Summary: All the necessary classes required to run Python files created by eo2py-maven-plugin
+Home-page: https://github.com/nikololiahim/eo-runtime-python
+Author: Mihail Olokin
+Author-email: olomishcak@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nikololiahim/eo-runtime-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Runtime for EOLANG
+
+
+

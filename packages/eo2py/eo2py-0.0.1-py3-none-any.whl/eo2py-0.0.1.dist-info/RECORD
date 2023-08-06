@@ -1,0 +1,14 @@
+atoms/__init__.py,sha256=TpWjpiK8pxFw9CT8WGQpN2WRraq6c0TOiDtdzc6gyfY,13
+atoms/atoms.py,sha256=BFoWDsZD7qkt-l8GDuK6UlQkrCLM_u4tSfxF7okmpgY,7651
+recursive-dataization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recursive-dataization/atoms.py,sha256=Iz_rHvvV16ewbPbCX91oTqxY1msTh09IXv2pdvRiwXE,2634
+recursive-dataization/atoms1.py,sha256=NV6zycVrfkv-PHGzKNUS_1OIp03_TCm7Ra6lKVQ4T58,2859
+recursive-dataization/eoif.py,sha256=Ql_uUfPugIKI3M8WylVPsldySJ0f-MCYwq9fy2u31Eo,885
+recursive-dataization/old-fibo.py,sha256=9AWd09PsqXaEmyFp2zzmwBcFySCf9VaMXLtx_Szaw-4,687
+recursive-dataization/oldatoms.py,sha256=TiVnFDMgPnSgqoAFUDhPvGEqlbpCIsCfrRcgbF-Dopk,1953
+recursive-dataization/that-fibonacci-thing.py,sha256=o3IjUbaaZCR78AEeKr4YadlPEZ37iHzQ1HZ_ReJVMik,767
+eo2py-0.0.1.dist-info/LICENSE,sha256=-V1ACS5lQnEQfUq8euVvehnOw9nTNGCWloUm24zwM-4,1070
+eo2py-0.0.1.dist-info/METADATA,sha256=AsyvSwGNxDdNwbLseXGUJjBo4cw4iG3Y-Bp2Em3vuLw,644
+eo2py-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eo2py-0.0.1.dist-info/top_level.txt,sha256=0Zte2w9_cCnuYbvoYcDlJm1K-e5tQm5SDN9ZKhkhQQU,28
+eo2py-0.0.1.dist-info/RECORD,,
