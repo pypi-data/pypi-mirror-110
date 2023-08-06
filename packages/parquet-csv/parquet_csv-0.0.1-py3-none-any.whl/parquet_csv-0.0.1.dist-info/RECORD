@@ -1,0 +1,7 @@
+parquet_csv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parquet_csv/parquet_to_csv.py,sha256=Bp4HkaVl7r7viEF7oIZPujgEE2pFg9jcd8hWlAMPiQ8,61
+parquet_csv-0.0.1.dist-info/entry_points.txt,sha256=FBR0Xs47bv6socJxIQnQQDuOvJkRQRBoy3VTctEHYLo,66
+parquet_csv-0.0.1.dist-info/LICENSE,sha256=DDhDXnjf_Rru7wxqKdm9ErGMKISIToQ8IUePZ64a5GY,1066
+parquet_csv-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+parquet_csv-0.0.1.dist-info/METADATA,sha256=qAew01Fef8S-zn-tM1kOMWL76s0v_A9Z6gHFQj5L4fY,792
+parquet_csv-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: parquet-csv
+Version: 0.0.1
+Summary: Parquet from and to CSV format converter
+Home-page: https://github.com/Jimexist/parquet_csv
+License: MIT
+Keywords: parquet,csv,convert,pyarrow,arrow
+Author: Jiayu Liu
+Author-email: jiayu@hey.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: pyarrow (>=4.0.1,<5.0.0)
+Project-URL: Repository, https://github.com/Jimexist/parquet_csv
+Description-Content-Type: text/markdown
+
+# parquet_csv
+Parquet to and from CSV converter
+
