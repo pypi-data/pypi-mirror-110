@@ -1,0 +1,9 @@
+frontend_editables/__init__.py,sha256=QpAOwj_z6exbAKW2qPkZNuEf57XjKdJi5gNsMOdktUw,395
+frontend_editables/_core.py,sha256=ttPTIoDWCfNW5ToylB9fBGtDQZBP6oORRPg0jNBNkhE,8924
+frontend_editables/_redirector.py,sha256=xuikGQd47i3QFdF4quV7FbA9mlycW4xfd9HojM2347M,1289
+frontend_editables/_utils.py,sha256=mcgX7HKyYZ1BPlIoH5PizKtbpbLsmFDD8bdAFw3Xc3U,352
+frontend_editables/transitional_cli.py,sha256=u4i2MEuiPd_VMMHPee3KjLCGlfb9BOQfnTPJm7C57rQ,5863
+frontend_editables-0.1.0.dist-info/COPYING,sha256=BCvvhJn9MMTYUJC8jOLdcc7tHup9lQdMMz5matRVVTg,1074
+frontend_editables-0.1.0.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+frontend_editables-0.1.0.dist-info/METADATA,sha256=fjE8AVLgOsk2kHJLw5hZS0mDe7uuuEXQ2Oe02OhrVrQ,4404
+frontend_editables-0.1.0.dist-info/RECORD,,
