@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: electiondata
+Version: 1.5.7
+Summary: Set of APIs and scripts for normalizing election data.
+Home-page: https://github.com/kavigupta/electiondata
+Author: Kavi Gupta
+Author-email: electiondata@kavigupta.org
+License: UNKNOWN
+Description: Set of APIs and scripts for normalizing election data.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
