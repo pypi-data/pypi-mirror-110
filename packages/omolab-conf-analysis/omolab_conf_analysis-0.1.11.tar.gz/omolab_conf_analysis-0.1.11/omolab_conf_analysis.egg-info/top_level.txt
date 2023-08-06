@@ -1,0 +1,8 @@
+ConformationalAnalysis
+clustering
+elements
+mGenerate_PyMOL_Session
+mGenerate_conf_analysis
+pca_creation
+pymol
+xyz

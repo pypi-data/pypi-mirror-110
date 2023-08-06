@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: omolab-conf-analysis
+Version: 0.1.11
+Summary: Uses PCA and K-means clustering to separate conformational ensembles. (xyz-files only)
+Home-page: https://github.com/mattnw1/Conformational_Analysis
+Author: Matthew Nwerem
+Author-email: nwere100@mail.chapman.edu
+License: UNKNOWN
+Description: # Conformational Analysis
+        [![Downloads](https://pepy.tech/badge/omolab-conf-analysis)](https://pepy.tech/project/omolab-conf-analysis) [![Downloads](https://pepy.tech/badge/omolab-conf-analysis/week)](https://pepy.tech/project/omolab-conf-analysis)
+        [![Python](https://img.shields.io/pypi/pyversions/omolab-conf-analysis)](https://img.shields.io/pypi/pyversions/omolab-conf-analysis)
+        [![PyPI Version](https://img.shields.io/pypi/v/omolab-conf-analysis)](https://pypi.org/project/omolab-conf-analysis/)
+        [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/erdogant/omolab/blob/master/LICENSE)
+        
+        Conformational analysis of XYZ-files 
+        
+        **What this program can do**
+        1) Read in XYZ-files and calculate distances, angles and dihedrals based of 3D coordinates
+        2) Incorporation of PCA and Clustering to reduce data dimensions and classify XYZ file conformational families
+        3) Create folder path and directories containing XYZ-files based on conformational family
+        
+        ## Installation
+        Run the following to install:
+        
+        ```sh
+        # PyPi
+        pip install omolab-conf-analysis
+        ```
+        
+        ## Usage
+        ####In your own python file
+        ```
+        import ConformationalAnalysis
+        test1 = ConformationalAnalysis()
+        ```
+        ####In command line (not working yet; soon!)
+        ```
+        mGenerate_Conf_Analysis
+        ```
+        
+        ## Authors
+        Created by OMOLAB
+        
+        Property of Matthew Nwerem, MS and O. Maduka Ogba, PhD   
+        https://madukaogba.com/
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: MacOS X
+Classifier: Framework :: Matplotlib
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Free For Educational Use
+Classifier: License :: Free For Home Use
+Classifier: License :: Free for non-commercial use
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Description-Content-Type: text/markdown
