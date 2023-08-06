@@ -1,0 +1,8 @@
+PyYAML>=5.0
+pystache>=0.5
+
+[dev]
+pytest
+bump2version
+wheel>=0.29.0
+twine
