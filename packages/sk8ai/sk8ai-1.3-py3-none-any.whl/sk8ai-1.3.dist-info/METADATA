@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sk8ai
+Version: 1.3
+Summary: Modular neural network model
+Home-page: UNKNOWN
+Author: arcvelit (Louka F.s.)
+Author-email: <louka.f.s@gmail.com>
+License: UNKNOWN
+Keywords: python,ai,neural networks,numpy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+Modular neural network for classification, regression and other cool stuff.
+
+
