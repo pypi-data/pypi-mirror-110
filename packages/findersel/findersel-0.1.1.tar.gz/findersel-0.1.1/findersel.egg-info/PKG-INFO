@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: findersel
+Version: 0.1.1
+Summary: Get selected files from macOS Finder.
+Home-page: UNKNOWN
+Author: Sergio Delgado Quintero
+Author-email: sdelquin@gmail.com
+License: MIT
+Download-URL: https://github.com/sdelquin/findersel
+Project-URL: Issue Tracker, https://github.com/sdelquin/findersel/issues
+Project-URL: Documentation, https://github.com/sdelquin/findersel/blob/main/README.md
+Project-URL: Source Code, https://github.com/sdelquin/findersel
+Description: # findersel
+        
+        Get selected files from [macOS Finder](https://support.apple.com/HT201732) and use them programatically within your Python program.
+        
+        ## Installation
+        
+        ```console
+        $ pip install findersel
+        ```
+        
+        ## Usage
+        
+        Select some files on Finder:
+        
+        ![Finder screenshot](https://github.com/sdelquin/findersel/raw/main/finder-screenshot.png)
+        
+        And get the selected files:
+        
+        ```python
+        >>> import findersel
+        
+        >>> list(findersel.get_selected_files())
+        ['/Users/sdelquin/findersel/LICENSE',
+         '/Users/sdelquin/findersel/Makefile',
+         '/Users/sdelquin/findersel/README.md',
+         '/Users/sdelquin/findersel/requirements.txt',
+         '/Users/sdelquin/findersel/setup.cfg',
+         '/Users/sdelquin/findersel/setup.py']
+        ```
+        
+        > Note than the function returns a **generator**.
+        
+        ## Changelog
+        
+        | 0.1.1 | 20/06/2021 |
+        | ----- | ---------- |
+        
+        - Add documentation.
+        - Fix bug when no files are selected.
+        
+        | 0.1.0 | 20/06/2021 |
+        | ----- | ---------- |
+        
+        - Add initial code.
+        
+        ## License
+        
+        MIT
+        
+Keywords: macos finder files sysadmin selection
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Operating System
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
