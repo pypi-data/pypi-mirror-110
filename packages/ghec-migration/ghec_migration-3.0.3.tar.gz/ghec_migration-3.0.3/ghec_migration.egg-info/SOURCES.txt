@@ -1,0 +1,15 @@
+README.md
+find_new_git_url.py
+ghec_migration.py
+github_migration.py
+jenkins_migration.py
+make_private.py
+setup.py
+update_topics_for_team.py
+ghec_migration.egg-info/PKG-INFO
+ghec_migration.egg-info/SOURCES.txt
+ghec_migration.egg-info/dependency_links.txt
+ghec_migration.egg-info/entry_points.txt
+ghec_migration.egg-info/not-zip-safe
+ghec_migration.egg-info/requires.txt
+ghec_migration.egg-info/top_level.txt
