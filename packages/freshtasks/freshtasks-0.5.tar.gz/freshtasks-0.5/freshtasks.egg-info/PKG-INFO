@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: freshtasks
+Version: 0.5
+Summary: Fresh Task is a Python package that fetches a list of tasks from Fresh Service tickets.
+Home-page: https://github.com/mervin-hemaraju-cko/fresh-tasks
+Author: Mervin Hemaraju
+Author-email: mervin.hemaraju@checkout.com
+License: UNKNOWN
+Description: # Fresh Task
+        
+        Fresh Task is a Python package that fetches a list of tasks from Fresh Service tickets.
+        
+        ```
+        Work in Progress
+        ```
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
