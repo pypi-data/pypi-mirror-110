@@ -1,0 +1,72 @@
+ubelt
+parse
+scriptconfig
+kwarray
+kwimage
+six
+numpy
+scikit-learn
+sortedcontainers
+pandas
+jsonschema
+uritools
+xarray
+
+[all]
+ubelt
+parse
+scriptconfig
+kwarray
+kwimage
+six
+numpy
+scikit-learn
+sortedcontainers
+pandas
+jsonschema
+uritools
+xarray
+kwplot
+seaborn
+sqlalchemy
+pytest
+coverage
+xdoctest
+pytest-cov
+timerit
+
+[all:python_version < "3.6"]
+bezier<=0.8.0
+
+[all:python_version < "3.7.0"]
+bezier
+
+[all:python_version < "3.7.0" and python_version >= "3.6.0"]
+bezier
+
+[all:python_version >= "3.7"]
+bezier
+
+[optional]
+kwplot>=0.4.0
+seaborn>=0.9.0
+sqlalchemy>=1.3.22
+
+[optional:python_version < "3.6"]
+bezier<=0.8.0
+
+[optional:python_version < "3.7.0"]
+bezier<=0.11.0,>=0.8.0
+
+[optional:python_version < "3.7.0" and python_version >= "3.6.0"]
+bezier<=0.11.0,>=0.8.0
+
+[optional:python_version >= "3.7"]
+bezier>=2021.2.12
+
+[tests]
+pytest
+coverage
+xdoctest
+pytest-cov
+timerit
