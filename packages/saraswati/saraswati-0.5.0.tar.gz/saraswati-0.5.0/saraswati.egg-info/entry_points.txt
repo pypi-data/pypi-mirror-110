@@ -1,0 +1,3 @@
+[console_scripts]
+saraswati = saraswati.cli:cli
+
