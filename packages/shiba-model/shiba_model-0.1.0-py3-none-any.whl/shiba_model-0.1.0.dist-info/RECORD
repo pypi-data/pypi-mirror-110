@@ -1,0 +1,12 @@
+shiba/__init__.py,sha256=il5DenkIsATVQjgXAup0SsEHBMK55r0nYq_HMSjvXoI,210
+shiba/codepoint_tokenizer.py,sha256=9C-sB42MzuEGrhxiPX_V-vXmslQHYxHgD4a60NOIcbI,2008
+shiba/local_self_attention.py,sha256=vWllq_4rniUDs9quOiPkd4-H9V4UNslY6CmjNjJu8xM,3486
+shiba/local_transformer_encoder_layer.py,sha256=zK1hwATa5hyjgCpeKmzZR9bygqPbZ9UqvseuBANtEBM,2768
+shiba/model.py,sha256=EO_BeK17QpyFvW4wDQydhHO1scXoJ9RPVVJlagAM5uM,22263
+shiba/multi_hashing_embedder.py,sha256=xikIq6phKatJt-CXC7VHIpHVkfFKoKVrdlN-HdwN83Q,1446
+shiba/position_embedder.py,sha256=wlTcHW_TioQXLj70XSNeL-3BXt0dMYVedMR-g0M2RG0,628
+shiba_model-0.1.0.dist-info/LICENSE.md,sha256=hOQROmZb4mXFDNingL7YBDWnIy0WaYAq-6mJRSnat5E,10480
+shiba_model-0.1.0.dist-info/METADATA,sha256=MselsBRSmPdrmBD5g2D1iMrdYE9yJECES3u2U__elv0,9225
+shiba_model-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shiba_model-0.1.0.dist-info/top_level.txt,sha256=Izm0Q89L8LW7Y_dt_5rTB6qNHL3o_wNP2feY-_7uq4Q,6
+shiba_model-0.1.0.dist-info/RECORD,,
