@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ensembleperturbation
+Version: 0.4.4
+Summary: perturbation of coupled model input over a space of input variables
+Home-page: https://github.com/noaa-ocs-modeling/EnsemblePerturbation.git
+Author: Zach Burnett
+Author-email: zachary.burnett@noaa.gov
+License: CC0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appdirs
+Requires-Dist: bs4
+Requires-Dist: click
+Requires-Dist: coupledmodeldriver (>=1.2.25)
+Requires-Dist: fiona
+Requires-Dist: geopandas
+Requires-Dist: matplotlib
+Requires-Dist: nemspy (>=0.6.16)
+Requires-Dist: netcdf4
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pint
+Requires-Dist: pint-pandas
+Requires-Dist: pyproj (>=2.6)
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: shapely
+Provides-Extra: development
+Requires-Dist: flake8 ; extra == 'development'
+Requires-Dist: isort ; extra == 'development'
+Requires-Dist: oitnb ; extra == 'development'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-xdist ; extra == 'testing'
+Requires-Dist: wget ; extra == 'testing'
+
+# Ensemble Perturbation
+
+[![tests](https://github.com/noaa-ocs-modeling/EnsemblePerturbation/workflows/tests/badge.svg)](https://github.com/noaa-ocs-modeling/EnsemblePerturbation/actions?query=workflow%3Atests)
+[![codecov](https://codecov.io/gh/noaa-ocs-modeling/ensembleperturbation/branch/main/graph/badge.svg?token=4DwZePHp18)](https://codecov.io/gh/noaa-ocs-modeling/ensembleperturbation)
+[![build](https://github.com/noaa-ocs-modeling/EnsemblePerturbation/workflows/build/badge.svg)](https://github.com/noaa-ocs-modeling/EnsemblePerturbation/actions?query=workflow%3Abuild)
+[![version](https://img.shields.io/pypi/v/EnsemblePerturbation)](https://pypi.org/project/EnsemblePerturbation)
+[![license](https://img.shields.io/github/license/noaa-ocs-modeling/EnsemblePerturbation)](https://creativecommons.org/share-your-work/public-domain/cc0)
+[![style](https://sourceforge.net/p/oitnb/code/ci/default/tree/_doc/_static/oitnb.svg?format=raw)](https://sourceforge.net/p/oitnb/code)
+
+Python library for perturbing coupled model inputs into ensemble runs. Provides perturbation and results comparison.
+
+```bash
+pip install ensembleperturbation
+```
+
+
