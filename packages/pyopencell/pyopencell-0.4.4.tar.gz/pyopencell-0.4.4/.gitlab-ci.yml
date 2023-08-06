@@ -1,0 +1,51 @@
+image: python:2.7
+before_script:
+  - pip install tox setuptools
+cache:
+  paths:
+  - /root/.cache
+stages:
+  - style
+  - test
+  - package
+
+py27:
+  stage: test
+  script:
+    - tox -e py27
+
+pep8:
+  stage: style
+  script:
+    - tox -e pep8
+
+wheel:
+  stage: package
+  script:
+    tox -e wheel
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == 'master'
+
+sdist:
+  stage: package
+  script:
+    tox -e sdist
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == 'master'
+
+publish:
+  stage: package
+  script:
+    - pip install twine
+    - echo 'Building Source and Wheel (universal) distribution…'
+    - python setup.py sdist bdist_wheel --universal
+    - echo 'Uploading the package to PyPI via Twine…'
+    - twine upload dist/*
+  artifacts:
+    paths:
+      - dist/
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: manual
