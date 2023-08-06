@@ -1,0 +1,11 @@
+README.rst
+setup.py
+idquant/Data_Processor.py
+idquant/IDQ_notebook_control.py
+idquant/Polynomial_Calculator.py
+idquant/__init__.py
+idquant.egg-info/PKG-INFO
+idquant.egg-info/SOURCES.txt
+idquant.egg-info/dependency_links.txt
+idquant.egg-info/requires.txt
+idquant.egg-info/top_level.txt
