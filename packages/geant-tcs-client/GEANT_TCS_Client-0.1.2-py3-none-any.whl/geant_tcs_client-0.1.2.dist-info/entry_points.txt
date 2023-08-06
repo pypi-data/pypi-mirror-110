@@ -1,0 +1,3 @@
+[console_scripts]
+geant-tcs-client=geant-tcs-client.main:main
+
