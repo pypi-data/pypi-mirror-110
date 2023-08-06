@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nori-rush"
+version = "0.1.0"
+description = ""
+authors = ["ntoshihi <ntoshihi@student.42tokyo.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+nori_rush = "nori_rush.nori.py:main"
