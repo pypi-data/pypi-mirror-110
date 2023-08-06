@@ -1,0 +1,3 @@
+http2async
+aio-pika~=6.8
+bson~=0.5
