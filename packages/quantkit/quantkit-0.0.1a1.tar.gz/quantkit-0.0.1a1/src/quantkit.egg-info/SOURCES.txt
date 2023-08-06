@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+src/quantkit/__init__.py
+src/quantkit/_version.py
+src/quantkit/core.py
+src/quantkit.egg-info/PKG-INFO
+src/quantkit.egg-info/SOURCES.txt
+src/quantkit.egg-info/dependency_links.txt
+src/quantkit.egg-info/requires.txt
+src/quantkit.egg-info/top_level.txt

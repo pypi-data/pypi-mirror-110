@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: quantkit
+Version: 0.0.1a1
+Summary: Quant Kit
+Home-page: https://github.com/mmngreco/quantkit
+Author: mmngreco
+License: UNKNOWN
+Description: # quantkit
+        
+        Very WIP! Finance functions.
+        
+        ## Installation
+        
+        ```bash
+        pip install git+https://github.com/mmngreco/quantkit
+        ```
+        
+        ### Developers
+        
+        ```bash
+        git clone https://github.com/mmngreco/quantkit
+        pip install -e ./quantkit
+        ```
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
