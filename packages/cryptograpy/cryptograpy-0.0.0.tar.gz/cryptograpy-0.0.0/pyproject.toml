@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "cryptograpy"
+author = "Thomas Grainger"
+author-email = "cryptograpy@graingert.co.uk"
+home-page = "https://github.com/graingert/cryptograpy"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+requires = ["cryptography"]
