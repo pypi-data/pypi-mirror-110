@@ -1,0 +1,3 @@
+six
+splunk-sdk==1.6.15
+backports.csv==1.0.7
