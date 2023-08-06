@@ -1,0 +1,10 @@
+nemosyne/S3.py,sha256=tfRIh_t1fWXlKVT0q85qwjcGPdGAWs3OWG8Ab1hkcxw,1313
+nemosyne/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nemosyne/config.py,sha256=yfCfKIX_sq0do3yWW6lyCY92-UKbScaagb2piFcJQZo,202
+nemosyne/main.py,sha256=xc9kaEif83-ztXU0ZzfJyNLnTJoOsgQ3qBJO_ep827I,114
+nemosyne/uploader.py,sha256=JEgdCUqudN3IAQ1KTa2bz0ByD2mWYlWBpm9SM8Tz-fk,1083
+nemosyne-0.0.1.dist-info/entry_points.txt,sha256=lJZyLMpVB7iwNN6l5e-DwxVxLYnDf6u6EFKhtixluj4,46
+nemosyne-0.0.1.dist-info/LICENSE,sha256=m8qKsX_KLQtzASEdRdwau9MZOrPcqh0XR26NDX53Bcw,1070
+nemosyne-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+nemosyne-0.0.1.dist-info/METADATA,sha256=Nk0DNPgT4CB9PPFfmHuAeFgvjJrCvhPcRZOwSJHRfC4,1599
+nemosyne-0.0.1.dist-info/RECORD,,
