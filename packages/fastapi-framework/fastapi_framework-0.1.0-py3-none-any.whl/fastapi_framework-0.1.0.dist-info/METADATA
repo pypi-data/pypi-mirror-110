@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastapi-framework
+Version: 0.1.0
+Summary: A Fastapi Framework
+Home-page: UNKNOWN
+Author: Tert0
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: fastapi
+Requires-Dist: setuptools
+Requires-Dist: sqlalchemy
+Requires-Dist: asyncpg
+Requires-Dist: aioredis
+Requires-Dist: python-dotenv
+
+UNKNOWN
+
+
