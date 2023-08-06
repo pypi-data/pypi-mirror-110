@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dreamsound/__init__.py
+src/dreamsound/downloader.py
+src/dreamsound/dreamsound.py
+src/dreamsound.egg-info/PKG-INFO
+src/dreamsound.egg-info/SOURCES.txt
+src/dreamsound.egg-info/dependency_links.txt
+src/dreamsound.egg-info/requires.txt
+src/dreamsound.egg-info/top_level.txt
