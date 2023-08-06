@@ -1,0 +1,3 @@
+[console_scripts]
+purview = pvclient.purview:main
+
