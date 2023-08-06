@@ -1,0 +1,14 @@
+pyaml
+kubernetes>=11.0.0
+docker==4.1.0
+Deprecated
+
+[develop]
+pre-commit
+pytest
+pytest-cov
+Deprecated
+protobuf
+argo-workflows==3.5.1
+mkdocs==1.1.2
+mkdocs-material==7.1.3
