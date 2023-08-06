@@ -1,0 +1,10 @@
+stardist_napari/__init__.py,sha256=PpyVKqKcohEQ-w0vvnZ9Xh0tWHT8evJ1zzrIvPmITG0,128
+stardist_napari/_dock_widget.py,sha256=PsF2e43gPoYTRe8xHE-LfY3E98s3uz6vB09LOis2dJI,27879
+stardist_napari/_version.py,sha256=-H7PP8u7bV3cGZzoDYLWGY-zeMgItczIN57XHskM6WY,26
+stardist_napari/resources/stardist_logo_napari.png,sha256=HEOwgINusODLaruB5rbW8TJiylqH1gJ9-N4_6QBCAcI,15945
+stardist_napari-2021.6.26.dist-info/LICENSE.txt,sha256=MCUDlDnTeMJH1aNCyCD10TRyWEQsnv8inlZD4PaC-eU,1526
+stardist_napari-2021.6.26.dist-info/METADATA,sha256=_LGuxZPXZiQlw57TeEPzqasK4-nknARE0EGWmWvmHG8,4077
+stardist_napari-2021.6.26.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stardist_napari-2021.6.26.dist-info/entry_points.txt,sha256=dYD3f1e49Vnu5tghLAC4iC2vGDoyxJR3bWZ7s1Y3veA,44
+stardist_napari-2021.6.26.dist-info/top_level.txt,sha256=U3mYVeX6h2ih0AFM0f_1JUVJXkcnfOAJx_r1L6MP4io,16
+stardist_napari-2021.6.26.dist-info/RECORD,,
