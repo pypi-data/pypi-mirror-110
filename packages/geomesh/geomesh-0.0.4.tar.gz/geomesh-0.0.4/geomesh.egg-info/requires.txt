@@ -1,0 +1,14 @@
+jigsawpy
+matplotlib
+netCDF4
+scipy
+pyproj>=3.0
+fiona
+rasterio
+tqdm
+colored_traceback
+requests
+shapely
+geoalchemy2
+utm
+geopandas

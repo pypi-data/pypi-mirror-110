@@ -1,0 +1,4 @@
+[console_scripts]
+geomesh = geomesh.__main__:main
+interp = geomesh.interp:main
+
