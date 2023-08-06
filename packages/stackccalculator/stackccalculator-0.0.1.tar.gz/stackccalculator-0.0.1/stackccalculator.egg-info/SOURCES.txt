@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+joshbasiccalculator/__init__.py
+stackccalculator.egg-info/PKG-INFO
+stackccalculator.egg-info/SOURCES.txt
+stackccalculator.egg-info/dependency_links.txt
+stackccalculator.egg-info/top_level.txt
