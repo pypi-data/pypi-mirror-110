@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pandect
+Version: 0.3.2
+Summary: Simple wrappers to load and convert common data file types
+Home-page: https://github.com/datagazing/pandect
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com
