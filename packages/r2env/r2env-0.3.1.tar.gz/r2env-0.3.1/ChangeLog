@@ -1,0 +1,88 @@
+CHANGES
+=======
+
+0.3.1
+-----
+
+* More pypi massaging
+* Fix make pub and sync version (#13)
+* Fix more command parsing issues (#12)
+* Fix 'r2 shell -v' (#9)
+* Fix build and shell for termux (#8)
+* Implement \`r2env shell\` for unix (#4)
+* Fix use
+* Fix r2env use validation
+* Fix conflicts
+* Fix r2env use, listing installed versions
+* Fix config cmd
+* Update Makefile
+* Update ci.yml
+* Creating log path
+* Update ci.yml
+* Update ci.yml
+* Removing package if something went wrong
+* Fix init and renaming module to core
+* Fixing tests in runners
+* Fixing tests
+* Fix tests
+* update ci.yml
+* Update ci.yml
+* Fix some code lints
+* update github ci.yml
+* Fix lgtm issues
+* Querying current version feature added
+* Adding config files when installing package
+* Using PBR as package system
+* Fix some code checks
+* Added use command
+* Updating supported versions
+* Fix meson build feature
+* Add uninstall package feature
+* Add build\_from\_meson method
+* Remove r0.py and radare2.py
+* Update r2env/config/radare2.py
+* Update r2env/config/radare2.py
+* Update r2env/config/r0.py
+* Update r2env/config/r0.py
+* Update r2env/config/profiles.json
+* WIP: First version with install cmd implemented
+* Add coverage and codechecks
+* Refactor requirements for tests purposes
+* Add test environment
+* Add gitignore
+* Also remove the build/
+* Attempt to fix
+* Improve uninstall and add sdist for pub
+* Dont use scm version
+* Add LICENSE and setup.cfg
+* Improve classifications
+* Improve Makefile
+* Fix
+* Cleanup setup.py
+* Update README
+* woops
+* Add pub target
+* More of cleanup
+* Support platform
+* add autoversion and more
+* os.path.join eats the path
+* Use stow api
+* Minor backtrace fix
+* Add CI badge
+* Fix uninstall
+* wtf
+* More testing and better support for version switching
+* kiss
+* Initial working init
+* Install + bump version
+* Add install size and timestamp
+* Add deps
+* Handle prefix, dst, src, git dirs and use dploy
+* Initial working version
+* Add more stuff
+* Missing snake
+* Argparse
+* Use abs import path
+* Minor tweak
+* Initial dummy version + ci
+* Initial commit
