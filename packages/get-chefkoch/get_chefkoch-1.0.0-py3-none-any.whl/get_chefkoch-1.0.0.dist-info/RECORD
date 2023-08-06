@@ -1,0 +1,8 @@
+get_chefkoch/__init__.py,sha256=BGCjfnzZ86WoeLOMML6u_twpkWNNGywLRFcbvEfExwg,61
+get_chefkoch/chefkoch.py,sha256=A6A-XsUEZX98eD8GGEprsG7Sz_Vx66XP-M8qm8FOHzw,8925
+get_chefkoch/exceptions.py,sha256=TleLnyVEXOmt8YWbERAmlQS2tBAcapS3I_WxhKbjqaQ,119
+get_chefkoch-1.0.0.dist-info/LICENSE,sha256=n45GS_BI6AkxcIEbZQ2Znrfk_UrvjTSjbb40uSzgvOw,1063
+get_chefkoch-1.0.0.dist-info/METADATA,sha256=yAd64SFaLX3iABmhahgJtMnUr0CQyffyGalbGEy4mq8,2005
+get_chefkoch-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+get_chefkoch-1.0.0.dist-info/top_level.txt,sha256=-klAwClENckVy-3jVYuvexmf1dujkW1QJKY3dPt44gc,13
+get_chefkoch-1.0.0.dist-info/RECORD,,
