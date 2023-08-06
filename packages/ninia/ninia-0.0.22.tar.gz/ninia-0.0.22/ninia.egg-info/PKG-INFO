@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ninia
+Version: 0.0.22
+Summary: A small Python wrapper for Quantum Espresso - still in development
+Home-page: https://github.com/ajsummers/ninia
+Author: Alex Summers
+Author-email: ajs0201@auburn.edu
+License: UNKNOWN
+Project-URL: Issues, https://github.com/ajsummers/ninia/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ninia
+
+A small Python wrapper for setting up Quantum Espresso input files. More functionality may be added later.
+
+Still in development.
+
