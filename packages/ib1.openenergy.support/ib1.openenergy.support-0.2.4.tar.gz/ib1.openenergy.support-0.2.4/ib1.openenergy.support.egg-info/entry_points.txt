@@ -1,0 +1,3 @@
+[console_scripts]
+oe_install_cacerts = ib1.openenergy.support.cacert:main
+
