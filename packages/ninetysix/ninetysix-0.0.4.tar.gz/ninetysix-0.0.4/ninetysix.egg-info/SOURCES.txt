@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ninetysix/__init__.py
+ninetysix/parsers.py
+ninetysix/plate.py
+ninetysix/viz.py
+ninetysix.egg-info/PKG-INFO
+ninetysix.egg-info/SOURCES.txt
+ninetysix.egg-info/dependency_links.txt
+ninetysix.egg-info/requires.txt
+ninetysix.egg-info/top_level.txt
+ninetysix/util/__init__.py
+ninetysix/util/_plate_attrs.py
+ninetysix/util/_validators.py
