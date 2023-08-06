@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: autoKS
+Version: 0.0.2
+Summary: A python package to process knowledge structure data automatically
+Home-page: https://github.com/weiziqian1996/autoKS
+Author: Wei Zi-Qian
+Author-email: weiziqian1996@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ks_tools
+
+A python package to process knowledge structure data, including:
+- Convert a variety of forms of data (e. g., concept map, essay/summary) into the proximity data
+- Calculate several graph-based features
+- Similarity comparison
+
+
