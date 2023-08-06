@@ -1,0 +1,6 @@
+Numpy<2,>=1
+opencv-python-headless==4.3.0.38
+numpy_indexed<0.4,>=0.3.5
+scipy<2,>=1.4.1
+scikit-image<1,>=0.16.2
+simplification<0.6,>=0.4
