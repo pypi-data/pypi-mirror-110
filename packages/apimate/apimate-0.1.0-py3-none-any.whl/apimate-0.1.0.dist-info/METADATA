@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: apimate
+Version: 0.1.0
+Summary: API mate
+Home-page: https://github.com/antipooh/apimate.git
+Author: Oleg Komkov
+Author-email: okomkov@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/plain
+Requires-Dist: pydantic (~=1.7)
+Requires-Dist: fastapi (~=0.63)
+Requires-Dist: httpx[http2] (~=0.16)
+Provides-Extra: dev
+Requires-Dist: pytest (~=6.2) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (~=0.14.0) ; extra == 'dev'
+Requires-Dist: pytest-mock (~=3.5) ; extra == 'dev'
+Requires-Dist: respx ; extra == 'dev'
+Provides-Extra: mongodb
+Requires-Dist: pymongo ; extra == 'mongodb'
+Requires-Dist: motor ; extra == 'mongodb'
+
+Collection utils for create clean architecture REST API application with FastAPI
+
