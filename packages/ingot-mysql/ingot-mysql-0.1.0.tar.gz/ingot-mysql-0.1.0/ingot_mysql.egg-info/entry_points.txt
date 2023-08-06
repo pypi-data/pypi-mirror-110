@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-mysql-cli = ingot_mysql.scripts.ingot_mysql:main
+
