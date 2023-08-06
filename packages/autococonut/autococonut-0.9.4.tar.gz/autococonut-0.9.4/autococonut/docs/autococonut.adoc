@@ -1,0 +1,774 @@
+= AutoCoconut, a workflow recorder.
+
+*AutoCoconut* is a tool that tracks simple mouse and keyboard events (such as clicks, moves, key presses, etc.) and interprets them into _meta events_ (mouse drags, double clicks, combo presses). While taking the events, it also makes screenshots that are connected to actual events. The recording can be then saved as a json file or converted into a _written procedure_ (a workflow report) formatted as _adoc_, _html_, or _pm_ (for OpenQA). Also, it can be used to open a previously created _json_ file and convert it into the procedure later.
+
+Such workflow reports can be helpful when creating bug reproducers, tutorials, or test cases for GUI testing frameworks, such as OpenQA
+and others.
+
+Currently, the application only works correctly under *X11*. On Wayland, it only works for applications using the _XWayland_ protocol.
+There is intention to make it *Wayland* compatible, too, once there are ways to get the necessary information from the system.
+
+[id="development"]
+== Development
+
+Currently, the development has reached *Phase 3*.
+
+Which means that the script is able:
+
+* record various events,  mouse buttons and actions (click, double click, drag, vertical scroll), keyboard events (press and release)
+* identify various types of keys (modifiers, special keys, character keys, etc.)
+* find pre-defined patterns in single events and interpret them
+* take screenshots to illustrate the workflow (or create needles for OpenQA)
+* produce various output - *raw* file, *json* file, or a workflow description in *adoc*, *html* and *pm*.
+* it has a GUI to make it easier to use
+
+[id="how-work"]
+== How does AutoCoconut work?
+
+When the application starts, it is ready to record the mouse and keyboard events. The recording is started using a *stop key* or a *Start* button (GUI). Then mouse and keyboard events are recorded until the *stop key* or the *Stop* button are pressed again. The list of all recognized mouse and keyboard events (in chronological order) forms a _raw json_. 
+
+Since this only contains single events without any relations between them, the data is not very useful. Therefore, they are interpreted to find certain logical patterns and therefore merge some of the single events into _meta events_. 
+
+These meta events bare the real  meaning, such as mouse _double clicks_, _mouse drags_, _wheel scrolls_, _key combination_, or even _mouse and keyboard combinations_. The meta events, also stored in a json format, are then converted into a _procedure_ in a selected format. 
+
+When recording events, the application also takes pictures of screens (screenshots) to capture the situation on the screen at the time of the event. 
+For most of the actions, two screenshots are taken: a *primary* one and an *alternative* one. The primary screenshot is taken in the moment of the event, the alternative screenshot is taken earlier (or later) according to a *time_offset* that a user can set (CLI application only). By default the `time_offset` is *1 second*.
+
+[id="how-use"]
+== How to use the application
+
+*AutoCoconut* can be started as a _CLI application_ or a _GUI application_. 
+
+As a CLI application, *AutoCoconut* makes a single recording pass and produces the chosen output. 
+
+As a GUI applications, it allows for more functionality. For example, you can: 
+
+* repeat the recording, 
+* review the recorded events,
+* edit the events,
+* create new events. 
+
+However, using the GUI will always produce some extra events at the beginning or at the end, when users need to navigate to the application they want to test, so some later editting might be needed. 
+
+There is also an option to record the events using the CLI application and then use the GUI to make the edits.
+
+== Using AutoCoconut as a CLI application.
+
+This procedure shows the general use of the AutoCoconut CLI.
+
+. Start the script on a terminal.
+. Switch to a different application and prepare for the recording.
+. Press the *stop key* to start recording (*F10* by default).
+. Perform your desired task.
+. Press the *stop key* again to stop recording.
+. You will receive the output according to your choice.
+
+=== CLI arguments and their explanation
+
+The script accepts various arguments to control the flow and the output:
+
+[horizontal]
+`-s, --stopkey`:: The _stop key_ is used to start and stop the recording. By default, it is *F10*. Using this option, you can choose a stop key to your likings.
++
+[WARNING]
+====
+If you choose a _stop key_ that you want to use as a _regular key_ later in the process, pressing that key will terminate the recording. If the *F10* key does not fit into your procedure, you can try the *esc* key. 
+====
+
+`-e, --offset`:: Defines a time (in seconds) that the script uses as an offset time correction to take the alternative screenshot. Usually, the application takes an earlier screenshot for mouse actions to make sure the screenshot avoids _hover-on_ changes of the clicked item, and a later screenshot for keyboard actions to show the result of such action. 
++
+[NOTE]
+====
+Recording applications with slower response, such as web pages that need to load, it might be better to make the offset higher, to give the later screenshot some time to wait for the application to come to a desired state. The default is *1 second*.
+====
+
+`-o, --output`:: You can choose one of several outputs. The *raw* output returns a json file with all single events without interpretation. In this json file, all key presses and releases are recorded separately, including the combinations. The *json* output provides an interpreted list of super events organized in a json file. The *adoc*, *html*, and *openqa* outputs produce a list of steps in that chosen format. The *openqa* format lists the OpenQA test commands that can be used for OpenQA scripts and also creates the _needle files_ for the screenshots.
+
+`-f, --file`:: If a filename is given, the output (including the screenshots) will be saved into a file and all recording data will be moved to a new directory to protect them from deleting when the scrit is run again. Without this option, the output is only shown on a command line.
+
+=== Examples
+
+* To use the _Esc_ key as a  _stop key_ use the `-s` argument.
++
+----
+$ ./autococonut.py -s esc
+----
+* To create the workflow in _html_ format, use the `-o` argument.
++
+----
+$ ./autococonut.py -o html
+----
+* To save the workflow in an _AsciiDoc_ file, use the `-f` and the `-o` arguments.
++
+----
+$ ./autococonut.py -o adoc -f <filename.adoc>
+----
+
+== Using the GUI version of AutoCoconut
+
+Using the GUI version of *AutoCoconut* has some advantages when compared to the CLI version, however the GUI version does not allow users to set the amount of _offset_ (see the CLI chapter) which is always *1 second*. 
+
+Use this command to start the GUI version of *AutoCoconut*:
+
+    $ ./autococonut-gui.py
+
+=== The Status Info frame
+
+*AutoCoconut* starts in the recording mode. In this mode, you can start and stop recording the events, as well as inspect the recorded events.
+
+.AutoCoconut - Status info panel
+image::./images/autococonut_status.png[AutoCoconut - status screen]
+
+On the right side of the window, the *Status info* frame displays some useful information about the current session:
+
+[horizontal]
+Filename:: Shows the selected name of the output file. To set the file name, use the *File* -> *New file* menu item. 
+Format:: Shows the selected format. The format is selected when using the *File* -> *New file* menu item, but it can be overridden using one of the *Format* menu items.
+Action:: Shows the currently selected action.
+Progress:: Shows if any changes have been made to the data.
+Recorded raw events:: Shows the number of simple events recorded during the session. This will only apply when you have actually recorded some data. The field will not show any manual changes to the events.
+Available clean events:: Shows the number of interpreted _meta_ events in the recording or the number of events in the current data.
+Recording saved:: Shows if the current recording has been saved. If *not saved* is shown, you need to save it if you want to keep the current data.
+
+=== The Record screen
+
+.AutoCoconut - Record screen
+image::./images/autococonut_recording_started.png[AutoCoconut - Recording started]
+
+The *Record* screen is the *AutoCoconut*'s default application screen. When on a different screen, you can come back to this one using
+*Actions* -> *Record* menu items.
+
+.Making the recording
+In the GUI version of AutoCoconut, you can make any number of recordings without a need to restart it. To make a recording:
+
+. Press the *Start* button. 
++
+[NOTE]
+====
+When the *Start* button is pressed, any following events will be recorded until you press the *Stop* button.
+====
+. Perform a procedure you want to record.
+. Press the *Stop* button. 
+
+.Reviewing the recording
+
+After you have made the recording, you can review the recorded data as _raw json_ or  _json_ to see the particular events. Alternatively, 
+you can have the data translated into the formatted output which will respect the selected format.
+buttons below the text field, where the data appear:
+
+. The *Show raw* button shows the _raw_ json with all recorded events.
++
+[NOTE]
+====
+When no recording has been made, because you have opened a previously saved *json* file or you have created all events manually, the _raw_ data
+will not be available for reviewing.
+====
+. The *Show clean* button shows the _interpreted_ json with the _meta_ events.
+. The *Show formatted* button shows the _formatted_ workflow description in the selected format. 
++
+[NOTE]
+====
+If no format is selected (using the *Format* menu for instance), the _clean json_ file will be shown similarly to using the *Show clean*
+button.
+====
+
+
+.Saving the recording
+
+When you are satisfied with the recorded data, you can save the output:
+
+. Use *File* -> *New file* to select the location and the output format. The selection will be indicated in the *Status Info*.
++
+[WARNING]
+====
+Selecting the new file will not actually save it. This action will only select the output file and the file format.
+====
+. Use *File* -> *Save file* to save the output data. The data will be formatted according to the selected format.
+
+
+=== The Edit screen
+
+.AutoCoconut - Edit screen
+image::./images/autococonut_edit_event.png[AutoCoconut - Edit screen]
+
+The *Edit* screen allows you to edit or delete any existing _meta_ event in the recording. 
+
+You can switch to this screen using the *Actions* -> *Edit* menu items.
+
+When you switch to this screen, the very first event will be displayed in the editation fields, if any _meta_ events exist.  *AutoCoconut* will
+only allow to edit fields that are used by the certain event and will not allow to add any other values to it in order to protect the recorded event from destroying it. 
+
+[NOTE]
+====
+Such behaviour has a good reason. If, for example, you want to edit a mouse click, there is no need why you should add values for a _key_ or a _text_ event and vice versa.
+
+Also, editting the time stamp is never allowed to maintain the chronological continuity of the data.
+====
+
+Following buttons can be used on this screen:
+
+[horizontal]
+*Previous*:: Moves backward in the sequence of events. If you reach the beginning of the sequence, pressing the button will not have any effect.
+*Next*:: Moves forward in the sequence of events. If you reach the end of the sequence, pressing the button will not have any effect.
+*Update*:: Updated the current event with the suggested changes.
+*Delete*:: Deletes the current event from the sequence of events.
++
+[NOTE]
+====
+Deleting an event may be actually very useful in situations when you need to perform several steps after you have started the recording and you do not want to keep them in your workflow.
+====
+
+[WARNING]
+====
+Updating or deleting an event *will not* save the changes to the disk. Save the file, if you want to keep the changes.
+====
+
+Changes to the data will affect some of the values in the *Status Info* frame.
+
+=== The Create screen
+
+.AutoCoconut - Create screen
+image::./images/autococonut_add_event.png[AutoCoconut - Edit screen]
+
+The *Create* screen allows you to create a new event, or a new sequence of events. Although you could use it to create the whole recording manually, the purpose to have this option is to enable corrections to the recording when an extra event would be useful.
+
+You can get to this screen using the *Actions* -> *Create* menu items.
+
+==== Available entry fields
+
+*Event time stamp*:: Each event should have a time stamp which is used to maintain chronological order among the data. You should be very careful if you want to add an event that will fit in between two existing events. In that case, the new time stamp should be bigger than that of the first event and smaller then of the second event. You are free to enter decimal values, too. If left out, the current time will be filled in automatically, which makes the created event being the last in the data. Time stamps provided by the event collector will always be in the _Unix epoch_ format.
+*Event type*:: Each event must have this set. Refer to <<quick_overview>> for available event types.
+*Event subtype*:: Each event must have this set. Refer to <<quick_overview>> for available event subtypes.
+*Event action*:: Each event represents an action. Refer to <<quick_overview>> for available event actions.
+*Used button*:: Defines a mouse button clicked during this event. Refer to <<quick_overview>> for available buttons.
+*Used key*:: Defines a key that was pressed during this event. Refer to <<keylist>> for a list of key names.
+*Typed text*:: If this event should be a typed text, the _string_ value is given here.
+*Start X and Y*:: Define the X and Y coordinates for any simple mouse click, but also the starting point coordinates for a mouse drag.
+*End X and Y*:: Define the ending point coordinates for a mouse drag.
+*Vertical scroll*:: Defines the number of steps scrolled in the vertical direction. A positive value represents the *northern* direction (up the screen) while the negative value represents the *southern* direction (down the screen).
+*Horizontal scroll*:: Defines the number of steps scrolled in the horizontal direction. A positive value represents the *eastern* direction (right) while the negative value represents the *western* direction (left). This is not available on normal mice. 
+*Combined with*:: Defines combination keys pressed during this event, such as the modifier keys (_shift_, _ctrl_, _alt_, etc.).
+*Primary and secondary images*:: Define the names of the primary and secondary screenshots for this event.
++
+[WARNING]
+====
+The application will not perform any checks whether the screenshots exist or not. Usually, the recorded screenshots are placed in the working directory and they are moved into a new location, when the project is saved for the first time. The target location will correspond with the location of the project file. 
+
+If you want to generate correct output from the saved files, make sure, you have the screenshots in the same directory as the project file and that the names do match.
+====
+
+When you are satisfied with the entered event, you can create it using the *Create* button.
+
+[NOTE]
+====
+On this page, events only can be created! If you need to edit or delete them later, switch to the *Edit* screen using *Actions* -> *Edit*.
+====
+
+
+[id="library"]
+== Key and event library
+
+*AutoCoconut* recognizes presses and releases of most of the keyboard keys as well as the most common mouse actions. Certain patterns are
+recognized in the sequence of events and merged into _meta events_ which are then stored in a json file. They inherit some of the features 
+from the single events, such as the coordinates of the mouse click point and so on.
+
+When you want to manually enter events, you should not deliberately features, but you should only add those that would be naturally present
+in the event created by the event collector. Also, when you want to constitute an event where a key is involved, you should use the correct name for the key.
+
+This part is a collection of key names and event features for your reference.
+
+[id="keylist"]
+=== Keys
+
+_Keys_ are divided into *three* main groups:
+
+1. Modifiers
+2. Special keys
+3. Alpha-numeric keys
+
+[id="modifiers"]
+==== Modifiers
+Modifiers are used to create key combinations. Usually, when a modifier is pressed for a first time, it is remembered and all events
+that happen until the same modifier is released, they are recorded as *modified*, i.e. they have this modifier in the *Combined with* field.
+You can use more than one modifier at a time.
+
+*Shift* is never recorded as a modifier when it comes with an alpha-numeric key. The capitalized version is recorded instead.
+
+*Win key* is problematic because it sometimes is returned as an empty key, therefore the application tries to guess whether an empty key
+might actually be the *Win key*. It may not be always successful, so you might want to revise carefuly in workflow which use this key.
+
+.Recognized modifiers
+[cols="15,15,15,55"]
+|===
+| *Key* | *Key type* | *Key code* | *AutoCoconut's use* 
+
+| Alt | modifier | alt | combination
+| Left Ctrl | modifier | ctrl | combination
+| Right Ctrl | modifier | ctrl_r | combination
+| Shift | modifier | shift | combinations or capitalization
+| Win key | modifier | cmd | combinations or standalone
+|===
+
+==== Special keys
+Non alpha-numeric keys are taken as *special keys*. They mostly have the same function as they would have in the system, but they might have some
+effects on the interpretation when converting _single events_ into _meta events_. For example, a special key can be combined with a modifier, but cannot be combined with mouse clicks.
+
+*Backspace* is never recorded. It is always used to correct previously typed characters.
+
+*F10* is by default used as a stop key that _starts and stops_ the recording when using the CLI version of AutoCoconut. If your workflow requires pressing this key, you have to redefine it using the `-s` or `--stopkey` option.
+
+.Recognized special keys
+[cols="15,15,15"]
+|===
+| *Key* | *Key type* | *Key code*  
+
+| Menu key | special key | menu  
+| Esc | special key | esc 
+| Enter | special key | enter 
+| Backspace | special key | backspace 
+| Insert | special key | insert 
+| Home | special key | home 
+| Page up | special key | page_up 
+| Page down | special key | page_down 
+| End | special key | end 
+| Delete | special key | delete 
+| Print Screen | special key | print_screen 
+| Scroll Lock | special key | scroll_lock
+| Caps Lock | special key | caps_lock  
+| Pause | special key | pause 
+| Up | special key | up 
+| Down | special key | down 
+| Left | special key | left 
+| Right | special key | right 
+| F1 - F9 | special keys | f1 - f9 
+| F10 | stop key | f10
+| F11 - F12 | special keys | f11 - f12
+|===
+
+[NOTE]
+====
+To reduce the number of created pictures, modifiers and special keys are the only keys that make the application
+to create a screenshot.
+====
+
+=== Mouse events
+
+There are several mouse events recognized by *AutoCoconut*. Each of the events may be described using certain features.
+
+==== Mouse click
+
+The mouse click occurs when a mouse button is clicked and released and when this event is not followed by another click
+happening right after the first one and in the same location.
+
+The typical mouse event looks like this:
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | mouse | -
+| action | click |  -
+| button | left, right, middle | indicates which button to press
+| start X | positive number | indicates the X coordinate of the click location
+| start Y | positive number | indicates the Y coordinate of the click location 
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: Right mouse button click at 1000, 450 (not modified)
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | click 
+| button | right
+| start X | 1000
+| start Y | 450 
+| primary image | click_start_button.png
+| alternative image | before_click_start_button.png
+| combined with | _empty field_ 
+|===
+
+==== Mouse scroll
+
+The mouse scroll is a situation when when a mouse wheel is scrolled in a certain direction.
+
+The typical mouse scroll has the following features:
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | mouse | -
+| action | scroll |  -
+| start X | positive number | indicates the X coordinate of the mouse position
+| start Y | positive number | indicates the Y coordinate of the mouse position 
+| horizontal | number | shows how many scroll steps were made in the horizontal direction 
+| vertical | number | shows how many scroll steps were made in the vertical direction 
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: Mouse scroll 28 steps southbound (down), not modified
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | scroll 
+| start X | 1000
+| start Y | 450 
+| horizontal | 0
+| vertical | -28
+| primary image | mouse_scroll.png
+| alternative image | mouse_scroll_alt.png
+| combined with | _empty field_ 
+|===
+
+==== Mouse double click
+
+The mouse double click occurs when a mouse button is clicked and released twice in a very short time and in the same or a very near location.
+
+The typical mouse double click like this:
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | mouse | -
+| action | doubleclick |  -
+| button | left, right, middle | indicates which button to press
+| start X | positive number | indicates the X coordinate of the click location
+| start Y | positive number | indicates the Y coordinate of the click location 
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: Left mouse button doubleclick at 1000, 450 (not modified)
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | doubleclick 
+| button | left
+| start X | 1000
+| start Y | 450 
+| primary image | double_clicked.png
+| alternative image | double_clicked_alt.png
+| combined with | _empty field_ 
+|===
+
+==== Mouse drag
+
+The mouse drag occurs when a mouse button is clicked and held, the mouse is moved and then the button is released.
+
+The typical mouse drag like this:
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | mouse | -
+| action | drag |  -
+| button | left, right, middle | indicates which button to press
+| start X | positive number | indicates the X coordinate of the click location
+| start Y | positive number | indicates the Y coordinate of the click location 
+| end X | positive number | indicates the X coordinate of the release location
+| end Y | positive number | indicates the Y coordinate of the release location 
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: Left mouse button drag from 1000, 450 to 1500, 650 
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | drag 
+| button | left
+| start X | 1000
+| start Y | 450 
+| end X | 1500
+| end Y | 650 
+| primary image | mouse_dragged.png
+| alternative image | mouse_dragged_alt.png
+| combined with | _empty field_
+|===
+
+=== Key events
+
+Anytime a key is pressed, *AutoCoconut* records a key event which is later categorized into one of the groups.
+
+==== Key press
+
+In *AutoCoconut* if an alpha-numeric key is pressed, it will be regarded as _typing a text_ and not a single key *press*. These are only
+reserved for _special_ keys.
+
+==== Special key press
+
+A _special key_ press is recorded any time such a key is pressed. The event uses the following features.
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | key | -
+| subtype | special | -
+| action | press |  -
+| key | name of key | indicates which key is pressed
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: F5 key press (not modified)
+|===
+| timestamp | 1623421318.394444
+| type | key
+| subtype | special
+| action | press
+| key | f5
+| primary image | f5_pressed.png
+| alternative image | f5_pressed_alt.png
+| combined with |  _empty field_
+|===
+
+
+==== Modifier press
+
+A _modifier_ press is recorded any time a modifier (see <<modifiers>>) is pressed. Modifiers are mostly used with other keys
+so each time a modifier is pressed, *AutoCoconut* records a *key combination* even if the modifier is pressed alone.
+The behaviour of the modifiers also differs from the other keys because they need to be properly released using a *release event*
+in order to tell the application where to exit the modified context. 
+
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | key combination | -
+| subtype | modifier | -
+| action | press |  -
+| key | name of key | indicates which key is pressed
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: CTRL key pressed.
+|===
+| timestamp | 1623421318.394444
+| type | key combination
+| subtype | modifier
+| action | press
+| key | ctrl
+| primary image | modifier_pressed.png
+| alternative image | modifier_pressed_alt.png
+| combined with |  ctrl
+|===
+
+==== Modifier release
+
+A release is recorded any time a modifier (see <<modifiers>>) is released. Releasing a modifier is a crucial event
+that is used to exit the modified event and close a key combination. Whenever you use a modifier press, you need to
+add the modified release as well as a rule.
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | key | -
+| subtype | modifier | -
+| action | release |  -
+| key | name of key | indicates which key is pressed
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: CTRL key released.
+|===
+| timestamp | 1623421318.394444
+| type | key 
+| subtype | modifier
+| action | release
+| key | ctrl
+| primary image | modifier_released.png
+| alternative image | modifier_released_alt.png
+| combined with |  ctrl
+|===
+
+==== Typing
+
+*Typing* occurs any time an alpha-numeric key (or a sequence of these keys) is pressed. *AutoCoconut* keeps recording alpha-numeric keys
+into a typing buffer until a mouse event, a special key event, or a modifier event occurs, which terminates the typing sequence.
+The typing sequence is than added as a *single event* which you might add, edit, or delete.
+
+Typing sequences do not have any screenshots assigned, because alpha-numeric keys do not take screenshots to save resources as
+there might be a lot of typing involved.
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | typing | -
+| subtype | text | -
+| action | type |  -
+| key | name of key | indicates which key was the last key of the typing sequence
+| text | string | indicates the typed in string
+| primary image | file name | _empty field_
+| alternative image | file name | _empty field_
+| combined with | empty or key name(s) | _empty field_
+|===
+
+.Example: A dangerous command typed.
+|===
+| timestamp | 1623421318.394444
+| type | typing 
+| subtype | text
+| action | type
+| text | rm -rf *
+| primary image | -
+| alternative image | - 
+| combined with | -
+|===
+
+==== Key combo
+
+A *key combo* is a situation when a modifier is pressed, then some other keys are pressed and then the modifier is released again. Most of the time,
+the modifiers are combined with alpha-numeric keys, but they also can be combined with special keys and mouse events (see <<combinations>>). 
+
+The typical key combo has the following features:
+
+[cols="25,25,50"]
+|===
+| Key word | Value | More info
+
+| timestamp | positive (decimal) number | usually an epoch number, e.g. 1623421318.394444
+| type | key combination | -
+| subtype | modifier | -
+| action | press |  -
+| key | name of key | indicates which key is pressed
+| primary image | file name | indicates the image file used for the primary image
+| alternative image | file name | indicates the image file used for the alternative image
+| combined with | empty or key name(s) | indicates if the event is modified
+|===
+
+.Example: CTRL-ALT-K key combo pressed.
+|===
+| timestamp | 1623421318.394444
+| type | key combination
+| subtype | modifier
+| action | press
+| key | k
+| primary image | key_combo_pressed.png
+| alternative image | key_combo_pressed_alt.png
+| combined with |  ctrl-alt
+|===
+
+[NOTE]
+====
+Remember that any key combo event is followed by a modifier release event. The released modifier should be the very first modifier pressed in
+this combination.
+====
+
+[id="combinations"]
+=== Combined events
+
+Combined evets are mouse events happening when one or more modifiers are pressed. To create or edit them, do as if you wanted to create
+a mouse event and indicate the pressed modifier in the *Combined with* field.
+
+==== Modified click
+
+.Example: Right mouse button click at 1000, 450 modified with CTRL
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | click 
+| button | right
+| start X | 1000
+| start Y | 450 
+| primary image | click_start_button.png
+| alternative image | before_click_start_button.png
+| combined with | ctrl 
+|===
+
+==== Modified double click
+
+.Example: Left mouse button doubleclick at 1000, 450 modified with ALT. 
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | doubleclick 
+| button | left
+| start X | 1000
+| start Y | 450 
+| primary image | double_clicked.png
+| alternative image | double_clicked_alt.png
+| combined with | alt 
+|===
+
+==== Modified scroll
+
+.Example: Mouse scroll 28 steps southbound (down), modified with ALT-SHIFT
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | scroll 
+| start X | 1000
+| start Y | 450 
+| horizontal | 0
+| vertical | -28
+| primary image | mouse_scroll.png
+| alternative image | mouse_scroll_alt.png
+| combined with | alt-shift 
+|===
+
+==== Modified drag
+
+.Example: Left mouse button drag from 1000, 450 to 1500, 650 combined with CTRL-ALT 
+|===
+| timestamp | 1623421318.394444
+| type | mouse 
+| action | drag 
+| button | left
+| start X | 1000
+| start Y | 450 
+| end X | 1500
+| end Y | 650 
+| primary image | mouse_dragged.png
+| alternative image | mouse_dragged_alt.png
+| combined with | ctrl-alt
+|===
+
+[id="quick_overview"]
+=== Quick overview of event features
+
+|===
+| Feature | Possible values | Comment
+
+| type | `mouse`, `key`, `key combination`, `typing` | always required
+| subtype | `special`, `modifier`, `text` | required for key events
+| action | `click`, `drag`, `scroll`, `doubleclick`,`press`, `type`, `release` | always required
+| button | `left`, `middle`, `right` | required for click, doubleclick and drag
+| key | see <<keylist>> | required for key events
+| text | string | required for typing events
+| vertical scroll | number | required for scrolls
+| horizontal scroll | number | required for scrolls
+| start X and Y | positive numbers | required for mouse events
+| end X and Y | positive numbers | required for mouse drags
+| combined with | modifier(s), see <<modifiers>> | required for key combinations
+| primary and alternative image | filename | recommended for mouse events, special keys, key combinations
+|===
+
+[NOTE]
+====
+Do not use any of the features in an event when they are not explicitely required, except for screenshots.
+====
