@@ -1,0 +1,3 @@
+[console_scripts]
+fiume = Fiume.cli:main
+
