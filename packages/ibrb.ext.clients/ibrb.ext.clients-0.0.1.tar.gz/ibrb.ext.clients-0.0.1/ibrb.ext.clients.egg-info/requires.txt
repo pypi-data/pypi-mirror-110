@@ -1,0 +1,6 @@
+
+[all]
+web3
+
+[ethereum]
+web3
