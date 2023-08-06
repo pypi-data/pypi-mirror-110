@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bin/run_color_module_RGB_HSV_HEX_demo.py
+src/rgbw_colorspace_converter/__init__.py
+src/rgbw_colorspace_converter.egg-info/PKG-INFO
+src/rgbw_colorspace_converter.egg-info/SOURCES.txt
+src/rgbw_colorspace_converter.egg-info/dependency_links.txt
+src/rgbw_colorspace_converter.egg-info/top_level.txt
+src/rgbw_colorspace_converter/colors/__init__.py
+src/rgbw_colorspace_converter/colors/converters.py
+src/rgbw_colorspace_converter/colors/util/__init__.py
+src/rgbw_colorspace_converter/colors/util/morph.py
