@@ -1,0 +1,28 @@
+{% extends 'w3bsite/classes/apps/defaults/html/base.html' %}
+{% load static %}
+
+<!-- PRE BASE -->
+{% block pre_base %}
+
+	<!-- top bar -->
+	{% include 'defaults/html/topbar.html' %}
+
+	<!-- styling -->
+	<script type="text/javascript">
+	</script>
+
+{% endblock %}
+
+
+<!-- POST BASE -->
+{% block post_base %}
+
+	<!-- styling -->
+	<script type="text/javascript">
+		document.getElementById("content").style.background = "#00000010"
+		document.getElementById("darkmode_control_bar").style.display = "none"
+		toggle_rightbar("hide")
+		toggle_leftbar("hide")
+	</script>
+
+{% endblock %}

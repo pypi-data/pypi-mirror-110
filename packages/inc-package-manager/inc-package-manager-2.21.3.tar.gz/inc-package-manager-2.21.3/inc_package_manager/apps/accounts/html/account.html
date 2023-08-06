@@ -1,0 +1,84 @@
+{% extends 'defaults/html/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript">
+	toggle_topbar("show")
+	toggle_full_screen("hide")
+	set_header_path("account/")
+	document.getElementById("topbar.account").style.display = "none"
+</script>
+
+<!-- CONTROL BAR -->
+<div id="control_bar" style="padding: 20px 0px 20px 0px; overflow: scroll; display: none;">
+	<div style="display: flex;">
+		<div style="width: auto; display: flex; flex-direction: row;">
+		</div>
+		<div style="flex: 1; display: flex; flex-direction: row-reverse;">
+			<a href="#" class="empty_a">
+				<button id="control_bar.close" class="button_bordered_reversed" onclick="__toggle__('references')" style="font-size: 12px; padding: 5px 20px 5px 20px; margin: 5px 5px 5px 5px; width: auto; min-width: none; white-space: nowrap; color: {{COLORS.button_bg_reversed}}" onmouseout="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseenter="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+					Close
+				</button>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- REFERENCES -->
+<div id="references" class="full_window">
+	<div style="overflow: scroll; padding: 20px 20px 20px 20px;">
+		<!-- account -->
+		<div class="widget_reversed"  style="min-width: 200px; padding-bottom: 25px; float: left; margin: 10px 10px 10px 10px;">
+			<img src="{% static 'media/icons/white/user_8.png' %}" alt="VanDenBerghInc" width="55" style="width: 55px; height: 55px; display: block; margin: 0 auto; margin-top: 10px; margin-bottom: 10px;" />
+			<a href="#" class="empty_a">
+				<button class="button_reversed" onclick="__toggle__('edit_account')"  style="border: 1px solid #00000000;" onmouseenter="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseout="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+					Account
+				</button>
+			</a>
+		</div>
+		<!-- password -->
+		<div class="widget_reversed"  style="min-width: 200px; padding-bottom: 25px; float: left; margin: 10px 10px 10px 10px;">
+			<img src="{% static 'media/icons/white/security_2.png' %}" alt="VanDenBerghInc" width="55" style="width: 55px; height: 55px; display: block; margin: 0 auto; margin-top: 10px; margin-bottom: 10px;" />
+			<a href="#" class="empty_a">
+				<button class="button_reversed" onclick="__toggle__('edit_password')"  style="border: 1px solid #00000000;" onmouseenter="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseout="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+					Password
+				</button>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- WIDGETS -->
+{% include "accounts/html/widgets/edit_account.html" %}
+{% include "accounts/html/widgets/edit_password.html" %}
+
+<!-- JAVASCRIPT -->	
+<script type="text/javascript">
+
+	// elements.
+	var widgets = {
+		references:document.getElementById("references"),
+		edit_account:document.getElementById("edit_account"),
+		edit_password:document.getElementById("edit_password"),
+	}
+	var control_bar = {
+		close:document.getElementById("control_bar.close"),
+	}
+
+	// toggle the widgets & control bar.
+	function __toggle__(target=null) {
+		if (target == 'references') {
+			document.getElementById("control_bar").style.display = "none"
+		} else {
+			document.getElementById("control_bar").style.display = "block"
+		}
+		toggle_widgets(target, widgets)
+	}
+	__toggle__("references")	
+
+</script>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends 'defaults/html/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript">
+	toggle_topbar("show")
+	toggle_full_screen("hide")
+	set_header_path("docs/{{PACKAGE.id}}")
+</script>
+
+<!-- DOCS -->
+<div class="full_window">
+	<div id="loader" class="centered" style="height: 100%;">
+		<h2 class="title_reversed" style="margin-bottom: 25px;">
+			Loading Documentation
+		</h2>
+		<div class="loader_reversed" style="transform: scale(1.0); display: block; margin: 0 auto;"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+	</div>
+	<div id="docs" style="height: 100%; width: 100%;">
+		<!-- <object type="text/html" border="0" data="https://api.vandenberghinc.com/docs/{{PACKAGE.id}}/?raw=true" width="100%" height="100%" style="overflow: auto;"> 
+		</object> -->
+	</div>
+	<script type="text/javascript">
+		var docs = document.getElementById("docs")
+		var loader = document.getElementById("loader")
+		setTimeout(function() {
+			var object = document.createElement("object")
+			object.setAttribute("type", "text/html")
+			object.setAttribute("border", "0")
+			object.setAttribute("width", "100%")
+			object.setAttribute("height", "100%")
+			object.style.overflow = "auto"
+			object.style.display = "none"
+			object.setAttribute("data", "https://api.vandenberghinc.com/docs/{{PACKAGE.id}}/?raw=true")
+			docs.appendChild(object)
+			loader.style.display = "none"
+			object.style.display = "block"
+			
+		}, 1000)
+	</script>
+</div>
+
+
+{% endblock %}

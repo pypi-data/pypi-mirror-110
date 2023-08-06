@@ -1,0 +1,61 @@
+{% load static %}
+
+<!-- activate encryption. -->
+<div id="edit_account" style="display: none;">
+	<div class="widget_reversed" style="max-width: 1200px; margin: 0 auto; padding-bottom: 35px;">
+		<div style="max-width: 600px; margin: 0 auto;">
+			<h1 class="title_reversed">
+				Edit Account
+			</h1>
+			<p class="text_reversed">
+				Configure your account settings.
+			</p>
+			<div class="wrapper" style="">
+				<p class="text_reversed" style="padding-right: 10px; margin-top: 7.5px;  white-space: nowrap;">Username:</p>
+				<input readonly="true" onkeydown="if (event.keyCode==13) { edit_account() }" id="edit_account.username" value="{{USER.username}}" value="" placeholder="username" class="input_bordered" type="text">
+			</div>
+			<div class="wrapper" style="">
+				<p class="text_reversed" style="padding-right: 10px; margin-top: 7.5px;  white-space: nowrap;">Email:</p>
+				<input required onkeydown="if (event.keyCode==13) { edit_account() }" id="edit_account.email" value="{{USER.email}}" placeholder="email" class="input_bordered" type="text">
+			</div>
+			<div class="wrapper" style="">
+				<p class="text_reversed" style="padding-right: 10px; margin-top: 7.5px;  white-space: nowrap;">Name:</p>
+				<input required onkeydown="if (event.keyCode==13) { edit_account() }" id="edit_account.name" value="{{USER.name}}" placeholder="name" class="input_bordered" type="text">
+			</div>
+			<p class="text_reversed" id="edit_account.response" style="display: none; font-size: 12px; width: 100%; "></p>
+			<div class="loader_reversed" id="edit_account.loader" style="transform: scale(0.33); display: block; margin: 0 auto; display: none;"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+			<button class="button_reversed" onclick="edit_account()">
+				<a href="#" class="empty_a">
+					Edit
+				</a>
+			</button>
+		</div>
+	</div>
+</div>
+
+<!-- js -->
+<script type="text/javascript">
+
+	// elements.
+	var edit_account_elements = {
+		edit_account: {
+			username:document.getElementById("edit_account.username"),
+			email:document.getElementById("edit_account.email"),
+			name:document.getElementById("edit_account.name"),
+			response:document.getElementById("edit_account.response"),
+			loader:document.getElementById("edit_account.loader"),
+		},
+	}
+
+	// edit account settings.
+	function edit_account() {
+		request("/requests/accounts/edit/", {
+			username: edit_account_elements.edit_account.username.value,
+			email: edit_account_elements.edit_account.email.value,
+			name: edit_account_elements.edit_account.name.value,
+			response:edit_account_elements.edit_account.response,
+			loader:edit_account_elements.edit_account.loader,
+		})
+	}
+
+</script>

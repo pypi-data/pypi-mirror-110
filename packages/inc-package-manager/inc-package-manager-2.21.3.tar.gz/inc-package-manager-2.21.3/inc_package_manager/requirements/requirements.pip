@@ -1,0 +1,8 @@
+
+# pip requirements.
+django-cors-headers
+
+# inc requirements.
+dev0s>=3.33.7
+w3bsite>=4.56.9
+

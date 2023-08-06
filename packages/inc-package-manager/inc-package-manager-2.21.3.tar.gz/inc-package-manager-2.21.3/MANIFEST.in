@@ -1,0 +1,9 @@
+include inc_package_manager/.version
+include inc_package_manager/requirements/*
+include inc_package_manager/__defaults__/django/*.py
+include inc_package_manager/__defaults__/static/*
+include inc_package_manager/__defaults__/static/media/*/**
+include inc_package_manager/__defaults__/static/media/icons/*/**
+include inc_package_manager/__defaults__/static/media/logos/*/**
+include inc_package_manager/apps/*/html/*
+include inc_package_manager/apps/*/html/*/**
