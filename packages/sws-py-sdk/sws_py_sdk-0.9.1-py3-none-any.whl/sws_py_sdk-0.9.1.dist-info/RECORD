@@ -1,0 +1,11 @@
+sws_py_sdk/ecom.py,sha256=1cQZJdqu14Hi1WwFJMR7T7aKIULNwAWJurOIaKFsKeQ,8002
+sws_py_sdk/firewall_header.py,sha256=cAEyLX3bBVaUsqhNr-YC2xhG_nXzL5SsAKtaRKl19k0,3132
+sws_py_sdk/identity.py,sha256=qQ2sd6plVxRfWxhgVSGQHrR3Gi1gn-n9fHbvPLyjwnw,8412
+sws_py_sdk/license.py,sha256=NfZ3aRDspeWyrYLoJuf2amHUlKlKmMqBS9EoVaM9cuY,17598
+sws_py_sdk/service.py,sha256=IEuzQ33jwmgnUKpCaGIFKvE7VxxFXEJviZ3MxRUTkVE,4851
+sws_py_sdk/sws.py,sha256=FOI0YH-5Xe-Aw-JeWOqdao3J6FfoY3uzcTkiTUuWOZ4,2522
+sws_py_sdk/sws_client.py,sha256=G3iyWtyslK0fnxrkLVAWYRZjGHnbi4mB_l8_1cAxnt0,3452
+sws_py_sdk-0.9.1.dist-info/METADATA,sha256=95jfLjVgjCnApNKnVaM69c6GpzpeeamL5ohQUXFKV0Y,711
+sws_py_sdk-0.9.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sws_py_sdk-0.9.1.dist-info/top_level.txt,sha256=S7Wku2vILL4-GkqUuM-rMUsvLyJ6n7mkXqD340SfNGU,11
+sws_py_sdk-0.9.1.dist-info/RECORD,,
