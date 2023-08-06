@@ -1,0 +1,4 @@
+[console_scripts]
+release_flow=foodx_devops_tools.release_flow:flit_entry
+release_id=foodx_devops_tools.release_id:flit_entry
+
