@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mostly_harmless_lib
+Version: 2.0.2
+Summary: Mostly Harmless Library for Python
+Home-page: UNKNOWN
+Author: Wolfgang Kühn
+License: UNKNOWN
+Platform: UNKNOWN
+
+This is a harmless or after some experience with it mostly harmless library for Python
+

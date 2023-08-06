@@ -1,0 +1,6 @@
+setup.py
+mostly-harmless-lib/__init__.py
+mostly_harmless_lib.egg-info/PKG-INFO
+mostly_harmless_lib.egg-info/SOURCES.txt
+mostly_harmless_lib.egg-info/dependency_links.txt
+mostly_harmless_lib.egg-info/top_level.txt
