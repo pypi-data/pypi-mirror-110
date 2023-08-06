@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: at30ts00
+Version: 1.0.0
+Summary: Support for the at30ts00 sensor
+Home-page: https://github.com/matteoscordino/python-AT30TS00-sensor
+Author: Matteo Scordino
+License: UNKNOWN
+Keywords: AT30TS00
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: smbus
+
+# python-AT30TS00-sensor
+Python 3 module for AT30TS00 temperature sensor reading. It uses I2C to talk to the AT30TS00.
+At the moment it only supports initialisation and simple temperature reading, no alarms etc.
+
+See [here](https://www.microchip.com/wwwproducts/en/AT30TS00) for the official datasheet at Microchip
+
+
