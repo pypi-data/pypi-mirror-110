@@ -1,0 +1,3 @@
+[console_scripts]
+fitterbap = pyfitterbap.__main__:run
+
