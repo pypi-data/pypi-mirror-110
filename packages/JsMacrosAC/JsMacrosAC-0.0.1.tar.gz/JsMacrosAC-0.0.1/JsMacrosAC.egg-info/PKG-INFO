@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: JsMacrosAC
+Version: 0.0.1
+Summary: A package to let your IDE know what JsMacros can do
+Home-page: UNKNOWN
+Author: Hasenzahn1
+Author-email: <motzer10@gmx.de>
+License: UNKNOWN
+Description: This Package add all classes listed in the Doc to Python so you can autocomplete then in your IDE
+Keywords: python,JsMacros,Autocomplete,Doc
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
