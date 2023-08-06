@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: card_deck
+Version: 1.0.12
+Summary: An object model of a pack of cards
+Home-page: https://github.com/EdmundGoodman/card_deck
+Author: Edmund Goodman
+Author-email: egoodman3141@gmail.com
+License: MIT
+Download-URL: https://github.com/EdmundGoodman/card_deck/archive/refs/tags/v1.0.12.tar.gz
+Description: Card Deck
+        =========
+        
+        An object model of a pack of cards, written in Python, to streamline writing programs to model/play games involving cards
+        
+        
+        Documentation
+        -------------
+        
+        Documentation for the library can be found here: [https://card-deck.readthedocs.io/en/latest/](https://card-deck.readthedocs.io/en/latest/)
+        
+        Importing the module
+        --------------------
+        
+        ``` {python}
+        from card_deck import card_deck
+        ```
+        
+        Creating and dealing from a deck of cards
+        -----------------------------------------
+        
+        ``` {python}
+        from card_deck import *
+        d = Deck()
+        # Deal 5 cards from the deck into 3 different hands
+        hands = d.deal(3,5)
+        ```
+        
+        Taking user input to create a Card object
+        -----------------------------------------
+        
+        ``` {python}
+        inp = str(input("Enter the typeable name of a card: "))
+        card = Card.get_from_typeable_name(inp)
+        print(card)
+        ```
+        
+        Installation
+        ------------
+        
+        ``` {python}
+        pip install card-deck
+        ```
+        
+        Requirements
+        ------------
+        
+        There are no additional required libraries
+        
+Keywords: game,card,model
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
