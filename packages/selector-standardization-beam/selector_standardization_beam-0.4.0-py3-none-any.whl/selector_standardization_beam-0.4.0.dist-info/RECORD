@@ -1,0 +1,10 @@
+org/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+org/codeforrussia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+org/codeforrussia/selector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+org/codeforrussia/selector/beam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+org/codeforrussia/selector/beam/pipeline.py,sha256=gG_u7_QGc14jvpy5J3ImBxIqS7SMBhQIhtJNM4VIt4c,4269
+selector_standardization_beam-0.4.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+selector_standardization_beam-0.4.0.dist-info/METADATA,sha256=rXS6_SsgsdysOhLteMCXHGmLkeVQ9UALML83LdN6RS0,907
+selector_standardization_beam-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+selector_standardization_beam-0.4.0.dist-info/top_level.txt,sha256=Y-Q3pQ6MMlBKzHVfq3nXGvODPPpbfj5OBXrcr17O02w,4
+selector_standardization_beam-0.4.0.dist-info/RECORD,,
