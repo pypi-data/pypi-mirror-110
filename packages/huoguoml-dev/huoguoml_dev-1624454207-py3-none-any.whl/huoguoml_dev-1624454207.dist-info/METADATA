@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: huoguoml-dev
+Version: 1624454207
+Summary: A platform for managing and serving Machine Learning types.
+Home-page: https://huoguoml.github.io
+Author: Steven Mi
+License: Apache 2.0
+Keywords: HuoguoML
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Unix Shell
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+Requires-Dist: pytest
+Requires-Dist: uvicorn
+Requires-Dist: aiofiles
+Requires-Dist: fastapi (>=0.65)
+Requires-Dist: click
+Requires-Dist: python-multipart
+Provides-Extra: aiofiles
+Requires-Dist: aiofiles ; extra == 'aiofiles'
+Provides-Extra: all
+Requires-Dist: sqlalchemy ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: uvicorn ; extra == 'all'
+Requires-Dist: aiofiles ; extra == 'all'
+Requires-Dist: fastapi (>=0.65) ; extra == 'all'
+Requires-Dist: click ; extra == 'all'
+Requires-Dist: python-multipart ; extra == 'all'
+Provides-Extra: click
+Requires-Dist: click ; extra == 'click'
+Provides-Extra: dev
+Requires-Dist: sqlalchemy ; extra == 'dev'
+Requires-Dist: uvicorn ; extra == 'dev'
+Requires-Dist: aiofiles ; extra == 'dev'
+Requires-Dist: fastapi (>=0.65) ; extra == 'dev'
+Requires-Dist: click ; extra == 'dev'
+Requires-Dist: python-multipart ; extra == 'dev'
+Provides-Extra: fastapi
+Requires-Dist: fastapi (>=0.65) ; extra == 'fastapi'
+Provides-Extra: pytest
+Requires-Dist: pytest ; extra == 'pytest'
+Provides-Extra: python-multipart
+Requires-Dist: python-multipart ; extra == 'python-multipart'
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlalchemy ; extra == 'sqlalchemy'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Provides-Extra: uvicorn
+Requires-Dist: uvicorn ; extra == 'uvicorn'
+
+> **Note:** HuoguoML is stil under development and can have some unknown issues.
+>
+<div align="center">
+<h1>🍲 HuoguoML</h1>
+</div>
+
+When dealing with Machine Learning applications, there is a high management and coordination effort for data scientists,
+as they have to collaborately analyze, evaluate and update many different models with different metadata on a regular
+basis. **HuoguoML** aims to simplify the management process by providing a platform for managing and serving machine
+learning models. It enables:
+
+- **Individual Data Scientists** to track experiments locally on their machine and output models to ML engineers, who
+  then deploy them using HuoguoML's deployment tools.
+- **Data Science Teams** to set up a HuoguoML tracking server to log and compare the results of multiple data scientists
+  working on the same or a different problem. Then, by setting up a convention for naming their parameters and metrics,
+  they can try different algorithms to solve the same problem and then run the same algorithms again on new data to
+  compare models in the future. In addition, anyone can download and run a different model.
+- **ML Engineers** to deploy models from different ML libraries in the same way by executing a simple command. Each
+  service is centrally maintained and supports OTA updates. On its own, a HuoguoML Service is based on FastAPI and can
+  be extended with standard FastAPI tools. It supports all use cases, be it storing predictions with middleware or
+  adding new endpoints e.g. for Prometheus.
+
+## Installation
+
+HuoguoML can be installed via PyPI. Install the stable version of HuoguoML via PyPI:
+
+```bash
+pip install huoguoml
+```
+
+or get the development version, which is updated with every commit on the main branch:
+
+```bash
+pip install huoguoml-dev
+```
+
+## Examples
+
+Just starting out? Try out our examples which work out of the box:
+
+| Example                          | Description   | 
+| --------------------------       | -------------| 
+| [Tensorflow MNIST](examples/tensorflow-mnist)    | Building a MNIST classifier with Tensorflow and HuoguoML | 
+
+## Documentation
+
+Apart from learning from the examples, we highly recommended you go through
+our [documentation](https://steven-mi.gitbook.io/huoguoml/), as it gives you a more detailed guide to HuoguoML
+
+Our docs are built on every push to the main or docs branch.
+
+## Contributing
+
+We encourage you to contribute to HuoguoML! Please check out the [Contributing guide](CONTRIBUTING.md) for guidelines
+about how to proceed.
+
+## License
+
+Apache License Version 2.0, see [LICENSE](LICENSE)
+
+
