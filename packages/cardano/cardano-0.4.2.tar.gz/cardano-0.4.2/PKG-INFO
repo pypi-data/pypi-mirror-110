@@ -1,0 +1,108 @@
+Metadata-Version: 1.1
+Name: cardano
+Version: 0.4.2
+Summary: Python module for handling Cardano cryptocurrency
+Home-page: https://github.com/emesik/cardano-python/
+Author: Michał Sałaban
+Author-email: michal@salaban.info
+License: BSD-3-Clause
+Description: Python Cardano module
+        =====================
+        
+        **This software is in early development phase. Please consider it experimental and don't rely on any
+        API to be stable in the future.**
+        
+        There's release 0.4.2 available for those brave enough to try it.
+        
+        This module is the implementation of `the idea`_ submitted to Catalyst Project.
+        
+        .. _`the idea`: https://cardano.ideascale.com/a/dtd/Python-module/333770-48088
+        
+        Prerequisites
+        -------------
+        
+        1. You need to have a `cardano-node` running.
+        2. You need to have a `cardano-wallet` running and connected to the node.
+        3. The rest you find in the `documentation`_.
+        
+        Please note it is most safe to run both node and wallet software on your local machine. The network
+        security is well beyond the scope of this documentation, though. Also, I strongly recommend using
+        the Cardano *testnet* for any software development and testing.
+        
+        .. _`documentation`: http://cardano-python.readthedocs.io/en/latest/
+        
+        Roadmap
+        -------
+        
+        The roadmap is delayed from what I posted originally in the proposal. This is because I've mistaken
+        the voting dates and during the work I also learned that some of the ideas aren't as easy as I
+        thought them to be (surprise ;)
+        
+        I started the work even though the vote was still underway. As for today, it is confirmed the
+        project would receive funding.
+        
+        The following timeline is still subject to reassessment, hopefully minimal.
+        
+        +------------+---------+--------------------------------------------------------------------------+
+        | date       | version | features                                                                 |
+        +============+=========+==========================================================================+
+        | 2021-03-16 | 0.1     | - classes for Wallet, Address and Transaction                            |
+        |            |         | - create wallet from seed                                                |
+        |            |         | - retrieve wallet                                                        |
+        |            |         | - check balance                                                          |
+        |            |         | - list historical transactions                                           |
+        |            |         | - send transfer                                                          |
+        +------------+---------+--------------------------------------------------------------------------+
+        | 2021-03-28 | 0.2     | - fixed transaction API                                                  |
+        |            |         | - listing native assets (other than ADA)                                 |
+        |            |         | - docs for 0.1 features                                                  |
+        +------------+---------+--------------------------------------------------------------------------+
+        | 2021-04-11 | 0.3     | - add metadata to transactions                                           |
+        |            |         | - docs for 0.2 features                                                  |
+        +------------+---------+--------------------------------------------------------------------------+
+        | 2021-04-18 | 0.4     | - fee estimation                                                         |
+        +------------+---------+--------------------------------------------------------------------------+
+        | 2021-04-25 | 0.5     | - stake                                                                  |
+        |            |         | - unstake                                                                |
+        |            |         | - docs for 0.4 features                                                  |
+        +------------+---------+--------------------------------------------------------------------------+
+        | 2021-05-04 | 0.6     | - UTXO stats                                                             |
+        |            |         | - coin selection                                                         |
+        |            |         | - address validation                                                     |
+        |            |         | - docs for 0.5 + 0.6 features                                            |
+        +------------+---------+--------------------------------------------------------------------------+
+        
+        Also, there are optional features that aren't included in the Catalyst proposal.
+        I'll try to implement them if time permits, otherwise the list below will become a TODO once
+        the Catalyst-funded phase concludes.
+        
+        - key operations (HD wallet key generation)
+        - seed to key and vice versa conversion
+        - advanced filtering of incoming and outgoing transfers
+        - transaction forgetting
+        - handling of Byron wallets
+        - Goguen features (smart contracts?)
+        
+        Donate
+        ------
+        
+        If you like to support the idea with a donation, the address is::
+        
+            addr1qy5xfmuxy22h9c82h2fc96du769cyqptn45h9xhqkjwuh07y42xxcwu506y3czyjp00f66r9t2u5nrrunyu867f2fcmskzkcmp
+        
+        .. image:: donate.qr.png
+        
+        Thank you.
+        
+Keywords: cardano cryptocurrency
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
