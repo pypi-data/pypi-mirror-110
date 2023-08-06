@@ -1,0 +1,10 @@
+tap_amazon_sp/__init__.py,sha256=NNFWh4jnx01FdQJj6nR-yqKz6VkM3mM9_1KKshY7EU8,3704
+tap_amazon_sp/schemas/orders.json,sha256=Dcy02eK1tkPZycIbdPPeJZ32zmxbJBxnEaN9MINMsyE,27860
+tap_amazon_sp/streams/__init__.py,sha256=IdlpDHXHRx8Dxh6WncS0byDqOKV1uCnVsw65Mkn0grI,167
+tap_amazon_sp/streams/orders.py,sha256=X4TfN32TFvdNw8Z50gq6kWVol7NYnF4XM-Bl27nSL8o,4827
+tap_amazon_sp-0.1.1.dist-info/LICENSE,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+tap_amazon_sp-0.1.1.dist-info/METADATA,sha256=u12boDXHTcLEn9KEZoM85mdvMQnQ95g_sWHzAbMxvOw,3428
+tap_amazon_sp-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tap_amazon_sp-0.1.1.dist-info/entry_points.txt,sha256=z45YTwUxCyGlsGKUmdfNKXUVYwJmyZdhZZS-cJMbwjs,64
+tap_amazon_sp-0.1.1.dist-info/top_level.txt,sha256=G_yBmswZJAAvTnhYFqKCnBniVO28_DwXUAoQWpQsrqU,14
+tap_amazon_sp-0.1.1.dist-info/RECORD,,
