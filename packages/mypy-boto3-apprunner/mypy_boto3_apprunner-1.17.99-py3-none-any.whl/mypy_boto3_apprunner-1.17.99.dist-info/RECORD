@@ -1,0 +1,15 @@
+mypy_boto3_apprunner/__init__.py,sha256=mp_JiUeKzp1Xjro03q3Jf5I3w71NiQuk8WecnclOKOM,439
+mypy_boto3_apprunner/__init__.pyi,sha256=Gefs6em6sZkCeVi7mmvJ53Y9Ac1ssc8ynml-ZPXmS5E,438
+mypy_boto3_apprunner/__main__.py,sha256=gGuNwMEjJI6vXjxcFp_xxm-e025gw1gzZcX2CYJzuNo,733
+mypy_boto3_apprunner/client.py,sha256=-YZGZERd9B8hztHjc4REDehmA9vVkJgLMNbw8kVZ8z8,14105
+mypy_boto3_apprunner/client.pyi,sha256=SmwWBKfd_MuUU1tca49ATLKDHJcplXKmSg6Z0L131ng,14076
+mypy_boto3_apprunner/literals.py,sha256=aQb8tjRy-QYFPm7ipv02EDtzqRzW5rRo6sKug-00r2c,2040
+mypy_boto3_apprunner/literals.pyi,sha256=T7BeKA0TJBjyDuLpgn2D8P296D3pOvJYmBe2Py2OidM,2038
+mypy_boto3_apprunner/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_apprunner/type_defs.py,sha256=yhc6G18r9ZXSjwjBX96FysNy-N7zp9PBdwYZCHrYnnA,14971
+mypy_boto3_apprunner/type_defs.pyi,sha256=esOTe4OnZEKiOQTJ2ZIrgSAqCxQ02-Fv5iJGmg7Ft_Y,14946
+mypy_boto3_apprunner/version.py,sha256=mRlCb31R1s5BWSekefvDmD2M_c7zTy9zdpDCkV-Istc,55
+mypy_boto3_apprunner-1.17.99.dist-info/METADATA,sha256=ACEddGMDSLj2TvMNuVwbKCIYvfFWm05-W8MTUKIUFBo,9144
+mypy_boto3_apprunner-1.17.99.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_apprunner-1.17.99.dist-info/top_level.txt,sha256=f9nT-J1bNa5mgqITCD3Ujgr_hUrFZ2nNRk0oOvCe1xI,21
+mypy_boto3_apprunner-1.17.99.dist-info/RECORD,,
