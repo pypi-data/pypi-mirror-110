@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dadastockapi
+Version: 2.4.3
+Summary: API for DaDaStock webiste
+Home-page: https://github.com/charlie11438/DaDaStockAPI
+Author: charlieDa
+Author-email: charlieDa@tedu.tw
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# DaDa Stock API
+
+## For TEDU.TW automatic trade class
+
+<p>API for DaDa stock website，</p>
+<p>You can use this API to operate order,login,get inventory...e.t.c.</p>
+
+<p style="color:red;font-weight: bold">
+	Warning: Before use this API,you must register at DaDa stock.
+</p>
+
+
+<p style="color:red;">This API is for TEDU.TW class and testing.</p>
+
+
