@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/undocinclude/__init__.py
+src/undocinclude/directives.py
+src/undocinclude/extension.py
+src/undocinclude.egg-info/PKG-INFO
+src/undocinclude.egg-info/SOURCES.txt
+src/undocinclude.egg-info/dependency_links.txt
+src/undocinclude.egg-info/requires.txt
+src/undocinclude.egg-info/top_level.txt
