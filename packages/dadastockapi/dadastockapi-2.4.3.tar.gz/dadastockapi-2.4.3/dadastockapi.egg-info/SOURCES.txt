@@ -1,0 +1,13 @@
+pyproject.toml
+setup.py
+dadastock/__init__.py
+dadastock/apiException.py
+dadastock/inventory.py
+dadastock/stockAPI.py
+dadastock/stockEnum.py
+dadastock/tick.py
+dadastock/trade.py
+dadastockapi.egg-info/PKG-INFO
+dadastockapi.egg-info/SOURCES.txt
+dadastockapi.egg-info/dependency_links.txt
+dadastockapi.egg-info/top_level.txt
