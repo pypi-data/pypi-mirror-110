@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+graphanime/__init__.py
+graphanime/algorithm.py
+graphanime/animation.py
+graphanime/graph.py
+graphanime.egg-info/PKG-INFO
+graphanime.egg-info/SOURCES.txt
+graphanime.egg-info/dependency_links.txt
+graphanime.egg-info/requires.txt
+graphanime.egg-info/top_level.txt
