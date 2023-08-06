@@ -1,0 +1,10 @@
+
+[ci]
+coveralls
+pytest-rerunfailures
+
+[dev]
+pytest>=3.6
+wheel
+pytest-cov
+pycodestyle
