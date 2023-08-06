@@ -1,0 +1,9 @@
+LICENSE,sha256=iIYI_j-iykG_Il9UIBqdiFeADUwn_jE5rDEhbwQ5ZpE,1107
+autoretouchlib/__init__.py,sha256=Drs8RFDbgxiLId5T7u3hOLLoIIFMXu2GSPk4g3nvs0o,141
+autoretouchlib/caching.py,sha256=sAToptL79P3EErHSrzuu8aNcHIl63U2GQwPDRpxJMB0,3670
+autoretouchlib/mocking.py,sha256=urwH-OWbBOgAJeGirtXkgDkFUfThOrtULqp6tN7CfqU,4072
+autoretouchlib/tracing.py,sha256=LC1iLd4WrtQA-uM3s_jO2FpXE8RoTRaYoRuWTvmDVRI,4570
+autoretouch_service_library-1.1.7.dist-info/LICENSE,sha256=iIYI_j-iykG_Il9UIBqdiFeADUwn_jE5rDEhbwQ5ZpE,1107
+autoretouch_service_library-1.1.7.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+autoretouch_service_library-1.1.7.dist-info/METADATA,sha256=b0I2iuzB4LZh8mxmTFouJZ1wJRNHPkR8saYNTWmZa2o,707
+autoretouch_service_library-1.1.7.dist-info/RECORD,,
