@@ -1,0 +1,10 @@
+README.md
+setup.py
+spherephize/__init__.py
+spherephize/testing_suite.py
+spherephize/utils.py
+spherephize/visualize_sphere.py
+spherephize.egg-info/PKG-INFO
+spherephize.egg-info/SOURCES.txt
+spherephize.egg-info/dependency_links.txt
+spherephize.egg-info/top_level.txt
