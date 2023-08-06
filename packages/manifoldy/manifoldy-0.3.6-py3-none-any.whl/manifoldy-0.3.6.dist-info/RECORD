@@ -1,0 +1,14 @@
+manifoldy/L2NormCurvature.py,sha256=UV00FsBpI4W3XTYPyZxLdTtupsOvA2oY7OAWPNnttwY,18572
+manifoldy/__init__.py,sha256=ceE7Xtf8XatJjdqSmH7NJp9QhMT5ZkGwQsBjl0qwiJQ,93
+manifoldy/definitions.py,sha256=kKkvBJ7_ciEBOpTp_c9Ivcb0A_eCY68UZuC6VdgvNiI,1354
+manifoldy/generators.py,sha256=fyeR03wEZzgYC7QQiI4qPO-72qh3qq6QgG6er1H38JA,5179
+manifoldy/reduction_algorithms.py,sha256=qGoSd1Iu2rOlAKV5K7mWIWlKdoLg02dYuqeaATebD-E,1406
+manifoldy/utils.py,sha256=ynolFjkNcrkyeB4fCZ4fyqdXAMiQrCTTQZY-fL5OAXQ,498
+manifoldy/test/L2NormCurvature_before_refactor.py,sha256=3RGlTUbCyQwVtNURXuQBY5iOhgVPqHeSiBwzuR8Zvw8,15050
+manifoldy/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manifoldy/test/generators_before_refactor.py,sha256=9dU2j0Ryfy7bGA1AzMn9uYWtcaHB-c_1S-7p2QTPxb8,4111
+manifoldy/test/refactoring_integration_test.py,sha256=7hsUr4DF-biaILWZyTuPv2BKKeuAmne12mF49iy3KZo,3332
+manifoldy-0.3.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+manifoldy-0.3.6.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+manifoldy-0.3.6.dist-info/METADATA,sha256=qrrNN704LpMqK2FS57HVTOfc6G8vyHM0Ne6zjuHBivU,1881
+manifoldy-0.3.6.dist-info/RECORD,,
