@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: joker-flasky
+Version: 0.4.0
+Summary: Reusable components for flask-based web development
+Home-page: UNKNOWN
+License: GNU General Public License (GPL)
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
