@@ -1,0 +1,10 @@
+setup.py
+vch_distributions/Binomialdistribution.py
+vch_distributions/Gaussiandistribution.py
+vch_distributions/Generaldistribution.py
+vch_distributions/__init__.py
+vch_distributions.egg-info/PKG-INFO
+vch_distributions.egg-info/SOURCES.txt
+vch_distributions.egg-info/dependency_links.txt
+vch_distributions.egg-info/not-zip-safe
+vch_distributions.egg-info/top_level.txt
