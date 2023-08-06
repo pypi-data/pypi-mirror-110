@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: nonogram_cracker
+Version: 1.0.0
+Summary: A standalone function that returns the solution of a nonogram puzzle.
+Home-page: https://gitlab.com/caseyvangroll/nonogram_cracker
+Author: Casey Van Groll
+Author-email: caseyvangroll@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/caseyvangroll/nonogram_cracker/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Nonogram Cracker
+
+## Takes in a nonogram puzzle and returns its solution
+
+---
+
+## Usage
+
+```python
+import json
+from nonogram_cracker import solve
+
+solution = solve({
+  "name": "turtle",
+  "rows": [
+    [1, 1, 1],
+    [5],
+    [3],
+    [5],
+    [1, 1]
+  ],
+  "cols": [
+    [2, 2],
+    [3],
+    [4],
+    [3],
+    [2, 2]
+  ]
+})
+
+print(json.dumps(solution, indent=2, ensure_ascii=False))
+# [
+#   "█ █ █",
+#   "█████",
+#   " ███ ",
+#   "█████",
+#   "█   █"
+# ]
+```
+
+---
+
+### Input Schema
+#### TODO
+
+### Output Schema
+#### TODO
+
+
