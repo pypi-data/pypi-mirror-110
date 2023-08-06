@@ -1,0 +1,3 @@
+[console_scripts]
+Tetris = src.code:main_menu
+
