@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+teext/__init__.py
+teext/constraints.py
+teext/optional.py
+teext/py.typed
+teext/result.py
+teext.egg-info/PKG-INFO
+teext.egg-info/SOURCES.txt
+teext.egg-info/dependency_links.txt
+teext.egg-info/requires.txt
+teext.egg-info/top_level.txt
