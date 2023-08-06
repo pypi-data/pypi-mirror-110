@@ -1,0 +1,8 @@
+[console_scripts]
+autopep=tools.tools:autopep
+build_kapitan_helm_binding=tools.tools:build_kapitan_helm_binding
+commodore=commodore.cli:main
+compile=tools.tools:compile
+copy_helm_bindings=commodore.copy_helm_bindings:main
+local_reveal=tools.tools:reveal
+
