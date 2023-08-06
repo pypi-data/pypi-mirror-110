@@ -1,0 +1,230 @@
+{
+  "accompanier": {
+    "description": "",
+    "type": ""
+  },
+  "actor": {
+    "description": "",
+    "type": ""
+  },
+  "age": {
+    "description": "",
+    "type": ""
+  },
+  "asset": {
+    "description": "",
+    "type": ""
+  },
+  "attribute": {
+    "description": "",
+    "type": ""
+  },
+  "benefactive": {
+    "description": "",
+    "type": ""
+  },
+  "cause": {
+    "description": "",
+    "type": ""
+  },
+  "comparison": {
+    "description": "",
+    "type": ""
+  },
+  "condition": {
+    "description": "",
+    "type": ""
+  },
+  "concession": {
+    "description": "",
+    "type": ""
+  },
+  "consist-of": {
+    "description": "",
+    "type": ""
+  },
+  "degree": {
+    "description": "",
+    "type": ""
+  },
+  "direction": {
+    "description": "",
+    "type": ""
+  },
+  "domain": {
+    "description": "",
+    "type": ""
+  },
+  "duration": {
+    "description": "",
+    "type": ""
+  },
+  "end": {
+    "description": "",
+    "type": ""
+  },
+  "example": {
+    "description": "",
+    "type": ""
+  },
+  "extent": {
+    "description": "",
+    "type": ""
+  },
+  "frequency": {
+    "description": "",
+    "type": ""
+  },
+  "instrument": {
+    "description": "",
+    "type": ""
+  },
+  "list": {
+    "description": "",
+    "type": ""
+  },
+  "location": {
+    "description": "",
+    "type": ""
+  },
+  "manner": {
+    "description": "",
+    "type": ""
+  },
+  "mod": {
+    "description": "",
+    "type": ""
+  },
+  "mode": {
+    "description": "",
+    "type": ""
+  },
+  "name": {
+    "description": "",
+    "type": ""
+  },
+  "op": {
+    "description": "",
+    "type": ""
+  },
+  "ord": {
+    "description": "",
+    "type": ""
+  },
+  "part-of": {
+    "description": "",
+    "type": ""
+  },
+  "path": {
+    "description": "",
+    "type": ""
+  },
+  "polarity": {
+    "description": "",
+    "type": ""
+  },
+  "polite": {
+    "description": "",
+    "type": ""
+  },
+  "poss": {
+    "description": "",
+    "type": ""
+  },
+  "purpose": {
+    "description": "",
+    "type": ""
+  },
+  "quant": {
+    "description": "",
+    "type": ""
+  },
+  "range": {
+    "description": "",
+    "type": ""
+  },
+  "start": {
+    "description": "",
+    "type": ""
+  },
+  "subevent": {
+    "description": "",
+    "type": ""
+  },
+  "theme": {
+    "description": "",
+    "type": ""
+  },
+  "time": {
+    "description": "",
+    "type": ""
+  },
+  "topic": {
+    "description": "",
+    "type": ""
+  },
+  "unit": {
+    "description": "",
+    "type": ""
+  },
+  "value": {
+    "description": "",
+    "type": ""
+  },
+  "calendar": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "century": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "day": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "dayperiod": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "decade": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "era": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "month": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "quarter": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "season": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "timezone": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "weekday": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "year": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "year2": {
+    "description": "Date relation",
+    "type": "date"
+  },
+  "unidentified": {
+    "description": "Annotator uncertain",
+    "type": ""
+  } 
+}
