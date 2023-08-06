@@ -1,0 +1,15 @@
+torch
+fsspec
+pandas
+s3fs
+gcsfs
+click
+python-dotenv
+docker
+mlflow
+
+[optuna]
+optuna
+sklearn
+plotly
+kaleido
