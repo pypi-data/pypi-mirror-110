@@ -1,0 +1,6 @@
+GDB and support tools extracted from GNU Arm Embedded Toolchain.
+version: gcc-arm-none-eabi-9-2020-q2-update-win32
+downloaded from: https://srcint01.amsint.com/dott/download/dep_mirror//gcc-arm-none-eabi-9-2020-q2-update-win32.zip
+Note: To save space only selected parts of the full package have been included.
+      No other modifications have been performed.
+      The license of GDB can be found in share/doc/gcc-arm-none-eabi/license.txt

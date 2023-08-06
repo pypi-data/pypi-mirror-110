@@ -1,0 +1,6 @@
+WinPython 2.7 Environment for GDB
+version: WinPython 2.7.13.1, 32bit
+downloaded from: https://srcint01.amsint.com/dott/download/dep_mirror/WinPython-32bit-2.7.13.1Zero.exe
+Note: This WinPython 2.7.13.1 environment is required for the GNU Arm Embedded GDB.
+      No modifications have been performed.
+      The license of Python 2.7 can be found in python-2.7.13/LICENSE.txt
