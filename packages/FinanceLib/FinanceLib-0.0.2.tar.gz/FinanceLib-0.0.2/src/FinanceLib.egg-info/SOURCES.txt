@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/FinanceLib/__init__.py
+src/FinanceLib/analysis.py
+src/FinanceLib/genBanking.py
+src/FinanceLib/interest.py
+src/FinanceLib.egg-info/PKG-INFO
+src/FinanceLib.egg-info/SOURCES.txt
+src/FinanceLib.egg-info/dependency_links.txt
+src/FinanceLib.egg-info/requires.txt
+src/FinanceLib.egg-info/top_level.txt
