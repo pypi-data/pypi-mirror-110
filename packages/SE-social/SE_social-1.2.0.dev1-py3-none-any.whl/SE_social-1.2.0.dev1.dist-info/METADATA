@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: SE-social
+Version: 1.2.0.dev1
+Summary: A python library for verifying and generating swedish social security numbers
+Home-page: https://github.com/WaldemarBjornstrom/SEsocial
+Author: WaldemarBjornstrom
+Author-email: Waldemar.bjornstrom@unfnorrbotten.se
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# SEsocial
+
+A python repository for verifying and generating swedish social security numbers.
+
+## Installation
+
+### Easy:
+
+`pip install SE-social`
+
+### Advanced:
+
+`git clone http://github.com/WaldemarBjornstrom/SEsocial.git`
+
+Then go to the SEsocial directory you just downloaded and copy the sesocial folder into your project.
+
+## Usage
+
+```python
+import sesocial
+
+sesocial.verify('yymmddxxxx') # Returns True or False
+
+sesocial.gender('yymmddxxxx') # Returns Male or Female
+
+sesocial.generate() # Returns format yymmddxxxx
+```
+
+Note: You could also  `import sesocial as a` or swap out a to anyting you like.
+And then use the commands like `a.verify('yymmddxxxx')`
+
+## License
+
+This project lies under the MIT License. See [LICENSE](LICENSE "LICENSE")
+
+
