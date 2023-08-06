@@ -1,0 +1,17 @@
+README.md
+setup.py
+FastCNN2.egg-info/PKG-INFO
+FastCNN2.egg-info/SOURCES.txt
+FastCNN2.egg-info/dependency_links.txt
+FastCNN2.egg-info/entry_points.txt
+FastCNN2.egg-info/top_level.txt
+FastCNN/api/fastcnn_.py
+FastCNN/entry/gongda.py
+FastCNN/entry/intergrate.py
+FastCNN/entry/server.py
+FastCNN/prx/GongDaProxy.py
+FastCNN/prx/GongDaProxy1.py
+FastCNN/prx/PathProxy.py
+FastCNN/prx/TrainProxy.py
+FastCNN/utils/CallBacks.py
+FastCNN/utils/Logs.py
