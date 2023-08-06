@@ -1,0 +1,11 @@
+include VERSION
+include ibrb/ext/meta/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include ibrb VERSION
+recursive-include ibrb **.html
+recursive-include ibrb **.j2
+recursive-include ibrb **.json
+recursive-include ibrb **.yaml
+recursive-include ibrb **.xml
