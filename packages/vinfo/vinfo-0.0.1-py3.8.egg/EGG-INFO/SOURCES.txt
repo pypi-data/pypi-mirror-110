@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/vinfo.py
+src/vinfo.egg-info/PKG-INFO
+src/vinfo.egg-info/SOURCES.txt
+src/vinfo.egg-info/dependency_links.txt
+src/vinfo.egg-info/entry_points.txt
+src/vinfo.egg-info/top_level.txt

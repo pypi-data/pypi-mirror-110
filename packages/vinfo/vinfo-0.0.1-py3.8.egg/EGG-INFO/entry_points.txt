@@ -1,0 +1,3 @@
+[console_scripts]
+vinfo = vinfo:main
+
