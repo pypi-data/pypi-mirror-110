@@ -1,0 +1,3 @@
+[isort.sort]
+natural_plus=example_isort_formatting_plugin:natural_plus
+
