@@ -1,0 +1,15 @@
+pvarc/__init__.py,sha256=OXe7RPgSagHWR8RxU92aiSzQDYnCgNrb0Y9291oJcTk,67
+pvarc/astmg173.csv,sha256=lGucnBDNgPbVkoO2YeCIr2l2W61Q7KViP8f8SW-kgoQ,65615
+pvarc/color.py,sha256=aEoYt_xOW3PsJfWnbE1BXsMom_F7JBgE2F_WkmUkvjI,8096
+pvarc/fit.py,sha256=tK4Mccg4txJAH-MCy2eQlSbVDcqcC9OB2deS6_3w5Vw,16442
+pvarc/image.py,sha256=cbN51DQUs0FUP0fb_kDaAx3Ryu3xvJNq-QEiA_GZj30,11509
+pvarc/main.py,sha256=8i-Au9yLn0yWab6BjBgkUBf4XIwc1o3Z0sLE0MUzPp0,4523
+pvarc/materials.py,sha256=8KJjjFOkcWVNLVZ8MRyCPrLx76zb-_xbdlAAtIxY384,4320
+pvarc/metrics.py,sha256=ALRM8oQVMMa2Ao5FSYj0SHyXuTNExhV-E4apqmvhHzA,2622
+pvarc/oceaninsight.py,sha256=JXMA-05EEe1Bqn4V-UlU-9lbb7LpBAwGRsNloEldX0w,2953
+pvarc/tmm.py,sha256=Nc4lBGTjW0gPURKkGCs5svSzED6EgAbO-2CHxwaWL1U,3606
+pvarc-0.0.5.dist-info/LICENSE,sha256=dL3b7oXdnEeUrl2WHRogWTRiM-4qauGjvPXgLCBIBAI,1515
+pvarc-0.0.5.dist-info/METADATA,sha256=bALltGnn24JzYDqqIzJyaxI2_VaZRY3PpmbEA4jfC6o,4933
+pvarc-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pvarc-0.0.5.dist-info/top_level.txt,sha256=dYbnOjEmllIURWNE0vplEOr_cb4n5Al9ZfUASzCTKpA,6
+pvarc-0.0.5.dist-info/RECORD,,
