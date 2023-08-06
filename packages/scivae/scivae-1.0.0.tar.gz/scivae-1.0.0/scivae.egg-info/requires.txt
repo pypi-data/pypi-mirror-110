@@ -1,0 +1,11 @@
+pandas
+numpy
+keras
+matplotlib>=3.3.3
+sciutil
+pyswarm
+sklearn
+tensorflow
+tensorflow-probability
+seaborn
+sciviso>=1.0.1
