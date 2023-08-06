@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: concatrim
+Version: 0.0.1.dev2
+Summary: Python program to trim-then-concatenate A/V media files using ffmpeg
+Home-page: https://github.com/keighrim/concatrim
+Author: Keigh Rim
+Author-email: krim@brandeis.edu
+License: MIT
+Description: # concatrim
+        
+        Python program to trim-then-concatenate A/V media files using ffmpeg.
+        
+        This version is only a placeholder for future pypi release.
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
