@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: uamutils
+Version: 0.0.0a2
+Summary: Python interface to Upper Atmosphere Model (UAM) binary data format
+Home-page: https://gitlab.com/zolotov/uamutils
+Author: Arthur Orlovskiy, Oleg Zolotov
+Author-email: an.orlovskiy@gmail.com
+License: Apache Software License
+Keywords: UAM,Upper Atmosphere Model,MOD4,Earth ionosphere,utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE.TXT
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: matplotlib
+
+
+# Overview
+
+uamutils package provides a Python interface to Upper Atmosphere Model (UAM) 
+binary data format as well as utilities for processing and analysing UAM data.
+
+# Documentation
+This https://gitlab.com/zolotov/uamutils/-/blob/main/user-docs.ipynb Jupyter notebook 
+demonstrates essential functionality of the package.
+
+# Caution
+This project is a work in progress. Some features are still lacking, while existing features 
+need more rigorous testing. Also, huge refactoring is due — API-breaking changes will be made.
+
+
