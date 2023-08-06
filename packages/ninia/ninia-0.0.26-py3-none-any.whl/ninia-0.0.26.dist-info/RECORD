@@ -1,0 +1,11 @@
+ninia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ninia/example.py,sha256=lb-DThgJIL2-asdx9RJkLvn_BkpQRkqmSDspWnQezu8,45
+ninia/mw_species_.py,sha256=wbi4dyE0bjAbGEJwVK7fgmnEup2RoHkpY_gqCRWvjCs,1995
+ninia/relax.py,sha256=es1CR_EvRIctix_bgyuXlZ6dP7-FEI3xC7reOO9c-o8,11413
+ninia/input/relax.i,sha256=mhHfnLu1NzB4AMGDnkAs9IaF9hw9wpCHspr9J4LDoq4,705
+ninia/input/relax.sh,sha256=Lkb6FlI26yDAvJzMJVI46aRo2yxCeF0FyH7-7vHSfgc,323
+ninia-0.0.26.dist-info/LICENSE,sha256=GecWNOtdzzY5igXLnmmNItrxrOJ86aoWkB6y7MRaVMQ,1088
+ninia-0.0.26.dist-info/METADATA,sha256=Cc6EfbIUiNChQTl-JQaE_a1W5nbbWNxnVYXNyjRMofs,696
+ninia-0.0.26.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ninia-0.0.26.dist-info/top_level.txt,sha256=aUdSu-9ua-Tu59Ss8NLCDN6epQvUBFfTPSoTWTEQBtw,6
+ninia-0.0.26.dist-info/RECORD,,
