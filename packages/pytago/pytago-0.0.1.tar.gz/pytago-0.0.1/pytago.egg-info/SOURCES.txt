@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pytago/__init__.py
+pytago/cmd.py
+pytago/core.py
+pytago.egg-info/PKG-INFO
+pytago.egg-info/SOURCES.txt
+pytago.egg-info/dependency_links.txt
+pytago.egg-info/entry_points.txt
+pytago.egg-info/top_level.txt
