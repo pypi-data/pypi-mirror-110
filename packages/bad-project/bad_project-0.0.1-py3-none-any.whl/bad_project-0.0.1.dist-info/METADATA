@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bad-project
+Version: 0.0.1
+Summary: please, Please, PLEASE, don't install
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: attrs (==20.2.0)
+Requires-Dist: black
+
+UNKNOWN
+
+
