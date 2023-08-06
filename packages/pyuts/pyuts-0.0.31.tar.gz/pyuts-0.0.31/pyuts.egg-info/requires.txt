@@ -1,0 +1,13 @@
+adbutils
+selenium
+scrapy
+pymongo
+xmltodict
+PyExecJS
+PyQt5
+pymysql
+aircv
+opencv-python
+pillow
+quamash
+DBUtils
