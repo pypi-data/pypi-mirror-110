@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: suncasa
+Version: 0.1.2.5
+Summary: "SunCASA: CASA-based Python package for reducing, analyzing, and visualizing solar dynamic spectroscopic imaging data at radio wavelengths"
+Home-page: https://github.com/suncasa/suncasa
+Author: The EOVSA team
+Author-email: sijie.yu@njit.edu
+License: BSD 2-Clause
+Description: UNKNOWN
+Keywords: solar physics,solar,science,sun,wcs,coordinates
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides: suncasa
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: dask
+Provides-Extra: docs
+Provides-Extra: image
+Provides-Extra: dev
+Provides-Extra: visualization
+Provides-Extra: database
+Provides-Extra: net
+Provides-Extra: tests
+Provides-Extra: jpeg2000
+Provides-Extra: all
+Provides-Extra: timeseries
+Provides-Extra: map
+Provides-Extra: asdf
