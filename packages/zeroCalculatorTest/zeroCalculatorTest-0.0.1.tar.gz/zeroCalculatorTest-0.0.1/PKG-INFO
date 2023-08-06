@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: zeroCalculatorTest
+Version: 0.0.1
+Summary: A very basic test calculator
+Home-page: UNKNOWN
+Author: tester
+Author-email: tester@test.com
+License: MIT
+Description: a tets script to push to pypi
+        
+        change log
+        ==========
+        
+        0.0.1 (2021-06-21)
+        ------------------
+        - updated with basic functions
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

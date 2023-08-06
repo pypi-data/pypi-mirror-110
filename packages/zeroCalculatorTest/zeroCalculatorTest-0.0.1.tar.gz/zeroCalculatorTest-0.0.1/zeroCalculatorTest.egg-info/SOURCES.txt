@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+zeroCalculatorTest.egg-info/PKG-INFO
+zeroCalculatorTest.egg-info/SOURCES.txt
+zeroCalculatorTest.egg-info/dependency_links.txt
+zeroCalculatorTest.egg-info/top_level.txt
