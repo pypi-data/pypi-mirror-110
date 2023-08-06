@@ -1,0 +1,3 @@
+[console_scripts]
+netbench=netbench.main:netbench
+
