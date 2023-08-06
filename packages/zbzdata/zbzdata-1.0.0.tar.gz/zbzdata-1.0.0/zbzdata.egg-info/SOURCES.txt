@@ -1,0 +1,9 @@
+setup.py
+zbzdata/__init__.py
+zbzdata/history.py
+zbzdata.egg-info/PKG-INFO
+zbzdata.egg-info/SOURCES.txt
+zbzdata.egg-info/dependency_links.txt
+zbzdata.egg-info/requires.txt
+zbzdata.egg-info/top_level.txt
+zbzdata.egg-info/zip-safe
