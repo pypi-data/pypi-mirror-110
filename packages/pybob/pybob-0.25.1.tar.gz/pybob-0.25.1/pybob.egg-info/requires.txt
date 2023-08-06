@@ -1,0 +1,17 @@
+descartes
+fiona
+gdal
+geopandas
+h5py
+llc
+matplotlib
+numba
+numpy
+opencv-python
+pandas
+pyproj
+pyvips
+scikit-image>=0.18
+scipy
+shapely
+sphinx-argparse
