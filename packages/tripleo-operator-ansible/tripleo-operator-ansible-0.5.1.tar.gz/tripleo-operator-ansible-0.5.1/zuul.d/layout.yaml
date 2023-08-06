@@ -1,0 +1,81 @@
+- project:
+    templates:
+      - openstack-python3-ussuri-jobs
+      - tripleo-operator-molecule-jobs
+      - release-notes-jobs-python3
+    check:
+      jobs:
+        - openstack-tox-linters
+        - tripleo-ci-centos-8-content-provider:
+            dependencies:
+              - openstack-tox-linters
+              - openstack-tox-pep8
+              - openstack-tox-py36
+              - openstack-tox-py37
+            files: &content_provider
+              - ^roles/tripleo_undercloud_install/.*$
+              - ^roles/tripleo_undercloud_minion_install/.*$
+              - ^roles/tripleo_deploy/.*$
+              - ^roles/tripleo_container_image_prepare_default/.*$
+        - openstack-tox-docs: &tripleo-docs
+            files:
+            - ^doc/.*
+            - ^molecule-requirements.txt
+            - ^README.rst
+            - ^requirements.txt
+        - tripleo-ci-centos-8-containers-multinode: &job_containers_multinode
+            vars: &multi_consumer_vars
+              consumer_job: true
+              build_container_images: false
+              tags:
+                - undercloud-setup
+                - undercloud-scripts
+                - undercloud-install
+                - undercloud-post-install
+                - tripleo-validations
+                - overcloud-scripts
+                - overcloud-prep-config
+                - overcloud-prep-containers
+                - overcloud-deploy
+                - overcloud-post-deploy
+                - overcloud-validate
+            dependencies: &deps_content_provider_c8
+              - tripleo-ci-centos-8-content-provider
+            files: &containers_multinode_files
+              - ^roles/tripleo_undercloud_install/.*$
+        - tripleo-ci-centos-8-containers-undercloud-minion: &job_containers_undercloud_minion
+            vars: &undercloud_consumer_vars
+              consumer_job: true
+              tags:
+                - undercloud-setup
+                - undercloud-scripts
+                - undercloud-install
+                - undercloud-validate
+                - images
+            dependencies: *deps_content_provider_c8
+            files: &containers_minion_files
+              - ^roles/tripleo_undercloud_install/.*$
+              - ^roles/tripleo_undercloud_minion_install/.*$
+        - tripleo-ci-centos-8-standalone: &job_centos8_standalone
+            vars: &sa_consumer_vars
+              consumer_job: true
+              build_container_images: false
+              tags:
+                - standalone
+            dependencies: *deps_content_provider_c8
+            files: &standalone_files
+              - ^roles/tripleo_deploy/.*$
+              - ^roles/tripleo_container_image_prepare_default/.*$
+    gate:
+      jobs:
+        - openstack-tox-linters
+        - tripleo-ci-centos-8-content-provider:
+            files: *content_provider
+        - openstack-tox-docs: *tripleo-docs
+        - tripleo-ci-centos-8-containers-multinode: *job_containers_multinode
+        - tripleo-ci-centos-8-containers-undercloud-minion: *job_containers_undercloud_minion
+        - tripleo-ci-centos-8-standalone: *job_centos8_standalone
+
+    promote:
+      jobs:
+      - promote-openstack-tox-docs: *tripleo-docs
