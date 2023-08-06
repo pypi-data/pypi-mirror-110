@@ -1,0 +1,14 @@
+inators/__init__.py,sha256=U-2r84WVdS3DDjrtd60rosdFQT6MmgjX2gksjt1-lXc,412
+inators/imp.py,sha256=vDX0rW1j9VvWHE2sDPHozNnSV4ZFAI2ddCM5zLAQa0g,809
+inators/log.py,sha256=s5oC-w3Oe79TkaYfS1ZGPyNf1V_miMj9vgUHayLEngw,2029
+inators/arg/__init__.py,sha256=SFtXHZT3MPQSXNj41gBMQGSX1NV9tFf-aKB3iEkcvHY,696
+inators/arg/add_argument.py,sha256=O8T9a5b8IwuVd6m_zPUv9OyQS1hSkyGQPxQBBw07UmI,2556
+inators/arg/log_level_argument.py,sha256=c9xNYh4BP4KLwCtfm1ab2ht_8Gg6NBO5GUciyHp0s4U,4065
+inators/arg/sys_path_argument.py,sha256=FOKXIDtBXKCTGSYXeppnkvgJbjYeIXN4E897mz-5h28,1813
+inators/arg/sys_recursion_limit_argument.py,sha256=a3RZVrYBmD7T6o417bftv4SHi7L-wM6p_ghiODvpVEk,2471
+inators/arg/version_argument.py,sha256=KRxj_iAULGj7bV9F-fc5x-0OMjRmdGjZuJmx0Bpvgc4,1056
+inators-1.0.0.dist-info/LICENSE.rst,sha256=4JhDHqFT1mdT_4KoSWGqLEjm51W_NnOR-VTbeK9Ebq0,1511
+inators-1.0.0.dist-info/METADATA,sha256=eeKZk3HU_8cYV3ujIcrm3jFOFnvVmwgcsX7_nvNxk_s,1631
+inators-1.0.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+inators-1.0.0.dist-info/top_level.txt,sha256=RbycEVcdiIhaiNrob-Gx74e2GIlMp5h467s9JG353C8,8
+inators-1.0.0.dist-info/RECORD,,

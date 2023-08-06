@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: inators
+Version: 1.0.0
+Summary: inators: utilities for inators
+Home-page: https://github.com/renatahodovan/inators
+Author: Renata Hodovan, Akos Kiss
+Author-email: hodovan@inf.u-szeged.hu, akiss@inf.u-szeged.hu
+License: BSD
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+Requires-Dist: setuptools
+
+=======
+inators
+=======
+
+.. start included documentation
+
+``inators`` is a collection of useful utilities mostly used by the *...inator*
+project family, whence its name.
+
+
+Requirements
+============
+
+* Python_ ~= 2.7 or >= 3.5
+* pip_
+
+.. _Python: https://www.python.org
+.. _pip: https://pip.pypa.io
+
+
+Install
+=======
+
+The quick way::
+
+    pip install inators
+
+Alternatively, by cloning the project and performing a local install::
+
+    pip install .
+
+.. end included documentation
+
+
+Copyright and Licensing
+=======================
+
+Licensed under the BSD 3-Clause License_.
+
+.. _License: LICENSE.rst
+
+
