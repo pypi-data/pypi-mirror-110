@@ -1,0 +1,10 @@
+ansible-runner<3,>=2rc1
+jinja2
+onigurumacffi<2,>=1.1.0
+pyyaml
+
+[:python_version < "3.7.0"]
+dataclasses
+
+[:python_version < "3.9.0"]
+importlib-resources
