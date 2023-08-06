@@ -1,0 +1,15 @@
+kodoc_tokenizer/__init__.py,sha256=crYi-ws6islguboG5gm4hqoARIH13YjfJlPaqxoACLs,368
+kodoc_tokenizer/text_cleaner.py,sha256=Zpl0rPeiwW3J5MM1iSctpYOwaiiGNAFMphTPut9YmNw,870
+kodoc_tokenizer/tokenization_kodoc.py,sha256=IcoZnVVoufLza8rwlQaTy3uBY7_TttHsvfmnPUDIE5g,10724
+kodoc_tokenizer/version.txt,sha256=UaV4e3N_Oc0xFKe2K7GLrftZE25DnK7jk2akgQrp--U,8
+kodoc_tokenizer/assets/special_tokens_map.json,sha256=0iB-AfGRYmcp4IWCkSyb8jh2iDkkg5srvul0ifgE4A4,125
+kodoc_tokenizer/assets/tokenizer_config.json,sha256=0HV50C7IK_bSy5IGpgi1jIphh8f2W1M3iHRLUgL1O2A,56
+kodoc_tokenizer/assets/vocab.txt,sha256=r-CmB83fWTDtzMexel45tIKMLtHfmnjieEZVEKu5Cb0,85639
+kodoc_tokenizer/transformers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kodoc_tokenizer/transformers/file_utils.py,sha256=XVyeyjB3fu8gL4rZPdWjoYbB0XZ1XE2WPS5FHc09Zy4,6496
+kodoc_tokenizer/transformers/tokenization_utils.py,sha256=rUJbhQ2q3pgYcYTf_3DaDZHlehD4_5R7awighjADKq4,31565
+kodoc_tokenizer/transformers/tokenization_utils_base.py,sha256=vbXCzV6rLVLJcNQHXc64SQkU-uTjAJ0gy1kyWok_Wxg,155668
+kodoc_tokenizer-0.2.0rc1.dist-info/METADATA,sha256=o7Ge7ZgAK1K_mArT8k_JaXRcE_1ga3D6Cac-broEySY,1342
+kodoc_tokenizer-0.2.0rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kodoc_tokenizer-0.2.0rc1.dist-info/top_level.txt,sha256=kfxgf62b_Xath019hxyzJu1iPr6a9Y3rf00n2XW8WDM,16
+kodoc_tokenizer-0.2.0rc1.dist-info/RECORD,,
