@@ -1,0 +1,10 @@
+maggport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maggport/__main__.py,sha256=-J6DW0B91ntVQEdeenqfuKvWtyCK3PeoKa8QfOR1MGI,342
+maggport/logger.py,sha256=wGHiYqWXr6L5-exz0f-kxmqCoa4JL_fNdJUu76VJYXA,694
+maggport/maggport.py,sha256=GJFNY7q6WlW3z9orD1HTOh4eAfiIv8IWgywyPHMJNNc,4271
+maggport-1.0.3.dist-info/LICENSE,sha256=NhWL1VQMcRBdXVEqPrvgzfQ52ibGj1b9ynpyylDXKsY,1072
+maggport-1.0.3.dist-info/METADATA,sha256=vQ-w8BPCvysJ_XZpwcuOLobWQ3kT1tlefehDV0sQwMY,5138
+maggport-1.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+maggport-1.0.3.dist-info/entry_points.txt,sha256=yaLhL-X-kZz7p6nKW95NktX5XkeOMtJeBeRBxTI0gD8,57
+maggport-1.0.3.dist-info/top_level.txt,sha256=tXrYjY2ApqdXNBq6F07K2v1yvKvh3ZdFYcYV7r38pSw,9
+maggport-1.0.3.dist-info/RECORD,,
