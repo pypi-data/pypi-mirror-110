@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: iOSAppInfoParser
+Version: 1.0.6
+Summary: UNKNOWN
+Home-page: https://github.com/shede333/iOSAppInfoParser
+Author: shede333
+Author-email: 333wshw@163.com
+License: UNKNOWN
+Keywords: ios app info.plist infoPlist info parser
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow (>=7.0)
+
+# iOSAppInfoParser
+
+> 解析 iOS APP 的信息，目前主要解析 Info.plist文件 信息；    
+> 注意：仅支持 Python3；
+
+## 安装 Install
+
+```shell script
+
+pip3 install iOSAppInfoParser
+
+```
+
+## 使用方法
+
+```python
+
+from iosappinfoparser import InfoPlistModel
+from iosappinfoparser import change_app_display_name
+
+app_path = '/xxx/xx.app'
+info_model = InfoPlistModel(app_path.joinpath("Info.plist"))
+info_model.set_value('CFBundleName', 'xxx')
+
+print(info_model.app_version)  # 获取App的版本信息
+info_model.app_version = "1.23"  # 修改App的版本信息
+
+# 注意：修改App的DisplayName，除了修改Info.plist文件，还要修改对应的国际化语言文件
+change_app_display_name(app_path, 'new name')  # 修改所有语言文件
+change_app_display_name(app_path, 'new name', lang_key='en')  # 仅修改英文语言文件
+
+```
+
