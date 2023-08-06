@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: logtube
+Version: 1.0.0
+Summary: Logtube Python SDK
+Home-page: https://github.com/logtube/logtube-py
+Author: Guo Y.K. <hi@guoyk.net>
+Author-email: hi@guoyk.net
+License: MIT
+Project-URL: Bug Tracker, https://github.com/logtube/logtube-py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# logtube-python
+
+logtube python sdk
+
+## 设置
+
+```python
+
+from src import logtube
+
+logtube.setup({
+    # 项目名，唯一标识一个项目
+    "project": "eshop-id-service",
+    # 环境名，用以区分不同环境
+    "env": "dev",
+    # 命令行输出
+    "console": {
+        "topics": ["*", "-debug"]  # 输出除了 debug 之外的所有主题
+    },
+    # 文件输出
+    "file": {
+        "topics": ["*", "-debug"],  # 输出除了 debug 之外的所有主题
+        "dir": "logs",  # 设置日志输出的根目录
+        "subdirs": {  # 设置子目录
+            "xlog": ["*", "-debug"]  # 非调试日志输出到 `xlog` 子目录，其他日志进入 `others` 子目录
+        }
+    }
+})
+```
+
+## 一般日志输出
+
+第一个参数为关键字，可以用于为日志输出打一个关键字，鉴于日志量过大，info 日志必须通过关键字检索
+
+```python
+
+from src import logtube
+
+logtube.debug("关键字", "文本")
+logtube.info("关键字", "文本")
+logtube.warn("关键字", "文本")
+logtube.error("关键字", "文本")
+logtube.fatal("关键字", "文本")
+```
+
+## Job 工具
+
+针对任务类型的日志，Logtube 提供了工具类
+
+```python
+
+from src import logtube
+
+j = logtube.job()
+j.set_job_name("sleep-job-1m")  # 设置任务名，用于区分一类任务
+j.set_job_id("xxxxx-xxxxx-xxxxx-xxxxx")  # 设置任务编号，用于追踪同一个任务
+j.add_keyword("hello")  # 可以增加关键字
+j.add_extra("key", "val")  # 可以增加附属键值对
+j.mark_start()  # 标记任务开始
+
+# ... 此处为耗时很久的业务代码
+
+j.mark_end(True, "任务成功")  # 标记任务结束和任务结果，True 为成功，可以额外添加任意纯文本
+# committer.mark_end(False, "任务失败，因为 xxx.xxxx")
+```
+
+## 许可证
+
+Guo Y.K., MIT License
+
+
