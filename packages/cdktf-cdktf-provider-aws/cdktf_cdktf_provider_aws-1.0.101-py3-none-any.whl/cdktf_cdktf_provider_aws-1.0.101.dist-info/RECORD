@@ -1,0 +1,9 @@
+cdktf_cdktf_provider_aws/__init__.py,sha256=O3uJwkwXdlBkTjhY0NgDPmMlDKI7QPPQ3lxTBekXU4g,31817520
+cdktf_cdktf_provider_aws/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdktf_cdktf_provider_aws/_jsii/__init__.py,sha256=j7Q8zTC3xk9Kdc3MxKGW47yLcO9Oad_-icCIbEuR_cI,366
+cdktf_cdktf_provider_aws/_jsii/provider-aws@1.0.101.jsii.tgz,sha256=j1mx0ucq_mwQYoFNzOKAiAfzzukfl84sIj3hUfWjNW4,6050439
+cdktf_cdktf_provider_aws-1.0.101.dist-info/LICENSE,sha256=qDABaRGjSKVOib1U8viw2P_96sIK7Puo426784oD9f8,15976
+cdktf_cdktf_provider_aws-1.0.101.dist-info/METADATA,sha256=66FGOdIn44YohMwsqqmQf3y6DBM_Yodxv3RpzJMdzk4,2849
+cdktf_cdktf_provider_aws-1.0.101.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdktf_cdktf_provider_aws-1.0.101.dist-info/top_level.txt,sha256=z7P_QxujdtgeAcluq7fPsoo77T001H8ypLFFudDujAA,25
+cdktf_cdktf_provider_aws-1.0.101.dist-info/RECORD,,
