@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_exception.py,sha256=4M6QO8-i494igYU61AM5_UAniWTiPaifat-WsR-sIGM,218
+tests/test_uk_postcode_validator.py,sha256=FNfzxWCAQ5G_eLsuZ-_0Rwj3EdduFiXjlJtdY8WHah4,3424
+postcode_validator-0.0.3.dist-info/LICENSE,sha256=C6wq19UGSoZlwBbD1RREMJhuzGP_C47ordei9_7mUiU,1074
+postcode_validator-0.0.3.dist-info/METADATA,sha256=ZqMwSH2vB1_IwmBp7Y0D1hRDqTITx3LI1-Lkcmh82TQ,982
+postcode_validator-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+postcode_validator-0.0.3.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+postcode_validator-0.0.3.dist-info/RECORD,,
