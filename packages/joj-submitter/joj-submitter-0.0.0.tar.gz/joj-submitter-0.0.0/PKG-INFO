@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: joj-submitter
+Version: 0.0.0
+Summary: Submit your work to JOJ via cli.
+Home-page: https://github.com/BoYanZh/JOJ-Submitter
+Author: SJTU JI Tech
+Author-email: bomingzh@sjtu.edu.cn
+Maintainer: BoYanZh
+Maintainer-email: bomingzh@sjtu.edu.cn
+License: MIT
+Project-URL: Bug Reports, https://github.com/BoYanZh/JOJ-Submitter/issues
+Project-URL: Source, https://github.com/BoYanZh/JOJ-Submitter
+Description: # JOJ-Submitter
+        
+        ## Getting Started
+        
+        ### Setup venv (Optional)
+        
+        ```bash
+        python3 -m venv env
+        source env/Scripts/activate
+        ```
+        
+        ### Install
+        
+        ```bash
+        pip3 install -e .
+        joj-submit --help
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
