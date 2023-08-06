@@ -1,0 +1,3 @@
+include chainedci/default_chainedci.yml
+include chainedci/templates/main.yml.tpl
+include chainedci/templates/scenario.yml.tpl
