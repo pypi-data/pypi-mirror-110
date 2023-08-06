@@ -1,0 +1,3 @@
+[console_scripts]
+thangar = thangar.__main__:app
+
