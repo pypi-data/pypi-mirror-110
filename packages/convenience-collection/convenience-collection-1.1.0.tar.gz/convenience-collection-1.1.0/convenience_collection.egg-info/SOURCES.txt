@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+convenience_collection/__init__.py
+convenience_collection.egg-info/PKG-INFO
+convenience_collection.egg-info/SOURCES.txt
+convenience_collection.egg-info/dependency_links.txt
+convenience_collection.egg-info/requires.txt
+convenience_collection.egg-info/top_level.txt
