@@ -1,0 +1,17 @@
+pysentimiento/__init__.py,sha256=OsUVo0gqOTgLg58xdgCzLilU3knWZ0BX9DdKldfXNPQ,94
+pysentimiento/analyzer.py,sha256=lBtfXOgeJ2kshpxTVke9UP5X0NA18c9iB2fu7dG1T0E,4762
+pysentimiento/metrics.py,sha256=BrJWFD3AoGr7lXk5tM_YUCTGcZIWfq-PJk7Q96pEkdM,1211
+pysentimiento/preprocessing.py,sha256=cNb6JdzFvg2aOMEyRerH4MS_GGAcvJmQYeTH6k-o2B0,4584
+pysentimiento/emotion/__init__.py,sha256=NIDSjkGbuHNGefdHbpEbPYS48JCCEpZB2qpLd26hwPw,45
+pysentimiento/emotion/datasets.py,sha256=FiEoiIXf8JbEm_RMsWkX5vMe1ZW6WJIVoYjxMzr08dc,2208
+pysentimiento/semeval/__init__.py,sha256=_G-1yrj9A1cp-qAqIWiXWTy9YIkI3bnFavqXRONO1zs,55
+pysentimiento/semeval/datasets.py,sha256=HVJYAytXObEmia49OBMkAjdeaqSgnl-4CTJQlTHZ9ME,2019
+pysentimiento/tass/__init__.py,sha256=SCdDIoSjwkcUu5DOh8lcObvvvA3X953b_hwbdSPCgB0,164
+pysentimiento/tass/datasets.py,sha256=vKPK9-mxZUtUFdwtYWyLLBJpZ5h23fwdlKjts7yN9wU,2934
+pysentimiento/tass/training.py,sha256=4pFVlax-Xy6HiES9qWL4F_LYLkDKMdb7vH8ZV4ny8O4,1471
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/preprocessing_test.py,sha256=ljQhePchCOxS0PdkWdTpzoMa_hsTEqlRRU_cUN3uzwY,2583
+pysentimiento-0.2.2.dist-info/METADATA,sha256=5-7VpPaj4kQqIDkNVQnakPleSjka0-47FlvqUB3NIHI,5287
+pysentimiento-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysentimiento-0.2.2.dist-info/top_level.txt,sha256=s03cbrFUaCqPCa_Wl6s1kZsCzuf037TkSc0rybez4M4,20
+pysentimiento-0.2.2.dist-info/RECORD,,
