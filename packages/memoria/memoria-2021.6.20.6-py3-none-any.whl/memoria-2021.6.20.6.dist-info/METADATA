@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: memoria
+Version: 2021.6.20.6
+Summary: Python library of hashing and caching
+Home-page: https://github.com/idin/memoria
+Author: Idin
+Author-email: py@idin.ca
+License: MIT
+Platform: UNKNOWN
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: base32hex
+Requires-Dist: geopy
+
+# Memoria
+
+*Memoria* is a Python library for hashing and caching.
+
