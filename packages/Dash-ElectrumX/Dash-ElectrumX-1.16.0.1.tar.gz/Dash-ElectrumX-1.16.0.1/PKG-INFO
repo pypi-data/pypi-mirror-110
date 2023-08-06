@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: Dash-ElectrumX
+Version: 1.16.0.1
+Summary: ElectrumX Server (Dash fork)
+Home-page: https://github.com/akhavr/electrumx
+Maintainer: akhavr
+Maintainer-email: akhavr@khavr.com
+License: MIT Licence
+Download-URL: https://github.com/akhavr/electrumx/archive/1.16.0.1.tar.gz
+Description: Server implementation for the Electrum protocol (Dash fork)
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Database
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Provides-Extra: rapidjson
+Provides-Extra: rocksdb
+Provides-Extra: ujson
+Provides-Extra: uvloop
+Provides-Extra: blake256
+Provides-Extra: crypto
+Provides-Extra: groestl
+Provides-Extra: tribushashm
+Provides-Extra: xevan-hash
+Provides-Extra: x11-hash
+Provides-Extra: zny-yespower-0-5
+Provides-Extra: bell-yespower
+Provides-Extra: cpupower
