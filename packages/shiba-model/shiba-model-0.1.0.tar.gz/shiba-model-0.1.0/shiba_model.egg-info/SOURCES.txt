@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+shiba/__init__.py
+shiba/codepoint_tokenizer.py
+shiba/local_self_attention.py
+shiba/local_transformer_encoder_layer.py
+shiba/model.py
+shiba/multi_hashing_embedder.py
+shiba/position_embedder.py
+shiba_model.egg-info/PKG-INFO
+shiba_model.egg-info/SOURCES.txt
+shiba_model.egg-info/dependency_links.txt
+shiba_model.egg-info/requires.txt
+shiba_model.egg-info/top_level.txt
