@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+wtprogress/__init__.py
+wtprogress.egg-info/PKG-INFO
+wtprogress.egg-info/SOURCES.txt
+wtprogress.egg-info/dependency_links.txt
+wtprogress.egg-info/top_level.txt
