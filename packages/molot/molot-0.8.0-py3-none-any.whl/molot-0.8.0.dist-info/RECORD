@@ -1,0 +1,9 @@
+molot/__init__.py,sha256=29K18dN1Zyyb44P7oY4mLX6cu9TeNvuu1RceVPRdqzs,12384
+molot/builder.py,sha256=XqxrcxTF5AcDCV_Jq17LRjieSYjfzmkLAzODsB-_hOc,5953
+molot/context.py,sha256=A0yQJqkpKzf6ssbs-53wUXqLOW6YXlTlD2xFecpFpNU,1974
+molot/installer.py,sha256=1YmLT18Ms9l5n_zvFMC1hUjtG1qu5euL5Q8JX5L1Uz0,1089
+molot-0.8.0.dist-info/LICENSE,sha256=g_pavzmKDlEnpOzJhxS10aDUJ_nWZ6_gNQ_Ypvdmau8,1072
+molot-0.8.0.dist-info/METADATA,sha256=hYchljN5kVdW4ztYU5JqPQQNMW7Rj6euDuIb3m7wQDk,9304
+molot-0.8.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+molot-0.8.0.dist-info/top_level.txt,sha256=tTZ2kJtRQHGOAyw0y9leznV4oyITUv5DW9AKWCD5vhM,6
+molot-0.8.0.dist-info/RECORD,,
