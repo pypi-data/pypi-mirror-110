@@ -1,0 +1,3 @@
+[console_scripts]
+tosync = reader.__main__:main
+
