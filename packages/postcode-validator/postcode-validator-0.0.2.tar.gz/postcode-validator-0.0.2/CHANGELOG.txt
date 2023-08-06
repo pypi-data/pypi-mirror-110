@@ -1,0 +1,11 @@
+Chamge Log
+===========
+
+0.0.2
+
+    - Updated the folder structure
+
+0.0.1
+
+    - Initial Release
+    - Added a validator for UK Postcodes
