@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: idsl_gauge
+Version: 1.0.0
+Summary: Unofficial Python Wrapper for IDSL Tide Gauge API
+Home-page: https://github.com/josefmtd/idsl-gauge
+Author: Josef Matondang
+Author-email: admin@josefmtd.com
+License: MIT
+Description: UNKNOWN
+Keywords: tsunami
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8

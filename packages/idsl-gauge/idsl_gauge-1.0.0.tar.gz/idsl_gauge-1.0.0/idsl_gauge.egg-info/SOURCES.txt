@@ -1,0 +1,9 @@
+README.md
+setup.py
+idsl_gauge/__init__.py
+idsl_gauge.egg-info/PKG-INFO
+idsl_gauge.egg-info/SOURCES.txt
+idsl_gauge.egg-info/dependency_links.txt
+idsl_gauge.egg-info/not-zip-safe
+idsl_gauge.egg-info/requires.txt
+idsl_gauge.egg-info/top_level.txt
