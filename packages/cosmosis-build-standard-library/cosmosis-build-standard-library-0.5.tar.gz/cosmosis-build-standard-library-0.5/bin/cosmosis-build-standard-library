@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+# Download and build the standard library
+git clone --branch v0.5 https://github.com/joezuntz/cosmosis-standard-library
+pushd cosmosis-standard-library
+source cosmosis-configure
+make
+popd
