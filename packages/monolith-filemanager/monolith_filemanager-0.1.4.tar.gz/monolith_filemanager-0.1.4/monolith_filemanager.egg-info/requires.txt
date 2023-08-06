@@ -1,0 +1,15 @@
+PyYAML>=4.1.2
+dill>=0.2.8
+globre>=0.1.5
+gmsh>=4.2.0
+h5py<2.11.0,>=2.10.0
+joblib>=0.10.0
+numpy>=1.11.4
+pandas>=0.25.1
+pyvista>=0.24.2
+scipy>=1.4.1
+
+[flask]
+Flask>=1.0.0
+boto3>=1.16.43
+tensorflow>=2.1.0
