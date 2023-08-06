@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin-http-util/__init__.py
+bin_http_util.egg-info/PKG-INFO
+bin_http_util.egg-info/SOURCES.txt
+bin_http_util.egg-info/dependency_links.txt
+bin_http_util.egg-info/requires.txt
+bin_http_util.egg-info/top_level.txt
+scripts/http-post
