@@ -1,0 +1,17 @@
+CHANGELOG.md,sha256=avZn_M3r6APOjflevlT2UNe8-euojXT5o8o_uJrrVFY,460
+futon/__init__.py,sha256=1xT0mZeNlA8uUMGEIMXdsc9e5nz7f-V0ExAvj6ZKcDE,38
+futon/brokers/__init__.py,sha256=kWKSlZgbiny6nD3OglbvDUDanvDmHwF4bszuBdCQl_k,54
+futon/brokers/coindcx.py,sha256=dCFj10dE1nHpZAi46cbpSjCCo6MQpcneofjbuyteFOI,5962
+futon/brokers/local.py,sha256=wwtQqfFpjdj6pOZvOzxCZ43yw04c_7bV6kaNFkycoC8,5811
+futon/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+futon/data/helpers.py,sha256=rez4AUIob8yBRQlUmL5srfCGkW3BLsHN1tHlNuVW_U8,4693
+futon/data/providers.py,sha256=0qpp0ja7ciT9IFgads5r-LDGwEem9WykndJMp8xouao,11342
+futon/indicators.py,sha256=VkzrBIkvQrY74wWSqWuQyCpoKHEi-Seh6j7BsulwnAk,53053
+futon/instruments.py,sha256=DvLd3X4o2U7ySH-5PE4Ad1xyHKhh3XG8xT_Hod3w2s0,8479
+futon/strategy/__init__.py,sha256=LE2qPK8FQxEqU5DrhtnckdBJzXOa4iEU_4aRJjfujk8,12174
+futon/strategy/helpers.py,sha256=PLWiS42otM1NyZuF_PDVA8H5ziDKEukhzn4MIQ8XRuw,163
+futon/viz.py,sha256=MZ4HFTJguw8Btfjb8oALzmt1aBe-pYSH8481ncBIdro,5167
+futon-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+futon-1.0.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+futon-1.0.0.dist-info/METADATA,sha256=5f2sYm-09F2jBJr8nBgr9MJupp328mwXk82kfR08F6k,5347
+futon-1.0.0.dist-info/RECORD,,
