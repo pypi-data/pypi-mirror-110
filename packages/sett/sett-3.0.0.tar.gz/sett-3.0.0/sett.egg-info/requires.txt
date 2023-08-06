@@ -1,0 +1,22 @@
+PySide6!=6.1.1,>=6.1.0
+colorama>=0.4.4
+gpg-lite<0.10.0,>=0.9.0
+libbiomedit<0.4.0,>=0.3.0
+paramiko>=2.7.1
+
+[:python_version < "3.7"]
+dataclasses
+
+[:python_version < "3.8"]
+typing_extensions
+
+[benchmark]
+pandas
+matplotlib
+seaborn
+
+[legacy]
+PySide2>=5.15.1
+
+[socks]
+PySocks
