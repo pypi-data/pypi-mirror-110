@@ -1,0 +1,17 @@
+compneuro/__init__.py,sha256=fpocIiQgX9PBf7D-Ke2nvEQcUG6BRf74buw2xSKvyO8,140
+compneuro/base_model.py,sha256=fI__wXEXPHJKmQck3KsFyh0fxMBm6EX1oGlaBgoqDN4,14802
+compneuro/errors.py,sha256=9XLlo80CFXEpn4-ML3fTfuY7Im_F6xLFEiIFQvfz7mc,622
+compneuro/types.py,sha256=PzjoNZdp-zZ1omcGBNttBjubLLBuimoigRpKY4Kmc4Y,238
+compneuro/neurons/__init__.py,sha256=WZwhksjrMlzTqBJn2gZDYqQHhQX7C9cq6kaGYu9hkBE,36
+compneuro/neurons/hodgkin_huxley.py,sha256=5cpltHMBa6-W0ymxpnekAi7uM0DEIbL4qEP2-kj_pbU,1997
+compneuro/neurons/hodgkin_huxley_rinzel.py,sha256=nAItFlrEA9QUyVwMY6XK3CR0KSHA9UztqCxk8fb-8Xk,2233
+compneuro/neurons/hodgkin_huxley_wilson.py,sha256=5vqRTZRb7yK2R1NsCBJQpNq-dzvKzhCLg7IAO8HBGwU,1100
+compneuro/utils/__init__.py,sha256=LofIz2Z6Z6TL_QG5vY7OLYulXuTTQD_ktdAWNFr8-is,78
+compneuro/utils/plot.py,sha256=GOvCQcTSrtzEf2o0FFu_2Q9OD8ZxcgBJw1qkQShk6gw,7232
+compneuro/utils/signal.py,sha256=0CQUxD1nKB76xJE-FeqcIOHhsEKx02jiARVLoykSFDY,12705
+compneuro-0.1.1.dist-info/AUTHORS.rst,sha256=JlwATrg4RI9J1CmjBsUcHSBQufL2gkMoZD3L4Wpj6P0,201
+compneuro-0.1.1.dist-info/LICENSE,sha256=ePWvJTvNx7db2LwEWSPckMAistjBamhwXElcfTiCArM,1519
+compneuro-0.1.1.dist-info/METADATA,sha256=Zp603lGd6a8_VMpmTobH-rUj0Vp_HpBnr8QgDn79Xy0,3540
+compneuro-0.1.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+compneuro-0.1.1.dist-info/top_level.txt,sha256=cq6QkLpYFWNcGLnYT_xv-mN-CVHpD2l1bwKy9AU_UYY,10
+compneuro-0.1.1.dist-info/RECORD,,
