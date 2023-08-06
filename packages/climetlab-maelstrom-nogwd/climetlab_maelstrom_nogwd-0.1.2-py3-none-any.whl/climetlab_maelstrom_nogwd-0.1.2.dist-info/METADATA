@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: climetlab-maelstrom-nogwd
+Version: 0.1.2
+Summary: A dataset plugin for climetlab for the dataset maelstrom-nogwd/nogwd. 
+Home-page: https://github.com/mchantry/maelstrom-nogwd
+Author: Matthew Chantry
+Author-email: matthew.chantry@ecmwf.int
+License: Apache License Version 2.0
+Keywords: meteorology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: climetlab (>=0.5.6)
+
+## maelstrom-nogwd
+
+A dataset plugin for climetlab for the dataset maelstrom-nogwd/nogwd.
+
+
+Features
+--------
+
+In this README is a description of how to get the maelstrom-nogwd.
+
+## Dataset description
+Contains the input/output dataset for learning non-orographic 
+gravity wave drag, as described in https://arxiv.org/abs/2101.08195
+Data is group by forecast start date.
+
+## Using climetlab to access the data
+Data can be accessed either by forecast start-date or dataset type.
+With neither argument provided, the first file is loaded, corresponding
+to 2015-01-01. Incorrect dates will be flagged.
+Dataset types are "training", "validation" & "testing" corresponding
+to the date groups outlined in https://arxiv.org/abs/2101.08195
+
+
+The climetlab python package allows easy access to the data with a few lines of code such as:
+```
+
+!pip install climetlab climetlab_maelstrom_nogwd
+import climetlab as cml
+ds = cml.load_dataset("maelstrom-nogwd", date='2015-01-01')
+ds.to_xarray()
+#or
+ds = cml.load_dataset("maelstrom-nogwd", dataset='training')
+ds.to_xarray()
+```
+
+
