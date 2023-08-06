@@ -1,0 +1,26 @@
+INSTALL EDITABLE FROM SOURCE
+
+    pip install -e .
+
+
+RUN UNIT TEST
+
+    pytest
+
+
+RUN COVERAGE
+
+    coverage run -m pytest
+    coverage report -m
+
+
+PACKAGING
+
+    SOURCE DISTRIBUTION
+
+        python setup.py sdist
+
+    BUILT DISTRIBUTION (MANIFEST.in DOES NOT AFFECT BUILT DISTRIBUTION)
+
+        pip install wheel
+        python setup.py bdist_wheel

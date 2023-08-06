@@ -1,0 +1,16 @@
+COMMANDS
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+docs/index.rst
+fibonacci/__init__.py
+fibonacci/bin/__init__.py
+pfibonacci.egg-info/PKG-INFO
+pfibonacci.egg-info/SOURCES.txt
+pfibonacci.egg-info/dependency_links.txt
+pfibonacci.egg-info/entry_points.txt
+pfibonacci.egg-info/top_level.txt
+tests/test_cli.py
+tests/test_fibonacci.py

@@ -1,0 +1,9 @@
+include COMMANDS
+include LICENSE
+include MANIFEST.in
+include README.rst
+graft fibonaci
+graft docs
+graft tests
+global-exclude __pycache__
+global-exclude *.py[co]
