@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+batchrenamer/__init__.py
+batchrenamer/__main__.py
+batchrenamer/batchrenamer.py
+batchrenamer/filehistory.py
+batchrenamer.egg-info/PKG-INFO
+batchrenamer.egg-info/SOURCES.txt
+batchrenamer.egg-info/dependency_links.txt
+batchrenamer.egg-info/top_level.txt
+test/__init__.py
+test/test_batchrenamer.py
