@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: autopimms
+Version: 1.1.0
+Summary: Upload tool for WebPIMMS designed for multiple queries.
+Home-page: https://pypi.org/project/AutoPIMMS/
+Author: Elizabeth G. Lincoln, Rosa W. Everson, Christopher M. Carroll
+Author-email: lincoln@astro.gsu.edu, rosa@ucsc.edu, c.m.carroll715@gmail.com
+License: MIT
+Keywords: X-ray Astronomy WebPIMMS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: mechanicalsoup
+Requires-Dist: PyQt6
+
+# AutoPIMMS
+Upload tool for WebPIMMS designed for multiple queries.
+
+
