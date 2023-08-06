@@ -1,0 +1,14 @@
+matplotlib
+networkx
+numpy
+scipy
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme
+
+[tests]
+coverage
+pytest
+pytest-cov
