@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pwsearch/__init__.py
+pwsearch/__main__.py
+pwsearch/pwsearch.py
+pwsearch.egg-info/PKG-INFO
+pwsearch.egg-info/SOURCES.txt
+pwsearch.egg-info/dependency_links.txt
+pwsearch.egg-info/entry_points.txt
+pwsearch.egg-info/requires.txt
+pwsearch.egg-info/top_level.txt
