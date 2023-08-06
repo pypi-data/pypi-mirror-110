@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: FRHEED
+Version: 0.0.1
+Summary: An open source GUI for real-time RHEED analysis.
+Home-page: https://github.com/ecyoung3/FRHEED
+Author: Elliot Young
+Author-email: elliotyoung@frheed.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: PyQt5
+Requires-Dist: spyder
+Requires-Dist: Pillow
+Requires-Dist: appdirs
+Requires-Dist: IPython
+Requires-Dist: scipy (==1.5.4)
+Requires-Dist: matplotlib (==3.3.3)
+Requires-Dist: cmapy (==0.6.6)
+Requires-Dist: pyqtgraph (==0.11.0)
+Requires-Dist: opencv-python (==3.4.14.51)
+
+UNKNOWN
+
+
