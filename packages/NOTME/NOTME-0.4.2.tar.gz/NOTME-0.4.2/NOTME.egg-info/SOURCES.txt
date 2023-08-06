@@ -1,0 +1,10 @@
+CHANGELOG.txt
+Lisence.txt
+MANIFEST.in
+README.txt
+setup.py
+NOTME/__init__.py
+NOTME.egg-info/PKG-INFO
+NOTME.egg-info/SOURCES.txt
+NOTME.egg-info/dependency_links.txt
+NOTME.egg-info/top_level.txt

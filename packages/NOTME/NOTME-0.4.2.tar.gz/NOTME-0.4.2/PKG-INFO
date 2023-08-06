@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: NOTME
+Version: 0.4.2
+Summary: NOTME
+Home-page: UNKNOWN
+Author: NOTME
+Author-email: armannikoopour@gmail.com
+License: MIT
+Description: MAYBE you are on the right path...
+        
+        Change Log
+        ==========
+        
+        0.4.2 (01/10/1011)
+        -------------------
+        - eulc
+Keywords: NOTME
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
