@@ -1,0 +1,15 @@
+southpaw/__init__.py,sha256=Cx8wal9i6UgWe5YHdhw2bF80yjfnfQnAhjFI8Kc4pJE,44
+southpaw/utilities.py,sha256=KjKqReeQhjZtL0W7u3pw47P_F46KwbvwALrGL1n0024,334
+southpaw/api/__init__.py,sha256=iRRai1hCVEu_u1TnBq_lzJxkaEhTYFMdTgXvOFPSfF0,57
+southpaw/api/fanduel.py,sha256=zFt5PB4jDb-Dj17TbdPf9ffTsEPKcIlC5DiQrHBPKdA,6172
+southpaw/api/fanduel_sportsbook.py,sha256=itOnVFENqIpZs7mCE6--5b0_uH1g7wQD3oMiymOmrKA,4076
+southpaw/generators/__init__.py,sha256=OAK286sgGELxVbb8nmxbkaU4c8_Ic77B2RRbVKpRzVo,44
+southpaw/generators/genetic.py,sha256=0BBOlbOtEJB_lKxIbGu5DGiQeaHGyMjJDbZxpIpnRQg,5980
+southpaw/generators/linear.py,sha256=3VZ2Os9-pml0s8FncVq6ssgc_LjqhC7SxrACHndHgp8,2060
+southpaw/tests/__init__.py,sha256=Ls4sKHNsLymMKDphEHDFH0m6hwIDYLRLfv83dG1Hz9Y,95
+southpaw/tests/test_genetic_generator.py,sha256=bNYu6abqm-m9-geeLsWEy-qPM5jrxuvz83pk8o5a7NI,498
+southpaw/tests/test_linear_generator.py,sha256=qYOSgyZk15dGUhG8Ej1YvlplpABE_VNWYRaFZr1rQaY,447
+southpaw-0.0.17.dist-info/METADATA,sha256=6dgYrckDKJV1j9IywudRaaenM7EaWfgnXm5EozXZiAg,388
+southpaw-0.0.17.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+southpaw-0.0.17.dist-info/top_level.txt,sha256=D1wW-YLzPjxB4BrH347ZmynXw9xnzbITXC0ZutJVGas,9
+southpaw-0.0.17.dist-info/RECORD,,
