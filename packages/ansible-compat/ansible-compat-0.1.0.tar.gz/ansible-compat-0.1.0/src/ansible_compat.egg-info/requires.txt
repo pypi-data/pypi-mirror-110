@@ -1,0 +1,7 @@
+tenacity
+PyYAML
+
+[test]
+flaky
+pytest
+pytest-cov
