@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: asc2mb
+Version: 0.1.0
+Summary: Parse XML export from asc and format into two files suitable for upload
+License: MIT
+Author: Adam Morris
+Author-email: adam.morris@fariaedu.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (==8.0)
