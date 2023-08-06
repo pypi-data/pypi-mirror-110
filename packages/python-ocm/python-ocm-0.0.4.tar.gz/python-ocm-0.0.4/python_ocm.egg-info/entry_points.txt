@@ -1,0 +1,3 @@
+[console_scripts]
+ocm = geo_alchemy.cmd:geo_alchemy
+
