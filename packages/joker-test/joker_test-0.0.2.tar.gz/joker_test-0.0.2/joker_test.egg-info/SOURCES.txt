@@ -1,0 +1,7 @@
+setup.py
+joker_test/__init__.py
+joker_test.egg-info/PKG-INFO
+joker_test.egg-info/SOURCES.txt
+joker_test.egg-info/dependency_links.txt
+joker_test.egg-info/entry_points.txt
+joker_test.egg-info/top_level.txt

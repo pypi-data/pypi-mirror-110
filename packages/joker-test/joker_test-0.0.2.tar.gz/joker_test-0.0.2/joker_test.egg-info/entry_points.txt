@@ -1,0 +1,4 @@
+[console_scripts]
+joker = joker_test:jujube
+pill = joker_test:pill
+
