@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mlctl
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/intuit/mlctl
+Maintainer: Intuit ML Platform
+Maintainer-email: mlctl-maintainers@intuit.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: deprecation
+Requires-Dist: cachetools
+
+UNKNOWN
+
+
