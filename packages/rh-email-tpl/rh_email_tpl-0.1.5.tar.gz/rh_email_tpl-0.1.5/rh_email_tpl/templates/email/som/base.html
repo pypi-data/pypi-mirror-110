@@ -1,0 +1,8 @@
+{% extends 'email/som/empty.html' %}
+{% load email_components %}
+
+{% block emailbody %}
+    {% emailheader %}{% endemailheader %}
+    {% block content %}{% endblock %}
+    {% emailfooter %}{% endemailfooter %}
+{% endblock %}
