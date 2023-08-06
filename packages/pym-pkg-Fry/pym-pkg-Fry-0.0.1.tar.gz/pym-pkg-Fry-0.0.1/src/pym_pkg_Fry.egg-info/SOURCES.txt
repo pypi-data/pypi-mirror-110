@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pym_pkg_Fry.egg-info/PKG-INFO
+src/pym_pkg_Fry.egg-info/SOURCES.txt
+src/pym_pkg_Fry.egg-info/dependency_links.txt
+src/pym_pkg_Fry.egg-info/top_level.txt
