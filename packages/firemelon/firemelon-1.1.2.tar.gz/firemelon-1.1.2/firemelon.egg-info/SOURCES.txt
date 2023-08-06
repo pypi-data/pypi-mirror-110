@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+firemelon/__init__.py
+firemelon/__version__.py
+firemelon/adjectives.py
+firemelon/nouns.py
+firemelon.egg-info/PKG-INFO
+firemelon.egg-info/SOURCES.txt
+firemelon.egg-info/dependency_links.txt
+firemelon.egg-info/not-zip-safe
+firemelon.egg-info/top_level.txt
