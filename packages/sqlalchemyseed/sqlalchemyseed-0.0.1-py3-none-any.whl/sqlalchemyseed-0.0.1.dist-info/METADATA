@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sqlalchemyseed
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/jedymatt/sqlalchemyseed
+Author: jedymatt
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (>=1.4.0)
+
+UNKNOWN
+
