@@ -1,0 +1,3 @@
+[console_scripts]
+kubehelm = k8s.controller:execute_from_command_line
+
