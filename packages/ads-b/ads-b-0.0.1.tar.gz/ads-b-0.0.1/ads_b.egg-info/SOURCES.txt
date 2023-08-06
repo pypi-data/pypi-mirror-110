@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ads_b.egg-info/PKG-INFO
+ads_b.egg-info/SOURCES.txt
+ads_b.egg-info/dependency_links.txt
+ads_b.egg-info/top_level.txt
+adsb/__init__.py
+adsb/version.py
