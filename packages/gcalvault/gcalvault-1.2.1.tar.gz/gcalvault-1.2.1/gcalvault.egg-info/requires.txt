@@ -1,0 +1,11 @@
+google-api-python-client==2.7.*
+google-auth-httplib2==0.1.*
+google-auth-oauthlib==0.4.*
+requests==2.25.*
+GitPython==3.1.*
+
+[release]
+twine
+
+[test]
+pytest==6.*
