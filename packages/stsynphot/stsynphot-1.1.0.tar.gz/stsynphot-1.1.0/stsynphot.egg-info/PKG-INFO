@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: stsynphot
+Version: 1.1.0
+Summary: Synthetic photometry for HST
+Home-page: https://www.github.com/spacetelescope/stsynphot_refactor
+Author: STScI
+Author-email: help@stsci.edu
+License: BSD
+Keywords: astronomy,astrophysics,synthetic,photometry,HST
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Provides-Extra: all
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE
+
+Synthetic photometry utilities for HST
+
