@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pca9570
+Version: 1.1.0
+Summary: Support for the pca9570 pinmux
+Home-page: https://github.com/matteoscordino/python-PCA9570-pinmux
+Author: Matteo Scordino
+License: UNKNOWN
+Keywords: PCA9570
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-PCA9570-pinmux
+Python module for NXP PCA9570 GPIO expander
+
+See [here](https://www.nxp.com/docs/en/data-sheet/PCA9570.pdf) for the official datasheet
+
+
