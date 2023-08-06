@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ancer-python
+Version: 1.0.0
+Summary: Anisotropic sample-wise randomized smoothing package
+Home-page: https://github.com/MotasemAlfarra/ANCER
+Author: Motasem Alfarra
+Author-email: motasem.alfarra@kaust.edu.sa
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: ddsmoothing-python (>=1.0.0)
+Requires-Dist: torch (>=1.6.0)
+Requires-Dist: torchvision (>=0.7.0)
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: tqdm (>=4.44.0)
+Requires-Dist: scipy (>=1.5.0)
+Requires-Dist: statsmodels (>=0.11.1)
+
+See [the project repository](https://github.com/MotasemAlfarra/ANCER) for more information.
+
+
