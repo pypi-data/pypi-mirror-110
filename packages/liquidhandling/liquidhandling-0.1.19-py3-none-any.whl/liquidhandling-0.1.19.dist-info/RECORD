@@ -1,0 +1,14 @@
+liquidhandling/ExperimentManager.py,sha256=BKp08Vd4PY9FduNienBkiEN75crVEtdGtQablKmMzDg,1603
+liquidhandling/ExperimentParameter.py,sha256=qsvdquP1VlPYaKQyldL5BSjzorP_rVOL7hGI-XeR4cc,78
+liquidhandling/Plates.py,sha256=R6iUcPK9CmpSN9knF0r3zNxz8jhQ54mjK-nQnXq04Y8,9887
+liquidhandling/Properties.py,sha256=03J8_7obDITULWJI2ulZz1HgeulaQEB19hx_k8rt_8c,46
+liquidhandling/RapidPick.py,sha256=IhONpif9TMYpzWKbqW6qkdUMZWiB_M_GvZczsEz-sSc,68
+liquidhandling/SoftLinx.py,sha256=CFIZUH4VZIa2Y-sqjCp3kN-mRtlvNEHh3XRFQUp_N7M,40723
+liquidhandling/SoloSoft.py,sha256=haKLLpu5Di9RvkVUwd5FruVX-tI4L27RCdetZxDyaRg,30538
+liquidhandling/VolumeManager.py,sha256=sHEbDTqsz-xm05xiPSqQBvWgrWLAGkNySvwEmcN_8YM,3137
+liquidhandling/__init__.py,sha256=ZByHA9fRbaDGihom-MMGE_u3E1iiTgSwxeY7-gCbUmE,622
+liquidhandling-0.1.19.dist-info/LICENSE,sha256=h-5PGu0UNzvUB80ipSOQgd31XZMQWDf0RZ83T8h_-CQ,1078
+liquidhandling-0.1.19.dist-info/METADATA,sha256=O_Q1NMmH-a2qSWSprtkfp6EOpKRoveD4A59TtNz7QSo,2684
+liquidhandling-0.1.19.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+liquidhandling-0.1.19.dist-info/top_level.txt,sha256=AUddRa4UZOKaCXdNgSXzKBxhwmnEwPQ9AedoNfqh3RQ,15
+liquidhandling-0.1.19.dist-info/RECORD,,
