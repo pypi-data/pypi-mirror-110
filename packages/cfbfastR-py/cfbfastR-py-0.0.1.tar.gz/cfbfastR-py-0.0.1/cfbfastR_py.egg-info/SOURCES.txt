@@ -1,0 +1,10 @@
+README.md
+setup.py
+cfbfastR/__init__.py
+cfbfastR/config.py
+cfbfastR/errors.py
+cfbfastR_py.egg-info/PKG-INFO
+cfbfastR_py.egg-info/SOURCES.txt
+cfbfastR_py.egg-info/dependency_links.txt
+cfbfastR_py.egg-info/requires.txt
+cfbfastR_py.egg-info/top_level.txt
