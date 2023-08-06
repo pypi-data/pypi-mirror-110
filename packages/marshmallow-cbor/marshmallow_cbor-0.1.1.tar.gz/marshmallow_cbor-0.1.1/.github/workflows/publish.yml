@@ -1,0 +1,52 @@
+name: Publish packages to PyPI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  linux-wheels:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build manylinux Python wheels
+      uses: RalfG/python-wheels-manylinux-build@v0.3.4-manylinux2014_x86_64
+    - uses: actions/upload-artifact@v2
+      with:
+        name: linux-wheels
+        path: dist/*.whl
+
+  sdist:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+    - name: Install dependencies
+      run: pip install build
+    - name: Create sdist
+      run: python -m build --sdist .
+    - uses: actions/upload-artifact@v2
+      with:
+        name: sdist
+        path: dist/*.tar.gz
+
+  publish:
+    needs:
+      - linux-wheels
+      - sdist
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download generated packaging artifacts
+      uses: actions/download-artifact@v2
+    - name: Move the packages to dist/
+      run: |
+        mkdir dist
+        mv */*.whl */*.tar.gz dist
+    - name: Upload packages
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        user: __token__
+        password: ${{ secrets.PYPI_PASS }}

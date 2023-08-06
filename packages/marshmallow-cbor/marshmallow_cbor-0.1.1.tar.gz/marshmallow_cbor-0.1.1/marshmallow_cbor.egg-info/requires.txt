@@ -1,0 +1,10 @@
+marshmallow>=3.8
+cbor2>=5.4
+
+[doc]
+sphinx_rtd_theme
+sphinx-autodoc-typehints>=1.2.0
+
+[test]
+pytest
+pytest-cov
