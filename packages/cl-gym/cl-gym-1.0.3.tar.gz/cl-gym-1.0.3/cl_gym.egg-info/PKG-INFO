@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cl-gym
+Version: 1.0.3
+Summary: Continual Learning Gym
+Home-page: https://github.com/imirzadeh/Cl-Gym
+Author: Iman Mirzadeh
+Author-email: seyediman.mirzadeh@wsu.edu
+License: MIT
+Description: UNKNOWN
+Keywords: continual learning,lifelong learning,pytorch,deep learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
