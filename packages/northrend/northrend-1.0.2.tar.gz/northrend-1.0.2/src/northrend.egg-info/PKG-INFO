@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: northrend
+Version: 1.0.2
+Summary: A collection of utilities functions
+Home-page: https://github.com/dvquy13/northrend
+Author: Dinh Van Quy
+Author-email: quy.dinh3195@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dvquy13/northrend/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Northrend
+
+A personal repository of utilities functions.
+
+
