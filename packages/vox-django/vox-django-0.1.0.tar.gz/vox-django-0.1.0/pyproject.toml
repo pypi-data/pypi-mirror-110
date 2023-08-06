@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "vox-django"
+version = "0.1.0"
+description = ""
+authors = ["Jhonatan Teixeira <jhonatan.teixeira@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sqlalchemy = "==1.3.21"
+sqlalchemy-easy-profile = "^1.2.0"
+pycryptodome = "*"
+django = "*"
+django-sorcery = "*"
+sqlalchemy-schemadisplay = "*"
+sqlalchemy-pagination = "*"
+django-health-check = "*"
+djangorestframework = ">=3.11,<3.12"
+django-rest-witchcraft = "*"
+django-cors-headers = "*"
+drf-yasg = "*"
+python-dotenv = "*"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+coverage = "*"
+invoke = "*"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
