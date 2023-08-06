@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyDecisionTree
+Version: 0.0.0
+Summary: Decision Tree Analysis
+Home-page: http://github.com/jdvelasq/pyDecisionTree
+Author: Juan D. Velasquez
+Author-email: jdvelasq@unal.edu.co
+License: MIT
+Keywords: analytics
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides: pyDecisionTree
+License-File: LICENSE
+
+Decision Tree Analysis for Prescriptive Analytics
+
