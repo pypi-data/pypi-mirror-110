@@ -1,0 +1,12 @@
+README.md
+setup.py
+sparrow/__init__.py
+sparrow/core.py
+sparrow/file_ops.py
+sparrow/string.py
+sparrow/version_ops.py
+sparrow_tool.egg-info/PKG-INFO
+sparrow_tool.egg-info/SOURCES.txt
+sparrow_tool.egg-info/dependency_links.txt
+sparrow_tool.egg-info/requires.txt
+sparrow_tool.egg-info/top_level.txt
