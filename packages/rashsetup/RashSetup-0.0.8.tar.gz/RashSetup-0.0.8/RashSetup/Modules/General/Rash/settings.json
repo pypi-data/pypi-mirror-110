@@ -1,0 +1,15 @@
+{
+    "general": {
+        "name": "Rash",
+        "version": "0.1.0",
+        "hosted": "https://github.com/RahulARanger/Rash/tree/master/Rash/Rash",
+        "stamp": "18-06-2021|14:00"
+    },
+
+    "user": {
+        "downloads": {
+
+        },
+        "cwarning": true
+    }
+}
