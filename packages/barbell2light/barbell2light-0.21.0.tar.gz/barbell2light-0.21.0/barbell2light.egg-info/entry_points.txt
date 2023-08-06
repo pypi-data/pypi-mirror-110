@@ -1,0 +1,3 @@
+[console_scripts]
+dicomexplorer = barbell2light.dicom.dicomexplorer:main
+
