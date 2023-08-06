@@ -1,0 +1,50 @@
+PyYAML>=5.1
+cwltool==1.0.20191022103248
+jsonpointer>=2.0
+reana-commons[yadage]<0.9.0,>=0.8.0a17
+six>=1.12.0
+tablib<0.13,>=0.12.1
+werkzeug>=0.14.1
+
+[:python_version == "2.7"]
+typing>=3.7.4
+click==7.0
+websocket-client==0.59.0
+
+[:python_version >= "3"]
+click>=7
+cwl-utils==0.5
+
+[all]
+Sphinx>=1.5.1
+sphinx-rtd-theme>=0.1.9
+sphinx-click>=1.0.4
+pytest-reana<0.9.0,>=0.8.0a5
+Sphinx>=1.5.1
+sphinx-rtd-theme>=0.1.9
+sphinx-click>=1.0.4
+pytest-reana<0.9.0,>=0.8.0a5
+
+[all:python_version == "2.7"]
+google-auth==1.24.0
+oauthlib==3.1.0
+pluggy==0.13.1
+websocket-client==0.59.0
+google-auth==1.24.0
+oauthlib==3.1.0
+pluggy==0.13.1
+websocket-client==0.59.0
+
+[docs]
+Sphinx>=1.5.1
+sphinx-rtd-theme>=0.1.9
+sphinx-click>=1.0.4
+
+[tests]
+pytest-reana<0.9.0,>=0.8.0a5
+
+[tests:python_version == "2.7"]
+google-auth==1.24.0
+oauthlib==3.1.0
+pluggy==0.13.1
+websocket-client==0.59.0
