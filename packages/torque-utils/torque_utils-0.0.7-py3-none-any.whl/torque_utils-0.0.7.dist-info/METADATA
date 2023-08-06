@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torque-utils
+Version: 0.0.7
+Summary: Signal (include some video) processing and statistical functions
+Home-page: UNKNOWN
+Author: Conrado Torres Laett
+Author-email: conradotl@gmail.com
+License: MIT
+Keywords: torque,computer science,EMG
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pingouin
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: moviepy
+Requires-Dist: cv
+
+To do
+
+
