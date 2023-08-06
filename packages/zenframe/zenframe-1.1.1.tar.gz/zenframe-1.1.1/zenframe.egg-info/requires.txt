@@ -1,0 +1,3 @@
+evalcache
+PyQt5!=5.14.1
+psutil
