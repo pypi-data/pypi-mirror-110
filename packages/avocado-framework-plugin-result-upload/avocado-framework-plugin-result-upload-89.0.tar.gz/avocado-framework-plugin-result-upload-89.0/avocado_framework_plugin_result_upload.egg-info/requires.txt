@@ -1,0 +1,1 @@
+avocado-framework==89.0
