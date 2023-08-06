@@ -1,0 +1,6 @@
+param
+pyct<=0.4.6
+dask[complete]
+pyproj
+rasterio
+rioxarray
