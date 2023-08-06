@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+quicktimer/__init__.py
+quicktimer/quicktimer.py
+quicktimer.egg-info/PKG-INFO
+quicktimer.egg-info/SOURCES.txt
+quicktimer.egg-info/dependency_links.txt
+quicktimer.egg-info/top_level.txt
