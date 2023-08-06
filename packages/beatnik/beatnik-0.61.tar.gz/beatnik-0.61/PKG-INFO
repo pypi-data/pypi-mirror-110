@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: beatnik
+Version: 0.61
+Summary: beatnik interpreter
+Home-page: https://github.com/experimental-informatics/beatnik
+Author: Experimental Informatics
+Author-email: t.liu@khm.de
+License: MIT
+Description: UNKNOWN
+Keywords: beatnik,esoteric programming language,stack-based
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
