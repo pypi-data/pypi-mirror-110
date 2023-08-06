@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: make-runner
+Version: 0.1.0
+Summary: Enhanced Makefile-based task runner
+Author: Hiroyuki Deguchi
+Author-email: deguchi.hiroyuki.db0@is.naist.jp
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
