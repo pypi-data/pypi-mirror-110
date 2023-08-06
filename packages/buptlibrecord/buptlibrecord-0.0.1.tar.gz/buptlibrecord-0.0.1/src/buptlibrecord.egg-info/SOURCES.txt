@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/buptlibrecord/__init__.py
+src/buptlibrecord.egg-info/PKG-INFO
+src/buptlibrecord.egg-info/SOURCES.txt
+src/buptlibrecord.egg-info/dependency_links.txt
+src/buptlibrecord.egg-info/entry_points.txt
+src/buptlibrecord.egg-info/requires.txt
+src/buptlibrecord.egg-info/top_level.txt
