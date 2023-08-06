@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mcp990x
+Version: 1.1.0
+Summary: Support for the MCP990x sensor
+Home-page: https://github.com/matteoscordino/python-MCP990x-sensor
+Author: Matteo Scordino
+License: UNKNOWN
+Keywords: MCP990x
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-MCP990x-sensor
+Python module for MCP990x family temperature sensor reading. It uses I2C to talk to the MCP990x.
+
+

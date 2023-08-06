@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mcp990x/__init__.py
+src/mcp990x/mcp990x.py
+src/mcp990x.egg-info/PKG-INFO
+src/mcp990x.egg-info/SOURCES.txt
+src/mcp990x.egg-info/dependency_links.txt
+src/mcp990x.egg-info/requires.txt
+src/mcp990x.egg-info/top_level.txt
