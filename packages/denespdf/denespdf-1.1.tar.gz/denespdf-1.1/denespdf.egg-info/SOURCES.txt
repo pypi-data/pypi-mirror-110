@@ -1,0 +1,9 @@
+README.md
+setup.py
+denespdf/__init__.py
+denespdf/pdf2image.py
+denespdf/pdf2text.py
+denespdf.egg-info/PKG-INFO
+denespdf.egg-info/SOURCES.txt
+denespdf.egg-info/dependency_links.txt
+denespdf.egg-info/top_level.txt
