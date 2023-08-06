@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: question-creation-app-realpython
+Version: 0.1
+Summary: Question creator
+Home-page: https://github.com/vishnuprasadkv55/question-creator-distributable-pip
+Author: Vishnu Prasad
+Author-email: vishnuprasadkv55@gmail.com
+License: MIT
+Download-URL: https://github.com/vishnuprasadkv55/question-creator-distributable-pip/archive/0.1.tar.gz
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+Requires-Dist: altgraph
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: click
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: future
+Requires-Dist: idna
+Requires-Dist: itsdangerous
+Requires-Dist: Jinja2
+Requires-Dist: jmespath
+Requires-Dist: MarkupSafe
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pefile
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: pywin32-ctypes
+Requires-Dist: requests
+Requires-Dist: s3transfer
+Requires-Dist: six
+Requires-Dist: SQLAlchemy
+Requires-Dist: urllib3
+Requires-Dist: Werkzeug
+
+UNKNOWN
+
