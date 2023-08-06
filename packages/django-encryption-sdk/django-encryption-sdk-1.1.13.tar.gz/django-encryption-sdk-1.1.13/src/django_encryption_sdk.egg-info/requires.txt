@@ -1,0 +1,6 @@
+aliyun-python-sdk-core>=2.10
+aliyun-python-sdk-kms>=2.14.0
+contextvars>=2.0
+Django>=2.2.0
+pycryptodome>=3.0
+djangorestframework>=3.0.0
