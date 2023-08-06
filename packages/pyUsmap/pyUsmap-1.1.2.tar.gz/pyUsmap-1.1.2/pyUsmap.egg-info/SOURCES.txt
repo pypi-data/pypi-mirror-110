@@ -1,0 +1,17 @@
+README.md
+setup.py
+Usmap/BinaryReader.py
+Usmap/Oodle.py
+Usmap/__init__.py
+Usmap/main.py
+Usmap/Objects/FName.py
+Usmap/Objects/FPropertyTag.py
+Usmap/Objects/__init__.py
+Usmap/Objects/FName.py
+Usmap/Objects/FPropertyTag.py
+Usmap/Objects/__init__.py
+pyUsmap.egg-info/PKG-INFO
+pyUsmap.egg-info/SOURCES.txt
+pyUsmap.egg-info/dependency_links.txt
+pyUsmap.egg-info/requires.txt
+pyUsmap.egg-info/top_level.txt
