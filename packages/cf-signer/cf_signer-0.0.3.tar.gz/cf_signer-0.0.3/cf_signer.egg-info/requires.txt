@@ -1,0 +1,7 @@
+Click>=7.0
+PyOpenSSL>=20.0.1
+
+[develop]
+pytest>=3
+flake8>=3.7.8
+pylint>=2.8.3

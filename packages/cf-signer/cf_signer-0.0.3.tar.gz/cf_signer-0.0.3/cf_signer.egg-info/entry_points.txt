@@ -1,0 +1,3 @@
+[console_scripts]
+cf_signer = cf_signer.cli:main
+
