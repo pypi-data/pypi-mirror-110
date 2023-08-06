@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tkcode
+Version: 0.1.1
+Summary: A code editor and code block widget for tkinter with syntax highlighting, and some other useful stuff
+Home-page: https://github.com/rdbende/tkcode
+Author: rdbende
+Author-email: rdbende@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pygments
+
+See at: https://github.com/rdbende/tkcode
+
+
