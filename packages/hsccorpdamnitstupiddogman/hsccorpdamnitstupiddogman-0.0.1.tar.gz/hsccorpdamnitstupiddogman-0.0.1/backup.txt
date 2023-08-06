@@ -1,0 +1,42 @@
+# Use this to build all sorts of hacking applications, like Webcrawlers, Webbrutes, Trojans, and more!
+import requests
+import socket
+import os
+
+
+class Web:
+    def __init__(self, url: str):
+        self.url = url
+
+    def crawl(self, url_list):
+
+        if not os.path.exists(url_list):
+            raise FileNotFoundError
+
+        for line in open(url_list).readlines():
+            response = requests.get(self.url + '/' + line.strip())
+
+            if response:
+                yield f"\nURL FOUND: {self.url}/{line.strip()}\n"
+
+    def brute(self, wordlist: open, username: str):
+        if not os.path.exists(wordlist):
+            raise FileNotFoundError
+
+        for line in open(wordlist).readlines():
+            passwords = line.strip()
+            payload = {'Username': username, 'Password': passwords}
+            response = requests.get(self.url, data=payload)
+            print(f"Trying: {passwords}")
+
+            if response:                yield [username, passwords]
+                break
+
+
+class Trojan:
+    def __init__(self, localhost, port):
+        self.localhost = localhost
+        self.port = port
+
+
+

@@ -1,0 +1,13 @@
+CHANGELOG.txt
+HackersToolkit.py
+LICENCE.txt
+MANIFEST.in
+README.txt
+Test.py
+backup.txt
+common.txt
+setup.py
+hsccorpdamnitstupiddogman.egg-info/PKG-INFO
+hsccorpdamnitstupiddogman.egg-info/SOURCES.txt
+hsccorpdamnitstupiddogman.egg-info/dependency_links.txt
+hsccorpdamnitstupiddogman.egg-info/top_level.txt

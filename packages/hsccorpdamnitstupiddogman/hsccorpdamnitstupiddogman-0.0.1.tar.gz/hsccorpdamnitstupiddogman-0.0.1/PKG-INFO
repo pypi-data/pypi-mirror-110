@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: hsccorpdamnitstupiddogman
+Version: 0.0.1
+Summary: A tool 
+Home-page: UNKNOWN
+Author: Ian Moffet and Arnav Nanduri
+Author-email: arnanduri2006@gmail.com
+License: MIT
+Description: The HackersToolkit module is used for EDUCATIONAL PURPOSES ONLY. WE DON'T ENCOURAGE USING THIS TO HARM.
+        USE AT YOUR OWN RISK, WE ARE NOT RESPONSIBLE FOR ANYTHING YOU CHOOSE TO DO.
+        2 functions at the moment, a web crawler(scans for hidden urls using a list of keywords to look for)
+        and a pinger that tests to see if the website is online.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (6/21/21)
+        
+        - First Release
+        - Comes with just 2 functions at the moment, we are working on adding more
+        - Web crawler and Web pinger to test if the site is up.
+        
+        
+Keywords: Hack
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
