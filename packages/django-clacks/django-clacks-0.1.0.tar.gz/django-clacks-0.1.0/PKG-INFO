@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-clacks
+Version: 0.1.0
+Summary: The unseen, silent tribute to those we have lost.
+Author: David Cooke
+Author-email: me@dave.lc
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+
