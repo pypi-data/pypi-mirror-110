@@ -1,0 +1,10 @@
+studenttmixture/__init__.py,sha256=fepZZJmk7CX_3eRRoVspXP2eGRcL9qo6bF7lcViQw28,116
+studenttmixture/em_student_mixture.py,sha256=abG7_s5oKWVtWc538CE5ultdCIJjydmhlmR-emWUjcA,37431
+studenttmixture/parameter_bundle.py,sha256=jTrvSgb5dYBiGnVP9NMKhEx09YNuuBVXhkNhsVOYVsI,5413
+studenttmixture/variational_hyperparams.py,sha256=NtO9NPE7m7G5bnuSqRPAdSjEbOdjD2g1xIkKLVBDLzY,3084
+studenttmixture/variational_student_mixture.py,sha256=4u9ei9EhReHD2xYmSfucVDZQJ1qvbuFvjUSSTnk1dXU,48759
+studenttmixture-0.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+studenttmixture-0.0.2.dist-info/METADATA,sha256=VdxoywEHOYH_p4TSnguUcb4GPhJb001rB5DqXvX-tkE,2319
+studenttmixture-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+studenttmixture-0.0.2.dist-info/top_level.txt,sha256=m-TooD1wNhk3QT1VMrSgIVfbyXisyFJrTSc8ZVaed6k,16
+studenttmixture-0.0.2.dist-info/RECORD,,

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: studenttmixture
+Version: 0.0.2
+Summary: Mixture modeling algorithms using the Student's t-distribution
+Home-page: https://github.com/jlparki/mix_T
+Author: Jonathan Parkinson
+Author-email: jlparkinson1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: scipy (>=1.5.0)
+
+# studenttmixture
+
+Mixtures of multivariate Student's t distributions are widely used for clustering
+data that may contain outliers, but scipy and scikit-learn do not at present
+offer classes for fitting Student's t mixture models. This package provides classes
+for:
+
+1) Modeling / clustering a dataset using a finite mixture of multivariate Student's
+t distributions fit via the EM algorithm. You can select the number of components
+using either prior knowledge or the information criteria calculated by the model
+(e.g. AIC, BIC).
+2) Modeling / clustering a dataset using a mixture of multivariate Student's 
+t distributions fit via the variational mean-field approximation. Depending on the
+hyperparameters you select, the fitting process will automatically "choose" an 
+appropriate number of clusters, so the number of components in this case acts
+as an upper bound.
+3) Modeling / clustering an infinite mixture of Student's t-distributions (i.e. a Dirichlet process). In practice,
+this model is fitted using some small modifications to the mean-field recipe and has
+some of the same advantages and limitations.
+
+(1) and (2) are currently available; (3) will be available in version 0.0.3.
+
+Unittests for the package are in the tests folder.
+
+### Installation
+
+    pip install studenttmixture
+
+### Usage
+
+- [EMStudentMixture](https://github.com/jlparkI/mix_T/blob/main/Documentation/Finite_Mixture_Docs.md)<br>
+- [VariationalStudentMixture](https://github.com/jlparkI/mix_T/blob/main/Documentation/Variational_Mixture_Docs.md)<br>
+- [Tutorial: Modeling with mixtures of t-distributions](https://github.com/jlparkI/mix_T/blob/main/Documentation/Tutorial.md)<br>
+
+
+### Background
+
+- [Deriving the mean-field formula](https://github.com/jlparkI/mix_T/blob/main/Documentation/variational_mean_field.pdf)<br>
+
+### Upcoming in future versions
+
+- [Planned for version 0.0.3](https://github.com/jlparkI/mix_T/blob/main/Documentation/planned_mods.md)
+
+
