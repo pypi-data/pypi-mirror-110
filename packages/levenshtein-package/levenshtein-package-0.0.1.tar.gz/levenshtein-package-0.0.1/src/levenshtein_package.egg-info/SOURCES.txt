@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+src/levenshtein/__init__.py
+src/levenshtein/main.py
+src/levenshtein_package.egg-info/PKG-INFO
+src/levenshtein_package.egg-info/SOURCES.txt
+src/levenshtein_package.egg-info/dependency_links.txt
+src/levenshtein_package.egg-info/not-zip-safe
+src/levenshtein_package.egg-info/requires.txt
+src/levenshtein_package.egg-info/top_level.txt
