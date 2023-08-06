@@ -1,0 +1,10 @@
+Custom_Widgets/Widgets.py,sha256=hnCk5EPFeQQ30MW__yH2du1LtaP9Jhp2Tgse0Na4Nyw,109392
+Custom_Widgets/__init__.py,sha256=lNc9L9Ocw2KWYHQvPZeyIabe8kXgVyE8q5Wr4otLvIs,39
+Custom_Widgets/ProgressIndicator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Custom_Widgets/ProgressIndicator/test.py,sha256=vTNFSRkNsWqMJPcEuukDMPKVBwSAINOvXiBNKawM6fc,9242
+Custom_Widgets/ProgressIndicator/ui_interface.py,sha256=Ju1Mn9SjLJWSaByZcU_vqoG1EA4SuaGzYE75Ylg1iuk,9581
+QT_PyQt_PySide_Custom_Widgets-0.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+QT_PyQt_PySide_Custom_Widgets-0.2.3.dist-info/METADATA,sha256=tCNo79V9uP_Lb_rlgF2gdvruPNDvJe4vQeNnQr23tSU,1839
+QT_PyQt_PySide_Custom_Widgets-0.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+QT_PyQt_PySide_Custom_Widgets-0.2.3.dist-info/top_level.txt,sha256=LOKMCBQTcQyiicDOt2KvnKh4abbooEHf6I4Jrna9XNw,15
+QT_PyQt_PySide_Custom_Widgets-0.2.3.dist-info/RECORD,,
