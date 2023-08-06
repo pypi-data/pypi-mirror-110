@@ -1,0 +1,9 @@
+pyelftools
+clingo
+six
+
+[all]
+pyelftools
+clingo
+six
+pytest>=4.6.2
