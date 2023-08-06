@@ -1,0 +1,14 @@
+pyeqeq_eqeq.cpython-37m-darwin.so,sha256=JfOkLf5aO7ejJNRoRm_L96HRsCQ0btk1gAVL-GnS3v4,231904
+pyeqeq/__init__.py,sha256=PSYVtvoGxAQrGFQJfWbuhGfCVmH-cB2-6Vr-QzBIEYM,54
+pyeqeq/cli.py,sha256=2I7KunjyIT5FXxatdY1P3k6AHCJl5xT0_SexICB78vA,2663
+pyeqeq/main.py,sha256=cjF129hWq8x5fyBwPiLiuWA3l7aZXRtMHAieXv5_DGQ,1224
+pyeqeq/settings.py,sha256=Z_Mi8Eu1_B27R4BmivP0E-YUHIUI044djEC9Pc3t06w,208
+pyeqeq/data/chargecenters.dat,sha256=U9syO18GBRxeiu78_Eh4k9VhZIPOlRknxGR0HOy1Spg,491
+pyeqeq/data/ionizationdata.dat,sha256=tfPtLrX21YuECVE5_17lDNTrTYKzOogNs-4wopqHiUk,6058
+pyeqeq-0.0.7.data/headers/main.h,sha256=wb1PWAUXjOAStrsXuxGIUJ-VDqUYSLBMPSXgGTYv_sw,420
+pyeqeq-0.0.7.dist-info/LICENSE,sha256=VHIjkD0odvFmOnHqi8_R4ejZxlDb686i34DN_HJSGp0,15187
+pyeqeq-0.0.7.dist-info/METADATA,sha256=YN7I19w9Yzaw5JFi1x2W9ETgcqEd7TTEjVX4GQfnoYE,3612
+pyeqeq-0.0.7.dist-info/WHEEL,sha256=3MaGW2p97bAuypYB82dW_j_Lc_Fni2yOyOJA9oupd_4,111
+pyeqeq-0.0.7.dist-info/entry_points.txt,sha256=CuLGwm5cPjuGhDTWevkmPcRoWw-GB_yxjiz-7kQ8jWs,41
+pyeqeq-0.0.7.dist-info/top_level.txt,sha256=TGBwThYrofzp_CQs0jHWhXKju_zHreOjHRyalPd4Xjk,19
+pyeqeq-0.0.7.dist-info/RECORD,,
