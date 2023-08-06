@@ -1,0 +1,14 @@
+dfselect/__init__.py,sha256=FG1gva8Lqk_tRhljJAzEhPcq1t8pXRJUSjYgNxtYuMw,589
+dfselect/context.py,sha256=FY9WWaZ-ohXsZzeIdrB7zI_h1pSmkO2B0a6TymaA1dc,2451
+dfselect/errors.py,sha256=yPmoqDVDLnTfoO_gsjt7YJ-Pxxg8hLMR_1mRQIsz_Lo,152
+dfselect/log.py,sha256=bg4GRtls5g9ZL_8gzQZSCmm_L4MUY5QOynSVuQPlwHg,143
+dfselect/util.py,sha256=zGAcFdXKI6Vdo-A5PHhLvu3Vd-iLskMW-MhG7UHL1lo,3764
+dfselect/exec/__init__.py,sha256=fTnxI1aRZXUlqblHe074d4TTfsGEytfOTng5B-ijlys,720
+dfselect/exec/expr.py,sha256=yYIRMlEQK11gpw_ZjipM9J8cQg3_ZtCObr6VZLdDYX8,3903
+dfselect/exec/operator.py,sha256=R0UdxXi41pBdSOx5P69HG5QukiakIKHK3QblX9_uqO8,5475
+dfselect/exec/udf.py,sha256=cf3fHtPlFBl85JD5BbEV4TZUOlsjBXTiG1o8XLrlTqM,480
+dfselect/parse/__init__.py,sha256=gk_WwHB1dgpCXy0n-PWea41jlG0J5uyl-w6Zk-ETNCQ,16684
+df_select-0.0.1.2.dist-info/METADATA,sha256=_t4BfGgdMRue4O1gBRoou9gQVypGE0Ere1T9OQRM_fA,993
+df_select-0.0.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+df_select-0.0.1.2.dist-info/top_level.txt,sha256=Yva7m8xgRurOa4hXkeQmIRDdaVAr8LpdWugs99DZ3e4,9
+df_select-0.0.1.2.dist-info/RECORD,,
