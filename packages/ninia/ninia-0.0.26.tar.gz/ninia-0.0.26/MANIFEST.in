@@ -1,0 +1,3 @@
+
+include ninia/input/*.i
+include ninia/input/*.sh
