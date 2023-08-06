@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+paybybot2/__init__.py
+paybybot2/__main__.py
+paybybot2/bot.py
+paybybot2/config.py
+paybybot2/notifs.py
+paybybot2.egg-info/PKG-INFO
+paybybot2.egg-info/SOURCES.txt
+paybybot2.egg-info/dependency_links.txt
+paybybot2.egg-info/entry_points.txt
+paybybot2.egg-info/requires.txt
+paybybot2.egg-info/top_level.txt
