@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+simplejsondb/__init__.py
+simplejsondb/databases.py
+simplejsondb.egg-info/PKG-INFO
+simplejsondb.egg-info/SOURCES.txt
+simplejsondb.egg-info/dependency_links.txt
+simplejsondb.egg-info/top_level.txt
