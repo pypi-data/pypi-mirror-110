@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: deepss
+Version: 0.19.1
+Summary: DeepSS
+Home-page: https://github.com/janclemenslab/deepss
+Author: Jan Clemens
+Author-email: clemensjan@googlemail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: pyyaml
+Requires-Dist: peakutils
+Requires-Dist: zarr
+Requires-Dist: flammkuchen
+Requires-Dist: defopt
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: librosa
+Requires-Dist: matplotlib
+Requires-Dist: matplotlib_scalebar
+Requires-Dist: peakutils
+
+_DeepSS_ has been renamed _DAS_ (_Deep Audio Segmenter_) and can be found on github at [https://github.com/janclemenslab/das]() and on pypi at [https://pypi.org/project/das]().
