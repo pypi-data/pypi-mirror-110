@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+architrice/__init__.py
+architrice/__main__.py
+architrice/actions.py
+architrice/archidekt.py
+architrice/cockatrice.py
+architrice/main.py
+architrice/utils.py
+architrice.egg-info/PKG-INFO
+architrice.egg-info/SOURCES.txt
+architrice.egg-info/dependency_links.txt
+architrice.egg-info/requires.txt
+architrice.egg-info/top_level.txt
