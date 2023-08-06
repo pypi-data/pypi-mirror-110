@@ -1,0 +1,10 @@
+bme68x.cpython-37m-arm-linux-gnueabihf.so,sha256=vQBW_LJrndMrdzgxOXbb4vur79gByhuW5uCnlXnnNVs,112816
+bme68xConstants.py,sha256=AQAkI1scWBogR9k2XhPQGcwmTE330jO5PaXesvvNQWA,2863
+bsecConstants.py,sha256=N4CwXRwFkxZHIOCTL94zcLtr5M8QnC34MY3yx4LU0PI,571
+bme68x-1.0.3.data/headers/bme68x.h,sha256=AuJ81eaxizbDMt6eyK0LL03LeE1J7paQcG3SeX_k28k,10753
+bme68x-1.0.3.data/headers/bme68x_defs.h,sha256=WaaiYmuDOR0klXVRbRC3noSAOEtrFQuORpY5aUn3QKM,28498
+bme68x-1.0.3.data/headers/internal_functions.h,sha256=gwC4yD_iUJUs00wHO5V0wZPOcN5vlJohXt-3ylEZamA,2280
+bme68x-1.0.3.dist-info/METADATA,sha256=iSVAxcX55dYZSdns2ewSw8NU-lj51iKlJz8NTyVpvV8,2977
+bme68x-1.0.3.dist-info/WHEEL,sha256=f2k0IG-J1RRnMWgsgPSydMpH6vHM-yPwRiVl74_NOfE,104
+bme68x-1.0.3.dist-info/top_level.txt,sha256=jH_ATI6hCmb0oDmWitu_GNjnGegux3GNoDcuRllwXKY,37
+bme68x-1.0.3.dist-info/RECORD,,
