@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: piest
+Version: 0.1.1
+Summary: Superlative form of Py
+Home-page: https://github.com/ru5j4r0/piest
+Author: ru5j40
+Author-email: 59990307+ru5j4r0@users.noreply.github.com
+License: Apache-2.0
+Keywords: utilities,utils,util,module,library,helpers,helper
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# piest
+Superlative form of Py
+
+## Docs
+https://ru5j4r0.github.io/piest/
+
+
