@@ -1,0 +1,14 @@
+indo/__init__.py,sha256=ZTipNH6wyC6qsq1H_lZsvJyVruUa1nu3y4EysMdkpuU,22
+indo/admin.py,sha256=tGfRVcq3X5l-h9P-GDFB4k8-f1WuxVFFV0Iibd-f-Gg,3006
+indo/apps.py,sha256=ASXPo3iJS4jjE9GHjhZ3e5rYCaibGJnlC5Xf_L_0QII,140
+indo/funcs.py,sha256=BKBlktLqROd61dYDW8ArD9ovhstRXV2wC5S4YCARQAg,1507
+indo/static/indo/indo.css,sha256=dy1Ip3bTaryX08l1WeiOMV78uZxHZtAuxIDFmYou92s,629
+indo/static/indo/indo.js,sha256=O5cxo_NtT3dBfhP5wF7BqYEf5qqn1bPQbMjA9ejCii8,4805
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_indo-1.0.2.dist-info/LICENSE,sha256=H-OSOPQ0Sr4-kFYZ5pf_2foc1hIpnAFTY1DZ1wgro6Q,1072
+django_indo-1.0.2.dist-info/METADATA,sha256=8tfvAdCApecQKYUIBnLFSejXEvcIIZ_qT79vW5eb4oE,2040
+django_indo-1.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_indo-1.0.2.dist-info/top_level.txt,sha256=rg_kp2vlWSnDi_17g15rVaFhEbtBikiZsR4zF4iOasY,11
+django_indo-1.0.2.dist-info/RECORD,,
