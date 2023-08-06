@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pySimulationOptimizer/__init__.py
+pySimulationOptimizer.egg-info/PKG-INFO
+pySimulationOptimizer.egg-info/SOURCES.txt
+pySimulationOptimizer.egg-info/dependency_links.txt
+pySimulationOptimizer.egg-info/requires.txt
+pySimulationOptimizer.egg-info/top_level.txt
+tests/__init__.py
