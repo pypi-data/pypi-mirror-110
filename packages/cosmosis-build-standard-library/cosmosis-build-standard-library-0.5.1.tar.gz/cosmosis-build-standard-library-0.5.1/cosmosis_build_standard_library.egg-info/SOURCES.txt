@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+setup.py
+bin/cosmosis-build-standard-library
+cosmosis_build_standard_library.egg-info/PKG-INFO
+cosmosis_build_standard_library.egg-info/SOURCES.txt
+cosmosis_build_standard_library.egg-info/dependency_links.txt
+cosmosis_build_standard_library.egg-info/top_level.txt

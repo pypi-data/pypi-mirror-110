@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cosmosis-build-standard-library
+Version: 0.5.1
+Summary: A simple tool to download and build CosmoSIS Standard Library.
+Home-page: https://bitbucket.org/joezuntz/cosmosis-csl
+Author: Joe Zuntz
+Author-email: joezuntz@googlemail.com
+License: UNKNOWN
+Description: This package mainly exists to give conda-forge something to download. It provides a single script which git clones the CosmoSIS standard library and then builds it. You can do all this manually if you prefer.
+Platform: UNKNOWN

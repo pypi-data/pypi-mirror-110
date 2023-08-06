@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -e
+
+DEFAULT_BRANCH=v0.5
+
+if [ "$1" == "" ]; then
+    branch=${DEFAULT_BRANCH}
+elif [ "$1" == "main" ]; then
+    branch="main"
+else
+    branch=$1
+fi
+
+echo "Downloading version '$branch'"
+
+set -x
+
+# Download and build the standard library
+git clone --branch ${branch} https://github.com/joezuntz/cosmosis-standard-library
+pushd cosmosis-standard-library
+source cosmosis-configure
+make
+popd
