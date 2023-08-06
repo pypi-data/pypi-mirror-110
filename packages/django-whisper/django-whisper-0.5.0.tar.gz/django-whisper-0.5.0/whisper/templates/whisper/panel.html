@@ -1,0 +1,13 @@
+<div class="whisper">
+    <div id="page-chat">
+        <div class="chat-channels show">
+            {% include 'whisper/panel_header.html' %}
+            <div class="tab-content" id="chat-tabContent">
+                {% include 'whisper/panel_users_tab.html' %}
+                {% include 'whisper/panel_rooms_tab.html' %}
+            </div>
+        </div>
+        {% include 'whisper/panel_chat_room.html' %}
+        {% include 'whisper/panel_chat_room_members.html' %}
+    </div>
+</div>
