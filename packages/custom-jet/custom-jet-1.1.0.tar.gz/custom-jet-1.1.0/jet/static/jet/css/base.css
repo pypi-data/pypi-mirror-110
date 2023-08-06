@@ -1,0 +1,6 @@
+.CodeMirror, .CodeMirror-scroll {
+	min-height: 50px !important;
+}
+.field-categories .select2-container--jet{
+	width: 300px !important;
+}
