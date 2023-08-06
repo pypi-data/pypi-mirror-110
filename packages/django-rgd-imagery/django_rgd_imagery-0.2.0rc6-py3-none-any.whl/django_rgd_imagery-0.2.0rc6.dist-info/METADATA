@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: django-rgd-imagery
+Version: 0.2.0rc6
+Summary: UNKNOWN
+Home-page: https://github.com/ResonantGeoData/ResonantGeoData
+Author: Kitware, Inc.
+Author-email: rgd@kitware.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: django-rgd
+Requires-Dist: large-image (>=1.6.0)
+Requires-Dist: large-image-source-gdal (>=1.6.0)
+Requires-Dist: large-image-source-pil (>=1.6.0)
+Requires-Dist: numpy
+Requires-Dist: pystac[validation]
+Requires-Dist: rasterio
+Requires-Dist: shapely
+Provides-Extra: worker
+Requires-Dist: kwarray (>=0.5.10) ; extra == 'worker'
+Requires-Dist: kwcoco ; extra == 'worker'
+Requires-Dist: kwimage[headless] (>=0.6.7) ; extra == 'worker'
+Requires-Dist: large-image-converter ; extra == 'worker'
+
+# ResonantGeoData Imagery
+
+A submodule of ResonantGeoData for storing imagery supporting annotations and spatial reference.
+
+
