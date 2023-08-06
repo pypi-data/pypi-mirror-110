@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chainedci
+Version: 1.2.1
+Summary: Chaine Gitlab CI pipelines
+Home-page: https://gitlab.com/Orange-OpenSource/lfn/ci_cd/chained-ci
+Author: Orange OpenSource
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: ansible-base (==2.10.*)
+Requires-Dist: schema
+Requires-Dist: requests
+
+UNKNOWN
+
