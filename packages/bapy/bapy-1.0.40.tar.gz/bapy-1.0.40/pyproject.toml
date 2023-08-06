@@ -1,0 +1,43 @@
+[build-system]
+requires = ['flit_core >=2,<4']
+build-backend = 'flit_core.buildapi'
+
+[tool.flit.metadata]
+module = 'bapy'
+author = 'José'
+classifiers = [ 'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',]
+description-file = 'README.md'
+requires = [
+    'decorator',
+    'devtools',
+    'distro',
+    'dpath',
+    'icecream',
+    'environs',
+    'furl',
+    'gitpython',
+    'inflect',
+    'intervaltree',
+    'jinja2',
+    'jsonpickle',
+    'loguru',
+    'marshmallow',
+    'more_itertools',
+    'motor',
+    'nested_lookup',
+    'paramiko',
+    'pip',
+    'pymongo[srv,tls]',
+    'python-box',
+    'requests[security]',
+    'rich',
+    'semver',
+    'setuptools',
+    'structlog',
+    'typer[all]',
+    'wheel',
+]
+
+[tool.flit.scripts]
+localbin = 'bapy:localbin'
+bapy = 'bapy:app'
