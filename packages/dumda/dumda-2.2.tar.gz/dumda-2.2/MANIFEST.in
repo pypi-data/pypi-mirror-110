@@ -1,0 +1,3 @@
+recursive-include dumda *.csv
+recursive-include dumda *.txt
+recursive-include README.md
