@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: git-config
+Version: 1.0.0
+Summary: Get local or global git config as a dictionary
+Home-page: https://github.com/coderosh/git_config
+Author: Roshan Acharya
+Author-email: acharyaroshan2357@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/coderosh/git_config#readme
+Project-URL: Bug Tracker, https://github.com/coderosh/git_config/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# git_config
+
+> Get git config as a dictionary
+
+## Installation
+
+```sh
+pip install git_config
+```
+
+## Usage
+
+```py
+from git_config import get_config
+
+# Global git config
+config = get_config()
+config["user"]["name"] # Roshan Acharya
+config["user"]["email"] # acharyaroshan2357@gmail.com
+
+# Local git config
+config = get_config("local")
+config['remote "origin"']["url"] # git@github.com:coderosh/git_config.git
+```
+
+
