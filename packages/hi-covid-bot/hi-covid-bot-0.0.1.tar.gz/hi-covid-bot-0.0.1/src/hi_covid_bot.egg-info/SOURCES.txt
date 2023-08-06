@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/hi_covid_bot.egg-info/PKG-INFO
+src/hi_covid_bot.egg-info/SOURCES.txt
+src/hi_covid_bot.egg-info/dependency_links.txt
+src/hi_covid_bot.egg-info/top_level.txt
