@@ -1,0 +1,9 @@
+asammdf
+pandas
+numpy
+pyexcel-xlsx
+pyexcel-xls
+pyyaml
+xlrd
+xlsx
+xlsxwriter
