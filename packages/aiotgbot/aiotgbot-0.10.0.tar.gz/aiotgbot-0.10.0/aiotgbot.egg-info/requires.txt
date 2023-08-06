@@ -1,0 +1,14 @@
+aiohttp
+aiojobs
+aiojobs-stubs>=0.3.0.post1
+attrs
+backoff
+frozenlist
+aiofreqlimit
+yarl
+
+[passport]
+cryptography
+
+[sqlite]
+aiosqlite
