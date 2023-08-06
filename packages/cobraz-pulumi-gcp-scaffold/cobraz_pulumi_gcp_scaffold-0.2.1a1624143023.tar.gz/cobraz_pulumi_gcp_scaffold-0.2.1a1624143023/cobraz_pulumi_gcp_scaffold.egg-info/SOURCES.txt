@@ -1,0 +1,13 @@
+README.md
+setup.py
+cobraz_pulumi_gcp_scaffold/__init__.py
+cobraz_pulumi_gcp_scaffold/_utilities.py
+cobraz_pulumi_gcp_scaffold/project.py
+cobraz_pulumi_gcp_scaffold/provider.py
+cobraz_pulumi_gcp_scaffold/py.typed
+cobraz_pulumi_gcp_scaffold.egg-info/PKG-INFO
+cobraz_pulumi_gcp_scaffold.egg-info/SOURCES.txt
+cobraz_pulumi_gcp_scaffold.egg-info/dependency_links.txt
+cobraz_pulumi_gcp_scaffold.egg-info/not-zip-safe
+cobraz_pulumi_gcp_scaffold.egg-info/requires.txt
+cobraz_pulumi_gcp_scaffold.egg-info/top_level.txt
