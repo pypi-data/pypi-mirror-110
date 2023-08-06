@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools >= 43", "wheel", "setuptools_scm[toml] >= 3.4"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+omit = [
+    "*/setup.py",
+    "*/tests/*",
+    "*/build/*",
+    "*/dist/*",
+    "*/.tox/*",
+    "*/.egg/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+]
+
+[tool.isort]
+known_first_party = "fuzzfetch"
+profile = "black"
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+implicit_reexport = false
+no_implicit_optional = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.pylint.format]
+max-line-length = 88
+
+[tool.pylint.messages_control]
+disable = [
+    "C0330",
+    "C0326",
+    "bad-continuation",
+    "fixme",
+    "subprocess-run-check",
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-branches",
+    "too-many-instance-attributes",
+    "too-many-lines",
+    "too-many-locals",
+    "too-many-nested-blocks",
+    "too-many-statements",
+]
+
+[tool.pytest.ini_options]
+log_level = "DEBUG"
+
+[tool.setuptools_scm]
