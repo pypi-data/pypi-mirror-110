@@ -1,0 +1,12 @@
+virus_scanner/__init__.py,sha256=dU38ca7v9zMSsOujihmUnAy1Uhk3cuaqWWfcKPTIw5g,23
+virus_scanner/vscan_config.py,sha256=pibm8v-7uiKv2TiOwBrBHBzIxiJg7O5xikCbDtSB2Mc,1866
+virus_scanner/Main/main.py,sha256=yMfZBIFaq38DdwP0jUnp2c9k835eKuYt_sm2ZfRDAX8,2957
+virus_scanner/Meta_Defender/MetaDefenderMain.py,sha256=fmcPyFSIqD_j1jd7kOShEL7Zw8n_X0J2jG6KuePHwNU,2501
+virus_scanner/VirusTotal_API/VirusTotal_API_File.py,sha256=jTn_cauvhxnxidb_K1O2e0XJbi8E5-RiZS87eTMOZFc,2951
+virus_scanner/VirusTotal_API/VirusTotal_API_URL.py,sha256=YC62lLTUqDKEractohnjRokPcHtHnOIQ1u7mzBH0gxI,3643
+vscan-1.0.data/scripts/vscan,sha256=1qqB2Ikno2DW6y542iHxJS7U7XLOWH6xJw3tJxJ0-2c,2996
+vscan-1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+vscan-1.0.dist-info/METADATA,sha256=-0lSZRKpJKTiBx0aJbE3iWm_eMuOu1vHnbOOhZr9Gsg,1270
+vscan-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vscan-1.0.dist-info/top_level.txt,sha256=73a2wvdnvmlGAXk4waMcMZ9_G3PpU8sNLTP49232mDc,90
+vscan-1.0.dist-info/RECORD,,

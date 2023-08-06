@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: vscan
+Version: 1.0
+Summary: A cli tool that uses APIs to scan malicious files & urls
+Home-page: https://github.com/HWTechClub/Virus-Scanner
+Author: HWU Sec Team
+Author-email: pranavc10@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: PyInquirer
+Requires-Dist: pyfiglet
+Requires-Dist: pypi-cli
+Requires-Dist: pyyaml
+Requires-Dist: tkintertable
+
+# Virus-Scanner 1.0
+Open source virus scanner built using python and various APIs
+
+## Install requirements 
+```
+pip install -r requirements.txt
+//Or 
+pip3 install -r requirements.txt
+```
+
+## Installing PIP project
+
+```
+pip3 install vscan
+```
+
+Run with
+
+```
+vscan
+```
+
+## Create config file 
+Create a file called config.yaml and add the following information 
+```
+Meta_Defender_API_key: <api_key>
+Virus_Total_API_key: <api_key>
+```
+
+
+## Running the program
+```
+python3 vscan
+```
+
+OR
+
+```
+./vscan
+```
+
+
+This is the main program, main.py is not to be used directly by the user.
+
+## TODO 
+1. Check if website exists when scanning URLs
+2. Look to make program pip installable
+
+
