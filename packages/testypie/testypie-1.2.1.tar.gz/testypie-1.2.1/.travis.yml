@@ -1,0 +1,7 @@
+language: python
+
+script:
+  - docker-compose -p testypie up --build --abort-on-container-exit --exit-code-from mocha
+
+after_script:
+  - docker-compose -p testypie down --rmi local --remove-orphan

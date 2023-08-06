@@ -1,0 +1,8 @@
+/.env
+/.idea
+/MANIFEST
+/__pycache__
+/dist
+*~
+/venv
+/testypie/_version.py
