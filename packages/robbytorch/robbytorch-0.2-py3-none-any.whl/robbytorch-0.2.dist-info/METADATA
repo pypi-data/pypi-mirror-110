@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: robbytorch
+Version: 0.2
+Summary: Cool package for robust AI
+Home-page: https://gitlab.com/piotr.wygocki/image_transfer_learning_tools/
+Author: MIM Solutions
+Author-email: maciej.satkiewicz@mim-solutions.pl
+License: MIT
+Project-URL: Bug Reports, https://gitlab.com/piotr.wygocki/image_transfer_learning_tools/-/issues
+Keywords: pytorch,neural-networks,deep-learning,robust-learning,transfer-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: livelossplot
+Requires-Dist: mypy
+Requires-Dist: mlflow
+Requires-Dist: dill
+Requires-Dist: pyinstrument
+
+# Installation
+
+`Robbytorch` requires Pytorch, however it's not specified in the dependencies - we recommend installing Pytorch manually via conda and only later installing Robbytorch by pip. Pytorch has to be in version `1.6` or higher.
+
+Use your conda env or create a new one:
+
+```
+conda create --name <ENV NAME> python=3.8 pip
+conda activate <ENV NAME>
+```
+
+Install [Pytorch](https://pytorch.org/). If you have older drivers for GPU you may require older version of CUDA, i.e.:
+
+```
+conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch -c conda-forge
+```
+
+or even [older Pytorch version](https://pytorch.org/get-started/previous-versions/):
+
+```
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.1 -c pytorch
+```
+
+Then run:
+
+```
+pip install robbytorch
+```
+
+# Usage
+
+The basics of the `Robbytorch` library are explained in the self-contained [ipython/RobbytorchTutorial.ipynb](ipython/RobbytorchTutorial.ipynb) standalone juputer notebook.
+
