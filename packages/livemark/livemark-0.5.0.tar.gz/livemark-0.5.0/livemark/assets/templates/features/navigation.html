@@ -1,0 +1,59 @@
+<!-- HTML -->
+
+<div id="livemark-navigation">
+  <div class="js-toc toc"></div>
+</div>
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="https://unpkg.com/tocbot@4.12.3/dist/tocbot.css">
+<style>
+#livemark-navigation .toc {
+  opacity: 0.5;
+}
+</style>
+
+<!-- JS -->
+
+<script src="https://unpkg.com/tocbot@4.12.3/dist/tocbot.min.js"></script>
+<script>
+document
+  .getElementById('livemark-{{ livemark.navigation.section or "left"}}')
+  .appendChild(document.getElementById('livemark-navigation'));
+document.addEventListener("DOMContentLoaded", function () {
+  function makeIds() {
+    var content = document.querySelector("#livemark-main");
+    var headings = content.querySelectorAll("h1, h2, h3, h4, h5, h6, h7");
+    var headingMap = {};
+
+    Array.prototype.forEach.call(headings, function (heading) {
+      var id = heading.id
+        ? heading.id
+        : heading.textContent
+            .trim()
+            .toLowerCase()
+            .split(" ")
+            .join("-")
+            .replace(/[!@#$%^&*():]/gi, "")
+            .replace(/\//gi, "-");
+      headingMap[id] = !isNaN(headingMap[id]) ? ++headingMap[id] : 0;
+      if (headingMap[id]) {
+        heading.id = id + "-" + headingMap[id];
+      } else {
+        heading.id = id;
+      }
+    });
+  }
+  makeIds();
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: ".js-toc",
+    // Where to grab the headings to build the table of contents.
+    contentSelector: "#livemark-main",
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: "{{ livemark.navigation.selector or 'h2, h3, h4' }}",
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+  });
+});
+</script>
