@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: GaiaCurves
+Version: 1.0.0
+Summary: GaiaCurves! Light curves of variable stars from Gaia
+Home-page: https://github.com/sonithls/GaiaCurves
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: Gaia Lightcurve
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7

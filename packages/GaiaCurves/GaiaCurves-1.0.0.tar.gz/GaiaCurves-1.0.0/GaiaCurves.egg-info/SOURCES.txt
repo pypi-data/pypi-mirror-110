@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+GaiaCurves/__init__.py
+GaiaCurves/gaia_lightcurve.py
+GaiaCurves.egg-info/PKG-INFO
+GaiaCurves.egg-info/SOURCES.txt
+GaiaCurves.egg-info/dependency_links.txt
+GaiaCurves.egg-info/not-zip-safe
+GaiaCurves.egg-info/requires.txt
+GaiaCurves.egg-info/top_level.txt
+test/test_gaia_lightcurve.py

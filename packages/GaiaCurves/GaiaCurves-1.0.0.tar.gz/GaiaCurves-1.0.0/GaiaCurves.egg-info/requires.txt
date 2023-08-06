@@ -1,0 +1,4 @@
+astroquery
+pandas
+matplotlib
+requests
