@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+imtestcalculator/__init__.py
+imtestcalculator.egg-info/PKG-INFO
+imtestcalculator.egg-info/SOURCES.txt
+imtestcalculator.egg-info/dependency_links.txt
+imtestcalculator.egg-info/top_level.txt

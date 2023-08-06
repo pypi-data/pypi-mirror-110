@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: imtestcalculator
+Version: 0.0.1
+Summary: Basic four funciton calculator
+Home-page: UNKNOWN
+Author: im
+Author-email: ibraheemmoosa3@gmail.com
+License: MIT
+Description: Simple four function calculator to test creating libraries with PyPI
+        
+        Change Log
+        ==========
+        
+        0.0.1 (06/22/2021)
+        ------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
