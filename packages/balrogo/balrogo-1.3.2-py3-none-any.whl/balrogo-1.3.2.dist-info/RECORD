@@ -1,0 +1,14 @@
+balrogo/__init__.py,sha256=bL-uz274GQqyXLN3tyIeCczWIUyheiTQH2ko_O1xSRM,153
+balrogo/angle.py,sha256=bG-gca39Q7dUOyw0aLdZzpqRirmogdIlUx0jLjzXmkQ,17819
+balrogo/dynamics.py,sha256=z_b_wQq9dAj1-PXfURXdSLjLvp4ChoEhl4jB3Fjmswg,43270
+balrogo/gaia.py,sha256=bqvGIZZFOtveBtFTybf80PO_6RaWhgfcx_Bk6TrZviQ,33858
+balrogo/hrd.py,sha256=hAqGjbg_X-JvoBbl9iGrMFlmmYcVIzJgCNZxGpyIsiA,5538
+balrogo/marginals.py,sha256=2bJFGYBAqAQUmKpcoCnJiKhoQMmA9CQejDqvdBoEEo0,26263
+balrogo/mock.py,sha256=SqL-r9DwWkT5JK7rd_fEdh_4gT9U4oLaWkGsNverXsA,10823
+balrogo/parallax.py,sha256=jyJfxMzsy6Rjl5JQ_BnrIvvdKEB-GIGGmRp65LEp0PE,5745
+balrogo/pm.py,sha256=zg4cZOFKADNv_pJ0RqPCnIIs72SMQGfQQJoi3M3T7rg,41938
+balrogo/position.py,sha256=_7sWwxzEW0kupTcMUCrX-uFZ6Nyihbde_PAqhwE7eP4,48823
+balrogo-1.3.2.dist-info/LICENSE,sha256=qEoWhsyw4sGKozyiuHLqw3_CIVzrxAvBwnTbXwlXWT8,1090
+balrogo-1.3.2.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+balrogo-1.3.2.dist-info/METADATA,sha256=o7EnGIMPoxzTmRDA0Hz_B6Wh53JNXgfBYxmR6QqF45k,5946
+balrogo-1.3.2.dist-info/RECORD,,
