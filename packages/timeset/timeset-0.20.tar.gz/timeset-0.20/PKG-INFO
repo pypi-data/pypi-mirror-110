@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: timeset
+Version: 0.20
+Summary: A datastructure for working with overlapping time periods
+Home-page: https://github.com/eeriksp/timeset
+Author: Eerik Sven Puudist
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/eeriksp/timeset/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TimeSet
+
+A Python datastructure for working with overlapping time periods.
+
+(In active develpment, documentation will be added soon.)
+
+
+
