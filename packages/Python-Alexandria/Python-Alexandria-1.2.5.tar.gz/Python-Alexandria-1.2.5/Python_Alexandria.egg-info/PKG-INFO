@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: Python-Alexandria
+Version: 1.2.5
+Summary: General utilities for Python projects
+Home-page: https://github.com/antonlopezr/alexandria
+Author: Antonio Lopez Rivera
+Author-email: antonlopezr99@gmail.com
+License: UNKNOWN
+Description: # Alexandria
+        
+        ![alt text](tests/coverage/coverage.svg ".coverage available in tests/coverage/")
+        
+        Python library of general utilities.
+        
+        `Antonio Lopez Rivera, 2021`
+        
+        ### 1. Install
+        
+        `pip install Python-Alexandria`
+        
+        ### 2. Use
+        
+        `from Alexandria.<> import <>`
+        
+        ### 2. Lectern
+        
+        Import reference.
+        
+        - Alexandria
+            - constructs
+                - type_safety
+                    - `ensure_ndarray`
+                - array
+                    - `find_nearest_entry`
+                    - `span`
+                    - `internal_array_shape`
+                    - `dx_v`
+                    - `pretty_array`
+                    - `lists_to_ndarrays`
+                - datetime
+                    - `string_to_datetime`
+                    - `datetime_to_string`
+                    - `datetime_to_days`
+                - list
+                    - `chain_words`
+                - string
+                    - `find_between_quotations`
+                    - `find_numbers`
+                    - `tuple_to_equal`
+            - control
+                - signals
+                    - `ControlSignal`
+            - file
+                - file_management
+                    - `find_file`
+                - file_methods
+                    - `txt`
+                    - `xlsx`
+                - parsers
+                    - `yaml_parser`
+            - general
+                - console
+                    - `print_color`
+                    - `units`
+                    - `result`
+                    - `print_numbered_list`
+                - logic
+                    - `if_none`
+                - project
+                    - `root`
+                - runtime
+                    - `out`
+            - math
+                - algorithms
+                    - `prime_factors`
+                    - `largest_prime_factor`
+                - differentiation
+                    - `derivative`
+                - integration
+                    - `one_d`
+                    - `two_d`
+                - interpolation
+                    - `polyfit`
+                - functions
+                    - `macauley`
+                    - `macauley0`
+                - numbers   
+                    - `get_representative_decimcals`
+                    - `min_multiple_under`
+                - units
+                    - `rad`
+                    - `deg`
+                    - `lbs_to_kg`
+                - latex
+                    - `latex_eq`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
