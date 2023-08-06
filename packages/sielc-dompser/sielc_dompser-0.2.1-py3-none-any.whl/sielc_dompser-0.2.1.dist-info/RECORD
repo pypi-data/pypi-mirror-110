@@ -1,0 +1,10 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/autosampler.py,sha256=QLP5EILsSNndXa-1LSF4rp7nBob3Ov-4tO6holTN40c,3135
+sielc_dompser/__init__.py,sha256=Ht22ZuR4-xhM2TaSYI3_Khg8XWcJHY1aouUnQwfy9vo,76
+sielc_dompser/__version__.py,sha256=EoWBp-fpFJDMBjvxaKatEYeaQJfcLahYmd4ZV9CZhgU,23
+sielc_dompser/autosampler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sielc_dompser/autosampler/autosampler.py,sha256=-SNFX8INze-z7XKP049lehKarZCBxcWSQ5lwZtve0WM,29601
+sielc_dompser-0.2.1.dist-info/METADATA,sha256=xI2S2S2CYEMFzwbZgivNGFdUtdw3PXXNGzgLQSgD49I,1170
+sielc_dompser-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sielc_dompser-0.2.1.dist-info/top_level.txt,sha256=CuRl-ksUgoIYkKGJD9DAbwQkIti2Sx4QqrtokXETa2c,23
+sielc_dompser-0.2.1.dist-info/RECORD,,
