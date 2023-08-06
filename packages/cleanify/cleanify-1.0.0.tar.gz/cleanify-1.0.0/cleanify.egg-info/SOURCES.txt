@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cleanify/__init__.py
+cleanify/main.py
+cleanify.egg-info/PKG-INFO
+cleanify.egg-info/SOURCES.txt
+cleanify.egg-info/dependency_links.txt
+cleanify.egg-info/entry_points.txt
+cleanify.egg-info/requires.txt
+cleanify.egg-info/top_level.txt
