@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pdbutil
+Version: 1.0.1.dev0
+Summary: A simple module for handling protein backbone coordinates
+Home-page: https://github.com/ShintaroMinami/pdbutil
+Author: Shintaro Minami
+Author-email: shintaro.minami@gmail.com
+License: MIT
+Keywords: pdb,backbone
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+pdbutil.py
+===
+
+A simple module for handling protein backbone coordinates.
+
+## Requirement
+* python3.x
+* numpy
+
+## Usage
+```
+from pdbutil import ProteinBackbone as pbb
+```
+
+## Author
+* Shintaro Minami(https://github.com/ShintaroMinami)
+* shintaro.minami@gmail.com
+
+## License
+MIT(https://choosealicense.com/licenses/mit/)
+
+
+
