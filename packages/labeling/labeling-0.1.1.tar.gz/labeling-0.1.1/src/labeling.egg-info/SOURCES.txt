@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/labeling/Labeling.py
+src/labeling/__init__.py
+src/labeling/bsoncontainer.py
+src/labeling.egg-info/PKG-INFO
+src/labeling.egg-info/SOURCES.txt
+src/labeling.egg-info/dependency_links.txt
+src/labeling.egg-info/top_level.txt
