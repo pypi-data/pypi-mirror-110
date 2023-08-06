@@ -1,0 +1,10 @@
+README.md
+setup.py
+doujin/Dwrapper.py
+doujin/__init__.py
+doujin/__main__.py
+doujin2pdf.egg-info/PKG-INFO
+doujin2pdf.egg-info/SOURCES.txt
+doujin2pdf.egg-info/dependency_links.txt
+doujin2pdf.egg-info/requires.txt
+doujin2pdf.egg-info/top_level.txt
