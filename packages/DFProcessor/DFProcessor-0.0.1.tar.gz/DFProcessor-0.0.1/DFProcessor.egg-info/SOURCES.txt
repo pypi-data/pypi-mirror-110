@@ -1,0 +1,9 @@
+README.md
+setup.py
+DFProcessor.egg-info/PKG-INFO
+DFProcessor.egg-info/SOURCES.txt
+DFProcessor.egg-info/dependency_links.txt
+DFProcessor.egg-info/requires.txt
+DFProcessor.egg-info/top_level.txt
+DFProcessor_folder/DFProcessor.py
+DFProcessor_folder/__init__.py
