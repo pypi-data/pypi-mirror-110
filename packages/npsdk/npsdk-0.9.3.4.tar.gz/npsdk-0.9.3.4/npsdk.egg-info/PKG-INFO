@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: npsdk
+Version: 0.9.3.4
+Summary: Nezip Python SDK
+Home-page: https://www.npsdk.com
+Author: nfjd
+Author-email: 752299578@qq.com
+License: Apache License 2.0
+Description: <p align="center">
+            <img src ="https://img.shields.io/badge/python-3.6+-blue.svg" />
+        </p>
+        
+        NpSdk量化交易策略程序开发包
+        ====================================
+        NpSdk 是一个由[Nezip](http://www.nezip.cn/)发起并贡献主要代码的开源 python 库. 
+        
+        
+        
+        
+        -------------------------------------------------
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3
+Description-Content-Type: text/markdown
