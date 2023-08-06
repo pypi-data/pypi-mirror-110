@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kwyk
+Version: 0.5.0
+Summary: Knowing what you know - Bayesian brain parcellation
+Home-page: https://github.com/neuronets/kwyk
+Author: Kwyk Developers
+Author-email: jakub.kaczmarzyk@gmail.com
+License: Apache License, 2.0
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.5
+Provides-Extra: cpu
+Provides-Extra: gpu
+License-File: LICENSE
+
+UNKNOWN
+

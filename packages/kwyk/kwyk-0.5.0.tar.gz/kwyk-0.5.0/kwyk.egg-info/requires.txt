@@ -1,0 +1,9 @@
+click>=7.0
+nobrainer@ git+https://github.com/patrick-mcclure/nobrainer@3bd95fa2f3cd24add9457d650165098fef180ec7
+etelemetry
+
+[cpu]
+tensorflow==1.12.3
+
+[gpu]
+tensorflow-gpu==1.12.3

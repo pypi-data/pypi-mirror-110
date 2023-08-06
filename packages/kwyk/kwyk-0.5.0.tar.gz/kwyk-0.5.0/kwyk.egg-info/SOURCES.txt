@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+kwyk/__init__.py
+kwyk/_version.py
+kwyk/cli.py
+kwyk.egg-info/PKG-INFO
+kwyk.egg-info/SOURCES.txt
+kwyk.egg-info/dependency_links.txt
+kwyk.egg-info/entry_points.txt
+kwyk.egg-info/requires.txt
+kwyk.egg-info/top_level.txt
