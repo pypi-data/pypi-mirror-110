@@ -1,0 +1,8 @@
+README.md
+setup.py
+PaperCV.egg-info/PKG-INFO
+PaperCV.egg-info/SOURCES.txt
+PaperCV.egg-info/dependency_links.txt
+PaperCV.egg-info/top_level.txt
+papercv/__init__.py
+papercv/citation.py
