@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    apollo=apollo.__init__:base
+    
