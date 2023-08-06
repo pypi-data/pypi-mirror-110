@@ -1,0 +1,3 @@
+[console_scripts]
+fishlifeqc = fishlifeqc.core_fishlife:main
+

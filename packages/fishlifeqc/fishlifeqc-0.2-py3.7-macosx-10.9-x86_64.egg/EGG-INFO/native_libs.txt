@@ -1,0 +1,2 @@
+fishlifeseq.cpython-37m-darwin.so
+runshell.cpython-37m-darwin.so
