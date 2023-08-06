@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pytest = "*"
+
+[packages]
+python-igraph = "*"
+texttable = "*"
+tqdm = "*"
+biopython = "*"
+redis = "*"
+redisgraph = "*"
+psycopg2 = "*"
+networkx = "*"
+gremlinpython = "*"
+mysql-connector-python = "*"
