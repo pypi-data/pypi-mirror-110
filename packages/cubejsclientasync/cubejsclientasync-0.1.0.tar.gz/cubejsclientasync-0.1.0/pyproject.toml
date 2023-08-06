@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cubejsclientasync"
+version = "0.1.0"
+description = "Async Python Cube.js client"
+authors = ["Jonathan Drake <jdrake@narrativescience.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://github.com/NarrativeScience/cubejs-client-async"
+repository = "https://github.com/NarrativeScience/cubejs-client-async"
+
+[tool.poetry.dependencies]
+python = "^3.6.5"
+httpx = "^0.18.2"
+backoff = "^1.10.0"
+PyJWT = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.10.1"
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
