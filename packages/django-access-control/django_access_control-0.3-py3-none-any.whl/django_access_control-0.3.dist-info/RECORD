@@ -1,0 +1,16 @@
+django_access_control/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_access_control/admin.py,sha256=l7cTt63EmIIwhPH_6MDXsasSTlWBTEq6z9UVyNkbDo4,756
+django_access_control/auth_backend.py,sha256=MQnuVt29QWAQ_KmUKQzZ_jMKFAOa-eXfGuFwS7KX0SQ,744
+django_access_control/exceptions.py,sha256=oYt5ttnzSWgOX7gTIaw-zsoeNsQOzDvVtJtN7acdvRg,50
+django_access_control/managers.py,sha256=2USCmW5YpjXKkvz8jRliVZqUsuQgWl3a4YuwJJd56Bw,1195
+django_access_control/permissions.py,sha256=oKmBi3yvGriqUHtgOQjVQgQJc2h3_HeGTCXi-CUZuNw,4099
+granular_permissions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+granular_permissions/admin.py,sha256=q5v9sSgZ1kG1nNzSl0RCL1axhuB_h5KHfA_wpySQCQc,1606
+granular_permissions/auth_backend.py,sha256=RKauqxsaBzlZgpHI8TLqyBnDHIV-aLJ8x24V-5Ny2P0,1941
+granular_permissions/exceptions.py,sha256=oYt5ttnzSWgOX7gTIaw-zsoeNsQOzDvVtJtN7acdvRg,50
+granular_permissions/managers.py,sha256=VLZmRHneadj7oyWGPElHIf_ou3ipSSZOTuuarCR2XEM,922
+django_access_control-0.3.dist-info/LICENSE,sha256=03xhvxnH_9zrRWtZVC5QVaCh2QxHjfYV_Fg3GFdlExU,1057
+django_access_control-0.3.dist-info/METADATA,sha256=wOvJ6iEoFwozcDKZ9SSeiBI_vtCvILf80Fl_wgIw0Cs,752
+django_access_control-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_access_control-0.3.dist-info/top_level.txt,sha256=_fzWr5pOBC72U4vPtwCKjyO9XIdKF6xO0seEWqLrHJQ,22
+django_access_control-0.3.dist-info/RECORD,,
