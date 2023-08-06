@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pytorch-gan-metrics
+Version: 0.1.0
+Summary: Package for calculating GAN metrics using Pytorch
+Home-page: https://github.com/w86763777/pytorch-gan-metrics
+Author: Yi-Lun Wu
+Author-email: w86763777@gmail.com
+License: UNKNOWN
+Description: # Pytorch Implementation of Common GAN metrics
+        
+        
+        ## Notes
+        Our FID implementation is inspired from [pytorch-fid](https://github.com/mseitzer/pytorch-fid).
+        
+        ## Feature
+        - Currently, this package supports following metrics:
+          - [Inception Score](https://github.com/openai/improved-gan) (IS)
+          - [Fréchet Inception Distance](https://github.com/bioinf-jku/TTUR) (FID)
+        - Integrate the computation process of IS and FID to avoid multiple forward propagations.
+        - Read image on the fly for both metrics.
+        
+        ## Reproducing Results of Official Implementations
+        
+        - CIFAR-10
+            |                   |Train IS  |Test IS   |Train(50k) vs Test(10k)<br>FID|
+            |-------------------|:--------:|:--------:|:----------------------------:|
+            |Official           |11.24±0.20|10.98±0.22|3.1508                        |
+            |pytorch-gan-metrics|11.26±0.27|10.97±0.33|3.1517                        |
+            
+            Due to the framework difference between PyTorch and TensorFlow, the results are slightly different from official implementations.
+        
+        ## Example
+        - Prepare Statistics for calculating FID Score
+            - [Download](https://drive.google.com/drive/folders/1UBdzl6GtNMwNQ5U-4ESlIer43tNjiGJC?usp=sharing) Precalculated Statistics for your dataset or
+            - Calculate statistics for your dataset. See [example](./calc_stats.py)
+        
+        - Calculate Inception Score and FID Score at a time. Both score share same Inception v3 outputs so only one forward propagation is needed for each image. See [example](./calc_stats.py) for more details.
+            ```
+            python calc_score.py \
+                --path ./cifar10/train \
+                --stats ./cifar10.test.npz
+            ```
+        
+        ## Integrate into training scripts
+        ```python
+        from score.both import get_inception_score_and_fid
+        
+        images = ...    # torch float tensor of shape [num_images, 3, height, width]
+                        # the value range is [0, 1]
+        IS, FID = get_inception_score_and_fid(images, ./cifar10.test.npz, verbose=True)
+        print(IS, FID)
+        ```
+        
+        ## License
+        
+        This implementation is licensed under the Apache License 2.0.
+        
+        This implementation is derived from [pytorch-fid](https://github.com/mseitzer/pytorch-fid), licensed under the Apache License 2.0.
+        
+        FID was introduced by Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler and Sepp Hochreiter in "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium", see [https://arxiv.org/abs/1706.08500](https://arxiv.org/abs/1706.08500)
+        
+        The original implementation is by the Institute of Bioinformatics, JKU Linz, licensed under the Apache License 2.0.
+        See [https://github.com/bioinf-jku/TTUR](https://github.com/bioinf-jku/TTUR).
+Keywords: PyTorch,GAN,Inception Score,IS,Frechet Inception Distance,FID
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
