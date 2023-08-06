@@ -1,0 +1,113 @@
+<div class="task_container">
+  <div class="surround">
+    <a class="regrade regrade_hide float_right"
+       href="{{urls.regradepat|format(text='',psid=psid,taskid=task.taskid,guid=task.taskid,username=username)}}">regrade</a>
+    <h2 id="{{task.taskid}}" class="task_header">
+      <a href="{{task.taskurl}}">{{ psid }} {{ task['taskid'] }}</a>
+      <code>{{task['filename']}}</code>:
+      {% if task['report'] %}
+        {{ task["report"]["evaluation"] }}
+      {% else %}
+        not evaluated
+      {% endif %}
+      {% if not hide_points %}
+        (
+        <span class="autoreport_points">
+          {{task.grade_string}}
+        </span>
+        )
+      {% endif %}
+    </h2>
+  </div>
+  <div id="{{task['taskid']}}_body" class="task_body with_rubric">
+
+    {# First, we include the rubric report, if there is one #}
+    {% if task['report'] %}
+    {% set rep = task['report'] %}
+    <section class="task_feedback surround">
+      <h3>Rubric report</h3>
+      <div class="evaluation">
+        Overall evaluation:
+        <span class="eval_{{rep.get('evauation', 'not evaluated').replace(' ', '_')}}">
+          {{ rep['evaluation']|safe }}
+        </span>
+      </div>
+      <div class="summary">
+        {{ rep['summary']|safe }}
+      </div>
+      <div class="warnings">
+        {% for w in rep['warnings'] %}
+        <div class="warning">{{w|safe}}</div>
+        {% endfor %}
+        <label for="hide_accomplished_goals">
+          <input type="checkbox" id="hide_accomplished_goals">
+          Hide accomplished goals
+        </label>
+      </div>
+      {{rep.get('rendered_table', '')|safe}}
+    </section>
+    {% endif %}
+
+    {# Second, we include a section for the rendered code #}
+    <div class="sticky_context" id="{{task['taskid']}}_code_context">
+      <section
+       class='sticky_bin surround'
+       id="{{task['taskid']}}_code"
+       tabindex="0"
+       aria-label="Your code"
+       aria-live="polite"
+      >
+        <h3 class="bin_label" tabindex="0">Your code</h3>
+
+        <div class="task_code">
+          {% if 'code_html' in task %}
+            <div class="highlight">
+              <div class="eighty_top" aria-hidden="true">
+                80 characters
+                <span class="status_symbol">&rarrb;</span>
+              </div>
+              {{ task['code_html']|safe }}
+              <div class="eighty" aria-hidden="true">
+                80 characters
+                <span class="status_symbol">&rarrb;</span>
+              </div>
+            </div>
+          {% else %}
+            <div class="highlight">
+              <div class="eighty_top">
+                80 characters
+                <span class="status_symbol">&rarrb;</span>
+              </div>
+              <pre>
+                # No code submitted (or no changes from the starter code)
+              </pre>
+              <div class="eighty">
+                80 characters
+                <span class="status_symbol">&rarrb;</span>
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </section>
+    </div>
+
+    {# Third, we include the context results #}
+    <div class="sticky_context" id="{{task['taskid']}}_results_context">
+      <section
+       class='sticky_bin surround'
+       id="{{task['taskid']}}_contexts"
+       tabindex="0"
+       aria-label="Test results"
+       aria-live="polite"
+      >
+        <h3 class="bin_label" tabindex="0">Test results</h3>
+        {% if 'rendered_contexts' in rep %}
+          {{ rep['rendered_contexts']|safe }}
+        {% else %}
+          No testing results available.
+        {% endif %}
+      </section>
+    </div>
+
+  </div>
+</div>
