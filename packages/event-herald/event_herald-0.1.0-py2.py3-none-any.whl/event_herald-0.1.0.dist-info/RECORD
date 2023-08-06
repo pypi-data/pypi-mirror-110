@@ -1,0 +1,10 @@
+event_herald/__init__.py,sha256=qay_nzlTM_uMVbJGPUxO37RybDSJuAZeVsZlzIIJY1A,137
+event_herald/cli.py,sha256=DbRZaMfcaRWJ6rbVpLwDhDLW-O1o9g8n7fo0_SZKyvA,308
+event_herald/event_herald.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+event_herald-0.1.0.dist-info/AUTHORS.rst,sha256=RSFIzSbJQAr6uXfXoha4x-vATKXhCIkUUBg6_yqhqpA,163
+event_herald-0.1.0.dist-info/LICENSE,sha256=tcM86ivtGRZiuKVg3jkDNjJElXPXVizdGiv3rteDdzU,1077
+event_herald-0.1.0.dist-info/METADATA,sha256=1k1QJdGk49upho1-HSLAg8mGZ4nARTnvavTzOQZjEKs,1777
+event_herald-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+event_herald-0.1.0.dist-info/entry_points.txt,sha256=8eZhJlbZPTeEekOUcGAkCko0SuFl3YdsQLbo1Utq1NY,56
+event_herald-0.1.0.dist-info/top_level.txt,sha256=r_rburyVkPalp7LCd6Un9wP_rbxWCv0CRjL7yazhPaU,13
+event_herald-0.1.0.dist-info/RECORD,,
