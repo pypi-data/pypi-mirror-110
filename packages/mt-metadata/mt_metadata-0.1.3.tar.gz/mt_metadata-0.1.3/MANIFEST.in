@@ -1,0 +1,19 @@
+include AUTHORS.rst
+include CONTRIBUTING.rst
+include HISTORY.rst
+include LICENSE
+include README.rst
+
+recursive-include tests *
+recursive-include data *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs *.rst conf.py Makefile make.bat *.jpg *.png *.gif
+recursive-include mt_metadata/utils *.yaml
+recursive-include mt_metadata/timeseries/filters/standards *.json
+recursive-include mt_metadata/timeseries/standards *.json
+recursive-include mt_metadata/transfer_functions/tf/standards *.json
+recursive-include mt_metadata/transfer_functions/emtf_xml/standards *.json
+recursive-include data/mt_xml *.xml
+recursive-include data/stationxml *.xml
