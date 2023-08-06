@@ -1,0 +1,8 @@
+README.md
+setup.py
+signale/__init__.py
+signale_logging.egg-info/PKG-INFO
+signale_logging.egg-info/SOURCES.txt
+signale_logging.egg-info/dependency_links.txt
+signale_logging.egg-info/requires.txt
+signale_logging.egg-info/top_level.txt
