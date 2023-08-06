@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bin-http-util
+Version: 0.0.1
+Summary: binary files for testing
+Home-page: https://github.com/Madhava-mng/bin-http-util
+Author: Madhava-mng
+Author-email: alformint@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# bin-http-util
+
+simple tool for taggle post request.
+
+```ruby
+$ http-post -d '{"user":"pass"}' https://hostname/post
+```
+
+
