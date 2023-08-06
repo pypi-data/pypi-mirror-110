@@ -1,0 +1,9 @@
+mwdocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwdocker/docker.py,sha256=OP43cAOfItwtKHI2GKdNXziK6cf3q6H1lSK5QSE8iFY,10479
+mwdocker/mwcluster.py,sha256=y7ng1R8-EvnKvyjXVa4DkHCAua1NcSJSXT3gUTA-RLU,5097
+pymediawikidocker-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pymediawikidocker-0.0.1.dist-info/METADATA,sha256=Lqq_fGmRI0FWZqWZsd3o9ARsCVE2UADcAbyO5Ops4zQ,1873
+pymediawikidocker-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymediawikidocker-0.0.1.dist-info/entry_points.txt,sha256=qhChjmaNU7n_PjoliNskHMM64tN2XWc1bUbi8CcqimY,55
+pymediawikidocker-0.0.1.dist-info/top_level.txt,sha256=GQ3DG-oN9qkbbCHZluf231NO7QgvYwDlSQ0KRp4m9ME,9
+pymediawikidocker-0.0.1.dist-info/RECORD,,
