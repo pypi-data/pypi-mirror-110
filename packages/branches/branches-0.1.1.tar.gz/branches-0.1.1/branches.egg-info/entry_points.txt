@@ -1,0 +1,3 @@
+[console_scripts]
+branches = branches.__main__:main
+
