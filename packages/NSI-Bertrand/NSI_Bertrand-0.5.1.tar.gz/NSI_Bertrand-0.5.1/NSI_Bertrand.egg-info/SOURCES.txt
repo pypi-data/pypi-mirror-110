@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+NSI_Bertrand/__init__.py
+NSI_Bertrand.egg-info/PKG-INFO
+NSI_Bertrand.egg-info/SOURCES.txt
+NSI_Bertrand.egg-info/dependency_links.txt
+NSI_Bertrand.egg-info/top_level.txt
+NSI_Bertrand/blackjack/__init__.py
+NSI_Bertrand/grand_carre/__init__.py
+NSI_Bertrand/tri/__init__.py
+NSI_Bertrand/tri/tri.py
