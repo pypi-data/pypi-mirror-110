@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: formaloo-cdp
+Version: 0.2.5
+Summary: Official SDK to use Formaloo API
+Home-page: https://github.com/formaloo/formaloo-python
+Author: Formaloo
+Author-email: info@formaloo.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/formaloo/formaloo-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Formaloo SDK
+
+This is a free SDK for using the API of Formaloo Customer Data Platform.
+
+Formaloo is the next generation of data analytics. With Formaloo you can Use your own data to analyze your customers, your business and even predict the future. Formaloo adds an AI-powered data expert to SMBs & SMEs so they can really understand their business and their customers and act on it to boost their Loyalty, LTV and CX.
+
+Formaloo is built for businesses, not data scientists. It's super simple to use and understand, you don't have to know data analytics or coding and best of all, it requires no data experts to operate it.
+
+Formaloo CDP is a Customer Data Platform that collects, analyzes, and unifies data from all data sources in order to grow customers' loyalty.
+
+Formaloo is a business productivity solution built to transform the way people collect information and put it to work.
+Formaloo solutions such as Formaloo CDP, Data Collection (Database & Form builder), Formaloo DataFlow, Data Analysis tool, Workflow Automation helps thousands of businesses every day to collect & manage their data with impact.
+
+
