@@ -1,0 +1,7 @@
+requests
+pytz==2021.1
+regex==2021.4.4
+urllib3
+
+[tests]
+pytest
