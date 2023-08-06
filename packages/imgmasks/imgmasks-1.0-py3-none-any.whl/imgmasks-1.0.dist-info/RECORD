@@ -1,0 +1,9 @@
+imgmasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgmasks/annulus.py,sha256=jeeoJUI18yEp6Ie2uewSAwi5DC72l4x9if_JQ6XZY_A,958
+imgmasks/circle.py,sha256=R8j57Xdcwzhip1gVi9UNJPIlGz62lTl3rCf3z2BE2OI,2310
+imgmasks/ellipse.py,sha256=8FrrhCu9GNLO43OoNVcVkOU3lOMS-83W9siCx3YGQrU,3733
+imgmasks-1.0.dist-info/LICENSE.txt,sha256=UxFoBLfaIeeP-3iaGZz2f2xwca6pWEayMFNHYRXzunY,1115
+imgmasks-1.0.dist-info/METADATA,sha256=ZfW61Q_Pm2u0RMzWXYWRLxHGan_X_VMzNL09EscgzPM,329
+imgmasks-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+imgmasks-1.0.dist-info/top_level.txt,sha256=zjyHno7HCOfGMWbcx_yHg-T_qscNAnJYT1-gbNpbQ-I,9
+imgmasks-1.0.dist-info/RECORD,,
