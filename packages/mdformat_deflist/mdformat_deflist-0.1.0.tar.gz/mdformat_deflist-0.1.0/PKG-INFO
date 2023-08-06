@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: mdformat_deflist
+Version: 0.1.0
+Summary: An mdformat plugin for markdown-it-deflist.
+Home-page: https://github.com/executablebooks/mdformat-deflist
+Author: Chris Sewell
+Author-email: executablebooks@gmail.com
