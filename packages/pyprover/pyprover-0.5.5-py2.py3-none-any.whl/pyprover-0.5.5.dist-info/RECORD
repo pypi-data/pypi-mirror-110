@@ -1,0 +1,14 @@
+pyprover/__coconut__.py,sha256=TPXxGrWdqSGR02AV32UyAp_B_VEjbYtvfjBDHks04RQ,54569
+pyprover/__init__.py,sha256=ZMB6bF_QqLtWAaDw66X_BAd3-I_0Xj6zdVlF8qyHqyc,4156
+pyprover/atoms.py,sha256=IfyubIOGsf9YDi-5g35zWoDxtpuOL6jzMzsF11T7qcw,6125
+pyprover/constants.py,sha256=M_OMlDRN8obOvduFakQ6WRsE95Nl6Tg5T5NUJUfjJW4,4231
+pyprover/logic.py,sha256=SJU58sMvPtwGplcv4zCBvAPkat5O4Y2BrodPvbsW304,40144
+pyprover/parser.py,sha256=d7wPFCewhaT8QLi-k0pVuVfuLkM9Txay72wfQ4R4yX0,12271
+pyprover/tests.py,sha256=ofk9hr9Y1pK_AWvoIpOBCzf7MPRPyRhkB2FgWFny4Vo,20803
+pyprover/tools.py,sha256=6mfeUflaCxhDEHGgSyXuIR1VQwC0qzBRgr_w74lKBsc,5884
+pyprover/util.py,sha256=FFWN0IpE_8dgWn2fYRJ6lstRejHgd0UHKrcuOsz9qxc,5343
+pyprover-0.5.5.dist-info/LICENSE.txt,sha256=4DukHX-rIHAHaf5BGLq1DYAMt0-ZA1OgXS9f_xwig2M,11558
+pyprover-0.5.5.dist-info/METADATA,sha256=h7zGjfs3tTlUC4qDVbysF8IolGxjUa0I_yc8qxf1smw,547
+pyprover-0.5.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyprover-0.5.5.dist-info/top_level.txt,sha256=Kpo5efT5WQogH2z8YZno55kkSo3UcuaoQwH0f7CESHg,9
+pyprover-0.5.5.dist-info/RECORD,,
