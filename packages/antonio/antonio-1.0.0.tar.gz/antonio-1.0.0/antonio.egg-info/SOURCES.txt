@@ -1,0 +1,9 @@
+LICENCE.txt
+README.md
+setup.py
+antonio.egg-info/PKG-INFO
+antonio.egg-info/SOURCES.txt
+antonio.egg-info/dependency_links.txt
+antonio.egg-info/top_level.txt
+calculadora/__init__.py
+calculadora/calculos.py
