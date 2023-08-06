@@ -1,0 +1,12 @@
+aliyunsdkhitsdb/__init__.py,sha256=QcPKUIHm8mqSDxFwSjzjiIiQNsx4UGKEGRYfgTV6wrw,21
+aliyunsdkhitsdb/endpoint.py,sha256=j4gHTwfPAeX4Dhb-IMOo3KQBR5n0Eg_Flz-OX_ZiJ3I,3291
+aliyunsdkhitsdb/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkhitsdb/request/v20200615/DescribeRegionsRequest.py,sha256=VJ-F54BzVvvfBsmqmMIIp8B1vagMjiArBeojt-4OCWc,2435
+aliyunsdkhitsdb/request/v20200615/GetLindormInstanceListRequest.py,sha256=lJvvBdfEMoUWzVyKwdyNI1BeQe8ulR2L3RCE2EGiXRE,3113
+aliyunsdkhitsdb/request/v20200615/GetLindormInstanceRequest.py,sha256=eYwnQ-ktlDWalR5yOai4_adq7rm5anLKAIaeq9EY_7s,2417
+aliyunsdkhitsdb/request/v20200615/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_hitsdb-1.7.1.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_hitsdb-1.7.1.dist-info/METADATA,sha256=BugjA4LqhYAnSYr7MSqoCb0CI1ssp6j5Gis8SRe4138,1470
+aliyun_python_sdk_hitsdb-1.7.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aliyun_python_sdk_hitsdb-1.7.1.dist-info/top_level.txt,sha256=8hjYKQE-_fi84ubLJjUUUm-dGVqQOR2H9d57_DIn2pM,16
+aliyun_python_sdk_hitsdb-1.7.1.dist-info/RECORD,,
