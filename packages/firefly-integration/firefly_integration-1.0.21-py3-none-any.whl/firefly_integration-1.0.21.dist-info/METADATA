@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: firefly-integration
+Version: 1.0.21
+Summary: Bounded context for data integration.
+Home-page: https://github.com/firefly-framework/firefly-integration
+Author: JD Williams
+Author-email: me@jdwilliams.xyz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Dist: firefly-framework (>=1.1.54)
+Requires-Dist: awswrangler (>=2.7.0)
+Requires-Dist: moz-sql-parser (>=4.21)
+Requires-Dist: graphviz (>=0.16)
+
+# Firefly Integration
+
+Data integration context.
+
+
