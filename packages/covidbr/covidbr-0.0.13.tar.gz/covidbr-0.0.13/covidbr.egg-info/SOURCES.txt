@@ -1,0 +1,9 @@
+README.md
+setup.py
+covidbr/__init__.py
+covidbr/covidbr_api.py
+covidbr.egg-info/PKG-INFO
+covidbr.egg-info/SOURCES.txt
+covidbr.egg-info/dependency_links.txt
+covidbr.egg-info/requires.txt
+covidbr.egg-info/top_level.txt
