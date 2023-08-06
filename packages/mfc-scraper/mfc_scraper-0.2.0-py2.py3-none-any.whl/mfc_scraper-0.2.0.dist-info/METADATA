@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: mfc-scraper
+Version: 0.2.0
+Summary: Scrapes the content of one's collection of figures listed on MyFigureCollection
+Home-page: https://github.com/laurent-radoux/mfc_scraper
+Author: Laurent Radoux
+Author-email: radoux.laurent@gmail.com
+License: MIT license
+Keywords: mfc_scraper
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: Click (>=7.0)
+Requires-Dist: pytest (~=6.2.4)
+Requires-Dist: beautifulsoup4 (~=4.9.3)
+Requires-Dist: requests (~=2.25.1)
+Requires-Dist: tqdm (~=4.61.1)
+
+===========
+MFC Scraper
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/mfc_scraper.svg
+        :target: https://pypi.python.org/pypi/mfc_scraper
+
+
+.. image:: https://github.com/laurent-radoux/mfc_scraper/actions/workflows/python-test.yml/badge.svg
+        :target: https://github.com/laurent-radoux/mfc_scraper/actions
+
+
+.. image:: https://readthedocs.org/projects/mfc-scraper/badge/?version=latest
+        :target: https://mfc-scraper.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+Scrapes the content of one's collection of figures listed on MyFigureCollection
+
+
+* Free software: MIT license
+* Documentation: https://mfc-scraper.readthedocs.io.
+
+
+Features
+--------
+
+* Scrapes the following information from MFC
+
+  * All figure IDs owned by a particular user
+  * For a particular figure
+
+    * The characters represented
+    * Its origin
+    * The companies manufacturing the figure
+    * Its classifications
+    * Its version
+    * Its release date
+    * The main image URL
+
+  * Images associated to a given figure
+
+* Stores the scraped content as a JSON list in a file.
+* Stores the figure images.
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+
+0.2.0 (2021-06-22)
+------------------
+* Added origin, version and release date to scraped information
+* Changed company and classification to return a list instead of a string
+
+  * Handles cases where multiple companies or classifications are involved
+
+
+0.1.2 (2021-06-21)
+------------------
+* First release on PyPI.
+* Allows to scrape
+
+  * All figure IDs owned by a particular user
+  * For a particular figure
+
+    * The characters represented
+    * The company manufacturing the figure
+    * Its classification
+    * The main image URL
+
+  * Images associated to a given figure
+
+* Stores the scraped content as a JSON list in a file.
+* Stores the figure images.
+
+
