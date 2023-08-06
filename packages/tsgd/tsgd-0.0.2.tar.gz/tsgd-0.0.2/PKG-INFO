@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tsgd
+Version: 0.0.2
+Summary: TSGD optimizer for Pytorch
+Home-page: https://github.com/kunzeng/TSGD
+Author: kun zeng
+Author-email: zki@163.com
+License: UNKNOWN
+Description: ## TAdam
+        
+        The Pytorch implementation of TSGD algorithm in：'Scaling transition from SGDM to plain SGD'
+        [https://arxiv.org/abs/2106.06749](https://arxiv.org/abs/2106.06753)
+        
+        ### Usage
+        
+        ```python
+        from tsgd import TSGD
+        
+        ...
+        
+        optimizer = TSGD(model.parameters(), iters=required, momentum=0.9, lr=1e-3, moment=3/8, up_lr=0.1, low_lr=0.005)
+        
+        #iters(int, required): iterations
+        #	iters = (testSampleSize / batchSize) * epoch
+        #
+        #moment(float, optional): transition moment
+        #       moment = transition_iters / iters
+        
+        #set default value: momentum=0.9, moment=3/8, up_lr=0.1, low_lr=0.005
+        ```
+        
+        
+        
+        
+        
+        The code will be uploaded as soon as possible
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

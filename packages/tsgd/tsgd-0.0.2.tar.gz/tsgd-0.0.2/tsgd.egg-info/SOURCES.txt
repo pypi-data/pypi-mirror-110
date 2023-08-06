@@ -1,0 +1,8 @@
+README.md
+setup.py
+tsgd/__init__.py
+tsgd/tsgd.py
+tsgd.egg-info/PKG-INFO
+tsgd.egg-info/SOURCES.txt
+tsgd.egg-info/dependency_links.txt
+tsgd.egg-info/top_level.txt
