@@ -1,0 +1,11 @@
+xifa/__init__.py,sha256=pONMRy44YE6FxteRtBGMPxZcLhbijJgIyhue0QowwtY,82
+xifa/base.py,sha256=IMmCvyuYLFjWVRhUcSIPTpdKr135p5TslSqRoFnWbGs,8624
+xifa/gpcm.py,sha256=Zq9uWN_UfAFuRP9m9Z0gV4IKhTdKJxt34DBFfYdKSyQ,2133
+xifa/grm.py,sha256=-u5bhPN9J_eC_oKu6jozOoMdw-9AnD8qrS4PxVCzi_U,2079
+xifa/mhrm.py,sha256=h8OfMlH7ywc9P7JS-301SnIU4gyRarGywef7Xq_va9A,12134
+xifa/utils.py,sha256=DY2HVTVx2IvtVVr0hDCJ_dsa93UZd9nxV22tt-P6X4o,732
+xifa-0.1.1.dist-info/LICENSE,sha256=8mvu50nyLvImQsZ2qnU7ZbaOUtApMN5P2uG3fI-aY44,1057
+xifa-0.1.1.dist-info/METADATA,sha256=LJ_IM4sj2PElODMtS4RX9FNxraj1P-3xIqpDPJxbj5M,1960
+xifa-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xifa-0.1.1.dist-info/top_level.txt,sha256=uP2EColhoQ_5h65SXe2FRYzm6Rpmq0uKnIapF69y7pc,5
+xifa-0.1.1.dist-info/RECORD,,
