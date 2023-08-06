@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/leaf/__init__.py
+src/leaf/__main__.py
+src/leafQR.egg-info/PKG-INFO
+src/leafQR.egg-info/SOURCES.txt
+src/leafQR.egg-info/dependency_links.txt
+src/leafQR.egg-info/entry_points.txt
+src/leafQR.egg-info/requires.txt
+src/leafQR.egg-info/top_level.txt
