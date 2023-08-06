@@ -1,0 +1,6 @@
+aiohttp
+dateparser
+requests
+
+[dataframes]
+pandas
