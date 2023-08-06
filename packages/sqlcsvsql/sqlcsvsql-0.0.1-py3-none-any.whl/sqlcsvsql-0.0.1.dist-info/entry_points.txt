@@ -1,0 +1,3 @@
+[console_scripts]
+sqlcsvsql = sqlcsvsql.__main__:main
+
