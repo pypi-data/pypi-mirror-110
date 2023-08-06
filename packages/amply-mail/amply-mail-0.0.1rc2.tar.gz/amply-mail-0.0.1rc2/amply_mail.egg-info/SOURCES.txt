@@ -1,0 +1,15 @@
+README.md
+setup.py
+amply/__init__.py
+amply/client.py
+amply/email.py
+amply/exceptions.py
+amply/version.py
+amply/helpers/__init__.py
+amply/helpers/email/__init__.py
+amply/helpers/email/email_address.py
+amply_mail.egg-info/PKG-INFO
+amply_mail.egg-info/SOURCES.txt
+amply_mail.egg-info/dependency_links.txt
+amply_mail.egg-info/requires.txt
+amply_mail.egg-info/top_level.txt
