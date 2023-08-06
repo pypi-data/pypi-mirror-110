@@ -1,0 +1,17 @@
+qal/__init__.py,sha256=rIEalilM1qMnoloKHddAXAj27-4qI58TvjwfWcDrJOY,2733
+qal/autoquery.py,sha256=Gfcixgv0mWF0_7KRcbeVR3YuW3cBAURF1KY009AM6kY,8079
+qal/digital_library.py,sha256=zr8hYW8HRoih3wctY3Z1vz0MkBuuVxzvd4T0VjKHOzU,8016
+qal/exceptions.py,sha256=BLDHREekWaZQyxWeEHnrJE40Ko3rEcoIyXTj6PviLyc,1446
+qal/ieeexplore.py,sha256=G_ZG3SGJ2L0yy5EYMVGu1PNbgC21yyDPPZWmiNfxEts,6502
+qal/main.py,sha256=iEvahv7bOVJ8sK8x51jm22wMFHFxGuY5EPyUmJHtYjY,5640
+qal/results_store.py,sha256=J8NFJzcWKJkJf7C4tfOllcKXOFjTMJwEvFSE01bjSfw,2572
+qal/science_direct.py,sha256=kebjECsHjgjvHL9CfpFQQmG7-UPILSecna8WjygITTs,4293
+qal/springer.py,sha256=KypcQQvGRQHi_jLTJria_Uld06R248DAVUar62iVQZE,5218
+qal/types.py,sha256=pG_Zdn2GNWOyrGkhj2GrZ9VcHHCQm5bTdrg5VDPiRc8,4231
+qal_swflint-1.0.0.data/scripts/qal-auto,sha256=4rG1BbALO8uQFElkw5fTNSq71uYPWUFkzJe9ZsgfVRI,1219
+qal_swflint-1.0.0.data/scripts/qal-query,sha256=soOpaA94QAb9FlawtDSiH31wJ221CGKGxy5-E7wpj7A,1214
+qal_swflint-1.0.0.dist-info/LICENSE.txt,sha256=VhoT2vTFoeq0zgL73lv81ny9lsZ4RgAO3mmMhUZjC6E,1098
+qal_swflint-1.0.0.dist-info/METADATA,sha256=wUdB4PHRR4bkCy90YKzRX-yO2V8P6wDU04PDKHoRIOE,4135
+qal_swflint-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+qal_swflint-1.0.0.dist-info/top_level.txt,sha256=LVqCA0WG6NUfbqDiQ1uvTq7WSBZ2HhqKheCD9GShtrU,4
+qal_swflint-1.0.0.dist-info/RECORD,,
