@@ -1,0 +1,8 @@
+README.md
+setup.py
+pf_dre/__init__.py
+pf_dre_core.egg-info/PKG-INFO
+pf_dre_core.egg-info/SOURCES.txt
+pf_dre_core.egg-info/dependency_links.txt
+pf_dre_core.egg-info/requires.txt
+pf_dre_core.egg-info/top_level.txt
