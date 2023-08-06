@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-chi-edge
+Version: 0.0.1
+Summary: Manage edge devices for use with the CHI@Edge IoT/Edge testbed.
+Author: Chameleon Project
+Author-email: contact@chameleoncloud.org
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ansible (>=4.0.0,<5.0.0)
+Requires-Dist: ansible-runner (>=1.4.7,<2.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
