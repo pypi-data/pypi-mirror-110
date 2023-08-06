@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pymmaster
+Version: 0.1.1
+Summary: pymmaster is a python package for processing of ASTER DEMs using MMASTER.
+Home-page: https://github.com/luc-girod/MMASTER-workflows
+Author: Luc Girod, Romain Hugonnet, Chris Nuth, Bob McNabb
+Author-email: robertmcnabb@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
