@@ -1,0 +1,10 @@
+README.md
+setup.py
+munchie/__init__.py
+munchie/__main__.py
+munchie/file_muncher.py
+munchie.egg-info/PKG-INFO
+munchie.egg-info/SOURCES.txt
+munchie.egg-info/dependency_links.txt
+munchie.egg-info/requires.txt
+munchie.egg-info/top_level.txt
