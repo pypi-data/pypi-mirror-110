@@ -1,0 +1,8 @@
+numpy>=1.11.1
+scipy
+pandas
+torch
+scikit-image
+opencv-python
+SimpleITK
+matplotlib>=1.5.1
