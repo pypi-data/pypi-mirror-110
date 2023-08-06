@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: kyoushi-simulation
+Version: 0.3.8
+Summary: 
+Home-page: https://ait-aecid.github.io/kyoushi-simulation
+License: MIT
+Author: Maximilian Frank
+Author-email: maximilian.frank@ait.ac.at
+Requires-Python: >=3.7.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Requires-Dist: importlib-metadata (>=3.1.0,<4.0.0); python_version < "3.8"
+Requires-Dist: livereload (>=2.6.3,<3.0.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: ruamel.yaml (>=0.16.12,<0.17.0)
+Requires-Dist: structlog (>=20.2.0,<21.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0); python_version < "3.8"
+Project-URL: Repository, https://ait-aecid.github.io/kyoushi-simulation/
+Description-Content-Type: text/markdown
+
+# AIT Cyber Range Kyoushi - Simulation
+
+The Kyoushi Simulation package provides a development API and cli utilities for creating
+and running state machines. Developed state machines can be executed to automate the simulation
+of both attacker and normal user behavior in a Cyber Range. Thus facilitating Cyber Range
+exercises, IDS data set generation and other Cyber Range related tasks.
+
