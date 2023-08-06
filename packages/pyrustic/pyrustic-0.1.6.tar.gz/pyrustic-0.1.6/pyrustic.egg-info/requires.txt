@@ -1,0 +1,16 @@
+setuptools
+wheel
+tkutil
+viewable
+megawidget
+cyberpunk-theme
+winter-theme
+threadom
+shared
+diaspora
+jayson
+kurl
+litedao
+
+[:python_version < "3.8"]
+importlib-metadata
