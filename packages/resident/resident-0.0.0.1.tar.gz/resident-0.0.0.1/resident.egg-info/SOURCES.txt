@@ -1,0 +1,13 @@
+README.md
+setup.py
+resident/Handler.py
+resident/__init__.py
+resident/add_metadata.py
+resident/csv_json.py
+resident/officer_utilities.py
+resident/spell_caster.py
+resident.egg-info/PKG-INFO
+resident.egg-info/SOURCES.txt
+resident.egg-info/dependency_links.txt
+resident.egg-info/requires.txt
+resident.egg-info/top_level.txt
