@@ -1,0 +1,9 @@
+requests
+pydantic
+gcsfs
+cryptography
+fastapi
+firebase_admin
+pymongo
+loguru
+starlette
