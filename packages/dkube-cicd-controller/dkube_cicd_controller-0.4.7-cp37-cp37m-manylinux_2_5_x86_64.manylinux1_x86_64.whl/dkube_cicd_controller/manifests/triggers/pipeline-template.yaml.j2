@@ -1,0 +1,52 @@
+
+apiVersion: triggers.tekton.dev/v1alpha1
+kind: TriggerTemplate
+metadata:
+  name: pipeline-template
+  namespace: dkube-cicd
+spec:
+  params:
+    - name: gitrevision
+    - name: gitrepositoryurl
+    - name: gitref
+    - name: historysize
+      default: "1"
+  resourcetemplates:
+    - apiVersion: tekton.dev/v1beta1
+      kind: TaskRun
+      metadata:
+        labels:
+          tekton.dev/task: cicd-run
+          commit: $(tt.params.gitrevision)
+        generateName: cicd-run-
+      spec:
+        resources:
+          inputs:
+            - name: source
+              resourceSpec:
+                type: git
+                params:
+                  - name: revision
+                    value: $(tt.params.gitrevision)
+                  - name: url
+                    value: $(tt.params.gitrepositoryurl)
+                  - name: sslVerify
+                    value: "false"
+        serviceAccountName: tekton-triggers-sa
+        taskSpec:
+          volumes:
+            - name: docker-config
+              configMap:
+                name: docker-config
+          resources:
+            inputs:
+              - name: source
+                type: git
+          steps:
+            - image: ocdr/d3cicd:{{d3cicd_version}}
+              imagePullPolicy: Always
+              workingDir: $(inputs.resources.source.path)/
+              script: |
+                #! /bin/sh
+                ls -al $(inputs.resources.source.path);
+                dcc cicd start $(tt.params.gitrepositoryurl) $(tt.params.gitrevision) -b $(tt.params.gitref) -h $(tt.params.historysize)
