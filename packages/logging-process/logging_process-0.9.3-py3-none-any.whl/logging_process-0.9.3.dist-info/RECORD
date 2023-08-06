@@ -1,0 +1,9 @@
+logging_process/__init__.py,sha256=QPa-orFHNW5Igc5jnBGf-PAQfbSV51vn81R3TdBA0m4,68
+logging_process/clog.py,sha256=L3--46xR4jgK5r8EQPrNaggI_TtslhmRc2t1spIZOXY,13135
+logging_process/example.py,sha256=_4-ZPz0E5JWrONEvg2OF7sB4UCvAKt2-7YQBpjmZWjY,4747
+logging_process/logging.py,sha256=L3--46xR4jgK5r8EQPrNaggI_TtslhmRc2t1spIZOXY,13135
+logging_process-0.9.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+logging_process-0.9.3.dist-info/METADATA,sha256=ltxbFw0HtMyuvS2su_mRDVnnsTLp0NCIVYTzVtbnZ8w,829
+logging_process-0.9.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+logging_process-0.9.3.dist-info/top_level.txt,sha256=7_lNoQqouUt3HfVQLEEpR5Vx64Jw_-OPfX9a5kpP8NU,16
+logging_process-0.9.3.dist-info/RECORD,,
