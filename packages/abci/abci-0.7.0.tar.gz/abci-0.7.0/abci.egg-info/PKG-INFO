@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: abci
+Version: 0.7.0
+Summary: Python based ABCI Server for Tendermint
+Home-page: https://github.com/davebryson/py-abci
+Author: Dave Bryson
+License: Apache 2.0
+Description: Build Tendermint blockchain applications in Python
+Keywords: blockchain tendermint abci
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
