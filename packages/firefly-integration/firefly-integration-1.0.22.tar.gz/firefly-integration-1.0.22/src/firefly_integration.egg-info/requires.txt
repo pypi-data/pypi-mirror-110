@@ -1,0 +1,4 @@
+firefly-framework>=1.1.54
+awswrangler>=2.7.0
+moz-sql-parser>=4.21
+graphviz>=0.16
