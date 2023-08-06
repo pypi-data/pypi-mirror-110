@@ -1,0 +1,3 @@
+[console_scripts]
+raion=raion.cli:app
+
