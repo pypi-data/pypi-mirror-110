@@ -1,0 +1,43 @@
+Metadata-Version: 1.2
+Name: halo-third-party-sdk-model
+Version: 1.0.0
+Summary: The Halo SDK Model package provides model definitions for Halo 3P Services.
+Home-page: https://github.com/amzn/halo-third-party-sdk-for-python
+Author: Halo
+Author-email: healthtech-partner-engineering-support@amazon.com
+License: Apache 2.0
+Description: =======================================================
+        Halo Third Party SDK Model - Model definitions for Halo
+        =======================================================
+        
+        halo-third-party-sdk-model is the model definitions package for Halo by
+        the Software Development Kit (SDK) team for Python.
+        
+        Getting Help
+        ------------
+        
+        The model definitions in this package are auto-generated. The issues and pull requests
+        on the repository are not monitored and may get closed without investigation. Please use
+        these community resources for getting help:
+        
+        * Use the `Halo Third Party SDK <https://github.com/amzn/halo-third-party-sdk-for-python>`_ for development and filing bugs.
+        
+        =========
+        CHANGELOG
+        =========
+        
+        1.0.0
+        -----
+        * Initial release of Halo Third Party SDK.
+        
+Keywords: Halo SDK,Amazon Halo,Models
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
