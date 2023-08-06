@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/byestore.egg-info/PKG-INFO
+src/byestore.egg-info/SOURCES.txt
+src/byestore.egg-info/dependency_links.txt
+src/byestore.egg-info/top_level.txt
+src/byestorelibs/__init__.py
+src/byestorelibs/byestore.py
