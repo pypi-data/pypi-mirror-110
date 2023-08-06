@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+zlsender/__init__.py
+zlsender/__version__.py
+zlsender/sender.py
+zlsender.egg-info/PKG-INFO
+zlsender.egg-info/SOURCES.txt
+zlsender.egg-info/dependency_links.txt
+zlsender.egg-info/top_level.txt
