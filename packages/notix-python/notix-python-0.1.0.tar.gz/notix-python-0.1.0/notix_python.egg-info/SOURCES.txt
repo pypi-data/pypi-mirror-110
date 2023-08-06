@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+notix/__init__.py
+notix/constants.py
+notix/exceptions.py
+notix/notix_api.py
+notix_python.egg-info/PKG-INFO
+notix_python.egg-info/SOURCES.txt
+notix_python.egg-info/dependency_links.txt
+notix_python.egg-info/requires.txt
+notix_python.egg-info/top_level.txt
