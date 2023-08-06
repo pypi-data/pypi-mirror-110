@@ -1,0 +1,11 @@
+JudgeInterface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JudgeInterface/abstract.py,sha256=5b9cTcbFJtZM2vhwANRaS10fGZ4blW-qZ6pNdt0BHNc,4678
+JudgeInterface/languages.py,sha256=fs3pTHrPM8U1NNzJmkTKs0Haoppv0k35bq_UyiUxEsA,363
+JudgeInterface/problems.py,sha256=ePiafxa2-M6tCLFOW49cNYv_inG5gO8r_PmK8sNIZ1Y,1041
+JudgeInterface/submissions.py,sha256=QiEfc8P4wuyJsRM43YXq-GjMO0fA9NFAUJcMgu3nDj8,910
+JudgeInterface/users.py,sha256=pB5vtVXXu2jpyzIhZH2R1TewHzlnQcIsfjEC337Z_Zw,1015
+JudgeInterface-1.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+JudgeInterface-1.0.1.dist-info/METADATA,sha256=5rbDCNPFBE4A5U3n5fR0HxGwP8Bxect6eMnju0q7adM,633
+JudgeInterface-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+JudgeInterface-1.0.1.dist-info/top_level.txt,sha256=-0EGO8kw8q2o2DaqeR2GxBJUnyx47Fwh3Db_jbFSc7c,15
+JudgeInterface-1.0.1.dist-info/RECORD,,
