@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: calculate_maxi_min
+Version: 1.0
+Summary: 计算最大最小值
+Home-page: https://gitee.com/jia_kai_peng/calcalute
+Author: jkp
+Author-email: 1543889217@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: pandas
+Requires: loguru
