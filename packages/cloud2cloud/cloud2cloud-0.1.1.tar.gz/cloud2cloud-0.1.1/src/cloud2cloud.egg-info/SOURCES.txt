@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/cloud2cloud/__init__.py
+src/cloud2cloud/interpolator.py
+src/cloud2cloud.egg-info/PKG-INFO
+src/cloud2cloud.egg-info/SOURCES.txt
+src/cloud2cloud.egg-info/dependency_links.txt
+src/cloud2cloud.egg-info/requires.txt
+src/cloud2cloud.egg-info/top_level.txt
