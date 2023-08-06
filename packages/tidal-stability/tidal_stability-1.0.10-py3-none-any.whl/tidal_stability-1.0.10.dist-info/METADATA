@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tidal-stability
+Version: 1.0.10
+Summary: Solver for gas clouds around Black Holes
+Home-page: https://github.com/YourLocalBlake/TidalStability
+Author: Blake Staples
+Author-email: yourlocalblake@gmail.com
+License: GPLv3
+Requires-Dist: arrow (>=0.17.0)
+Requires-Dist: attrs (>=20.3.0)
+Requires-Dist: h5py (>=2.10.0)
+Requires-Dist: matplotlib (>=3.3.2)
+Requires-Dist: mpmath (>=1.1.0)
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: scikits.odes
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tidal-stability) ![PyPI - License](https://img.shields.io/pypi/l/tidal-stability) [![codecov](https://codecov.io/gh/YourLocalBlake/TidalStability/branch/master/graph/badge.svg?token=89VFTvptUh)](https://codecov.io/gh/YourLocalBlake/TidalStability)
+
+
