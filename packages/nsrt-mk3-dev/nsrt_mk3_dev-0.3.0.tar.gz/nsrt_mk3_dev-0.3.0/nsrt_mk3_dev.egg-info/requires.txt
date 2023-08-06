@@ -1,0 +1,12 @@
+pyserial
+
+[dev]
+check-manifest
+flake8
+
+[doc]
+sphinx
+sphinx-rtd-theme
+
+[test]
+pytest
