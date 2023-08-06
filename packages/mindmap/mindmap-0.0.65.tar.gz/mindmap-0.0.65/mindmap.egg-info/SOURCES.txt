@@ -1,0 +1,8 @@
+README.md
+setup.py
+mindmap/__init__.py
+mindmap/mindmap
+mindmap.egg-info/PKG-INFO
+mindmap.egg-info/SOURCES.txt
+mindmap.egg-info/dependency_links.txt
+mindmap.egg-info/top_level.txt

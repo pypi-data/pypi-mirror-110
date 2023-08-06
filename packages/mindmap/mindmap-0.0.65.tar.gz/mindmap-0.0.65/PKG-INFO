@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: mindmap
+Version: 0.0.65
+Summary: Command line tool for keeping notes simple way.
+Home-page: https://github.com/ferdielik/mindmap
+Author: Ferdi Elik
+Author-email: elik.ferdi@gmail.com
+License: MIT
+Description: Command line tool for keeping notes simple way.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

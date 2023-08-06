@@ -1,0 +1,54 @@
+#!/bin/python
+
+import argparse
+import subprocess
+import tempfile
+
+from mindmap import Mindmap
+
+parser = argparse.ArgumentParser("Command line tool for keeping notes simple way.")
+
+
+def parse_args():
+    parser.add_argument('-s', '--scope', type=str, nargs='+', help='scope of the note.', default=["general", "todo"])
+    parser.add_argument('-q', '--query', type=str, help='search file names in scope.')
+    parser.add_argument('-i', '--index', type=int, help='use index of the file.')
+
+    parser.add_argument('-t', '--text', type=str, help='append text to scope content.')
+
+    parser.add_argument('-a', '--all', action='store_true', help='set scope to all')
+    parser.add_argument('-v', '--vim', action='store_true', help='save the content of vim')
+
+    parser.add_argument('-r', '--read', action='store_true', help='print content of the scope.')
+    parser.add_argument('-l', '--list', action='store_true', help='list files in scope.')
+
+    return parser.parse_args()
+
+
+def read_note_in_vim():
+    with tempfile.NamedTemporaryFile(suffix='task') as temp:
+        subprocess.call(['vim', temp.name])
+        return open(temp.name, 'r').read()
+
+
+if __name__ == "__main__":
+    args = parse_args()
+
+    scope = [] if args.all or args.query else args.scope
+    edit_mode = args.text or args.vim
+    t = Mindmap(args, scope, edit_mode)
+    if args.list:
+        t.list_scope()
+    elif args.query:
+        t.query_scope(args.query)
+    elif args.read:
+        t.read_note()
+    elif args.index:
+        t.read_index(args.index)
+    elif args.text:
+        t.save_note(args.text)
+    elif args.vim:
+        text = read_note_in_vim()
+        t.save_note(text)
+    else:
+        parser.print_help()
