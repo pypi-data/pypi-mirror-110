@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+devopsprocessor/__init__.py
+devopsprocessor/processor.py
+devopsprocessor_ifn.egg-info/PKG-INFO
+devopsprocessor_ifn.egg-info/SOURCES.txt
+devopsprocessor_ifn.egg-info/dependency_links.txt
+devopsprocessor_ifn.egg-info/requires.txt
+devopsprocessor_ifn.egg-info/top_level.txt
+test/test_processor.py
