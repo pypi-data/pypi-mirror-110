@@ -1,0 +1,10 @@
+LICENSE,sha256=nJjOR8XLxNnp_wTM2RaWlOyu9P9IcCFXszFcabzTd84,1081
+README.md,sha256=k7r-gtbPRYtdfPzBaCyd76eh8CEzhE0K9kCaCTJnLQE,2562
+runtime_type_checker/__init__.py,sha256=4yyRU-UQrvbeNFGbLO5HpzqQnz83XEmdCVrbD3DUbgA,205
+runtime_type_checker/_checkers.py,sha256=v1p2Kl0rwO_cMFYuDaHxdcWe4XZ7pQMYaBKk3T6TEc4,20184
+runtime_type_checker/typing_inspect_extensions.py,sha256=tIlgORLHoJhQmyrG5-xM-0maW2jpQjznoV4ljs4_1iA,1345
+runtime_type_checker/utils.py,sha256=Geml9SavRyFgDNisjX0oXcIoDmWT5YgRQBej6gXjiBI,2271
+runtime_type_checker-0.5.0.dist-info/LICENSE,sha256=nJjOR8XLxNnp_wTM2RaWlOyu9P9IcCFXszFcabzTd84,1081
+runtime_type_checker-0.5.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+runtime_type_checker-0.5.0.dist-info/METADATA,sha256=YSZG1mHuXxmXHUI6r5oO29oPXX5Q2w9IoSFD6dNI55U,3471
+runtime_type_checker-0.5.0.dist-info/RECORD,,
