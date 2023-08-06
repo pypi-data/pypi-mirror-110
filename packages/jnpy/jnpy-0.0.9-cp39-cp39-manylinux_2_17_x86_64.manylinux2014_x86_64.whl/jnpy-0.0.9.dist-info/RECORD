@@ -1,0 +1,9 @@
+_jnpy.cpython-39-x86_64-linux-gnu.so,sha256=185zaleHmY9RPK4bh7Qydq4GJGmW2qQHLB6haoG5_kU,14165680
+jnpy/__init__.py,sha256=ZNhi6rPyeRBGVbX0vVEkT5x6UE9U1A3ObQxeSep8INE,20
+jnpy/bio/__init__.py,sha256=JG0dsJzp19xYOVn9KzI__9uPx2XLTAg1tsJ4sxKIDNI,38
+jnpy/bio/pdb.py,sha256=5kpUKzDpi2PRC6CzAKtG4BnJyNvFZjyc4c1RbQnsqeo,5577
+jnpy-0.0.9.dist-info/LICENSE,sha256=SBNiCMUPOkN74CrKaGEJk1CNXzPemZ76Qsm106kwI1E,2182
+jnpy-0.0.9.dist-info/METADATA,sha256=6oy68vDIZmUKhzyI6oWRrcVh2k38Az1--exByjN7JPA,331
+jnpy-0.0.9.dist-info/WHEEL,sha256=a60ds3Ma82hx_sQpOqkP7xcMHCqlDvAwFM7jtmOVcmY,148
+jnpy-0.0.9.dist-info/top_level.txt,sha256=Gv9xcbBlYVqJQMAj25lgNKHKd-PfKNzNmMUBtQBZsC8,11
+jnpy-0.0.9.dist-info/RECORD,,
