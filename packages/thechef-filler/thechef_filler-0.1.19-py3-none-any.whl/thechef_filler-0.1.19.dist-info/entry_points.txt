@@ -1,0 +1,3 @@
+[console_scripts]
+thechef_filler=thechef_filler.main:main
+
