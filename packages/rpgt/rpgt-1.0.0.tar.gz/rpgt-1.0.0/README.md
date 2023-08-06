@@ -1,0 +1,71 @@
+# RPGT
+[![Python version](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue)]()
+[![Wheel](https://img.shields.io/badge/wheel-yes-brightgreen)]()
+[![MLLint](https://img.shields.io/badge/code%20style-mllint-orange)](https://pypi.org/project/mllint/ "Black linter")
+
+
+An Automated Repository and Pipeline Generation Tool for Data-Science Projects.
+
+* [RPGT](https://gitlab.com/tweet.dimitri/rpgt#rpgt)
+  * [Documentation](https://gitlab.com/tweet.dimitri/rpgt#documentation)
+  * [Features](https://gitlab.com/tweet.dimitri/rpgt#features)
+  * [License](https://gitlab.com/tweet.dimitri/rpgt#license)
+  * [Authors](https://gitlab.com/tweet.dimitri/rpgt#authors)
+  
+## Quick Install
+
+- `pip install rpgt`
+
+## Example project
+An example project has been created to show case what RPGT can generate.
+
+[RPGT generated example project](https://gitlab.com/tweet.dimitri/rpgt-example)
+
+## Documentation
+
+- [Tutorial](https://gitlab.com/tweet.dimitri/rpgt/-/wikis/Tutorial)
+- [Getting started](https://gitlab.com/tweet.dimitri/rpgt/-/wikis/Next%20steps)
+- [DVC](https://gitlab.com/tweet.dimitri/rpgt/-/wikis/DVC)
+- [Changelog](https://gitlab.com/tweet.dimitri/rpgt/-/blob/master/CHANGELOG.md)
+
+## Features
+
+- .githooks folder with pre-commit linting
+- .gitlab folder with issue and merge templates
+- .gitignore generator
+  
+- README.md generator
+- LICENSE.md generator
+- CHANGELOG.md generator
+- CONTRIBUTING.md generator
+
+- directory structure generator
+- basic files generator
+- Pipfile generator (requirements file)
+
+- automated linting setup
+- automated testing setup
+- automated DVC integration
+  
+- CICD generators
+  - gitlab CI
+    - linting
+    - testing
+    - publishing
+    - reports & artifacts
+  - github actions
+
+- automated package distribution setup
+- automated docker image distribution setup
+
+## License
+        
+This project is MIT licensed. Please see the [LICENSE](https://gitlab.com/tweet.dimitri/rpgt/-/blob/master/LICENSE.md) file for more information.
+
+## Authors
+
+- Dimitri Stallenberg
+- Gijs de Jong
+- Niels Bauman
+
+Please see the [CONTRIBUTING](https://gitlab.com/tweet.dimitri/rpgt/-/blob/master/CONTRIBUTING.md) file for more information on how to contribute to this project.

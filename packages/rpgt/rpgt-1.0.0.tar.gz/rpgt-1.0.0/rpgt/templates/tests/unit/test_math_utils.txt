@@ -1,0 +1,16 @@
+"""
+Example math utils test file
+"""
+
+from src.[=NAME=].utils.math_utils import multiply
+
+
+def test_multiply() -> None:
+    """
+    Tests the multiplication function
+    :return: whether the assertion failed or not
+    """
+    first = 5
+    second = 6
+    expected = 30
+    assert multiply(first, second) == expected

@@ -1,0 +1,21 @@
+stages:
+  get_data:
+    cmd: python src/[=NAME=]/get_data.py
+    deps:
+      - src/[=NAME=]/get_data.py
+    outs:
+      - data/MNIST
+  train:
+    cmd: export PYTHONPATH="\${PYTHONPATH}:src/" && python src/[=NAME=]/train.py
+    deps:
+      - src/[=NAME=]/train.py
+      - src/[=NAME=]/model.py
+      - data/MNIST
+    outs:
+      - results/models/mnist_cnn.pt
+  validate:
+    cmd: export PYTHONPATH="\${PYTHONPATH}:src/" && python src/[=NAME=]/validate.py
+    deps:
+      - src/[=NAME=]/validate.py
+      - src/[=NAME=]/model.py
+      - results/models/mnist_cnn.pt

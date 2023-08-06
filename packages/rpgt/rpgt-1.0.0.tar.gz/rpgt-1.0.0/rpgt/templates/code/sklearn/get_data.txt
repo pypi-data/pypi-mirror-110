@@ -1,0 +1,18 @@
+"""
+Data retrieval file
+"""
+import pandas as pd
+
+
+def get_data() -> None:
+    """
+    Data retrieval function
+    """
+    url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
+    names = ["sepal_length", "sepal_width", "petal_length", "petal_width", "class"]
+    data = pd.read_csv(url, names=names)
+    data.to_csv("data/original.csv", index=False)
+
+
+if __name__ == "__main__":
+    get_data()

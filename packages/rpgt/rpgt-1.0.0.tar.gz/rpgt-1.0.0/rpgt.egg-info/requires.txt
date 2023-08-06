@@ -1,0 +1,8 @@
+pipenv
+mllint
+isort
+pylint
+mypy
+bandit
+black
+dvc

@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: export PYTHONPATH="\${PYTHONPATH}:src/" && python src/[=NAME=]/__main__.py
+    deps:
+      - src/[=NAME=]/__main__.py
+      - src/[=NAME=]/get_environment.py
+      - src/[=NAME=]/model_loader.py
+    outs:
+      - results/models/my_model.model

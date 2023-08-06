@@ -1,0 +1,16 @@
+"""
+Data retrieval file
+"""
+from torchvision import datasets
+
+
+def get_data() -> None:
+    """
+    Data retrieval function
+    """
+    datasets.MNIST("data", train=True, download=True)
+    datasets.MNIST("data", train=False, download=True)
+
+
+if __name__ == "__main__":
+    get_data()

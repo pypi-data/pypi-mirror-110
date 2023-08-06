@@ -1,0 +1,18 @@
+[tool.isort]
+profile = "black"
+
+[tool.mllint]
+[tool.mllint.rules]
+disabled = [
+    'dependency-management/single',
+    'version-control/data/dvc',
+    'version-control/data/dvc-is-installed',
+    'version-control/data/commit-dvc-folder',
+    'version-control/data/dvc-has-remote',
+    'version-control/data/dvc-has-files',
+    'dependency-management/use-dev'
+]
+[tool.mllint.git]
+maxFileSize = 10000000
+[tool.mllint.code-quality]
+linters = ['pylint', 'mypy', 'black', 'isort', 'bandit']
