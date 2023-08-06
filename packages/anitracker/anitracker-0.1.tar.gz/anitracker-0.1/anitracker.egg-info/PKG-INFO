@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: anitracker
+Version: 0.1
+Summary: A tool used to help track, play, and sync anime episodes with services such as anilist
+Home-page: https://github.com/Phxntxm/AniTracker
+Author: Dan Hess
+Author-email: phxntxm1@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Phxntxm/AniTracker
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# AniTracker
+
+This tool is designed to help watch, sync, and manage animes with tools such as anilist. As of now this is a VERY early MVP, and it only works on linux and only works if you have mpv installed. In future updates this will be expanded more
+
