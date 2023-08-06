@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+django_spaceless_templates/__init__.py
+django_spaceless_templates/mixins.py
+django_spaceless_templates/utils.py
+django_spaceless_templates.egg-info/PKG-INFO
+django_spaceless_templates.egg-info/SOURCES.txt
+django_spaceless_templates.egg-info/dependency_links.txt
+django_spaceless_templates.egg-info/requires.txt
+django_spaceless_templates.egg-info/top_level.txt
+django_spaceless_templates/loaders/__init__.py
+django_spaceless_templates/loaders/app_directories.py
+django_spaceless_templates/loaders/filesystem.py
