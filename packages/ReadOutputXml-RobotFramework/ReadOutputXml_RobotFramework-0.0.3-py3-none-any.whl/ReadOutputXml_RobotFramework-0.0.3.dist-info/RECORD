@@ -1,0 +1,10 @@
+ReaderOutputXmlRobotFramework/AnalyzeErrorLog.py,sha256=i39yvX6lMXvUEalE2Mq8iuUBkQXaoKTnEzqprevhJ94,814
+ReaderOutputXmlRobotFramework/ReaderRobotFramework.py,sha256=PsxGlo3_fA1kqn_UXIQtCJmNH8EIjxnyc_7G_xfmBbE,5086
+ReaderOutputXmlRobotFramework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ReadOutputXmlRobotFramework.py,sha256=IRpBOqq6QuW97j6v1wthU01fWKmZ28r_fgBdrpSktZo,26291
+ReadOutputXml_RobotFramework-0.0.3.dist-info/LICENSE,sha256=itkjWyAjU72bYp0UKTLmcXocLnz6CGhrzCzU7RiBtCM,1083
+ReadOutputXml_RobotFramework-0.0.3.dist-info/METADATA,sha256=D5xF-1S9tPzkFEkq4dIJ2_rPoLgNNMqegXF2hb1v-2Y,1891
+ReadOutputXml_RobotFramework-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ReadOutputXml_RobotFramework-0.0.3.dist-info/top_level.txt,sha256=Mxod9M4lCsNUGuUkTftbY_83o0FpivJodCqrB7maeBM,36
+ReadOutputXml_RobotFramework-0.0.3.dist-info/RECORD,,
