@@ -1,0 +1,5 @@
+[console_scripts]
+gongda = FastCNN.entry.gongda:main
+sfcnn = FastCNN.entry.server:main
+vfcnn = FastCNN.entry.trainvisiable:main
+
