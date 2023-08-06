@@ -1,0 +1,2 @@
+python-json-logger==2.0.1
+python-logging-loki==0.3.1
