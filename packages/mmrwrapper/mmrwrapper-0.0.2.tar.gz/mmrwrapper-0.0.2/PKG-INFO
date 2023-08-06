@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mmrwrapper
+Version: 0.0.2
+Summary: API-Wrapper WhatIsMyMMR
+Home-page: UNKNOWN
+Author: Sunta
+Author-email: noneofyour@business.com
+License: UNKNOWN
+Description: All rights reserved to the creator of the Website. https://euw.whatismymmr.com/ - Email: josh@whatismymmr.com
+Keywords: python,api,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
