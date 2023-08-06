@@ -1,0 +1,6 @@
+setup.py
+perzansplace/__init__.py
+perzansplace.egg-info/PKG-INFO
+perzansplace.egg-info/SOURCES.txt
+perzansplace.egg-info/dependency_links.txt
+perzansplace.egg-info/top_level.txt
