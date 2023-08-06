@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/CSBRAIN.egg-info/PKG-INFO
+src/CSBRAIN.egg-info/SOURCES.txt
+src/CSBRAIN.egg-info/dependency_links.txt
+src/CSBRAIN.egg-info/top_level.txt
