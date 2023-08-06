@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        bruty=bruty.entrypoints.cli:cli
+    
