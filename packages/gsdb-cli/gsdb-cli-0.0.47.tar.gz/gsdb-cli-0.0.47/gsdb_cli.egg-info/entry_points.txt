@@ -1,0 +1,3 @@
+[console_scripts]
+gsdb = geospock_cli.geospockcli:wrapped_cli
+
