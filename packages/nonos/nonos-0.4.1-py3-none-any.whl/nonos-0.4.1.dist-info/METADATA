@@ -1,0 +1,188 @@
+Metadata-Version: 2.1
+Name: nonos
+Version: 0.4.1
+Summary: A tool to analyze results from idefix/pluto simulations (for protoplanetary disks more specifically)
+Home-page: https://github.com/volodia99/nonos
+Author: G. Wafflard-Fernandez & C. Robert
+License: GPL-3.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: inifix (>=0.5.1<0.6.0)
+Requires-Dist: licplot (>=1.0.5)
+Requires-Dist: matplotlib (>=3.2.1)
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: pytomlpp (>=1.0.1)
+Requires-Dist: rich
+Requires-Dist: scikit-image (>=0.18.1)
+Requires-Dist: scipy (>=1.6.1)
+Provides-Extra: dev
+Requires-Dist: memory-profiler ; extra == 'dev'
+Requires-Dist: pytest (>=6.1) ; extra == 'dev'
+
+# nonos
+[![PyPI](https://img.shields.io/pypi/v/nonos)](https://pypi.org/project/nonos/)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/volodia99/nonos/main.svg)](https://results.pre-commit.ci/badge/github/volodia99/nonos/main.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
+
+nonos is a 2D visualization command line application for planet-disk hydro simulations, as well as a Python library.
+It works seamlessly with vtu-formatted data from Pluto, Fargo3D and Idefix.
+
+:construction: This project and documentation are under construction :construction:
+## Ongoing progress
+
+* spherical coordinates
+* error: `streamlines` & `rz=True` -> not yet implemented
+* warning: `isPlanet=False` & `corotate=True` -> we don't rotate the grid if there is no planet for now. `omegagrid` = 0.
+* warning: `geometry="polar"` & `rz=True` -> plot not optimized for now in the (R,z) plane in polar.
+
+
+## Installation
+
+:warning: Nonos requires Python 3.8 or newer. The easiest installation method is
+
+```bash
+$ pip install nonos
+```
+
+## Usage
+### 1. On the command line
+
+The nonos CLI gets its parameters from three sources:
+- command line parameters
+- a configuration file
+- default values
+
+Command line parameters take priority over the configuration file, which itself takes priority over default values.
+
+To get help, run
+```shell
+$ nonos --help
+```
+```
+usage: nonos [-h] [-dir DATADIR] [-field {RHO,VX1,VX2,VX3}] [-vmin VMIN]
+             [-vmax VMAX] [-cpu NCPU] [-on ON [ON ...] | -all] [-diff] [-log]
+             [-isp] [-corotate] [-grid] [-streamlines] [-rz] [-slice] [-pbar]
+             [-stype {random,fixed,lic}] [-srmin RMINSTREAM]
+             [-srmax RMAXSTREAM] [-sn NSTREAMLINES]
+             [-geom {cartesian,polar} | -pol] [-dim {1,2}] [-ft FONTSIZE]
+             [-cmap CMAP] [-fmt FORMAT] [-dpi DPI] [-input INPUT | -isolated]
+             [-d | -version | -logo | -config]
+
+Analysis tool for idefix/pluto/fargo3d simulations (in polar coordinates).
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -dir DATADIR          location of output files and param files (default:
+                        '.').
+  -field {RHO,VX1,VX2,VX3}
+                        name of field to plot (default: 'RHO').
+  -plane {rphi,rz,rtheta,xy,xz,yz}
+                        name of plane of projection (default: 'xy').
+  -range RANGE [RANGE ...]
+                        range of matplotlib window (default: unset)
+                        example: x x -2 2
+  -vmin VMIN            min value in -diff mode (default: -0.5)
+  -vmax VMAX            max value in -diff mode (default: -0.5)
+  -cpu NCPU, -ncpu NCPU
+                        number of parallel processes (default: 1).
+  -on ON [ON ...]       output number(s) (on) to plot. This can be a single
+                        value or a range (start, end, [step]) where both ends
+                        are inclusive. (default: last output available).
+  -all                  save an image for every available snapshot (this will
+                        force show=False).
+  -dim {1,2}            dimensionality in projection: 1 for a line plot, 2
+                        (default) for a map.
+  -ft FONTSIZE          fontsize in the graph (default: 11).
+  -cmap CMAP            choice of colormap for the -dim 2 maps (default:
+                        'RdYlBu_r').
+  -scaling SCALING      scale the overall sizes of features in the graph (fonts, linewidth...)
+                        (default: 1).
+  -dpi DPI              image file resolution (default: DEFAULTS['dpi'])
+
+boolean flags:
+  -diff                 plot the relative perturbation of the field f, i.e.
+                        (f-f0)/f0.
+  -log                  plot the log10 of the field f, i.e. log(f).
+  -isp                  is there a planet in the grid ?
+  -corotate             does the grid corotate? Works in pair with -isp.
+  -grid                 show the computational grid.
+  -slice                perform a slice along the third dimension.
+  -pbar                 display a progress bar
+
+streamlines options:
+  -lic {V,B}            which vector field for lic streamlines (default: 'unset')
+  -dpilic DPILIC        lic interpolation cell refinement (default: DEFAULTS['dpilic'])
+
+CLI-only options:
+  -input INPUT, -i INPUT
+                        specify a configuration file.
+  -isolated             ignore any existing 'nonos.toml' file.
+  -d, -display          open a graphic window with the plot (only works with a
+                        single image)
+  -version, --version   show raw version number and exit
+  -logo                 show Nonos logo with version number, and exit.
+  -config               show configuration and exit.
+  -v, -verbose, --verbose
+                        increase output verbosity (-v: info, -vv: debug).
+```
+
+#### Using a configuration file
+
+The CLI will read parameters from a local file named `nonos.toml` if it exists,
+or any other name specified using the `-i/-input` parameter.
+To ignore any existing `nonos.toml` file, use the `-isolated` flag.
+
+One way to configure nonos is to use
+```shell
+$ nonos -config
+```
+
+which prints the current configuration to stdout.
+You can then redirect it to get a working configuration file as
+```shell
+$ nonos -config > nonos.toml
+```
+This method can also be used to store a complete configuration file from command line arguments:
+```shell
+$ nonos -ncpu 8 -cmap viridis -rz -diff -vmin=-10 -vmax=+100 -config
+```
+As of Nonos 0.2.0, this will print
+```
+# Generated with nonos 0.2.0
+datadir               =  "."
+field                 =  "RHO"
+dimensionality        =  2
+on                    =  "unset"
+diff                  =  true
+log                   =  false
+vmin                  =  -10.0
+vmax                  =  100.0
+rz                    =  true
+noaverage             =  false
+streamtype            =  "unset"
+rminStream            =  0.7
+rmaxStream            =  1.3
+nstreamlines          =  50
+progressBar           =  false
+grid                  =  false
+geometry              =  "cartesian"
+isPlanet              =  false
+corotate              =  false
+ncpu                  =  8
+fontsize              =  11
+cmap                  =  "viridis"
+dpi                   =  200
+````
+
+### 2. Programmatic usage
+
+We are still working on nonos' api.
+
+
