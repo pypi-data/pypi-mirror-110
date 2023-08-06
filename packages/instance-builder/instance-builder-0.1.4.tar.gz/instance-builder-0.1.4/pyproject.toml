@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "instance-builder"
+version = "0.1.4"
+description = "Instance builder library for Python inspired by Lombok"
+authors = ["Shuntaro Shimizu <ut.s.shimizu@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/shimech/instance-builder"
+repository = "https://github.com/shimech/instance-builder"
+classifiers=[
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+twine = "^3.4.1"
+wheel = "^0.36.2"
+keyring = "^23.0.1"
+pytest = "^6.2.4"
+setuptools = "^57.0.0"
+
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
