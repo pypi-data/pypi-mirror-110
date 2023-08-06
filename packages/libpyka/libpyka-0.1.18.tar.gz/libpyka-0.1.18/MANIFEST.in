@@ -1,0 +1,12 @@
+include LICENSE.txt
+include *.md
+include requirements.txt
+include test-requirements.txt
+include package-requirements.txt
+recursive-include conf *
+recursive-include data *
+recursive-include tests *
+exclude sample.py
+exclude gitpush.sh
+exclude pypi-upload.sh
+

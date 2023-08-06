@@ -1,0 +1,7 @@
+beautifulsoup4>=4.9.*
+chardet>=4.*
+cssselect>=1.*
+psycopg2>=2.8.6
+requests>=2.*
+types-chardet>=0.*
+types-requests>=0.1.*
