@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autoreduce-utils
+Version: 22.0.0.dev3
+Summary: ISIS Autoreduce
+Home-page: https://github.com/ISISScientificComputing/autoreduce-utils/
+Author: ISIS Autoreduction Team
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: gitpython (==3.1.14)
+Requires-Dist: python-icat (==0.18.1)
+Requires-Dist: suds-py3 (==1.4.4.1)
+Requires-Dist: stomp.py (==6.1.0)
+
+This package contains the utils that are shared across the backend and the frontend of Autoreduce.
+This was previously the `utils` folder.
+
+
