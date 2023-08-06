@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: KakaoV2
+Version: 0.0.2
+Summary: Kakaotalk LOCO/HTTP API protocol wrapper for python.
+Home-page: https://github.com/ULTRA0221/KakaoV2
+Author: ULTRA#0221
+Author-email: kakao@ultra0221.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: pycryptodomex
+Requires-Dist: aiohttp
+
+KakaoV2
+=======
+KakaoV2 is Kakaotalk LOCO/HTTP API protocol wrapper for python.
+
+Introduction
+------------
+Loco protocol compatible python library
+This is discord.py style.
+
+Quick Start
+-------
+```python
+import KakaoV2
+
+client = KakaoV2.Client(device_uuid="DeviceUUID")
+
+@client.event
+async def on_ready():
+    print("Ready!")
+
+@client.event
+async def on_message(msg):
+    print(msg.content, msg.author)
+    await msg.reply("TEXT")
+    await msg.send("TEXT")
+
+client.run("ID", "PW")
+```
+
+License
+-------
+MIT Licence
+
+
