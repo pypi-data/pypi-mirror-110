@@ -1,0 +1,3 @@
+[flake8.extension]
+SCS = flake8_secure_coding_standard:Plugin
+
