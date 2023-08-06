@@ -1,0 +1,6 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/aws_in_docker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_in_docker-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aws_in_docker-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+aws_in_docker-0.0.1.dist-info/METADATA,sha256=vPbDXSuv2xoSsIeO8ox_WafX0izGehMt2E4VIMia3y0,1455
+aws_in_docker-0.0.1.dist-info/RECORD,,
