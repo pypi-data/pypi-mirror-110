@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zswag
+Version: 1.0.7
+Summary: Server middleware for implementing zserio services at warp 10.
+Home-page: https://github.com/klebert-engineering/zswag
+Author: Klebert Engineering
+Author-email: j.birkner@klebert-engineering.de
+License: BSD-3 Clause
+Requires-Dist: connexion
+Requires-Dist: requests
+Requires-Dist: zserio (>=2.3.0)
+Requires-Dist: pyyaml
+Requires-Dist: pyzswagcl (>=1.0.7)
+
+# Zswag
+
+

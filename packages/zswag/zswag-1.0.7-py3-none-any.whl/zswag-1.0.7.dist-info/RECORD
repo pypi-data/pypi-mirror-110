@@ -1,0 +1,16 @@
+zswag/__init__.py,sha256=UbDZvOFdwbPvHQnmdxYd1JTRWVPHGnf9DEu327UFkzo,65
+zswag/app.py,sha256=oXxJWok1e5Hp6PsDTg1EOT3g1VFV-sgsFplwkDvJYFU,8074
+zswag/doc.py,sha256=KE72vtVxCL4FT_J-yu49vMwO7wHp0vJYIHvlRKYsztc,4564
+zswag/gen.py,sha256=dg5M-k4fxuvUCpyCPZkI-_rejzib5mG9zHmrbNh06e0,15446
+zswag/reflect.py,sha256=jhusRHpj_-BhC1OAXqMaS4knIHSfGttS1teqHx82lnM,9547
+zswag/test/calc/__init__.py,sha256=dI1TA91v4KiCn3vum_zn9dxjX1t6vtB-7uwe2mNK4Bs,201
+zswag/test/calc/__main__.py,sha256=X9zPuhlUmZ2mAlOU9i9f-ka9yHea98KR3JCPKR9Jips,767
+zswag/test/calc/api.yaml,sha256=f1rHiAHKVdCoeTu43e7DBQZCwGxI50k8pF_nYiU5i-Y,4960
+zswag/test/calc/calculator.zs,sha256=oRMBMH9753ssw6MJrKlCSRi5YcyyJVMlrUS6s1AaVoM,1139
+zswag/test/calc/client.py,sha256=DIQfzfNoYb9ablsn1l4JUEu8RMqoEC_g9AXguw867Go,2869
+zswag/test/calc/server.py,sha256=-37d4aaDT8sQa3wdSVs4xdP8Qy-dGVoOgiG_eQ9xiR4,829
+zswag-1.0.7.dist-info/LICENSE,sha256=zkVZX_BNEqq1skTEZvK0MsY4iEegtxrfbKSPLOkm9mI,1556
+zswag-1.0.7.dist-info/METADATA,sha256=ZM0neszlhoUQCMntSYaueira_0mgNQ_GVc1_iCc1lWk,423
+zswag-1.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zswag-1.0.7.dist-info/top_level.txt,sha256=13gM6HyInsF9lF5Q31lOLebRu2AmFc4KbYZcuWZPY48,6
+zswag-1.0.7.dist-info/RECORD,,

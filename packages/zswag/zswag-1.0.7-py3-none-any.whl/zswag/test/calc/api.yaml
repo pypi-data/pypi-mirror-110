@@ -1,0 +1,210 @@
+info:
+  contact:
+    email: TODO
+  description: REST API for calculator.Calculator
+  license:
+    name: TODO
+  title: Calculator
+  version: TODO
+openapi: 3.0.0
+paths:
+  /power/{base}:
+    get:
+      operationId: power
+      parameters:
+        - in: path
+          name: base
+          required: true
+          x-zserio-request-part: base.value
+          schema:
+            format: string
+            type: string
+        - in: query
+          name: exponent
+          required: true
+          x-zserio-request-part: exponent.value
+          schema:
+            format: string
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+      summary: ''
+  /isum:
+    get:
+      operationId: intSum
+      parameters:
+        - in: query
+          name: values
+          required: true
+          explode: true
+          x-zserio-request-part: values
+          schema:
+            format: hex
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /bsum/{values}:
+    get:
+      operationId: byteSum
+      parameters:
+        - in: path
+          name: values
+          required: true
+          x-zserio-request-part: values
+          schema:
+            format: base64url
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /imul/{values}:
+    get:
+      operationId: intMul
+      parameters:
+        - in: path
+          name: values
+          required: true
+          style: simple
+          x-zserio-request-part: values
+          schema:
+            format: base64
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /fmul:
+    get:
+      operationId: floatMul
+      parameters:
+        - in: query
+          name: values
+          required: true
+          explode: false
+          x-zserio-request-part: values
+          schema:
+            format: string
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /bmul:
+    get:
+      operationId: bitMul
+      parameters:
+        - in: query
+          name: values
+          required: true
+          x-zserio-request-part: values
+          schema:
+            format: string
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /identity:
+    post:
+      operationId: identity
+      requestBody:
+        content:
+          application/x-zserio-object:
+            schema:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /concat:
+    get:
+      operationId: concat
+      parameters:
+        - in: query
+          name: values
+          required: true
+          x-zserio-request-part: values
+          schema:
+            format: base64
+            type: array
+            items:
+              type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+  /name/{enum_value}:
+    get:
+      operationId: name
+      parameters:
+        - in: path
+          name: enum_value
+          required: true
+          x-zserio-request-part: value
+          schema:
+            format: string
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            application/octet-stream:
+              schema:
+                format: binary
+                type: string
+      summary: ''
+
+servers: []
