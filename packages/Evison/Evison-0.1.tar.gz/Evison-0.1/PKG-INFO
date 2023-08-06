@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: Evison
+Version: 0.1
+Summary: We provide an easy way for visualizing
+Home-page: https://github.com/JonnesLin/easy_visualization
+Author: Jinhong Lin
+Author-email: jonneslin@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: torchvision
+Requires: numpy
+Requires: matplotlib
+Requires: torch
