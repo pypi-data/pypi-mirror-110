@@ -1,0 +1,6 @@
+README.txt
+setup.py
+BetterText.egg-info/PKG-INFO
+BetterText.egg-info/SOURCES.txt
+BetterText.egg-info/dependency_links.txt
+BetterText.egg-info/top_level.txt
