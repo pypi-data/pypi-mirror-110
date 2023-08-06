@@ -1,0 +1,9 @@
+numpy
+jieba
+synonyms
+Levenshtein
+pandas
+sklearn
+wordcloud
+matplotlib
+chinese-converter
