@@ -1,0 +1,1 @@
+Calculation of the dominant (average) RGB value in an image using k-means clustering.

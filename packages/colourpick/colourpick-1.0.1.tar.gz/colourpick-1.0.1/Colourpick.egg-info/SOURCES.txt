@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+Colourpick.egg-info/PKG-INFO
+Colourpick.egg-info/SOURCES.txt
+Colourpick.egg-info/dependency_links.txt
+Colourpick.egg-info/requires.txt
+Colourpick.egg-info/top_level.txt
+colourpick/__init__.py
+colourpick/colourpick.py
+colourpick.egg-info/PKG-INFO
+colourpick.egg-info/SOURCES.txt
+colourpick.egg-info/dependency_links.txt
+colourpick.egg-info/requires.txt
+colourpick.egg-info/top_level.txt
