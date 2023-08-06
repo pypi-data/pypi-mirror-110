@@ -1,0 +1,10 @@
+README.md
+clerk_timestamp.py
+setup.cfg
+setup.py
+josephhaaga_clerk_timestamp.egg-info/PKG-INFO
+josephhaaga_clerk_timestamp.egg-info/SOURCES.txt
+josephhaaga_clerk_timestamp.egg-info/dependency_links.txt
+josephhaaga_clerk_timestamp.egg-info/entry_points.txt
+josephhaaga_clerk_timestamp.egg-info/requires.txt
+josephhaaga_clerk_timestamp.egg-info/top_level.txt

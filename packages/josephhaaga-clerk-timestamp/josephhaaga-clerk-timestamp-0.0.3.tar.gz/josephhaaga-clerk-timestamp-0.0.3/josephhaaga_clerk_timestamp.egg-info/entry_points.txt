@@ -1,0 +1,6 @@
+[clerk.extensions]
+timestamp = clerk_timestamp:append_timestamp
+
+[console_scripts]
+clerk-timestamp = clerk_timestamp:get_timestamp
+
