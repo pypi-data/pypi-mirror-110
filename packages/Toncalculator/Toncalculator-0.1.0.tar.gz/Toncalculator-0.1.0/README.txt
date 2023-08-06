@@ -1,0 +1,2 @@
+Toncalculator s a simple calulator for addition, subtraction, multiplication,division, squire, to the power, sqire root, log, factorial, sin, cos, tan, cot, sec, cosec, nCr etc.
+There are many mathmatical conversions
