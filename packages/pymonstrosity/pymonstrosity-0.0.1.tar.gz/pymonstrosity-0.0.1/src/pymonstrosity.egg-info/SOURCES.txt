@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pymonstrosity.egg-info/PKG-INFO
+src/pymonstrosity.egg-info/SOURCES.txt
+src/pymonstrosity.egg-info/dependency_links.txt
+src/pymonstrosity.egg-info/top_level.txt
