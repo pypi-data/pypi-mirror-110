@@ -1,0 +1,7 @@
+setup.py
+src/socketrequests/__init__.py
+src/socketrequests/sockets.py
+src/socketrequests.egg-info/PKG-INFO
+src/socketrequests.egg-info/SOURCES.txt
+src/socketrequests.egg-info/dependency_links.txt
+src/socketrequests.egg-info/top_level.txt
