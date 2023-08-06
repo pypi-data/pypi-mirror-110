@@ -1,0 +1,318 @@
+// *   arabic Language ar ar_list
+// *   This file writen by TAHA Zerrouki 2012
+// ***************************************************************************
+// *   This program is free software; you can redistribute it and/or modify  *
+// *   it under the terms of the GNU General Public License as published by  *
+// *   the Free Software Foundation; either version 3 of the License, or     *
+// *   (at your option) any later version.                                   *
+// *                                                                         *
+// *   This program is distributed in the hope that it will be useful,       *
+// *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+// *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+// *   GNU General Public License for more details.                          *
+// *                                                                         *
+// *   You should have received a copy of the GNU General Public License     *
+// *   along with this program; if not, see:                                 *
+// *               <http://www.gnu.org/licenses/>.                           *
+// ***************************************************************************
+//
+// You can use the en_extra file, rather than this one
+// to add your own pronunciation definitions.
+//
+// This file is UTF-8 encoded
+// all words must be LOWER CASE  (although the initial letter will be automatically
+// converted if it's a 7bit ascii character)
+//
+//stress symbols  ' primary  , secondary  % unstressed
+// letter names, as they are spoken as a single character in text
+// precede by _  to distinguish from pronunciation as a language word
+
+// Arabic alphabet
+_آ       alif mamdu:dah
+_ا       alif
+_ب       ba:?
+_پ       pi
+_ت       ta:?
+_ث       Ta:?
+_ج       dZim
+_ح       Ha:?
+_خ       Xa:?
+_د       da:l
+_ذ       Da:l
+_ر       ra:?
+_ز       za:j
+_س       si:n
+_ش       Si:n
+_ص       s[a:d
+_ض       dHa:d
+_ط       t[a:?
+_ظ       Za:?
+_ع       A:jn
+_غ       gHajn
+_ف       fa:?
+_ق       qa:f
+_ك       ka:f
+_گ       ga:f
+_ل       la:m
+_م       mi:m
+_ن       nu:n
+_و       wa:w
+_ه       ha:?
+_ي       ja:?
+_َ       fatHah
+_ُ       dhammah
+_ِ       kasrah
+_ّ       Saddah
+_ْ       suku:n
+_ً       fatHata:n
+_ٌ       dhammata:n
+_ٍ       kasrata:n
+_،       fa:s[ilah
+_؛       nuqt[atah||fa:s[lah
+_ـ       tat[wi:l
+_ئ       hamzah||Ala||?alja:?
+_ؤ       hamzah||Ala||?alwa:?
+_إ       hamzah||taHta||?alwa:?
+_أ       ?alif
+_ء       hamzah
+_ة       ta:?||marbu:t[ah
+_ى       ?alif||maqs[u:rah
+_ةً       tan
+_
+
+// When letters entered one by one
+آ       alif mamdu:dah              $atend
+ا       alif                        $atend
+ب       ba:?                        $atend
+پ       pi                          $atend
+ت       ta:?                        $atend
+ث       Ta:?                        $atend
+ج       dZim                        $atend
+ح       Ha:?                        $atend
+خ       Xa:?                        $atend
+د       da:l                        $atend
+ذ       Da:l                        $atend
+ر       ra:?                        $atend
+ز       za:j                        $atend
+س       si:n                        $atend
+ش       Si:n                        $atend
+ص       s[a:d                       $atend
+ض       dHa:d                       $atend
+ط       t[a:?                       $atend
+ظ       Za:?                        $atend
+ع       A:jn                        $atend
+غ       gHajn                       $atend
+ف       fa:?                        $atend
+ق       qa:f                        $atend
+ك       ka:f                        $atend
+گ       ga:f                        $atend
+ل       la:m                        $atend
+م       mi:m                        $atend
+ن       nu:n                        $atend
+و       wa:w                        $atend
+ه       ha:?                        $atend
+ي       ja:?                        $atend
+َ       fatHah                      $atend
+ُ       dhammah                     $atend
+ِ       kasrah                      $atend
+ّ       Saddah                      $atend
+ْ       suku:n                      $atend
+ً       fatHata:n                   $atend
+ٌ       dhammata:n                  $atend
+ٍ       kasrata:n                   $atend
+،       fa:s[ilah                   $atend
+؛       nuqt[atah||fa:s[lah         $atend
+ـ       tat[wi:l                    $atend
+ئ       hamzah||Ala||?alja:?        $atend
+ؤ       hamzah||Ala||?alwa:?        $atend
+إ       hamzah||taHta||?alwa:?      $atend
+أ       ?alif                       $atend
+ء       hamzah                      $atend
+ة       ta:?||marbu:t[ah            $atend
+ى       ?alif||maqs[u:rah           $atend
+ةً       tan                         $atend
+
+// numeric
+_0      s[ifr
+_1      wa:Hid
+_2      ?iTna:n
+_3      Tala:Tah
+_4      ?arba:ah
+_5      Xamsah
+_6      sittah
+_7      sabA:h
+_8      Tamanijah
+_9      tisA:h
+_10     A:Sarah
+_11     ?aHada||A:Sarah
+_12     ?iTna:||A:Sarah
+_13     Tala:Tata||A:Sarah
+_14     ?arba:ata||A:Sarah
+_15     Xamsata||A:Sarah
+_16     sittata||A:Sarah
+_17     sabA:ta||A:Sarah
+_18     Tama:nijata||A:Sarah
+_19     tisA:ta||A:Sarah
+_2X     AiSru:n
+_3X     TalaTu:n
+_4X     ?arba:u:n
+_5X     Xamsu:n
+_6X     sittu:n
+_7X     sabA:n
+_8X     Tama:nu:n
+_9X     tisAu:n
+
+_0C     mi?ah
+_1C     mi?ah
+_2C     mi?ata:n
+_3C     Tala:Tumi?ah
+_4C     ?arba:umi?ah
+_5C     Xamsumi?ah
+_6C     sittumi?ah
+_7C     sabAumi?ah
+_8C     Tama:numi?ah
+_9C     tisAumi?ah
+
+_0M1    ?alf
+_1M1    ?alf
+_2M1    ?alfa:n
+_3M1    Tala:Tat||?a:la:f
+_4M1    ?arba:at||?a:la:f
+_5M1    Xamsat||?a:la:f
+_6M1    sittat||?a:la:f
+_7M1    sabA:t||?a:la:f
+_8M1    Tama:nijat||?a:la:f
+_9M1    tisA:t||?a:la:f
+_10M1   A:Sarat||?a:la:f
+
+_0M2    m%ilj%u:n
+_1M2    m%ilju:n
+_2M2    milju:na:n
+_3M2    Tala:Tat||mala:ji:n
+_4M2    ?arba:at||mala:ji:n
+_5M2    Xamsat||mala:ji:n
+_6M2    sittat||mala:ji:n
+_7M2    sabA:t||mala:ji:n
+_8M2    Tama:nijat||mala:ji:n
+_9M2    tisA:t||mala:ji:n
+_10M2   A:Sarat||mala:ji:n
+
+_0M3    milja:r
+_1M3    milja:r
+_2M3    milja:ra:n
+_3M3    Tala:Tat||milja:ra:t
+_4M3    ?arba:at||milja:ra:t
+_5M3    Xamsat||milja:ra:t
+_6M3    sittat||milja:ra:t
+_7M3    sabA:t||milja:ra:t
+_8M3    Tama:nijat||milja:ra:t
+_9M3    tisA:t||milja:ra:t
+_10M3   A:Sarat||milja:ra:t
+
+
+_0and   wa
+_dpt    fa:s[il
+_roman  ruma:ni:
+
+_#st    om
+_#nd    va
+_#rd    om
+_#th    om
+
+
+// character names
+÷       taqsi:m
+×       fi:
+؟       A:la:amat||?istifha:m
+!       A:la:amat||ta:adZdZub
+$       du:la:r
+%       bilmi?ah
+[       A:ridHah||maftu:Hah
+]       A:ridHah||mugHlaqah
+(       qaws||maftu:H
+)       qaws||mugHlaq
+*       nedZmah
+-       na:qis[
+/.      nuqt[ah
+/:      nuqt[ata:n
+<       ?as[gHar||min
+=       tusa:wi:
+>       ?akbar||min
+{       Ha:dHinah||maftu:Hah
+}       Ha:dHinah||mugHlaqah
+...     Tala:T||niqa:t[
+
+
+//characters and numbers and words with English alphabet is translated by English phonemes
+th      _^_en
+
+// MAIN WORD DICTIONARY
+//*********************
+
+//abbreviations
+د       ?ad'duktu:r     $hasdot
+أنا     ?nba?ana:       $hasdot
+اه      ?intaha:        $hasdot
+ثنا     Had'daTana:     $hasdot
+الخ     ?ila||?a:_Xirih $hasdot
+إلخ     ?ila||?a:Xirih  $hasdot
+رحه     raHimahullah    $hasdot
+رضه     radHijallahu||Anhu      $hasdot
+و       wa  $pause
+إله     ?ila:h
+أولئك   ?ula:?ika
+أولو    ?ulu:
+أولي    ?uli:
+داود    da:wu:d
+ذلك     Da:lika
+التي    ?allati:
+الذي    ?allaDi:
+الذين   ?allaDi:na
+اللذين  ?allaDajn
+اللذان  ?allaDa:ni
+صلعم    s[alla:|?allahu|Alajhi||wa||sallam
+الرحمن  ?arraHma:n
+لكن     la:kin
+الله    ?alla:h
+اللهم   ?allahumma
+هؤلاء    ha:?ula:?i
+هذا     ha:Da:
+هذان    ha:Da:ni
+هذه     ha:Dihi
+//الوحدات
+كغ      kilu:||gHra:m
+كجم     kilu:||gHra:m
+كغم     kilu:||gHra:m
+طن      t[un
+كم      ki:lu:||mitar
+سا      sa:A:
+// Units below conflict with single letter word
+// م    mitar
+// س    su?a:l
+// ج    dZawa:b
+// ص    s[afHah
+د.ج     di:na:r||dZaza:?irij
+$       du:la:r
+€       ?u:rru:
+£       dZunajh
+¥       juwa:n
+ج.م     juwa:n||mis[ri
+ر.س     rija:l||sa:u:di:
+ابن     ?ibn
+بن      ban
+
+//foreign language
+إنجليزية                ?ingli:zijah // probelm
+جوجل            gu:gal
+غوغل            gu:gal
+(بسم الله)      bismilla:h
+
+// exceptional words with flags
+ای      ?aj     $only
+
+// exceptional words,  (out of rules)
+// proper nouns
+طه      t[a:ha:
+عمرو    A:mr
+أنا     'ana
+

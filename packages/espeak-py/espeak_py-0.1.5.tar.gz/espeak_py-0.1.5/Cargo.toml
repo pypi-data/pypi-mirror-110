@@ -1,0 +1,22 @@
+[package]
+name = "espeak-py"
+version = "0.1.5"
+authors = ["Benjamin Levin <ben@poly-ai.com>"]
+edition = "2018"
+description = "Python bindings for a narrow subset of espeak"
+repository = "https://github.com/PolyAI-LDN/espeak-py"
+license-file = "LICENSE"
+categories = ["text-processing", "api-bindings"]
+
+[lib]
+name = "espeak_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+espeak-sys = { path = "local_dependencies/espeak-sys"}
+libc = "0.2"
+parking_lot = "0.11"
+
+[dependencies.pyo3]
+version = "0.13.2"
+features = ["extension-module"]
