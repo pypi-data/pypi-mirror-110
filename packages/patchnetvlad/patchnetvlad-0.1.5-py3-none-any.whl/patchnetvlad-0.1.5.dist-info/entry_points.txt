@@ -1,0 +1,7 @@
+[console_scripts]
+patchnetvlad-download-models = download_models:download_all_models
+patchnetvlad-feature-extract = feature_extract:main
+patchnetvlad-feature-match = feature_match:main
+patchnetvlad-match-realtime = match_realtime:main
+patchnetvlad-match-two = match_two:main
+
