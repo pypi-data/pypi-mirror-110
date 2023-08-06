@@ -1,0 +1,9 @@
+tempsdb-0.6.dist-info/METADATA,sha256=VUM82sIUH47-YbfJsYjojb57314ojfF4m0WILH1ibOU,7228
+tempsdb-0.6.dist-info/WHEEL,sha256=1N9PJ94AEXBC_ktjlS0LJRYL17sG997I5-ySI0glONw,111
+tempsdb-0.6.dist-info/top_level.txt,sha256=RQf2SeWJuvt65PFSGvEa_C2c3har2cA-7QKCWFEke-8,8
+tempsdb-0.6.dist-info/LICENSE,sha256=M8o5jwe_4Y7tAw978JFKWyoOEC86Kx2hVYbUkstx_ng,1073
+tempsdb-0.6.dist-info/RECORD,,
+tempsdb-0.6.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tempsdb/__bootstrap__.cpython-38-x86_64-linux-gnu.so,sha256=pXU0a3dtZ76oNhNeOR4nTcXecwknXTXU7K5CcVafe9w,1189952
+tempsdb/__init__.py,sha256=_1FaFkGQaucBxoi45V5ARq8_T_IwkaL9koLd0driv-w,92
+tempsdb/chunks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
