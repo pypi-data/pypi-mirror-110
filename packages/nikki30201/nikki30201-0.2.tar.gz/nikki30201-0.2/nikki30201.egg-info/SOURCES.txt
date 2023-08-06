@@ -1,0 +1,9 @@
+README.md
+setup.py
+nikki30201/__init__.py
+nikki30201/lib2.py
+nikki30201.egg-info/PKG-INFO
+nikki30201.egg-info/SOURCES.txt
+nikki30201.egg-info/dependency_links.txt
+nikki30201.egg-info/not-zip-safe
+nikki30201.egg-info/top_level.txt
