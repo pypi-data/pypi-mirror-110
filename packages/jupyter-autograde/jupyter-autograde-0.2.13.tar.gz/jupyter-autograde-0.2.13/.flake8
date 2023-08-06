@@ -1,0 +1,13 @@
+# if you change this without a good reason
+[flake8]
+max-line-length = 120
+per-file-ignores =
+    # matplotlib forces us to violate best practises for imports
+    autograde/cli/util.py: E402,
+exclude =
+    venv,
+    build,
+    .git,
+    *playground*,
+    autograde/__init__.py
+    autograde/cli/__init__.py
