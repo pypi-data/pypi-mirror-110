@@ -1,0 +1,8 @@
+Chamge Log
+===========
+
+
+0.0.1
+
+    - Initial Release
+    - Added a validator for UK Postcodes
