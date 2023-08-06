@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: ksherpay
+Version: 0.0.1
+Summary: python implementation for Khser Payment API.
+Home-page: https://github.com/ksher-solutions/payment_sdk_python
+Author: Ksher
+Author-email: support@ksher.com
+License: MIT
+Keywords: Ksher,ksher,ksher-payment,ksher-payment-api,ksherpay
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.1)
+
+# Payment_sdk_python
+
+This is python sdk for intergrating your python application with Ksher Payment Gateway. Please refers to our official api document [here](https://doc.vip.ksher.net)
+
+## Requirement
+- Python 3.7
+    - other python3 version should also work, but python package version might cause some conflice and minor change might need to be done.
+
+- Ksher Payment API Account
+    - Requesting sandbox account please contact support@ksher.com
+    
+- API_URL
+    - Along with a sandbox accout, you will be receiving a API_URL in this format: s[UNIQUE_NAME].vip.ksher.net
+
+- API_TOKEN
+    - Log in into API_URL using given sandbox account and get the token. see (How to get API Token)[https://doc.vip.ksher.net/docs/howto/api_token]
+
+
+The Payment SDK for accessing *.vip.ksher.net
+
+## How to Install
+
+there are two option two install this package;
+1. clone this repository
+2. Install this package using pip
+
+you can git clone this repository and install this package
+### Clone this repo
+#### step1: clone this repository
+```shell
+git clone https://github.com/ksher-solutions/payment_sdk_python
+```
+
+#### step2: cd into cloned source code and pip install all the requriements and the package itself
+```shell
+cd payment_sdk_python
+pip install -r requirements.txt
+pip install .
+
+```
+
+## pip install this
+tbd
+
+## How to Use
+you need to first init the payment object and that you can use it to;
+- Create New Order
+- Query Order Status
+- Refund the Order
+
+
+### Init Payment Object
+```python
+from ksherpay import Payment
+API_URL = 'https://sandboxbkk.vip.ksher.net'
+API_TOKEN = testtoken1234
+payment_handle = Payment(base_url=API_URL, token=API_TOKEN)
+```
+In case for debugging purpose, for example you want to see echo signatute, you can disabple the sign verification process
+```python
+from ksherpay import Payment
+API_URL = 'https://sandboxbkk.vip.ksher.net'
+API_TOKEN = testtoken1234
+payment_handle = Payment(base_url=API_URL, token=API_TOKEN, verify=False)
+
+```
+
+### Create New Order
+***merchant_order_id need to be unique or else the request will end with error***
+
+```python
+data = {
+            "amount": 100,
+            "merchant_order_id": "OrderId000001",
+            "channel_list": "linepay,airpay,wechat,bbl_promptpay,truemoney,ktbcard",
+            "note": "string",
+            "redirect_url": "http://www.baidu.com",
+            "redirect_url_fail": "http://www.baidu.com",
+            "signature": "string",
+            "timestamp": "string"
+        }
+resp = payment_handle.order.create(data)
+print(resp.status_code) # this should return 200
+```
+
+### Query order status
+```python
+merchant_order_id = 'OrderId000001'
+resp = payment_handle.order.query(merchant_order_id)
+print(resp.status_code) # this should return 200
+```
+
+### Refund
+***Refund_id need to be unique or else the request will end with error***
+```python
+merchant_order_id = 'OrderId000001'
+refund_id = "Refund_" + merchant_order_id
+data = {
+    'refund_amount':100,
+    'refund_order_id':refund_id
+}
+resp = payment_handle.order.refund(merchant_order_id,params=data)
+print(resp.status_code) # this should return 200
+```
+
