@@ -1,0 +1,3 @@
+[console_scripts]
+mosromgr = mosromgr.cli:main
+
