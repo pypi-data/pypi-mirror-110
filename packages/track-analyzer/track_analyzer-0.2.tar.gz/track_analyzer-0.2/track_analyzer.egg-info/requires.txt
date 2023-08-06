@@ -1,0 +1,11 @@
+pandas
+matplotlib
+scikit-image
+scipy
+seaborn
+lmfit
+napari[all]
+tifffile
+jupyter
+ipyfilechooser
+ipywidgets

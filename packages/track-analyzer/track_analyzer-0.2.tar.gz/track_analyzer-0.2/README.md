@@ -1,0 +1,90 @@
+
+[![Doc](https://img.shields.io/badge/doc-master-blue.svg)](http://track-analyzer.pages.pasteur.fr/track-analyzer)
+[![Open Source License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+[![PyPI](https://img.shields.io/pypi/v/track-analyzer)](https://pypi.org/project/track-analyzer/)
+![Conda](https://img.shields.io/conda/pn/bioconda/track_analyzer)
+
+
+# Track Analyzer :microscope: :bar_chart:
+
+**Track Analyzer** is Python-based data visualization pipeline for tracking data.
+It *does not* perform any tracking, but visualizes and quantified any kind of tracked data.
+It analyzes trajectories by computing standard quantities such as velocity,
+acceleration, diffusion coefficient, local density, etc. 
+Trajectories can also be plotted on the original image in 2D or 3D using custom color coding.
+
+**Track Analyzer** provides a filtering section that can extract subsets of data based on spatiotemporal criteria.
+The filtered subsets can then be analyzed either independently or compared. This filtering section also provides a tool
+for selecting specific trajectories based on spatiotemporal criteria which can be useful to perform fate mapping and back-tracking.
+
+**Track Analyzer** can be run without any programming knowledge using its graphical interface. The interface is launched by 
+running a [Jupyter notebook](https://jupyter.org/) containing widgets allowing the user to load data and set parameters without writing any code. 
+
+
+![screenshot_1](https://gitlab.pasteur.fr/track-analyzer/track-analyzer/-/raw/master/resources/screenshot_1.png)
+
+![screenshot_2](https://gitlab.pasteur.fr/track-analyzer/track-analyzer/-/raw/master/resources/screenshot_2.png)
+
+
+## Data requirements
+**Track Analyzer** needs as input a text file (csv or txt file) of tracked data containing the position coordinates (in 2D or 3D) along time and the tracks identifiers. 
+Optionally, data can be plotted on the original image provided as a 3D or 4D tiff stack (ie. 2D+time or 3D+time). If the format of your movie is 
+different (list of images), please convert it to tiff stack using [Fiji](https://fiji.sc/>) for instance. 
+
+The position file must contain columns with the x, y, (z) positions, a frame column and track id column. The positions coordinates can be in 
+pixels or in scaled data. The information about the scaling and other metadata such as time and length scales will be provided by the user through the graphical interface.
+
+If **Track Analyzer** is run in command line (see below), the data directory must contain: 
+
+- a comma-separated csv file named positions.csv which column names are: x, y, (z), frame, track
+- a text file named info.txt containing the metadata (see example)
+- (optional) a tiff file named stack.tif
+
+
+## Installation
+
+### with conda
+
+- If you haven't installed Python yet, install Python 3.7: download miniconda 3.7: https://docs.conda.io/en/latest/miniconda.html
+- Open a Terminal (Mac & Linux) or open an Anaconda powershell (Windows)
+- Create environment: run `conda create -n pyTA python=3.7`
+- Activate environment (to be run every time you open a new terminal): run :`conda activate pyTA`
+
+To install **Track Analyzer**, just run:
+
+```sh
+	pip install track-analyzer
+```
+
+### with a virtualenv
+
+you can also use a [virtual environment](<https://virtualenv.pypa.io/en/stable/>)
+
+```sh
+    python3 -m venv pyTA
+    cd pyTA
+    source bin/activate
+    pip install track-analyzer
+```
+
+to exit from the virtualenv
+```sh
+    deactivate
+```
+
+To run track-analyzer
+```sh
+    cd pyTA
+    source bin/activate
+```
+
+## Documentation
+You can find a complete documentation 
+[![here](https://track-analyzer.pages.pasteur.fr/track-analyzer/)](https://track-analyzer.pages.pasteur.fr/track-analyzer/)
+
+## Troubleshooting
+The 3D visualization and the drawing selection tool depend on the [napari](<https://napari.org/>) package. 
+The installation of this package can lead to issues depending on your system.
+If you are not able to solve this installation, you will not be able to have access to 3D rendering. However, you will still be able to 
+use **Track Analyzer** without the drawing tool, by using coordinates sliders in the graphical interface.
+ 
