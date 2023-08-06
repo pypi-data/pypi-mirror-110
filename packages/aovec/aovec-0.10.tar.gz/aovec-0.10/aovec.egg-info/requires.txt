@@ -1,0 +1,4 @@
+beautifulsoup4
+gensim
+mecab-python3
+python-Levenshtein
