@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/list_packarge/__init__.py
+src/list_packarge/nester.py
+src/nester_pkg_edemrobin.egg-info/PKG-INFO
+src/nester_pkg_edemrobin.egg-info/SOURCES.txt
+src/nester_pkg_edemrobin.egg-info/dependency_links.txt
+src/nester_pkg_edemrobin.egg-info/top_level.txt
