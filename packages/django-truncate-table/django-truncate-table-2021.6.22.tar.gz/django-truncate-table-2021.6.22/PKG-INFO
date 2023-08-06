@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-truncate-table
+Version: 2021.6.22
+Summary: truncate/delete all model objects from the Django admin interface
+Home-page: https://github.com/andrewp-as-is/django-truncate-table.py
+License: Unlicense
+Description: [![](https://img.shields.io/badge/released-2021.6.21-green.svg?longCache=True)](https://pypi.org/project/django-truncate-table/)
+        [![](https://img.shields.io/badge/license-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ pip install django-truncate-table
+        ```
+        
+        #### `settings.py`
+        ```python
+        INSTALLED_APPS+=['django_truncate_table']
+        ```
+        
+        #### `migrate`
+        ```bash
+        $ python manage.py migrate
+        ```
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
