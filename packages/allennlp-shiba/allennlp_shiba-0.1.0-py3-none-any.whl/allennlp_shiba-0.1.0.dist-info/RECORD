@@ -1,0 +1,16 @@
+allennlp_shiba/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_shiba/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_shiba/common/testing/__init__.py,sha256=tGUox6p4ruLylisYoTIFJ_Y59mJ41wItAY4FxKt8MRc,82
+allennlp_shiba/common/testing/test_case.py,sha256=vqwP1c0ic0dXLegt-JjFgj7cYCUrH4HHyzA9kfsr6jw,380
+allennlp_shiba/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_shiba/data/token_indexers/__init__.py,sha256=OKv47JomUR03oDDkcaPHilXLjCYpfevBKH19GejdYKk,112
+allennlp_shiba/data/token_indexers/pretrained_shiba_indexer.py,sha256=ArD47j1cTQcg6nL8xqLZqmCrygUp2QA5IZ2m5-XrmIM,3421
+allennlp_shiba/data/tokenizers/__init__.py,sha256=c1zxpExUPiW8i6GtqfQKkhlqYW-gJm_WTVDtbfl1jE0,104
+allennlp_shiba/data/tokenizers/codepoint_tokenizer.py,sha256=_BZI85iIzkDHgzd7McTGUm2N0qPzXBEZRjlf6AOPdY0,808
+allennlp_shiba/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allennlp_shiba/modules/token_embedders/__init__.py,sha256=TCsqzl0AhJb8zxYoMhB9Et7RLMfS4-lskhskV11c6jE,118
+allennlp_shiba/modules/token_embedders/pretrained_shiba_embedder.py,sha256=Ng5dVhVT7swo9OATfEqsGfKUWVth6Ro8NBuNKrYjPA0,3215
+allennlp_shiba-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+allennlp_shiba-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+allennlp_shiba-0.1.0.dist-info/METADATA,sha256=lZ3WBNmFba8oAWnSRW-GU4N2VLT21kmDNQgPnwp-Twk,2423
+allennlp_shiba-0.1.0.dist-info/RECORD,,
