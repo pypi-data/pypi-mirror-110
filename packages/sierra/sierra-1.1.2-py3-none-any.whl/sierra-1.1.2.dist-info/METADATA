@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: sierra
+Version: 1.1.2
+Summary: A lightweight Python framework for building and integrating Web Applications.
+Home-page: http://github.com/BrainStormYourWayIn/sierra
+Author: Pranav and Siddhesh
+Author-email: BrainStormYourWayIn@gmail.com
+License: Apache Software License
+Project-URL: Bug Tracker, https://github.com/BrainStormYourWayIn/sierra/issues
+Project-URL: Documentation, https://brainstormyourwayin.github.io/sierra.github.io/
+Keywords: CSS,html,web development,web framework,python to HTML,python to CSS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+
+# Sierra
+
+![pyramid logo](https://github.com/BrainStormYourWayIn/pyramid/blob/main/logo.jpg)
+
+A lightweight Python framework for building and Integrating Web Applications.
+
+**NOTE**: This project is currently under heavy development. Please watch/star this repository for further updates on development.
+
+________________________________
+
+## Installation
+
+### Method 1: Download ZIP file
+
+**To download the zip file:** click on the `download` button and then click on the `Download ZIP` button. The zip file will get downloaded in the downloads folder.
+
+**To unzip the zip file:** open the zipped folder, then drag the file or folder from the zipped folder to a new location. To unzip all the contents of the zipped folder, press and hold (or right-click) the folder, select `Extract All`.
+
+### Method 2: Clone repository
+
+To clone the repository, type:
+
+`gh repo clone BrainStormYourWayIn/sierra`
+
+in your terminal/shell.
+
+________________________________
+
+## Under development
+
+The documentation will be coming soon.
+
+**Upcoming:**
+
+- Integration with [Flask](https://palletsprojects.com/p/flask/)
+- Official support for [brython over JS](https://brython.info)
+
+________________________________
+
+## Copyright License Used
+
+Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+All rights reserved.
+
+Copyright (c) 2011-2020, Open source contributors.
+
+
