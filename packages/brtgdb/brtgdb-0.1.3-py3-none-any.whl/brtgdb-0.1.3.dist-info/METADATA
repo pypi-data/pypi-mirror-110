@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: brtgdb
+Version: 0.1.3
+Summary: A simple package for db connection.
+Home-page: UNKNOWN
+Author: Peter Raso
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: SQLAlchemy (>=1.3.20)
+
+# BRTG database connector
+Simple package to establish connection with mysql/mariadb database using sqlalchemy.
+
+## Prerequisite
+Define environmental variables before lunching connector.
+
+DB_HOST=host.com
+DB_PORT=3306
+DB_USER=your_user
+DB_PASS=your_password
+
+## Installation
+From package directory:
+
+```
+pip install .
+```
+
+## Usage
+Import
+```
+from brtgdb import BrtgDB
+from dotenv import load_dotenv
+
+load_dotenv()
+db = BrtgDB()
+```
+
+With pandas
+```
+pd.read_sql("SELECT ....", db.conn)
+```
+
+functions
+```
+db.execute(query)
+```
+
