@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: aiobungie
+Version: 0.2.0
+Summary: A small async api wrapper for the bungie api
+Home-page: https://github.com/nxtlo/aiobungie
+License: MIT
+Keywords: async,api,destiny,bungie
+Author: nxtlo
+Author-email: dhmony-99@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.18.1,<0.19.0)
+Project-URL: Repository, https://github.com/nxtlo/aiobungie
+Description-Content-Type: text/markdown
+
+## aiobungie
+
+An Asynchronous API wrapper for the bungie API witten in Python.
+
+
+## Installing
+
+```
+pip install aiobungie
+```
+
+## Quick Example
+
+```python
+import aiobungie
+
+# Without classes.
+
+client = aiobungie.Client(key='YOUR_API_KEY')
+
+async def player(name):
+    _player = await client.get_player(name)
+    print(_player.name)
+    print(_player.icon_path)
+    print(_player.id)
+    print(_player.type)
+
+client.loop.run_until_complete(player("Sweatcicle"))
+
+# With classes
+
+class PlayerTest(aiobungie.Client):
+    def __init__(self):
+        super().__init__(key='YOUR_API_KEY')
+
+    async def player_data(self, player_name: str):
+        player = await self.get_player(player_name)
+
+        try:
+            print(player.name)
+            print(player.type)
+            print(player.id)
+            print(player.icon_path)
+        except:
+            pass
+
+if __name__ == '__main__':
+    plr = PlayerTest()
+    plr.loop.run_until_complete(plr.player_data("DeeJ"))
+```
+
+### Requirements
+* httpx
+
