@@ -1,0 +1,13 @@
+LICENCE.rst
+MANIFEST.in
+README.md
+setup.py
+./face-mask-classifier/models/svm_keral_classifier_final_model.sav
+face-mask-classifier/__init__.py
+face-mask-classifier/detect_mask.py
+face-mask-classifier/train.py
+face_mask_classifier.egg-info/PKG-INFO
+face_mask_classifier.egg-info/SOURCES.txt
+face_mask_classifier.egg-info/dependency_links.txt
+face_mask_classifier.egg-info/requires.txt
+face_mask_classifier.egg-info/top_level.txt
