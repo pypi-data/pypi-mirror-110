@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: django_regiment
+Version: 1.0.0
+Summary: django middleware for bulletlog
+Home-page: https://www.regiment.tech/
+Author: regiment.tech
+Author-email: support@regiment.tech
