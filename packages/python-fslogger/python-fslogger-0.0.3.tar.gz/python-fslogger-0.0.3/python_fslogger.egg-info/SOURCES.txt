@@ -1,0 +1,16 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+fsLogger/__init__.py
+fsLogger/__main__.py
+fsLogger/filters.py
+fsLogger/levels.py
+fsLogger/logger.py
+fsLogger/loggerManager.py
+fsLogger/modules.py
+python_fslogger.egg-info/PKG-INFO
+python_fslogger.egg-info/SOURCES.txt
+python_fslogger.egg-info/dependency_links.txt
+python_fslogger.egg-info/not-zip-safe
+python_fslogger.egg-info/top_level.txt
