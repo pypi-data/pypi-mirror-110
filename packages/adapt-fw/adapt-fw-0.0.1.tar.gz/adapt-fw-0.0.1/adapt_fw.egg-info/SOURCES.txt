@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+adapt/__init__.py
+adapt/calcmags.py
+adapt_fw.egg-info/PKG-INFO
+adapt_fw.egg-info/SOURCES.txt
+adapt_fw.egg-info/dependency_links.txt
+adapt_fw.egg-info/not-zip-safe
+adapt_fw.egg-info/requires.txt
+adapt_fw.egg-info/top_level.txt
+tests/test_call.py
+tests/__pycache__/test_call.cpython-37-pytest-6.2.4.pyc
