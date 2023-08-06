@@ -1,0 +1,12 @@
+quiffen/__init__.py,sha256=sjHcqyWGiQmTKVuGV7HJr4XCG4sGoVMHdf3Ch1a3Nug,115
+quiffen/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quiffen/core/qif_parser.py,sha256=yIFN5HYhwl8-mSQCTvidTuHOrrNbwSn-dHkEzDF7YJk,4201
+quiffen/core/transactions.py,sha256=rasJEaFJEHKibbRNCrlvazxwPe3shcnuN-c_vZ3vQWs,9309
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_qif_parser.py,sha256=4AZcLHbbbG4ARflaxkuYi41gAHlTxHe82H0Ua6NS_bY,519
+tests/test_transactions.py,sha256=4PFBIpOWaPmxOD2iV8PKfhCn9tk9EYTMF_ZJspSbZyY,2875
+quiffen-0.0.1.dev2.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+quiffen-0.0.1.dev2.dist-info/METADATA,sha256=Svsp52gZPUYy73_gQ--usaJvppId7apPSJqS1J6vIeE,543
+quiffen-0.0.1.dev2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quiffen-0.0.1.dev2.dist-info/top_level.txt,sha256=kSfkT6dbrqel33Yg4-9avP6BVoWZVEgVE_gPkeryIbg,14
+quiffen-0.0.1.dev2.dist-info/RECORD,,
