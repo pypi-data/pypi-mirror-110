@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+linguin/__init__.py
+linguin/exceptions.py
+linguin/linguin.py
+linguin/linguin_response.py
+linguin.egg-info/PKG-INFO
+linguin.egg-info/SOURCES.txt
+linguin.egg-info/dependency_links.txt
+linguin.egg-info/requires.txt
+linguin.egg-info/top_level.txt
+test/test_bulk.py
+test/test_detect.py
+test/test_status.py
