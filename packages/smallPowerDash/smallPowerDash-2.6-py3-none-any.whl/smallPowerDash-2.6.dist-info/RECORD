@@ -1,0 +1,15 @@
+smallPowerDash/configFilesSmallPower.py,sha256=FwJ_0e0IlDWCwv8E8UGHpI565yGwB0UdIvfxQZWWEfc,13636
+smallPowerDash/fitSmallPowerData.py,sha256=TAnBzKFcwWbVzGnYFaQm-56hPD6v4ouOMAgSxiy50dY,1165
+smallPowerDash/smallPowerTabs.py,sha256=ewV55XVTeQwLmowAmkYXwAhULTgSNTgaY8zaEJ_4-aw,12460
+smallPowerDash/confFiles/20210526_Veyrat_Interfaces_Endymion_Alpha.pdf,sha256=gUFK1a1_f9Lf3Q_exUXpsb2C3-Tf_1tw0W0IWFn6zj8,1286594
+smallPowerDash/confFiles/SmallPower-10002-001-ConfigurationPLC.csv,sha256=A6BPhyJbLM0CXr9hm2q2iJsm9DBnK74cz4JcgGGz-a4,718831
+smallPowerDash/confFiles/listTagsEAUprocess.txt,sha256=EwV_eUwAUSexgizFVcigwhLafHg7iCFRuA_e4uDa2D4,690
+smallPowerDash/confFiles/powerGroups.csv,sha256=m6PMbAhbjB9xp0AJcEaqFJbWe1_QgntjR26JUZ_hCQs,377
+smallPowerDash/confFiles/predefinedCategories.csv,sha256=u-sRxzmuGIY85UTaLAvjHf5CL_b-GptI03WRsdSx4L8,1897
+smallPowerDash/confFiles/spark.conf,sha256=u-YFW_mZTqX5bjoAnzTkOz0609I8dqD-LreiTuf7rBE,2673
+smallPowerDash/confFiles/tagLegend.csv,sha256=LJkL7VQKSyRrtilNq_GA_7m03uaoP6OpbAJLC2B1y6E,3841
+smallPowerDash/confFiles/typeGraph.csv,sha256=xCjU_BisOzMX1ksHdG2_0DPTr0vu6nn8fkqDxxovEC4,361
+smallPowerDash-2.6.dist-info/METADATA,sha256=-3OUbMiiYbqitlwyu_lNjuYH5RwPW51qWUau0ve7unQ,695
+smallPowerDash-2.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+smallPowerDash-2.6.dist-info/top_level.txt,sha256=tD9uWjgqlqtEkFJvDI8jGOgnU3lpzYguLriBhmYBdMo,15
+smallPowerDash-2.6.dist-info/RECORD,,
