@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+studenttmixture/__init__.py
+studenttmixture/em_student_mixture.py
+studenttmixture/parameter_bundle.py
+studenttmixture/variational_hyperparams.py
+studenttmixture/variational_student_mixture.py
+studenttmixture.egg-info/PKG-INFO
+studenttmixture.egg-info/SOURCES.txt
+studenttmixture.egg-info/dependency_links.txt
+studenttmixture.egg-info/requires.txt
+studenttmixture.egg-info/top_level.txt
