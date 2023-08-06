@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dpy-docs"
+version = "0.1.2"
+description = "A simple, lightweight tool used for documemting your discord.py commands"
+authors = ["ChiliMX <chili.dev@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/ChiliMX/dpy-docs"
+repository = "https://github.com/ChiliMX/dpy-docs"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiofiles = "^0.7.0"
+"discord.py" = "^1.7.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
