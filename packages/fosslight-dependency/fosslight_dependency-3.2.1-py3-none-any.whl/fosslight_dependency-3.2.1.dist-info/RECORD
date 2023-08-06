@@ -1,0 +1,15 @@
+fosslight_dependency/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fosslight_dependency/_help.py,sha256=CAV1hsNiJeh_m3H-b2HJ3itBixMx43fk4I5cZ3A05XM,1956
+fosslight_dependency/_version.py,sha256=NaoihJUTBM76CimosCLa3Q5V7HTYGyYMIMPF6_clOdc,147
+fosslight_dependency/analyze_dependency.py,sha256=9se1x3FTAHeQgdqmCrkdjCEbreDGtvSKQG5mQxNcD74,37183
+fosslight_dependency/third_party/askalono/askalono.exe,sha256=NyngElHbrg3zLFRVwn6fPDZE_EDAEb1N8tiwWoCm4pQ,4743680
+fosslight_dependency/third_party/askalono/askalono_macos,sha256=cYSNXhAQpkdd8lkgnY5skNeDmU_8DIuP84eFi0OXKkE,5589868
+fosslight_dependency/third_party/nomos/nomossa,sha256=uSN7FvKDcAHJIboTxeoNXURy8RmbVEGVWrCa4FKPCwI,901072
+fosslight_dependency-3.2.1.dist-info/Apache-2.0.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fosslight_dependency-3.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fosslight_dependency-3.2.1.dist-info/LicenseRef-3rd_party_licenses.txt,sha256=NVw2yYlBBiMX0XZhvwf4j1kxpqsa9-dAeOlDXSX7FYY,85412
+fosslight_dependency-3.2.1.dist-info/METADATA,sha256=75Rj7Xjn09L_UZHDZE8YN2O_r4ab9HADtSBgzWZKcjQ,2463
+fosslight_dependency-3.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fosslight_dependency-3.2.1.dist-info/entry_points.txt,sha256=dZywOL64ZIiskrUkDu7GE0MG293Z3V0-w9OUTFog1CY,87
+fosslight_dependency-3.2.1.dist-info/top_level.txt,sha256=Jc0V7VcVCH0TEM8ksb8dwroTYz4AmRaQnlr3FB71Hcs,21
+fosslight_dependency-3.2.1.dist-info/RECORD,,
