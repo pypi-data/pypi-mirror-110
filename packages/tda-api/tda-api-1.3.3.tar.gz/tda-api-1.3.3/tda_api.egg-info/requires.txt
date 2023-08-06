@@ -1,0 +1,7 @@
+authlib
+autopep8
+httpx
+prompt_toolkit
+python-dateutil
+selenium
+websockets>=9.0.0
