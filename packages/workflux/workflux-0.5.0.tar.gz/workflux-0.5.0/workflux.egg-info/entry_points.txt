@@ -1,0 +1,3 @@
+[console_scripts]
+workflux = workflux.__main__:main
+
