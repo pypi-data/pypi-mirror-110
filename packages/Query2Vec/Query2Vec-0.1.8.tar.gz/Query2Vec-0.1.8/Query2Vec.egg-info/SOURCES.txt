@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+Query2Vec/Query2Vec.py
+Query2Vec/__init__.py
+Query2Vec.egg-info/PKG-INFO
+Query2Vec.egg-info/SOURCES.txt
+Query2Vec.egg-info/dependency_links.txt
+Query2Vec.egg-info/requires.txt
+Query2Vec.egg-info/top_level.txt
+Query2Vec/data/external/stop_words.txt
