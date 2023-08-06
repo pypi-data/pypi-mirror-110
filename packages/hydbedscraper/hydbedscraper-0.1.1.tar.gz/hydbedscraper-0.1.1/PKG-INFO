@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hydbedscraper
+Version: 0.1.1
+Summary: Get hospital bed availability information for city (IN)
+Home-page: https://github.com/saumiJ/hydbedscraper
+Author: Saumitra Joshi
+Author-email: saumitra.vjoshi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
