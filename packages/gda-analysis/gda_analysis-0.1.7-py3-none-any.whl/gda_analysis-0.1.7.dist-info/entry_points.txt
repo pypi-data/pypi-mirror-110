@@ -1,0 +1,9 @@
+[console_scripts]
+create_gs_dataframe=src.gda_analysis.create_dfs:create_gs_df
+create_vcf_dataframe=src.gda_analysis.create_dfs:create_vcf_d
+export_join_dfs=src.gda_analysis.display_dataset:output_toexcel
+join_dfs=src.gda_analysis.create_dfs:join_vcf_and_gs
+main_merge=src.gda_analysis.create_dfs:main_merge
+main_validation=src.gda_analysis.display_dataset:main_validation
+test_join_dfs=src.gda_analysis.display_dataset:display_analyzed_data
+
