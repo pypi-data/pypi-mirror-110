@@ -1,0 +1,7 @@
+numpy
+pandas
+xmltodict
+docopt
+scipy
+mrcfile
+tqdm
