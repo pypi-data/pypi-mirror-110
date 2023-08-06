@@ -1,0 +1,8 @@
+sklearn
+matplotlib
+pathos
+scipy
+seaborn
+
+[dev]
+pytest>=3.6
