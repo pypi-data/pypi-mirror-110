@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: ignnition
+Version: 1.2.0
+Summary: Library for fast prototyping of GNN
+Home-page: https://ignnition.net/
+Author: Barcelona Neural Networking Center
+Author-email: ignnition@contactus.net
+License: MIT
+Keywords: Machine Learning,Graph Neural Networks,Networking,Artificial Intelligence
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py (==0.9.0)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: cachetools (==4.1.0)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: gast (==0.3.3)
+Requires-Dist: google-auth (==1.14.1)
+Requires-Dist: google-auth-oauthlib (==0.4.1)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: grpcio (==1.28.1)
+Requires-Dist: h5py (==2.10.0)
+Requires-Dist: idna (==2.9)
+Requires-Dist: importlib-metadata (==1.6.0)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: Keras (==2.4.3)
+Requires-Dist: Keras-Applications (==1.0.8)
+Requires-Dist: Keras-Preprocessing (==1.1.2)
+Requires-Dist: Markdown (==3.2.1)
+Requires-Dist: numpy (==1.18.3)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: opt-einsum (==3.2.1)
+Requires-Dist: protobuf (==3.11.3)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pyrsistent (==0.16.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: rsa (==4.0)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: tensorboard (==2.3.0)
+Requires-Dist: tensorboard-plugin-wit (==1.7.0)
+Requires-Dist: tensorboardX (==1.9)
+Requires-Dist: tensorflow (==2.3.0)
+Requires-Dist: tensorflow-estimator (==2.3.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: Werkzeug (==1.0.1)
+Requires-Dist: wrapt (==1.12.1)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: networkx (==2.4)
+
+# IGNNITION: Fast prototyping of Graph Neural Networks for Communication Networks
+
+*IGNNITION* is the ideal framework for users with no experience in neural network programming (e.g., TensorFlow, PyTorch). With this framework, users can design and run their own Graph Neural Networks (GNN) in a matter of a few hours.
+
+#### Website: https://ignnition.net
+#### Documentation: https://ignnition.net/doc/
+
+*IGNNITION* is especially for you if:
+
+You are a scientist or engineer that wants to build custom GNNs adapted to your problem (e.g., computer networks, biology, physics, chemistry, recommender systems…)
+
+Learn more at [IGNNITION at a Glance](https://ignnition.net/doc/ignnition_at_glance/).
+
+ ## How it works?
+ <p align="center"> 
+  <img src="/assets/workflow.png" width="700" alt>
+</p>
+
+Create your own GNN model in three simple steps:
+
+1. Define a GNN architecture with an intuitive YAML interface
+1. Adapt your dataset
+1. Execute the training with just 3 lines of code
+
+IGNNITION produces an optimized implementation of your GNN without writing a single line of TensorFlow.
+
+## Quick Start
+### Installation
+###### Recommended: Python 3.8+
+
+You can install *IGNNITION* with the following command using *PyPI*.
+```
+pip install ignnition
+```
+Alternatively, you can install it from the source code, using the following commands. These commands first download the source code, then prepare the environment, and finally install the library:
+```
+wget 'https://github.com/knowledgedefinednetworking/ignnition'
+pip install -r requirements.txt
+python setup.py install
+```
+Please, find more details in our [installation guide](https://ignnition.net/doc/installation/).
+
+### Tutorial
+To get started with *IGNNITION*, we have prepared a step-by-step tutorial that explains in detail how to design a basic GNN from scratch.
+Click [here to start this tutorial](https://ignnition.net/doc/quick_tutorial/).
+
+After this tutorial, you should be prepared to:
+- Start designing [your own GNN model from scratch](https://ignnition.net/doc/intro/).
+- Reuse any model from our [examples library](https://ignnition.net/doc/examples/) and adapt it to your needs.
+
+Please, follow the [documentation](https://ignnition.net/doc/) to know all the details of this framework.
+
+## Main Contributors
+#### D. Pujol-Perich, J. Suárez-Varela, Miquel Ferriol, A. Cabellos-Aparicio, P. Barlet-Ros.
+
+[Barcelona Neural Networking center](https://bnn.upc.edu/), Universitat Politècnica de Catalunya
+
+This software is part of a project that has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 871528.
+
+
+ <p align="center"> 
+  <img src="/assets/ngi_european_flag.png" width="400" alt>
+</p>
+
+## License
+See [LICENSE](LICENSE) for full of the license text.
+
+
+```
+Copyright Copyright 2020 Universitat Politècnica de Catalunya
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+
