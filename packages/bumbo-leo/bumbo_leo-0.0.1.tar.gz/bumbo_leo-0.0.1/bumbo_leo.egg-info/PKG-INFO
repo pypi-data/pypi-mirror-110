@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bumbo-leo
+Version: 0.0.1
+Summary: Bumbo Python Web Framework built for learning purposes. Originaly designed by jrahmonov2@gmail.com.
+Home-page: UNKNOWN
+Author: Leonid Ivanov
+Author-email: leonidivanov5@gmail.com
+License: MIT
+Description: Bumbo Python Web Framework built for learning purposes. Originaly designed by jrahmonov2@gmail.com.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
