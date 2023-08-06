@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dbca-utils
+Version: 1.1.4
+Summary: Utilities for Django/Python apps
+Home-page: https://github.com/dbca-wa/dbca-utils
+Author: Department of Biodiversity, Conservation and Attractions
+Author-email: asi@dbca.wa.gov.au
+Maintainer: Department of Biodiversity, Conservation and Attractions
+Maintainer-email: asi@dbca.wa.gov.au
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: django,middleware,utility
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
