@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: endeavour-services-client
+Version: 0.1.2
+Summary: Python WebServices Client for Endeavour WebServices
+Home-page: https://github.com/EndeavourContent
+License: Copyright (c) 2012 Imbolc        
+        Permission to use, copy, modify, and/or distribute this software for any
+        purpose with or without fee is hereby granted, provided that the above
+        copyright notice and this permission notice appear in all copies.        
+        THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+        WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+        MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+        ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+        WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+        ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+        OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.        
+Keywords: tests,endeavour
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: idna
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: urllib3
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+Overview
+=====
+This ia a Python client for the EndeavourWebServices, enabling users to consume the services without 
+having to explicitly resort to invoking the webservices.  In order for the client to work, you need to ensure
+that the Endeavour Video Services are running in an environment that you can access, either locally or deployed 
+on a remote network.
+
+
+How To Use
+===========
+At present there are 4 client methods that have been built.  These are
+
+* Video Length - Determines the length of a video
+* Video to gif - Extracts images from the video to create both an animated gif and extract key frames
+* YouTubeDownload - Enables a user to download a video from youtube onto a fileshare used by the webservices
+* VideSummary - Uses ML and NLP to identify key areas within a video, which once identified, enables the creation of a summary video
+
+
+Video Length
+--------
+This method enables users to determin the length of a video that is stored on the webservices server
+
+      from client.client_video_length import ClientVideoLength
+        from client.models.video_length_request import VideoLengthRequest
+
+
+        def runTests():
+            endPointVideoLengthServiceURL = "http://192.168.0.52:8061/video_length/"
+            vlRequest = VideoLengthRequest(user_id="Betty",
+                                   file_name="z.mp4",
+                                   input_path="../data/sourcing")
+
+            vl = ClientVideoLength(endPointVideoLengthServiceURL)
+            vlr = vl.getVideoLength(vlRequest)
+            print(str(vlr.record_duration))
+
+
+        if __name__ == '__main__':
+            runTests()
+
+
+* endPointVideoLengthServiceURL - URL to Video Length Service
+* input_path = directory on the webservice machine containing the temporary video files
+* file_name = the name of the mp4 file that can be found at the doc root
+
+
+
+
+
