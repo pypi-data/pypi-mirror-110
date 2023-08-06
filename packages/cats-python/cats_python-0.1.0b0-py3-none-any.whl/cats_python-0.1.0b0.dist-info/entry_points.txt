@@ -1,0 +1,4 @@
+[console_scripts]
+cats_test_client=cats.client:main
+cats_test_server=cats.server:main
+
