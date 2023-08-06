@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+repo_stream/__init__.py
+repo_stream/__main__.py
+repo_stream/git.py
+repo_stream/github.py
+repo_stream/update.py
+repo_stream.egg-info/PKG-INFO
+repo_stream.egg-info/SOURCES.txt
+repo_stream.egg-info/dependency_links.txt
+repo_stream.egg-info/entry_points.txt
+repo_stream.egg-info/requires.txt
+repo_stream.egg-info/top_level.txt
