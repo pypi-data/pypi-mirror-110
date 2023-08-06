@@ -1,0 +1,10 @@
+networkx>=2.0
+httpx>=0.18.0
+python-decouple>=3.0
+lark>=0.10.1
+python-dateutil>=2.8.1
+SQLAlchemy>=1.4.0
+fsspec>=2021.4.0
+
+[docker]
+docker>=5.0.0
