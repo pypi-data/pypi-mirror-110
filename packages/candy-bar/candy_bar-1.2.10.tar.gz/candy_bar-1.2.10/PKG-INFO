@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: candy_bar
+Version: 1.2.10
+Summary: A simple progress bar with the ILoveCandy style
+Home-page: https://github.com/MacDumi/CandyBar
+Author: Dumitru Duca
+Author-email: me@dumitruduca.com
+License: UNKNOWN
+Download-URL: https://github.com/MacDumi/CandyBar/archive/refs/tags/1.2.10.tar.gz
+Keywords: Progress Bar,ILoveCandy,Pacman
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMacDumi%2FCandyBar.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMacDumi%2FCandyBar?ref=badge_shield)
+# CandyBar
+
+A Progress Bar inspired by Arch pacman with `ILoveCandy` option enabled.
+
+## Instalation
+
+#### Manual instalation
+
+Clone the repository, build, and install the package:
+
+```bash
+git clone https://github.com/MacDumi/CandyBar.git
+cd CandyBar
+pip install .
+```
+
+#### Install from PyPi
+
+```bash
+pip install candy_bar
+```
+
+## Usage
+
+Import the package and create the progress bar object:
+
+```python
+from candy_bar import CandyBar
+
+cb = CandyBar(100, "Progress")
+```
+
+#### Parameters
+
+| Parameter      | Default        | Description                                                 |
+| ---            | ---            | ---                                                         |
+| total          |   100          | Defines the value corresponding to 100%                     |
+| message        | `None`         | Write some text at the beginning of the line                |
+| width          | `console size` | Size (in chars) of the bar, by default max console size     |
+| left_justified |   True         | Defines the justification of the bar (not the message text) |
+
+To update the position of the progress bar use the `update` method:
+
+```python
+total = 100
+
+for i in range(total + 1):
+    # Your code goes here
+    cb.update(i)
+```
+The __total__ value, the __message__, and the __justification__ of the progress bar can be changed:
+
+```python
+cb.set_total(150)
+cb.set_message("Another message")
+cb.set_left_justified(False)
+```
+
+#### Like what I do?
+
+Buy me coffee
+<img src="https://web.getmonero.org/press-kit/symbols/monero-symbol-480.png" alt="Donate with monero" width="15"/> `85jJPcfLPZRUKm3Re6qHZsKBZskVS2tYMWFoY5sYXUSQJzqzqpuPFepXMtqTKCRfuhYXaiJ3zQVeRPDYJUfepVjnJDpApH5`
+
+
