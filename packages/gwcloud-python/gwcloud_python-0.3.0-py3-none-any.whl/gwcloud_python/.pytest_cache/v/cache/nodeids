@@ -1,0 +1,7 @@
+[
+  "tests/test_gwcloud_python.py::test_get_job_by_id",
+  "tests/test_gwcloud_python.py::test_get_user_jobs",
+  "utils/tests/test_identifiers.py::test_file_suffix_funcs",
+  "utils/tests/test_identifiers.py::test_file_beginning_funcs",
+  "utils/tests/test_identifiers.py::test_file_ending_funcs"
+]
