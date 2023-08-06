@@ -1,0 +1,12 @@
+MANIFEST.in
+VERSION
+setup.py
+ibrb/__init__.py
+ibrb/package.json
+ibrb.egg-info/PKG-INFO
+ibrb.egg-info/SOURCES.txt
+ibrb.egg-info/dependency_links.txt
+ibrb.egg-info/top_level.txt
+ibrb/tests/test_integration_noop.py
+ibrb/tests/test_system_noop.py
+ibrb/tests/test_unit_noop.py

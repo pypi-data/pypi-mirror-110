@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ibrb
+Version: 0.0.1
+Summary: Core IBRB library
+Home-page: https://gitlab.com/unimatrixone/libraries/ibrb
+Author: Cochise Ruhulessin
+Author-email: c.ruhulessin@ibrb.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Libraries
+
+UNKNOWN
+
