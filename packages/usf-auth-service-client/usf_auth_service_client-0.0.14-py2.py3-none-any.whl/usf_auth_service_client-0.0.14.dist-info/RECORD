@@ -1,0 +1,6 @@
+auth_service_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_service_client/client.py,sha256=mZvN_jrrSXRRykSz3KV3s2kb-F4FpmHE6r_lTrKhx9U,2054
+usf_auth_service_client-0.0.14.dist-info/METADATA,sha256=yeqenANlFsP2a7aO0dKg3iQ4Y6x6cBMiasneUAW3mwM,339
+usf_auth_service_client-0.0.14.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+usf_auth_service_client-0.0.14.dist-info/top_level.txt,sha256=m3XLajsRZu_QcIK5PKQTFKON3VbrET_g5ZaSuo51hSY,20
+usf_auth_service_client-0.0.14.dist-info/RECORD,,
