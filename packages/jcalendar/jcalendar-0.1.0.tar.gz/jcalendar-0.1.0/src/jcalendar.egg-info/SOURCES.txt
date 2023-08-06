@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/jcalendar/__init__.py
+src/jcalendar/calendar.py
+src/jcalendar.egg-info/PKG-INFO
+src/jcalendar.egg-info/SOURCES.txt
+src/jcalendar.egg-info/dependency_links.txt
+src/jcalendar.egg-info/requires.txt
+src/jcalendar.egg-info/top_level.txt
