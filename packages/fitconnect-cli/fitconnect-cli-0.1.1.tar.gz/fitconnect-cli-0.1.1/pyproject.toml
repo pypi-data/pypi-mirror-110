@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "fitconnect-cli"
+version = "0.1.1"
+description = ""
+authors = ["Lilith Wittmann <mail@lilithwittmann.de>"]
+packages = [
+    { include = "*.py" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2 || ^3.7"
+josepy = "^1.8.0"
+pem = "^21.2.0"
+requests = "^2.25.1"
+python-json-config = "^1.2.3"
+PyInquirer = "^1.0.3"
+PyJWT = "^2.1.0"
+pyOpenSSL = "^20.0.1"
+
+[tool.poetry.dev-dependencies]
+pydotplus = "^2.0.2"
+black = "^21.5b2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fitconnect = 'main:main'
