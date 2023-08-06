@@ -1,0 +1,3 @@
+[console_scripts]
+ixora = ixora.__main__:main
+
