@@ -1,0 +1,3 @@
+[console_scripts]
+btnetutils = btnetutils.cli:btnetutils
+
