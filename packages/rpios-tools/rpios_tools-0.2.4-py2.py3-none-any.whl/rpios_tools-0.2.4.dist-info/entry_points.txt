@@ -1,0 +1,3 @@
+[console_scripts]
+rpios-dl = rpios_tools.download:main
+
