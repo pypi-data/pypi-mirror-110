@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sortdir
+Version: 0.1.0
+Summary: 
+Author: Yevhen Shymotiuk
+Author-email: yevhenshymotiuk@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: watchdog (>=2.1.2,<3.0.0)
