@@ -1,0 +1,8 @@
+[console_scripts]
+pysis = pysisyphus.run:run
+pysisfilter = pysisyphus.filtertrj:run
+pysispack = pysisyphus.pack:run
+pysisplot = pysisyphus.plot:run
+pysisthermo = pysisyphus.drivers.thermo:run_thermo
+pysistrj = pysisyphus.trj:run
+
