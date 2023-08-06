@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/DICpy/DIC2Local.py
+src/DICpy/PreProcessing.py
+src/DICpy/Utils.py
+src/DICpy/__init__.py
+src/DICpy.egg-info/PKG-INFO
+src/DICpy.egg-info/SOURCES.txt
+src/DICpy.egg-info/dependency_links.txt
+src/DICpy.egg-info/requires.txt
+src/DICpy.egg-info/top_level.txt
