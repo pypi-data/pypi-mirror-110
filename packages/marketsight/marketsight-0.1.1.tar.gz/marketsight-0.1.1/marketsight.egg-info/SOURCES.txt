@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+marketsight/__init__.py
+marketsight/__version__.py
+marketsight/_compat.py
+marketsight/application_api.py
+marketsight/exceptions.py
+marketsight/http_client.py
+marketsight.egg-info/PKG-INFO
+marketsight.egg-info/SOURCES.txt
+marketsight.egg-info/dependency_links.txt
+marketsight.egg-info/not-zip-safe
+marketsight.egg-info/requires.txt
+marketsight.egg-info/top_level.txt
