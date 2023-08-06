@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+version.txt
+src/pycharm_remote_debugger/__init__.py
+src/pycharm_remote_debugger/__main__.py
+src/pycharm_remote_debugger/_logger.py
+src/pycharm_remote_debugger/_pycharm_remote_debugger.py
+src/pycharm_remote_debugger.egg-info/PKG-INFO
+src/pycharm_remote_debugger.egg-info/SOURCES.txt
+src/pycharm_remote_debugger.egg-info/dependency_links.txt
+src/pycharm_remote_debugger.egg-info/entry_points.txt
+src/pycharm_remote_debugger.egg-info/requires.txt
+src/pycharm_remote_debugger.egg-info/top_level.txt
