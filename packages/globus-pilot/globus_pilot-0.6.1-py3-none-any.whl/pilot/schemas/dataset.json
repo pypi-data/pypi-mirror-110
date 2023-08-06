@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Dataset",
+    "description": "Schema for a dataset.",
+    "type": "object",
+    "properties": {
+        "dc": {
+            "$ref": "dc.json#/properties/dc"
+        },
+        "project_metadata": {
+            "$ref": "project_metadata.json#/properties/project_metadata"
+        },
+        "files": {
+            "$ref": "files.json#/properties/files"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "dc",
+        "project_metadata",
+        "files"
+    ]
+}
