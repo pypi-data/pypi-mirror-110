@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: databroker-ls
+Version: 0.0.0
+Summary: listing option for databroker
+Home-page: https://github.com/claracoo/databroker-ls
+Author: Brookhaven National Lab
+Author-email: ccook@bnl.gov
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+
+=============
+databroker-ls
+=============
+
+.. image:: https://img.shields.io/travis/claracoo/databroker-ls.svg
+        :target: https://travis-ci.org/claracoo/databroker-ls
+
+.. image:: https://img.shields.io/pypi/v/databroker-ls.svg
+        :target: https://pypi.python.org/pypi/databroker-ls
+
+
+listing option for databroker
+
+* Free software: 3-clause BSD license
+* Documentation: (COMING SOON!) https://claracoo.github.io/databroker-ls.
+
+Features
+--------
+
+* TODO
+
+

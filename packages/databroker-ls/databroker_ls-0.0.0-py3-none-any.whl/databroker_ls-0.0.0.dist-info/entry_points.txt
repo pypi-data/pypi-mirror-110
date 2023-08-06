@@ -1,0 +1,4 @@
+[console_scripts]
+please = databroker_ls.command_line:main
+snek = databroker_ls.snek:main
+
