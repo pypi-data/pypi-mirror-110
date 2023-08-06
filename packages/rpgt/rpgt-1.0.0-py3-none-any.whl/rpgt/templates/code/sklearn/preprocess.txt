@@ -1,0 +1,18 @@
+"""
+Preprocess file
+"""
+
+import pandas as pd
+
+
+def preprocess() -> None:
+    """
+    Preprocess function
+    """
+    data = pd.read_csv("data/original.csv")
+    data = data.loc[data["class"].isin(["Iris-setosa", "Iris-versicolor"])]
+    data.to_csv("data/preprocessed.csv", index=False)
+
+
+if __name__ == "__main__":
+    preprocess()

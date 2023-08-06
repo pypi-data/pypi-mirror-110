@@ -1,0 +1,27 @@
+[mypy]
+strict = True
+ignore_missing_imports = True
+
+[mypy-setuptools.*]
+ignore_missing_imports = True
+;exclude = setup.py
+
+[mypy-torch.*]
+ignore_missing_imports = True
+follow_imports = skip
+follow_imports_for_stubs = True
+
+[mypy-torchvision.*]
+ignore_missing_imports = True
+follow_imports = skip
+follow_imports_for_stubs = True
+
+[mypy-gym.*]
+ignore_missing_imports = True
+follow_imports = skip
+follow_imports_for_stubs = True
+
+[mypy-stable_baselines3.*]
+ignore_missing_imports = True
+follow_imports = skip
+follow_imports_for_stubs = True

@@ -1,0 +1,26 @@
+"""
+Main file
+"""
+from [=NAME=].get_environment import get_vec_env
+from [=NAME=].model_loader import load_model
+
+
+def main() -> None:
+    """
+    Main function
+    """
+    env_id = "CartPole-v1"
+    env = get_vec_env(env_id)
+
+    model = load_model(env, "results/models/my_model.model", "PPO", "MlpPolicy")
+
+    obs = env.reset()
+    for _ in range(1000):
+        action, _states = model.predict(obs)
+        obs, rewards, dones, info = env.step(action)
+        print(obs, rewards, dones, info)
+        env.render()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,30 @@
+"""
+Validate file
+"""
+import joblib
+import pandas as pd
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
+
+def validate() -> None:
+    """
+    Validate function
+    """
+    data = pd.read_csv("data/validation.csv")
+    features = data.filter(
+        items=["sepal_length", "sepal_width", "petal_length", "petal_width"]
+    )
+    labels = data["class"]
+    model = joblib.load("results/models/model.joblib")
+    predictions = model.predict(features)
+
+    print("Accuracy")
+    print(accuracy_score(labels, predictions))
+    print("Confusion matrix")
+    print(confusion_matrix(labels, predictions))
+    print("Classification report")
+    print(classification_report(labels, predictions))
+
+
+if __name__ == "__main__":
+    validate()

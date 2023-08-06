@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "black"
+
+[tool.mllint]
+[tool.mllint.rules]
+disabled = ['dependency-management/single']
+[tool.mllint.git]
+maxFileSize = 10000000
+[tool.mllint.code-quality]
+linters = ['pylint', 'mypy', 'black', 'isort', 'bandit']

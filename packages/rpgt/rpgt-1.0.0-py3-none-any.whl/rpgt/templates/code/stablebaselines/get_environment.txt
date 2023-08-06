@@ -1,0 +1,12 @@
+"""
+Environment creation file
+"""
+import gym
+
+
+def get_vec_env(env_id: str) -> gym.Env:
+    """
+    Getter function for the environment
+    """
+    env = gym.make(env_id)
+    return env
