@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+CodetagCrawler/__init__.py
+CodetagCrawler/__main__.py
+CodetagCrawler/cli.py
+CodetagCrawler/comment_processing.py
+CodetagCrawler/csv.py
+CodetagCrawler/metadata_handler.py
+CodetagCrawler.egg-info/PKG-INFO
+CodetagCrawler.egg-info/SOURCES.txt
+CodetagCrawler.egg-info/dependency_links.txt
+CodetagCrawler.egg-info/requires.txt
+CodetagCrawler.egg-info/top_level.txt
