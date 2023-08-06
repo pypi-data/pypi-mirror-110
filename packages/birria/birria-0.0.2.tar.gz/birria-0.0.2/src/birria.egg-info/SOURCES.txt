@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/birria/__init__.py
+src/birria/_birria.py
+src/birria.egg-info/PKG-INFO
+src/birria.egg-info/SOURCES.txt
+src/birria.egg-info/dependency_links.txt
+src/birria.egg-info/top_level.txt
+test/test_birria.py

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: birria
+Version: 0.0.2
+Summary: Simple declarative cli argument parsing
+Home-page: https://github.com/ntn9995/birria
+Author: 1Karus
+Maintainer: 1Karus
+License: MIT
+Keywords: cli,library
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README.md
+
