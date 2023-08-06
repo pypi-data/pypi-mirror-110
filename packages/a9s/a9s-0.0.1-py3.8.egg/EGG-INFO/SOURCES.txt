@@ -1,0 +1,10 @@
+README.md
+setup.py
+a9s/__init__.py
+a9s/main.py
+a9s.egg-info/PKG-INFO
+a9s.egg-info/SOURCES.txt
+a9s.egg-info/dependency_links.txt
+a9s.egg-info/entry_points.txt
+a9s.egg-info/requires.txt
+a9s.egg-info/top_level.txt
