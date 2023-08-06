@@ -1,0 +1,418 @@
+Metadata-Version: 2.1
+Name: syft
+Version: 0.5.0rc3
+Summary: PySyft is a Python library for secure and private Deep Learning, allowing you to compute on data you do not own and cannot see
+Home-page: https://github.com/OpenMined/PySyft
+Author: OpenMined
+Author-email: info@openmined.org
+License: Apache-2.0
+Project-URL: Documentation, https://github.com/OpenMined/PySyft
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: torch (<=1.8.1,>=1.4.0)
+Requires-Dist: torchcsprng (<=0.2.1)
+Requires-Dist: torchvision (<=0.9.1,>=0.5)
+Requires-Dist: aiortc
+Requires-Dist: cachetools
+Requires-Dist: cryptography (>=3.4.7)
+Requires-Dist: dpcontracts
+Requires-Dist: flask (<2.0.0,>=1.1.2)
+Requires-Dist: forbiddenfruit (>=0.1.3)
+Requires-Dist: loguru
+Requires-Dist: names
+Requires-Dist: nest-asyncio
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: protobuf
+Requires-Dist: pyarrow
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: PyNaCl
+Requires-Dist: PyYAML (>=5.4.1)
+Requires-Dist: requests
+Requires-Dist: scikit-learn
+Requires-Dist: requests-toolbelt
+Requires-Dist: sqlitedict
+Requires-Dist: syft-proto
+Requires-Dist: typing-extensions
+Requires-Dist: websocket-client
+Requires-Dist: wrapt
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-xdist[psutil] ; extra == 'all'
+Requires-Dist: pytest-asyncio ; extra == 'all'
+Requires-Dist: pytest-benchmark ; extra == 'all'
+Requires-Dist: pytest-custom-exit-code ; extra == 'all'
+Requires-Dist: pytest-randomly ; extra == 'all'
+Requires-Dist: pytest-sugar ; extra == 'all'
+Requires-Dist: pytest-xprocess ; extra == 'all'
+Requires-Dist: flask ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: protobuf ; extra == 'all'
+Requires-Dist: PyJWT (==1.7.1) ; extra == 'all'
+Requires-Dist: PyNaCl ; extra == 'all'
+Requires-Dist: bandit ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: black-nb ; extra == 'all'
+Requires-Dist: darglint ; extra == 'all'
+Requires-Dist: doc8 ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: nbconvert ; extra == 'all'
+Requires-Dist: nbformat ; extra == 'all'
+Requires-Dist: protoc-wheel-0 ; extra == 'all'
+Requires-Dist: safety ; extra == 'all'
+Requires-Dist: syft-proto ; extra == 'all'
+Requires-Dist: typing-extensions ; extra == 'all'
+Requires-Dist: sqlitedict ; extra == 'all'
+Requires-Dist: fsspec ; extra == 'all'
+Requires-Dist: msgpack ; extra == 'all'
+Requires-Dist: patsy ; extra == 'all'
+Requires-Dist: sycret (>=0.1.3) ; extra == 'all'
+Requires-Dist: tensorboard ; extra == 'all'
+Requires-Dist: tqdm ; extra == 'all'
+Requires-Dist: gym ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: opacus ; extra == 'all'
+Requires-Dist: openmined.psi ; extra == 'all'
+Requires-Dist: petlib ; extra == 'all'
+Requires-Dist: pillow (>=8.1.2) ; extra == 'all'
+Requires-Dist: python-dp ; extra == 'all'
+Requires-Dist: statsmodels ; extra == 'all'
+Requires-Dist: tenseal ; extra == 'all'
+Requires-Dist: xgboost (>=1.4) ; extra == 'all'
+Requires-Dist: zksk ; extra == 'all'
+Provides-Extra: ci-all
+Requires-Dist: pytest ; extra == 'ci-all'
+Requires-Dist: pytest-cov ; extra == 'ci-all'
+Requires-Dist: pytest-xdist[psutil] ; extra == 'ci-all'
+Requires-Dist: pytest-asyncio ; extra == 'ci-all'
+Requires-Dist: pytest-benchmark ; extra == 'ci-all'
+Requires-Dist: pytest-custom-exit-code ; extra == 'ci-all'
+Requires-Dist: pytest-randomly ; extra == 'ci-all'
+Requires-Dist: pytest-sugar ; extra == 'ci-all'
+Requires-Dist: pytest-xprocess ; extra == 'ci-all'
+Requires-Dist: flask ; extra == 'ci-all'
+Requires-Dist: pandas ; extra == 'ci-all'
+Requires-Dist: pre-commit ; extra == 'ci-all'
+Requires-Dist: protobuf ; extra == 'ci-all'
+Requires-Dist: PyJWT (==1.7.1) ; extra == 'ci-all'
+Requires-Dist: PyNaCl ; extra == 'ci-all'
+Requires-Dist: bandit ; extra == 'ci-all'
+Requires-Dist: black ; extra == 'ci-all'
+Requires-Dist: black-nb ; extra == 'ci-all'
+Requires-Dist: darglint ; extra == 'ci-all'
+Requires-Dist: doc8 ; extra == 'ci-all'
+Requires-Dist: flake8 ; extra == 'ci-all'
+Requires-Dist: isort ; extra == 'ci-all'
+Requires-Dist: matplotlib ; extra == 'ci-all'
+Requires-Dist: nbconvert ; extra == 'ci-all'
+Requires-Dist: nbformat ; extra == 'ci-all'
+Requires-Dist: protoc-wheel-0 ; extra == 'ci-all'
+Requires-Dist: safety ; extra == 'ci-all'
+Requires-Dist: syft-proto ; extra == 'ci-all'
+Requires-Dist: typing-extensions ; extra == 'ci-all'
+Requires-Dist: sqlitedict ; extra == 'ci-all'
+Requires-Dist: fsspec ; extra == 'ci-all'
+Requires-Dist: msgpack ; extra == 'ci-all'
+Requires-Dist: patsy ; extra == 'ci-all'
+Requires-Dist: sycret (>=0.1.3) ; extra == 'ci-all'
+Requires-Dist: tensorboard ; extra == 'ci-all'
+Requires-Dist: tqdm ; extra == 'ci-all'
+Requires-Dist: bcrypt ; extra == 'ci-all'
+Requires-Dist: boto3 ; extra == 'ci-all'
+Requires-Dist: flask (<2.0.0,>=1.1.2) ; extra == 'ci-all'
+Requires-Dist: flask-cors ; extra == 'ci-all'
+Requires-Dist: flask-executor ; extra == 'ci-all'
+Requires-Dist: flask-migrate ; extra == 'ci-all'
+Requires-Dist: flask-sockets ; extra == 'ci-all'
+Requires-Dist: flask-sqlalchemy ; extra == 'ci-all'
+Requires-Dist: names ; extra == 'ci-all'
+Requires-Dist: PyInquirer ; extra == 'ci-all'
+Requires-Dist: python-dp ; extra == 'ci-all'
+Requires-Dist: requests-toolbelt ; extra == 'ci-all'
+Requires-Dist: scipy ; extra == 'ci-all'
+Requires-Dist: sqlalchemy (>=1.4) ; extra == 'ci-all'
+Requires-Dist: sqlalchemy-mixins ; extra == 'ci-all'
+Requires-Dist: sqlalchemy-utils ; extra == 'ci-all'
+Requires-Dist: terrascript ; extra == 'ci-all'
+Requires-Dist: Werkzeug (<2.0.0,>=1.0.1) ; extra == 'ci-all'
+Provides-Extra: ci-grid
+Requires-Dist: bcrypt ; extra == 'ci-grid'
+Requires-Dist: boto3 ; extra == 'ci-grid'
+Requires-Dist: flask (<2.0.0,>=1.1.2) ; extra == 'ci-grid'
+Requires-Dist: flask-cors ; extra == 'ci-grid'
+Requires-Dist: flask-executor ; extra == 'ci-grid'
+Requires-Dist: flask-migrate ; extra == 'ci-grid'
+Requires-Dist: flask-sockets ; extra == 'ci-grid'
+Requires-Dist: flask-sqlalchemy ; extra == 'ci-grid'
+Requires-Dist: names ; extra == 'ci-grid'
+Requires-Dist: PyInquirer ; extra == 'ci-grid'
+Requires-Dist: python-dp ; extra == 'ci-grid'
+Requires-Dist: requests-toolbelt ; extra == 'ci-grid'
+Requires-Dist: scipy ; extra == 'ci-grid'
+Requires-Dist: sqlalchemy (>=1.4) ; extra == 'ci-grid'
+Requires-Dist: sqlalchemy-mixins ; extra == 'ci-grid'
+Requires-Dist: sqlalchemy-utils ; extra == 'ci-grid'
+Requires-Dist: terrascript ; extra == 'ci-grid'
+Requires-Dist: Werkzeug (<2.0.0,>=1.0.1) ; extra == 'ci-grid'
+Provides-Extra: ci-libs
+Requires-Dist: fsspec ; extra == 'ci-libs'
+Requires-Dist: msgpack ; extra == 'ci-libs'
+Requires-Dist: patsy ; extra == 'ci-libs'
+Requires-Dist: sycret (>=0.1.3) ; extra == 'ci-libs'
+Requires-Dist: tensorboard ; extra == 'ci-libs'
+Requires-Dist: tqdm ; extra == 'ci-libs'
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist[psutil] ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: pytest-benchmark ; extra == 'dev'
+Requires-Dist: pytest-custom-exit-code ; extra == 'dev'
+Requires-Dist: pytest-randomly ; extra == 'dev'
+Requires-Dist: pytest-sugar ; extra == 'dev'
+Requires-Dist: pytest-xprocess ; extra == 'dev'
+Requires-Dist: flask ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: protobuf ; extra == 'dev'
+Requires-Dist: PyJWT (==1.7.1) ; extra == 'dev'
+Requires-Dist: PyNaCl ; extra == 'dev'
+Requires-Dist: bandit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: black-nb ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: doc8 ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: nbconvert ; extra == 'dev'
+Requires-Dist: nbformat ; extra == 'dev'
+Requires-Dist: protoc-wheel-0 ; extra == 'dev'
+Requires-Dist: safety ; extra == 'dev'
+Requires-Dist: syft-proto ; extra == 'dev'
+Requires-Dist: typing-extensions ; extra == 'dev'
+Requires-Dist: sqlitedict ; extra == 'dev'
+Provides-Extra: libs
+Requires-Dist: fsspec ; extra == 'libs'
+Requires-Dist: msgpack ; extra == 'libs'
+Requires-Dist: patsy ; extra == 'libs'
+Requires-Dist: sycret (>=0.1.3) ; extra == 'libs'
+Requires-Dist: tensorboard ; extra == 'libs'
+Requires-Dist: tqdm ; extra == 'libs'
+Requires-Dist: gym ; extra == 'libs'
+Requires-Dist: numpy ; extra == 'libs'
+Requires-Dist: opacus ; extra == 'libs'
+Requires-Dist: openmined.psi ; extra == 'libs'
+Requires-Dist: pandas ; extra == 'libs'
+Requires-Dist: petlib ; extra == 'libs'
+Requires-Dist: pillow (>=8.1.2) ; extra == 'libs'
+Requires-Dist: python-dp ; extra == 'libs'
+Requires-Dist: statsmodels ; extra == 'libs'
+Requires-Dist: tenseal ; extra == 'libs'
+Requires-Dist: xgboost (>=1.4) ; extra == 'libs'
+Requires-Dist: zksk ; extra == 'libs'
+Provides-Extra: libs_deps
+Requires-Dist: fsspec ; extra == 'libs_deps'
+Requires-Dist: msgpack ; extra == 'libs_deps'
+Requires-Dist: patsy ; extra == 'libs_deps'
+Requires-Dist: sycret (>=0.1.3) ; extra == 'libs_deps'
+Requires-Dist: tensorboard ; extra == 'libs_deps'
+Requires-Dist: tqdm ; extra == 'libs_deps'
+Provides-Extra: test_plugins
+Requires-Dist: pytest ; extra == 'test_plugins'
+Requires-Dist: pytest-cov ; extra == 'test_plugins'
+Requires-Dist: pytest-xdist[psutil] ; extra == 'test_plugins'
+Requires-Dist: pytest-asyncio ; extra == 'test_plugins'
+Requires-Dist: pytest-benchmark ; extra == 'test_plugins'
+Requires-Dist: pytest-custom-exit-code ; extra == 'test_plugins'
+Requires-Dist: pytest-randomly ; extra == 'test_plugins'
+Requires-Dist: pytest-sugar ; extra == 'test_plugins'
+Requires-Dist: pytest-xprocess ; extra == 'test_plugins'
+
+<h1 align="center">
+
+  <br>
+  <a href="http://duet.openmined.org/"><img src="https://raw.githubusercontent.com/OpenMined/PySyft/main/packages/syft/docs/img/logo_big.png" alt="PySyft" width="200"></a>
+  <br>
+  A library for computing on data<br /> you do not own and cannot see
+  <br>
+
+</h1>
+
+<div align="center"> <a href="https://pypi.org/project/syft/"><img src="https://pepy.tech/badge/syft" /></a> <a href="https://pypi.org/project/syft/"><img src="https://badge.fury.io/py/syft.svg" /></a> <a href="https://github.com/OpenMined/PySyft/actions/workflows/syft-version_tests.yml"><img src="https://github.com/OpenMined/PySyft/actions/workflows/syft-version_tests.yml/badge.svg?branch=dev" /></a> <a href="https://openmined.github.io/PySyft/dev/bench/"><img src="https://github.com/OpenMined/PySyft/actions/workflows/syft-benchmark.yml/badge.svg?branch=dev" /></a><br /> <a href="#"><img src="https://github.com/OpenMined/PySyft/workflows/Tutorials/badge.svg" /></a> <a href="https://openmined.slack.com/messages/support"><img src="https://img.shields.io/badge/chat-on%20slack-7A5979.svg" /></a> <a href="https://mybinder.org/v2/gh/OpenMined/PySyft/main"><img src="https://mybinder.org/badge.svg" /></a> <a href="http://colab.research.google.com/github/OpenMined/PySyft/blob/main"><img src="https://colab.research.google.com/assets/colab-badge.svg" /></a>
+<br /><br />
+
+<div align="center"><a href="#"><img src="https://stars.medv.io/openmined/pysyft.svg" /></a></div>
+
+</div>
+
+# PySyft is a Python library for secure and private Deep Learning.
+
+PySyft decouples private data from model training, using
+[Federated Learning](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html),
+[Differential Privacy](https://en.wikipedia.org/wiki/Differential_privacy),
+and Encrypted Computation (like
+[Multi-Party Computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation)
+and [Homomorphic Encryption (HE)](https://en.wikipedia.org/wiki/Homomorphic_encryption))
+within the main Deep Learning frameworks like PyTorch and TensorFlow. Join the movement on
+[Slack](http://slack.openmined.org/).
+
+---
+
+Most software libraries let you compute over the information you own and see inside of machines you control. However, this means that you cannot compute on information without first obtaining (at least partial) ownership of that information. It also means that you cannot compute using machines without first obtaining control over those machines. This is very limiting to human collaboration and systematically drives the centralization of data, because you cannot work with a bunch of data without first putting it all in one (central) place.
+
+The Syft ecosystem seeks to change this system, allowing you to write software which can compute over information you do not own on machines you do not have (total) control over. This not only includes servers in the cloud, but also personal desktops, laptops, mobile phones, websites, and edge devices. Wherever your data wants to live in your ownership, the Syft ecosystem exists to help keep it there while allowing it to be used privately for computation.
+
+## Mono Repo 🚝
+
+This repo contains multiple projects which work together, namely PySyft and PyGrid.
+PyGrid will be added soon, in the mean time this is the directory structure.
+
+```
+OpenMined/PySyft
+├── README.md   <-- You are here 📌
+└── packages
+    ├── grid    <-- The Grid droids from OpenMined/PyGrid
+    └── syft    <-- The Syft droids you are looking for 👋🏽
+```
+
+_NOTE_ Changing the entire folder structure will likely result in some minor issues.
+If you spot one please let us know or open a PR.
+
+## PySyft
+
+PySyft is the centerpiece of the Syft ecosystem. It has two primary purposes. You can either use PySyft to perform two types of computation:
+
+1. _Dynamic:_ Directly compute over data you cannot see.
+2. _Static:_ Create static graphs of computation which can be deployed/scaled at a later date on different compute.
+
+The [PyGrid library](https://github.com/OpenMined/PyGrid) serves as an API for the management and deployment of PySyft at scale. It also allows for you to extend PySyft for the purposes of Federated Learning on web, mobile, and edge devices using the following Syft worker libraries:
+
+- [KotlinSyft](https://github.com/OpenMined/KotlinSyft) (Android)
+- [SwiftSyft](https://github.com/OpenMined/SwiftSyft) (iOS)
+- [syft.js](https://github.com/OpenMined/syft.js) (Javascript)
+- PySyft (Python, you can use PySyft itself as one of these "FL worker libraries")
+
+However, the Syft ecosystem only focuses on consistent object serialization/deserialization, core abstractions, and algorithm design/execution across these languages. These libraries alone will not connect you with data in the real world. The Syft ecosystem is supported by the Grid ecosystem, which focuses on the deployment, scalability, and other additional concerns around running real-world systems to compute over and process data (such as data compliance web applications).
+
+- PySyft is the library that defines objects, abstractions, and algorithms.
+- [PyGrid](https://github.com/OpenMined/PyGrid) is the platform which lets you deploy them within a real institution.
+- [PyGrid Admin](https://github.com/OpenMined/pygrid-admin) is a UI which allows a data owner to manage their PyGrid deployment.
+
+A more detailed explanation of PySyft can be found in the
+[white paper on Arxiv](https://arxiv.org/abs/1811.04017).
+
+PySyft has also been explained in videos on YouTube:
+
+- [PriCon Sep 2020 Duet Demo](https://www.youtube.com/watch?v=DppXfA6C8L8&ab_channel=OpenMined)
+- [Introduction to Privacy-Preserving AI using PySyft by @iamtrask](https://www.youtube.com/watch?v=NJBBE_SN90A)
+
+## Pre-Installation
+
+PySyft is available on PyPI and Conda.
+
+We recommend that you install PySyft within a virtual environment like
+[Conda](https://docs.anaconda.com/anaconda/user-guide/getting-started/),
+due to its ease of use. If you are using Windows, we suggest installing
+[Anaconda and using the Anaconda
+Prompt](https://docs.anaconda.com/anaconda/user-guide/getting-started/) to
+work from the command line.
+
+```bash
+$ conda create -n pysyft python=3.9
+$ conda activate pysyft
+$ conda install jupyter notebook
+```
+
+## Version Support
+
+We support **Linux**, **MacOS** and **Windows** and the following Python and Torch versions.
+Older versions may work, however we have stopped testing and supporting them.
+
+| Py / Torch | 1.6 | 1.7 | 1.8 |
+| ---------- | --- | --- | --- |
+| 3.7        | ✅  | ✅  | ✅  |
+| 3.8        | ✅  | ✅  | ✅  |
+| 3.9        | ➖  | ✅  | ✅  |
+
+## Installation
+
+### Pip
+
+```bash
+$ pip install syft
+```
+
+This will auto-install PyTorch and other dependencies as required to run the
+examples and tutorials. For more information on building from source see the contribution guide [here](https://github.com/OpenMined/PySyft/blob/main/packages/syft/CONTRIBUTING.md).
+
+## Documentation
+
+Coming soon! Until then, please view the Examples below.
+
+## Examples
+
+A comprehensive list of examples can be found [here](https://github.com/OpenMined/PySyft/tree/main/packages/syft/examples).
+
+These tutorials cover a variety of Python libraries for data science and machine learning.
+
+All the examples can be played with by launching a Jupyter Notebook and navigating to the `examples` folder.
+
+```bash
+$ jupyter notebook
+```
+
+### Duet
+
+<a href="https://github.com/OpenMined/PySyft/tree/main/packages/syft/examples/duet"><img src="https://raw.githubusercontent.com/OpenMined/PySyft/main/packages/syft/docs/img/logo_duet.png" alt="PySyft" width="350"></a>
+
+Duet is a peer-to-peer tool within PySyft that provides a research-friendly API for a Data Owner to privately expose their data, while a Data Scientist can access or manipulate the data on the owner's side through a zero-knowledge access control mechanism. It's designed to lower the barrier between research and privacy-preserving mechanisms, so that scientific progress can be made on data that is currently inaccessible or tightly controlled. **The main benefit of using Duet is that allows you to get started using PySyft, without needing to manage a full PyGrid deployment. It is the simplest path to using Syft, without needing to install anything (except Syft 😉).**
+
+You can find all [Duet examples](https://github.com/OpenMined/PySyft/tree/main/packages/syft/examples/duet) in the `examples/duet` folder.
+
+## Contributing
+
+The guide for contributors can be found [here](https://github.com/OpenMined/PySyft/blob/main/packages/syft/CONTRIBUTING.md).
+It covers all that you need to know to start contributing code to PySyft today.
+
+Also, join the rapidly growing community of 12,000+ on [Slack](http://slack.openmined.org).
+The Slack community is very friendly and great about quickly answering questions about the use and development of PySyft!
+
+## Disclaimer
+
+This software is in beta. Use at your own risk.
+
+## A quick note about 0.2.x
+
+The PySyft 0.2.x codebase is now in its own branch [here](https://github.com/OpenMined/PySyft/tree/syft_0.2.x), but OpenMined will not offer official support for this version range. We have compiled a list of [FAQs](https://github.com/OpenMined/PySyft/blob/main/packages/syft/docs/FAQ_0.2.x.md) relating to this version.\_
+
+## Support
+
+For support in using this library, please join the **#support** Slack channel. [Click here to join our Slack community!](https://slack.openmined.org)
+
+## Organizational Contributions
+
+We are very grateful for contributions to PySyft from the following organizations!
+
+- [<img src="https://github.com/udacity/private-ai/blob/master/udacity-logo-vert-white.png?raw=true" alt="Udacity" width="160"/>](https://udacity.com/)
+- [<img src="https://raw.githubusercontent.com/OpenMined/PySyft/main/packages/syft/docs/img/organizations/comind.png" alt="coMind" width="160" />](https://github.com/coMindOrg/federated-averaging-tutorials)
+- [<img src="https://i.ibb.co/vYwcG9N/arkhn-logo.png" alt="Arkhn" width="160" />](http://ark.hn)
+- [<img src="https://raw.githubusercontent.com/dropoutlabs/files/master/dropout-labs-logo-white-2500.png" alt="Dropout Labs" width="160"/>](https://dropoutlabs.com/)
+- [<img src="https://raw.githubusercontent.com/OpenMined/PySyft/main/packages/syft/docs/img/organizations/genbu.png" alt="GENBU AI" width="160"/>](https://genbu.ai/)
+- [<img src="https://raw.githubusercontent.com/OpenMined/PySyft/main/packages/syft/docs/img/organizations/bitdefender.png" alt="Bitdefender" width="160"/>](https://www.bitdefender.com/) |
+
+## License
+
+[Apache License 2.0](https://github.com/OpenMined/PySyft/blob/main/packages/syft/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FOpenMined%2FPySyft.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FOpenMined%2FPySyft?ref=badge_large)
+
+
