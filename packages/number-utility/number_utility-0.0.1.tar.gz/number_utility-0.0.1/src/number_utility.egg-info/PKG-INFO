@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: number-utility
+Version: 0.0.1
+Summary: This is python package that contains all functions for number manipulation.
+Home-page: https://github.com/smv1999/number_utility
+Author: Vaidhyanathan S M
+Author-email: vaidhyanathan.sm@gmail.com
+License: UNKNOWN
+Description: # number
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
