@@ -1,0 +1,32 @@
+Change Log
+===========
+
+0.0.2 (1/4/2021)
+-----------------
+-Added feature to create a textfile
+-Added a feature to check duplicate values
+
+0.0.3 (2/4/2021)
+-----------------
+-Modified the csv_module to handle duplicates of Image format questions.
+
+0.0.4 (3/4/2021)
+-----------------
+-Modified putInCsv function such that it will append the new entries in the variation file
+
+0.0.5 (5/1/2021)
+-----------------
+-Introduced utf-8 encoding to the module.
+
+0.0.6 (24/6/2021)
+-----------------
+-discarded
+
+0.0.7 (24/6/2021)
+-----------------
+-discarded
+
+0.0.8 (24/6/2021)
+-----------------
+-Introduced drive API as drive_api
+-added new CSV attribute to putInCsv 
