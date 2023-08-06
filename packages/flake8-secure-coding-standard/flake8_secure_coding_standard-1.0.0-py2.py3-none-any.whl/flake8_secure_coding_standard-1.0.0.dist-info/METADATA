@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: flake8-secure-coding-standard
+Version: 1.0.0
+Summary: Flake8 plugin adding some checks to make Python code adhere to more secure coding standard
+Home-page: https://github.com/Takishima/flake8-secure-coding-standard
+Author: Damien Nguyen
+Author-email: ngn.damien@gmail.com
+License: Apache2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flake8 (>=3.7)
+Requires-Dist: importlib-metadata (>=0.9) ; python_version < "3.8"
+
+# Flake8 Secure Coding Standard Plugin
+
+flake8 plugin that enforces some secure coding standards.
+
+## Installation
+
+    pip install flake8-secure-coding-standard
+
+## Flake8 codes
+
+| Code   | Description |
+|--------|-------------|
+| SCS100 | Blablabla   |
+
+## Rationale
+
+Enforce certain coding practices that aim at making Python code safer.
+
+### First
+
+Avoid
+```python
+```
+in favor of
+```python
+```
+
+## Pre-commit hook
+
+See [pre-commit](https://github.com/pre-commit/pre-commit) for instructions
+
+Sample `.pre-commit-config.yaml`:
+
+```yaml
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.8
+    hooks:
+    -   id: flake8
+        additional_dependencies: [flake8-secure-coding-standard]
+```
+
+
