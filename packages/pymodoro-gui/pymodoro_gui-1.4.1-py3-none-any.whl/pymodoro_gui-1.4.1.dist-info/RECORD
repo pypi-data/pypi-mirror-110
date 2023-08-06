@@ -1,0 +1,11 @@
+pymodorogui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymodorogui/__main__.py,sha256=Erhmw-VUB-srA4u7Vc0HetIwYYSdtA7cMKs6eP7mBtg,76
+pymodorogui/pymodoro.py,sha256=kZr0-ZBa5sm4rD17HkvwzhYBmNzDJds--DaW4rN7R0Y,12490
+pymodorogui/resources/__init__.py,sha256=CufhvP2y1cUsitBpat5yBJAIdDyu0-8heTluk3g0xS0,362
+pymodorogui/resources/beep.wav,sha256=SHKk65nl3h0TsOxJZO8rG7URbUAqM7-GKgKqaNfqTD0,406108
+pymodorogui/resources/icon.png,sha256=5Gfp0iH34C3DFFjttHM64ojtr39SertX8M_MES4uIw4,24867
+pymodoro_gui-1.4.1.dist-info/LICENSE.txt,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+pymodoro_gui-1.4.1.dist-info/METADATA,sha256=-MCs2lPQOCvsczPf8fuDxLpRFBTOBkibAbqeqTikDRA,1346
+pymodoro_gui-1.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymodoro_gui-1.4.1.dist-info/top_level.txt,sha256=uRr00yOOD122zrlkw2tV_hV7xSgELevBuNVwAqZ_6ms,12
+pymodoro_gui-1.4.1.dist-info/RECORD,,
