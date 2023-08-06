@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aws_cognito/__init__.py
+aws_cognito/client.py
+myb_aws_cognito_api.egg-info/PKG-INFO
+myb_aws_cognito_api.egg-info/SOURCES.txt
+myb_aws_cognito_api.egg-info/dependency_links.txt
+myb_aws_cognito_api.egg-info/not-zip-safe
+myb_aws_cognito_api.egg-info/requires.txt
+myb_aws_cognito_api.egg-info/top_level.txt
