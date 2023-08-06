@@ -1,0 +1,206 @@
+{
+  ".class": "MypyFile",
+  "_fullname": "glQiwiApi.types.qiwi_types.partner",
+  "is_partial_stub_package": false,
+  "is_stub": false,
+  "names": {
+    ".class": "SymbolTable",
+    "BaseModel": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "pydantic.main.BaseModel",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "List": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.List",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Optional": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Optional",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Partner": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "pydantic.main.BaseModel"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.types.qiwi_types.partner.Partner",
+          "name": "Partner",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.partner.Partner",
+        "metaclass_type": "pydantic.main.ModelMetaclass",
+        "metadata": {},
+        "module_name": "glQiwiApi.types.qiwi_types.partner",
+        "mro": [
+          "glQiwiApi.types.qiwi_types.partner.Partner",
+          "pydantic.main.BaseModel",
+          "pydantic.utils.Representation",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable",
+          "id": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.partner.Partner.id",
+              "name": "id",
+              "type": "builtins.int"
+            }
+          },
+          "maps": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.partner.Partner.maps",
+              "name": "maps",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      "builtins.str"
+                    ],
+                    "type_ref": "builtins.list"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "title": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.partner.Partner.title",
+              "name": "title",
+              "type": "builtins.str"
+            }
+          }
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "__all__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.partner.__all__",
+        "name": "__all__",
+        "type": {
+          ".class": "TupleType",
+          "implicit": false,
+          "items": [
+            "builtins.str"
+          ],
+          "partial_fallback": {
+            ".class": "Instance",
+            "args": [
+              {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 6
+              }
+            ],
+            "type_ref": "builtins.tuple"
+          }
+        }
+      }
+    },
+    "__doc__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.partner.__doc__",
+        "name": "__doc__",
+        "type": "builtins.str"
+      }
+    },
+    "__file__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.partner.__file__",
+        "name": "__file__",
+        "type": "builtins.str"
+      }
+    },
+    "__name__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.partner.__name__",
+        "name": "__name__",
+        "type": "builtins.str"
+      }
+    },
+    "__package__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.partner.__package__",
+        "name": "__package__",
+        "type": "builtins.str"
+      }
+    }
+  },
+  "path": "/home/glef1x/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/parser/glQiwiApi/types/qiwi_types/partner.py"
+}

@@ -1,0 +1,729 @@
+{
+  ".class": "MypyFile",
+  "_fullname": "glQiwiApi.utils.exceptions",
+  "is_partial_stub_package": false,
+  "is_stub": false,
+  "names": {
+    ".class": "SymbolTable",
+    "Any": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Any",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Dict": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Dict",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "InvalidCardNumber": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.InvalidCardNumber",
+          "name": "InvalidCardNumber",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.InvalidCardNumber",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.InvalidCardNumber",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "InvalidData": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.InvalidData",
+          "name": "InvalidData",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.InvalidData",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.InvalidData",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "InvalidToken": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.InvalidToken",
+          "name": "InvalidToken",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.InvalidToken",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.InvalidToken",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "NoUpdatesToExecute": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.NoUpdatesToExecute",
+          "name": "NoUpdatesToExecute",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.NoUpdatesToExecute",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.NoUpdatesToExecute",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "NoUrlFound": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.NoUrlFound",
+          "name": "NoUrlFound",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.NoUrlFound",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.NoUrlFound",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "Optional": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Optional",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "ProxyError": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.ProxyError",
+        "name": "ProxyError",
+        "type": "builtins.Exception"
+      }
+    },
+    "RequestAuthError": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.RequestAuthError",
+          "name": "RequestAuthError",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.RequestAuthError",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.RequestAuthError",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "RequestError": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.RequestError",
+          "name": "RequestError",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.RequestError",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.RequestError",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable",
+          "__init__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0,
+                0,
+                0,
+                1,
+                1
+              ],
+              "arg_names": [
+                "self",
+                "message",
+                "status_code",
+                "additional_info",
+                "json_info"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.__init__",
+              "name": "__init__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0,
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                "arg_names": [
+                  "self",
+                  "message",
+                  "status_code",
+                  "additional_info",
+                  "json_info"
+                ],
+                "arg_types": [
+                  "glQiwiApi.utils.exceptions.RequestError",
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      "builtins.str",
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  "builtins.str",
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      "builtins.str",
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          "builtins.str",
+                          {
+                            ".class": "AnyType",
+                            "missing_import_name": null,
+                            "source_any": null,
+                            "type_of_any": 2
+                          }
+                        ],
+                        "type_ref": "builtins.dict"
+                      },
+                      "builtins.str",
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  }
+                ],
+                "bound_args": [],
+                "def_extras": {
+                  "first_arg": "self"
+                },
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__init__ of RequestError",
+                "ret_type": {
+                  ".class": "NoneType"
+                },
+                "variables": []
+              }
+            }
+          },
+          "__repr__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0
+              ],
+              "arg_names": [
+                "self"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.__repr__",
+              "name": "__repr__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0
+                ],
+                "arg_names": [
+                  null
+                ],
+                "arg_types": [
+                  "glQiwiApi.utils.exceptions.RequestError"
+                ],
+                "bound_args": [],
+                "def_extras": {
+                  "first_arg": "self"
+                },
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__repr__ of RequestError",
+                "ret_type": "builtins.str",
+                "variables": []
+              }
+            }
+          },
+          "__str__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0
+              ],
+              "arg_names": [
+                "self"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.__str__",
+              "name": "__str__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0
+                ],
+                "arg_names": [
+                  null
+                ],
+                "arg_types": [
+                  "glQiwiApi.utils.exceptions.RequestError"
+                ],
+                "bound_args": [],
+                "def_extras": {
+                  "first_arg": "self"
+                },
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__str__ of RequestError",
+                "ret_type": "builtins.str",
+                "variables": []
+              }
+            }
+          },
+          "additional_info": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.additional_info",
+              "name": "additional_info",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "json": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0
+              ],
+              "arg_names": [
+                "self"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.json",
+              "name": "json",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0
+                ],
+                "arg_names": [
+                  "self"
+                ],
+                "arg_types": [
+                  "glQiwiApi.utils.exceptions.RequestError"
+                ],
+                "bound_args": [],
+                "def_extras": {
+                  "first_arg": "self"
+                },
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "json of RequestError",
+                "ret_type": "builtins.str",
+                "variables": []
+              }
+            }
+          },
+          "json_info": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.json_info",
+              "name": "json_info",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      "builtins.str",
+                      {
+                        ".class": "AnyType",
+                        "missing_import_name": null,
+                        "source_any": null,
+                        "type_of_any": 2
+                      }
+                    ],
+                    "type_ref": "builtins.dict"
+                  },
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "message": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.message",
+              "name": "message",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "status_code": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.utils.exceptions.RequestError.status_code",
+              "name": "status_code",
+              "type": "builtins.str"
+            }
+          }
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "RequestProxyError": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.Exception"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.utils.exceptions.RequestProxyError",
+          "name": "RequestProxyError",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.RequestProxyError",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.utils.exceptions",
+        "mro": [
+          "glQiwiApi.utils.exceptions.RequestProxyError",
+          "builtins.Exception",
+          "builtins.BaseException",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable"
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "Union": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Union",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "__all__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.utils.exceptions.__all__",
+        "name": "__all__",
+        "type": {
+          ".class": "TupleType",
+          "implicit": false,
+          "items": [
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str"
+          ],
+          "partial_fallback": {
+            ".class": "Instance",
+            "args": [
+              {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 6
+              }
+            ],
+            "type_ref": "builtins.tuple"
+          }
+        }
+      }
+    },
+    "__doc__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.utils.exceptions.__doc__",
+        "name": "__doc__",
+        "type": "builtins.str"
+      }
+    },
+    "__file__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.utils.exceptions.__file__",
+        "name": "__file__",
+        "type": "builtins.str"
+      }
+    },
+    "__name__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.utils.exceptions.__name__",
+        "name": "__name__",
+        "type": "builtins.str"
+      }
+    },
+    "__package__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.utils.exceptions.__package__",
+        "name": "__package__",
+        "type": "builtins.str"
+      }
+    },
+    "json": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "json",
+      "kind": "Gdef",
+      "module_public": false
+    }
+  },
+  "path": "/home/glef1x/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/parser/glQiwiApi/utils/exceptions.py"
+}
