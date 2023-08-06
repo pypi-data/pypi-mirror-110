@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fedn
+Version: 0.2.5.dev0
+Summary: Scaleout Federated Learning
+Home-page: https://www.scaleoutsystems.com
+Author: Morgan Ekmefjord
+Author-email: morgan@scaleout.se
+License: Copyright Scaleout Systems AB. See license for details
+Keywords: Federated learning
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+
+# FEDn SDk #
+
+
