@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: steamio
+Version: 0.7.0
+Summary: A Python wrapper for the Steam API
+License: MIT
+Keywords: steam.py,steam,steamio,steam-api
+Author: Gobot1234
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Provides-Extra: docs
+Requires-Dist: aiohttp (>=3.7.0,<3.8.0)
+Requires-Dist: beautifulsoup4 (>=4.9.0,<5.0.0)
+Requires-Dist: betterproto (==2.0.0b3)
+Requires-Dist: csscompressor; extra == "docs"
+Requires-Dist: htmlmin; extra == "docs"
+Requires-Dist: rjsmin; extra == "docs"
+Requires-Dist: rsa (>=4.6,<5.0)
+Requires-Dist: sphinx (==4.0.2); extra == "docs"
+Requires-Dist: sphinxcontrib_trio (==1.1.2); extra == "docs"
+Requires-Dist: tomli (>=1.0.0,<2.0.0)
+Requires-Dist: typing-extensions (==3.10.0.0)
+Project-URL: Bug Tracker, https://github.com/Gobot1234/steam.py/issues
+Project-URL: Code, https://github.com/Gobot1234/steam.py
+Project-URL: Documentation, https://steampy.readthedocs.io/en/latest
