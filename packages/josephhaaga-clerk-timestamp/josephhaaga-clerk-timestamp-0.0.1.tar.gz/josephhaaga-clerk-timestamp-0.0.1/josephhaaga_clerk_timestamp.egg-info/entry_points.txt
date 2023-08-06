@@ -1,0 +1,3 @@
+[clerk.extensions]
+timestamp = clerk_timestamp:append_timestamp
+
