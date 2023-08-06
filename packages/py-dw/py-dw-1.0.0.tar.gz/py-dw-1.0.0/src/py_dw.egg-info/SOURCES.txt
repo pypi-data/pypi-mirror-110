@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scripts/dw
+src/dw/__init__.py
+src/py_dw.egg-info/PKG-INFO
+src/py_dw.egg-info/SOURCES.txt
+src/py_dw.egg-info/dependency_links.txt
+src/py_dw.egg-info/top_level.txt
