@@ -1,0 +1,3 @@
+[console_scripts]
+py_fasta_validator = PyFastaValidator.validate:validate
+
