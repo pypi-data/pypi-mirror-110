@@ -1,0 +1,3 @@
+[console_scripts]
+lola=lolaur.lolacli:main
+
