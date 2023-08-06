@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventDB &#8212; intelmq 3.0.0.alpha.1 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Developers Guide" href="../dev/guide.html" />
+    <link rel="prev" title="IntelMQ - n6 Integration" href="n6-integrations.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="eventdb">
+<h1>EventDB<a class="headerlink" href="#eventdb" title="Permalink to this headline">¶</a></h1>
+<p>The EventDB is not a software itself.</p>
+<p>The EventDB is a database (usually PostgreSQL) that gets filled with with data from intelmq using the SQL Output bot.</p>
+<div class="section" id="the-events-table-itself">
+<h2>The events table itself<a class="headerlink" href="#the-events-table-itself" title="Permalink to this headline">¶</a></h2>
+<p>IntelMQ comes with the <code class="docutils literal notranslate"><span class="pre">intelmq_psql_initdb</span></code> command line tool. It creates an SQL file containing:</p>
+<ul class="simple">
+<li><p>A <code class="docutils literal notranslate"><span class="pre">CREATE</span> <span class="pre">TABLE</span> <span class="pre">events</span></code> statement with all valid IntelMQ fields as columns and correct types</p></li>
+<li><p>Several indexes as examples for a good read &amp; search performance</p></li>
+</ul>
+<p>All elements of this SQL file can be adapted and extended before running the SQL file against a database, especially the indexes.</p>
+<p>Having an <cite>events</cite> table as outlined in the SQL file, IntelMQ’s PostgreSQL Output bot can write all received events into this database table.</p>
+<p>This events table is the core of the so-called EventDB and also required by all other sections of this document.</p>
+</div>
+<div class="section" id="eventdb-utilities">
+<h2>EventDB Utilities<a class="headerlink" href="#eventdb-utilities" title="Permalink to this headline">¶</a></h2>
+<p>Some scripts related to the eventdb are located in the <a class="reference external" href="https://github.com/certtools/intelmq/tree/develop/contrib/eventdb">contrib/eventdb</a> folder in the IntelMQ git repository.</p>
+<div class="section" id="apply-malware-name-mapping">
+<h3>Apply Malware Name Mapping<a class="headerlink" href="#apply-malware-name-mapping" title="Permalink to this headline">¶</a></h3>
+<p>The <cite>apply_mapping_eventdb.py</cite> script applies the malware name mapping to the eventdb.
+Source and destination columns can be given, also a local file. If no local file is present, the mapping can be downloaded on demand.
+It queries the database for all distinct malware names with the taxonomy “malicious-code” and sets another column to the malware family name.</p>
+</div>
+<div class="section" id="apply-domain-suffix">
+<h3>Apply Domain Suffix<a class="headerlink" href="#apply-domain-suffix" title="Permalink to this headline">¶</a></h3>
+<p>The <cite>apply_domain_suffix.py</cite> script writes the public domain suffix to the <cite>source.domain_suffix</cite> / <cite>destination.domain_suffix</cite> columns, extracted from <cite>source.fqdn</cite> / <cite>destination.fqdn</cite>.</p>
+<div class="section" id="usage">
+<h4>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h4>
+<p>The Python scripts can connect to a PostgreSQL server with an <cite>eventdb</cite> database and an <cite>events</cite> table. The command line arguments interface for both scripts are the same.
+See <cite>–help</cite> for more information:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>apply_mapping_eventdb.py -h
+apply_domain_suffix.py -h
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="postgresql-trigger">
+<h3>PostgreSQL trigger<a class="headerlink" href="#postgresql-trigger" title="Permalink to this headline">¶</a></h3>
+<p>PostgreSQL trigger is a trigger keeping track of the oldest inserted/updated “time.source” data. This can be useful to (re-)generate statistics or aggregation data.</p>
+<p>The SQL script can be executed in the database directly.</p>
+</div>
+</div>
+<div class="section" id="eventdb-statistics">
+<h2>EventDB Statistics<a class="headerlink" href="#eventdb-statistics" title="Permalink to this headline">¶</a></h2>
+<p>The EventDB provides a great base for statistical analysis of the data.</p>
+<p>The <a class="reference external" href="https://github.com/wagner-certat/eventdb-stats">eventdb-stats repository</a> contains a Python script that generates an HTML file and includes the <a class="reference external" href="https://plotly.com/javascript/">Plotly JavaScript Open Source Graphing Library</a>.
+By modifying the configuration file it is possible to configure various queries that are then displayed using graphs:</p>
+<img alt="EventDB Statistics Example" src="../_images/eventdb_stats.png" />
+</div>
+<div class="section" id="using-eventdb-with-timescale-db">
+<h2>Using EventDB with Timescale DB<a class="headerlink" href="#using-eventdb-with-timescale-db" title="Permalink to this headline">¶</a></h2>
+<p>TBD</p>
+</div>
+<div class="section" id="separating-raw-values-in-postgresql-using-view-and-trigger">
+<span id="eventdb-raws-table"></span><h2>Separating raw values in PostgreSQL using view and trigger<a class="headerlink" href="#separating-raw-values-in-postgresql-using-view-and-trigger" title="Permalink to this headline">¶</a></h2>
+<p>In order to reduce the row size in the events table, the <cite>raw</cite> column’s data can be separated from the other columns.
+While the raw-data is about 30-50% of the data row’s size, it is not used in most database queries, as it serves only a backup functionality.
+Other possibilities to reduce or getting rid of this field are described in the FAQ, section <a class="reference internal" href="FAQ.html#faq-remove-raw-data"><span class="std std-ref">Removing raw data for higher performance and less space usage</span></a>.</p>
+<p>The steps described here are best performed before the <cite>events</cite> table is filled with data, but can as well be done with existing data.</p>
+<p>The approach requires four steps:</p>
+<ol class="arabic simple">
+<li><p>An existing <cite>events</cite> table, see the first section of this document.</p></li>
+<li><p>Deleting or renaming the <cite>raw</cite> column of the <cite>events</cite> table.</p></li>
+<li><p>Creating a table <cite>raws</cite> which holds only the <cite>raw</cite> field of the events and linking both tables using the <cite>event_id</cite>.</p></li>
+<li><p>Creating the view <cite>v_events</cite> which joins the tables <cite>events</cite> and <cite>raws</cite>.</p></li>
+<li><p>Creating the function <cite>process_v_events_insert</cite> and <cite>INSERT</cite> trigger <cite>tr_events</cite>.</p></li>
+</ol>
+<p>The last steps brings us several advantages:</p>
+<ul class="simple">
+<li><p>All <cite>INSERT</cite> statements can contain all data, including the <cite>raw</cite> field.</p></li>
+<li><p>No code changes are needed in the IntelMQ output bot or your own scripts. A migration is seamless.</p></li>
+<li><p>PostgreSQL itself ensures that the data of both tables is consistent and linked correctly.</p></li>
+</ul>
+<p>The complete SQL script can be found in the <a class="reference external" href="https://github.com/certtools/intelmq/tree/develop/contrib/eventdb">contrib/eventdb</a> directory of IntelMQ.
+It does <em>not</em> cover step 2 to avoid accidental data loss - you need to do this step manually.</p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/Logo_Intel_MQ.svg" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=certtools&repo=intelmq&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardware-requirements.html">Hardware Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="upgrade.html">Upgrade instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration-management.html">Configuration and Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bots.html">Bots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelmqctl.html">intelmqctl documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="feeds.html">Feeds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelmq-api.html">IntelMQ API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="intelmq-manager.html">IntelMQ Manager</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ecosystem.html">IntelMQ Ecosystem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ELK-Stack.html">ELK Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MISP-Integrations.html">MISP integrations in IntelMQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="n6-integrations.html">IntelMQ - n6 Integration</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">EventDB</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/guide.html">Developers Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/data-format.html">Data Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/harmonization-fields.html">Harmonization field names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/release-procedure.html">Release procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/feeds-wishlist.html">Feeds wishlist</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="n6-integrations.html" title="previous chapter">IntelMQ - n6 Integration</a></li>
+      <li>Next: <a href="../dev/guide.html" title="next chapter">Developers Guide</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, cert.at.
+      
+      |
+      <a href="../_sources/user/eventdb.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,816 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intelmq.bin package &#8212; intelmq 3.0.0.alpha.1 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="intelmq-bin-package">
+<h1>intelmq.bin package<a class="headerlink" href="#intelmq-bin-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-intelmq.bin.intelmq_generate_misp_objects_templates">
+<span id="intelmq-bin-intelmq-generate-misp-objects-templates-module"></span><h2>intelmq.bin.intelmq_generate_misp_objects_templates module<a class="headerlink" href="#module-intelmq.bin.intelmq_generate_misp_objects_templates" title="Permalink to this headline">¶</a></h2>
+<p>Generates a MISP object template
+see <a class="reference external" href="https://github.com/MISP/misp-objects/">https://github.com/MISP/misp-objects/</a></p>
+<dl class="py class">
+<dt id="intelmq.bin.intelmq_generate_misp_objects_templates.MISPObjectTemplateGenerator">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmq_generate_misp_objects_templates.</span></code><code class="sig-name descname"><span class="pre">MISPObjectTemplateGenerator</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">object_templates_path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">pathlib.Path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">harmonization_file_path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">pathlib.Path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmq_generate_misp_objects_templates.MISPObjectTemplateGenerator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="intelmq.bin.intelmq_generate_misp_objects_templates.MISPObjectTemplateGenerator.dump_templates">
+<code class="sig-name descname"><span class="pre">dump_templates</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmq_generate_misp_objects_templates.MISPObjectTemplateGenerator.dump_templates" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmq_generate_misp_objects_templates.MISPObjectTemplateGenerator.generate_templates">
+<code class="sig-name descname"><span class="pre">generate_templates</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmq_generate_misp_objects_templates.MISPObjectTemplateGenerator.generate_templates" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-intelmq.bin.intelmq_psql_initdb">
+<span id="intelmq-bin-intelmq-psql-initdb-module"></span><h2>intelmq.bin.intelmq_psql_initdb module<a class="headerlink" href="#module-intelmq.bin.intelmq_psql_initdb" title="Permalink to this headline">¶</a></h2>
+<p>Generates a SQL command file with commands to create the events table.</p>
+<p>Reads the harmonization configuration and generates an SQL command from it.
+The SQL file is saved in <cite>/tmp/initdb.sql</cite> or a temporary name if the other one
+exists.</p>
+<dl class="py function">
+<dt id="intelmq.bin.intelmq_psql_initdb.generate">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmq_psql_initdb.</span></code><code class="sig-name descname"><span class="pre">generate</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">harmonization_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'/opt/intelmq/etc/harmonization.conf'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmq_psql_initdb.generate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmq_psql_initdb.main">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmq_psql_initdb.</span></code><code class="sig-name descname"><span class="pre">main</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmq_psql_initdb.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-intelmq.bin.intelmqctl">
+<span id="intelmq-bin-intelmqctl-module"></span><h2>intelmq.bin.intelmqctl module<a class="headerlink" href="#module-intelmq.bin.intelmqctl" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="intelmq.bin.intelmqctl.IntelMQController">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">IntelMQController</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interactive</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">return_type</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'python'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quiet</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_file_logging</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">drop_privileges</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.__init__">
+<code class="sig-name descname"><span class="pre">__init__</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">interactive</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">return_type</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'python'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">quiet</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_file_logging</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">drop_privileges</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">None</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initializes intelmqctl.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>interactive</strong> – for cli-interface true, functions can exits, parameters are used</p></li>
+<li><p><strong>return_type</strong> – ‘python’: no special treatment, can be used for use by other
+python code
+‘text’: user-friendly output for cli, default for interactive use
+‘json’: machine-readable output for managers</p></li>
+<li><p><strong>quiet</strong> – False by default, can be activated for cron jobs etc.</p></li>
+<li><p><strong>no_file_logging</strong> – do not log to the log file</p></li>
+<li><p><strong>drop_privileges</strong> – Drop privileges and fail if it did not work.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.abort">
+<code class="sig-name descname"><span class="pre">abort</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">message</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.abort" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_disable">
+<code class="sig-name descname"><span class="pre">bot_disable</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_disable" title="Permalink to this definition">¶</a></dt>
+<dd><p>If Bot is already disabled, the “Bot … is disabled” message is
+printed by the wrapping function already.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_enable">
+<code class="sig-name descname"><span class="pre">bot_enable</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_enable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_reload">
+<code class="sig-name descname"><span class="pre">bot_reload</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_restart">
+<code class="sig-name descname"><span class="pre">bot_restart</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_restart" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_run">
+<code class="sig-name descname"><span class="pre">bot_run</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_start">
+<code class="sig-name descname"><span class="pre">bot_start</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_status">
+<code class="sig-name descname"><span class="pre">bot_status</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.bot_stop">
+<code class="sig-name descname"><span class="pre">bot_stop</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.bot_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.botnet_reload">
+<code class="sig-name descname"><span class="pre">botnet_reload</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.botnet_reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.botnet_restart">
+<code class="sig-name descname"><span class="pre">botnet_restart</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.botnet_restart" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.botnet_start">
+<code class="sig-name descname"><span class="pre">botnet_start</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.botnet_start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.botnet_status">
+<code class="sig-name descname"><span class="pre">botnet_status</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.botnet_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.botnet_stop">
+<code class="sig-name descname"><span class="pre">botnet_stop</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.botnet_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.check">
+<code class="sig-name descname"><span class="pre">check</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">no_connections</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.check" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.clear_queue">
+<code class="sig-name descname"><span class="pre">clear_queue</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">queue</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.clear_queue" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clears an exiting queue.</p>
+<p>First checks if the queue does exist in the pipeline configuration.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.debug">
+<code class="sig-name descname"><span class="pre">debug</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">sections</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.debug" title="Permalink to this definition">¶</a></dt>
+<dd><p>Give debugging output
+get_paths:</p>
+<blockquote>
+<div><p>print path information</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.get_queues">
+<code class="sig-name descname"><span class="pre">get_queues</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">with_internal_queues</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.get_queues" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>4-tuple of source, destination, internal queues, and all queues combined.</p>
+</dd>
+</dl>
+<p>The returned values are only queue names, not their paths. I.E. if there is a bot with
+destination queues = {“_default”: “one”, “other”: [“two”, “three”]}, only set of {“one”, “two”, “three”} gets returned.
+(Note that the “_default” path has single string and the “other” path has a list that gets flattened.)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.list">
+<code class="sig-name descname"><span class="pre">list</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">kind</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">non_zero</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">count</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">configured</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.list_bots">
+<code class="sig-name descname"><span class="pre">list_bots</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">non_zero</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">configured</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.list_bots" title="Permalink to this definition">¶</a></dt>
+<dd><p>Lists all (configured) bots from runtime.conf or generated on demand
+with bot id/module and description and parameters.</p>
+<p>If description is not set, None is used instead.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.list_queues">
+<code class="sig-name descname"><span class="pre">list_queues</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">non_zero</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">count</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.list_queues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.load_defaults_configuration">
+<code class="sig-name descname"><span class="pre">load_defaults_configuration</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">silent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.load_defaults_configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.read_bot_log">
+<code class="sig-name descname"><span class="pre">read_bot_log</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_level</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">number_of_lines</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.read_bot_log" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.run">
+<code class="sig-name descname"><span class="pre">run</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.upgrade_conf">
+<code class="sig-name descname"><span class="pre">upgrade_conf</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">previous</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">function</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">force</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">state_file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">'/opt/intelmq/var/lib/state.json'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">no_backup</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.upgrade_conf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Upgrade the IntelMQ configuration after a version upgrade.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>previous</strong> – Assume the given version as the previous version</p></li>
+<li><p><strong>function</strong> – Only execute this upgrade function</p></li>
+<li><p><strong>force</strong> – Also upgrade if not necessary</p></li>
+<li><p><strong>state_file</strong> – location of the state file</p></li>
+<li><p><strong>no_backup</strong> – Do not create backups of state and configuration files</p></li>
+</ul>
+</dd>
+</dl>
+<p>state file:</p>
+<blockquote>
+<div><p>version_history = […, [2, 0, 0], [2, 0, 1]]
+upgrades = {</p>
+<blockquote>
+<div><p>“v112_feodo_tracker_domains”: true,
+“v112_feodo_tracker_ips”: false,
+“v200beta1_ripe_expert”: false
+}</p>
+</div></blockquote>
+<dl>
+<dt>results = [</dt><dd><dl class="simple">
+<dt>{“function”: “v112_feodo_tracker_domains”,</dt><dd><p>“success”: true,
+“retval”: null,
+“time”: “…”},</p>
+</dd>
+<dt>{“function”: “v112_feodo_tracker_domains”,</dt><dd><p>“success”: false,
+“retval”: “fix it manually”,
+“message”: “fix it manually”,
+“time”: “…”},</p>
+</dd>
+<dt>{“function”: “v200beta1_ripe_expert”,</dt><dd><p>“success”: false,
+“traceback”: “…”,
+“time”: “…”}</p>
+</dd>
+</dl>
+<p>]</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQController.write_updated_runtime_config">
+<code class="sig-name descname"><span class="pre">write_updated_runtime_config</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'/opt/intelmq/etc/runtime.yaml'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQController.write_updated_runtime_config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">IntelMQProcessManager</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">runtime_configuration</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">controller</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.PIDDIR">
+<code class="sig-name descname"><span class="pre">PIDDIR</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'/opt/intelmq/var/run/'</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.PIDDIR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.PIDFILE">
+<code class="sig-name descname"><span class="pre">PIDFILE</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'/opt/intelmq/var/run/{}.pid'</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.PIDFILE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager._interpret_commandline">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">_interpret_commandline</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pid</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cmdline</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">module</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bot_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">,</span> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager._interpret_commandline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Separate function to allow easy testing</p>
+<dl class="simple">
+<dt>pid<span class="classifier">int</span></dt><dd><p>Process ID, used for return values (error messages) only.</p>
+</dd>
+<dt>cmdline<span class="classifier">Iterable[str]</span></dt><dd><p>The command line of the process.</p>
+</dd>
+<dt>module<span class="classifier">str</span></dt><dd><p>The module of the bot.</p>
+</dd>
+<dt>bot_id<span class="classifier">str</span></dt><dd><p>The ID of the bot.</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>Union[bool, str]</dt><dd><p>DESCRIPTION.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.bot_reload">
+<code class="sig-name descname"><span class="pre">bot_reload</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.bot_reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.bot_run">
+<code class="sig-name descname"><span class="pre">bot_run</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_subcommand</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">console_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message_action_kind</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dryrun</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_sent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loglevel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.bot_run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.bot_start">
+<code class="sig-name descname"><span class="pre">bot_start</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.bot_start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.bot_status">
+<code class="sig-name descname"><span class="pre">bot_status</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">proc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.bot_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.IntelMQProcessManager.bot_stop">
+<code class="sig-name descname"><span class="pre">bot_stop</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.IntelMQProcessManager.bot_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="intelmq.bin.intelmqctl.Parameters">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">Parameters</span></code><a class="headerlink" href="#intelmq.bin.intelmqctl.Parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="py class">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">SupervisorProcessManager</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">runtime_configuration</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">dict</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">logger</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">logging.Logger</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">controller</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.DEFAULT_SOCKET_PATH">
+<code class="sig-name descname"><span class="pre">DEFAULT_SOCKET_PATH</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'/var/run/supervisor.sock'</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.DEFAULT_SOCKET_PATH" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState">
+<em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">ProcessState</span></code><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.BACKOFF">
+<code class="sig-name descname"><span class="pre">BACKOFF</span></code><em class="property"> <span class="pre">=</span> <span class="pre">30</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.BACKOFF" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.EXITED">
+<code class="sig-name descname"><span class="pre">EXITED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">100</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.EXITED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.FATAL">
+<code class="sig-name descname"><span class="pre">FATAL</span></code><em class="property"> <span class="pre">=</span> <span class="pre">200</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.FATAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.RUNNING">
+<code class="sig-name descname"><span class="pre">RUNNING</span></code><em class="property"> <span class="pre">=</span> <span class="pre">20</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.RUNNING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.STARTING">
+<code class="sig-name descname"><span class="pre">STARTING</span></code><em class="property"> <span class="pre">=</span> <span class="pre">10</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.STARTING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.STOPPED">
+<code class="sig-name descname"><span class="pre">STOPPED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">0</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.STOPPED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.STOPPING">
+<code class="sig-name descname"><span class="pre">STOPPING</span></code><em class="property"> <span class="pre">=</span> <span class="pre">40</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.STOPPING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.UNKNOWN">
+<code class="sig-name descname"><span class="pre">UNKNOWN</span></code><em class="property"> <span class="pre">=</span> <span class="pre">1000</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.UNKNOWN" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.is_running">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">is_running</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">state</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">bool</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.ProcessState.is_running" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults">
+<em class="property"><span class="pre">class</span> </em><code class="sig-name descname"><span class="pre">RpcFaults</span></code><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.ABNORMAL_TERMINATION">
+<code class="sig-name descname"><span class="pre">ABNORMAL_TERMINATION</span></code><em class="property"> <span class="pre">=</span> <span class="pre">40</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.ABNORMAL_TERMINATION" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.ALREADY_ADDED">
+<code class="sig-name descname"><span class="pre">ALREADY_ADDED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">90</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.ALREADY_ADDED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.ALREADY_STARTED">
+<code class="sig-name descname"><span class="pre">ALREADY_STARTED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">60</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.ALREADY_STARTED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.BAD_ARGUMENTS">
+<code class="sig-name descname"><span class="pre">BAD_ARGUMENTS</span></code><em class="property"> <span class="pre">=</span> <span class="pre">3</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.BAD_ARGUMENTS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.BAD_NAME">
+<code class="sig-name descname"><span class="pre">BAD_NAME</span></code><em class="property"> <span class="pre">=</span> <span class="pre">10</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.BAD_NAME" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.BAD_SIGNAL">
+<code class="sig-name descname"><span class="pre">BAD_SIGNAL</span></code><em class="property"> <span class="pre">=</span> <span class="pre">11</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.BAD_SIGNAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.CANT_REREAD">
+<code class="sig-name descname"><span class="pre">CANT_REREAD</span></code><em class="property"> <span class="pre">=</span> <span class="pre">92</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.CANT_REREAD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.FAILED">
+<code class="sig-name descname"><span class="pre">FAILED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">30</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.FAILED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.INCORRECT_PARAMETERS">
+<code class="sig-name descname"><span class="pre">INCORRECT_PARAMETERS</span></code><em class="property"> <span class="pre">=</span> <span class="pre">2</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.INCORRECT_PARAMETERS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.NOT_EXECUTABLE">
+<code class="sig-name descname"><span class="pre">NOT_EXECUTABLE</span></code><em class="property"> <span class="pre">=</span> <span class="pre">21</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.NOT_EXECUTABLE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.NOT_RUNNING">
+<code class="sig-name descname"><span class="pre">NOT_RUNNING</span></code><em class="property"> <span class="pre">=</span> <span class="pre">70</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.NOT_RUNNING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.NO_FILE">
+<code class="sig-name descname"><span class="pre">NO_FILE</span></code><em class="property"> <span class="pre">=</span> <span class="pre">20</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.NO_FILE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SHUTDOWN_STATE">
+<code class="sig-name descname"><span class="pre">SHUTDOWN_STATE</span></code><em class="property"> <span class="pre">=</span> <span class="pre">6</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SHUTDOWN_STATE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SIGNATURE_UNSUPPORTED">
+<code class="sig-name descname"><span class="pre">SIGNATURE_UNSUPPORTED</span></code><em class="property"> <span class="pre">=</span> <span class="pre">4</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SIGNATURE_UNSUPPORTED" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SPAWN_ERROR">
+<code class="sig-name descname"><span class="pre">SPAWN_ERROR</span></code><em class="property"> <span class="pre">=</span> <span class="pre">50</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SPAWN_ERROR" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.STILL_RUNNING">
+<code class="sig-name descname"><span class="pre">STILL_RUNNING</span></code><em class="property"> <span class="pre">=</span> <span class="pre">91</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.STILL_RUNNING" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SUCCESS">
+<code class="sig-name descname"><span class="pre">SUCCESS</span></code><em class="property"> <span class="pre">=</span> <span class="pre">80</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.SUCCESS" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.UNKNOWN_METHOD">
+<code class="sig-name descname"><span class="pre">UNKNOWN_METHOD</span></code><em class="property"> <span class="pre">=</span> <span class="pre">1</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.RpcFaults.UNKNOWN_METHOD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.SUPERVISOR_GROUP">
+<code class="sig-name descname"><span class="pre">SUPERVISOR_GROUP</span></code><em class="property"> <span class="pre">=</span> <span class="pre">'intelmq'</span></em><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.SUPERVISOR_GROUP" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.bot_reload">
+<code class="sig-name descname"><span class="pre">bot_reload</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.bot_reload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.bot_run">
+<code class="sig-name descname"><span class="pre">bot_run</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">run_subcommand</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">console_type</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">message_action_kind</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dryrun</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">show_sent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">loglevel</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.bot_run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.bot_start">
+<code class="sig-name descname"><span class="pre">bot_start</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.bot_start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.bot_status">
+<code class="sig-name descname"><span class="pre">bot_status</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">str</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.bot_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="intelmq.bin.intelmqctl.SupervisorProcessManager.bot_stop">
+<code class="sig-name descname"><span class="pre">bot_stop</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bot_id</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">getstatus</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.SupervisorProcessManager.bot_stop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqctl.log_bot_error">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">log_bot_error</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.log_bot_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqctl.log_bot_message">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">log_bot_message</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.log_bot_message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqctl.log_botnet_error">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">log_botnet_error</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.log_botnet_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqctl.log_botnet_message">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">log_botnet_message</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.log_botnet_message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqctl.log_log_messages">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">log_log_messages</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">messages</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.log_log_messages" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqctl.main">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqctl.</span></code><code class="sig-name descname"><span class="pre">main</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqctl.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-intelmq.bin.intelmqdump">
+<span id="intelmq-bin-intelmqdump-module"></span><h2>intelmq.bin.intelmqdump module<a class="headerlink" href="#module-intelmq.bin.intelmqdump" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="intelmq.bin.intelmqdump.Completer">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqdump.</span></code><code class="sig-name descname"><span class="pre">Completer</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">possible_values</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">queues</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqdump.Completer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="intelmq.bin.intelmqdump.Completer.complete">
+<code class="sig-name descname"><span class="pre">complete</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">state</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqdump.Completer.complete" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqdump.Completer.queues">
+<code class="sig-name descname"><span class="pre">queues</span></code><em class="property"> <span class="pre">=</span> <span class="pre">None</span></em><a class="headerlink" href="#intelmq.bin.intelmqdump.Completer.queues" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="intelmq.bin.intelmqdump.Completer.state">
+<code class="sig-name descname"><span class="pre">state</span></code><em class="property"> <span class="pre">=</span> <span class="pre">None</span></em><a class="headerlink" href="#intelmq.bin.intelmqdump.Completer.state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqdump.dump_info">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqdump.</span></code><code class="sig-name descname"><span class="pre">dump_info</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fname</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_descriptor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqdump.dump_info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqdump.load_meta">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqdump.</span></code><code class="sig-name descname"><span class="pre">load_meta</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dump</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqdump.load_meta" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqdump.main">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqdump.</span></code><code class="sig-name descname"><span class="pre">main</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqdump.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqdump.save_file">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqdump.</span></code><code class="sig-name descname"><span class="pre">save_file</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">handle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">content</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqdump.save_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-intelmq.bin.intelmqsetup">
+<span id="intelmq-bin-intelmqsetup-module"></span><h2>intelmq.bin.intelmqsetup module<a class="headerlink" href="#module-intelmq.bin.intelmqsetup" title="Permalink to this headline">¶</a></h2>
+<p>© 2019-2021 nic.at GmbH &lt;<a class="reference external" href="mailto:intelmq-team&#37;&#52;&#48;cert&#46;at">intelmq-team<span>&#64;</span>cert<span>&#46;</span>at</a>&gt;</p>
+<p>SPDX-License-Identifier: AGPL-3.0-or-later</p>
+<dl class="simple">
+<dt>Sets up an intelmq environment after installation or upgrade by</dt><dd><ul class="simple">
+<li><p>creating needed directories</p></li>
+<li><p>set intelmq as owner for those</p></li>
+<li><p>providing example configuration files if not already existing</p></li>
+</ul>
+</dd>
+<dt>If intelmq-api is installed, the similar steps are performed:</dt><dd><ul class="simple">
+<li><p>creates needed directories</p></li>
+<li><p>sets the webserver as group for them</p></li>
+<li><p>sets group write permissions</p></li>
+</ul>
+</dd>
+</dl>
+<p>Reasoning:
+Pip does not (and cannot) create <cite>/opt/intelmq</cite>/user-given ROOT_DIR, as described in
+<a class="reference external" href="https://github.com/certtools/intelmq/issues/819">https://github.com/certtools/intelmq/issues/819</a></p>
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.basic_checks">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">basic_checks</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">skip_ownership</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.basic_checks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.change_owner">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">change_owner</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">owner</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">group</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.change_owner" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.create_directory">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">create_directory</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">directory</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">octal_mode</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.create_directory" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.debian_activate_apache_config">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">debian_activate_apache_config</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.debian_activate_apache_config" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.find_webserver_configuration_directory">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">find_webserver_configuration_directory</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.find_webserver_configuration_directory" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.find_webserver_user">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">find_webserver_user</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.find_webserver_user" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.intelmqsetup_api">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">intelmqsetup_api</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ownership</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">bool</span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">webserver_user</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.intelmqsetup_api" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.intelmqsetup_api_webserver_configuration">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">intelmqsetup_api_webserver_configuration</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">webserver_configuration_directory</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.intelmqsetup_api_webserver_configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.intelmqsetup_core">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">intelmqsetup_core</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ownership</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">state_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'/opt/intelmq/var/lib/state.json'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.intelmqsetup_core" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.intelmqsetup_manager_webserver_configuration">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">intelmqsetup_manager_webserver_configuration</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">webserver_configuration_directory</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.intelmqsetup_manager_webserver_configuration" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="intelmq.bin.intelmqsetup.main">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.intelmqsetup.</span></code><code class="sig-name descname"><span class="pre">main</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.intelmqsetup.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-intelmq.bin.rewrite_config_files">
+<span id="intelmq-bin-rewrite-config-files-module"></span><h2>intelmq.bin.rewrite_config_files module<a class="headerlink" href="#module-intelmq.bin.rewrite_config_files" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="intelmq.bin.rewrite_config_files.rewrite">
+<code class="sig-prename descclassname"><span class="pre">intelmq.bin.rewrite_config_files.</span></code><code class="sig-name descname"><span class="pre">rewrite</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fobj</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#intelmq.bin.rewrite_config_files.rewrite" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-intelmq.bin">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-intelmq.bin" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../index.html">
+    <img class="logo" src="../_static/Logo_Intel_MQ.svg" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=certtools&repo=intelmq&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../user/introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/hardware-requirements.html">Hardware Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/upgrade.html">Upgrade instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/configuration-management.html">Configuration and Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/bots.html">Bots</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/intelmqctl.html">intelmqctl documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/feeds.html">Feeds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/FAQ.html">Frequently asked questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/intelmq-api.html">IntelMQ API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/intelmq-manager.html">IntelMQ Manager</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../user/ecosystem.html">IntelMQ Ecosystem</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/ELK-Stack.html">ELK Stack</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/MISP-Integrations.html">MISP integrations in IntelMQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/n6-integrations.html">IntelMQ - n6 Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/eventdb.html">EventDB</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../dev/guide.html">Developers Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/data-format.html">Data Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/harmonization-fields.html">Harmonization field names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/release-procedure.html">Release procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev/feeds-wishlist.html">Feeds wishlist</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, cert.at.
+      
+      |
+      <a href="../_sources/source/intelmq.bin.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
