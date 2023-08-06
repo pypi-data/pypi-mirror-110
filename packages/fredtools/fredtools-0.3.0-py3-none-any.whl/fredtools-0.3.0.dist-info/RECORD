@@ -1,0 +1,13 @@
+fredtools/__init__.py,sha256=vpwp1ukBS5T1-Sm4EwpRDh68glti-ptbheHhF1_dQ7M,5854
+fredtools/ft_imgAnalyse.py,sha256=-Yz5BgDjU_6fgiYAponpJvV2AvaReGHFmrAaVDCInJw,26748
+fredtools/ft_imgGetSubimg.py,sha256=VM4rNFlvmUuwiye8C5aIDuzimB2MWhsy1EC84WWexNk,29945
+fredtools/ft_imgManipulate.py,sha256=bandV7JkRRGiX2WmsNC2il9P_sJjACTZZ8hNYd4mryM,15703
+fredtools/ft_simTools.py,sha256=HoeA1zH0pNiZfUSG-p-LSUNBb6ENpJB4usEsCwrX9-E,1632
+fredtools/ft_imgIO/__init__.py,sha256=mu4qZWDTV-ij6DDhfpJc0UGox_4BcAhKJwfvNbe_qVw,70
+fredtools/ft_imgIO/dicom_io.py,sha256=6UrYVQ7o019Dcd7yAD6Ju9nYboWd3f5deoQ8hRtoMxk,21199
+fredtools/ft_imgIO/map3d_io.py,sha256=mahLsF_mHc5TR6h9Zht9JHntcgwzVf4fGSUDFKVj6P0,6102
+fredtools/ft_imgIO/mhd_io.py,sha256=BD_obYsl5Y9GcfNQ-mYdVRJx9CixqQkRt349Y_0Jnxk,4851
+fredtools-0.3.0.dist-info/METADATA,sha256=dZ6tLExwIM7WM7X3QQ6melIAJPkcuiAX3LCEYx9HOS8,2522
+fredtools-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fredtools-0.3.0.dist-info/top_level.txt,sha256=E6A6ysomqbiGakufEZjE4VH4UU1W_mGffZ0qc3OobgM,10
+fredtools-0.3.0.dist-info/RECORD,,
