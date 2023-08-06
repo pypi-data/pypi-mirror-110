@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: manifoldy
+Version: 0.3.6
+Summary: A package to generate customizable manifold synthetic datasets.
+Home-page: https://github.com/KNODIS-Research-Group/manifoldy
+Author: Raul Lara-Cabrera
+Author-email: raul.lara@upm.es
