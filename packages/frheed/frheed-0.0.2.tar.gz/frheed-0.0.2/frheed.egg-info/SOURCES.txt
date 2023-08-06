@@ -1,0 +1,80 @@
+.gitattributes
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+frheed/__init__.py
+frheed/__version__.py
+frheed/calcs.py
+frheed/constants.py
+frheed/gui.py
+frheed/image_processing.py
+frheed/materials.py
+frheed/settings.py
+frheed/styles.py
+frheed/utils.py
+frheed.egg-info/PKG-INFO
+frheed.egg-info/SOURCES.txt
+frheed.egg-info/dependency_links.txt
+frheed.egg-info/requires.txt
+frheed.egg-info/top_level.txt
+frheed/cameras/__init__.py
+frheed/cameras/flir/__init__.py
+frheed/cameras/flir/install_pyspin.py
+frheed/cameras/flir/spinnaker_win32/README.txt
+frheed/cameras/flir/spinnaker_win32/spinnaker_python-2.4.0.144-cp38-cp38-win32.whl
+frheed/cameras/flir/spinnaker_win32/docs/FLIR Camera Getting Started.html
+frheed/cameras/flir/spinnaker_win32/docs/PySpinDoc.chm
+frheed/cameras/flir/spinnaker_win32/docs/PySpinDoc.pdf
+frheed/cameras/flir/spinnaker_win32/licenses/FFmpeg_compliance_doc.txt
+frheed/cameras/flir/spinnaker_win32/licenses/Spinnaker-Open-Source-Licenses.pdf
+frheed/cameras/flir/spinnaker_win64/README.txt
+frheed/cameras/flir/spinnaker_win64/spinnaker_python-2.4.0.144-cp38-cp38-win_amd64.whl
+frheed/cameras/flir/spinnaker_win64/licenses/FFmpeg_compliance_doc.txt
+frheed/cameras/flir/spinnaker_win64/licenses/Spinnaker-Open-Source-Licenses.pdf
+frheed/cameras/usb/__init__.py
+frheed/resources/icons/FRHEED.ico
+frheed/resources/icons/FRHEED.png
+frheed/resources/icons/blue rect.png
+frheed/resources/icons/change user icon.png
+frheed/resources/icons/checkbox.png
+frheed/resources/icons/close tab hover icon.png
+frheed/resources/icons/close tab icon.png
+frheed/resources/icons/disabled moving icon.png
+frheed/resources/icons/down button gray.png
+frheed/resources/icons/down button hover.png
+frheed/resources/icons/down button.png
+frheed/resources/icons/edit sample icon.png
+frheed/resources/icons/green rect.png
+frheed/resources/icons/hidden icon.png
+frheed/resources/icons/left button gray.png
+frheed/resources/icons/left button hover.png
+frheed/resources/icons/left button.png
+frheed/resources/icons/moving icon.png
+frheed/resources/icons/open folder icon.png
+frheed/resources/icons/orange rect.png
+frheed/resources/icons/picture icon.png
+frheed/resources/icons/plot icon disabled.png
+frheed/resources/icons/plot icon.png
+frheed/resources/icons/purple rect.png
+frheed/resources/icons/red rect.png
+frheed/resources/icons/right button gray.png
+frheed/resources/icons/right button hover.png
+frheed/resources/icons/right button.png
+frheed/resources/icons/start recording icon.png
+frheed/resources/icons/stop plot icon.png
+frheed/resources/icons/stop recording icon.png
+frheed/resources/icons/up button gray.png
+frheed/resources/icons/up button hover.png
+frheed/resources/icons/up button.png
+frheed/resources/icons/update plot icon disabled.png
+frheed/resources/icons/update plot icon.png
+frheed/resources/icons/visible icon.png
+frheed/widgets/__init__.py
+frheed/widgets/camera_widget.py
+frheed/widgets/canvas_widget.py
+frheed/widgets/common_widgets.py
+frheed/widgets/plot_widgets.py
+frheed/widgets/rheed_widgets.py
+frheed/widgets/selection_widgets.py
