@@ -1,0 +1,78 @@
+<html>
+<head>
+        <title>{{title}}</title>
+        <style type="text/html">
+                .img-inline li img {
+                        width: 100px;
+                }
+                .img-inline li span {
+                        display: flex;
+                        align-items: center;
+                }
+        </style>
+</head>
+<body>
+<h1>{{title}}</h1>
+<ol class="img-inline">
+{% for event in report %}
+
+{% if event.type == "mouse" and event.action == "click" %}
+{% if event.combined  %}
+<li><span> Press and hold <b>{{event.combined}}</b>.</span></li>
+{% endif %}
+<li><span> Click with the <b>{{event.button}}</b> button at coordinates <b>{{event.coordinates[0], event.coordinates[1]}}</b>. See the screenshot for the aproximate
+area of the click. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li> 
+
+
+{% elif event.type == "mouse" and event.action == "doubleclick" %}
+{% if event.combined  %}
+<li><span> Press and hold <b>{{event.combined}}</b>.</span></li>
+{% endif %}
+<li><span> Doubleclick with the <b>{{event.button}}</b> button at coordinates <b>{{event.coordinates[0], event.coordinates[1]}}</b>. See the screenshot for the aproximate
+area of the click. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li>
+
+
+{% elif event.type == "mouse" and event.action == "scroll" %}
+{% if event.combined  %}
+<li><span> Press and hold <b>{{event.combined}}</b>.</span></li>
+{% endif %}
+<li><span> Scroll the mouse to the <b>{{event.direction}}</b> by <b>{{event.horizontal}}</b> horizontal and <b>{{event.vertical}}</b> vertical steps. See the screenshot for the result of the action. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li>
+
+
+{% elif event.type == "mouse" and event.action == "drag" %}
+{% if event.combined  %}
+<li><span> Press and hold <b>{{event.combined}}</b>.</span></li>
+{% endif %}
+<li><span> Click and hold the <b>{{event.button}}</b> button at coordinates <b>{{event.coordinates[0], event.coordinates[1]}}</b>, drag the mouse to the coordinates <b>{{event.end_coordinates[0], event.end_coordinates[1]}}</b>, and release the mouse button. See the screenshot for the area affected by the action. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li>
+
+
+{% elif event.type == "key combination" and event.subtype == "modifier" and event.action == "press" %}
+{% if event.combined %}
+<li><span> Press and hold the <b>{{event.combined}}</b> modifier.</span></li>
+{% endif %}
+<li><span> Press <b>{{event.key}}</b>. See the modifier release screenshot for the result of the action.</span></li>
+
+
+{% elif event.type == "key" and event.subtype == "special" and event.action == "press" %}
+{% if event.combined  %}
+<li><span> Press and hold the <b>{{event.combined}}</b> modifier.</span></li> 
+{% endif %}
+<li><span> Press <b>{{event.key}}</b>. See the screenshot for the result of the action. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li>
+
+
+{% elif event.type == "typing" %}
+<li><span> Type <b>{{event.text}}</b>.</span></li>
+
+{% elif event.type == "key" and event.subtype == "modifier" and event.action == "release"%}
+<li><span> Release modifier. See the screenshot for the result of the action. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li>
+
+
+{% elif event.type == "key" and event.subtype == "stop" and event.action == "press" %}
+<li><span> This is the end of the recording. See the screenshot that shows the situation at the end of the recording. <br /><img src="{{event.screens[0]}}" width="70%" /></span></li>
+
+
+{% endif %}
+{% endfor %}
+</ol>
+</body>
+</html>
