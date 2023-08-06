@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: xiaolisensor
+Version: 0.0.1
+Summary: xiaili sensors sdk
+Home-page: http://xialingming
+Author: lmxia
+Author-email: xialingming@gmail.com
+License: MIT Licence
+Description: xiaoli sensors sdk for python
+Keywords: xiaolisensor,sdk,xialingming
+Platform: any
