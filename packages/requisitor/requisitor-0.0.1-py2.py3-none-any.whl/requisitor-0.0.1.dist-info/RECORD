@@ -1,0 +1,15 @@
+requisitor/__init__.py,sha256=yzQtdWp_hE-JNpXv7vEiEBzKRjALmacm8FNPExFQ-T0,3102
+requisitor/auth.py,sha256=CmufE92Sj82_8l3QH6KLQqrZfWVjG7g345oxrbBOHXM,1860
+requisitor/codes.py,sha256=1eq-MbBUlBTjxPJ_KJh1Qg6O5-pwTCuL1U9F-l428fE,2214
+requisitor/errors.py,sha256=x1iOHCuhlsvvHcD6-IlTHvXkOWX9XviBLroEWtGg3Zo,935
+requisitor/handlers.py,sha256=NOO_Fcx3HpAnOj37KDJezw7XL6tfmQCoB1ZT_cc3174,6548
+requisitor/headers.py,sha256=U2n2b9-40pqmcSVW_RDEisDhCagCWkziqZupHmTDfIo,2538
+requisitor/multipart.py,sha256=pWMglxZ8Fjb5eVOaroRZMIL09gVkMN9m8W16RIpYE0o,4049
+requisitor/response.py,sha256=_NIu7Az1HC4FmKl7tPCkFD_ToHk1I1kiz4gH_gzNcDE,3041
+requisitor/sentinel.py,sha256=YPQ9pUb_zjIDUzLf_KnVO0r5abQ1u2z96LBgMlty-e8,766
+requisitor/session.py,sha256=gWnoLJwx2fKlG4dsXSvTTRtrxIT6gY2mCC5GOQbI82c,7715
+requisitor/utils.py,sha256=4caXv1CrZkY8xSXVPnpyFAa_narVBCG692UKHacWFMM,2671
+requisitor-0.0.1.dist-info/METADATA,sha256=KlrE3Uc4lil44KVX472PfyjlGeK3YFocbt5f3amyLSc,1227
+requisitor-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+requisitor-0.0.1.dist-info/top_level.txt,sha256=_f2rs5rP7_U3hh4Hf9Z7eg3vPmVeVm3LRTY6y_u3PLw,11
+requisitor-0.0.1.dist-info/RECORD,,
