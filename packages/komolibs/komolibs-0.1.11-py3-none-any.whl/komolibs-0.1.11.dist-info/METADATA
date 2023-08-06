@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: komolibs
+Version: 0.1.11
+Summary: 
+Author: Khosi Morafo
+Author-email: khosimorafo@yahoo.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiokafka (>=0.7.1,<0.8.0)
+Requires-Dist: aioredis (>=1.3.1,<2.0.0)
+Requires-Dist: avro (>=1.10.2,<2.0.0)
+Requires-Dist: certifi (>=2021.5.30,<2022.0.0)
+Requires-Dist: confluent-kafka (>=1.7.0,<2.0.0)
+Requires-Dist: kafka-python (>=2.0.2,<3.0.0)
