@@ -1,0 +1,12 @@
+mne
+wget
+plotly
+numpy
+scipy
+scikit-learn
+pandas
+
+[dev]
+pytest>=3.2
+check-manifest
+twine

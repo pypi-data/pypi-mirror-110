@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pystmm
+Version: 0.1.0
+Summary: Support Tensor Machine Multiclassifier
+Home-page: https://github.com/cdfbdex/pySTMM
+Author: Carlos Ferrin-Bolaños, Wilfredo Alfonso-Morales and Humberto Loaiza-Correa
+Author-email: cdfbdex@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
