@@ -1,0 +1,74 @@
+[tool.poetry]
+name = "matrix42sdk"
+version = "3.0.1"
+description = "Python SDK for Matrix42 Enterprise Service Management CMBD"
+authors = ["John Malc <cincenko@outlook.com>"]
+homepage = "https://github.com/dmpe/matrix42sdk"
+documentation = ""
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Internet :: WWW/HTTP",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8" #minimal
+requests = "^2"
+mypy = "0.*"
+pytest = "6.*"
+
+[tool.poetry.dev-dependencies]
+mock = "*"
+isort = {extras = ["pyproject"], version = "*"}
+black = {version = "*", allow-prereleases = true }
+pytest-cov = "*"
+pylint = "*"
+keyring = "*"
+artifacts-keyring = "*"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-v --capture=no"
+testpaths = [
+    "tests"
+]
+
+[tool.black]
+line-length = 90
+target-version = ['py38', 'py39']
+exclude = '''
+(
+    asv_bench/env
+  | \.egg
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.nox
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | setup.py
+)
+'''
+
+[tool.isort]
+profile = "black"
+known_standard_library = "dataclasses,typing_extensions"
+known_third_party = "click,log"
+combine_as_imports = true
+force_grid_wrap = false
+include_trailing_comma = true
+lines_after_imports = 2
+line_length = 90
+default_section = "FIRSTPARTY"
