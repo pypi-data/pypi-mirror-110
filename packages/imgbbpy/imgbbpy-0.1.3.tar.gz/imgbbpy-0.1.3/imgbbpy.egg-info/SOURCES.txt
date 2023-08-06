@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+imgbbpy/__init__.py
+imgbbpy/imgbb.py
+imgbbpy/imgerrors.py
+imgbbpy/imggallery.py
+imgbbpy.egg-info/PKG-INFO
+imgbbpy.egg-info/SOURCES.txt
+imgbbpy.egg-info/dependency_links.txt
+imgbbpy.egg-info/requires.txt
+imgbbpy.egg-info/top_level.txt
