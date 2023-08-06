@@ -1,0 +1,3 @@
+[console_scripts]
+sen3r = main:main
+
