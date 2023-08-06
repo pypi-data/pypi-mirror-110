@@ -1,0 +1,11 @@
+README.md
+setup.py
+libpython_01/__init__.py
+libpython_01/github.py
+libpython_01/github2.py
+libpython_01.egg-info/PKG-INFO
+libpython_01.egg-info/SOURCES.txt
+libpython_01.egg-info/dependency_links.txt
+libpython_01.egg-info/not-zip-safe
+libpython_01.egg-info/requires.txt
+libpython_01.egg-info/top_level.txt
