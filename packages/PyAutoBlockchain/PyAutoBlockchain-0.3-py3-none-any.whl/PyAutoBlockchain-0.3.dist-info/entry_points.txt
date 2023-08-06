@@ -1,0 +1,3 @@
+[console_scripts]
+pab = pab.cli:main
+
