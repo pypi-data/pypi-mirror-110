@@ -1,0 +1,6 @@
+pymatgen<2023.0,>=2021.3
+monty~=2021.3
+pydantic[email]~=1.8
+pybtex~=0.24
+typing-extensions<4.0,>=3.7
+bson~=0.5
