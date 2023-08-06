@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pwea/WeatherCard.py
+pwea/__init__.py
+pwea/__main__.py
+pwea/ascii.json
+pwea/ascii_art.py
+pwea/key.py
+pwea.egg-info/PKG-INFO
+pwea.egg-info/SOURCES.txt
+pwea.egg-info/dependency_links.txt
+pwea.egg-info/entry_points.txt
+pwea.egg-info/requires.txt
+pwea.egg-info/top_level.txt

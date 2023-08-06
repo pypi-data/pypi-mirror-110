@@ -1,0 +1,3 @@
+[console_scripts]
+pwea = pwea.__main__:main
+
