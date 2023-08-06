@@ -1,0 +1,3 @@
+pandas>=1.1
+biopython>=1.77
+seqfold>=0.7.7
