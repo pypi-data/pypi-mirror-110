@@ -1,0 +1,4 @@
+[console_scripts]
+eic2hepmc = mcconv:eic2hepmc
+mcconv = mcconv:eic2hepmc
+
