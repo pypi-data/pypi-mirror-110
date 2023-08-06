@@ -1,0 +1,8 @@
+newrelic/__init__.py,sha256=nboUIh0iv5Jvodikxa-WcfjJ30Kfw13dbIqo-BcBQz8,175
+newrelic/alerts_channels_client.py,sha256=z2ROE0zI8EyL8rWoSl08UV0qYbWCQbOxdxZQ7jwG0sg,2874
+newrelic/insights_client.py,sha256=rTs2W8X6bWGev0-gQEWX_KdcDXCZVa6iPoM4OPa0WRo,3698
+myb_newrelic_api-1.0.1.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+myb_newrelic_api-1.0.1.dist-info/METADATA,sha256=U54-8ZR8i0ugjuq_k8oIJzMM9ueDrIZJIFDRefdrCEU,2068
+myb_newrelic_api-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+myb_newrelic_api-1.0.1.dist-info/top_level.txt,sha256=Wg1BAX681IXgVUXTAAuH-DM2LkifsxlzDk3eYbC7e8Q,9
+myb_newrelic_api-1.0.1.dist-info/RECORD,,
