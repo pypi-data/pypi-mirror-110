@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+branches/__init__.py
+branches/__main__.py
+branches/branches.py
+branches/cli.py
+branches.egg-info/PKG-INFO
+branches.egg-info/SOURCES.txt
+branches.egg-info/dependency_links.txt
+branches.egg-info/entry_points.txt
+branches.egg-info/top_level.txt
