@@ -1,0 +1,50 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentName: semver-3.0.0.dev2
+SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/semver-3.0.0.dev2-cd9fce7d-ea87-392f-f44c-411e6e1c3400
+DocumentComment: <text>This document was created automatically using available information from python packages.</text>
+
+
+# Creation Info
+
+Creator: Person: Kostiantyn Rybnikov (k-bx@k-bx.com)
+Creator: Tool: mbed-spdx-generator
+Created: 2021-06-25T17:29:35Z
+
+
+# Package
+
+PackageName: semver
+SPDXID: SPDXRef-semver
+PackageVersion: 3.0.0.dev2
+PackageDownloadLocation: NONE
+PackageSummary: <text>Python helper for Semantic Versioning (http://semver.org)</text>
+PackageFileName: semver
+PackageOriginator: Person: Kostiantyn Rybnikov (k-bx@k-bx.com)
+PackageChecksum: SHA1: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageDescription: <text>NOASSERTION</text>
+PackageLicenseDeclared: 0BSD
+PackageLicenseConcluded: 0BSD
+PackageLicenseInfoFromFiles: 0BSD
+PackageCopyrightText: NOASSERTION
+PackageHomePage: https://github.com/python-semver/python-semver
+
+
+# File
+
+FileName: UNKNOWN
+SPDXID: SPDXRef-ad921d60-4863-6625-8809-553a3db49a4a
+FileType: SOURCE
+FileChecksum: SHA1: 0
+LicenseConcluded: 0BSD
+LicenseInfoInFile: 0BSD
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# Extracted Licenses
+
