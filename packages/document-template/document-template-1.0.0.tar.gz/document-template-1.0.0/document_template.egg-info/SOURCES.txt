@@ -1,0 +1,13 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+document_template/__init__.py
+document_template/template.py
+document_template.egg-info/PKG-INFO
+document_template.egg-info/SOURCES.txt
+document_template.egg-info/dependency_links.txt
+document_template.egg-info/not-zip-safe
+document_template.egg-info/top_level.txt
