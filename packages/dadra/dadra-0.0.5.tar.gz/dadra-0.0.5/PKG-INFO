@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dadra
+Version: 0.0.5
+Summary: Library for Data-Driven Reachability Analysis
+Home-page: https://github.com/JaredMejia/dadra
+Author: Jared Mejia
+Author-email: jaredmejia@berkeley.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DaDRA
+[![Documentation Status](https://readthedocs.org/projects/dadra/badge/?version=latest)](https://dadra.readthedocs.io/en/latest/?badge=latest)
+[![PyPI Latest Release](https://img.shields.io/pypi/v/dadra.svg)](https://pypi.org/project/dadra/)
+[![License](https://img.shields.io/pypi/l/dadra.svg)](https://github.com/dadra/blob/master/LICENSE)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Python Library for Data-Driven Reachability Analysis.
+
+## Installation
+To install the current release of `dadra`:
+```
+$ pip install --upgrade dadra
+```
+
+## Resources
+* [PyPi](https://pypi.org/project/dadra/)
+* [Documentation](https://dadra.readthedocs.io/en/latest/)
+* [Issue tracking](https://github.com/JaredMejia/dadra/issues)
+
+## License
+[MIT License](https://github.com/JaredMejia/dadra/blob/main/LICENSE)
+
+## BibTeX
+```bibtex
+@article{JaredMejia,
+  title={DaDRA},
+  author={Mejia, Jared},
+  journal={GitHub. Note: https://github.com/JaredMejia/dadra},
+  volume={1},
+  year={2021}
+}
+```
+
+
