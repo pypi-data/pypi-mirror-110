@@ -1,0 +1,13 @@
+feebee/__init__.py,sha256=MioDqDuZ-yLHaEsOXUao65Jp76f75W19PsLPmQFec8g,73
+feebee/config.py,sha256=AMfA3XihFdPKgDUoCGL8drUuQykJ_5OvFwC9TCU_3ds,637
+feebee/exceptions.py,sha256=QZLbod5fJLYn3qj9Euz43pcgtPkNw86_io7qdsm9in0,549
+feebee/feebee.py,sha256=YeilOd9Wes894sTL8LXIubFC2B1_GcTGbItA73SjE8c,29933
+feebee/logging.py,sha256=VlQcfplIS6-jrBDjeGB2quli7gQCtbpIuUbyc2Myem4,242
+feebee/sqlite_keywords.txt,sha256=nuNkVWnTRRLJBTZXnZjHnDqJRYAiYO-K1UF27peCgTE,1006
+feebee/util.py,sha256=9UUlS9HLL0Z9oiD4daw0sJWcH54lR7GkB_jFjFgUUOI,13175
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=pS7X5BN6lahkbVK-Gb6hevOldHpz3BWYnYZKzog7s9o,2711
+feebee-0.8.8.dist-info/METADATA,sha256=-khf5DZPsTJ_-NmBwW7FEjFsZd75s4mkGlRJ36WBC_U,715
+feebee-0.8.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+feebee-0.8.8.dist-info/top_level.txt,sha256=uE3bGbjP25I4_HOof0HvMSavHX1zQaHM6rbAzJ56Myw,13
+feebee-0.8.8.dist-info/RECORD,,
