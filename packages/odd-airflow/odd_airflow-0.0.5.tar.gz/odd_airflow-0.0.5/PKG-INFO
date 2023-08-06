@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odd_airflow
+Version: 0.0.5
+Summary: ODD adapter to Airflow
+Home-page: UNKNOWN
+Author: Provectus ODD team
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: odd-airflow
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: tests
