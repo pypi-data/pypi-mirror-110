@@ -1,0 +1,12 @@
+README.md
+setup.py
+d3net/__init__.py
+d3net/filter.py
+d3net/model.py
+d3net/separate.py
+d3net/util.py
+d3net_spleeterweb.egg-info/PKG-INFO
+d3net_spleeterweb.egg-info/SOURCES.txt
+d3net_spleeterweb.egg-info/dependency_links.txt
+d3net_spleeterweb.egg-info/requires.txt
+d3net_spleeterweb.egg-info/top_level.txt
