@@ -1,0 +1,9 @@
+README.md
+setup.py
+StataLovers/__init__.py
+StataLovers/main_func.py
+StataLovers.egg-info/PKG-INFO
+StataLovers.egg-info/SOURCES.txt
+StataLovers.egg-info/dependency_links.txt
+StataLovers.egg-info/not-zip-safe
+StataLovers.egg-info/top_level.txt
