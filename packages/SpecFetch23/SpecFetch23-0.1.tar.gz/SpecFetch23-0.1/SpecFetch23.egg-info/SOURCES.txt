@@ -1,0 +1,8 @@
+README.md
+setup.py
+SpecFetch23/Extractor.py
+SpecFetch23/__init__.py
+SpecFetch23.egg-info/PKG-INFO
+SpecFetch23.egg-info/SOURCES.txt
+SpecFetch23.egg-info/dependency_links.txt
+SpecFetch23.egg-info/top_level.txt
