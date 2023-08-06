@@ -1,0 +1,5 @@
+setup.py
+fasttext_serving_protos.egg-info/PKG-INFO
+fasttext_serving_protos.egg-info/SOURCES.txt
+fasttext_serving_protos.egg-info/dependency_links.txt
+fasttext_serving_protos.egg-info/top_level.txt
