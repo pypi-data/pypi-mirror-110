@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: CryptoTokenAuth
+Version: 1.0.1
+Summary: A token authentication method.
+Home-page: https://github.com/QuackCoding/CryptoTokenAuth
+Author: Aiden (Dev)
+Author-email: 
+License: UNKNOWN
+Keywords: TokenAuthentication,CryptoTokenAuth,Authentication,Token
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: cffi
+Requires-Dist: cryptography
+Requires-Dist: pycparser
+
+## CryptoAuthToken  
+  
+* `A way for authenticating using token with cryptographic encryption system.`  
+  
+<br>  
+  
+## Installation  
+  
+* Install Package Using `pip`  
+  ```shell script  
+   python3 pip install CryptoTokenAuth  
+   ```  
+    
+<br>  
+  
+### How to use:  
+
+
