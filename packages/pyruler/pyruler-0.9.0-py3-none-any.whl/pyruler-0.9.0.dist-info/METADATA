@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyruler
+Version: 0.9.0
+Summary: Simple and powerful rule engine to generate complex data validations on an easy way
+Author: Eduardo Aguilar
+Author-email: dante.aguilar41@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
