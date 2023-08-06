@@ -1,0 +1,9 @@
+mykad/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+mykad/constants.py,sha256=wCBB36pIQi6Wa7t5kWfpRgkkfesNbOBKYSEuPmjRPr0,955
+mykad/mykad.py,sha256=r6m9JBeuI7UzvudXn0H3IjAxl_tUtb0XOtyBKW9OOa0,5094
+mykad/utils.py,sha256=u6Isz8wwsC8f4jFZEg0UF-qTDH-XprwPqeHiwL110YA,1599
+mykad-0.2.0.dist-info/LICENSE,sha256=kLlJCK3KuOrLeOQa_3XPG7_ZtomZiPKVBo33pqu3p8k,1055
+mykad-0.2.0.dist-info/METADATA,sha256=rc_CKGw3hOEDecRsOeYybo9QHlQq4F8XESeYxGOpw4U,3164
+mykad-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mykad-0.2.0.dist-info/top_level.txt,sha256=qKBtJQp7JOsaNVqJXTXKPPjfmLcRdHt79JNtFIvw6bg,6
+mykad-0.2.0.dist-info/RECORD,,
