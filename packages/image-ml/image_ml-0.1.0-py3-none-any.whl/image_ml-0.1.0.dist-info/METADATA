@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: image-ml
+Version: 0.1.0
+Summary: Image Processing with Machine Learning
+Home-page: UNKNOWN
+Author: Zeeshan Patel, Kushaagra Gupta, Brendan Mai, Aryan Dua
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+
+UNKNOWN
+
+
