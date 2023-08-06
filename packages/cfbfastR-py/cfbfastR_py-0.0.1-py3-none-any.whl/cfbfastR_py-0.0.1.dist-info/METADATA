@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: cfbfastR-py
+Version: 0.0.1
+Summary: Retrieve college football data in Python
+Home-page: https://github.com/saiemgilani/cfbfastR-py
+Author: Saiem Gilani
+Author-email: saiem.gilani@gmail.com
+Maintainer: Saiem Gilani
+License: MIT
+Keywords: college football data epa statistics web scraping
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.13.0)
+Requires-Dist: pandas (>=1.0.3)
+Requires-Dist: beautifulsoup4 (>=4.4.0)
+Requires-Dist: requests (>=2.18.1)
+Requires-Dist: lxml (>=4.2.1)
+Requires-Dist: pyarrow (>=1.0.1)
+Requires-Dist: pygithub (>=1.51)
+Requires-Dist: scipy (>=1.4.0)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: tqdm (>=4.50.0)
+Requires-Dist: attrs (>=20.3.0)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0.2) ; extra == 'test'
+Requires-Dist: mypy (>=0.782) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.10.1) ; extra == 'test'
+Requires-Dist: pytest-xdist (>=2.1.0) ; extra == 'test'
+
+# cfbfastR-py
+<!-- badges: start -->
+
+![Lifecycle:experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)
+![Contributors](https://img.shields.io/github/contributors/saiemgilani/cfbfastR-py?style=for-the-badge)
+[![Twitter
+Follow](https://img.shields.io/twitter/follow/cfbfastR?color=blue&label=%40cfbfastR&logo=twitter&style=for-the-badge)](https://twitter.com/cfbfastR)
+
+<!-- badges: end -->
+
+
+See [CHANGELOG.md](CHANGELOG.md) for details.
+
+The goal of [cfbfastR-py](https://github.com/saiemgilani/cfbfastR-py) is to provide the community with a python package for working with CFB data as a companion to the [cfbfastR](https://github.com/saiemgilani/cfbfastR) R package. Beyond data aggregation and tidying ease, one of the multitude of services that [cfbfastR-py](https://github.com/saiemgilani/cfbfastR-py) provides is for benchmarking open-source expected points and win probability metrics.
+
+## Installation
+
+cfbfastR-py can be installed via pip:
+
+```bash
+pip install cfbfastR-py
+```
+
+or from the repo (which may at times be more up to date):
+
+```bash
+git clone https://github.com/saiemgilani/cfbfastR-py
+cd cfbfastR-py
+pip install -e .
+```
+
