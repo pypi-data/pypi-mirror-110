@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+jarlan_aula_lib.egg-info/PKG-INFO
+jarlan_aula_lib.egg-info/SOURCES.txt
+jarlan_aula_lib.egg-info/dependency_links.txt
+jarlan_aula_lib.egg-info/not-zip-safe
+jarlan_aula_lib.egg-info/requires.txt
+jarlan_aula_lib.egg-info/top_level.txt
+libpythonpro/__init__.py
+libpythonpro/github_api.py

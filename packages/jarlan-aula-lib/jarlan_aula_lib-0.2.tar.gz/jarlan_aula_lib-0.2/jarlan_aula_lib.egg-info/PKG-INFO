@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jarlan-aula-lib
+Version: 0.2
+Summary: Módulo para exemplificar construção de projetos Python no curso PyTools
+Home-page: https://github.com/jarlanjsl/libpythonpro
+Author: Jarlan Silva
+Author-email: silvajarlan@gmail.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: Descrição longa do pacote de instalação
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
