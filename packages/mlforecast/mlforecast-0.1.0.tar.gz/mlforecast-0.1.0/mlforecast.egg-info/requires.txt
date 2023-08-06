@@ -1,0 +1,15 @@
+numba
+pandas
+scikit-learn
+window-ops
+
+[aws]
+s3path
+
+[cli]
+pydantic
+pyyaml
+typer
+
+[distributed]
+dask[complete]
