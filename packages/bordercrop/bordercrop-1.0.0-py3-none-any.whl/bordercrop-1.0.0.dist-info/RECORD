@@ -1,0 +1,14 @@
+bordercrop/LICENSE,sha256=aZWK0g5T5Q96oJMyB9PnsnmxzdiS5NqT2lcU5c17ymU,1069
+bordercrop/__init__.py,sha256=yFVtOdpNok04W3mzisGmcNH9x_TA7rdyQvBwel1tMNw,477
+bordercrop/__main__.py,sha256=Lkyu-hpLt8AT69rMigEEmQwxHup-1AnPZaYbn90V53E,1479
+bordercrop/bordercrop.py,sha256=duKL8WEIdBEnucYZEf1ZpIrwSDor8q5qdgAQVoV4rXo,6010
+bordercrop/exceptions.py,sha256=n1Kn5J0r1AUW6il6pqE6OhC7ELtI9RXN19h0C6YVNgs,318
+bordercrop/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bordercrop/utils/annotations.py,sha256=Phd80S3N2vp6abWVI89aiql2zMACm7rbrcBWv-tMGVk,154
+bordercrop/utils/validate.py,sha256=PqOy98f_Ta_uXEqtEA4HnP8aVSFBPlVQLFGPVGwifsA,790
+bordercrop-1.0.0.dist-info/LICENSE,sha256=aZWK0g5T5Q96oJMyB9PnsnmxzdiS5NqT2lcU5c17ymU,1069
+bordercrop-1.0.0.dist-info/METADATA,sha256=YwIkOJiZp7X2pwYNEgLrHjYvHoDx6REjZSaeaj60KFA,7054
+bordercrop-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bordercrop-1.0.0.dist-info/entry_points.txt,sha256=VM82mywPky2pEoMEVp4-1AyaCvE3knJHQe-hpvqdv5E,57
+bordercrop-1.0.0.dist-info/top_level.txt,sha256=wSjKX79tnvxPyStbH9i-qGFUlF4Evyqfn7T9ElIAOrs,11
+bordercrop-1.0.0.dist-info/RECORD,,
