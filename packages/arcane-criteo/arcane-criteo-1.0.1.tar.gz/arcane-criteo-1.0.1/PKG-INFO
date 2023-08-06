@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: arcane-criteo
+Version: 1.0.1
+Summary: A client to help us request Criteo API
+Author: Arcane
+Author-email: product@arcane.run
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: backoff (>=1.10.0,<2.0.0)
+Requires-Dist: criteo-marketing-transition (>=1.0.3,<2.0.0)
