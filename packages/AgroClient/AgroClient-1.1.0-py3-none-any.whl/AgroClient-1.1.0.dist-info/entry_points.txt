@@ -1,0 +1,3 @@
+[console_scripts]
+AgroClient = agrothon_client.__main__:main
+
