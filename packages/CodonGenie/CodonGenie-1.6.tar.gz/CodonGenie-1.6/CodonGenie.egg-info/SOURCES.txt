@@ -1,0 +1,17 @@
+README.md
+setup.py
+CodonGenie.egg-info/PKG-INFO
+CodonGenie.egg-info/SOURCES.txt
+CodonGenie.egg-info/dependency_links.txt
+CodonGenie.egg-info/top_level.txt
+codon_genie/__init__.py
+codon_genie/client.py
+codon_genie/codon_genie.py
+codon_genie/codon_utils.py
+codon_genie/ncbi_tax_utils.py
+codon_genie/seq_utils.py
+codon_genie/example/__init__.py
+codon_genie/example/align.py
+codon_genie/test/__init__.py
+codon_genie/test/test_client.py
+codon_genie/test/test_codon_genie.py
