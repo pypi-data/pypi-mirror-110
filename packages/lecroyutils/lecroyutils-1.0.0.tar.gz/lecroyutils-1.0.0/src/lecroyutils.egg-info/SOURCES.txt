@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lecroyutils/LecroyScopeControl.py
+src/lecroyutils/LecroyScopeData.py
+src/lecroyutils/__init__.py
+src/lecroyutils.egg-info/PKG-INFO
+src/lecroyutils.egg-info/SOURCES.txt
+src/lecroyutils.egg-info/dependency_links.txt
+src/lecroyutils.egg-info/requires.txt
+src/lecroyutils.egg-info/top_level.txt
