@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: priority-collections
+Version: 0.0.3
+Summary: NGV Architecture Cython Building Modules
+Home-page: UNKNOWN
+Author: Eleftherios Zisis
+Author-email: eleftherios.zisis@epfl.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.19)
+
+UNKNOWN
+
+
