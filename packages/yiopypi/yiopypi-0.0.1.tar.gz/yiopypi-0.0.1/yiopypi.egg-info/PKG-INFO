@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: yiopypi
+Version: 0.0.1
+Summary: YIO Remote V2 API python library
+Home-page: https://github.com/YIO-Remote/yiopypi
+Author: Marton Borzak
+Author-email: marton@yio-remote.com
+License: MIT License
+Description: UNKNOWN
+Keywords: yio,yioremote
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
