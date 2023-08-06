@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Ocr-Req
+Version: 0.1
+Summary: An example python package
+Home-page: UNKNOWN
+Author: Vardhani k 
+Author-email: vardhanikanamarlapudi@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE.txt
+
+install package with following command:
+pip install pdfminer
+pip install -i https://test.pypi.org/simple/ Pdf-Ocr-Req-Or-Not==0.1
+
+
+
