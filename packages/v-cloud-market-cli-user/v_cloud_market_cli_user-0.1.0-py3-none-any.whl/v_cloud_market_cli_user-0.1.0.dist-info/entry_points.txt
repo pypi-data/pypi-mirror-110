@@ -1,0 +1,3 @@
+[console_scripts]
+vcloud = market_place_cli.main_logic:start
+

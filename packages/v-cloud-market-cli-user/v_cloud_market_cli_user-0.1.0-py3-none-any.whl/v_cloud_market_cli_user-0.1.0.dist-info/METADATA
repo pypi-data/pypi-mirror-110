@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: v-cloud-market-cli-user
+Version: 0.1.0
+Summary: V Cloud Market Command Tool For User.
+Home-page: https://github.com/virtualeconomy/v-cloud-market-cli-user
+Author: hvoid-build-block
+License: MIT
+Keywords: vcloud-market-cli-user
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: attrs (==20.3.0)
+Requires-Dist: base58 (==2.0.1)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: cffi (==1.14.4)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: click-option-group (==0.5.2)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: ecdsa (==0.16.1)
+Requires-Dist: idna (==2.10)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: pyblake2 (==1.1.2)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pycryptodome (==3.9.9)
+Requires-Dist: pyfiglet (==0.8.post1)
+Requires-Dist: Pygments (==2.7.3)
+Requires-Dist: PyNaCl (==1.4.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: PyQRCode (==1.2.1)
+Requires-Dist: pytest (==6.2.1)
+Requires-Dist: python-axolotl-curve25519 (==0.4.1.post2)
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: Random-Word-Generator (==1.2)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: requests-mock (==1.8.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rich (==9.5.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: texttable (==1.6.3)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.26.2)
+
+# v-cloud
+# Functions:
+
+## Wallet:
+
+- create wallet
+- reset wallet
+- recover wallet with seed
+- check balance of address in the wallet
+
+## order:
+
+- make an order for service
+- Pay the order with vsys
+- check the status of order
+- view the order history
+- view the specific order history
+- user refund with the order 
+- view refundable order history
+
+## provider:
+
+- upload template 
+- template including `start` and `stop` script
+- calculate the price
+- check all the service provider information
+- check all the category of the provider 
+- check all the service type of the category
+
+## user service:
+
+- check the secret with user-service ID
+- view the user-service whose status is `ServicePending` or `ServiceRunning` 
+
+## v-kube-service:
+
+- start the user service with secret
+- check the order with secret
+- Check the status of the pod with secret
+- view the log of the pod with secret 
+- service refund when port occupied 
+- grafana view
+
+## v-kube-rcs
+
+- bandwidth limited
+
+
+
