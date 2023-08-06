@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+GenDoc.egg-info/PKG-INFO
+GenDoc.egg-info/SOURCES.txt
+GenDoc.egg-info/dependency_links.txt
+GenDoc.egg-info/entry_points.txt
+GenDoc.egg-info/top_level.txt
+gen_doc/__init__.py
+gen_doc/main.py
