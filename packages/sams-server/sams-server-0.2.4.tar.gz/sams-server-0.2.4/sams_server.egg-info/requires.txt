@@ -1,0 +1,2 @@
+superdesk-core>=2.2.0
+sams-client<0.3,>=0.2.3
