@@ -1,0 +1,11 @@
+stpd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stpd/utils_geocode.py,sha256=rYemO6GMgBuaeulEtvrEvlPdkc72vikU-e_vtvpvB7M,280
+stpd/version.py,sha256=g0RU_Fiae76hPEUjU6lGnapa9IZoqGcB4oFcTnsoMbM,142
+stpd/openstreetmap/__init__.py,sha256=ufvPaPiQk-AuKVhFdGHCYKPZEAkkcQhjavldJrIu-5Q,41
+stpd/openstreetmap/_openstreetmap.py,sha256=wsSQZ0mgbMqRyRF4ZC4YljL9fy05EhmbukTkfzOk9ns,3263
+stpd/openstreetmap/_osm_features.py,sha256=ORFxEI6wSrrureUgBrU0zeS89ZVv8R_0V5oNa7xNB9s,3402
+SpaceTimePandas-0.2.0.dist-info/LICENSE,sha256=jneUcNicB4LprXIGh1iNpB6NPoa-0zyERnlakk-A7Ak,1068
+SpaceTimePandas-0.2.0.dist-info/METADATA,sha256=TkEvqweiuXEGGLwly5ZZ5w63JypCQRDUfmZVWRYPnMM,1144
+SpaceTimePandas-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+SpaceTimePandas-0.2.0.dist-info/top_level.txt,sha256=FlZHf6k8qO1CqjgydE2FON676ddd08t3apF3wx3a758,5
+SpaceTimePandas-0.2.0.dist-info/RECORD,,
