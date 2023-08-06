@@ -1,0 +1,156 @@
+Metadata-Version: 2.1
+Name: napari-allencell-segmenter
+Version: 0.0.0
+Summary: A plugin that enables image segmentation provided by AICS
+Home-page: https://github.com/AllenCell/napari-allencell-segmenter
+Author: Jamie Sherman
+Author-email: jamies@alleninstitute.org
+License: BSD-3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: napari
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: napari (>=0.4.9)
+Requires-Dist: napari-plugin-engine (>=0.1.4)
+Requires-Dist: numpy
+Requires-Dist: aicssegmentation (>=0.3.0)
+Requires-Dist: magicgui (>=0.2.9)
+Requires-Dist: aicsimageio (<4,>=3.3.6)
+Requires-Dist: opencv-python-headless (>=4.5.1)
+Provides-Extra: all
+Requires-Dist: napari (>=0.4.9) ; extra == 'all'
+Requires-Dist: napari-plugin-engine (>=0.1.4) ; extra == 'all'
+Requires-Dist: numpy ; extra == 'all'
+Requires-Dist: aicssegmentation (>=0.3.0) ; extra == 'all'
+Requires-Dist: magicgui (>=0.2.9) ; extra == 'all'
+Requires-Dist: aicsimageio (<4,>=3.3.6) ; extra == 'all'
+Requires-Dist: opencv-python-headless (>=4.5.1) ; extra == 'all'
+Requires-Dist: black (>=19.10b0) ; extra == 'all'
+Requires-Dist: codecov (>=2.0.22) ; extra == 'all'
+Requires-Dist: docutils (<0.16,>=0.10) ; extra == 'all'
+Requires-Dist: flake8 (>=3.7.7) ; extra == 'all'
+Requires-Dist: psutil (>=5.7.0) ; extra == 'all'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'all'
+Requires-Dist: pytest-cov (==2.6.1) ; extra == 'all'
+Requires-Dist: pytest-raises (>=0.10) ; extra == 'all'
+Requires-Dist: pytest-qt (>=3.3.0) ; extra == 'all'
+Requires-Dist: quilt3 (>=3.1.12) ; extra == 'all'
+Requires-Dist: setuptools-scm ; extra == 'all'
+Requires-Dist: pytest-runner ; extra == 'all'
+Requires-Dist: bumpversion (>=0.5.3) ; extra == 'all'
+Requires-Dist: coverage (>=5.0a4) ; extra == 'all'
+Requires-Dist: gitchangelog (>=3.0.4) ; extra == 'all'
+Requires-Dist: ipython (>=7.5.0) ; extra == 'all'
+Requires-Dist: m2r (>=0.2.1) ; extra == 'all'
+Requires-Dist: pytest-runner (>=4.4) ; extra == 'all'
+Requires-Dist: Sphinx (<3,>=2.0.0b1) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme (>=0.1.2) ; extra == 'all'
+Requires-Dist: tox (>=3.5.2) ; extra == 'all'
+Requires-Dist: twine (>=1.13.0) ; extra == 'all'
+Requires-Dist: wheel (>=0.33.1) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black (>=19.10b0) ; extra == 'dev'
+Requires-Dist: bumpversion (>=0.5.3) ; extra == 'dev'
+Requires-Dist: coverage (>=5.0a4) ; extra == 'dev'
+Requires-Dist: docutils (<0.16,>=0.10) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.7.7) ; extra == 'dev'
+Requires-Dist: gitchangelog (>=3.0.4) ; extra == 'dev'
+Requires-Dist: ipython (>=7.5.0) ; extra == 'dev'
+Requires-Dist: m2r (>=0.2.1) ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.6.1) ; extra == 'dev'
+Requires-Dist: pytest-raises (>=0.10) ; extra == 'dev'
+Requires-Dist: pytest-runner (>=4.4) ; extra == 'dev'
+Requires-Dist: pytest-qt (>=3.3.0) ; extra == 'dev'
+Requires-Dist: quilt3 (>=3.1.12) ; extra == 'dev'
+Requires-Dist: Sphinx (<3,>=2.0.0b1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.1.2) ; extra == 'dev'
+Requires-Dist: tox (>=3.5.2) ; extra == 'dev'
+Requires-Dist: twine (>=1.13.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.33.1) ; extra == 'dev'
+Provides-Extra: setup
+Requires-Dist: setuptools-scm ; extra == 'setup'
+Requires-Dist: pytest-runner ; extra == 'setup'
+Provides-Extra: test
+Requires-Dist: black (>=19.10b0) ; extra == 'test'
+Requires-Dist: codecov (>=2.0.22) ; extra == 'test'
+Requires-Dist: docutils (<0.16,>=0.10) ; extra == 'test'
+Requires-Dist: flake8 (>=3.7.7) ; extra == 'test'
+Requires-Dist: psutil (>=5.7.0) ; extra == 'test'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.6.1) ; extra == 'test'
+Requires-Dist: pytest-raises (>=0.10) ; extra == 'test'
+Requires-Dist: pytest-qt (>=3.3.0) ; extra == 'test'
+Requires-Dist: quilt3 (>=3.1.12) ; extra == 'test'
+
+# napari-allencell-segmenter
+
+# This project has just started. It is not yet in a usable state.
+
+[![License](https://img.shields.io/pypi/l/napari-allencell-segmenter.svg?color=green)](https://github.com/AllenCell/napari-allencell-segmenter/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-allencell-segmenter.svg?color=green)](https://pypi.org/project/napari-allencell-segmenter)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-allencell-segmenter.svg?color=green)](https://python.org)
+[![tests](https://github.com/AllenCell/napari-allencell-segmenter/workflows/tests/badge.svg)](https://github.com/AllenCell/napari-allencell-segmenter/actions)
+[![codecov](https://codecov.io/gh/AllenCell/napari-allencell-segmenter/branch/main/graph/badge.svg)](https://codecov.io/gh/AllenCell/napari-allencell-segmenter)
+
+A plugin that enables image segmentation provided by AICS
+
+----------------------------------
+
+This [napari] plugin was generated with [Cookiecutter] using with [@napari]'s [cookiecutter-napari-plugin] template.
+
+<!--
+Don't miss the full getting started guide to set up your new package:
+https://github.com/napari/cookiecutter-napari-plugin#getting-started
+
+and review the napari docs for plugin developers:
+https://napari.org/docs/plugins/index.html
+-->
+
+## Installation
+
+You can install `napari-allencell-segmenter` via [pip]:
+
+    pip install napari-allencell-segmenter
+
+## Contributing
+
+Contributions are very welcome. Tests can be run with [tox], please ensure
+the coverage at least stays the same before you submit a pull request.
+
+## License
+
+Distributed under the terms of the [BSD-3] license,
+"napari-allencell-segmenter" is free and open source software
+
+## Issues
+
+If you encounter any problems, please [file an issue] along with a detailed description.
+
+[napari]: https://github.com/napari/napari
+[Cookiecutter]: https://github.com/audreyr/cookiecutter
+[@napari]: https://github.com/napari
+[MIT]: http://opensource.org/licenses/MIT
+[BSD-3]: http://opensource.org/licenses/BSD-3-Clause
+[GNU GPL v3.0]: http://www.gnu.org/licenses/gpl-3.0.txt
+[GNU LGPL v3.0]: http://www.gnu.org/licenses/lgpl-3.0.txt
+[Apache Software License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
+[Mozilla Public License 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
+[cookiecutter-napari-plugin]: https://github.com/napari/cookiecutter-napari-plugin
+[file an issue]: https://github.com/AllenCell/napari-allencell-segmenter/issues
+[napari]: https://github.com/napari/napari
+[tox]: https://tox.readthedocs.io/en/latest/
+[pip]: https://pypi.org/project/pip/
+[PyPI]: https://pypi.org/
+
+
