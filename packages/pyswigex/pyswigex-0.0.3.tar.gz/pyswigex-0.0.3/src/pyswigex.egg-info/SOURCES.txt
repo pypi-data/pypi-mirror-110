@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+doxygen/Doxyfile
+doxygen/LICENSE
+doxygen/doxy2swig.py
+src/fibo.cpp
+src/fibo.hpp
+src/fibo.i
+src/pyswigex.egg-info/PKG-INFO
+src/pyswigex.egg-info/SOURCES.txt
+src/pyswigex.egg-info/dependency_links.txt
+src/pyswigex.egg-info/top_level.txt
+test/test_fibo.py
