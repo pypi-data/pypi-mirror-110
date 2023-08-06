@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: TelegramBotKeyboardManager
+Version: 0.1.2
+Summary: This package help you to organise I/O In pyTelegramBotAPI
+Home-page: https://github.com/Goradii/TelebotKeyboardManager
+Author: Radin Gleb
+Author-email: gleb.rad+pip@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Goradii/TelebotKeyboardManager/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TelebotKeyboardManager
+This package help you to organise I/O In pyTelegramBotAPI
+
+

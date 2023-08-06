@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+TelegramBotKeyboardManager/TeleBotKM.py
+TelegramBotKeyboardManager/__init__.py
+TelegramBotKeyboardManager/example.py
+TelegramBotKeyboardManager.egg-info/PKG-INFO
+TelegramBotKeyboardManager.egg-info/SOURCES.txt
+TelegramBotKeyboardManager.egg-info/dependency_links.txt
+TelegramBotKeyboardManager.egg-info/requires.txt
+TelegramBotKeyboardManager.egg-info/top_level.txt
