@@ -1,0 +1,3 @@
+[console_scripts]
+typegenie-cli = scripts.__cli__:main
+
