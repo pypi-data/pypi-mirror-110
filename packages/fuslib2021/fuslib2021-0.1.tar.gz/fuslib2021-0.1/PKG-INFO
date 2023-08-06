@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: fuslib2021
+Version: 0.1
+Summary: Library for remote sensing images fusion
+Home-page: https://github.com/andreablancog/fuslib2021
+Author: Andrea Blanco Gomez
+Author-email: andrea.blanco.gomez@alumnos.upm.es
+License: LGPL v3
+Download-URL: https://github.com/andreablancog/fuslib2021/tarball/0.1
+Description: UNKNOWN
+Keywords: remote sensing images fusion landsat modis
+Platform: UNKNOWN

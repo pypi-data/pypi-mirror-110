@@ -1,0 +1,11 @@
+math
+numpy
+gdal
+os
+tkinter
+idlwrap
+statsmodels
+zarr
+dask
+rasterio
+matplotlib
