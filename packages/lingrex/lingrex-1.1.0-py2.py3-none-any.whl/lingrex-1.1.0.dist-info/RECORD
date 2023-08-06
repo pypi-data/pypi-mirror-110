@@ -1,0 +1,14 @@
+lingrex/__init__.py,sha256=_IyiraUa9jfaGZQtgH0mOK2-o8-_bfGsm_eJq675_qM,89
+lingrex/align.py,sha256=suSDwZtcS-wPH_1jh0UTbuiE5EamqzUyHSNpaahzpRk,6340
+lingrex/borrowing.py,sha256=KWCqi-sZ4D8V0hsm2AVnnsfqOhL3xx9jtPMXRQKUlbY,7058
+lingrex/cognates.py,sha256=nWhI67tBHP8ZTOg0xzw4-MvgmywCzLuhHlX2IXGRyRo,2165
+lingrex/colex.py,sha256=iqlNghb5-OTF3eqj-Ia9QzVHnByYB87XMvW0tZ6k2Is,5915
+lingrex/copar.py,sha256=XIJZU5fdfLDM2rVq6XwyukyT8uly-wrPv1WpXZo9gE8,36055
+lingrex/evaluate.py,sha256=XiDWyzN_cNOGoMCbbDs9qYr7nWjeWiLQJn_8jSRbVfo,6029
+lingrex/semirex.py,sha256=y2gdDKrDCTWySL7l3eOZddZUL_cywXYDgtnwY8VlvHo,6113
+lingrex/util.py,sha256=HXCqy5b9cJUcVSN5Y0DetK_sg_WVF4iyHVUErqlX-LQ,2206
+lingrex-1.1.0.dist-info/LICENSE,sha256=j43AMzvbG06T2eGCsQaBbuQnLQ_Kp3fE9pa6d3vfx-E,1063
+lingrex-1.1.0.dist-info/METADATA,sha256=SI3Ne-rS-FcjYOF2Dutg-wv-Qba5Y061BIpj5YkiP5s,3799
+lingrex-1.1.0.dist-info/WHEEL,sha256=oh0NKYrTcu1i1-wgrI1cnhkjYIi8WJ-8qd9Jrr5_y4E,110
+lingrex-1.1.0.dist-info/top_level.txt,sha256=zIyvK0pOG9NMAC4DrlWRNWqazeY3LSW701dFc5NskHQ,8
+lingrex-1.1.0.dist-info/RECORD,,
