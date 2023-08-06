@@ -1,0 +1,4 @@
+[console_scripts]
+msf-parser-cli = libmsf.parser:main
+msf-rest-cli = libmsf.rest:main
+
