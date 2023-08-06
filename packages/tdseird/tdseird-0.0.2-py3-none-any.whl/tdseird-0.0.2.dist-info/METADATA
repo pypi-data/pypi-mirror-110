@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tdseird
+Version: 0.0.2
+Summary: Time-dependent SEIRD Model
+Home-page: UNKNOWN
+Author: Taarak Rapolu
+Author-email: taarak.rapolu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: six (==1.16.0)
+
+# Time-dependent-SEIRD-Model
+
+## Installation
+```bash
+$ [sudo] pip3 install tdseird
+``` 
+## Development Installation
+```bash
+$ git clone https://github.com/Taarak9/Time-dependent-SEIRD-Model
+```
+## Usage
+```python3
+>>> from tdseird import SEIRD
+```
+
+**A Time-Dependent SEIRD Model for Forecasting the COVID-19 Transmission Dynamics**  
+Taarak Rapolu, Brahmani Nutakki, T. Sobha Rani, S. Durga Bhavani  
+doi: https://doi.org/10.1101/2020.05.29.20113571
+
+
