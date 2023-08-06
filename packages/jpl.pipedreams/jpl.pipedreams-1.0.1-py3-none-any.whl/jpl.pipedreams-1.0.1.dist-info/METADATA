@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: jpl.pipedreams
+Version: 1.0.1
+Summary: Pipe Dreams: API for publication of scientific data
+Home-page: https://github.com/EDRN/jpl.pipedreams
+Author: Asitang Mishra
+Author-email: Asitang.Mishra@jpl.nasa.gov
+Maintainer: Sean Kelly
+License: ALv2
+Download-URL: https://github.com/EDRN/jpl.pipedreams/releases
+Keywords: science,data,analysis,archive,catalog,publication,pipes
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+License-File: NOTICE.md
+Requires-Dist: boto3 (==1.9.232)
+Requires-Dist: botocore (==1.12.232)
+Requires-Dist: celery (==5.1.0)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: configparser (==5.0.0)
+Requires-Dist: dlow (==0.3.4)
+Requires-Dist: docutils (==0.15.2)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: jmespath (==0.9.4)
+Requires-Dist: lxml (==4.5.0)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: mcl.sickbay (==1.0.2)
+Requires-Dist: networkx (==2.5.1)
+Requires-Dist: numpy (==1.17.4)
+Requires-Dist: openpyxl (==3.0.7)
+Requires-Dist: openslide-python (==1.1.2)
+Requires-Dist: pandas (==1.2.5)
+Requires-Dist: Pillow (==8.2.0)
+Requires-Dist: pydicom (==1.3.0)
+Requires-Dist: pypng (==0.0.20)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: s3transfer (==0.2.1)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: SQLAlchemy (==1.3.19)
+Requires-Dist: tika (==1.19)
+Requires-Dist: urllib3 (==1.25.3)
+Requires-Dist: Werkzeug (==0.15.5)
+Requires-Dist: wheel (==0.36.2)
+Requires-Dist: xlrd (==1.2.0)
+
+# 🔬 Pipe Dreams
+
+This is an application programmer interface (API) to support the construction and processing of data pipes for scientific data, primarily for the [Laboratory Catalog and Archive System](https://github.com/EDRN/labcas-backend), but open-ended for other systems.
+
+
+## 🚗 Starting Redis
+
+The Pipe Dreams API requires [Redis](https://redis.io/) (although apparently not—try it without, it seems to work) to run. To start Redis, run:
+
+```console
+$ docker container run \
+    --name labcas-redis \
+    --publish 5002:5002 \
+    --detach \
+    redis:6.2.4-alpine
+```
+
+## 💿 Installing Pipe Dreams
+
+Pipe Dreams is an open source, installable Python packge. It requires [Python 3.7](https://www.python.org/) or later. Typically, you'd install it into [Python virtual environment](https://docs.python.org/3/tutorial/venv.html), but you can also put it into a [Conda](https://docs.conda.io/en/latest/) or—if you must—your system's Python.
+
+To use a virtual environment, run:
+
+```console
+$ python3 -m venv venv
+$ venv/bin/pip install --upgrade setuptools pip wheel
+$ venv/bin/pip install jpl.pipedreams
+```
+
+Once this is done, you can run `venv/bin/python` as your Python interpreter and it will have the Pipe Dreams API (and all its dependencies) ready for use.
+
+
+## 👩‍💻 Customizing the Workflow
+
+The next step is to create a workflow to define the processing steps to publish the data. As an example, see the `demo.py` which is [available from the GitHub release of this package](https://github.com/EDRN/jpl.pipedreams/releases/).
+
+In summary you need to
+
+1.  Create an `Operation` instance.
+2.  Add pipes to the instance.
+3.  Run the instance's graph.
+
+
+## 📗 Publishing the Data
+
+Finally, with Redis running (or not—seems to work in any case) and a custom workflow defined, you can then execute the publication. For example, using the `demo.py` the GitHub release:
+
+```console
+$ python3 -m venv venv
+$ venv/bin/pip install --upgrade setuptools pip wheel
+$ venv/bin/pip install jpl.pipedreams
+$ curl -LO https://github.com/EDRN/jpl.pipedreams/releases/download/v1.0.1/demo.py
+$ curl -L https://github.com/EDRN/jpl.pipedreams/releases/download/v1.0.1/test-data.tar.gz | tar xzf -
+$ venv/bin/python demo.py
+Adding Node: hello_world_read|+|mydata0.txt
+…
+num nodes in task graph: 7
+num task completed: 7
+time taken: 0:00:00.306140
+```
+
+That's it 🥳
+
+
