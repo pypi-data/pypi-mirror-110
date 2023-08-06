@@ -1,0 +1,14 @@
+Evaluating functionsTest for user perfect...
+Submission is (implicit): ./submissions/perfect/functionsTest/functions.py
+Evaluating submission:
+    task: functionsTest
+    user: perfect
+    file: ./submissions/perfect/functionsTest/functions.py
+    report: reports/report.html
+Loading specification for 'functionsTest'
+    loading from: ./specs/functionsTest/spec.py
+...done loading specification
+Evaluating rubric...
+Rendering report to 'reports/report.html'...
+...done evaluating submission.
+...evaluation complete.
