@@ -1,0 +1,6 @@
+setup.py
+tasksio/__init__.py
+tasksio.egg-info/PKG-INFO
+tasksio.egg-info/SOURCES.txt
+tasksio.egg-info/dependency_links.txt
+tasksio.egg-info/top_level.txt
