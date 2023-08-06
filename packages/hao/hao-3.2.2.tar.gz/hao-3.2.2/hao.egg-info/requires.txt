@@ -1,0 +1,9 @@
+PyYAML
+regex
+decorator
+requests
+
+[dev]
+
+[test]
+pytest
