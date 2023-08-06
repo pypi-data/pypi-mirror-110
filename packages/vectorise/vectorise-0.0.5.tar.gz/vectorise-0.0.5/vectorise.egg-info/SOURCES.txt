@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+vectorise/__init__.py
+vectorise/__vector__.py
+vectorise.egg-info/PKG-INFO
+vectorise.egg-info/SOURCES.txt
+vectorise.egg-info/dependency_links.txt
+vectorise.egg-info/top_level.txt
