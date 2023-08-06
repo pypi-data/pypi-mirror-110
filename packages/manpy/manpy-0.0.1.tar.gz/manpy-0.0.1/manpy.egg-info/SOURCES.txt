@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./manpy/__init__.py
+./manpy/_cli.py
+./manpy/_template.py
+./manpy/_utils.py
+manpy.egg-info/PKG-INFO
+manpy.egg-info/SOURCES.txt
+manpy.egg-info/dependency_links.txt
+manpy.egg-info/entry_points.txt
+manpy.egg-info/not-zip-safe
+manpy.egg-info/top_level.txt
