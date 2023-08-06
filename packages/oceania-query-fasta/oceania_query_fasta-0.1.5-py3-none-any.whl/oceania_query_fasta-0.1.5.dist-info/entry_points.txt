@@ -1,0 +1,3 @@
+[console_scripts]
+oceania = oceania.main.cli:main
+
