@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mrcregexhelper
+Version: 1.1
+Summary: Regex utility
+Home-page: UNKNOWN
+Author: Mr. Cooper
+Author-email: varshitha.dasari@mrcooper.com
+License: MIT
+Description: Regex utility for OCR based extraction
+Platform: UNKNOWN

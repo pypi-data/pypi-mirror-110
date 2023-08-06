@@ -1,0 +1,8 @@
+setup.py
+mrcregexhelper/__init__.py
+mrcregexhelper.egg-info/PKG-INFO
+mrcregexhelper.egg-info/SOURCES.txt
+mrcregexhelper.egg-info/dependency_links.txt
+mrcregexhelper.egg-info/not-zip-safe
+mrcregexhelper.egg-info/requires.txt
+mrcregexhelper.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+pandas
+requests
+numpy
+fuzzywuzzy
+
+[:sys_platform == "darwin"]
+python-Levenshtein
