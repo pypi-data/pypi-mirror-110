@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "gda_analysis"
+version = "0.1.6"
+description = ""
+authors = ["Tova Hallas <tova.hallas@igentify.com>"]
+exclude = ['raw_data/']
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.2.4"
+SQLAlchemy = "^1.4.18"
+psycopg2-binary = "^2.8.6"
+openpyxl = "^3.0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+main_merge = "src.gda_analysis.create_dfs:main_merge"
+main_validation = "src.gda_analysis.display_dataset:main_validation"
+create_gs_dataframe = "src.gda_analysis.create_dfs:create_gs_df"
+create_vcf_dataframe = "src.gda_analysis.create_dfs:create_vcf_d"
+join_dfs = "src.gda_analysis.create_dfs:join_vcf_and_gs"
+test_join_dfs = "src.gda_analysis.display_dataset:display_analyzed_data"
+export_join_dfs = "src.gda_analysis.display_dataset:output_toexcel"
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
