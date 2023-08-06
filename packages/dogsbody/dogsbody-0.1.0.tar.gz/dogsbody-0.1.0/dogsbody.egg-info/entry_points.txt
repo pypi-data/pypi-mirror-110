@@ -1,0 +1,5 @@
+[console_scripts]
+dogsbody = dogsbody.__main__:main
+dogsbody-bundle = dogsbody.bundle:cli
+dogsbody-daemon = dogsbody.daemon:cli
+
