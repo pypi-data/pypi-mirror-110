@@ -1,0 +1,3 @@
+[pysegmenters.plugins]
+spacyrules=pysegmenters_spacyrules.spacyrules:SpacyRulesSegmenter
+
