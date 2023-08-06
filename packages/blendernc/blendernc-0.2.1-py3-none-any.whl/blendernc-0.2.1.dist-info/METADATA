@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: blendernc
+Version: 0.2.1
+Summary: Blender add-on to import netCDF
+Home-page: https://github.com/blendernc/blendernc
+Author: josuemtzmo
+Author-email: josue.martinezmoreno@anu.edu.au
+License: MIT License
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: cython
+Requires-Dist: numpy
+
+UNKNOWN
+
