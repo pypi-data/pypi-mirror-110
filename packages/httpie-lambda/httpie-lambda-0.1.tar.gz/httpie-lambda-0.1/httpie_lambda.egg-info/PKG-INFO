@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: httpie-lambda
+Version: 0.1
+Summary: AWS Lambda invoke transport plugin for HTTPie
+Home-page: https://github.com/IlyaSukhanov/httpie-lambda
+Author: Ilya Sukhanov
+Author-email: ilya@sukhanov.net
+License: MIT license
+Description: UNKNOWN
+Keywords: HTTPie
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: testing

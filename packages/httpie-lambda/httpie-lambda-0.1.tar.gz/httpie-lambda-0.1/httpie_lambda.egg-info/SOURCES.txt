@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+httpie_lambda.egg-info/PKG-INFO
+httpie_lambda.egg-info/SOURCES.txt
+httpie_lambda.egg-info/dependency_links.txt
+httpie_lambda.egg-info/entry_points.txt
+httpie_lambda.egg-info/not-zip-safe
+httpie_lambda.egg-info/requires.txt
+httpie_lambda.egg-info/top_level.txt
