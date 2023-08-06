@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pytorch-stream-dataloader
+Version: 1.0
+Summary: RNN DataLoader - Pytorch
+Home-page: https://github.com/etienne87/pytorch-streamloader
+Author: Etienne Perot
+Author-email: et.perot@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: artificial intelligence,rnn data loading,video/text/audio
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: video
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: ci
