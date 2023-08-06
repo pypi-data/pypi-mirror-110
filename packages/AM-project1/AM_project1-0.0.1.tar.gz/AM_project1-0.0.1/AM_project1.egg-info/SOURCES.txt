@@ -1,0 +1,8 @@
+README.md
+setup.py
+AM_project1/__init__.py
+AM_project1/hello_worl.py
+AM_project1.egg-info/PKG-INFO
+AM_project1.egg-info/SOURCES.txt
+AM_project1.egg-info/dependency_links.txt
+AM_project1.egg-info/top_level.txt
