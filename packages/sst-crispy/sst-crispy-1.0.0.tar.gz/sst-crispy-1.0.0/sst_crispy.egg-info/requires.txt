@@ -1,0 +1,13 @@
+torch
+torchvision
+numpy
+astropy
+matplotlib
+ipywidgets
+jupyterlab
+h5py
+pyyaml
+tqdm
+cycler
+specutils
+numba==0.51.2

@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "numpy",
+    "matplotlib",
+    "astropy>=4.2",
+    "specutils",
+    "sunpy>=1.0",
+    "h5py",
+    "scipy",
+    "tqdm",
+    "torch>=1.4",
+    "weno4",
+    "cycler",
+    "numba",
+    "ipywidgets"
+]
