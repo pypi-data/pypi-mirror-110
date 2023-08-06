@@ -1,0 +1,9 @@
+License.txt
+README.md
+setup.cfg
+setup.py
+htlib.egg-info/PKG-INFO
+htlib.egg-info/SOURCES.txt
+htlib.egg-info/dependency_links.txt
+htlib.egg-info/requires.txt
+htlib.egg-info/top_level.txt
