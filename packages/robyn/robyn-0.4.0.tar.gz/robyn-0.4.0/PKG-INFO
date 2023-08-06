@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robyn
+Version: 0.4.0
+Summary: A web server that is fast!
+Home-Page: https://github.com/sansyrox/robyn
+Author: Sanskar Jethi <sansyrox@gmail.com>
+Author-Email: Sanskar Jethi <sansyrox@gmail.com>
+License: MIT
