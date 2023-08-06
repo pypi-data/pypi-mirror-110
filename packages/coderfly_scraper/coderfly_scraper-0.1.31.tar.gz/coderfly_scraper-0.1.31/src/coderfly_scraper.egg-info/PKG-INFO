@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: coderfly-scraper
+Version: 0.1.31
+Summary: scrapy utils include piplines, utils
+Home-page: https://github.com/coder-fly
+Author: coder-fly
+Author-email: coderflying@163.com
+License: MIT
+Description: scraper
+Platform: UNKNOWN
+Requires-Python: >=3.6
