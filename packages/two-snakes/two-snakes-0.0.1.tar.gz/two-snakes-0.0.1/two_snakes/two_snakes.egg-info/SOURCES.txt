@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+two_snakes/py.typed
+two_snakes/manager/service.py
+two_snakes/two_snakes.egg-info/PKG-INFO
+two_snakes/two_snakes.egg-info/SOURCES.txt
+two_snakes/two_snakes.egg-info/dependency_links.txt
+two_snakes/two_snakes.egg-info/top_level.txt
