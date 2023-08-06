@@ -1,0 +1,5 @@
+bag>0.3.7
+docutils<0.18
+grimace==0.0.14
+requests
+wheel
