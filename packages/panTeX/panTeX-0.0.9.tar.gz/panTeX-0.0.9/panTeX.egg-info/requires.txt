@@ -1,0 +1,10 @@
+pandas>=1.0.0
+seaborn
+altair
+altair_saver
+tabulate
+typing-extensions
+
+[dev]
+ipython
+pytest
