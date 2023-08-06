@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: df-select
+Version: 0.0.1
+Summary: process some simple select query on DataFrame like data
+Home-page: https://github.com/bailaohe/df-select
+Author: He Bai
+Author-email: bailaohe@gmail.com
+License: UNKNOWN
+Description: # df-select
+        
+Keywords: sql,query,dataframe,select
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.4
