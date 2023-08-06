@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: deploymenthub
+Version: 1.2
+Summary: A CLI client for deployment-hub server.
+Home-page: https://github.com/jaredwines/deployment-hub-cli-client
+Author: Jared Wines
+Author-email: contact@jaredwines.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
