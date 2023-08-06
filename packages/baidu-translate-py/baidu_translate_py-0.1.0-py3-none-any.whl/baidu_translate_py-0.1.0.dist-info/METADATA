@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: baidu-translate-py
+Version: 0.1.0
+Summary: Python 翻译 API [当前支持:百度翻译、小牛翻译]
+Home-page: https://oss.qiyutech.tech/
+Author: dev
+Author-email: dev@qiyutech.tech
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.8,<2)
+Requires-Dist: requests (>=2.25,<3)
+Project-URL: Repository, https://github.com/QiYuTechOrg/baidu-translate-py
+Description-Content-Type: text/markdown
+
+# Python 翻译 API
+
+* [百度翻译开放平台](https://fanyi-api.baidu.com/)
+* [小牛翻译](https://niutrans.com/)
+
