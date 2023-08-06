@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: dagviz
+Version: 0.2.0
+Summary: Visualization for DAGs
+Home-page: https://github.com/WimYedema/dagviz.git
+License: Apache-2.0
+Author: Wim Yedema
+Author-email: wim.yedema@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: networkx (>=2.5.1,<3.0.0)
+Requires-Dist: svgwrite (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/WimYedema/dagviz.git
+Description-Content-Type: text/markdown
+
+# DAGVIZ
+DAGVIZ offers a "git log"-like visualization for DAGs represented in networkx.
+
+## Installation
+
+DAGVIZ can be installed with `pip`:
+
+```bash
+pip install dagviz
+```
+
+## Documentation
+
+Documentation is available at https://wimyedema.github.io/dagviz/.
+## Usage
+
+DAGVIZ relies on networkx for the representation and manipulation of the
+DAG. An SVG file can be generated as follows:
+
+```py
+    import dagviz
+    import networkx as nx
+    # Create the DAG
+    G = nx.DiGraph()
+    for i in range(5):
+        G.add_node(f"n{i}")
+    G.add_edge(f"n0", f"n1")
+    G.add_edge(f"n0", f"n2")
+    G.add_edge(f"n0", f"n4")
+    G.add_edge(f"n1", f"n3")
+    G.add_edge(f"n2", f"n3")
+    G.add_edge(f"n3", f"n4")
+    # Create an SVG as a string
+    r = dagviz.render_svg(G)
+    with open("simple.svg", "wt") as fs:
+        fs.write(r)
+```
+
