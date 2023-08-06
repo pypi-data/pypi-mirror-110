@@ -1,0 +1,13 @@
+asgiref
+certifi
+chardet
+django
+django-cors-headers
+gunicorn
+psutil
+sqlparse
+stripe
+urllib3
+wheel
+whitenoise
+xmltodict
