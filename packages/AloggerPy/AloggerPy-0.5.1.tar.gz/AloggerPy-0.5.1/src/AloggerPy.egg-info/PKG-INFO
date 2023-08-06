@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: AloggerPy
+Version: 0.5.1
+Summary: Python colored logger module
+Home-page: https://github.com/ahmetkkn07/Alogger
+Author: Ahmet KÖKEN
+Author-email: ahmetkkn07@gmail.com
+License: Apache Software License 2.0
+Project-URL: Changelog, https://github.com/ahmetkkn07/Alogger
+Project-URL: Issue Tracker, https://github.com/ahmetkkn07/Alogger/issues
+Description: ## Python Alogger
+        
+        ### Usage
+        
+        ```
+        from Alogger import Alogger, LogLevel
+        logger = Alogger(log_level=LogLevel.ALL, log_to_file=True)
+        
+        logger.fatal("fatal")
+        logger.error("error")
+        logger.warning("warning")
+        logger.info("info")
+        logger.debug("debug")
+        logger.trace("trace")
+        logger.test("test")
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
