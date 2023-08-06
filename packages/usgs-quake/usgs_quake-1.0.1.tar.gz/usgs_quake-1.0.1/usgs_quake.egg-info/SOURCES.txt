@@ -1,0 +1,9 @@
+README.md
+setup.py
+usgs_quake/__init__.py
+usgs_quake.egg-info/PKG-INFO
+usgs_quake.egg-info/SOURCES.txt
+usgs_quake.egg-info/dependency_links.txt
+usgs_quake.egg-info/not-zip-safe
+usgs_quake.egg-info/requires.txt
+usgs_quake.egg-info/top_level.txt
