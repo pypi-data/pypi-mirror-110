@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: AreaVolume
+Version: 1.0.3
+Summary: AreaVolume Python package
+Home-page: UNKNOWN
+Author: Ausif Mahmood
+Author-email: ausif@xyz.com
+License: UNKNOWN
+Description: has useful methods for area, volume computations
+Keywords: python,area,volume
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
