@@ -1,0 +1,16 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/cli.py,sha256=jQ2NIs2j7yR2euqFYG3rb5RUN_XQ3q4n4sokg0xFonE,2713
+src/conf.py,sha256=GvjugOMBx6BfEC9f8wXI2GZouJOLFgPwQ5CuRMnXs30,2374
+src/logging.py,sha256=jDHYDfsdu1WY0viFT9RrToIfthq134LU_NPEhCFKU2E,697
+src/common/__init__.py,sha256=iTHZ-6GB_fy-FxEGKktLOlMZ4kWlVvtag1rAbuYJMhw,270
+src/common/_version.py,sha256=HfiT4NzHLJ6rbTpPr3JfBQ1z-Vetd5mnW9DMmc29rQU,52
+src/common/pass_through_list.py,sha256=U2xaH0LDcpIYgQocl_hS-dm47UzaEFWZBNlD-UvsoT4,542
+src/common/plugin.py,sha256=R2fLqlbILOzDMKq4Ijt10KntP0kjykJSbX2h_x0vXns,21865
+src/common/run_command.py,sha256=9f3PpQ4VYbKUhlc88zQCalZlLAodM9k9XUftOgOWFQQ,6298
+src/common/validate_allowed_workspace.py,sha256=pezUlxFa8Goe8c_ptY83jLm01BKR2dmVz9RfSoz1aX0,2149
+tfremote-0.0.25.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tfremote-0.0.25.dist-info/METADATA,sha256=vwZ62eL5imd4qa665BX7B9M1HM7bR76-mWKOGsVCcm4,6380
+tfremote-0.0.25.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfremote-0.0.25.dist-info/entry_points.txt,sha256=yMRmZr9Bv6UWZez-an9Ma8SQ0Qygo5J58WRovFmC2Ps,63
+tfremote-0.0.25.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+tfremote-0.0.25.dist-info/RECORD,,
