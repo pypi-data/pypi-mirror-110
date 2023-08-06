@@ -1,0 +1,10 @@
+requests
+pyyaml
+jsonpath-ng
+typing
+
+[convergence]
+snappi_convergence==0.0.2
+
+[ixnetwork]
+snappi_ixnetwork==0.4.0
