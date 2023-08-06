@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: plyddl
+Version: 0.0.3
+Summary: A simple pddl parser supporting most basic pddl features and numeric fluents from pddl2.1
+Home-page: https://github.com/mhenn/plyddl/
+Author: mike henning
+Author-email: mikeianhenning93@gmail.com
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/mhenn/plyddl/
+Project-URL: Source, https://github.com/mhenn/plyddl/
+Project-URL: Tracker, https://github.com/mhenn/plyddl/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
