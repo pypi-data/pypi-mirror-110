@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: drf-friendly-errors-egt
+Version: 0.15.0
+Summary: Extension for displaying serializer validation errors in Django Rest Framework
+Home-page: https://github.com/egyanamtech/drf-friendly-errors
+Author: Tomasz Łaszczuk(original), Franky Quintero(New version), toxinu, citixensas, bd808
+Author-email: mrityunjay.saxena@egyanamtech.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+
+Extension for displaying serializer validation errors in Django Rest Framework
+
+
