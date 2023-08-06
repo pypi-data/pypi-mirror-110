@@ -1,0 +1,203 @@
+{
+"#source": "https://en.wikipedia.org/ corresponding page or 'list of' page",
+"#source2": "https://en.wiktionary.org/wiki/Category:English_lemmas",
+"#source: suffixes": "https://dictionary.cambridge.org/grammar/british-grammar/suffixes",
+"determiner": {
+	"article": [
+		"the", "a", "an"
+	],
+	"demonstrative": [
+		"here", "such", "that", "there", "these", "this", "those"
+	],
+	"possessive": [
+		"my", "mine", "your", "yours", "his", "her", "hers", "its",
+		"our", "ours", "their", "theirs"
+	],
+	"quantifier": [
+		"a bit", "a few", "a little", "a lot", "all", "almost", "another", "any",
+		"both", "certain", "couple", "each", "either", "enough", "especially",
+		"ever", "every", "few", "fewer", "fewest", "huge", "least", "less", "little",
+		"many", "more", "most", "much", "neither", "no", "none", "often", "other",
+		"overmuch", "partially", "partly", "plenty", "rare", "rarely",
+		"several", "slightly", "some", "something", "somewhat", "sufficient", "tiny", "totally",
+		"various", "very"
+	],
+	"numeral": {
+		"cardinal": [
+			"null", "zero", "one", "two", "three", "four", "five",
+			"six", "seven", "eight", "nine",
+			"ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+			"sixteen", "seventeen", "eighteen", "nineteen",
+			"twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"
+		],
+		"ordinal": [
+			"zeroth", "noughth", "first", "second", "third", "fourth", "fifth",
+			"sixth", "seventh", "eighth", "ninth",
+			"tenth", "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth",
+			"sixteenth", "seventeenth", "eighteenth", "nineteenth", "twentieth",
+			"thirtieth", "fortieth", "fiftieth", "sixtieth", "seventieth", "eightieth", "ninetieth"
+		],
+		"nonspecific": [
+			"dozen", "score", "first", "single", "once", "double", "triple", "much"
+		]
+	},
+	"distributive": [
+		"each", "any", "either", "neither"
+	],
+	"interrogative": [
+		"which", "what", "whose"
+	]
+},
+"auxiliary": [
+	"do", "does", "did", "have", "has", "had",
+	"be", "being", "been", "am", "is", "are", "was", "were",
+	"can", "could", "may", "might", "shall", "should", "will", "would", "must"
+],
+"pronoun": [
+	"I", "me", "my", "mine", "myself", "you", "your", "yours", "yourself", "yourselves",
+	"he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself",
+	"we", "us", "our", "ours", "ourselves", "they", "them", "their", "theirs", "themselves",
+	"this", "these", "those", "that", "former", "latter",
+	"who", "whom", "whose", "what", "which",
+	"something", "someone", "somebody", "anything", "anyone", "anybody",
+	"nothing", "no one", "no-one", "nobody"
+],
+"conjunction": {
+	"coordinating": [
+		"for", "and", "nor", "but", "or", "yet", "so"
+	],
+	"correlative": [
+		"so", "as", "than"
+	],
+	"subordinate": [
+		"after", "although", "as", "as far as", "as if", "as long as",
+		"as soon as", "as though", "because", "before", "even if", "even though",
+		"every time", "if", "in order that", "lest", "once", "since", "so", "so that",
+		"than", "though", "unless", "until", "when", "whenever", "where",
+		"whereas", "wherever", "while"
+	]
+},
+"preposition": {
+	"one": [
+		"aboard", "about", "above", "absent", "across", "after", "against", "along",
+		"alongside", "amid", "among", "apropos", "around", "as", "astride", "at", "atop",
+		"bar", "before", "behind", "below", "beneath", "beside", "besides", "between",
+		"beyond", "but", "by",
+		"circa", "come", "despite", "down", "due", "during", "except", "for", "from",
+		"in", "inside", "into", "less", "like",
+		"minus", "near", "notwithstanding", "postpositional",
+		"of", "off", "on", "onto", "ontop", "opposite", "out", "outside", "over",
+		"pace", "past", "per", "plus", "post", "pre", "pro", "re", "short", "since",
+		"than", "through", "throughout", "till", "to", "toward", "towards",
+		"under", "underneath", "unlike", "until", "up", "upon", "upside",
+		"versus", "via", "vice", "vis-à-vis", "with", "within", "without", "worth"
+	],
+	"two": [
+		"as", "for", "from", "of", "on", "per", "than", "to", "with"
+	]
+},
+"contraction": {
+	"_irregular": [
+		"everybody's", "everyone's", "he's", "how's", "it's", "let's", "ma'am",
+		"o'clock", "she's", "somebody's", "someone's", "something's",
+		"that's", "there's", "what's", "when's", "where's", "which's", "who's", "why's"
+	],
+	"_suffix": [
+		"'d", "'ll", "'m", "'re", "'ve", "n't"
+	]
+},
+
+"abbreviation": {
+	"#source": "https://metacpan.org/pod/Text::Reflow",
+	"title": {
+		"civil": [
+			"Dr", "Hon", "Esq", "Mlle", "Mme", "Mr", "Mrs", "Miss", "Prof"
+		],
+		"military": [
+			"Pvt", "Cpl", "Sgt", "Ens", "Lieut", "Capt", "Cmdr",
+			"Maj", "Col", "Gen", "Adm"
+		],
+		"nobility_cleric": [
+			"Bart", "Rev"
+		]
+	},
+	"road_signs": [
+		"No", "St", "Ave", "Rd", "Blvd", "Ct", "Cir"
+	],
+	"month": [
+		"Jan", "Feb", "Mar", "Apr", "Jun", "Jul",
+		"Aug", "Sep", "Sept", "Oct", "Nov", "Dec"
+	],
+	"phrase": [
+		"e.g", "i.e", "iz", "n.b", "etc", "a.k.a", "i.a", "viz", "vs", "nbr", "co"
+	],
+	"doc": [
+		"Fig", "Tab", "al"
+	]
+},
+"noun": {
+	"_irregular": [
+		"array", "Bézier", "body", "chest", "client", "collective", "content", "crest",
+		"day", "display", "drive", "energy", "exponent", "family", "fantasy", "forest", "file",
+		"gradient", "hierarchy", "hotkey", "identifier", "interest", "July", "key",
+		"light", "manual", "material", "May", "money", "modifier", "multiplier",
+		"normal", "overlay", "parent", "perspective", "pose", "profile", "property",
+		"proxy", "purpose", "quest", "request", "rest", "ray",
+		"sky", "table", "test", "tile", "tutorial", "way", "west", "vest"
+	],
+	"_suffix": [
+		"ancy", "dom", "ee", "ence", "ency", "hood", "ion", "ism",
+		"ist", "ity", "logy", "ment", "ness", "ry", "ship"
+	]
+},
+"#participle": " auxiliary + suffix",
+"participle": {
+	"_irregular": [],
+	"_suffix": ["ing", "en"]
+},
+"verb": {
+	"_irregular": [
+		"able", "apply", "began", "bent", "choose", "copy", "disable", "enable",
+		"lay", "play", "prevent", "suggest"
+	],
+	"_suffix": [
+		"ate", "en", "ify", "ise", "ize"
+	]
+},
+"adverb": {
+	"_irregular": [
+		"again", "also", "earlier", "furthermore", "how", "however", "indeed", "instead", "just",
+		"moreover", "never", "not", "now", "quite", "rather", "sometimes", "soon", "still",
+		"then", "therefore", "thus", "too", "whether", "why", "yes"
+	],
+	"_suffix": [
+		"ly", "ward", "wards", "ways", "wise"
+	]
+},
+"adjective": {
+	"_irregular": [
+		"bad", "best", "better", "big", "black", "bland", "blue", "bold", "brief", "bright", "broad",
+		"calm", "certain", "cheap", "clear", "clever", "coarse", "cold", "common", "cool",
+		"damp", "dark", "dead", "deep", "dense", "difficult", "entire", "faint", "fair",
+		"far", "fast", "few", "fine", "fit", "flat", "free", "fresh", "full", "further",
+		"gentle", "good", "grand", "great", "greater", "green", "gross",
+		"hard", "harsh", "high", "higher", "hot", "huge",
+		"kind", "large", "last", "late", "later", "left", "little", "long", "loud", "low",
+		"main", "major", "mild", "narrow", "near", "neat", "new", "next", "nice",
+		"odd", "off", "old", "open", "other", "own",
+		"past", "plain", "polite", "poor", "popular", "prior", "private", "pure", "quick", "quiet",
+		"rare", "raw", "red", "rich", "right", "ripe", "rough", "rude",
+		"sad", "safe", "same", "shallow", "sharp", "short", "similar", "simple", "sincere",
+		"single", "slim", "slow", "small", "smart", "smooth", "soft",
+		"sore", "sour", "steep", "strange", "strict", "strong", "sure",
+		"tall", "thick", "thin", "tough", "true",
+		"warm", "weak", "weird", "white", "whole", "wide", "wise", "worst", "wrong", "young"
+	],
+	"_suffix": [
+		"able", "ible", "al", "ial", "ful", "ic", "ical", "ish", "ive", "ative", "less",
+		"eous", "ious", "ous", "ose", "y", "ile", "ant", "ent", "an", "ian", "ary",
+		"ier", "est"
+	]
+},
+"interjection": []
+}
