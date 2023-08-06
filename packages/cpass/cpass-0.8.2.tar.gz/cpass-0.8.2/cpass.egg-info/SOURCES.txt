@@ -1,0 +1,12 @@
+CHANGELOG
+LICENSE
+Readme.md
+cpass.cfg
+cpass.py
+setup.py
+cpass.egg-info/PKG-INFO
+cpass.egg-info/SOURCES.txt
+cpass.egg-info/dependency_links.txt
+cpass.egg-info/entry_points.txt
+cpass.egg-info/requires.txt
+cpass.egg-info/top_level.txt
