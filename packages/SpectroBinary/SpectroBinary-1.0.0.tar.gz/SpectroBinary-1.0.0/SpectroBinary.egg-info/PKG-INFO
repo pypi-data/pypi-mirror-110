@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: SpectroBinary
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/MASTERAMARJEET/code-astro-2021
+Author: Amarjeet Kumar, Bhuvanambiga Pari
+Author-email: masteramarjeetkumar@gmail.com
+License: MIT
+Description: SpectroBinary is a Python package that is aimed to help in the study of Spectroscopic binary systems. The current version contains functions to simulate a binary system, and to find the Doppler shift from atomic spectroscopy data.
+Platform: UNKNOWN
