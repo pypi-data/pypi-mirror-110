@@ -1,0 +1,14 @@
+mangabat_dl/__init__.py,sha256=xJwSaPZbJH78W9Iy_iEwM7SaWrv7KK1uXXI7U8A2szc,2072
+mangabat_dl/__main__.py,sha256=k8qSToVQkjqJJ7OHc0DQmyMlzZeE8pCzU6bODugXsqo,1407
+mangabat_dl/classes.py,sha256=-4Xm3Gdi62TIb715nOP--dYv20ee2hOEZAZnnb8lT-k,16490
+mangabat_dl/constants.py,sha256=Vl3gHgUXoI8BLLI2uhzthXKMxtzCszsntztLxP3RGM0,189
+mangabat_dl/downloader.py,sha256=bFfYdRlEwtZab_fA2c8a2Ffc6D1KkWCEpDbaSvGjLOM,3958
+mangabat_dl/errors.py,sha256=rvUQuLKhgOAFJFDo4Ldj6s13sqiJwf5m1QKhQsxuPNk,207
+mangabat_dl/fetcher.py,sha256=tfQjBxeP9pzWS9tVXE1ojzrsmTzfD-UVpxD5-q2yBr4,7417
+mangabat_dl/utils.py,sha256=cUAX2--biOZTjdkXxkC4FhGjQOYFliiuaiYPdo-ScEM,4003
+mangabat_dl-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+mangabat_dl-0.0.1.dist-info/METADATA,sha256=ov3zM96Xds64H_-IE-8L0_98-rssgnQjiN4TZcOirJ0,3053
+mangabat_dl-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mangabat_dl-0.0.1.dist-info/entry_points.txt,sha256=Q2VYvwau4J3cX2rNpAswfLDMo94REDY09dQLu20E_uU,59
+mangabat_dl-0.0.1.dist-info/top_level.txt,sha256=LGRc3TO8oVm8PiyjjQXMKiWU_IfAnnL_9XzzNz4NSj8,12
+mangabat_dl-0.0.1.dist-info/RECORD,,
