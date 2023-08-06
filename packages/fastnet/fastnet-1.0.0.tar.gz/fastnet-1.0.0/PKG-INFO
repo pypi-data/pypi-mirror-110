@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastnet
+Version: 1.0.0
+Summary: A wrapper around PyTorch for Neural Network-related projects.
+Home-page: https://github.com/rctorres/fastnet
+Author: Rodrigo Coura Torres
+Author-email: torres.rc@gmail.com
+License: UNKNOWN
+Description: 100% Python-based neural network toolbox.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

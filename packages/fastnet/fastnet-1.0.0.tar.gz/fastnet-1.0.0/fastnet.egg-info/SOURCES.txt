@@ -1,0 +1,15 @@
+README.md
+setup.py
+fastnet/__init__.py
+fastnet/data_manager.py
+fastnet/defaults.py
+fastnet/example.py
+fastnet/log.py
+fastnet/metrics.py
+fastnet/relevance.py
+fastnet/train.py
+fastnet/utils.py
+fastnet.egg-info/PKG-INFO
+fastnet.egg-info/SOURCES.txt
+fastnet.egg-info/dependency_links.txt
+fastnet.egg-info/top_level.txt
