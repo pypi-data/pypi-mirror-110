@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: htlib
+Version: 0.6
+Summary: UNKNOWN
+Home-page: https://github.com/harol1997/htlib
+Author: Harol Alvardo
+Author-email: harolav3@gmail.com
+License: MIT
+Download-URL: https://github.com/harol1997/htlib/archive/refs/heads/main.zip
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+HTSERIAL
+    
+    def action_read(value):#function to print value that receive from serial port
+        print(value)
+
+    s = BSerial(port='COM1',baudrate=9600)
+    s.start_read_string_port(action_read)#start to read serial port
+
+    while True:
+        valor = input("Ingrese un valor - x para terminar")
+        if valor == "x":break
+        s.write_string_port(valor)
+        sleep(1)#only for sthetic, if you wish try like comment
+    s.stop_read_string_port()
+    s.close()
+
+
