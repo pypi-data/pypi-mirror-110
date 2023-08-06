@@ -1,0 +1,7 @@
+
+[cli]
+click
+pandas
+
+[test]
+pytest
