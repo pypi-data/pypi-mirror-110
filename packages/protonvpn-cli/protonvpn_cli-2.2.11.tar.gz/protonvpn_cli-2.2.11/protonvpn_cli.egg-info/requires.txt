@@ -1,0 +1,5 @@
+distro
+docopt
+jinja2
+pythondialog
+requests
