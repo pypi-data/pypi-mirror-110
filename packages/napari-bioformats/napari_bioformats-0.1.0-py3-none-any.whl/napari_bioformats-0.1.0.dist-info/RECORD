@@ -1,0 +1,9 @@
+napari_bioformats/__init__.py,sha256=jgiE7L9wblT-dGg-x6bXxRPYXfKfMOR0sBEFPvKs_uc,209
+napari_bioformats/_pims.py,sha256=vcbb-oTvkOVUFicOB0X725sCfGmT11X37b4lwo3CHhM,4617
+napari_bioformats/_version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+napari_bioformats-0.1.0.dist-info/LICENSE,sha256=3YzIRaPtMiRifwBj-JANcdqMea5ogJzYeAwkVpFlDVo,1490
+napari_bioformats-0.1.0.dist-info/METADATA,sha256=VzBN7DvpfDw_vNB_4M98q06R1EnxQkC1p05Yf6CrL5A,3903
+napari_bioformats-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+napari_bioformats-0.1.0.dist-info/entry_points.txt,sha256=vfDAyjmFlrkUlhwPs5n5IQSdv8teVcRhSwlJQsOX15A,48
+napari_bioformats-0.1.0.dist-info/top_level.txt,sha256=ET4R87hmVvjo8vogY0QB-bdo6Ilsacuv9qSaWzlLKwY,18
+napari_bioformats-0.1.0.dist-info/RECORD,,
