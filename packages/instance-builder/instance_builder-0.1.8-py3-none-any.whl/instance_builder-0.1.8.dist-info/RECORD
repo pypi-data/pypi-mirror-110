@@ -1,0 +1,9 @@
+instance_builder/__init__.py,sha256=54HvTcqYPD123Du-E_fgi1HzNCOOUOkTLNv6-gYYm_E,83
+instance_builder/builder.py,sha256=U1cjdGYC_PV7mm9U2Qn0cQ338xQ1_rWl7kXGMLPJfU4,1438
+instance_builder/getter.py,sha256=r7y55oqgeXnvFL85p3mVHcTNiM0ZRGTKR6JutO7IW8I,466
+instance_builder/lib.py,sha256=jeK3cM8r4BIi0Gc8xOKhr3d3kvWsXdBmzLOJm7pLe24,303
+instance_builder/setter.py,sha256=hErz8mSb5qhqU2Z9CkO471zwzSg8w6qPMGGU3jKYvcs,478
+instance_builder-0.1.8.dist-info/LICENSE,sha256=78AcM4_LU4VWPpXcKvUvtWkWyo_AMY56okidoTLX3OE,1073
+instance_builder-0.1.8.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+instance_builder-0.1.8.dist-info/METADATA,sha256=QaTgnldpsIJjMuSGQTFEJE1-AHu5EvXI1z287MB0SLs,1799
+instance_builder-0.1.8.dist-info/RECORD,,
