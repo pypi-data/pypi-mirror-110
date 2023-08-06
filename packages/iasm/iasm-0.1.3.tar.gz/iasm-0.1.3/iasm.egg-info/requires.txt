@@ -1,0 +1,10 @@
+Pygments
+appdirs
+bitstring
+capstone
+keystone-engine
+prompt_toolkit
+pypager
+tabulate
+unicorn
+xview
