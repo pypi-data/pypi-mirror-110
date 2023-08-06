@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+demos/__init__.py
+sql_scripts/__init__.py
+sql_scripts/test.py
+sql_scripts.egg-info/PKG-INFO
+sql_scripts.egg-info/SOURCES.txt
+sql_scripts.egg-info/dependency_links.txt
+sql_scripts.egg-info/requires.txt
+sql_scripts.egg-info/top_level.txt
