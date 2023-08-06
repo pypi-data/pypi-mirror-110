@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ReadOutputXml-RobotFramework
+Version: 0.0.2
+Summary: Reader the output xml from structure RobotFramework output
+Home-page: https://github.com/mcdeva/ReaderOutputXml-RobotFramework.git
+Author: Rukpong
+Author-email: aisendbox@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ReaderOutputXml-RobotFramework
+
+This library is a reader output xml from robotframework.
+- convert xml to dictionary (by structure robotframework output)
+
+###### I have made this for publishing a package to PyPI only!
+
+## Usage
+Install package by using pip:
+```bash
+pip install ReadOutputXml-RobotFramework
+```
+
+## Example
+```python
+from ReaderOutputXmlRobotFramework.ReaderRobotFramework import ReaderRobotFramework
+
+PATH_OUTPUT_XML: str = r'D:\RobotAll_Output.xml'
+
+reader = ReaderRobotFramework(path_output_xml)
+reader.check_exist_file_path(path_output_xml)
+```
+
+## Uninstall package
+```bash
+pip uninstall ReadOutputXml-RobotFramework
+```
+
