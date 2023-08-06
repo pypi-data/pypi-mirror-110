@@ -1,0 +1,4 @@
+pyqt5==5.15.4
+pyqt5-tools==5.15.4.3.2
+pyqtgraph==0.12.1
+twine==3.4.1
