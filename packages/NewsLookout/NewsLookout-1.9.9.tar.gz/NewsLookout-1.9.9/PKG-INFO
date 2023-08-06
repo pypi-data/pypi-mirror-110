@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: NewsLookout
+Version: 1.9.9
+Summary: News scraping application
+Home-page: https://github.com/sandeep-sandhu/NewsLookout
+Author: Sandeep Singh Sandhu
+Author-email: sandeep.sandhu@gmx.com
+Maintainer: Sandeep Singh Sandhu
+License: GPL-3
+Keywords: Web-scraping,News,NLP,Information-Retrieval,crawler
+Platform: Operating System :: MacOS :: MacOS X
+Platform: Operating System :: Microsoft :: Windows
+Platform: Operating System :: POSIX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+License-File: LICENSE
+
+
+NewsLookout is a web scraping application for financial events.  It is a scalable, fault-tolerant, modular and configurable multi-threaded python console application. It is enterprise ready and can run behind a proxy environment via automated schedulers.
+
+The application is readily extended by adding custom modules via its 'plugin' architecture for additional news sources,  custom data pre-processing and NLP based news text analytics  (e.g. entity recognition, negative event classification, economy trends, industry trends, etc.). For more details, refer to https://github.com/sandeep-sandhu/NewsLookout
+
+
+Although the application runs without any special configuration with default parameters, the parameters given in the default config file must be customized - especially the file and folder locations for data, config file, log file, PID file, etc.  Most importantly, certain model related data needs to be downloaded for NLTK and spacy NLP libraries as part of installation.
+
+For spacy, run the following command:
+>    python -m spacy download en_core_web_lg
+
+For nltk, run the following command within the python shell:
+>    import nltk
+>    nltk.download()
+
+You can extend its functionality to add any additional website that you need scraped by using the template file `template_for_plugin.py` and customising it.  Name your custom plugin file with the same name as the class object name. Place it in the plugins_contrib folder and add the plugin's name in the configuration file. It will be picked up automatically and run on the next application run. Take a look at one of the already implemented plugins code for examples of how a plugin can be written.
+
+
+There already exist a number of python libraries for web-scraping, so why should you consider this application for web scraping news? The reason is that it has been specifically built for sourcing news and has several useful features. Some of the notable ones are:
+
+- Built-in NLP models for keyword extraction
+- Text de-duplication using deep learning NLP model
+- Text tone classification using deep learning NLP model to indicate positive, neutral or negative news
+- Extensible data processing plugins to customize the data processing required after web scraping
+- Multi-threaded for scraping several news sites in parallel
+- Includes data processing pipeline configurable by defining the execution order of the data-processing plugins
+- Performs data processing on multiple news/data in parallel to speed up processing for thousands of news items
+- Extensible with custom plugins that can be rapidly written with minimal additional code to support additional news sources. Writing a new plugin does not need writing low level code to handle network traffic and HTTP protocols.
+- Rigorously tested for the specific websites enabled in the plugins, handles several quirks and formatting problems caused by inconsistent and non-standard HTML code.
+- Rigorous text cleaning tested for each of the sites implemented
+- Reduces the network traffic and consequently webserver load by pausing between network requests. High traffic load are usually detected and blocked. The application reduces network traffic to avoid overloading the news web servers.
+- Keeps track of failures and history of sites scraped to avoid re-visiting them again
+- Completely configurable functionality
+- Works with proxy servers
+- Enterprise ready functionality - configurable event logging, segregation of data storage locations vs. program executables, minimum permissions to run the executable, etc.
+- Runnable without a frontend, as a daemon.
+- Enables web-scraping news archives to get news from previous dates for establishing history for analysis
+- Saves the current session state and resumes downloading unfinished URLs in case the application is shut-down midway during web scraping
+

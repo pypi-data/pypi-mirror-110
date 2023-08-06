@@ -1,0 +1,13 @@
+include conf\\newslookout.conf
+include conf\\cookies.txt
+include data\\completed_urls.db
+include src\\plugins_contrib\\template_for_plugin.py
+include models\\config.json
+include models\\finbert_vocab
+include models\\install-models.md
+inclyde test-data\\flag_keywords_test_sentences.txt
+include newslookout.cmd
+include newslookout.sh
+include README.md
+include LICENSE
+include requirements.txt
