@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/bitbnspy/__init__.py
+src/bitbnspy/bitbns.py
+src/bitbnspy.egg-info/PKG-INFO
+src/bitbnspy.egg-info/SOURCES.txt
+src/bitbnspy.egg-info/dependency_links.txt
+src/bitbnspy.egg-info/requires.txt
+src/bitbnspy.egg-info/top_level.txt
