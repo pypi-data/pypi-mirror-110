@@ -1,0 +1,61 @@
+AMIVA-F Tutorial:
+
+Hello, thanks for using the AMIVA-F package in order to predict the pathogenicity for your mutation of interest.
+AMIVA-F works fully automated and is easy to use, even in the absence of knowledge about the underlying parameters which are used as input for the neural network.
+
+Step 1)
+
+AMIVA-F works at the protein annotation level, therefore if you have mutations of interest in the c notation (DNA), look up the corresponding p.notation.
+
+Once you have your mutation of interest in protein notation, enter it in the entry field location directly above the green button ("Calculate everything for me!").
+The required input should look like this:
+
+	M82K             
+
+This input would correspond to the single point mutation at position 82 in FLNc, where the wildtype amino acid (M, Methionine) is substituted
+by the mutated amino acid (K, Lysine).
+If you by any chance submit a wrong amino acid (the amino acid you specified for the wildtype position is in fact not what you submitted, e.g FLNc position 82
+corresponds to methionine, but you wrote S82K, which would correspond to serine), then AMIVA-F automatically corrects you and offers you to proceed calculations with the correct amino acid in in place.
+
+Step 2)
+
+After you entered the mutation of interest e.g M82K into the entry field specified above, click the green button ("Calculate everything for me!")
+This button will then automatically grab the correct model structure where your amino acid is located and calculate all input parameters required to predict the pathogenicity of the mutation.
+Usually this process is really fast, you will see all entry fields filled and you should normally just check if there is anything left blank.
+The 2 last rows in the entryfield (Found posttranslational modification sites, and additional information) are solely there to inform you about potentially interesting sited in close proximity (8Angström cutoff) of the desired mutation spot.
+If you are working by any chance on posttranslational modifications or you possess information about additional binding partners, feel free to add them to the library files ( 
+Posttranslational_modifications_and_binding_partners\Binding_partners_list.txt and Posttranslational_modifications_and_binding_partners\Posttranslational_modification_list.txt) which will be taken into account when filling out the input parameters.
+
+Step 3) 
+
+Check if every entry field in the form is filled and every radiobutton is selected.
+If everything seems fine, proceed by clicking the blue button ("Generate template file").
+This will prepare a specific input parameter file which will then be placed into the correct directory and can be directly used for further prediction by AMIVA-F
+
+
+Step 4)
+
+Click the red button ("Prediction on pathogenicity") and wait a couple of seconds.
+In the background, AMIVA-F trains itself with 10x cross validation with additional stratification (details can be seen later in the Trainingset info section of the neighbouring button).
+This process takes a couple of seconds but afterwards you should see the following entries:
+(In the examplary case of M82K input)
+
+mutation domain pathogenicity
+
+M82K ABD disease related
+
+If you want to obtain a summary of the prediction together with its precalculated parameters click (Outputfile mutation prediction).
+This will generate a .txt file in the AMIVA-F directory which contains a summary of the predicted mutation and its associated parameters.
+For additional information about the trainingset, click ("Trainingset info"). This will give you the statistical summary of the trainingset utilized to train AMIVA-F.
+Currently this seems to be a bit buggy (Given that it only gives you only the summary of 1 out of the 10 crossfold validated runs (Instead the average of 10) and can take values a bit lower or higher than reported in the paper.
+If you take the trainingset to WEKA (a desktop installed version) and do the cross validation there, you will find the exact numbers specified in the publication of 78.6% accuracy.
+
+
+
+
+
+
+
+
+
+
