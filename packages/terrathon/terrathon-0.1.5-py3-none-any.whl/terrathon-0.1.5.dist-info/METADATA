@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: terrathon
+Version: 0.1.5
+Summary: Lightweight Python wrapper around the Terraform CLI
+Home-page: https://github.com/restechnica/terrathon
+License: Mozilla Public License Version 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: cliwrap (<1,>=0.1.1)
+
+# Terrathon
+Lightweight Python wrapper around the Terraform CLI.
+
+
