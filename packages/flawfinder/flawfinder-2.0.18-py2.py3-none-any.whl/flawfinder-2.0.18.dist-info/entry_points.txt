@@ -1,0 +1,3 @@
+[console_scripts]
+flawfinder = flawfinder:main
+
