@@ -1,0 +1,15 @@
+
+[azure]
+aiocache
+aiohttp
+ujson
+msgpack
+
+[deepl]
+aiocache
+aiohttp
+ujson
+msgpack
+
+[google]
+google-cloud-translate~=3.0.1
