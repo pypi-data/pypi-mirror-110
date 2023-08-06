@@ -1,0 +1,14 @@
+sica/__init__.py,sha256=U1OWm1kvOQRXkGyxlZZlyD7JGGBEOK-k-AOXjOsndF4,97
+sica/_whitening.py,sha256=4Yg8oN-My5TX2o4D8NGdku51cgKVsmAtTsrDb2etyDU,6835
+sica/base.py,sha256=fb96AEnw1l5uAZ21Y_1sqWcp1xctDZclW3q15H8rdq8,22228
+sica/mutualknn.py,sha256=B2TCBHZY4xkl0ZN7Z1c4yPHoxElk_up2RhTJ_085htA,12491
+sica/singlecell.py,sha256=9OadIpPgLUuMF9VcIALVa1WklsWXEXvYgQjfcNzIHOM,5068
+sica/annotate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sica/annotate/_utils.py,sha256=BTLMsgZdxrsdNb-eXANNGSONh11ohKCRLTM-cY1rEl0,6003
+sica/annotate/reactome.py,sha256=XFmvfeEzrSvvM9Mc9eMnrK4LRPXJtkZN4kcHLol2T70,10253
+sica/annotate/toppfun.py,sha256=j_n4iYRjZ-51RfxNHXhG4N8_-HWItrudPItykmc2FAs,9247
+stabilized_ica-1.0.1.dist-info/LICENSE,sha256=R4jxyzLjnYc6LhvT-4X-GUC2Kd8UcJaQPT9IAEgFV9Y,1093
+stabilized_ica-1.0.1.dist-info/METADATA,sha256=rkh4bsdaZzQvNfutJruTF22VAAE5_TSyWRM_duC-TKM,5437
+stabilized_ica-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stabilized_ica-1.0.1.dist-info/top_level.txt,sha256=tQYNADheM_Ev2dHUtzzLCgkfFeft158RnhTD4CfaXHE,5
+stabilized_ica-1.0.1.dist-info/RECORD,,
