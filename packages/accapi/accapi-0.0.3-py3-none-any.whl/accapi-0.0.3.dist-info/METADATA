@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: accapi
+Version: 0.0.3
+Summary: Avigilon Control Center API for Python
+Home-page: UNKNOWN
+Author: Jakub Bartkowiak
+Author-email: gralinpl@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/gralin/acc-api-python
+Keywords: python,acc,avigilon
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Avigilon Control Center API for Python
+
+[![PyPI version](https://img.shields.io/pypi/v/accapi.svg)](https://pypi.org/project/accapi)
+
+## About
+
+This package alows you to communicate with Avigilon Control Center (ACC) API. Before you can start using it, you need to send and email to integrations@avigilon.com and ask for your unique pair of user nonce and user key values. Only having those will you be able to communicate with ACC server instance.
+
+## Features
+
+* Login and get session
+* Get camera list
+
+Currently limited functionality is available but it's easy to extend (contributions welcome!)
+
+## Usage
+
+```python
+from accapi.client import AccClientFactory
+
+factory = AccClientFactory("user_nonce", "user_key")
+client = factory.login("http://acc_address", "username", "password")
+cameras = client.get_cameras()
+```
+
+
