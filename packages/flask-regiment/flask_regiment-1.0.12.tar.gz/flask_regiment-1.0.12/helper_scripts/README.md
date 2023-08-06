@@ -1,0 +1,1 @@
+1. change version in __init__.py before publishing
