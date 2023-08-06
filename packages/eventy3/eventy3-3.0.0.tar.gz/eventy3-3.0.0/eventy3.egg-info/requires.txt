@@ -1,0 +1,9 @@
+coloredlogs==15.0.1
+confluent-kafka==1.7.0
+contextvars==2.4
+humanfriendly==9.2
+immutables==0.15
+semver==2.13.0
+urnparse==0.2.0
+
+[dev]
