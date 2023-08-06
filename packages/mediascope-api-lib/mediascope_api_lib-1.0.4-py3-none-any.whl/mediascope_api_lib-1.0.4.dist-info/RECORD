@@ -1,0 +1,13 @@
+mediascope_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mediascope_api/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mediascope_api/core/cache.py,sha256=GsF9mCD_9VTPkRlNhrwg1UWWphEZeqFeCiKN3FBIj_4,2300
+mediascope_api/core/net.py,sha256=1ZYJ4--N4ZypOqqbASxse-EQCIZFH9T8Z0nAZ481EGE,13392
+mediascope_api/core/utils.py,sha256=j0x8DBRvXIXaWK9kvtPUTNY7mtc_cvHCusaQIEpOctA,1176
+mediascope_api/responsum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mediascope_api/responsum/catalogs.py,sha256=GT94yx-pBnWEdVvUiVLhtzK1Wv882ih5lXBL4IsFqN8,29923
+mediascope_api/responsum/tasks.py,sha256=TR-WBaeU6515nPbkJ0FtLVXqsx7ROe5_vT5qJzPSPjI,67234
+mediascope_api_lib-1.0.4.dist-info/LICENSE,sha256=VvUaKC4CWf7GrxZxV5yjtRevQiq5m9_IKPOnMaoin58,4581
+mediascope_api_lib-1.0.4.dist-info/METADATA,sha256=YBmlksd5EMyTX30BnO8uYY53AtflYvI45-0G-BS-oBg,3398
+mediascope_api_lib-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mediascope_api_lib-1.0.4.dist-info/top_level.txt,sha256=Mt8czW8BGwAqQeU4ciIqRNJhOlLtBxdESwv3LMc86mc,15
+mediascope_api_lib-1.0.4.dist-info/RECORD,,
