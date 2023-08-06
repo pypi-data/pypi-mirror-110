@@ -1,0 +1,10 @@
+README.md
+setup.py
+data_science_kit/__init__.py
+data_science_kit/__version__.py
+data_science_kit/data_science_kit.py
+data_science_kit.egg-info/PKG-INFO
+data_science_kit.egg-info/SOURCES.txt
+data_science_kit.egg-info/dependency_links.txt
+data_science_kit.egg-info/requires.txt
+data_science_kit.egg-info/top_level.txt
