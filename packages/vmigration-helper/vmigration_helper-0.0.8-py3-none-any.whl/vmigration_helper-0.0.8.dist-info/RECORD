@@ -1,0 +1,16 @@
+vmigration_helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vmigration_helper/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+vmigration_helper/apps.py,sha256=2vqpsXgw61L3aJ8SVXrYO60kBqxAkloh915gaO3EeOY,165
+vmigration_helper/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vmigration_helper/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vmigration_helper/management/commands/migration_current_id.py,sha256=ZPSAj4J33qRFFBUdiTlk8oUDLW6bhANy5yaaK1qYyS8,779
+vmigration_helper/management/commands/migration_records.py,sha256=PcLhuVjwniXCc2o_9MPtyGre6mgPuKmEc-U3-1U5lD4,2283
+vmigration_helper/management/commands/migration_rollback.py,sha256=2-fxvWUJWqu8PPXHR8lJvBQ5UTBLHy2LfWzzLhRpRwo,4553
+vmigration_helper/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vmigration_helper/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+vmigration_helper/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+vmigration_helper/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+vmigration_helper-0.0.8.dist-info/LICENSE,sha256=EMhuJudr5k-Gt25r0MpCSxdO7VlNB4cjjhZqGOogpZc,1063
+vmigration_helper-0.0.8.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vmigration_helper-0.0.8.dist-info/METADATA,sha256=QUSowRjs1X0993B2o6DFez6VoQzsptwdBHuxyX07vSY,5040
+vmigration_helper-0.0.8.dist-info/RECORD,,
