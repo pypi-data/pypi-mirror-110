@@ -1,0 +1,12 @@
+
+[ini]
+configparser
+
+[toml]
+toml
+
+[xml]
+xmltodict==0.12.0
+
+[yaml]
+PyYAML
