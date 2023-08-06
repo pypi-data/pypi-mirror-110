@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: colourpick
+Version: 1.0.2
+Summary: Calculation of the dominant (average) RGB value
+Home-page: https://github.com/jay-chau/colourpick
+Author: Jay Chau
+Author-email: jay-chau@outlook.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: opencv-python
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+
+Calculation of the dominant (average) RGB value in an image using k-means clustering.
+
