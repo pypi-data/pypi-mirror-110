@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ExiDB
+Version: 1.0
+Summary: ExiDB it is an easier way to make a simple database with simple Query
+Home-page: UNKNOWN
+Author: Zaid Ali
+Author-email: realarty69@gmail.com
+License: MIT
+Description: ExiDB is a package that maybe help you at your database basically it NOSQL
+        based on JSON it have Query that can find you the thing that you need by search by it name
+Keywords: db,database,json
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
