@@ -1,0 +1,28 @@
+KPL/PCK
+
+Defines Saturn but with radius as 1100 km above the 1 bar level, so as to enable calculating "surface" intercept
+locations at the altitude where aurorae are generated.
+
+\begindata
+NAIF_BODY_CODE += ( 698 )
+NAIF_BODY_NAME += ( 'SATURN_AURORAL_LAYER' )
+BODY698_RADII = (    61487.      61487.       55464.     )
+BODY698_GM  =  (       +3.793120689736e+07  )
+BODY698_POLE_RA  =  ( +4.058386992768e+01  ,  -3.099714786917e-02  ,        0.  )
+BODY698_POLE_DEC  =  ( +8.353795895203e+01  ,  -7.584170141686e-03  ,        0.  )
+BODY698_JCOEF  =  ( 0.0  ,  +1.629090771061e-02  ,  0.0  ,  -9.338214217045e-04  ,  0.0  ,        +8.325055333031e-05  )
+BODY698_CCOEF  =  ( 0.0  ,  0.0  ,        0.0000000000000  )
+BODY698_SCOEF  =  ( 0.0  ,  0.0  ,        0.00000000  )
+\begintext
+
+Original Saturn radii
+BODY699_RADII = (    60268.      60268.       54364.     )
+
++1100 km on all axes
+BODY699_RADII = (    61368.      61368.       55464.     )
+
++1100 km at equator, same fractional increase at pole
+BODY699_RADII = (    61368.      61368.       55356.     )
+
++1100 at pole, same fractional increase at equator
+BODY699_RADII = (    61487.      61487.       55464.     )

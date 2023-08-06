@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: uvisaurorae
+Version: 0.1.2
+Summary: A library for projecting Cassini-UVIS auroral imagery
+Author: Alexander Bader
+Author-email: lxbader@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Shapely (>=1.7.1,<2.0.0)
+Requires-Dist: astropy (>=4.2.1,<5.0.0)
+Requires-Dist: importlib-resources (>=5.1.2,<6.0.0)
+Requires-Dist: matplotlib (>=3.4.1,<4.0.0)
+Requires-Dist: numpy (>=1.20.2,<2.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: scipy (>=1.6.3,<2.0.0)
+Requires-Dist: spiceypy (>=4.0.0,<5.0.0)
+Requires-Dist: tqdm (>=4.60.0,<5.0.0)

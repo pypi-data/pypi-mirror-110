@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "uvisaurorae"
+version = "0.1.2"
+description = "A library for projecting Cassini-UVIS auroral imagery"
+authors = ["Alexander Bader <lxbader@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8, <3.10"
+numpy = "^1.20.2"
+importlib-resources = "^5.1.2"
+spiceypy = "^4.0.0"
+requests = "^2.25.1"
+matplotlib = "^3.4.1"
+Shapely = "^1.7.1"
+tqdm = "^4.60.0"
+astropy = "^4.2.1"
+scipy = "^1.6.3"
+
+[tool.poetry.dev-dependencies]
+black = "^21.4b2"
+isort = "^5.8.0"
+flake8 = "^3.9.1"
+pytest = "^6.2.3"
+py-make = "^0.1.1"
+pydocstyle = "^6.1.1"
+Sphinx = "^4.0.2"
+sphinx-rtd-theme = "^0.5.2"
+mypy = "^0.812"
+sphinx-autodoc-typehints = "^1.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[tool.pytest.ini_options]
+addopts = "--tb=short"
