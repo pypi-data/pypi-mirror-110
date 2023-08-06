@@ -1,0 +1,11 @@
+README.md
+setup.py
+hive_metasploit/__init__.py
+hive_metasploit/cli.py
+hive_metasploit/color.py
+hive_metasploit.egg-info/PKG-INFO
+hive_metasploit.egg-info/SOURCES.txt
+hive_metasploit.egg-info/dependency_links.txt
+hive_metasploit.egg-info/entry_points.txt
+hive_metasploit.egg-info/requires.txt
+hive_metasploit.egg-info/top_level.txt
