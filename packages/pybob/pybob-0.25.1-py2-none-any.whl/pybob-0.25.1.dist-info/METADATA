@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: pybob
+Version: 0.25.1
+Summary: Collection of geospatial and other tools I find useful.
+Home-page: http://github.com/iamdonovan/pybob
+Author: Bob McNabb
+Author-email: robertmcnabb@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: descartes
+Requires-Dist: fiona
+Requires-Dist: gdal
+Requires-Dist: geopandas
+Requires-Dist: h5py
+Requires-Dist: llc
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pyproj
+Requires-Dist: pyvips
+Requires-Dist: scikit-image (>=0.18)
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: sphinx-argparse
+
+UNKNOWN
+
+
