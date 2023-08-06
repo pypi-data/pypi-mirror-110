@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tusky
+Version: 0.0.0
+Summary: Namespace squatting before the package is ready
+Author: Snapper
+Author-email: LearningWithSnapper@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
