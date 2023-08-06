@@ -1,0 +1,10 @@
+rgd_client/__init__.py,sha256=csfyuVGz3MSrb9SjwAJf1zAD8NZvwlE3HvdKauW2zTk,78
+rgd_client/_version.py,sha256=2Yx09W2AvfNfvo-Hv4XdtHtnjB0HeqVbBahFO7hpsBo,211
+rgd_client/rgdc.py,sha256=zOdbE7_Y16V8BnBBK6GucTx0qRmS8l2oOBNAILXitQQ,11708
+rgd_client/session.py,sha256=rR8RX_G4h8jeQz2d3tDpxWp0qiDE1E-30rEbEoVn8J0,1804
+rgd_client/types.py,sha256=pzaL_GgQ6xoZKDZPEncPxUv9nTk_ZtbFZKsXPICpOZ8,307
+rgd_client/utils.py,sha256=yFhPDGo-pNHI3hUrgNheHi7hWk6ewQ70WNqagu4hbWk,5364
+rgd_client-0.2.0rc3.dist-info/METADATA,sha256=mMA0O4GlC2jsKWFnAvjkIKmkGsCLQi-E0e3sZs1qpuQ,2764
+rgd_client-0.2.0rc3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rgd_client-0.2.0rc3.dist-info/top_level.txt,sha256=oTOe9z3BAzFa2xL4GTU9BF2oYgj9ogRbRmg2x-jsn-c,11
+rgd_client-0.2.0rc3.dist-info/RECORD,,
