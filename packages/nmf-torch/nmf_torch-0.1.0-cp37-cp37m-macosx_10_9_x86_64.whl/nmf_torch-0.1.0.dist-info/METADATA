@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: nmf-torch
+Version: 0.1.0
+Summary: A PyTorch implementation on Non-negative Matrix Factorization.
+Home-page: https://github.com/lilab-bcb/nmf-torch
+Author: Yiming Yang, Bo Li
+Author-email: cumulus-support@googlegroups.com
+License: UNKNOWN
+Keywords: matrix factorization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.6
+Requires-Dist: Cython
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: importlib-metadata (>=0.7) ; python_version < "3.8"
+
+==============
+NMF-Torch
+==============
+
+A PyTorch implementation on Non-negative Matrix Factorization.
+
+
