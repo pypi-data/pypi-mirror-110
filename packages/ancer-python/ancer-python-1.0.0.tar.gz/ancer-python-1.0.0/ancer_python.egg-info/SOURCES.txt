@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ancer/__init__.py
+ancer/optimization.py
+ancer/optimize_dataset.py
+ancer_python.egg-info/PKG-INFO
+ancer_python.egg-info/SOURCES.txt
+ancer_python.egg-info/dependency_links.txt
+ancer_python.egg-info/requires.txt
+ancer_python.egg-info/top_level.txt
