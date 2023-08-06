@@ -1,0 +1,5 @@
+numpy
+matplotlib
+websockets
+argparse
+pyyaml
