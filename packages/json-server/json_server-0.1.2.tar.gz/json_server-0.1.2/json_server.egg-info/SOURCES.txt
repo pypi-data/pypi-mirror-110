@@ -1,0 +1,10 @@
+README.md
+setup.py
+json_server/__init__.py
+json_server/main.py
+json_server.egg-info/PKG-INFO
+json_server.egg-info/SOURCES.txt
+json_server.egg-info/dependency_links.txt
+json_server.egg-info/entry_points.txt
+json_server.egg-info/requires.txt
+json_server.egg-info/top_level.txt
