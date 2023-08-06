@@ -1,0 +1,17 @@
+dsw_tdk/__init__.py,sha256=C-nN1IAfA_0GBKRLH2u8o6DpT-EFPE7wV2nfGrbC1ZA,317
+dsw_tdk/__main__.py,sha256=KuEmrSFbuqK8sM4Op66KJSvB7tZHjYSLMza0k41HX9c,48
+dsw_tdk/api_client.py,sha256=_pglKpx6EYD3BPjj6VR0yX7_MJO1cpozfJLAn1yoP4A,10801
+dsw_tdk/cli.py,sha256=Dy1SixYUfCO5jH1fDHszQlrGUAyqXxDzcsXY358wxsI,17123
+dsw_tdk/consts.py,sha256=drm1_61huu1Gq__w0l0hNbTnhdLFXCP4a1RPtUjZLEA,623
+dsw_tdk/core.py,sha256=HxXIXL2qZKEBf3fOqTxU5m8wwmJqfh35_zdI-11SW9w,18309
+dsw_tdk/model.py,sha256=MC6I02lTTb2izEfS9enJo0uZ0-1WWB2auVRhj9NHBaY,16188
+dsw_tdk/utils.py,sha256=l0GowY17ztG64FU6wjsHGU4cESAckvWmhiWsc9NkpkQ,5025
+dsw_tdk/validation.py,sha256=Dx9vE9FkohaiTi9yMKJht8IVAmJ6924BD0iFRuIWBiw,8234
+dsw_tdk/templates/README.md.j2,sha256=mlPD7DmlNkpkgULwFM5JxE3wTlw6bH1zPD2NOZII7zQ,260
+dsw_tdk/templates/starter.j2,sha256=CrMxhYspNEBrbe3Xc8727JORO82ORfuBZXOQXXUgZFE,310
+dsw_tdk-3.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dsw_tdk-3.1.0.dist-info/METADATA,sha256=BOieTXp0kOVgr-cKrHuVfAL2_SKIQhoRriK1dbQdHWQ,6315
+dsw_tdk-3.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dsw_tdk-3.1.0.dist-info/entry_points.txt,sha256=rWzhAsJRBwY_uXFyqcjZ_tfsWyh33Lk3m0RPdviCwUU,42
+dsw_tdk-3.1.0.dist-info/top_level.txt,sha256=JMZn6LZDh-cI9STjuFPP1KgjbA5UNADG-fMoSoaIQ2w,8
+dsw_tdk-3.1.0.dist-info/RECORD,,
