@@ -1,0 +1,9 @@
+MoDE_embeddings/MoDE.py,sha256=YeW0KMTIxkvnXQJs6amzP7qyhTqw0HI2jwF-MAJrgCY,10858
+MoDE_embeddings/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+MoDE_embeddings/metrics.py,sha256=he6BUlM19nKue9v0YjFDyKq2mnlBvshrwgA2yOnxLyI,8187
+MoDE_embeddings/waterfilling_compression.py,sha256=YK1ailoy0t2r5binHkwAdl1vonEMNfOUTlq-rGCmGBE,12286
+MoDE_embeddings-0.0.4.dist-info/LICENSE,sha256=sw5R9x7YiaESz--wct2pp-gEY_aBiJlnEMnoPHzU0m4,1075
+MoDE_embeddings-0.0.4.dist-info/METADATA,sha256=aiqdNAapu_HILnDFl-k1NmJSlMilJ4sAWvCd3l9vF_A,3021
+MoDE_embeddings-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+MoDE_embeddings-0.0.4.dist-info/top_level.txt,sha256=YunKCr3Y2rH23J6-VHvExtjDWRz7WBilH7XunEGiUJE,16
+MoDE_embeddings-0.0.4.dist-info/RECORD,,
