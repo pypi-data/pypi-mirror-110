@@ -1,0 +1,7 @@
+Jinja2
+query_string
+urlexpander
+pillow
+python-slugify
+urlextract
+py3-validate-email
