@@ -1,0 +1,4 @@
+Click
+tabulate
+CoreMS
+requests
