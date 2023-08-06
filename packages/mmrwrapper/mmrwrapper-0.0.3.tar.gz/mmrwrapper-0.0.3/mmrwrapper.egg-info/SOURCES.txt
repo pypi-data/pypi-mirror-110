@@ -1,0 +1,10 @@
+README.md
+setup.py
+mmrwrapper/__init__.py
+mmrwrapper/exceptions.py
+mmrwrapper/wrapper.py
+mmrwrapper.egg-info/PKG-INFO
+mmrwrapper.egg-info/SOURCES.txt
+mmrwrapper.egg-info/dependency_links.txt
+mmrwrapper.egg-info/requires.txt
+mmrwrapper.egg-info/top_level.txt
