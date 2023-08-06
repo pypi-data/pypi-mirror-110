@@ -1,0 +1,16 @@
+xyz_mytraining/__init__.py,sha256=Gp2AP9TBpf44ELwIuOdgNwV_NdIsLM4EZD8H8h999zE,49
+xyz_mytraining/apis.py,sha256=VSknLp0nhdZqbQA9hozcZFZdr1g_0WRygcMrtjakVoM,2197
+xyz_mytraining/apps.py,sha256=X3wuiENthOpPe7zxcYpO5fNXJzhdnvYx-c73J_MxlK0,346
+xyz_mytraining/choices.py,sha256=ovLz3yznF_TKp7IjZ8BrCYciLbm5BemRxpjdZ6vN_jI,234
+xyz_mytraining/models.py,sha256=93Ruqso3BpyyjDYdBuss52zNBFDuv4IucMprHQ0kLPw,3361
+xyz_mytraining/serializers.py,sha256=GoRkceJD6tlmf2vH09wqr3idt7f5fE66r_DRp4zfebE,936
+xyz_mytraining/migrations/0001_initial.py,sha256=RJ6bwBv6FI1x7vVLheTJxe0y-pL1_03NBEA1QJ_R9Ts,3099
+xyz_mytraining/migrations/0002_auto_20200719_1136.py,sha256=8pvhel2JzSh-oK3lVy71CkNm41DnLBUB2MmsCuV092M,513
+xyz_mytraining/migrations/0003_auto_20200724_0540.py,sha256=dY6xmu_XZb65y_PTMhc-pURuU7WpblDsj0yCo-CzN-c,488
+xyz_mytraining/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xyz_mytraining-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+xyz_mytraining-0.1.0.dist-info/METADATA,sha256=K6IV8bxadRA256kPTQaBp-blZdFBxXIX8bO14XK9GgM,971
+xyz_mytraining-0.1.0.dist-info/RECORD,,
+xyz_mytraining-0.1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+xyz_mytraining-0.1.0.dist-info/metadata.json,sha256=rRSFfE2ewOwlxOqYa_qSfg3fYfcG2zRrN_xStOP0koc,1065
+xyz_mytraining-0.1.0.dist-info/top_level.txt,sha256=wZWc1jPUI99Hq5qCVQdvnarLX_nBkOGTm4EUhEwHkHw,15
