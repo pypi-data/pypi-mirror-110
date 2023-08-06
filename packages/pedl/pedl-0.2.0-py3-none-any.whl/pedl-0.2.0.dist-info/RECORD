@@ -1,0 +1,15 @@
+pedl/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+pedl/cli.py,sha256=XgdTguwA7J0VP8MXiaHVsNlthoJRyUO-71bVuNUnlrQ,8267
+pedl/database.py,sha256=-ZX0JzLuEQ0UQ0lR7C1zblXvVppMewYlUCmu2gJHznM,1634
+pedl/dataset.py,sha256=FunImgnXD_QwVTKl4ZBsBhesgJhwqxofA0tnCW8z54A,5032
+pedl/model.py,sha256=2dq-PnXX9ac2zfp5wMAMqpKZWGazPNdvNiYq6erFXRw,1748
+pedl/predict.py,sha256=_H69XQffY-Wcpt4Yw5BmUpFxx21fbUnimd03fngoOb0,7812
+pedl/utils.py,sha256=6UsSMCLGXcHPvUryCrTjhMzr-rdjKU6lsekHa5ZboA0,29247
+pedl/data/HOM_AllOrganism.rpt,sha256=cyUsvdaL9EPQxC5wikVrzBYyqt-iSHAi3O9zthKD8KQ,18171360
+pedl/data/geneid_to_name.json,sha256=0x3GJaMN6vurY6-a0CyEBP-ldrHzZyByOAyRjDOTckE,5179646
+pedl/data/uniprot2geneid.json,sha256=7EXbpW-59oHU1u1M2wG5vBnQhvzAM1kCT6ruy2JVZ1o,716415
+pedl-0.2.0.dist-info/METADATA,sha256=du0GQcSYyIXjAUCvV6XCwGQwm_xDBJl7pD01pYhjm8c,5097
+pedl-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pedl-0.2.0.dist-info/entry_points.txt,sha256=sh7JrFPISRS3r8icAaFtiLtbFCSeadf-5oMio-ssJ6A,40
+pedl-0.2.0.dist-info/top_level.txt,sha256=LSZduV3Kh2MS1Is-78bvk1KHz0gzD7LSXLKcxVQoPkM,5
+pedl-0.2.0.dist-info/RECORD,,
