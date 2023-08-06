@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: hue-api
+Version: 0.4.2
+Summary: Async API for controlling Hue Lights
+Home-page: https://github.com/nirantak/hue-api
+Author: Nirantak Raghav
+Author-email: hey@nirantak.com
