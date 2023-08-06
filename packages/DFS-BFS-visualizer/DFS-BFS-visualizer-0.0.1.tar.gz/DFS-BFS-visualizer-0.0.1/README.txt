@@ -1,0 +1,1 @@
+Interactive and fun search algorithm visualizer that compares BFS to DFS by designing obstacles and running automatic solves.

@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: DFS-BFS-visualizer
+Version: 0.0.1
+Summary: DFS and BFS visualizer using a drawing tool
+Home-page: UNKNOWN
+Author: Fars Bein
+Author-email: fars.bein@ryerson.ca
+License: MIT
+Description: Interactive and fun search algorithm visualizer that compares BFS to DFS by designing obstacles and running automatic solves.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (06/22/2021)
+        -------------------
+        - First Release
+Keywords: visualizer,DFS,BFS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
