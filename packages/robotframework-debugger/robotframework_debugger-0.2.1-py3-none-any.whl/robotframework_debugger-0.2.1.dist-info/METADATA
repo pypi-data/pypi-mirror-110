@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: robotframework-debugger
+Version: 0.2.1
+Summary: A Robot Framework Listener to try keywords and pause execution on failure
+Home-page: https://github.com/Snooz82/robotframework-debugger
+Author: René Rohner(Snooz82)
+Author-email: snooz@posteo.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Framework :: Robot Framework
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: robotframework (>=3.2.1)
+
+# robotframework-debugger
+Debugger that can stop execution and shows a Gui to try out Robot Framework commands
+
+## Installation
+
+``pip install robotframework-debugger``
+
+## Usage
+
+use it as listener
+
+``robot --listener Debugger myrobotsuite.robot``  
+
+## How it works:
+
+Debugger pauses the execution on a failing keyword or on keywords named `Debug` or `Break`.
+It opens a TKinter based GUI and let you see the error, try out other keywords in exact that situation.
+It also gives access to Robot Frameworks variables and logs a history of passed keyword calles.
+
+### Have Fun
+
