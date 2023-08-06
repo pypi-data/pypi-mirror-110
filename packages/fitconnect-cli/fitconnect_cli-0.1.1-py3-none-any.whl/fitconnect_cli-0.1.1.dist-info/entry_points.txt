@@ -1,0 +1,3 @@
+[console_scripts]
+fitconnect=main:main
+
