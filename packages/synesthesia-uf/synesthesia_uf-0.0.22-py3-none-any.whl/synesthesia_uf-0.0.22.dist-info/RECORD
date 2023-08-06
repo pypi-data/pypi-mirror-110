@@ -1,0 +1,15 @@
+synesthesia/__init__.py,sha256=XpU_5eWpRkZqFfgzB60N7tnaO1_SRWYgUWIOjeIJNkM,208
+synesthesia/essentia_helper.py,sha256=1kGkJA6hBNM-MFqaGR_jAqzJvSZj7qjVgdyM0QJsfkc,617
+synesthesia/gui.py,sha256=hbbTWkSnI-jbmpp1roWehqxoSdj3TCoG4n2N7gcvJeg,9198
+synesthesia/image_helper.py,sha256=C0C7gg5Y5MA2LznalBi0vDmb4R0X2UQkqS6CJ5Akars,216
+synesthesia/lib.py,sha256=GSU0gpWhV7yfRpkR9y1Dq-I_GT9agdYsPaBiSmILLwY,809
+synesthesia/wsl.py,sha256=3_m4PgRYXZS-EKV91MFIy2bgXZWYECo7xCcFISymgT4,917
+synesthesia/images/line.png,sha256=d5mvJIt19LAA80U1Rj31NzRVEjtza-lJwt_cLclkVfo,155
+synesthesia/images/main_logo.svg,sha256=YSYhT5MjEO2w-CqqBGQ9JsQQ7sCiR0V10NFhoD5WZiI,30261
+synesthesia/images/proc_img.png,sha256=d5mvJIt19LAA80U1Rj31NzRVEjtza-lJwt_cLclkVfo,155
+synesthesia/images/title_logo.png,sha256=7GXMd61prJy1MfspymzOu16EFxygaIUrKUE9S6Qb2KI,721
+synesthesia_uf-0.0.22.dist-info/METADATA,sha256=Kt2_xkJhR1L56kXkykaosJwQto4Z8fBbtxLf-NMAWWE,406
+synesthesia_uf-0.0.22.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+synesthesia_uf-0.0.22.dist-info/entry_points.txt,sha256=FFUcenlOtehg_Ha0NMsUeNfujfNie23Ahp0qFj466sM,48
+synesthesia_uf-0.0.22.dist-info/top_level.txt,sha256=XFX1_hhag8dWP35sSndCWolYmWi7hFilodu58r-ffUE,12
+synesthesia_uf-0.0.22.dist-info/RECORD,,
