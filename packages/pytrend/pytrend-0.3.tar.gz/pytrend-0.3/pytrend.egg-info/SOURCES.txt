@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pytrend/__init__.py
+pytrend/identification.py
+pytrend.egg-info/PKG-INFO
+pytrend.egg-info/SOURCES.txt
+pytrend.egg-info/dependency_links.txt
+pytrend.egg-info/requires.txt
+pytrend.egg-info/top_level.txt
