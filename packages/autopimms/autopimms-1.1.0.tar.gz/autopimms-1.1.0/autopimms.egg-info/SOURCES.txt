@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+autopimms/__init__.py
+autopimms/autopimms copy.py
+autopimms/dataobj.py
+autopimms/fetch.py
+autopimms/main.py
+autopimms.egg-info/PKG-INFO
+autopimms.egg-info/SOURCES.txt
+autopimms.egg-info/dependency_links.txt
+autopimms.egg-info/requires.txt
+autopimms.egg-info/top_level.txt
