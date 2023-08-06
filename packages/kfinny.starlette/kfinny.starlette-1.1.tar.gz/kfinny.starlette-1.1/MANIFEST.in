@@ -1,0 +1,4 @@
+include kfinny/starlette/docs/*.png
+include kfinny/starlette/statics/css/*.css
+include kfinny/starlette/statics/js/*.js
+include kfinny/starlette/templates/*.html
