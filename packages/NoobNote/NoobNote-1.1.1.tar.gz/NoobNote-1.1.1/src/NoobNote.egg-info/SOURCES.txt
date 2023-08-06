@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/NoobNote/README.txt
+src/NoobNote/__init__.py
+src/NoobNote/__main__.py
+src/NoobNote/icon.ico
+src/NoobNote.egg-info/PKG-INFO
+src/NoobNote.egg-info/SOURCES.txt
+src/NoobNote.egg-info/dependency_links.txt
+src/NoobNote.egg-info/entry_points.txt
+src/NoobNote.egg-info/top_level.txt
