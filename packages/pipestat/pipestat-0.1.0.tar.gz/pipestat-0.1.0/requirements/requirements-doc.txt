@@ -1,0 +1,5 @@
+https://github.com/databio/mkdocs-databio/archive/master.zip
+https://github.com/pepkit/pipestat/archive/master.zip
+markdown-include
+mkdocs>=1.0
+pydoc-markdown
