@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: converter-json-to-csv-and-c-j
+Version: 1.0.0
+Summary: 
+Author: Mimikrim
+Author-email: andreyblokhin010@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
