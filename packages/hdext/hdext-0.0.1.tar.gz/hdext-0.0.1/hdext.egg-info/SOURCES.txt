@@ -1,0 +1,6 @@
+setup.py
+hdext/__init__.py
+hdext.egg-info/PKG-INFO
+hdext.egg-info/SOURCES.txt
+hdext.egg-info/dependency_links.txt
+hdext.egg-info/top_level.txt
