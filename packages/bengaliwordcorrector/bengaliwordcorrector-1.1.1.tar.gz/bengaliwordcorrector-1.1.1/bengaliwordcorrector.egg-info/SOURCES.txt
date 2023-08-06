@@ -1,0 +1,6 @@
+README.md
+setup.py
+bengaliwordcorrector.egg-info/PKG-INFO
+bengaliwordcorrector.egg-info/SOURCES.txt
+bengaliwordcorrector.egg-info/dependency_links.txt
+bengaliwordcorrector.egg-info/top_level.txt
