@@ -1,0 +1,8 @@
+setup.py
+psgtray/__init__.py
+psgtray/psgtray.py
+psgtray.egg-info/PKG-INFO
+psgtray.egg-info/SOURCES.txt
+psgtray.egg-info/dependency_links.txt
+psgtray.egg-info/requires.txt
+psgtray.egg-info/top_level.txt
