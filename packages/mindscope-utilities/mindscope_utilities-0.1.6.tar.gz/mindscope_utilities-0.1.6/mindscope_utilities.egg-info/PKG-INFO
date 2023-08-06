@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mindscope-utilities
+Version: 0.1.6
+Summary: Utilities for loading, manipulating and visualizing data from the Allen Institute Mindscope program
+Home-page: https://github.com/AllenInstitute/mindscope_utilities
+Author: Allen Institute
+Author-email: marinag@alleninstitute.org, iryna.yavorska@alleninstitute.org, kater@alleninstitute.org, dougo@alleninstitute.org,
+License: Allen Institute
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
