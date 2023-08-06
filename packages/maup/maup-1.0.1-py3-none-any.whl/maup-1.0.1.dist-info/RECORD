@@ -1,0 +1,15 @@
+best-practices.md,sha256=8z7GcnhPcApW8UbUueJR9LhqpJheaQTAN_nIRwNtnSY,2175
+maup/__init__.py,sha256=ChlzrFQsTjZpFH60R2D5JdfqUQgTEJn3SAXozZgxZHw,609
+maup/adjacencies.py,sha256=joPRWx12hW6p68t-nWOKFQc13OhNhTAdOOoegNYF-vc,2098
+maup/assign.py,sha256=6F1e_Qp75LH-9_TAIgWKWIfpGRVJiEKzrPqZOJQ4upM,1084
+maup/crs.py,sha256=HfhXF3sTqPZYiFszAgISePa4J6Kdb0EQY8fyxU52bdQ,428
+maup/indexed_geometries.py,sha256=DaJrbmpWH2iHwEVEUEHw2UfLfdUDNiMghw_V7uAWzyA,2099
+maup/indices.py,sha256=fM3HDcuLvXv3bQQcb19IqeAqTDygwbYLuf4peuJQrm8,289
+maup/intersections.py,sha256=AXsJi5B_lNq4z9-XbMyRuvjMc2AmQEGqGpKojIaAU4g,3580
+maup/normalize.py,sha256=IzWubbPGZq75W0W8ZQ06K4gASGfia9D5IuqZBIjtkqk,416
+maup/progress_bar.py,sha256=tQwo818eCgRmmtRR4RMxH2AWOMSgxJJNNJz6ClXItiI,681
+maup/repair.py,sha256=JeNOHCV0FEk-fw-uc654weHok8RmXnKWbalKZRVRx98,10202
+maup-1.0.1.dist-info/LICENSE,sha256=gzrl0RFlwPm7WbHdD7qV19jPLumBANy8TW0kKRm75co,1096
+maup-1.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+maup-1.0.1.dist-info/METADATA,sha256=h48xqFTi7ngrcAUM056QcJV3TtJc0p9qvpYaf2bWtqI,13048
+maup-1.0.1.dist-info/RECORD,,
