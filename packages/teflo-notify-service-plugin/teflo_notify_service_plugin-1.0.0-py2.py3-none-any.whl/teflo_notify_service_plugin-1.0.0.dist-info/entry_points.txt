@@ -1,0 +1,3 @@
+[notification_plugins]
+notify_service_plugin = teflo_notify_service_plugin:NotifyServicePlugin
+
