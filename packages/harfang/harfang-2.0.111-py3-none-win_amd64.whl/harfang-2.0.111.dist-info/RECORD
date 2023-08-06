@@ -1,0 +1,12 @@
+harfang-2.0.111.data/purelib/harfang/PhysXDevice64.dll,sha256=H3ggd5T1VtUDn4vdCpz9H14X7PX_XDtcARx9Au3-c38,704208
+harfang-2.0.111.data/purelib/harfang/PhysXGpu_64.dll,sha256=-9I2maxhLQhbCxsjMBc-IxzfBqtWQPgRSnfOEMCDNwM,27009232
+harfang-2.0.111.data/purelib/harfang/__init__.py,sha256=JwVek8NcI4gEXrGA-efTrCF1TNyomXRSbwoT7Rv8Upg,23
+harfang-2.0.111.data/purelib/harfang/glfw3.dll,sha256=RoaIZrBuPOgmqG5uCwT8vNudydK-HxMGTYqyXMsKnzQ,230400
+harfang-2.0.111.data/purelib/harfang/harfang.pyd,sha256=RvLj2Lp27R7r2Au72mc44SUzQC0-_e2QGvoUBhdao9A,12320256
+harfang-2.0.111.data/purelib/harfang/lua53.dll,sha256=wtipudxMQyQ3thm1V-mefm1rwAOdkQZz4g9kYvTNOw0,211456
+harfang-2.0.111.data/purelib/harfang/newton.dll,sha256=YP3J_7KEnSKaRPg3khjQ9ToP7qO7xU0Lh16bo2ej6EQ,2120704
+harfang-2.0.111.data/purelib/harfang/openvr_api.dll,sha256=-N2HG-uDK1DLxj7Z6GsDWc1GVkoqYen6oKSaRSw2rf0,598816
+harfang-2.0.111.dist-info/METADATA,sha256=J1kIYFQLdDkV3gDvItr9wpwH3s0bS-wHQn49zK90nWs,1260
+harfang-2.0.111.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+harfang-2.0.111.dist-info/top_level.txt,sha256=7kNQ_pPyGXt1YElB1CpQ1aAmaptiucqsf0mO7sxUYCQ,8
+harfang-2.0.111.dist-info/RECORD,,
