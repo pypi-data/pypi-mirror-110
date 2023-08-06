@@ -1,0 +1,12 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/APISpec_fromfile.egg-info/PKG-INFO
+src/APISpec_fromfile.egg-info/SOURCES.txt
+src/APISpec_fromfile.egg-info/dependency_links.txt
+src/APISpec_fromfile.egg-info/requires.txt
+src/APISpec_fromfile.egg-info/top_level.txt
+src/apispec_fromfile/__init__.py
+src/apispec_fromfile/plugin.py
