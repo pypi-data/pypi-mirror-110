@@ -1,0 +1,11 @@
+README.md
+setup.py
+slotpy/__init__.py
+slotpy/buildgui.py
+slotpy/dataframe.py
+slotpy/plotter.py
+slotpy.egg-info/PKG-INFO
+slotpy.egg-info/SOURCES.txt
+slotpy.egg-info/dependency_links.txt
+slotpy.egg-info/requires.txt
+slotpy.egg-info/top_level.txt
