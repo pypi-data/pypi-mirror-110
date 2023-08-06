@@ -1,0 +1,17 @@
+Pjono/Response.py,sha256=Bk19vnb5R69Rfv94Da_ATbd7xL4rncxrUxepLnRxM48,3177
+Pjono/Server.py,sha256=Ic92VmKhcc2IWQiAL9X4MVidp_xqwQJXZBtY8LSmHVM,9466
+Pjono/__init__.py,sha256=NYDi9-S994ZbZ7qqoRtv46f90AZ-EG2JOWsybpZcJwM,832
+Pjono/mime.json,sha256=FtrNeg1d-1SkfZR_hcGc5cRfZ5ZA_9S-R_K7gL6EQtM,2629
+Pjono/PAGES/404.html,sha256=2-a8JE5doKowcihfwlPRT5jr1xvCgHuF4ci5HwXz7Kk,331
+Pjono/PAGES/error.html,sha256=mLjIAx-8UxUo3C0f1b6YSlILiLpcWJKTj0UJZK5OJFQ,1451
+Pjono/PAGES/error1.html,sha256=JNtG5M6dLWB0uQZyRW9CqevD8ioF8biE_O1VzFFQC80,348
+Pjono/PARSE/Components.py,sha256=_AG5MHEvOOo7Z9qPjnsdQtB6490KKXGNi9AJ7yylOY4,5811
+Pjono/PARSE/Html.py,sha256=CsTjVZiOSdvDDxK9Pje3E7rfac8sczHdTPwcY2mzhDQ,493
+Pjono/PARSE/__init__.py,sha256=vHDihvFCbgJjc9kuvb5RxX1Rgomlhk1UC25-JTaJ3xM,116
+Pjono/PARSE/ascii.json,sha256=kcZYwy6uBktYvj3S55qtSEVw-zEy431_6_Q7f3KuXVE,1569
+Pjono/PARSE/parse.py,sha256=KE5wSn4uQevvaA3OkgC79EurvmSI8irwY9xZRegh-uM,3649
+Pjono-0.0.3.dist-info/LICENSE,sha256=Ek3AiXxIURLoISLH2WtrvMblPTx_i1v6kbdWZdpBZ90,1081
+Pjono-0.0.3.dist-info/METADATA,sha256=dyUB7-iRA3fJ--w_wsER_4bJ8oGc1h_A7RzYWX8cbuU,1788
+Pjono-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Pjono-0.0.3.dist-info/top_level.txt,sha256=zSViTB5kpzrBV1fr-C6LhHwtvKhvPJgI_Hmyq5Pi9UQ,6
+Pjono-0.0.3.dist-info/RECORD,,
