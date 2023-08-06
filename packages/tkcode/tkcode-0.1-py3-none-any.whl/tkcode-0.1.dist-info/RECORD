@@ -1,0 +1,10 @@
+tkcode/__init__.py,sha256=Kg_4pr2WmG8RwrUZIlzE_5d5_CGkr0BmRduZDxx-fWM,67
+tkcode/codeblock.py,sha256=7r5OLvBu4DzKAFPQxiYxpQ2nSg_0XhfpMXrHgyG22fk,1241
+tkcode/codebox.py,sha256=Z1VR6s7mD77eYrDMdAtVahT1zL4oLEfPabgEcINQ3D8,9060
+tkcode/codeeditor.py,sha256=p-YRWheOKUerw6HOFpPM0htwZTgqzYc1pr4iL6Z8BlU,3096
+tkcode/schemes/mariana.json,sha256=oo7EuE1esgw1byt7ViCotTMO55NtJhqfKLVbvB0ePyo,3160
+tkcode-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tkcode-0.1.dist-info/METADATA,sha256=mmJzO_symbHVW6f9BcrID9fQ78htKgIYkGP0n8pm6aE,345
+tkcode-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tkcode-0.1.dist-info/top_level.txt,sha256=eKRCKA7GY8HyAKTN_2cC8dP8Kd_8qxJsYuNOwESy9CM,7
+tkcode-0.1.dist-info/RECORD,,
