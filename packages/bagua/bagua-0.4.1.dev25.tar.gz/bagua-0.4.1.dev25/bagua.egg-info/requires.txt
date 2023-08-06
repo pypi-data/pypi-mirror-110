@@ -1,0 +1,10 @@
+bagua-core<0.3,>=0.2
+deprecation
+pytest-benchmark
+scikit-optimize
+numpy
+flask
+prometheus_client
+parallel-ssh
+pydantic
+requests
