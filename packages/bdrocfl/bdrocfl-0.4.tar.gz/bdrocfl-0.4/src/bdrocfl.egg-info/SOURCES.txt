@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/bdrocfl/__init__.py
+src/bdrocfl/ocfl.py
+src/bdrocfl.egg-info/PKG-INFO
+src/bdrocfl.egg-info/SOURCES.txt
+src/bdrocfl.egg-info/dependency_links.txt
+src/bdrocfl.egg-info/top_level.txt
