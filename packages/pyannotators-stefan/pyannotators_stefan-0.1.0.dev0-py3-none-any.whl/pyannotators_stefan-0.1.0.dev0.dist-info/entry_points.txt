@@ -1,0 +1,3 @@
+[pyannotators.plugins]
+stefan=pyannotators_stefan.stefan:StefanAnnotator
+
