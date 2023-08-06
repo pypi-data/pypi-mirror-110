@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mayapp0
+Version: 1.0.0
+Summary: first myapp
+Home-page: UNKNOWN
+Author: haohang1998
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: matplotlib (==3.3.2)
+Requires-Dist: torch (==1.8.0)
+
+UNKNOWN
+
+
