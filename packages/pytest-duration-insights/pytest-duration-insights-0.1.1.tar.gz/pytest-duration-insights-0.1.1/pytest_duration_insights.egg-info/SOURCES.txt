@@ -1,0 +1,10 @@
+setup.py
+pytest_duration_insights/__init__.py
+pytest_duration_insights/__main__.py
+pytest_duration_insights/_parsing.py
+pytest_duration_insights.egg-info/PKG-INFO
+pytest_duration_insights.egg-info/SOURCES.txt
+pytest_duration_insights.egg-info/dependency_links.txt
+pytest_duration_insights.egg-info/entry_points.txt
+pytest_duration_insights.egg-info/requires.txt
+pytest_duration_insights.egg-info/top_level.txt
