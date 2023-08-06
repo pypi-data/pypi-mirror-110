@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: yiopypi
+Version: 0.0.2
+Summary: YIO Remote V2 API python library
+Home-page: https://github.com/YIO-Remote/yiopypi
+Author: Marton Borzak
+Author-email: marton@yio-remote.com
+License: MIT License
+Description: # YIO API V2 Python library
+        
+        YIO Software V2 API Python library, that is used (for now) to integrate with Home Assistant.
+        
+        Currently only token send is implemented for the YIO API external token registry, as this is required by the Home Assistant integration for seamless UI setup.
+        
+        Considered as proof of concept.
+Keywords: yio,yioremote
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Description-Content-Type: text/markdown

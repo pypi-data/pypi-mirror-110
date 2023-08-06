@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+yiopypi/__init__.py
+yiopypi.egg-info/PKG-INFO
+yiopypi.egg-info/SOURCES.txt
+yiopypi.egg-info/dependency_links.txt
+yiopypi.egg-info/not-zip-safe
+yiopypi.egg-info/top_level.txt
