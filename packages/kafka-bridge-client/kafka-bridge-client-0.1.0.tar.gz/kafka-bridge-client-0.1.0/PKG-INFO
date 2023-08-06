@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kafka-bridge-client
+Version: 0.1.0
+Summary: Python client for Strimzi Kafka Bridge
+License: MIT
+Author: Bogdan Zaseka
+Author-email: zaseka.bogdan@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
