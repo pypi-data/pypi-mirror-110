@@ -1,0 +1,8 @@
+LICENCE.rst
+README.md
+setup.cfg
+setup.py
+face_mask_classifier.egg-info/PKG-INFO
+face_mask_classifier.egg-info/SOURCES.txt
+face_mask_classifier.egg-info/dependency_links.txt
+face_mask_classifier.egg-info/top_level.txt
