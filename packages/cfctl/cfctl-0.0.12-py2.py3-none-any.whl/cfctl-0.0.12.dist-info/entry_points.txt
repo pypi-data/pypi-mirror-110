@@ -1,0 +1,3 @@
+[console_scripts]
+cfctl = cfctl.cfctl:main
+
