@@ -1,0 +1,11 @@
+memoria/Cache.py,sha256=Y9HoBx57IMw8l-Wk7cfzNEV90OsWk8BVzH9ycH7XcW0,2499
+memoria/__init__.py,sha256=pwosrg_iXjhFFTXoK3M2dxE_eh5BDwHm0zBM_lGu91s,481
+memoria/_hash_file.py,sha256=m3qP5N3gezjYPy_vaWhFOLNCVxvnVEOGdg-ETtGJWdw,470
+memoria/hash_object.py,sha256=zHgEGIVHaFkejrCTkTqwagWWXgsDtHKciiTQg6o3Ihc,713
+memoria/make_hashable.py,sha256=I-KDsFGHw_LoWOS2yiuVOfIX4ryH29ZSejnQwhZeyD0,5394
+memoria/memoize.py,sha256=AjkvwEaRuWVh_28o9kXbXm3R4SBRJcByzdV09nrsc8M,1715
+memoria/to_bytes.py,sha256=vNdzqAosi0upM0D6F2b4Acl1RvjAwVkMN-xv3RD8bjk,487
+memoria-2021.6.22.7.dist-info/METADATA,sha256=0IBDwEzc6bM2QP-1ajMutgF0gyn_jNpmB3s2SVw94CI,2036
+memoria-2021.6.22.7.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+memoria-2021.6.22.7.dist-info/top_level.txt,sha256=_ChPDpsb1hACJPaLng4ATTqx2xlaNgO8fNXvmAAhhmY,8
+memoria-2021.6.22.7.dist-info/RECORD,,
