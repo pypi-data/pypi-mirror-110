@@ -1,0 +1,8 @@
+pyshotty/__init__.py,sha256=cVRMHTw54STfbCSjhXIETLt0mhLQkLhqRg5P55tnjcM,32
+pyshotty/screenshot.py,sha256=F229iS5DzuIiqy5f6RFxCku987KPRDARGG30AOUfDrs,4795
+screenshot/__init__.py,sha256=cVRMHTw54STfbCSjhXIETLt0mhLQkLhqRg5P55tnjcM,32
+screenshot/screenshot.py,sha256=F229iS5DzuIiqy5f6RFxCku987KPRDARGG30AOUfDrs,4795
+pyshotty-0.0.2.dist-info/METADATA,sha256=dFrp_Q4Wj1fy_NOrgU2jKKKvkbQ-39YatfbR9gO1Doc,1452
+pyshotty-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyshotty-0.0.2.dist-info/top_level.txt,sha256=KPR6Ou-zeiy-r9ynojuKT81qdYeAqMUxwRHEXJmp0JE,9
+pyshotty-0.0.2.dist-info/RECORD,,
