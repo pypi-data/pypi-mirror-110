@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: d11p
+Version: 0.0.7
+Summary: Tools for programmers
+Home-page: https://github.com/d11p/d11p
+Author: d11p
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/d11p/d11p/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# d11p
+
+Tools for programmers
+
