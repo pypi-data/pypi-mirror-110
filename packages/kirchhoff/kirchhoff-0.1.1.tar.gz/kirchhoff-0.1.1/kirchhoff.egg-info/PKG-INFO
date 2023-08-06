@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kirchhoff
+Version: 0.1.1
+Summary: Collection of routines for creation and manipulation of Kirchhoff circuits based on resistor-only networks, together with 2D/3D spatial embeddings. 
+Home-page: https://github.com/felixk1990/kirchhoff-circuit
+Author: felixk1990
+Author-email: felixuwekramer@protonmail.com
+License: UNKNOWN
+Description: # kirchhoff-circuits
+        Collection of routines for creation and manipulation of Kirchhoff circuits based on resistor-only networks, together with 2D/3D spatial embeddings.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
