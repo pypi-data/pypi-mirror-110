@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: earth-vision
+Version: 0.0.1
+Summary: Python library for solving computer vision tasks specifically for satellite imagery
+Home-page: https://github.com/jakartaresearch/earth-vision
+Author: Jakarta Research Team
+Author-email: researchjair@gmail.com
+License: MIT
+Download-URL: https://github.com/jakartaresearch/earth-vision/archive/v0.0.1.tar.gz
+Description: # earth-vision
+        
+        Earth Vision is a python library for solving computer vision tasks specifically for satellite imagery.
+        
+        ## Objective
+        
+        To ease researcher to run ML pipelines for AI or Deep Learning Applications in solving **Earth Observation** (EO) tasks.
+        
+        ## Examples
+        
+        ### Dataset Download
+        
+        ```
+        from torch.utils.data import DataLoader
+        from earthvision.datasets import DeepSat
+        
+        train_dataset = DeepSat(root='./', dataset_type='SAT-4', download=True, data_mode=0)
+        test_dataset = DeepSat(root='./', dataset_type='SAT-4', download=False, data_mode=1)
+        
+        train_dataloader = DataLoader(train_dataset, batch_size=64, shuffle=True)
+        test_dataloader = DataLoader(test_dataset, batch_size=64, shuffle=True)
+        
+        train_data, train_label = next(iter(train_dataloader))
+        test_data, test_label = next(iter(test_dataloader))
+        ```
+        
+        ## Features
+        
+        1. Wrapper to download open sourced EO dataset for ML tasks:
+        
+        - AerialCactus
+        - COWC
+        - DeepSat
+        - DroneDeploy
+        - EuroSat
+        - L8SPARCS
+        - LandCover
+        - RESISC45
+        - UCMercedLand
+        
+        
+        
+Keywords: computer-vision,pytorch,machine-learning,satellite-imagery
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
