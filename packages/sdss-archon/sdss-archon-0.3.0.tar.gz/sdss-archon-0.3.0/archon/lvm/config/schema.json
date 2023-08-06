@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "environmental_props": {
+      "type": "object",
+      "properties": {
+        "rh1": { "type": "number" },
+        "rh2": { "type": "number" },
+        "rh3": { "type": "number" },
+        "t1": { "type": "number" },
+        "t2": { "type": "number" },
+        "t3": { "type": "number" },
+        "rtd1": { "type": "number" },
+        "rtd2": { "type": "number" },
+        "rtd3": { "type": "number" },
+        "rtd4": { "type": "number" }
+      }
+    },
+    "motor_props": {
+      "type": "object",
+      "properties": {
+        "power": { "type": "boolean" },
+        "status": { "enum": ["closed", "open", "?"] },
+        "bits": { "type": "string" }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "shutter": {
+      "type": "object",
+      "properties": {
+        "sp1": { "$ref": "#/definitions/motor_props" }
+      }
+    },
+    "hartmann_left": {
+      "type": "object",
+      "properties": {
+        "sp1": { "$ref": "#/definitions/motor_props" }
+      }
+    },
+    "hartmann_right": {
+      "type": "object",
+      "properties": {
+        "sp1": { "$ref": "#/definitions/motor_props" }
+      }
+    },
+    "environmental": {
+      "type": "object",
+      "properties": {
+        "sp1": { "$ref": "#/definitions/environmental_props" }
+      }
+    },
+    "pressure": {
+      "type": "object",
+      "properties": {
+        "r1": { "type": "number" }
+      }
+    },
+    "lamps": {
+      "type": "object",
+      "properties": {
+        "HgAr": { "type": "boolean" },
+        "MI150": { "type": "boolean" },
+        "M625L4": { "type": "boolean" }
+      }
+    }
+  }
+}
