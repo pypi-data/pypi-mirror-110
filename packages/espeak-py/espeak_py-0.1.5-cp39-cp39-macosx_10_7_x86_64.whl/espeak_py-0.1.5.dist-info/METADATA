@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: espeak-py
+Version: 0.1.5
+Summary: Python bindings for a narrow subset of espeak
+Author: Benjamin Levin <ben@poly-ai.com>
+Author-Email: Benjamin Levin <ben@poly-ai.com>
