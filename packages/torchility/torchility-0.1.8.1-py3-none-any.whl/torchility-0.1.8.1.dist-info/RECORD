@@ -1,0 +1,13 @@
+torchility/__init__.py,sha256=1XYs9tPvrmxDN68-QcO8R5OICXslMWivxtM0NWYC4As,73
+torchility/hooks.py,sha256=Bf0quEhMkeXpW44FikBZRkwD-vOVleZsecQwizNF8Y0,2390
+torchility/losses.py,sha256=L6j6ysMV7J5RX5Ra0OZi-df92m48XTwrWL1p5qmbGz0,577
+torchility/metrics.py,sha256=X-pkqGxEOYtEjqoeYAn8DN_Mmkix4NBroEXDlWNZo_M,2907
+torchility/tasks.py,sha256=0bLnt_Vp5rlXiz1AboA1FVwS_zkWUZXxLTF_sQsy5Hk,2647
+torchility/trainer.py,sha256=mmzAV6_anF6h9DZnV3xrcg3F7lKyppR7w7WN-yYTrGQ,1710
+torchility/trainer_base.py,sha256=Si3azbW8L9tMMI24jabJQeQyGW1QYFEPsWg6AyEeI4Y,7463
+torchility/utils.py,sha256=UzbB1KlWiRh50EaEbQtnCPuj6npXnUOR4LFZIKn6HBc,1973
+torchility-0.1.8.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+torchility-0.1.8.1.dist-info/METADATA,sha256=BTs-cXuk5gpxuMPJjNN9pCxyMmNa-WnhR13LQ39BbTs,2091
+torchility-0.1.8.1.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+torchility-0.1.8.1.dist-info/top_level.txt,sha256=h68G1gpBSPaQllZODMmla2qI-GNiQ-HfupMqcvvDT-E,11
+torchility-0.1.8.1.dist-info/RECORD,,
