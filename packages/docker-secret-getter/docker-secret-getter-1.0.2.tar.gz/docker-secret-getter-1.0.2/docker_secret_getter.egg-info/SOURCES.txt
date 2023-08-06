@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+get_docker_secret.py
+setup.py
+docker_secret_getter.egg-info/PKG-INFO
+docker_secret_getter.egg-info/SOURCES.txt
+docker_secret_getter.egg-info/dependency_links.txt
+docker_secret_getter.egg-info/top_level.txt
