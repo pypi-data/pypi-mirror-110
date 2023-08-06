@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xrely-lib-client
+Version: 1.0.0
+Summary: client library for xrely platform.
+Home-page: https://www.xrely.com
+Author: team xrely
+Author-email: info@xrely.com
+License: UNKNOWN
+Keywords: Web search intelligence,Autocrawl search,Intelligent search engine,install site search,Autocomplete search solution,Autocrawl Search,Search discovery
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+    client library for xrely platform. For more information please visit https://www.xrely.com
+    
+
