@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/Conjunto_bravo1996.egg-info/PKG-INFO
+src/Conjunto_bravo1996.egg-info/SOURCES.txt
+src/Conjunto_bravo1996.egg-info/dependency_links.txt
+src/Conjunto_bravo1996.egg-info/top_level.txt
