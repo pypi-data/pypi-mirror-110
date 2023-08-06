@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: v-cloud-market-cli-user
+Version: 0.1.0
+Summary: V Cloud Market Command Tool For User.
+Home-page: https://github.com/virtualeconomy/v-cloud-market-cli-user
+Author: hvoid-build-block
+License: MIT
+Keywords: vcloud-market-cli-user
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.5
+License-File: LICENSE
+
+# v-cloud
+# Functions:
+
+## Wallet:
+
+- create wallet
+- reset wallet
+- recover wallet with seed
+- check balance of address in the wallet
+
+## order:
+
+- make an order for service
+- Pay the order with vsys
+- check the status of order
+- view the order history
+- view the specific order history
+- user refund with the order 
+- view refundable order history
+
+## provider:
+
+- upload template 
+- template including `start` and `stop` script
+- calculate the price
+- check all the service provider information
+- check all the category of the provider 
+- check all the service type of the category
+
+## user service:
+
+- check the secret with user-service ID
+- view the user-service whose status is `ServicePending` or `ServiceRunning` 
+
+## v-kube-service:
+
+- start the user service with secret
+- check the order with secret
+- Check the status of the pod with secret
+- view the log of the pod with secret 
+- service refund when port occupied 
+- grafana view
+
+## v-kube-rcs
+
+- bandwidth limited
+
+
+
