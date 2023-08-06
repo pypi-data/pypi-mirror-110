@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: indico-plugins
+Version: 3.0rc1
+Summary: A meta-package containing the official Indico plugins
+Home-page: https://github.com/indico/indico-plugins
+Author: Indico Team
+Author-email: indico-team@cern.ch
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: ~=3.9
+Requires-Dist: indico (>=3.0rc1)
+Requires-Dist: indico-plugin-citadel (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-livesync (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-payment-manual (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-payment-paypal (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-piwik (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-previewer-code (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-previewer-jupyter (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-storage-s3 (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-ursh (<3.1.dev0,>=3.0rc1)
+Requires-Dist: indico-plugin-vc-zoom (<3.1.dev0,>=3.0rc1)
+
+UNKNOWN
+
