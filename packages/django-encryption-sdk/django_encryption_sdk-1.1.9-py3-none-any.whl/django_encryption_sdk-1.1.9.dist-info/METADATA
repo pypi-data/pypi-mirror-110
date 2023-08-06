@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-encryption-sdk
+Version: 1.1.9
+Summary: Encryption SDK implementation for Django
+Home-page: https://github.com/vlean/django-encryption-sdk
+Author: vlean
+Author-email: vlean@qq.com
+Maintainer: vlean
+License: UNKNOWN
+Keywords: django-encryption,django-kms
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Requires-Dist: aliyun-python-sdk-core (>=2.10)
+Requires-Dist: aliyun-python-sdk-kms (>=2.14.0)
+Requires-Dist: contextvars (>=2.0)
+Requires-Dist: Django (>=2.2.0)
+Requires-Dist: pycryptodome (>=3.0)
+Requires-Dist: djangorestframework (>=3.0.0)
+
+
+使用阿里kms数据加密保护你的隐私数据
+
