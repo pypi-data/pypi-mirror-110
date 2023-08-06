@@ -1,0 +1,11 @@
+PIauthorizer/__init__.py,sha256=L4rEHkLOo6sYdWstwKVgpE-O8XJe3w22xLTvndvXP0M,114
+PIauthorizer/authorization/__init__.py,sha256=_3ppsN6o7I5ikBdt_xuGpxOuNNZC02plL5ChVvo4AiY,2242
+PIauthorizer/authorization/forms.py,sha256=3xAXovWjOU9WFkSh4sP1KCyTudjp8HjDpGFCHTXC4QY,2008
+PIauthorizer/authorization/readiness.py,sha256=Vs4gWxSuBco7BZbV-mSRQNQQznrJTBqC_n5_2B9JnmU,215
+PIauthorizer/autorest/__init__.py,sha256=C_sRbkOuhhS596ueLDKIEXBLxxbg2KHaF12LF0SE5bA,1380
+PIauthorizer/functional/__init__.py,sha256=4-Qscq93v1fi3aTzZ33nfvIe3EuPi7KO4dGrdY-K99E,2711
+PIauthorizer/logged_route.py,sha256=-AyCl5cxDs0CZS6XX7SyvEI4NHXC_rQLCmz_ODlNK3o,3835
+PIauthorizer/logging_configurator/__init__.py,sha256=SxoiqBctZ7TFVuCG_cLg7Eqi7ZDFKi1pMga0uJpC-q8,1563
+piauthorizer-0.6.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+piauthorizer-0.6.1.dist-info/METADATA,sha256=UUdiux7Ut9r5SYuZSzgoBOnnOcrCClaJJmg3sVrOHyY,635
+piauthorizer-0.6.1.dist-info/RECORD,,
