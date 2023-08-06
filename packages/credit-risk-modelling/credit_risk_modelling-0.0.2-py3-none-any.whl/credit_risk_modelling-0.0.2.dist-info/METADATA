@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: credit-risk-modelling
+Version: 0.0.2
+Summary: Tools for Credit Risk Modelling
+Home-page: http://github.com/ramonVDAKKER/mortgage_calculus
+Author: Ramon van den Akker
+Author-email: ramon@vandenakker.tech
+License: MIT
+Keywords: mortgage cashflows annuity interest
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: pytest (>=3.6.0)
+Requires-Dist: typing (>=3.5.0)
+
+.. -*- mode: rst -*-
+
+|Travis|_ |PythonVersion|
+
+.. |Travis| image:: https://api.travis-ci.com/ramonVDAKKER/credit-risk-modelling.svg?branch=main
+.. _Travis: https://travis-ci.com/ramonVDAKKER/credit-risk-modelling
+
+.. |PythonVersion| image:: https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue
+.. _PythonVersion: https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue
+
+The **credit-risk-modelling** package contains several functions that are useful in Credit Risk Modelling.
+
+
