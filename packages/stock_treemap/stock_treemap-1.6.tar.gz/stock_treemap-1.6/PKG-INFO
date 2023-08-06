@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: stock_treemap
+Version: 1.6
+Summary: Module to create custom, interactive stock portfolio tree maps. Pulls data from Yahoo! Finance.
+Home-page: https://github.com/jmshea/stock_treemap
+Author: John M. Shea
+Author-email: jshea@ieee.org
