@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: py3-slack-notify
+Version: 0.3.1
+Summary: Python package for sending notification to Slack in thread with emoji
+Home-page: https://github.com/ThaoPN/py_slack_notify
+Author: thaopn
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
