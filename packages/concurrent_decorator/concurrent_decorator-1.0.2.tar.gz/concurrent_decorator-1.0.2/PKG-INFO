@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: concurrent_decorator
+Version: 1.0.2
+Summary: A sample Python lib by easy use multi-thread
+Home-page: https://github.com/onlysleep/concurrent_decorator
+Author: oDAy
+Author-email: xyzzpwn@foxmail.com
+License: UNKNOWN
+Description: # Concurrent_Decorator
+        
+        ## 简介
+        用于python进行并发工作的装饰器
+        - [x] 多线程装饰器
+        - [] ~~多进程装饰器~~
+        - [] 多进程+协程装饰器
+Keywords: sample,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
