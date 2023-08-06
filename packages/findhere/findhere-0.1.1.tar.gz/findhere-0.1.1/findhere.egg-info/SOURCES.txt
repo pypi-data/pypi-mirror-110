@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+findhere/__init__.py
+findhere/_version.py
+findhere/findhere.py
+findhere.egg-info/PKG-INFO
+findhere.egg-info/SOURCES.txt
+findhere.egg-info/dependency_links.txt
+findhere.egg-info/requires.txt
+findhere.egg-info/top_level.txt
