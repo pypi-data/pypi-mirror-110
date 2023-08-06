@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyneval
+Version: 0.0.7
+Summary: pyneval first edition
+Home-page: https://github.com/bennieHan/PyNeval
+Author: ZhangHan
+Author-email: benniehan98@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: anytree (>=2.7.2)
+Requires-Dist: kdtree (>=0.16)
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: rtree (>=0.8)
+Requires-Dist: jsonschema (>=3.2.0)
+
+UNKNOWN
+
