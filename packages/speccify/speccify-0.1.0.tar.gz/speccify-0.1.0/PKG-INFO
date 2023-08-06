@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: speccify
+Version: 0.1.0
+Summary: Tie together `drf-spectacular` and `djangorestframework-dataclasses` for easy-to-use apis and openapi schemas.
+Author: Lyst Ltd.
+Author-email: devs@lyst.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: djangorestframework
+Requires-Dist: djangorestframework-dataclasses
+Requires-Dist: drf-spectacular
+Requires-Dist: typing-extensions
