@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: simpledataset
+Version: 0.1.1
+Summary: Utility tools for SIMPLE vision dataset format.
+Home-page: https://github.com/shonohs/simpledataset
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pillow
+Requires-Dist: requests
+Requires-Dist: tenacity
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
