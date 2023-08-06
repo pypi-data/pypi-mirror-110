@@ -1,0 +1,16 @@
+monetdb_stethoscope/__init__.py,sha256=-igrEHEDug_JfrdrYXvk3haiZz_91m2ZJoyMnQlQIPE,247
+monetdb_stethoscope/api.py,sha256=-YTg1jBSV3Dn9wujbEsMw-a3RPQvFDuN_iNw_OuTx74,740
+monetdb_stethoscope/connection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monetdb_stethoscope/connection/api.py,sha256=V6fcMcGAHddjtQmCEgSrOEKbHmit7w_fZbud-MQfa4Y,2242
+monetdb_stethoscope/filtering.py,sha256=ourqdr7qnGbiSOZtvu9l1NbQdSf7IeL93xWMrw-qMPs,2183
+monetdb_stethoscope/formatting.py,sha256=zeQKPo0BfNn1mekv6Bej-1x6GdBPbqG_A0wtbBv5vmo,1245
+monetdb_stethoscope/obfuscation.py,sha256=LQyBKjpdbin0C9rFfa7lzFx0JWEBR-XckBDt6FSEZMA,19379
+monetdb_stethoscope/parsing.py,sha256=BmF-pwd33-N83r1XTRmVBfNFb7pD1Z7mKSXQKJfsEA8,782
+monetdb_stethoscope/stethoscope.py,sha256=Am-GY-GFeYF0mdhJEIxlmd6Dz4htR-SY0_ilAtMC6tc,12557
+monetdb_stethoscope/transformers.py,sha256=VJbo7RhO4pr29xf2NsyKfVB3SngBUzGvrsIOzZO9eNY,6730
+monetdb_stethoscope/utilities.py,sha256=gSBTS13CzsWQzmFToF3r6SSaMqQccEPvxnI98ptf4MQ,303
+monetdb_stethoscope-0.4.0.dist-info/entry_points.txt,sha256=VVtrk-44GpxXWnaMlTbSMv4UvIfUFC_SSbvYNj_D52A,68
+monetdb_stethoscope-0.4.0.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+monetdb_stethoscope-0.4.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+monetdb_stethoscope-0.4.0.dist-info/METADATA,sha256=VDQvz5rk3s1fxdCdBbVM-Y_VZqHDJySRigdXp8azJ40,2734
+monetdb_stethoscope-0.4.0.dist-info/RECORD,,
