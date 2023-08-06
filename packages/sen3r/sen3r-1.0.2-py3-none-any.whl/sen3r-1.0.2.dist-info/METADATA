@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sen3r
+Version: 1.0.2
+Summary: SEN3R (Sentinel-3 Reflectance Retrieval over Rivers) enables extraction of reflectance time series from images over water bodies.
+Home-page: http://github.com/hybam-dev/sen3r/
+Author: David Guimarães
+Author-email: dvdgmf@gmail.com
+License: MIT
+Keywords: Sentinel-3 OLCI WFR SYN Relfectance CAMS time-series
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+SEN3R - Sentinel 3 Reflectance Retrieval over Rivers
+
