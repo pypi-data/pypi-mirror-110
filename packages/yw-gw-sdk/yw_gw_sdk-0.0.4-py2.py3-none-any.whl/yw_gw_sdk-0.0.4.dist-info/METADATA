@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: yw-gw-sdk
+Version: 0.0.4
+Summary: yw_gw_sdk
+Home-page: UNKNOWN
+Author: Csjs1-2
+Author-email: caimujia@qq.com
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Platform: all
+Requires-Dist: requests
+Requires-Dist: six
+
+UNKNOWN
+
