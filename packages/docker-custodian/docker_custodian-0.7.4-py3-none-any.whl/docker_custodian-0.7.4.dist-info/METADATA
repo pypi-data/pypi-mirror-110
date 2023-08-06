@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: docker-custodian
+Version: 0.7.4
+Summary: Keep docker hosts tidy.
+Home-page: UNKNOWN
+Author: Daniel Nephin
+Author-email: dnephin@yelp.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Provides: docker_custodian
+Requires-Dist: python-dateutil
+Requires-Dist: docker
+Requires-Dist: pytimeparse
+
+UNKNOWN
+
+

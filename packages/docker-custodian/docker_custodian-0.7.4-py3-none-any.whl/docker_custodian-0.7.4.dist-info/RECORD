@@ -1,0 +1,11 @@
+docker_custodian/__about__.py,sha256=LTHhIVpOcHyXFKQR6T-_dTzAEk8BtG2ZrZrN648I96w,97
+docker_custodian/__init__.py,sha256=u3hpuNsoWw4bQYdB4vch_xl50FZq0uwP9G4hrC-But0,23
+docker_custodian/args.py,sha256=dJSg_0ePukyRiJl9t1OBALRR8MZGt3MrWuPqF171L_8,514
+docker_custodian/docker_autostop.py,sha256=0D-cqt6_3ne4w6Lqe8QAPgw7c49YWmOdLiBeDd0Jb1g,2949
+docker_custodian/docker_gc.py,sha256=g1uz1Mq_iO4S7c7KQ1Hwmr10wprLwb75qf2CyZBXRPs,11133
+docker_custodian-0.7.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+docker_custodian-0.7.4.dist-info/METADATA,sha256=YC2y-om8c0KRzk2EQ5R3gORiyNsJ_SJsapjcAxV_2a0,329
+docker_custodian-0.7.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+docker_custodian-0.7.4.dist-info/entry_points.txt,sha256=IG6_GymsFlUFdMM-IkR0XEMNqKCDyMfvuVaqvJfVorQ,105
+docker_custodian-0.7.4.dist-info/top_level.txt,sha256=T2NPDPIgCVSTwVBclZ74jerEcqf6kEcW2lFtKQCML1M,17
+docker_custodian-0.7.4.dist-info/RECORD,,
