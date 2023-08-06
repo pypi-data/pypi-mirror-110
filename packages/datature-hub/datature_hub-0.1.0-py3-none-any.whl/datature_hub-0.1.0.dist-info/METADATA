@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: datature-hub
+Version: 0.1.0
+Summary: Loader for models trained on the Datature platform
+Home-page: https://github.com/datature/hub
+Author: Ian Duncan
+Author-email: ian@datature.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7, <3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow (==2.3.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: opencv-python (==4.5.1.48)
+
+# Datature Hub
+
+Datature Hub is a loader for models trained on the Datature platform.
+
+
