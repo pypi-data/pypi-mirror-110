@@ -1,0 +1,8 @@
+pip
+packaging
+numpy
+pandas
+seaborn
+sklearn
+
+[dev]
