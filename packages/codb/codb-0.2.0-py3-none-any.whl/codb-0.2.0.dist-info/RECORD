@@ -1,0 +1,15 @@
+application/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+application/application.py,sha256=vP0qh1YhCi8imkCX8VhsN7lQ4wzY0SYzEAGheLgaUvk,7137
+codb-0.2.0.data/scripts/codb,sha256=BWJ-ioGB256W6ufmHH1dC4403cAJfAUYKvGYMqgAMAM,213
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/main.py,sha256=2cxmF2iZ_ISqrEwpvNQiduOFcl_jmjWbSnwpII92jYg,58
+core/menu.py,sha256=nGM5R77Qn7JVTw_mGfbuuKoJeolMgDiH897AhbTxRHw,1137
+core/pantalla.py,sha256=iZzXXYBmhe8GY3K2R1mOa2vQbpLKQCWnOKTLaqeSzao,105
+start/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+start/welcome.py,sha256=Z7rq0SvTUZo4vnA2LWPBqdw1k2R5z8caVRvVjJv2O4s,1010
+ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ui/login.py,sha256=TDXzibxukAr5tlskDw9J0IrBZGpoDDiyvQ3VP3PKkvM,656
+codb-0.2.0.dist-info/METADATA,sha256=CUjNHjy96jKl3sDDeiv6w29Ctb_fWs5H_GAPddVWKE4,662
+codb-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codb-0.2.0.dist-info/top_level.txt,sha256=own8X40e63ZubNEfUsBEJJqefWu7pU2u-mBpsV2-4RI,26
+codb-0.2.0.dist-info/RECORD,,
