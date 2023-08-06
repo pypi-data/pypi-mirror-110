@@ -1,0 +1,11 @@
+arduscope/__init__.py,sha256=vrCCbZZyrf22ESdNcnsE3CyHaVFtyX-SX-6SkYTINTg,530
+arduscope/arduscope.ino,sha256=-b8EEtoQO9_xovClnBEcbqStvsZ1CtafWqpQl_UBhUU,7632
+arduscope/arduscope.py,sha256=peiJUqwtfUi8hh2bs9brhYLoVenOEFq-sjiwcoWO4bc,22133
+arduscope/fit_tools.py,sha256=XM702SBbx0I65JFJGpiGCjE2Pt-YkgRZoFzLw6vM4O4,3925
+arduscope/wave_generator.py,sha256=qYjuDKHsMRfGC9qTvZSyPbrERa1AAKAO6qFnN0miIR0,7094
+arduscope-0.3.3.dist-info/LICENSE,sha256=pSfP02q4_8bn_rX6oDuZRXcCeysN4iAryjJOLxi5C4Y,1073
+arduscope-0.3.3.dist-info/METADATA,sha256=adVV86a2idVeXfQK3QN3c0YZJK8Jc_uQX9JMZybcXRc,15407
+arduscope-0.3.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+arduscope-0.3.3.dist-info/top_level.txt,sha256=LEI2U6zAEo21KIuUjhFg4B76__NAfoVawExO3HJCz_o,10
+arduscope-0.3.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+arduscope-0.3.3.dist-info/RECORD,,
