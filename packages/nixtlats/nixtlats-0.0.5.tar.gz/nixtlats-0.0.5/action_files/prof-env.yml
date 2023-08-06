@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - cpuonly
+  - pandas
+  - pip
+  - pytorch
+  - pip:
+    - beautifulsoup4
+    - fastcore
+    - patool
+    - requests
+    - scalene
+    - tqdm
