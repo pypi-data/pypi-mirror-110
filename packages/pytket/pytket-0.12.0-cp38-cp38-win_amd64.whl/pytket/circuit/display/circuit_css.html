@@ -1,0 +1,316 @@
+{# import the svg images we need #}
+{% import 'images/swap-gate.svg' as swap_gate %}
+{% import 'images/measure-gate.svg' as measure_gate %}
+{% import 'images/x-gate.svg' as x_gate %}
+{% import 'images/reset-gate.svg' as reset_gate %}
+
+{% macro get_css() %}
+<style>
+body {
+    font-family: "roboto", system-ui, sans-serif;
+}
+
+/* FOR DISPLAYING CIRCUITS */
+/* Main preview container */
+.circuit-preview{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+
+    /* Define some variables */
+    --box-height: 40px;
+    --wire-col: black;
+    --c-wire-col: grey;
+}
+.circuit-preview.condensed{
+    overflow: auto;
+}
+
+.circuit-container{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+    width: fit-content;
+    background: rgba(255, 255, 255, 1);
+}
+.circuit-preview.condensed > .circuit-container{
+    flex-wrap: nowrap;
+    min-width: fit-content;
+}
+.circuit-container.nested{
+    position: relative;
+    flex-wrap: nowrap;
+    margin: -2px 0;
+}
+.nested-circuit-container{
+    display: flex;
+    overflow: auto;
+    max-width: 400px;
+    background: rgba(130,255,140,0.2);
+    outline: 1px solid darkseagreen;
+    outline-offset: -1px;
+}
+.nested-circuit-container::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+.nested-circuit-container > *{
+    margin: auto;
+}
+.circuit-end{
+    width: 2px;
+    height: auto;
+    border: 2px solid black;
+    margin: calc(var(--box-height)/2) 0 calc(var(--box-height)/2 + 20px);
+}
+.circuit-layer{
+    min-width: 40px;
+    width: max-content;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+.circuit-container:not(.nested) > .circuit-layer:nth-child(2),
+.circuit-container:not(.nested) > .circuit-layer:nth-last-child(2),
+.circuit-container.nested > .circuit-layer:nth-child(2),
+.circuit-container.nested > .circuit-layer:nth-last-child(2),
+.gate_container.nested > .circuit-layer:first-child,
+.gate_container.nested > .circuit-layer:last-child{
+    min-width: 10px;
+}
+.nested .circuit-layer{
+    margin-bottom: 0px;
+}
+.circuit-layer.hover-highlight:not(:first-child):not(:last-child):hover{
+    background: rgba(0, 0, 0, 0.05);
+}
+.flex_wire{
+    flex-grow: 1;
+}
+/* Display qubit names at start of circuit */
+.circuit-layer.qubits{
+    flex-grow: 0;
+    color: black;
+}
+.qubit{
+    height: calc(var(--box-height) - 20px);
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    box-sizing: content-box;
+}
+.wire{
+    height: 0;
+    border: 1px solid var(--wire-col);
+    background: var(--wire-col);
+    margin: calc(var(--box-height)/2) 0;
+}
+.wire.transparent-wire{
+    border-color: transparent;
+    background: transparent;
+}
+
+/* Generic base for our gates */
+.gate_container{
+    position: relative;
+    min-width: fit-content;
+}
+.gate_container.nested{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.gate_container.nested:after{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.gate_container .classical{
+    border-color: var(--c-wire-col);
+    background: var(--c-wire-col) !important;
+}
+.gate{
+    position: relative;
+    height: calc(var(--box-height) - 16px);
+    margin: 0 9px;
+    padding: 9px 5px;
+    border: 1px solid darkseagreen;
+    border-bottom: none;
+    border-top: none;
+    text-align: left;
+    background: darkseagreen;
+    z-index: 2;
+    display: flex;
+    box-sizing: content-box;
+}
+.wire-label{
+    color: green;
+    padding: 10px 0;
+    width: fit-content;
+    height: calc(var(--box-height) - 18px);
+}
+.gate_top > .wire-label,
+.gate_bottom > .wire-label {
+    padding-top: 0;
+}
+.nested-label-layer{
+    background: darkseagreen;
+    padding: 0 5px;
+}
+
+/* Multi-qubit gates */
+.gate_bottom{
+    height: calc(var(--box-height) - 18px);
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    border-bottom: 1px solid darkseagreen;
+}
+.gate_top{
+    height: calc(var(--box-height) - 18px);
+    margin-top: 10px;
+    padding-top: 0;
+    border-top: 1px solid darkseagreen;
+}
+.gate_name{
+    text-align: center;
+    flex-grow: 1;
+    color: black;
+}
+/* Single qubit gate*/
+.gate_box{
+    height: calc(var(--box-height) - 20px);
+    margin: 10px;
+    padding: 0 5px;
+    border: 1px solid darkseagreen !important;
+    text-align: center;
+}
+
+/* Special gates */
+.gate_connection {
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    border: none;
+    margin: calc(var(--box-height)/2) calc(50% - 5px);
+    padding: 0;
+}
+.gate_swap {
+    height: 20px;
+    width: 20px;
+    margin: calc(var(--box-height)/2 - 6px) calc(50% - 9px);
+    background: url({{ get_svg_url(swap_gate) }}) center;
+    background-size: cover;
+}
+.gate_measure {
+    height: 20px;
+    width: 25px;
+    margin: calc(var(--box-height)/2 - 10px) calc(50% - 11px);
+    background: url({{ get_svg_url(measure_gate) }}) center;
+    background-size: cover;
+}
+.gate_control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin: calc(var(--box-height)/2 - 3px) calc(50% - 5px);
+    padding: 0;
+    border: 2px solid black;
+    background: black;
+}
+.gate_x {
+    top: -10px;
+    left: -6px;
+    border-radius: 50%;
+    border-color: black !important;
+    width: 20px;
+    background: url({{ get_svg_url(x_gate) }}) center;
+    background-size: cover;
+}
+.gate_reset{
+    margin: 11px 10px;
+    padding: 0 15px;
+    border: none !important;
+    border-left: 2px solid black !important;
+    background: url({{ get_svg_url(reset_gate) }}) right no-repeat transparent;
+    background-size: contain;
+}
+
+/* Add wire sections coming in and out of the gate */
+.gate_in:before, .gate_in:after{
+    content: '';
+    position: absolute;
+    display: block;
+    top: calc(50% - 1px);
+    border: 1px solid var(--wire-col);
+    width: 9px;
+    height: 0;
+    background: var(--wire-col);
+    box-sizing: content-box;
+}
+.gate_in:before.classical,
+.gate_in:after.classical{
+    border-color: var(--c-wire-col);
+}
+
+.gate_in:before{
+    left: -12px;
+}
+.gate_out:after{
+    right: -12px;
+}
+.gate_top.gate_in:before, .gate_top.gate_out:after{
+    top:calc(50% - 6.5px)
+}
+.gate_bottom.gate_in:before, .gate_bottom.gate_out:after{
+    top:calc(50% + 4.5px)
+}
+
+
+.link-bottom, .link-top {
+    height: var(--box-height);
+    width: 0;
+    border: 1px solid black;
+    background: black;
+    position: absolute;
+    display: block;
+    left: calc(50% - 1px);
+    box-sizing: content-box;
+}
+.link-top{
+    top: calc(0px - var(--box-height)/2);
+}
+.link-bottom{
+    top: calc(var(--box-height)/2)
+}
+.half-link {
+    height: calc(var(--box-height) - 9px);
+}
+.half-link.link-bottom{
+    top: calc(var(--box-height)/2 + 11px)
+}
+.half-link.link-top{
+    top: calc(-2px - var(--box-height)/2);
+}
+.link-bottom.measurement{
+    width: 1px;
+    background: white;
+    border-top: none;
+    border-bottom: none;
+    height: calc(var(--box-height) + 2px);
+    z-index: 1;
+}
+</style>
+
+{% endmacro %}
+
+{% macro get_svg_url(svg_image) %}
+{{ "data:image/svg+xml;utf8," ~ svg_image|urlencode }}
+{% endmacro %}
