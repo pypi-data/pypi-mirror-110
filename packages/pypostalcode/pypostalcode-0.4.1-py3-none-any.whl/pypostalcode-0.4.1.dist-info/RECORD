@@ -1,0 +1,10 @@
+pypostalcode/__init__.py,sha256=XZNMbluLgEz0Wx07SUkFJES2IiM_KKhVIii4ZW_hLNk,4167
+pypostalcode/check_csv.py,sha256=H7KdWQjCO998KsdUbs7vMvToRqQ6SKhXt6zL9teQU7I,2650
+pypostalcode/import.py,sha256=JNA7KJhLOjozKLlPBm_GpveYUT03Jv2UEC0NVMAwCSg,1188
+pypostalcode/postalcodes.db,sha256=mA_bG_gUWNVBK4cNXIGQ8A-3jyPU3T50z0uCa7xcAew,245760
+pypostalcode/settings.py,sha256=q8_nfNNzkzhEPZjQ_1A_vswFnfxjySg818TqnXIAJ-o,147
+pypostalcode-0.4.1.dist-info/LICENSE.txt,sha256=6_9SilYFfq9WM1x-GzO-eB2rBNDlVuTCJ9XOP6i6Ws0,1116
+pypostalcode-0.4.1.dist-info/METADATA,sha256=SwL-l2hNu4Eq45HzUvigaFJj_6lquJE9hEQNwP6kppc,2789
+pypostalcode-0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pypostalcode-0.4.1.dist-info/top_level.txt,sha256=mEoq3B4A5NLnWD5eTBo6D2rgShjhTq7zLPWEULOmsfs,13
+pypostalcode-0.4.1.dist-info/RECORD,,
