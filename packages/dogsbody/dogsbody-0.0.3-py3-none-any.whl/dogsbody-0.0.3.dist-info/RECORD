@@ -1,0 +1,12 @@
+dogsbody/__init__.py,sha256=t2lxHYX8a4r1eE2PA2Tz-ws8QbKpgHsVz0lvbGu4sRk,348
+dogsbody/__main__.py,sha256=iayr9nbMBjUtP2QtBviLuVtxC5rGwz_B-OH-_LiNXLE,771
+dogsbody/bundle.py,sha256=Zv8IQn54ahoNmDzxNXocUWF6PC8yMQ-a84hzBDBI2qY,3149
+dogsbody/daemon.py,sha256=P6njoDVwn43mFhcGMRz06kHOJvYaBsjnMgeyJbtxh60,3047
+dogsbody/runtime.py,sha256=NX-AvnGdTsKXmcpjtpu39nYJa1msUsGrRMNS04iD9FI,520
+dogsbody/utils.py,sha256=9XmvJw4No3NY7QcN7wWc7Ikr1Y15NmqR0iP8_QrAAbU,1148
+dogsbody-0.0.3.dist-info/LICENSE,sha256=fl-XSmW9Mwk8HnuEcmyiq1u75lo6PU_e0RIGO8sPaC0,1069
+dogsbody-0.0.3.dist-info/METADATA,sha256=ispro7b3RrNx-u5UYM9SdXqAMvfg5SiX-pszKPnSIAw,2121
+dogsbody-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dogsbody-0.0.3.dist-info/entry_points.txt,sha256=yxjeoFjDPfogGLi9e0wCtK1GEjRAR1Sib5GIfgE4gr8,129
+dogsbody-0.0.3.dist-info/top_level.txt,sha256=VU1mEeI9bztlT-leDnev6JOGK7cMf1LmlGCOGjSiPNc,9
+dogsbody-0.0.3.dist-info/RECORD,,
