@@ -1,0 +1,8 @@
+cf_xarray
+joblib
+netCDF4
+typer
+xarray
+pyyaml
+pydantic
+pandas
