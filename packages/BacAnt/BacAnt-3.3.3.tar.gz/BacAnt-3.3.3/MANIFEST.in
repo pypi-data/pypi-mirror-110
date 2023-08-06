@@ -1,0 +1,12 @@
+include BacAnt/bacant.py
+include BacAnt/html_data.py
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include BacAnt/Integron_Finder *
+recursive-include BacAnt/IntegronDB *
+recursive-include BacAnt/ResDB *
+recursive-include BacAnt/TransposonDB *
+recursive-include BacAnt/repliconDB *
+recursive-include BacAnt/Test *
+
