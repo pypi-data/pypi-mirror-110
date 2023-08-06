@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lecroyutils/__init__.py
+src/lecroyutils/control.py
+src/lecroyutils/data.py
+src/lecroyutils.egg-info/PKG-INFO
+src/lecroyutils.egg-info/SOURCES.txt
+src/lecroyutils.egg-info/dependency_links.txt
+src/lecroyutils.egg-info/requires.txt
+src/lecroyutils.egg-info/top_level.txt
