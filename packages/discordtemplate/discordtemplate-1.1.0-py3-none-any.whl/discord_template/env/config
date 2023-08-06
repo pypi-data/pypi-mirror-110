@@ -1,0 +1,6 @@
+{
+    "name": "{{ _name }}",
+    "prefix": "{{ prefix }}",
+    "token": "{{ token }}",
+    "heroku": "{{ heroku }} "
+}
