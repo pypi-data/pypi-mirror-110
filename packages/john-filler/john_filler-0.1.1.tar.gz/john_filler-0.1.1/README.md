@@ -1,0 +1,70 @@
+# john_filler
+
+john_fillerは42の課題、fillerのPython実装です。
+
+## 開発者向け情報
+
+### poetryインストール手順
+
+1. 公式のインストール手順に従いインストール。
+
+   pythonだと2系なので、python3に変更しています。
+
+   ```bash
+   curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python3 - 
+   ```
+
+1. ~/.zshrcを編集。poetryのPATHを追加するコマンドを追記します。
+
+   ```bash
+   export PATH="/Users/{login}/Library/Python/3.9/bin:$PATH"
+   ```
+
+   ~/.zshrcの変更を今のshellに反映します。
+
+   ```bash
+   source ~/.zshrc
+   ```
+
+1. venvの保存場所の設定を変更
+
+   venvはデフォルトで ` /Users/{login}/Library/Caches/pypoetry/virtualenvs` にインストールされます。
+
+   プロジェクトの中に置きたいので、設定を行います。
+
+   ```bash
+   poetry config virtualenvs.in-project true
+   ```
+
+   設定を行うと、poetry addなどで、`{プロジェクトのディレクトリ}/.venv` に仮想環境が作られます。
+
+   `poetry shell` で仮想環境の中に入ることができます。
+
+### PyPIへのパッケージアップロード手順
+
+参考
+
+- [[Python] poetryを使用したPyPIパッケージ公開手順 - Qiita](https://qiita.com/sengoku/items/af301fe89b55706ca0c2)
+
+1. [PyPI](https://pypi.org/) or [TestPyPI](https://test.pypi.org/) にユーザ登録します。
+
+1. API Tokenを発行、poetryに登録します。
+
+1. パッケージをビルドします。
+
+   ```bash
+   poetry build
+   ```
+
+1. パッケージをアップロードします。
+
+   ```bash
+   # TestPyPI
+   poetry publish -r testpypi
+   # PyPI
+   poetry publish
+   ```
+
+   アップロードの際、バージョンが既にあるバージョンとは異なる必要があります（パッケージを削除してもNGなようです）。
+
+   このため、TestPyPIにアップロードして確認後、PyPIにアップロードが安全かと思います。
