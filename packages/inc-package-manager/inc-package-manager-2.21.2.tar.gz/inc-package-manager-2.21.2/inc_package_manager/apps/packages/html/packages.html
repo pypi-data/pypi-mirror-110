@@ -1,0 +1,155 @@
+{% extends 'defaults/html/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript">
+	toggle_topbar("show")
+	toggle_full_screen("hide")
+	set_header_path("packages/")
+	document.getElementById("topbar.packages").style.display = "none"
+	document.getElementById("topbar.filters").style.display = "block"
+</script>
+
+<!-- CSS -->
+<style type="text/css">
+	
+	/* tag */
+	.package_description {	
+		/*padding: 15px 25px 15px 25px;
+		border-radius: 15px;
+		background: #00000030;*/
+	}
+	.package_tag {
+		padding: 5px 10px 5px 10px;
+		margin-right: 5px;
+		border-radius: 15px;
+		background: #00000030;
+	}
+	.filter, .filter_reversed {
+		border-radius: 10px 10px 10px 10px;
+		font-size: 12px;
+		border-bottom: 3px solid {{COLORS.pink}};
+		background: {{ COLORS.button_bg_reversed }};  
+		color: {{ COLORS.button_bg }};
+	}
+
+</style>
+
+<!-- REFERENCES -->
+<div class="full_window">
+	<div id="filters" style="display: flex; padding: 15px 15px 0px 15px;">
+		<select onchange="select_handler(this)" class="filter_reversed" id="filter.os" style="margin-right: 15px;">
+			<option value="*">Any Operating System</option>
+			<option value="macos">MacOS</option>
+			<option value="linux">Linux</option>
+			<option value="windows">Windows</option>
+		</select>
+		<select onchange="select_handler(this)" class="filter_reversed" id="filter.price" style="margin-right: 15px;">
+			<option value="*">Any Price</option>
+			<option value="free">Free</option>
+			<option value="paid">Paid</option>
+		</select>
+		<script type="text/javascript">
+			var FILTERS = {
+				url:"/"+location.href.replace(BASE_URL, ""),
+				elements: {
+					os:document.getElementById("filter.os"),
+					price:document.getElementById("filter.price"),
+				}
+			}
+			function select_handler(select_element=null, value=null, update=true) {
+				if (select_element != null && value != null) {
+					select_element.value = value
+				}
+				if (select_element != null) {
+					if (select_element.value == "*") {
+						select_element.style.background = "{{COLORS.button_bg_reversed}}50"
+					} else {
+						select_element.style.background = "{{COLORS.button_bg_reversed}}"
+					}
+				}
+				if (update == true) {
+					var url = `/packages/packages/?os=${FILTERS.elements.os.value}&price=${FILTERS.elements.price.value}`
+					if (url != FILTERS.url) {
+						location.href = url
+					}
+				}
+			}
+			Object.entries(FILTERS.elements).forEach(function([item]){
+				if (get_url_param(item) != null) {
+					select_handler(FILTERS.elements[item], get_url_param(item), false)
+				}
+			})
+			select_handler(null, null, true)
+		</script>
+	</div>
+	<script type="text/javascript">
+		function __toggle_filters__() {
+			var e = document.getElementById("filters")
+			if (e.style.display == "flex") {
+				e.style.display = "none"
+			} else {
+				e.style.display = "flex"
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		var packages_count = 0
+	</script>
+	<div id="packages" style="overflow: scroll; padding: 10px 20px 20px 20px;">
+		{% for id, package in PACKAGES.items %}
+		<script type="text/javascript">
+			packages_count = packages_count + 1
+		</script>
+		<div class="widget_reversed"  style="width: 460px; padding: 5px 10px 5px 10px; float: left; margin: 10px 10px 10px 10px; position: relative; display: flex;">
+			<div style="width: 85px; height: 100%; border-radius: 10px 0px 0px 10px; background: #FFFFFF10; position: absolute; left: 0px; top: 0px; bottom: 0px;" class="centered">
+				<img src="https://api.vandenberghinc.com/{{package.icon}}" alt="VanDenBerghInc" width="45px" height="45px" style="display: block; margin: 0 auto;" />
+			</div>
+			<div style="flex: 1; height: 100%; padding: 15px 5px 15px 25px; display: flex; margin-left: 75px;">
+				<div style="flex: 1; height: 100%; width: 100%; overflow: scroll; min-height: 100px;">
+					<h2 class="title_reversed" style="font-size: 20px; margin: 0px 0px 0px 0px; text-align: left; overflow: scroll;">
+						{{package.title}}
+					</h2>
+					<p class="text_reversed" style="font-size: 14px; margin: 2.5px 0px 0px 0px; text-align: left; overflow: scroll; max-height: 40px;">
+						{{package.subtitle}}
+					</p>
+					<div class="wrapper" style="margin-top: 15px;">
+						{% if "macos" in package.os %}
+							<img src="{% static 'media/logos/white/apple.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+						{% endif %}
+						{% if "windows" in package.os %}
+							<img src="{% static 'media/logos/white/windows.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+						{% endif %}
+						{% if "linux" in package.os %}
+							<img src="{% static 'media/logos/white/linux.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+							<img src="{% static 'media/logos/white/ubuntu.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+						{% endif %}
+					</div>
+				</div>
+				<div style="height: 100%; margin-top: 0px; padding-left: 10px;">
+					<a href="/packages/package/?package={{package.id}}" class="empty_a" style="margin-top: 0px;">
+						<button class="button_reversed"  style="margin-top: 0px; border: 1px solid #00000000; padding: 7.5px 15px 7.5px 15px;" onmouseenter="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseout="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+							Info
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+	<div id="no_packages" class="centered" style="display: none; height: 75%;">
+		<h1 class="title_reversed centered" style="height: 100%; font-weight: 200;">
+			No Results
+		</h1>
+	</div>
+	<script type="text/javascript">
+		if (packages_count == 0) {
+			toggle_views("packages", "no_packages", "block")
+		}
+	</script>
+</div>
+
+
+
+{% endblock %}

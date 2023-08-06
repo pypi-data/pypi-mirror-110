@@ -1,0 +1,301 @@
+{% extends 'defaults/html/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript">
+	toggle_topbar("show")
+	toggle_full_screen("hide")
+	set_header_path("packages/{{PACKAGE.id}}")
+</script>
+
+<!-- CSS -->
+<style type="text/css">
+	
+	/* tag */
+	.package_description {	
+		padding: 15px 25px 15px 25px;
+		border-radius: 15px;
+		background: #00000030;
+	}
+	.package_tag {
+		padding: 5px 10px 5px 10px;
+		margin-right: 5px;
+		border-radius: 15px;
+		background: #00000030;
+	}
+
+</style>
+<!-- CONTROL BAR -->
+<div id="control_bar" style="padding: 20px 0px 20px 0px; overflow: scroll;">
+	<div style="display: flex;">
+		<div style="width: auto; display: flex; flex-direction: row;">
+			<a id="previous" href="#" class="empty_a">
+				<button id="control_bar.previous" class="button_bordered_reversed" onclick="" style="font-size: 12px; padding: 5px 20px 5px 20px; margin: 5px 5px 5px 5px; width: auto; min-width: none; white-space: nowrap; color: {{COLORS.button_bg_reversed}}" onmouseout="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseenter="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+					Previous
+				</button>
+			</a>
+		</div>
+		<div style="flex: 1; display: flex; flex-direction: row-reverse;">
+			{% if PACKAGE.installed == True %}
+				<a href="#" onclick="uninstall()" class="empty_a">
+					<button id="control_bar.uninstall" class="button_bordered_reversed" onclick="" style="font-size: 12px; padding: 5px 20px 5px 20px; margin: 5px 5px 5px 5px; width: auto; min-width: none; white-space: nowrap; color: {{COLORS.red}}; border: 1px solid {{COLORS.red}};" onmouseout="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.red}}' ; this.style.color = '{{COLORS.red}}'" onmouseenter="this.style.background = '{{COLORS.red}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.white}}'">
+						Uninstall
+					</button>
+				</a>
+			{% endif %}
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var PREVIOUS = get_url_param("previous")
+	if (PREVIOUS == null) {PREVIOUS = "/"}
+	document.getElementById("previous").href = PREVIOUS
+</script>
+
+<!-- CONTENT -->
+<div class="" style="display: block; max-width: 700px; margin: 0 auto; padding: 0px 25px 50px 25px; margin-top: 0px;">
+	
+	<!-- TOP -->
+	<div style="width: 100%; display: flex;  padding: 25px 0px 0px 0px;">
+		<div class="" style="min-width: 50px; height: 100%; position: relative; padding-top: 30px;">
+			<img src="https://api.vandenberghinc.com/{{PACKAGE.icon}}" width="75px" height="75px" style="display: block; margin: 0 auto; margin-bottom: 35px;">
+		</div>
+		<div style="flex: 1; height: 100%; padding: 15px 25px 0px 25px;">
+			<div style="display: flex;">
+				<div style="flex: 1; height: 100%; padding: 15px 25px 15px 25px;">
+					<h1 class="title_reversed" style="text-align: left; margin: 0px 0px 0px 0px;">
+						{{PACKAGE.title}}
+					</h1>
+					<p class="text_reversed" style="text-align: left; margin: 5px 0px 0px 0px;">
+						{{PACKAGE.subtitle}}
+					</p>
+					<div class="wrapper" style="margin-top: 15px;">
+						<div class="code_reversed package_tag">
+							v{{PACKAGE.version}}
+						</div>
+						<div style="width: 1px; height: 20px; margin-top: 3px; background: #FAFAFA; margin-left: 15px; margin-right: 20px;"></div>
+						{% if "macos" in PACKAGE.os %}
+							<img src="{% static 'media/logos/white/apple.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+						{% endif %}
+						{% if "windows" in PACKAGE.os %}
+							<img src="{% static 'media/logos/white/windows.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+						{% endif %}
+						{% if "linux" in PACKAGE.os %}
+							<img src="{% static 'media/logos/white/linux.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+							<img src="{% static 'media/logos/white/ubuntu.png' %}" alt="vandenberghinc" width="20px" height="20px" style="margin-right: 10px; margin-top: 2px;" />
+						{% endif %}
+					</div>
+				</div>
+				<div style="width: 125px; height: 100%; margin-top: 5px;">
+					{% if PACKAGE.free == False and PACKAGE.purchased == False %}
+						<a id="purchase_link" href="#" class="empty_a">
+							<div class="button_bordered_reversed" style="color: {{COLORS.button_bg_reversed}}; text-align: center; border: 1px solid {{COLORS.button_bg_reversed}};" onmouseout="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseenter="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+								Purchase
+							</div>
+						</a>
+						<script type="text/javascript">
+							document.getElementById("purchase_link").href = "/packages/purchase/?package={{PACKAGE.id}}&previous="+location.href
+						</script>
+					{% endif %}
+					<a href="/packages/docs/?package={{PACKAGE.id}}" class="empty_a">
+						<div class="button_bordered_reversed" style="color: {{COLORS.button_bg_reversed}}; text-align: center; border: 1px solid {{COLORS.button_bg_reversed}};" onmouseout="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseenter="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+							Docs
+						</div>
+					</a>
+					{% if PACKAGE.installed == False and OS in PACKAGE.os %}
+						<a onclick="install()" href="#" class="empty_a">
+							<div id="install" class="button_reversed" style="text-align: center; border: 1px solid #00000000;" onmouseenter="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseout="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+								<div class="wrapper" style="width: auto; margin: 0 auto;">
+									<div style="flex: 1; width: 100%;">
+										Install
+									</div>
+									<img id="install.success" src="{% static '/media/icons/check.png' %}" height="12.5px" width="12.5px" style="margin-top: 2px; flex: 0; display: none;">
+								</div>
+							</div>
+						</a>
+					{% elif PACKAGE.installed == True and PACKAGE.up_to_date == False and OS in PACKAGE.os %}
+						<a onclick="update()" href="#" class="empty_a">
+							<div id="update" class="button_reversed" style="text-align: center; border: 1px solid #00000000;" onmouseenter="this.style.background = 'none' ; this.style.border = 'solid 1px {{COLORS.button_bg_reversed}}' ; this.style.color = '{{COLORS.button_bg_reversed}}'" onmouseout="this.style.background = '{{COLORS.button_bg_reversed}}' ; this.style.border = '1px solid #00000000' ; this.style.color = '{{COLORS.button_txt_reversed}}'">
+								<div class="wrapper" style="width: auto; margin: 0 auto;">
+									<div style="flex: 1; width: 100%;">
+										Update
+									</div>
+									<img id="update.success" src="{% static '/media/icons/check.png' %}" height="12.5px" width="12.5px" style="margin-top: 2; flex: 0; display: none;">
+								</div>
+							</div>
+						</a>
+					{% endif %}
+					<div style="width: 125px;">
+						<div class="loader_reversed" id="loader" style="transform: scale(0.5); display: block; margin: 0 auto; display: none;"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p class="text_reversed" id="response" style="display: block; font-size: 14px; width: 100%; display: none;"></p>
+	<div class="divider_reversed"  style="margin: 45px 0px 25px 0px;"></div>
+	<h1 class="subtitle_reversed" style="margin: 0px 0px 0px 0px; text-align: left; font-weight: 600;">
+		Description
+	</h2>
+	<p class="text_reversed package_description" style="text-align: left;">
+		{{PACKAGE.description}}
+	</p>
+	<div class="divider_reversed"  style="margin: 45px 0px 25px 0px;"></div>
+	<h1 class="subtitle_reversed" style="margin: 0px 0px 0px 0px; text-align: left; font-weight: 600;">
+		Information
+	</h2>
+	<div class="wrapper" style="width: 95%; margin: 0 auto; margin-top: 25px;">
+		<div class="" style="margin: 0 auto; width: 33%;">
+			<p class="text_reversed nomargin nopadding" style="font-weight: 300; font-size: 13px; color: {{COLORS.button_txt}}50; text-align: left;">
+				Category
+			</p>
+			<p class="text_reversed nomargin nopadding" style="font-size: 14px; text-align: left; margin-top: 2.5px;">
+				{{PACKAGE.category|default:"_"}}
+			</p>
+		</div>
+		<div class="" style="margin: 0 auto; width: 33%;">
+			<p class="text_reversed nomargin nopadding" style="font-weight: 300; font-size: 13px; color: {{COLORS.button_txt}}50; text-align: left;">
+				Price
+			</p>
+			<p class="text_reversed nomargin nopadding" style="font-size: 14px; text-align: left; margin-top: 2.5px;">
+				{% if PACKAGE.free == True %}
+					Free
+				{% else %}
+					Paid
+				{% endif %}
+			</p>
+		</div>
+		<div class="" style="margin: 0 auto; width: 33%;">
+			<p class="text_reversed nomargin nopadding" style="font-weight: 300; font-size: 13px; color: {{COLORS.button_txt}}50; text-align: left;">
+				Version
+			</p>
+			<p class="text_reversed nomargin nopadding" style="font-size: 14px; text-align: left; margin-top: 2.5px;">
+				v{{PACKAGE.version|default:"_"}}
+			</p>
+		</div>
+	</div>
+	<div class="wrapper" style="width: 95%; margin: 0 auto; margin-top: 25px;">
+		<div class="" style="margin: 0 auto; width: 33%;">
+			<p class="text_reversed nomargin nopadding" style="font-weight: 300; font-size: 13px; color: {{COLORS.button_txt}}50; text-align: left;">
+				Product
+			</p>
+			<p class="text_reversed nomargin nopadding" style="font-size: 14px; text-align: left; margin-top: 2.5px;">
+				{{PACKAGE.title|default:"_"}}
+			</p>
+		</div>
+		<div class="" style="margin: 0 auto; width: 33%;">
+			<p class="text_reversed nomargin nopadding" style="font-weight: 300; font-size: 13px; color: {{COLORS.button_txt}}50; text-align: left;">
+				Developer
+			</p>
+			<p class="text_reversed nomargin nopadding" style="font-size: 14px; text-align: left; margin-top: 2.5px;">
+				{{PACKAGE.developer|default:"_"}}
+			</p>
+		</div>
+		<div class="" style="margin: 0 auto; width: 33%;">
+			<p class="text_reversed nomargin nopadding" style="font-weight: 300; font-size: 13px; color: {{COLORS.button_txt}}50; text-align: left;">
+				Copyright
+			</p>
+			<p class="text_reversed nomargin nopadding" style="font-size: 14px; text-align: left; margin-top: 2.5px;">
+				{{PACKAGE.copyright|default:"_"}}
+			</p>
+		</div>
+	</div>
+	<div class="small_air"></div>
+</div>
+<div style="margin-top: 35px;">
+	<h1 class="text_reversed" style="font-size: 8px; font-weight: 400; margin-bottom: 25px; text-align: center;">
+		© 2020 VanDenBerghInc. All Rights Reserved.
+	</h1>
+</div>
+
+<!-- JS -->
+<script type="text/javascript">
+
+	// install.
+	function install() {
+		var button = document.getElementById("install")
+		button.innerHTML = "Installing"
+		request("/requests/packages/install/", {
+			response:document.getElementById("response"),
+			loader:document.getElementById("loader"),
+			package: "{{PACKAGE.id}}",
+		}, function(response) {
+			if (response.success == true) {
+				button.innerHTML = "Installed"
+				document.getElementById("install.success").style.display = "block"
+				setTimeout(function() {
+					location.reload()
+				}, 3000)
+			} else {
+				button.innerHTML = "Install"
+			}
+		})
+	}
+	
+	// update.
+	function update() {
+		var button = document.getElementById("update")
+		button.innerHTML = "Updating"
+		request("/requests/packages/update/", {
+			response:document.getElementById("response"),
+			loader:document.getElementById("loader"),
+			package: "{{PACKAGE.id}}",
+		}, function(response) {
+			if (response.success == true) {
+				button.innerHTML = "Updated"
+				document.getElementById("update.success").style.display = "block"
+				setTimeout(function() {
+					location.reload()
+				}, 3000)
+			} else {
+				button.innerHTML = "Update"
+			}
+		})
+	}
+
+	// uninstall.
+	function uninstall() {
+		var response_element = document.getElementById("response")
+		show_error(
+			// The error title.
+			"Warning!",
+			// The error message.
+			"You are uninstalling package {{PACKAGE.title}}.<br> Do you wish to proceed?",
+			// The error icon's path.
+			"{% static 'media/icons/warning.png' %}",
+			// The left button's text.
+			"Cancel",
+			// The left button's function.
+			function() {
+				hide_error()
+				response_element.style.display = "block"
+				response_element.style.color = '{{COLORS.red}}'
+				response_element.innerHTML = 'Aborted.'
+				setTimeout(function() { 
+					response_element.style.display = "none"
+				}, 2000);
+			},
+			// The right button's text.
+			"Proceed",
+			// The right button's function.
+			function() {
+				hide_error()
+				request("/requests/packages/uninstall/", {
+					response:document.getElementById("response"),
+					loader:document.getElementById("loader"),
+					package: "{{PACKAGE.id}}",
+				}, function(response){
+					if (response.success == true) {
+						setTimeout(function() {
+							location.reload()
+						}, 3000)
+					}
+				})
+			},
+		)
+	}
+
+
+</script>
+{% endblock %}

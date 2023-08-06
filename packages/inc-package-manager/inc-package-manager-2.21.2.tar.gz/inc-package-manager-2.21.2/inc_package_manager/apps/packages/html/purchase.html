@@ -1,0 +1,22 @@
+{% extends 'defaults/html/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- JAVASCRIPT -->
+<script type="text/javascript">
+	toggle_topbar("show")
+	toggle_full_screen("hide")
+	set_header_path("purchase/{{PACKAGE.id}}")
+</script>
+
+<!-- REDIRECT -->
+<script type="text/javascript">
+	var previous = get_url_param('previous')
+	if (previous == null) {
+		previous = BASE_URL
+	}
+	location.href = "https://api.vandenberghinc.com/payments/purchase/?product={{PACKAGE.id}}&api_key={{USER.api_key}}&plan=basic&raw=true&previous="+previous
+</script>
+
+
+{% endblock %}
