@@ -1,0 +1,3 @@
+soco >= 0.22.6
+tabulate
+rangehttpserver
