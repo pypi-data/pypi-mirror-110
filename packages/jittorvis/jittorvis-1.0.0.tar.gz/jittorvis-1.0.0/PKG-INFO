@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jittorvis
+Version: 1.0.0
+Summary: Dynamic graph visualization for Jittor
+Home-page: https://github.com/swordsbird/JittorVis
+Author: Zhen Li
+Author-email: thu.lz@outlook.com
+License: MIT
+Download-URL: https://github.com/swordsbird/JittorVis/archive/pypi-0_1_3.tar.gz
+Description: UNKNOWN
+Keywords: Jittor,visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
