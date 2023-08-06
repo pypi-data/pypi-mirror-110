@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pytubeloader
+Version: 1.0
+Summary: this is a simple proof of concept of a cli program
+Home-page: https://github.com/angelo59930/pytubeloader.git
+Author: Angelo Manfredi
+Author-email: manfrediangelosantiago10@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: pytubeloader,downloader,cli
+Platform: UNKNOWN
