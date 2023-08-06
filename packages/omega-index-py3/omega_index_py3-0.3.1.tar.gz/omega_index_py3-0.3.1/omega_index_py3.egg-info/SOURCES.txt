@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+omega_index_py3/__init__.py
+omega_index_py3/omgidx.py
+omega_index_py3.egg-info/PKG-INFO
+omega_index_py3.egg-info/SOURCES.txt
+omega_index_py3.egg-info/dependency_links.txt
+omega_index_py3.egg-info/top_level.txt

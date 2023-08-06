@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: omega_index_py3
+Version: 0.3.1
+Summary: Omega Index for evaluation of overlapping community structure
+Home-page: https://github.com/GiulioRossetti/omega_index_py3
+Author: Giulio Rossetti
+Author-email: giulio.rossetti@gmail.com
+License: UNKNOWN
+Keywords: evaluation,clustering,community-detection
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+
