@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/sayhello.py
+src/helloryan.egg-info/PKG-INFO
+src/helloryan.egg-info/SOURCES.txt
+src/helloryan.egg-info/dependency_links.txt
+src/helloryan.egg-info/top_level.txt
