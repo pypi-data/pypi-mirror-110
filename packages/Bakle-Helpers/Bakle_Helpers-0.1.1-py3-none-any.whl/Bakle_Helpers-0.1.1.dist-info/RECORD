@@ -1,0 +1,12 @@
+bakle_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bakle_helpers/email.py,sha256=FP1jNMhHx2mT7b7_qArPP4WRYhnKuA2didwThzHwRto,452
+bakle_helpers/helper_exceptions.py,sha256=pnQ7o90vthG-b3DN3dsjfNIECRzJ06O2c1NH8bY7xS0,255
+bakle_helpers/str.py,sha256=wo8IhOCQl6VQ3V_-MaMlXfUJu0b6UIk0kxtFnXrFf2o,2745
+bakle_helpers/url.py,sha256=LVOQBQQTu3Na7BmP87vNySgha-_-B6qaktWMTXv85CI,641
+bakle_helpers/support/emails.txt,sha256=QlZCD5A1_KwAsccTEejtjKtLdg_tWj16BJ552Rymr68,10806
+bakle_helpers/support/urls.txt,sha256=3zo_YbsHJAIg--dYolF-Wrc2VWpNF5xG8EolX476mNw,16708
+Bakle_Helpers-0.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+Bakle_Helpers-0.1.1.dist-info/METADATA,sha256=MwF6DEv76WRJNpFB5VQcwMfjPa2-P1wbqVgwKDGz6Uk,3485
+Bakle_Helpers-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Bakle_Helpers-0.1.1.dist-info/top_level.txt,sha256=ATlHW947acXk8ZOxEJNZC8cOckaYiIACvAprdh5nWY8,14
+Bakle_Helpers-0.1.1.dist-info/RECORD,,
