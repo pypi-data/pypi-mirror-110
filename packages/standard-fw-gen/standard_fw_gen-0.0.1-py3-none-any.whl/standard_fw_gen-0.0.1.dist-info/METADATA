@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: standard-fw-gen
+Version: 0.0.1
+Summary: Standard firmware generate tool
+Home-page: https://gitee.com/JackLinXX_admin/standard_fw_gen
+Author: Jack
+Author-email: JackLinZero@163.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitee.com/JackLinXX_admin/standard_fw_gen/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## OverView
+
+该项目为标准化固件生成脚本，该脚本用于每一个项目固件辅助生成，主要的目的有：
+
+* 避免手动修改固件名称，增加错误的风险
+* 对发布版本的固件进行记录，其记录内容：生成的固件，固件的MD5，生成日期，修改内容。为日后的提供依据
+
