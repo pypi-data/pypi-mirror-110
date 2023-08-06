@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: jsoneditor
+Version: 1.2.0
+Summary: Visualize and edit JSON
+Home-page: https://github.com/dermasmid/py-jsoneditor
+Author: Cheskel Twersky
+Author-email: twerskycheskel@gmail.com
+License: MIT
+Description: # Installation
+        
+        ```bash
+        pip3 install jsoneditor
+        ```
+        
+        # Usage
+        
+        In python:
+        ```python
+        import requests
+        import jsoneditor
+        
+        data = requests.get('your endpiont here').json()
+        jsoneditor.editjson(data)
+        ```
+        From the terminal:
+        
+        You got a cuple of options.
+        
+        1. `python -m jsoneditor '{"Hey": "Hi"}'`
+        2. `curl https://jsonplaceholder.typicode.com/comments | jsoneditor`
+        3. `jsoneditor '{"Hey": "Hi"}'`
+        
+        ## Forms of passing the json
+        
+        You can pass the json in any of the following forms:
+        * as valid json string
+        * as a python dict
+        * as a url the points to valid json
+        * as a file path that is valid json
+        
+        ## Build
+        
+        ```bash
+        python3 setup.py sdist
+        ```
+        
+Keywords: python3 JSON jsoneditor api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
