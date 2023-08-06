@@ -1,0 +1,3 @@
+[console_scripts]
+themebase = themebase.__main__:main
+

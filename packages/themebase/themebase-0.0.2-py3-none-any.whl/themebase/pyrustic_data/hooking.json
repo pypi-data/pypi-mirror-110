@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "themebase.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "themebase.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "themebase.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "themebase.hooking.post_release_hook"
+    ]
+}
