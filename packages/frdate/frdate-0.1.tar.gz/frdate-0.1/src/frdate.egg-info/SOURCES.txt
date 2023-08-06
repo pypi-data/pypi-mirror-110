@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/frdate/__init__.py
+src/frdate/frdate.py
+src/frdate/test_frdate.py
+src/frdate.egg-info/PKG-INFO
+src/frdate.egg-info/SOURCES.txt
+src/frdate.egg-info/dependency_links.txt
+src/frdate.egg-info/top_level.txt
