@@ -1,0 +1,17 @@
+[console_scripts]
+sretools-csv-format = sretools.csvfmt:main
+sretools-dbx = sretools.dbx:main
+sretools-dsq = sretools.dsq:main
+sretools-expect = sretools.ltexpect:main
+sretools-json2html = sretools.json2html:main
+sretools-json2table = sretools.json2table:main
+sretools-json2xml = sretools.json2xml:main
+sretools-json2yaml = sretools.json2yaml:main
+sretools-jsonfmt = sretools.jsonfmt:main
+sretools-nonascii = sretools.nonascii:main
+sretools-ssh = sretools.yssh:main
+sretools-table-format = sretools.tblfmt:main
+sretools-xml2json = sretools.xml2json:main
+sretools-yaml2html = sretools.yaml2html:main
+sretools-yaml2json = sretools.yaml2json:main
+
