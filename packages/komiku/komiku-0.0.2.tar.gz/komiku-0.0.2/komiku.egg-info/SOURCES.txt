@@ -1,0 +1,10 @@
+README.md
+setup.py
+komiku/__init__.py
+komiku/__main__.py
+komiku/parser.py
+komiku.egg-info/PKG-INFO
+komiku.egg-info/SOURCES.txt
+komiku.egg-info/dependency_links.txt
+komiku.egg-info/requires.txt
+komiku.egg-info/top_level.txt
