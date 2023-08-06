@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "earworm"
+version = "0.1.1"
+description = "Create a simple web page to listen to audio files in a directory"
+authors = ["Puneeth Chaganti <punchagan@muse-amuse.in>"]
+include = ["earworm/static/bundle.js"]
+readme = "README.md"
+homepage = "https://github.com/punchagan/earworm/"
+repository = "https://github.com/punchagan/earworm/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Jinja2 = "^3.0.1"
+requests = "^2.25.1"
+tinytag = "^1.5.0"
+Pillow = "^8.2.0"
+PyYAML = "^5.4.1"
+python-dateutil = "^2.8.1"
+webassets = "^2.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+earworm = 'earworm.generate:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
