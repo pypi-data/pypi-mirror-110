@@ -1,0 +1,16 @@
+git_repo_language_trends/__init__.py,sha256=oBwPo_clKGRTwPZqynBc2BMh40QGrFGKIrcFRonGmt4,94
+git_repo_language_trends/__main__.py,sha256=n-BwDftfNGURbSEEythht8ldMYhW1gGDFdM7PnzzwXY,79
+git_repo_language_trends/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_repo_language_trends/_internal/args.py,sha256=tQ1PiSg-4glAK0uMmdw-6mG5CcAjYV2KREvFCdkLGOg,5204
+git_repo_language_trends/_internal/main.py,sha256=GILSgBKZ1qVMfEV7MUmqIRGEuQFako-5h_lgk5Xf31E,6960
+git_repo_language_trends/_internal/matplotlib_output.py,sha256=VYEqS5Yt-o4JxzEobnwyDSiGf19YT9VhA3aqV4aq8N0,2236
+git_repo_language_trends/_internal/output.py,sha256=BWNT1W_Fel4tGwWIipWLDgo6IkNtQnjIx-ZJ8VysGJI,734
+git_repo_language_trends/_internal/progress.py,sha256=5TjNj4PnS4d3MsIg4xWIbhW71SLh21BZlPgce4_bcdw,1712
+git_repo_language_trends/_internal/separated_values_output.py,sha256=cvjbTMZsxV5XT7G7ZFKR2ev8TjcmtoNKRYQgXhJd_bs,1373
+git_repo_language_trends/_internal/utils.py,sha256=2IY99fKkWfnCwYU3GyPUEq5e3374WyWgFLfIUvS0jHM,937
+git_repo_language_trends-0.0.4.dist-info/LICENSE,sha256=db0ewQiYmDQo0_woUHtpVfUVmvJqZjyHzHxJZT51tpg,1125
+git_repo_language_trends-0.0.4.dist-info/METADATA,sha256=k9eMORe_FDmFfjdCkuhxGaxqPNdiV_tktPfKN5C7glM,3451
+git_repo_language_trends-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+git_repo_language_trends-0.0.4.dist-info/entry_points.txt,sha256=Rr4WF9oFhSrRy14S3PLAeujnKw5o9Q6W4N8X8cLkENY,76
+git_repo_language_trends-0.0.4.dist-info/top_level.txt,sha256=Odzt3_Wqql-3IGYYK2G_QgC0mAx-yKTnJTAOxeCE-4g,25
+git_repo_language_trends-0.0.4.dist-info/RECORD,,

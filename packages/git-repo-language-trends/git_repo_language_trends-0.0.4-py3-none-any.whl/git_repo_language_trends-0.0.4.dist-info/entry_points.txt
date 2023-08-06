@@ -1,0 +1,3 @@
+[console_scripts]
+git-repo-language-trends = git_repo_language_trends:main
+
