@@ -1,0 +1,3 @@
+[console_scripts]
+tc_queue_exporter = tc_queue_exporter:run
+
