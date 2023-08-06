@@ -1,0 +1,13 @@
+safecopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safecopy/safecopy.asc,sha256=aJJwdqrpWL1vRBbU2EEZs5eRB9XYNcoeVDFJ6ipAYmU,862
+safecopy/safecopy.py,sha256=hIgYusizIMk4Qp-W6UJtWwQiidJTfmyrguUuugo0No0,43476
+safecopy/version.py,sha256=oWwnqP4s1CKeE9UsBs_IzYFu4WlEa5wxasUinC6nuV4,138
+safecopy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safecopy/tests/test_doctests.py,sha256=nSTy9d-C3lqu3hhbYePhTN39-X3O-2Xglj7f9qkt7J8,1319
+safecopy/tests/test_safecopy.py,sha256=IKJ5SHZXFwscyZhIdgYqSOWbMdMeeRr7wCw9mCHoq3s,2386
+safecopy-1.2.6.data/scripts/safecopy,sha256=UTJnCUC750xoXtq1d3wpQ1ON9glzNbe5Uht1yt1vZ9I,43465
+safecopy-1.2.6.dist-info/LICENSE,sha256=G5G4_OL2PDHVNLeyNtCdwifraKoELJUVpMrjSNokodA,594
+safecopy-1.2.6.dist-info/METADATA,sha256=FLXyRZ2Y6xOP3MObDbyhVoqig9rwJiflurNznUOVEBw,1616
+safecopy-1.2.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+safecopy-1.2.6.dist-info/top_level.txt,sha256=HRDUnFsihrgGexGoY3GjJopZ0LcIsoLTwxZm5SIGlU4,9
+safecopy-1.2.6.dist-info/RECORD,,
