@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: GoesLogging
+Version: 0.0.6
+Summary: First version of logging for GOES.
+Home-page: https://framagit.org/K-Schubert/goeslogging
+Author: Kieran Schubert
+Author-email: kieran.schubert@hesge.ch
+License: MIT
+Download-URL: https://framagit.org/K-Schubert/goeslogging/-/archive/v_006/goeslogging-v_006.tar.gz
+Description: UNKNOWN
+Keywords: GOES,Logging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
