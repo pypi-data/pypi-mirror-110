@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+zoom_dl/__init__.py
+zoom_dl/__main__.py
+zoom_dl/cookiejar.py
+zoom_dl/parser.py
+zoom_dl/version.py
+zoom_dl/zoomdl.py
+zoomdl_2.egg-info/PKG-INFO
+zoomdl_2.egg-info/SOURCES.txt
+zoomdl_2.egg-info/dependency_links.txt
+zoomdl_2.egg-info/requires.txt
+zoomdl_2.egg-info/top_level.txt
