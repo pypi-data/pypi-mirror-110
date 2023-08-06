@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/augmentedbondingcurve/__init__.py
+src/augmentedbondingcurve/model.py
+src/ltf_abcm.egg-info/PKG-INFO
+src/ltf_abcm.egg-info/SOURCES.txt
+src/ltf_abcm.egg-info/dependency_links.txt
+src/ltf_abcm.egg-info/requires.txt
+src/ltf_abcm.egg-info/top_level.txt

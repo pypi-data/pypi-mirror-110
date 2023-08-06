@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ltf-abcm
+Version: 0.0.2
+Summary: Longtail Financial Augmented Bonding Curve Model
+Home-page: https://github.com/CommonsBuild/augmented-bonding-curve-model
+Author: Shawn Anderson, Bhargavkumar Kakadiya, Mohammad Aghaali
+Author-email: swanders@ualberta.ca
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CommonsBuild/augmented-bonding-curve-model/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
