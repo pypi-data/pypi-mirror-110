@@ -1,0 +1,6 @@
+[console_scripts]
+add-pre-commit-hook = hooks.add_pre_commit_hook:main
+dev-extras-required-hook = hooks.dev_extras_required:main
+root-editorconfig-required-hook = hooks.root_editorconfig_required:main
+wavelint-hook = hooks.wavelint:main
+
