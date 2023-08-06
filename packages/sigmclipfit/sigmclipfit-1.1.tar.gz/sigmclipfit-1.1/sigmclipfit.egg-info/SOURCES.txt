@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+sigmclipfit/__init__.py
+sigmclipfit/sgmfit.py
+sigmclipfit.egg-info/PKG-INFO
+sigmclipfit.egg-info/SOURCES.txt
+sigmclipfit.egg-info/dependency_links.txt
+sigmclipfit.egg-info/top_level.txt
