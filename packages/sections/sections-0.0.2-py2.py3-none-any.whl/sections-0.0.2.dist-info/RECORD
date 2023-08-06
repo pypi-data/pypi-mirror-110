@@ -1,0 +1,15 @@
+sections/__init__.py,sha256=aSKlEPdyhWqvRfwsLqW3A1O2jT767elZ0yGM9xzi0U0,1733
+sections/attr_parser.py,sha256=LYNR9vuEPQYRySFrKsMkYmW9Ygat3uVXcTczYf9em24,7020
+sections/dict.py,sha256=k_NuwtYMKF_u0GSi1RbIckpY-Erw2R2Av0RPtykMml4,4920
+sections/meta.py,sha256=njmDICDeBCFJTejSBeBRdXcGpba58VbCqA9yvBzR1VY,7844
+sections/node.py,sha256=NMb82MXYw32NW8ulkoKutC5LNbjYdkgY4N2fWnAn3go,3338
+sections/pluralizer.py,sha256=3zI8PviaQwbLb9RQ12DXHM51GEFJNna7lzaQdXF46uE,1210
+sections/section.py,sha256=ZBQQ1kxFq3BXb1uMjDAv8o1mqLOjDdy8_xB_lzlRD_U,5331
+sections/string_parser.py,sha256=V8vdOom2LSFHd50tHra8zwtIfPltc599KUDVKeg9Q9M,3867
+sections/types.py,sha256=xSxC82cA7GMBjqNGiZpxDFgT4miekuEMz1u1ezz2SyQ,2487
+sections-0.0.2.dist-info/AUTHORS.rst,sha256=YK5WgCpWkKa0AHTtdXkF5PmkZWLrittoCa0N9FPohuA,63
+sections-0.0.2.dist-info/LICENSE,sha256=oWVoguEJadZIWqQfX-vxpe8X1dDMRH2514jduBRa9hI,1106
+sections-0.0.2.dist-info/METADATA,sha256=Dwy66N9PRdGnVT76tZ2f_nRlVEd2FewfDWYeavcf1L0,21808
+sections-0.0.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+sections-0.0.2.dist-info/top_level.txt,sha256=r0VF9Vto1HJIng0_gDBoYwgrkbU_MbVD7HRqWSPRxgI,9
+sections-0.0.2.dist-info/RECORD,,
