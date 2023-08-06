@@ -1,0 +1,2 @@
+# Include resources
+recursive-include bospell/resources *
