@@ -1,0 +1,7 @@
+djangoldp>=1.0
+djangoldp_conversation
+djangoldp_circle
+djangoldp_i18n
+
+[dev]
+factory_boy>=2.11.0
