@@ -1,0 +1,37 @@
+.gitattributes
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+.vscode/launch.json
+FRHEED.egg-info/PKG-INFO
+FRHEED.egg-info/SOURCES.txt
+FRHEED.egg-info/dependency_links.txt
+FRHEED.egg-info/requires.txt
+FRHEED.egg-info/top_level.txt
+frheed/__init__.py
+frheed/__version__.py
+frheed/calcs.py
+frheed/constants.py
+frheed/gui.py
+frheed/image_processing.py
+frheed/materials.py
+frheed/settings.py
+frheed/styles.py
+frheed/utils.py
+frheed/cameras/__init__.py
+frheed/cameras/flir/__init__.py
+frheed/cameras/flir/install_pyspin.py
+frheed/cameras/flir/spinnaker_win32/spinnaker_python-2.4.0.144-cp38-cp38-win32.whl
+frheed/cameras/flir/spinnaker_win32/docs/FLIR Camera Getting Started.html
+frheed/cameras/flir/spinnaker_win64/spinnaker_python-2.4.0.144-cp38-cp38-win_amd64.whl
+frheed/cameras/flir/spinnaker_win64/docs/FLIR Camera Getting Started.html
+frheed/cameras/usb/__init__.py
+frheed/widgets/__init__.py
+frheed/widgets/camera_widget.py
+frheed/widgets/canvas_widget.py
+frheed/widgets/common_widgets.py
+frheed/widgets/plot_widgets.py
+frheed/widgets/rheed_widgets.py
+frheed/widgets/selection_widgets.py
