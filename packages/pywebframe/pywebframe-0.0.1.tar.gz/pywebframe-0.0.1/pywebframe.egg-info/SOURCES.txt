@@ -1,0 +1,7 @@
+README.md
+setup.py
+pywebframe.egg-info/PKG-INFO
+pywebframe.egg-info/SOURCES.txt
+pywebframe.egg-info/dependency_links.txt
+pywebframe.egg-info/requires.txt
+pywebframe.egg-info/top_level.txt
