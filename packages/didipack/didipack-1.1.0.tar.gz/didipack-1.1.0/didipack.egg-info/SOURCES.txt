@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+didipack/__init__.py
+didipack/latex_paper.py
+didipack/latex_ressource.py
+didipack/latex_table.py
+didipack/parameters.py
+didipack/plot_function.py
+didipack.egg-info/PKG-INFO
+didipack.egg-info/SOURCES.txt
+didipack.egg-info/dependency_links.txt
+didipack.egg-info/requires.txt
+didipack.egg-info/top_level.txt
