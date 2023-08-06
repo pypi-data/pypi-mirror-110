@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/piest/__init__.py
+src/piest/dict.py
+src/piest/file.py
+src/piest/list.py
+src/piest/meta.py
+src/piest.egg-info/PKG-INFO
+src/piest.egg-info/SOURCES.txt
+src/piest.egg-info/dependency_links.txt
+src/piest.egg-info/top_level.txt
