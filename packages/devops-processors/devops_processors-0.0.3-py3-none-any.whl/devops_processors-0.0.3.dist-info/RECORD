@@ -1,0 +1,13 @@
+devopsprocessors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devopsprocessors/container.py,sha256=9R9rtfGrJYvMFO4-DExEb77nVi0ZHU0aHken1Vq5nEo,1070
+devopsprocessors/fluentd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devopsprocessors/fluentd/fluentd_logger.py,sha256=P0HuuG41iDGjovuzb4a5dkBbRAy2PoW-idGI6XpZiJ8,664
+devopsprocessors/fluentd/fluentd_processor.py,sha256=U1OSZd8Qoh2r48BRxmQT8zU3D3PkurU30W-_Pg3e3M8,755
+devopsprocessors/history/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devopsprocessors/history/history.py,sha256=k6i9ZBx9yILwvuyPxL9Zt7w9GMX7sUNR8SZcQ0YYfyE,2594
+devopsprocessors/history/history_processor.py,sha256=3FoCXlFTEv_CSSf841hzuqLj5Z8BHSR7E69SQp75oD4,764
+devops_processors-0.0.3.dist-info/LICENSE,sha256=RpvAZSjULHvoTR_esTlucJ08-zdQydnoqQLbqOh9Ub8,13826
+devops_processors-0.0.3.dist-info/METADATA,sha256=ibB9mSKID6Lc-ihfotFXaNgMDIh_8uK42jpH_d883-c,659
+devops_processors-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+devops_processors-0.0.3.dist-info/top_level.txt,sha256=RDyxRj2lpb2JIc6yQ4tf0IukuQmTHtbKvprowtNSl70,17
+devops_processors-0.0.3.dist-info/RECORD,,
