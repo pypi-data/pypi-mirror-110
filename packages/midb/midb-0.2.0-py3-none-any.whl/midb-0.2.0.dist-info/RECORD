@@ -1,0 +1,15 @@
+midb/__init__.py,sha256=WWGTy3v_86eIPcMHVOTJxCTEm1pRCeREnxLwvBPFrpo,3111
+midb/constants.py,sha256=ubTit5yIKYVxnyLABRO5_KTqgcoGRFAs4Y24i1lQbZk,129
+midb/backend/__init__.py,sha256=RovPQeKBfWYopd5SF1zEeAOkOP9AGrXTGkyUoK1VzFc,8906
+midb/backend/_db_creation_and_validation.py,sha256=xqoRZ5PztpO3CQ_JlznzIyx9CIUl0CoFxeaWpnuN8dM,6224
+midb/backend/_serialization.py,sha256=_Y19O4HaD6WQoixVlb6IbfhzVBEbj2V7AGLJkdosaGI,7166
+midb/persistent_objects/__init__.py,sha256=p-gGGcvCrZ55sE5YAtWkCmGS1pfiWu_WCCiMT_Czgcg,254
+midb/persistent_objects/_basepersistentobject.py,sha256=PkmhIhBxeDZTHk-GDj8MdYyhaVAeIDwcrOa3LieBWes,13297
+midb/persistent_objects/_pdict.py,sha256=M6gEZQwxqg2EtyvXlDxw0a_RvYjbIVo6e5ip3abpda0,6744
+midb/persistent_objects/_persistentsequence.py,sha256=JnYjSnIKSQymRiQUFYWH3dQJs_SEwHhKVdSrlXFQW9w,5092
+midb/persistent_objects/_ptuple.py,sha256=5Gi9QHYGsLQ06QHs5u8nT914vb9doe-4emj_DQeCMMc,1471
+midb-0.2.0.dist-info/LICENSE,sha256=OhANte-H9aPl6-2OYff2C5KEEK_Ihz8J_TsA5IJsL6Q,1066
+midb-0.2.0.dist-info/METADATA,sha256=oPn69wHZ8O0_tLOzv7wytbZ7ApoCr0Lq1uXAAW7TQSw,1842
+midb-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+midb-0.2.0.dist-info/top_level.txt,sha256=QG1LDSzs5qGBDtO87qdTQqubhwe1CihcZmD8QKa9MHQ,5
+midb-0.2.0.dist-info/RECORD,,
