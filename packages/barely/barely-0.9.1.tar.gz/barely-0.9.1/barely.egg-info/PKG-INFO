@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: barely
+Version: 0.9.1
+Summary: barely is a lightweight, but highly extensible static site generator written in pure python.
+Home-page: https://github.com/charludo/barely
+Author: Charlotte Hartmann Paludo
+Author-email: contact@charlotteharludo.com
+License: GPL-3.0
+Download-URL: https://github.com/charludo/barely/archive/v_090.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
