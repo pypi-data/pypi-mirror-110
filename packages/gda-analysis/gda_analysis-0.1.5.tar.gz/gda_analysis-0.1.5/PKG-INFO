@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gda-analysis
+Version: 0.1.5
+Summary: 
+Author: Tova Hallas
+Author-email: tova.hallas@igentify.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.18,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.7,<4.0.0)
+Requires-Dist: pandas (>=1.2.4,<2.0.0)
+Requires-Dist: psycopg2-binary (>=2.8.6,<3.0.0)
