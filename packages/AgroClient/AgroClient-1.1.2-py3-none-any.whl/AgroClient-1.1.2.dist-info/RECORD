@@ -1,0 +1,10 @@
+agrothon_client/__init__.py,sha256=E9LAdEHVDW_fZBUEnzeQHt66ejB2GONYft6k6ZtUu6Q,1783
+agrothon_client/__main__.py,sha256=DdhOpmRFnZJnVjEhMoaedH3nupWXOsSDZZuYvQJS8oc,1326
+agrothon_client/request_helper.py,sha256=mWWiuPeDta4Sm_GuFpf2L9rARRAeYjHYQH_rTl7-VU8,1566
+agrothon_client/utils.py,sha256=w6hMzzLxbUI5zQiIEku_lWRAJjuu9iGrc5WIvR4BOTg,3590
+AgroClient-1.1.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+AgroClient-1.1.2.dist-info/METADATA,sha256=8yR3nwHgRNicGPSN_XdhyY_QDb092l-xUIjBKmOkQYk,5246
+AgroClient-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+AgroClient-1.1.2.dist-info/entry_points.txt,sha256=jco_tj4vRZ5KOf8ocIdLL7HoyhIIKEjIeuSezu9yyoI,62
+AgroClient-1.1.2.dist-info/top_level.txt,sha256=y4QJhoDz4pn7VInNJzV5YV9wutkOGUjfnpI8OQsGzZQ,16
+AgroClient-1.1.2.dist-info/RECORD,,
