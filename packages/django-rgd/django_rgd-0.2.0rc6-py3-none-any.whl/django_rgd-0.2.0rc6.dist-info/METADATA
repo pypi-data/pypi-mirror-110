@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: django-rgd
+Version: 0.2.0rc6
+Summary: UNKNOWN
+Home-page: https://github.com/ResonantGeoData/ResonantGeoData
+Author: Kitware, Inc.
+Author-email: rgd@kitware.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Requires-Dist: celery
+Requires-Dist: django (>=3.2)
+Requires-Dist: django-allauth
+Requires-Dist: django-click
+Requires-Dist: django-extensions
+Requires-Dist: django-filter
+Requires-Dist: django-girder-utils
+Requires-Dist: django-model-utils
+Requires-Dist: django-oauth-toolkit
+Requires-Dist: djangorestframework
+Requires-Dist: drf-yasg
+Requires-Dist: GDAL
+Requires-Dist: pooch
+Requires-Dist: psycopg2
+Requires-Dist: python-magic
+Requires-Dist: flower
+Requires-Dist: django-s3-file-field[minio]
+Provides-Extra: fuse
+Requires-Dist: numpy ; extra == 'fuse'
+Requires-Dist: simple-httpfs ; extra == 'fuse'
+
+# ResonantGeoData Core Application
+
+The core app contianing spatial models for django
+
+
