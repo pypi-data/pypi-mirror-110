@@ -1,0 +1,14 @@
+README.md
+setup.py
+scicomap/__init__.py
+scicomap/cblind.py
+scicomap/cmath.py
+scicomap/datasets.py
+scicomap/scicomap.py
+scicomap/utils.py
+scicomap.egg-info/PKG-INFO
+scicomap.egg-info/SOURCES.txt
+scicomap.egg-info/dependency_links.txt
+scicomap.egg-info/not-zip-safe
+scicomap.egg-info/requires.txt
+scicomap.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+numpy
+pandas
+scipy
+colorspacious
+colorcet
+cmcrameri
+cmocean
+cmasher>=1.5.8
+palettable>=3.3.0
+matplotlib>=3.3.0
+
+[tests]
+pytest
+pytest-cov
