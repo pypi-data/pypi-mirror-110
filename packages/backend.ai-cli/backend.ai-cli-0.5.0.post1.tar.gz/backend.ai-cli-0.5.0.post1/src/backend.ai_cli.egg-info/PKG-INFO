@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: backend.ai-cli
+Version: 0.5.0.post1
+Summary: Backend.AI Command Line Interface
+Home-page: https://backend.ai
+Author: Lablup Inc.
+Author-email: joongi@lablup.com
+License: MIT
+Project-URL: Documentation, https://docs.backend.ai
+Project-URL: Source, https://github.com/lablup/backend.ai-cli
+Project-URL: Tracker, https://github.com/lablup/backend.ai/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: build
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: lint
+Provides-Extra: typecheck
+License-File: LICENSE
+
+# backend.ai-cli
+
+Unified command-line interface for Backend.AI
+
+
+## How to adopt in CLI-enabled Backend.AI packages
+
+An example `setup.cfg` in Backend.AI Manager:
+```
+[options.entry_points]
+backendai_cli_v10 =
+    mgr = ai.backend.manager.cli.__main__:main
+    mgr.start-server = ai.backend.gateway.server:main
+```
+
+Define your package entry points that returns a Click command group using a
+prefix, and add additional entry points that returns a Click command using a
+prefix followed by a dot and sub-command name for shortcut access, under the
+`backendai_cli_v10` entry point group.
+
+Then add `backend.ai-cli` to the `install_requires` list.
+
+You can do the same in `setup.py` as well.
+
+

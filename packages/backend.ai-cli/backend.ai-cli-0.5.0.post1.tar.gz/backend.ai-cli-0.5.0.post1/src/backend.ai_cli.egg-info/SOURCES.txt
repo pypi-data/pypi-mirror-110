@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ai/backend/cli/__init__.py
+src/ai/backend/cli/__main__.py
+src/ai/backend/cli/extensions.py
+src/ai/backend/cli/loader.py
+src/ai/backend/cli/main.py
+src/backend.ai_cli.egg-info/PKG-INFO
+src/backend.ai_cli.egg-info/SOURCES.txt
+src/backend.ai_cli.egg-info/dependency_links.txt
+src/backend.ai_cli.egg-info/entry_points.txt
+src/backend.ai_cli.egg-info/not-zip-safe
+src/backend.ai_cli.egg-info/requires.txt
+src/backend.ai_cli.egg-info/top_level.txt
