@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/instpy/__init__.py
+src/instpy.egg-info/PKG-INFO
+src/instpy.egg-info/SOURCES.txt
+src/instpy.egg-info/dependency_links.txt
+src/instpy.egg-info/requires.txt
+src/instpy.egg-info/top_level.txt
