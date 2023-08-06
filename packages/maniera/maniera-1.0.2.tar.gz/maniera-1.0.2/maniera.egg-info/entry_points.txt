@@ -1,0 +1,3 @@
+[console_scripts]
+maniera = maniera.__main__:main
+
