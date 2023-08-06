@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: tf_coil_coordinator
+Version: 0.0.2
+Summary: Package includes a function which returns from 2 given coordinate, a list of 10 coordinates for a TF coil in XZ 2D plane
+Home-page: https://github.com/mateczentye/tf_coil_coordinator
+Author: Mate
+Author-email: czentyemate@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
