@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: puchipuchi-filler
+Version: 0.1.5
+Summary: nothing to describe
+Author: puchipuchi team
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+## puchipuchi_filler
+何もしないです
+
+
