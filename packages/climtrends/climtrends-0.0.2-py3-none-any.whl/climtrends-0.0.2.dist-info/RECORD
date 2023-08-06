@@ -1,0 +1,16 @@
+climtrends/ClimTrendModel.py,sha256=-NVyRO7wkdgeejHXbA8c9TYlclpTWhULiq9JUa-vCwY,38155
+climtrends/NoTrendGEVModel.py,sha256=_M3_jZVcm_f2YkBjJWEMHPwQYo1YeMlAn_hxe0daU0M,5010
+climtrends/NoTrendNormalModel.py,sha256=Kh8JQZfuozDrkdugnTsxJ9LDfdmMnCPqS9X7RDQk9Cw,5454
+climtrends/TrendExponentialModel.py,sha256=m1fBwmGQnCiulZJq-4RpUKJI7iPXJrNZRlhEUQfKr2g,5769
+climtrends/TrendGEVModel.py,sha256=HvcCPJ1OPf2kecUMaeW3wOd0iKyNzZj70vX03O6T-EQ,7289
+climtrends/TrendGammaModel.py,sha256=h_CL8fykm5UlrPAl1qS2viBV6VnZkdjZK8ef52vDpAU,7430
+climtrends/TrendNormalModel.py,sha256=9ABRhaX6HRkA1qPHFt0dTCU2lHcpPeudoFMR8E8tIpQ,5959
+climtrends/TrendPoissonModel.py,sha256=e7enrm3pyrZJoppl7xJ8UjDcnA24Lvlzpnj72hdPusw,5693
+climtrends/TrendTwoMomentNormalModel.py,sha256=U0Kgbk9BR42T5O-YmdoxACcSth0qhO2aBHyqti_gjdk,7099
+climtrends/__init__.py,sha256=9sNiTSEK4xwGsOrmSfnYLhqVQI0Q_JyfVeow0D3F8j4,398
+climtrends/utility_functions.py,sha256=1ngG0KhmkZikQmanCYj9DqnkHXzR6VNEWOskwGb5lqw,9672
+climtrends-0.0.2.dist-info/LICENSE.txt,sha256=2wa4Cuo7NAo1KKLEP_VTecFg0-Hyq22Rt78oqdn94TY,3805
+climtrends-0.0.2.dist-info/METADATA,sha256=HZafO9kSWoOGH_3nlgUkLcuDb_n-PTT8welCk-4nkZk,2293
+climtrends-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+climtrends-0.0.2.dist-info/top_level.txt,sha256=aXWQIDuSCWebYPC9rwJeIgsWdyuiKR2lt4EIj8wYQKc,11
+climtrends-0.0.2.dist-info/RECORD,,
