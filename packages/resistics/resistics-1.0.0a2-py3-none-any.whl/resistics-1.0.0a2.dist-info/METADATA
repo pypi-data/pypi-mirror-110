@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: resistics
+Version: 1.0.0a2
+Summary: Python package for processing magnetotelluric data
+Home-page: https://www.resistics.io
+License: MIT
+Keywords: geophysics,magnetotellurics,electromagnetic,resistivity,statistics
+Author: Neeraj Shah
+Author-email: resistics@outlook.com
+Maintainer: Neeraj Shah
+Maintainer-email: resistics@outlook.com
+Requires-Python: >=3.8.1,<3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: attotime (==0.2.3)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: lttbc (>=0.2.0,<0.3.0)
+Requires-Dist: numpy (>=1.20.2,<2.0.0)
+Requires-Dist: pandas (>=1.2.3,<2.0.0)
+Requires-Dist: plotly (>=4.14.3,<5.0.0)
+Requires-Dist: prettyprinter (>=0.18.0,<0.19.0)
+Requires-Dist: pydantic (>=1.8.1,<2.0.0)
+Requires-Dist: scikit-learn (>=0.24.2,<0.25.0)
+Requires-Dist: scipy (>=1.6.2,<2.0.0)
+Requires-Dist: tqdm (>=4.61.0,<5.0.0)
+Project-URL: Bug Tracker, https://github.com/resistics/resistics/issues
+Project-URL: Documentation, https://www.resistics.io
+Project-URL: Repository, https://github.com/resistics/resistics
+Project-URL: Source, https://github.com/resistics/resistics
+Description-Content-Type: text/markdown
+
+## Welcome
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/resistics.svg)](https://pypi.org/project/resistics/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/resistics)](https://pypi.org/project/resistics/)
+[![Documentation Status](https://readthedocs.org/projects/resistics/badge/?version=latest)](https://resistics.readthedocs.io/en/latest/?badge=latest)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/resistics/resistics.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/resistics/resistics/context:python)
+[![codecov](https://codecov.io/gh/resistics/resistics/branch/master/graph/badge.svg?token=CXLJC9J7AW)](https://codecov.io/gh/resistics/resistics)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Resistics is a native Python 3.8+ package for the processing of magnetotelluric
+(MT) data. It incorporates robust processing methods and adopts a modular
+approach to processing which allows for customisation and future improvements
+to be quickly adopted.
+
+## Latest news
+
+Resistics is moving to version 1.0.0 which will be a breaking change versus
+the current stable version of 0.0.6. Currently, version 1.0.0 is available as a
+pre-release on PYPI.
+
+- Documentation for 1.0.0: https://resistics.readthedocs.io/
+- Documentation for 0.0.6: https://resistics.io/
+
+When version 1.0.0 reaches a stable releases the documentation will move to the
+main resistics.io site.
+
+## Audience
+
+Resistics is intended for people who use magnetotelluric methods to estimate the
+subsurface resistivity. This may be for furthering geological understanding, for
+geothermal prospecting or for other purposes.
+
+The package may have utility for the wider electromagnetic geophysics community.
+
+## Getting started
+
+To install the pre-release of version 1.0.0
+
+python -m pip install resistics==1.0.0a0
+
+For the stable 0.0.6 version
+
+python -m pip install resistics
+
+## Support and feature requests
+
+Feel free to submit issues, feature requests or ideas for improvements in the
+Github issues section.
+
