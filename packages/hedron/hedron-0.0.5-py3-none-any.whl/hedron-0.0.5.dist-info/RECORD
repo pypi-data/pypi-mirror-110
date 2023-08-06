@@ -1,0 +1,10 @@
+hedron/__init__.py,sha256=7hQFUVb-kpjK0-wGlx1pv8RWeYNd8EJJEFAvPPQGD2A,107
+hedron/cluster.py,sha256=Gb1II6PumQFBSWk5vIRdZ6c5sHnezgVnqAQeYID5V1s,5559
+hedron/cluster_functions.py,sha256=NpmoGe_F5jGWjzBtq-jMTcH1bX7GzN6-TfCp7dOFW3k,2335
+hedron/maps.py,sha256=af3bGrH1dvz9sib-c76ZwM2kGd7KhYrc0cBRKQVpj5w,6071
+hedron-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hedron-0.0.5.dist-info/METADATA,sha256=btK97dhR2IpImsbsUGOkEWgI81-YNH_J_JoYRNZJct4,1426
+hedron-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hedron-0.0.5.dist-info/entry_points.txt,sha256=dr0nqUTuMJTmOtRCWXEtIYKtaO82-gmRC7yyHBZhN7w,44
+hedron-0.0.5.dist-info/top_level.txt,sha256=1_YDSvfu2l1fafIT7SNHKDK9ETtkML7riAApmfVbG08,7
+hedron-0.0.5.dist-info/RECORD,,
