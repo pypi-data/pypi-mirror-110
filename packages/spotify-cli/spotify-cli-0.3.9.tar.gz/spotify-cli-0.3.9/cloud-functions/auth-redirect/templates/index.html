@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Success code={{ authorization_code }}</title>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: 'Work Sans';
+    font-size: 20px;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+    height: 80vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: -1rem;
+}
+
+a {
+    color: #FFF;
+  }
+
+a:visited {
+    color: #FFF;
+  }
+
+button {
+	cursor: pointer;
+	background-color: #FFF;
+	flex: 1.5;
+	height: 40px;
+	font-family: 'Work Sans';
+	border-radius: 360px;
+	border: 1px solid #1DB954;
+	font-size: 15px;
+	letter-spacing: 0.1rem;
+	transition-duration: 0.2s;
+}
+
+button:hover {
+	background-color: #1DB954;
+	color: white;
+}
+
+button:active {
+	background-color: #1a9c48;
+	color: white;
+}
+
+button:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+
+.card {
+    width: 750px;
+    height: 30rem;
+    background-color: #FFF;
+	margin: 0 auto;
+	margin-top: 5rem;
+    padding: 2rem 5rem;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#code {
+	letter-spacing: 0.1rem;
+	flex: 8;
+    height: 12rem;
+	padding: 1rem;
+	border: none;
+    background-color: #F9F9F9;
+    border-radius: 15px;
+    color: #1DB954;
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: left;
+    overflow: scroll;
+    word-wrap: break-word;
+	overflow-x: hidden;
+	margin: 0 20px;
+}
+
+#box1 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#auth {
+    margin: 0;
+}
+
+#github {
+    text-align: center;
+	font-size: 1rem;
+}
+	
+#tooltip {
+	color: #FFF;
+}
+
+:target {
+  border: 2px solid #D4D4D4;
+  background-color: #e5eecc;
+}
+
+</style>
+<script src="https://kit.fontawesome.com/ee23d0522b.js" crossorigin="anonymous"></script>
+<script>
+	function copyToClip(str) {
+	function listener(e) {
+		e.clipboardData.setData("text/html", str);
+		e.clipboardData.setData("text/plain", str);
+		e.preventDefault();
+	}
+	document.addEventListener("copy", listener);
+	document.execCommand("copy");
+	document.removeEventListener("copy", listener);
+	};
+</script>
+
+</head>
+
+<body>
+<div class="card">
+    <h1>Here's the next step.</h1>
+	<p>Please copy this code, switch to your terminal and paste it there:</p>
+	<br/>
+	<div id="box1">
+		<div id="code">
+			<p id="auth">{{ authorization_code }}</p>
+		</div>
+		<button href="#tooltip" onclick="copyToClip(document.getElementById('auth').innerHTML)">
+			<i class="far fa-copy"></i> COPY
+		</button>
+	</div>
+</div>
+<a href="https://github.com/ledesmablt/spotify-cli" id="github">Spotify CLI by ledesmablt</a>
+</body>
+
+</html>
