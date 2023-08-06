@@ -1,0 +1,10 @@
+README.md
+setup.py
+seaborn_command/__init__.py
+seaborn_command/main.py
+seaborn_command.egg-info/PKG-INFO
+seaborn_command.egg-info/SOURCES.txt
+seaborn_command.egg-info/dependency_links.txt
+seaborn_command.egg-info/entry_points.txt
+seaborn_command.egg-info/requires.txt
+seaborn_command.egg-info/top_level.txt
