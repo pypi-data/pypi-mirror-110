@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: hypernetx
+Version: 1.0.4
+Summary: HyperNetX is a Python library for the creation and study of hypergraphs.
+Home-page: https://github.com/pnnl/HyperNetX
+Author: Brenda Praggastis, Dustin Arendt, Emilie Purvine, Cliff Joslyn
+Author-email: hypernetx@pnnl.gov
+License: 3-Clause BSD license
+Platform: UNKNOWN
+Requires-Dist: networkx (<3.0,>=2.2)
+Requires-Dist: numpy (<2.0,>=1.15.0)
+Requires-Dist: scipy (<2.0,>=1.1.0)
+Requires-Dist: matplotlib (>3.0)
+Requires-Dist: scikit-learn (>=0.20.0)
+Requires-Dist: pandas (>=0.23)
+Provides-Extra: all
+Requires-Dist: sphinx (>=1.8.2) ; extra == 'all'
+Requires-Dist: nb2plots (>=0.6) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme (>=0.4.2) ; extra == 'all'
+Requires-Dist: pytest (>=4.0) ; extra == 'all'
+Requires-Dist: jupyter (>=1.0) ; extra == 'all'
+Provides-Extra: documentation
+Requires-Dist: sphinx (>=1.8.2) ; extra == 'documentation'
+Requires-Dist: nb2plots (>=0.6) ; extra == 'documentation'
+Requires-Dist: sphinx-rtd-theme (>=0.4.2) ; extra == 'documentation'
+Provides-Extra: notebooks
+Requires-Dist: jupyter (>=1.0) ; extra == 'notebooks'
+Provides-Extra: testing
+Requires-Dist: pytest (>=4.0) ; extra == 'testing'
+Provides-Extra: tutorials
+Requires-Dist: jupyter (>=1.0) ; extra == 'tutorials'
+
+
+The HyperNetX library provides classes and methods for the analysis
+and visualization of complex network data modeled as hypergraphs. 
+The library generalizes traditional graph metrics.
+
+HypernetX was developed by the Pacific Northwest National Laboratory for the
+Hypernets project as part of its High Performance Data Analytics (HPDA) program.
+PNNL is operated by Battelle Memorial Institute under Contract DE-ACO5-76RL01830.
+
+* Principle Developer and Designer: Brenda Praggastis
+* Visualization: Dustin Arendt, Ji Young Yun
+* High Performance Computing: Tony Liu, Andrew Lumsdaine
+* Principal Investigator: Cliff Joslyn
+* Program Manager: Mark Raugas, Brian Kritzstein
+* Mathematics, methods, and algorithms: Sinan Aksoy, Dustin Arendt, Cliff Joslyn, Andrew Lumsdaine, Tony Liu, Brenda Praggastis, and Emilie Purvine
+
+The code in this repository is intended to support researchers modeling data
+as hypergraphs. We have a growing community of users and contributors.
+Documentation is available at: <https://pnnl.github.io/HyperNetX/>
+
+For questions and comments contact the developers directly at:
+    <hypernetx@pnnl.gov>
+
+
