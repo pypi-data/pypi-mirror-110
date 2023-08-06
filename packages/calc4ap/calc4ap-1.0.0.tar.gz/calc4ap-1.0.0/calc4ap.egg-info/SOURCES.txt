@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+calc4ap/voc.py
+calc4ap.egg-info/PKG-INFO
+calc4ap.egg-info/SOURCES.txt
+calc4ap.egg-info/dependency_links.txt
+calc4ap.egg-info/top_level.txt
+calc4ap/libs/__init__.py
+calc4ap/libs/calc_ap.py
+calc4ap/libs/calc_iou.py
+calc4ap/libs/classifiers.py
+calc4ap/utils/__init__.py
+calc4ap/utils/coco.py
