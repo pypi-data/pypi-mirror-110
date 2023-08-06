@@ -1,0 +1,30 @@
+{{ full_name }}
+{{ email }}
+{{ phone }}
+{{ address | join("\n") }}
+
+
+About:
+
+{{ about | join("\n") }}
+
+
+Professional Skills:
+- {{ skills | join("\n- ")}}
+
+
+Work Experience:
+{% for job in work_history %}
+{{ job.company }} - {{ job.title }} ({{ job.start }} to {{ job.end | default('present') }})
+{% if job.summary %}{{ job.summary }}{% endif %}
+- {{ job.accomplishments | join("\n- ") }}
+{% endfor %}
+{% if conferences %}
+Conference Speaking
+- {{ conferences | join("\n- ")}}
+{% endif %}
+{% if media %}
+Media/Articles {% for article in media %}
+- {{ article.title }}: {{ article.url }}
+{%- endfor -%}
+{% endif %}

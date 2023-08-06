@@ -1,0 +1,36 @@
+---
+# config.yaml: this file is used to set global settings for yaml2resume. 
+
+# Output directory
+output_dir: "output"
+
+# Resume names are used to organize specific combinations of resume content
+# for example when applying to a specific job or having a manager resume vs. an engineer resume
+resume_name: "resume"
+
+# File output format (txt.j2 -> Full Name.txt)
+file_format: "{{ full_name }} - Resume.{{ extension }}"
+
+# Static file includes (copy directly to the output dir, css, imgs, etc.)
+static_dir: "static"
+
+# Templates directory (each file should be file_format.j2, for example txt.j2)
+templates_dir: "templates"
+
+# These resumes will be included regardless of the resume inputs, useful for providing a base resume
+include_always:
+  - "base.yaml"
+
+# These are fields that are ignored during spell checking
+spellcheck_ignore_fields:
+  - "full_name"
+  - "phone"
+  - "email"
+
+# Add any words to the custom dictionary that get accidentally flagged (the spell checker is very rudimentary)
+spellcheck_dictionary:
+  - "jinja2"
+  - "osx"
+  - "pci"
+  - "hipaa"
+  - "vpn"

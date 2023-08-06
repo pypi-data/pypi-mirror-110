@@ -1,0 +1,56 @@
+---
+# Contact details about yourself
+full_name: "John Doe"
+phone: "+1 555-555-5555"
+email: "john.doe@fakedomain.com"
+address:
+  - "123 Main Street"
+  - "Anytown, USA"
+
+# A quick intro paragraph about yourself
+about:
+  - "This is some information from the base resume, some things that make you look good."
+  - "Another sentence to give more details about you and your goals."
+
+# Places that I have spoken at or given talks at.
+conferences:
+  - "SuperCon"
+  - "More Awesome Conference"
+
+# Certifications that I hold
+certifications:
+  - "Spiffy Certificate (#123456)"
+  - "That Other Certificate"
+
+# Work history, including dates of employment as well as major accomplishments in that role
+# The history is keyed off Company name, title and start date. Make sure they are the same, otherwise you will have multiple jobs
+work_history:
+  - company: "CompanyName, Inc"
+    title: "Python Developer"
+    start: "1/1/2019"
+    end: "present"
+    summary: "Summary of position"
+    accomplishments:
+      - "Accomplishment 1 (from main resume)"
+      - "Accomplishment 2 (from main resume)"
+  - company: "CompanyName2, Inc"
+    title: "Artisinal Python Curator"
+    start: "1/1/2016"
+    end: "1/1/2017"
+    summary: "Stuff"
+    accomplishments:
+      - "Accomplishment 1 (from main resume)"
+      - "Accomplishment 2 (from main resume)"
+
+# Skills that deserve a shout out
+skills:
+  - "Python Development"
+  - "Jinja2 Templates"
+  - "Writing YAML Files"
+
+# Any media that should be highlighted, like blog posts that have been written or mentions in the news
+media:
+  - title: "Interesting article or blog post"
+    url: "https://google.com/"
+  - title: "Another quotable article"
+    url: "https://google.com/"
