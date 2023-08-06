@@ -1,0 +1,3 @@
+[console_scripts]
+pdns_exporter = pdns_exporter.exporter:start_exporter
+
