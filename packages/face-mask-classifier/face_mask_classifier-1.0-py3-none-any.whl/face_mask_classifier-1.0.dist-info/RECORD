@@ -1,0 +1,8 @@
+face-mask-classifier/__init__.py,sha256=kvr51aQ75hECbPpZwTBgQY2s22VwB51nCiNd1Tos5mY,78
+face-mask-classifier/detect_mask.py,sha256=xFdbss-7mwu5y235Go3UNqNOaR29KrQjM1bUByAC6W4,1564
+face-mask-classifier/train.py,sha256=JO40vI6xY3Ap4VI2N07Zi7N_x_NJ27IyKu1-gfQuPAg,3359
+face_mask_classifier-1.0.dist-info/LICENCE.rst,sha256=SSSUaWm1XW1uWSQGiQdmIh7po-tmI_SmgrMO6iF_dxc,1151
+face_mask_classifier-1.0.dist-info/METADATA,sha256=RGsSe-8o42lV-FQPuoYMfbDS3y69p_6eWvcO4dovb6c,1821
+face_mask_classifier-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+face_mask_classifier-1.0.dist-info/top_level.txt,sha256=ofDfgjfgDYE6-Abi4W9-9JhgX6z-LxkIdowuxFctJMc,21
+face_mask_classifier-1.0.dist-info/RECORD,,
