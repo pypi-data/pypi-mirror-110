@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: whiteboxlayer
+Version: 0.1.13
+Summary: TensorFlow based custom layers
+Home-page: https://github.com/YeongHyeon/white-box-layer
+Author: YeongHyeon Park
+Author-email: young200405@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/YeongHyeon/white-box-layer/archive/refs/heads/master.zip
+Keywords: whiteboxlayer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: tensorflow (==2.3.0)
+
+UNKNOWN
+
+
