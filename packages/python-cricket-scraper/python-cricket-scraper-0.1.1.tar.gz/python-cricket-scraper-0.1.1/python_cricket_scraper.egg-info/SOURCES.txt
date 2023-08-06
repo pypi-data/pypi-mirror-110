@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+cricscraper/__init__.py
+cricscraper/cricinfo.py
+cricscraper/cricsheet.py
+cricscraper/matchinfo.py
+python_cricket_scraper.egg-info/PKG-INFO
+python_cricket_scraper.egg-info/SOURCES.txt
+python_cricket_scraper.egg-info/dependency_links.txt
+python_cricket_scraper.egg-info/requires.txt
+python_cricket_scraper.egg-info/top_level.txt
+python_cricket_scraper.egg-info/zip-safe
