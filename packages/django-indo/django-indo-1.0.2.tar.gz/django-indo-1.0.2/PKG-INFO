@@ -1,0 +1,77 @@
+Metadata-Version: 1.1
+Name: django-indo
+Version: 1.0.2
+Summary: Ajax call in Django admin interface
+Home-page: https://github.com/farajim25/django-indo
+Author: Mohammad Faraji
+Author-email: farajim25@gmail.com
+License: MIT
+Description: Django-Indo
+        ===========
+        Auto load field data on change of other field value in django admin with Ajax call
+        
+        .. image:: https://github.com/farajim25/django-indo/blob/master/docs/images/example.gif
+        
+        Requirements
+        ------------
+        * Django 2.0+
+        
+        
+        Installation
+        ------------
+        .. code:: bash
+        
+            pip install django-indo
+        
+        Add ``indo`` to ``INSTALLED_APPS``:
+        
+        .. code:: python
+        
+            INSTALLED_APPS = [
+                ...
+                'indo',
+                ...
+            ]
+        
+        
+        Example usage
+        -------------
+        .. code:: python
+        
+            from indo.admin import IndoResponseMixin, IndoSetFieldMixin
+        
+            @admin.register(Customer)
+            class CustomerAdmin(IndoResponseMixin, admin.ModelAdmin):
+                fields = (
+                    'name',
+                    'address',
+                )
+        
+            @admin.register(Order)
+            class OrderAdmin(IndoSetFieldMixin, admin.ModelAdmin):
+                fields = (
+                    'customer',
+                    'delivery_address',
+                )
+                indo_fields = {
+                    'delivery_address': 'customer__address'
+                }
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: User Interfaces
