@@ -1,0 +1,6 @@
+requests
+pandas
+spacy
+nltk
+re
+math
