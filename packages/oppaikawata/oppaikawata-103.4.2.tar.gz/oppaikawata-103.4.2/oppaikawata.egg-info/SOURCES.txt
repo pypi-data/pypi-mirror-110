@@ -1,0 +1,10 @@
+README.rst
+oppai.c
+oppai.py
+oppai_wrap.c
+setup.cfg
+setup.py
+oppaikawata.egg-info/PKG-INFO
+oppaikawata.egg-info/SOURCES.txt
+oppaikawata.egg-info/dependency_links.txt
+oppaikawata.egg-info/top_level.txt
