@@ -1,0 +1,8 @@
+pysegmenters_spacyrules/__init__.py,sha256=kuEki9FSvkJrLniNB6YEYen0un5AO3g5UHtpDiLWoBo,53
+pysegmenters_spacyrules/rule_sentencizer.py,sha256=wjqO3In_PfY3lXqaihmvHvL72AqnYEyswZLsJfmwXR0,3270
+pysegmenters_spacyrules/spacyrules.py,sha256=CtKjt-0TZrVFgLOLS-DbphTMgOoPs8j2sQ1vfHiW0G8,7674
+pysegmenters_spacyrules-0.4.6.dist-info/entry_points.txt,sha256=0BWar1g1R0Gn8S3V9ebJfkbWyHExjmNeYCV3I7T1Woc,90
+pysegmenters_spacyrules-0.4.6.dist-info/LICENSE,sha256=QPypQEap7i1K1jF4X_JOx3MvFyVupJe4-rr6h2DuXME,1082
+pysegmenters_spacyrules-0.4.6.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+pysegmenters_spacyrules-0.4.6.dist-info/METADATA,sha256=0ow8QAzKF1s33qZyFw5Q9qpY6T8Cc5gPd7tuYkyvg9g,3264
+pysegmenters_spacyrules-0.4.6.dist-info/RECORD,,
