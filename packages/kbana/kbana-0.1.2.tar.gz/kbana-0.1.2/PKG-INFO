@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kbana
+Version: 0.1.2
+Summary: A small package used for visualize key strokes of keyboard layout
+Home-page: https://github.com/agmaengine/kbana
+Author: chatchai
+License: MIT License
+Keywords: keyboard,keyboard layout
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
