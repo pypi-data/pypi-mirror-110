@@ -1,0 +1,4 @@
+[console_scripts]
+pandect=pandect:pandect
+sav2dta=pandect:sav2dta
+
