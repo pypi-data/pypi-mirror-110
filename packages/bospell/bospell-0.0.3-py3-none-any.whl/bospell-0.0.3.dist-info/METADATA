@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bospell
+Version: 0.0.3
+Summary: Spell checking toolkit for Tibetan (boyig)
+Home-page: https://github.com/Esukhia/bospell
+Author: Esukhia developers
+Author-email: 10zin@esukhia.org
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: botok (<1.0,>=0.8.6)
+Requires-Dist: symspellpy (<7.0,>=6.7.0)
+
+# Bospell
+[![PyPI version](https://badge.fury.io/py/bospell.svg)](https://badge.fury.io/py/bospell)
+[![Test](https://github.com/Esukhia/bospell/actions/workflows/test.yml/badge.svg)](https://github.com/Esukhia/bospell/actions/workflows/test.yml)
+[![Test Coverage](https://github.com/Esukhia/bospell/actions/workflows/test-coverage.yml/badge.svg)](https://github.com/Esukhia/bospell/actions/workflows/test-coverage.yml)
+[![Publish](https://github.com/Esukhia/bospell/actions/workflows/deloy.yml/badge.svg)](https://github.com/Esukhia/bospell/actions/workflows/deloy.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
