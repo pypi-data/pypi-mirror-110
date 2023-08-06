@@ -1,0 +1,11 @@
+cmake
+ninja
+GitPython
+
+[all]
+pytest
+pytest-icdiff
+
+[testing]
+pytest
+pytest-icdiff
