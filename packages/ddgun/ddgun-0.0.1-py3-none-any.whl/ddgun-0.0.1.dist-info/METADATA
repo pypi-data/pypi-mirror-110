@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ddgun
+Version: 0.0.1
+Summary: DDGun: an untrained method for the prediction of protein stability changes upon single and multiple point variations (https://doi.org/10.1186/s12859-019-2923-1)
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: pandas
+Requires-Dist: biopython
+
+UNKNOWN
+

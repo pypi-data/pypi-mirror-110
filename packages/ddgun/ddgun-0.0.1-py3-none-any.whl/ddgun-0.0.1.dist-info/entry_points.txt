@@ -1,0 +1,3 @@
+[console_scripts]
+ddgun = ddgun.cli:cli
+
