@@ -1,0 +1,12 @@
+numpy
+matplotlib
+pandas
+pytorch-lightning
+torch
+torchvision
+torchaudio
+einops
+opencv-python
+scipy
+pickle5
+tsaug

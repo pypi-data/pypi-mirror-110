@@ -1,0 +1,3 @@
+[console_scripts]
+df3dbehav = df3dbehav.df3dbehav:main
+
