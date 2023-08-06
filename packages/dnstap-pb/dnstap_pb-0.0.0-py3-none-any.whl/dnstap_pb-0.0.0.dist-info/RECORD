@@ -1,0 +1,7 @@
+dnstap_pb/__init__.py,sha256=w0LJ4z-Zc8sgwWZHgxiIaMTacPWFmpfUEBsM-YjhpXk,34
+dnstap_pb/dnstap_pb2.py,sha256=ye7GFLUBWRUVpXHj8PRGz8N34ADHNGQsh5icCMMJtqw,24405
+dnstap_pb-0.0.0.dist-info/LICENSE,sha256=vev128Cs7rR0gciu_csjfT6kUGLibmtHO835We_SO8c,1070
+dnstap_pb-0.0.0.dist-info/METADATA,sha256=xeDhaF--LSUfA8iU3kffbKuCiLA9R0Aw8q6OSwLv6UQ,3045
+dnstap_pb-0.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dnstap_pb-0.0.0.dist-info/top_level.txt,sha256=cv7cLowHMnIyxokweSpt_HErqtUdNzOsgJA3ZdNsXMo,10
+dnstap_pb-0.0.0.dist-info/RECORD,,
