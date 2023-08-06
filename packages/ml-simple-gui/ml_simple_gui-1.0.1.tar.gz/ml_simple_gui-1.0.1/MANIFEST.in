@@ -1,0 +1,2 @@
+recursive-include ml_simple_gui_app/frontend/dist *
+include requirements.txt
