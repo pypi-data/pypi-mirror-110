@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  namespace: {{ namespace }}
+  name: {{ app_name }}
+  labels:
+    app.kubernetes.io/name: "{{ manifest_name }}"
+    app.kubernetes.io/instance: "{{ app_name }}"
+    app.kubernetes.io/part-of: "{{ manifest_name }}"
+    app.kubernetes.io/version: "{{ image_tag }}"
+    app.kubernetes.io/managed-by: "asim"
+    app.kubernetes.io/component: "network"
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt-staging"
+    # kubernetes.io/tls-acme: "true"
+spec:
+  rules:
+    - host: {{ app_name }}.tw0900.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              serviceName: {{ app_name }}
+              servicePort: http
+  tls:
+    - secretName: certificate-{{ app_name }}
+      hosts:
+        - {{ app_name }}.tw0900.com
