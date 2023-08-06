@@ -1,0 +1,12 @@
+visual_kinematics/Frame.py,sha256=dWcCe7K3hLxUfNoLvioiDb5K8N3ExuyaUww1lGA4-4E,4072
+visual_kinematics/Robot.py,sha256=PfwIKFN03YMvYYKP3FT6yAKoz42vZ2WigzpeauMqpeI,3484
+visual_kinematics/RobotDelta.py,sha256=q-_cGRAhrWgbMqk7wL9isUAhBiNSUiCMmJvypRArkmY,6963
+visual_kinematics/RobotSerial.py,sha256=Ja-GoCy7c8IcNREbX8YjMwiT-AD7vrOhzv0TG4yugy4,6113
+visual_kinematics/RobotTrajectory.py,sha256=gUnOiNZG4r9pwIm8x8Q99A06Fs8QrzdmRkym2jP0UxQ,4299
+visual_kinematics/__init__.py,sha256=aqd-yPr6-j4jTv2_VcabTLKlzwsnvy64qjTQhkNzfBY,86
+visual_kinematics/utility.py,sha256=C903fwTsGEOjjYULnHul4SdXiVDhpWcx5c3PaykRif4,446
+visual_kinematics-0.1.0.dist-info/LICENSE.txt,sha256=FtdX8oQtuIrdYXkj58d0acb6mO7sd3_mvlQ1SUmqYSM,1081
+visual_kinematics-0.1.0.dist-info/METADATA,sha256=ynbCucU7FKD0umZQdlarpPOYVieOFC_lFE0prO9SBMw,9383
+visual_kinematics-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+visual_kinematics-0.1.0.dist-info/top_level.txt,sha256=mcv4wibvHJGAPPW4cjU4jVBw3yIKmvnlQceatZZAFAU,18
+visual_kinematics-0.1.0.dist-info/RECORD,,
