@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: django-sap
+Version: 1.0.0
+Summary: Integration Sap
+Home-page: https://gitlab.com/linets/ecommerce/oms/integrations/oms-sap/
+Author: Linets team
+Author-email: avelasqueza@linets.cl
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# django-sap
+
+## Starting
+_These instructions will allow you to install the library in your python project._
+
+### Current features
+
+-   Send invoice reserve.
+-   Send incoming payment.
+
+### Pre-requisitos
+
+-   Python >= 3.7
+-   Django >= 3
+-   requests >= 2
+***
+## Installation
+
+1. To get the latest stable release from PyPi:
+```
+pip install django-sap
+```
+or
+
+2. From a build
+```
+git clone https://gitlab.com/linets/ecommerce/oms/integrations/oms-sap
+```
+
+```
+cd {{project}}
+```
+
+```
+python setup.py sdist
+```
+and, install in your project django
+```
+pip install {{path}}/oms-sap/dist/{{tar.gz file}}
+```
+
+3. Settings in django project
+
+```
+DJANGO_SAP = {
+    'SAP': {
+        'BASE_URL': '<SAP_BASE_URL>',
+        'USERNAME': '<SAP_USERNAME>',
+        'PASSWORD': '<SAP_PASSWORD>',
+        'COMPANY_DB': '<SAP_COMPANY_DB>',
+        'SERIE': '<SAP_SERIE>',
+        'CARD_CODE': '<SAP_CARD_CODE>',
+        'WAREHOUSE_CODE': '<SAP_WAREHOUSE_CODE>',
+        'TAX_CODE': '<SAP_TAX_CODE>',
+        'COSTING_CODE': '<SAP_COSTING_CODE>',
+        'COSTING_CODE2': '<SAP_COSTING_CODE2>',
+        'COSTING_CODE3': '<SAP_COSTING_CODE3>',
+        'INDICATOR': '<SAP_INDICATOR>',
+        'RESERVE_INVOICE': '<SAP_RESERVE_INVOICE>',
+        'U_TIPO_PED_WMS': '<SAP_U_TIPO_PED_WMS>',
+    }
+}
+```
+
+## Usage
+
+1. Send invoice reserve:
+```
+from sap.handler import SapHandler
+
+handler = SapHandler()
+
+default_data = handler.default_payload_invoice_reserve(instance)
+response = handler.send_invoice_reserve(default_data)
+```
+
+
+2. Send incoming payment:
+```
+from sap.handler import SapHandler
+
+handler = SapHandler()
+
+default_data = handler.default_payload_incoming_payment(instance)
+response = handler.send_incoming_payment(default_data)
+```
+
+

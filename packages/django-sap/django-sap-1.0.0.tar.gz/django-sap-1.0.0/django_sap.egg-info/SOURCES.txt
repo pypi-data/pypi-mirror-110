@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+django_sap.egg-info/PKG-INFO
+django_sap.egg-info/SOURCES.txt
+django_sap.egg-info/dependency_links.txt
+django_sap.egg-info/requires.txt
+django_sap.egg-info/top_level.txt
+sap/connector.py
+sap/handler.py
+sap/settings.py
