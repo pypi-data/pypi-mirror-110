@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+iParcelBoxPy.egg-info/PKG-INFO
+iParcelBoxPy.egg-info/SOURCES.txt
+iParcelBoxPy.egg-info/dependency_links.txt
+iParcelBoxPy.egg-info/requires.txt
+iParcelBoxPy.egg-info/top_level.txt
+iparcelboxpy/__init__.py
