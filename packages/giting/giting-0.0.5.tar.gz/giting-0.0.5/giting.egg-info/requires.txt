@@ -1,0 +1,7 @@
+gitdb
+GitPython
+typing-extensions
+invoke
+click-help-colors
+rich
+PyInquirer
