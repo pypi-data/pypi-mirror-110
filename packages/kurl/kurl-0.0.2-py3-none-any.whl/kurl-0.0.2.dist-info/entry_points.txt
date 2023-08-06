@@ -1,0 +1,3 @@
+[console_scripts]
+kurl = kurl.__main__:main
+
