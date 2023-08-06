@@ -1,0 +1,9 @@
+README.md
+setup.py
+fpy_datareader/__init__.py
+fpy_datareader/estat.py
+fpy_datareader.egg-info/PKG-INFO
+fpy_datareader.egg-info/SOURCES.txt
+fpy_datareader.egg-info/dependency_links.txt
+fpy_datareader.egg-info/requires.txt
+fpy_datareader.egg-info/top_level.txt
