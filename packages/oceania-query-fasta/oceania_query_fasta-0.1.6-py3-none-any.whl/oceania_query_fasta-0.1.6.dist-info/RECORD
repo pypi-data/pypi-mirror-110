@@ -1,0 +1,13 @@
+oceania/__init__.py,sha256=ApzLAgA2T2Y205HyWsKWRyySMwLXLOYsMUYwVOWcz90,167
+oceania/__main__.py,sha256=ctn1gx2-chXN1DvZHAADvM2t435DP6KyNKQ0LOnfZh4,41
+oceania/main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oceania/main/cli.py,sha256=McvLpA64G9k_qnB4JFnVUoFW6YxvSwYApvhcNh67wC8,1899
+oceania/main/client.py,sha256=8w9xLqTlmkuARsigcNPY3jv3A3g72g17WnadqDDFgJg,3691
+oceania/main/settings.py,sha256=tCH22kYjeaMTMowUFIh7ICTqr7jCIhexcVXUagVIeaA,1120
+oceania/main/utils.py,sha256=8E44TSphgSO6c1Zz3nKHLtzZWMNqQIQoAup2F2kDLaQ,482
+oceania_query_fasta-0.1.6.dist-info/LICENSE,sha256=SgGGFGxa5Gxyd3wMI7DiENFXMVKS_1pT65uO0rZt6fw,21782
+oceania_query_fasta-0.1.6.dist-info/METADATA,sha256=d1vHNObdpF8_lz0W8vbFj-fmi52Ad-4qDRwplfGkWtI,3518
+oceania_query_fasta-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+oceania_query_fasta-0.1.6.dist-info/entry_points.txt,sha256=JleVpPRhjlyGGr-5GPRuAY5P0_32CCoXncC2-UNLk_E,51
+oceania_query_fasta-0.1.6.dist-info/top_level.txt,sha256=PntIk5LUD7m4XRA9PC1iL_uEw-zUXl1_SmFnZDXjoGc,8
+oceania_query_fasta-0.1.6.dist-info/RECORD,,
