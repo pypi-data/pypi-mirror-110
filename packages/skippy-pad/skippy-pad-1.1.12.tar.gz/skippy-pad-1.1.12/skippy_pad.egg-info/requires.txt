@@ -1,0 +1,6 @@
+prettytable
+pyscp
+requests
+qtmodern
+PyQt5
+PyQtWebEngine
