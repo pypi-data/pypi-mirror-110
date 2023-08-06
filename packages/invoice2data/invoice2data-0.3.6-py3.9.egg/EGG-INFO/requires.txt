@@ -1,0 +1,12 @@
+chardet
+pillow
+pyyaml
+dateparser
+unidecode
+
+[test]
+pytest
+pytest-cov
+flake8
+pdfminer
+tox
