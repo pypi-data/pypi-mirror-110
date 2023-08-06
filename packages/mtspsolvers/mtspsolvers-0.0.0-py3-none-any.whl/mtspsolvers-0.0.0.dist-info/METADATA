@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mtspsolvers
+Version: 0.0.0
+Summary: mTSP solver
+Home-page: https://github.com/Junyoungpark/mTSPsolvers
+Author: Junyoung Park
+Author-email: Junyoungpark@kaist.ac.kr
+License: UNKNOWN
+Keywords: mTSP,TSP,solver,metaheuristics,heuristics
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: ortools
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sklearn
+
+UNKNOWN
+
+
