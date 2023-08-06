@@ -1,0 +1,3 @@
+[httpie.plugins.transport.v1]
+httpie_lambda = httpie_lambda:LambdaTransportPlugin
+
