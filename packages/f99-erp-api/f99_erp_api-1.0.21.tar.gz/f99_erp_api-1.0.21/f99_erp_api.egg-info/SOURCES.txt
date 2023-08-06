@@ -1,0 +1,9 @@
+README.md
+setup.py
+./f99_erp_api_pb2.py
+./f99_erp_api_pb2_grpc.py
+f99_erp_api.egg-info/PKG-INFO
+f99_erp_api.egg-info/SOURCES.txt
+f99_erp_api.egg-info/dependency_links.txt
+f99_erp_api.egg-info/requires.txt
+f99_erp_api.egg-info/top_level.txt
