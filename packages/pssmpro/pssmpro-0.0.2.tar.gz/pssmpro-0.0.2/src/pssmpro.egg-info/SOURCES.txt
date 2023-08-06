@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pssmpro/__init__.py
+src/pssmpro/features.py
+src/pssmpro.egg-info/PKG-INFO
+src/pssmpro.egg-info/SOURCES.txt
+src/pssmpro.egg-info/dependency_links.txt
+src/pssmpro.egg-info/requires.txt
+src/pssmpro.egg-info/top_level.txt
+src/pssmpro/data/__init__.py
+src/pssmpro/data/example.fasta
+src/pssmpro/data/pssm_files/__init__.py
+src/pssmpro/data/pssm_files/example_1.pssm
+src/pssmpro/data/pssm_files/example_2.pssm
