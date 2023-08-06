@@ -1,0 +1,15 @@
+magnetic_field_calculator
+matplotlib
+networkx
+numba
+numpy
+openpyxl
+pandas
+python-fcl
+PyYAML
+scipy
+tabulate
+trimesh
+utm
+vedo
+vtk
