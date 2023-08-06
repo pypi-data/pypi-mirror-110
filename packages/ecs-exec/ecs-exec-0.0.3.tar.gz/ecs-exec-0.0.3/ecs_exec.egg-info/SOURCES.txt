@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ecs_exec/__init__.py
+ecs_exec/__main__.py
+ecs_exec/version.py
+ecs_exec.egg-info/PKG-INFO
+ecs_exec.egg-info/SOURCES.txt
+ecs_exec.egg-info/dependency_links.txt
+ecs_exec.egg-info/entry_points.txt
+ecs_exec.egg-info/requires.txt
+ecs_exec.egg-info/top_level.txt
