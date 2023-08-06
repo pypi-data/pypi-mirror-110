@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+scientific_paper_matplotlib/SPPlot.py
+scientific_paper_matplotlib/__init__.py
+scientific_paper_matplotlib.egg-info/PKG-INFO
+scientific_paper_matplotlib.egg-info/SOURCES.txt
+scientific_paper_matplotlib.egg-info/dependency_links.txt
+scientific_paper_matplotlib.egg-info/requires.txt
+scientific_paper_matplotlib.egg-info/top_level.txt
