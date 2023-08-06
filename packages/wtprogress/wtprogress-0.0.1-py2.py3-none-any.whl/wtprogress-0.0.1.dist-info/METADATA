@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: wtprogress
+Version: 0.0.1
+Summary: show progress on windows terminal taskbar icon
+Home-page: https://github.com/oxygen-dioxide/wtprogress
+Author: oxygen dioxide
+Author-email: 1463567152@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Terminals :: Terminal Emulators/X Terminals
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+
+
+# wtprogress
+A python library for showing progress in windows terminal.
+
+When you are running a long-running task in python in background, such as training a neural network, you may switch to your terminal frequently to check the progress. With this library, your python script can show progress in your taskbar, and you can easily see it without switching to your terminal.
+
+Note: this library only supports [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab). Conhost doesn't have this feature.
+
+## Example
+```py
+import wtprogress,time
+def main():
+    for i in range(1,101):
+            print("\rProgress: {}%".format(i),end="",flush=True)
+            wtprogress.show(i)
+            time.sleep(0.1)
+    print("\nTask finished")
+    wtprogress.close()
+main()
+```
+![](example.gif)
+
