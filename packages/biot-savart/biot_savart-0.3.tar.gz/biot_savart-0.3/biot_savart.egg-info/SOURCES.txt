@@ -1,0 +1,12 @@
+README.md
+setup.py
+biot_savart/__init__.py
+biot_savart/biot_savart.py
+biot_savart/geometry.py
+biot_savart/inputs.py
+biot_savart/plotting.py
+biot_savart.egg-info/PKG-INFO
+biot_savart.egg-info/SOURCES.txt
+biot_savart.egg-info/dependency_links.txt
+biot_savart.egg-info/requires.txt
+biot_savart.egg-info/top_level.txt
