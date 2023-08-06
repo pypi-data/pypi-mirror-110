@@ -1,0 +1,9 @@
+partial_index/__init__.py,sha256=Xz_qvUPacRswkN0xXMEMiwiBOAaoh62cq-dHV9tBmfE,730
+partial_index/index.py,sha256=tgsLxoGDTspve9bZrmcGmMuei8j4Bfg_bfm84xsRr2c,7944
+partial_index/mixins.py,sha256=qVGzL3_9ObvC1bOku9wvg7eoaSONVEj-3XuQpwidTfI,4294
+partial_index/query.py,sha256=lQ5zRLqnLhvFm3sN8N2alGRkAtfeIfJEbPPhmszQ1p8,4146
+django_partial_index_pr20-0.6.0.dist-info/LICENSE.txt,sha256=CTM75V8r8vTPD3MoBN6P_c0--kEQD6l2zB5r5uChWOQ,1514
+django_partial_index_pr20-0.6.0.dist-info/METADATA,sha256=HsoappeEVEUltp3F3Z5yKDE613jp7JEMDB_0tIyqHFY,10020
+django_partial_index_pr20-0.6.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+django_partial_index_pr20-0.6.0.dist-info/top_level.txt,sha256=phgHD33slLeuZzkWXia6gX8x-pV873vfXz3C2NT2HFE,14
+django_partial_index_pr20-0.6.0.dist-info/RECORD,,
