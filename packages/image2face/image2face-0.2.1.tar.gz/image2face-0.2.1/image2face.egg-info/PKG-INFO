@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: image2face
+Version: 0.2.1
+Summary: Face Recognition package
+Home-page: UNKNOWN
+Author: Tai Le
+Author-email: <ltquoctaidn98@gmail.com>
+License: UNKNOWN
+Description: Face Recognition package
+Keywords: python,computer vision,face detection
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
