@@ -1,0 +1,11 @@
+bau/__init__.py,sha256=BM-Om0jn1D0WW4unrmOJrzA30u9onKXcJpLPqKfGf0o,3843
+bau/c.py,sha256=kNDDtjhIP4Ih2WYLOlurIMVlzNSi1b4dj0Ftc4NxDTM,1004
+bau/pkgconfig.py,sha256=nRp8yntEXBUwPRQFwXDbUffnUEHH0-uZ1aQ-ZZHAT34,404
+bau/rule.py,sha256=RdyG6d3Si1fDeCblJf6RKSeUxmuFybsPrq8sCNtjFoo,1266
+bau/util.py,sha256=xeNsWVswjIUZTgHf8Q50m8ToX2s2YIGZ4XdYdPTC6Tg,1164
+bau-0.1.data/scripts/bau,sha256=PWPuMT6QN53AZzr3yNB3bVlbl92cUyIOqN68trUSsj0,57
+bau-0.1.dist-info/LICENSE,sha256=OPskTIydqWfeyUrLoqmK1cWDfhXxYr8WRRXmZRrzWwQ,1523
+bau-0.1.dist-info/METADATA,sha256=Hary9KN5_GMgTU9VZ3w4RMJ2t7n5i9tPfis5HUCOGSw,247
+bau-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bau-0.1.dist-info/top_level.txt,sha256=_D-JDBjrWX1WLKt-WuDYQrfE7CHuWClh3pIe481rEjU,4
+bau-0.1.dist-info/RECORD,,

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bau
+Version: 0.1
+Summary: A python-based build system
+Home-page: https://gitlab.com/pcapriotti/bau
+Author: Paolo Capriotti
+Author-email: paolo@capriotti.io
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
