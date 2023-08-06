@@ -1,0 +1,15 @@
+README.md
+setup.py
+ftx_api_py.egg-info/PKG-INFO
+ftx_api_py.egg-info/SOURCES.txt
+ftx_api_py.egg-info/dependency_links.txt
+ftx_api_py.egg-info/requires.txt
+ftx_api_py.egg-info/top_level.txt
+ftxapi/__init__.py
+ftxapi/client.py
+ftxapi/version.py
+ftxapi/rest/__init__.py
+ftxapi/rest/ftx_rest.py
+ftxapi/utils/__init__.py
+ftxapi/utils/custom_logger.py
+ftxapi/utils/decimal.py
