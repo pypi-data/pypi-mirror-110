@@ -1,0 +1,14 @@
+astropy
+requests
+pyvo
+codetiming
+ec2_metadata
+bokeh
+pandas
+
+[docs]
+sphinx-astropy
+sphinxcontrib-programoutput
+
+[test]
+pytest-astropy
