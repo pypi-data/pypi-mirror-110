@@ -1,0 +1,14 @@
+vidaug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidaug/augmentors/__init__.py,sha256=yVyPK5DS1a6iMGBOkLtrFa_OWqwG-_qu0aCpmYJtvvY,196
+vidaug/augmentors/affine.py,sha256=sst5oIkYhN6vorQX8jknv7dtPaMM5CVqP4pyXIb7aDU,5572
+vidaug/augmentors/crop.py,sha256=OSPZWTulCs7DL88IveLFYAfUDzJvnSf1y-PIe72B5qk,6731
+vidaug/augmentors/flip.py,sha256=m46nFssfvCSRmBa6Pst4bR2IyCDrYsLxThLT_jEihMM,1353
+vidaug/augmentors/geometric.py,sha256=Ku7KtsmpRGFgZGdupcbRLZzcyVSfOAP91LQ0KIpsXbk,9692
+vidaug/augmentors/group.py,sha256=9oEs4DTnQ2K2vE0oWJiRjnsHLKAsczmVR1S3HaTBZ_Q,3704
+vidaug/augmentors/intensity.py,sha256=q2BAtSGLUBzd4yydoNuSHSlC05A8_bxQSeAnZv6SDwc,4919
+vidaug/augmentors/temporal.py,sha256=QHHLmZ0Ajc2blOxU6mzAPw5LfpF8EN9IfwIzyZHOoCY,5738
+vidaug-1.5.dist-info/LICENSE,sha256=oUvGZKLlaF4GyX29y6Iqq272hSn89WL_1qi2n6am2VM,1064
+vidaug-1.5.dist-info/METADATA,sha256=HmHOnyGpNTtED-dnq3GJ3XCK0UAMamf5DZRVlZzsufc,228
+vidaug-1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vidaug-1.5.dist-info/top_level.txt,sha256=crIZ346wBJ36LtdR5cVeQMOlyXaz46uGNZa8XCf5nDI,7
+vidaug-1.5.dist-info/RECORD,,
