@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+input/relax.i
+input/relax.sh
+ninia/__init__.py
+ninia/example.py
+ninia/mw_species_.py
+ninia/relax.py
+ninia.egg-info/PKG-INFO
+ninia.egg-info/SOURCES.txt
+ninia.egg-info/dependency_links.txt
+ninia.egg-info/top_level.txt

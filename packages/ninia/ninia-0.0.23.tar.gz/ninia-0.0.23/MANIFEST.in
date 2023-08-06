@@ -1,0 +1,3 @@
+
+include ninia/*.i
+include ninia/*.sh
