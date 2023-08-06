@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: json_log_decorator
+Version: 1.1.1
+Summary: The Python LogDecorator with exception, in JSON format
+Home-page: https://github.com/rajeshkbathula/json_log_decorator
+Author: Rajesh Bathula
+Author-email: rajb2237@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# json_log_decorator
+python log decorator with exception raise and captures time taken by function or method 
+
+
