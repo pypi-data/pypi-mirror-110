@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ads-b
+Version: 0.0.1
+Summary: A python 3 library for encoding/decoding ADS-B messages
+Home-page: https://github.com/mhostetter/ads-b
+Author: Matt Hostetter
+Author-email: matthostetter@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/mhostetter/ads-b
+Project-URL: Issue Tracker, https://github.com/mhostetter/ads-b/issues
+Project-URL: Documentation, https://ads-b.readthedocs.io/en/stable/
+Keywords: ads-b, adsb, automatic, dependent, surveillance, broadcast
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `ads-b`: A python 3 library for encoding/decoding ADS-B messages
+
+## Installation
+
+The latest version of `ads-b` can be installed from [PyPI](https://pypi.org/project/ads-b/) using `pip`.
+
+```bash
+python3 -m pip install ads-b
+```
+
+## Basic Usage
+
+```python
+import adsb
+
+# TODO: Fill this in
+```
+
+
