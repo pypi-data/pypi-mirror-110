@@ -1,0 +1,11 @@
+README.md
+setup.py
+libmsf/__init__.py
+libmsf/parser.py
+libmsf/rest.py
+libmsf.egg-info/PKG-INFO
+libmsf.egg-info/SOURCES.txt
+libmsf.egg-info/dependency_links.txt
+libmsf.egg-info/entry_points.txt
+libmsf.egg-info/requires.txt
+libmsf.egg-info/top_level.txt
