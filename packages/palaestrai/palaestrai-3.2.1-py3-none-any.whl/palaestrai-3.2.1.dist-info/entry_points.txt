@@ -1,0 +1,5 @@
+
+        [console_scripts]
+        palaestrai=palaestrai.cli.manager:cli
+        arl-apply-migrations=palaestrai.store.migrations.apply:main
+    
