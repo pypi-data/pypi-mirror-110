@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: astralbot
+Version: 0.0.2
+Summary: Library to interact with an astralBot instance.
+Home-page: https://github.com/AstralBotAI/AstralBot-py
+Author: Nicolas Gargaud <jacen92@gmail.com>
+License: MIT
+Description: # AstralBot-python
+        
+        python3 implementation of the astralbot connector and a tool to load a python script
+        
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown

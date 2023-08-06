@@ -1,0 +1,3 @@
+[console_scripts]
+astralbot = src.main:main
+
