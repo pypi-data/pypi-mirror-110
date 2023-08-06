@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: abd
+Version: 0.0.1
+Summary: Abstract base class for decorators
+Home-page: https://github.com/w13b3/abstract_base_decorator
+Author: wiebe
+License: Mozilla Public License Version 2.0
+Keywords: decorator abstract oop
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.*, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+abd - Abstract Base Decorator
+---
+
+abd provides an `AbstractBaseDecorator` class which you can inherit from to create flexible decorators.
+
+## Example
+```Python3
+>>> from abd import ABD
+>>> class Decorator(ABD):
+...     def invoke(self, *args, **kwargs):
+...         """Must write an invoke function
+...         invoke is called when the decorated function is called
+...         """
+...         # catch, edit and pass on the (keyword) arguments
+...         #  that are given the the decorated function
+...         print('invoke is called')
+...         result = self.decorated_object(*args, **kwargs)
+...         # function has been called and result is available
+...         #   possible to edit the result here
+...         return result
+... 
+>>> @Decorator
+... def func(argument):
+...     # some function logic ...
+...     return argument
+... 
+>>> func('some text')
+invoke is called
+'some text'
+>>> 
+```
+
+
