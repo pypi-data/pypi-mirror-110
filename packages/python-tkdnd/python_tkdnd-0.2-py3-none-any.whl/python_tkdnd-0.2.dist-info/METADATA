@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-tkdnd
+Version: 0.2
+Summary: Native drag & drop capabilities in tkinter. tkinterDnD is a nice wrapper around the tkdnd tcl package.
+Home-page: https://github.com/rdbende/tkinterDnD
+Author: rdbende
+Author-email: rdbende@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: ttkwidgets (>=0.11.0)
+
+UNKNOWN
+
+
