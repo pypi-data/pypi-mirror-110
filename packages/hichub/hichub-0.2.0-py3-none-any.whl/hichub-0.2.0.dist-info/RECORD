@@ -1,0 +1,14 @@
+hichub/Constants.py,sha256=F0n32FvtyU4qCRc60VZNIW5SgEhifgx9yh0BhH2DDB4,25
+hichub/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hichub/call_diff.py,sha256=xSUGMaGeCnfcujLBQN61sq4lRvCx9oBmhZF_awJ2wn4,18313
+hichub/callhub.py,sha256=Dt2bQrEOOguTvWveyP2g5hnNpEV-Seh1l2JKnafXmTQ,21917
+hichub/convert_multi_hic_to_txt.py,sha256=qXNT2ggWpxQ5lCBwfE11eQd5SJv7eBdQGYJxPOwWy-E,6967
+hichub/test.py,sha256=GrBfPJp80ig77eAp3CYqNf3KXc4KfkoqP6FmanwQssI,220
+hichub-0.2.0.data/data/test_data/chr10_test.bed,sha256=8xneD8Eh_5TNYYZ4fAGhSKV_XNQQeqB_4_Kjn-VXxGU,8799946
+hichub-0.2.0.data/scripts/hichub,sha256=_R7OiH6RAjPG-uKUPXmR7jhlsaceGo-v1DO2Pw1WMkU,6962
+hichub-0.2.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+hichub-0.2.0.dist-info/METADATA,sha256=NntV7pDYo3mii6G6B4k3SdEJfY--TStj4Aihsi6Yito,4853
+hichub-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hichub-0.2.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+hichub-0.2.0.dist-info/top_level.txt,sha256=QUx8MNv9LL5qj56YTu64yzX5MXHtpwW1XLDDp9wpvmU,7
+hichub-0.2.0.dist-info/RECORD,,
