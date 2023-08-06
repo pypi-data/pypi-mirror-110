@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: craft-providers
+Version: 0.0.1
+Summary: Craft provider tooling
+Home-page: https://github.com/canonical/craft-providers
+Author: Canonical Ltd.
+Author-email: snapcraft@lists.snapcraft.io
+License: GNU General Public License v3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Requires-Dist: requests-unixsocket
+Provides-Extra: dev
+Requires-Dist: autoflake ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: codespell ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pylint-fixme-info ; extra == 'dev'
+Requires-Dist: pylint-pytest ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-subprocess ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinx-pydantic ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Requires-Dist: sphinx-pydantic ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: codespell ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pydocstyle ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pylint-fixme-info ; extra == 'test'
+Requires-Dist: pylint-pytest ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-subprocess ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+# Craft Providers
+
+This project aims to provide python interfaces for instantiating and executing
+builds for a variety of target environments.
+
+Initial providers include:
+- LXD containers
+- Multipass VMs
+
+Host support is targeted for:
+- Linux
+- Mac OS X
+- Windows
+
+# License
+
+Free software: GNU General Public License v3
+
+# Documentation:
+
+https://craft-providers.readthedocs.io.
+
+
