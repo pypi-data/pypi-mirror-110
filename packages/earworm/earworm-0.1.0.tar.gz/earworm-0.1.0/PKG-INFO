@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: earworm
+Version: 0.1.0
+Summary: Create a simple web page to listen to audio files in a directory
+Author: Puneeth Chaganti
+Author-email: punchagan@muse-amuse.in
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.1,<4.0.0)
+Requires-Dist: Pillow (>=8.2.0,<9.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: python-dateutil (>=2.8.1,<3.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: tinytag (>=1.5.0,<2.0.0)
+Requires-Dist: webassets (>=2.0,<3.0)
