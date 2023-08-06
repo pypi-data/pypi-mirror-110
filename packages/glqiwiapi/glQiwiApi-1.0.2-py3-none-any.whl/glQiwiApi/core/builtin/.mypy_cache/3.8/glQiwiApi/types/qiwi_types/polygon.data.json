@@ -1,0 +1,375 @@
+{
+  ".class": "MypyFile",
+  "_fullname": "glQiwiApi.types.qiwi_types.polygon",
+  "is_partial_stub_package": false,
+  "is_stub": false,
+  "names": {
+    ".class": "SymbolTable",
+    "Polygon": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.object"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon",
+          "name": "Polygon",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon",
+        "metaclass_type": null,
+        "metadata": {},
+        "module_name": "glQiwiApi.types.qiwi_types.polygon",
+        "mro": [
+          "glQiwiApi.types.qiwi_types.polygon.Polygon",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable",
+          "__init__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0,
+                0,
+                0
+              ],
+              "arg_names": [
+                "self",
+                "lat_lon_pair_nw",
+                "lat_lon_pair_se"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon.__init__",
+              "name": "__init__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0,
+                  0,
+                  0
+                ],
+                "arg_names": [
+                  "self",
+                  "lat_lon_pair_nw",
+                  "lat_lon_pair_se"
+                ],
+                "arg_types": [
+                  "glQiwiApi.types.qiwi_types.polygon.Polygon",
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      {
+                        ".class": "AnyType",
+                        "missing_import_name": null,
+                        "source_any": null,
+                        "type_of_any": 4
+                      }
+                    ],
+                    "type_ref": "builtins.tuple"
+                  },
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      {
+                        ".class": "AnyType",
+                        "missing_import_name": null,
+                        "source_any": null,
+                        "type_of_any": 4
+                      }
+                    ],
+                    "type_ref": "builtins.tuple"
+                  }
+                ],
+                "bound_args": [],
+                "def_extras": {
+                  "first_arg": "self"
+                },
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__init__ of Polygon",
+                "ret_type": {
+                  ".class": "NoneType"
+                },
+                "variables": []
+              }
+            }
+          },
+          "_dict": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon._dict",
+              "name": "_dict",
+              "type": {
+                ".class": "Instance",
+                "args": [
+                  "builtins.str",
+                  {
+                    ".class": "AnyType",
+                    "missing_import_name": null,
+                    "source_any": {
+                      ".class": "AnyType",
+                      "missing_import_name": null,
+                      "source_any": null,
+                      "type_of_any": 4
+                    },
+                    "type_of_any": 7
+                  }
+                ],
+                "type_ref": "builtins.dict"
+              }
+            }
+          },
+          "_get_items": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0
+              ],
+              "arg_names": [
+                "self"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon._get_items",
+              "name": "_get_items",
+              "type": null
+            }
+          },
+          "dict": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Decorator",
+              "func": {
+                ".class": "FuncDef",
+                "arg_kinds": [
+                  0
+                ],
+                "arg_names": [
+                  "self"
+                ],
+                "flags": [
+                  "is_property",
+                  "is_decorated"
+                ],
+                "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon.dict",
+                "name": "dict",
+                "type": null
+              },
+              "is_overload": false,
+              "var": {
+                ".class": "Var",
+                "flags": [
+                  "is_initialized_in_class",
+                  "is_property",
+                  "is_ready"
+                ],
+                "fullname": null,
+                "name": "dict",
+                "type": {
+                  ".class": "CallableType",
+                  "arg_kinds": [
+                    0
+                  ],
+                  "arg_names": [
+                    "self"
+                  ],
+                  "arg_types": [
+                    "glQiwiApi.types.qiwi_types.polygon.Polygon"
+                  ],
+                  "bound_args": [],
+                  "def_extras": {},
+                  "fallback": "builtins.function",
+                  "implicit": true,
+                  "is_ellipsis_args": false,
+                  "name": "dict of Polygon",
+                  "ret_type": {
+                    ".class": "AnyType",
+                    "missing_import_name": null,
+                    "source_any": null,
+                    "type_of_any": 1
+                  },
+                  "variables": []
+                }
+              }
+            }
+          },
+          "lat_nw": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon.lat_nw",
+              "name": "lat_nw",
+              "type": {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 4
+              }
+            }
+          },
+          "lat_se": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon.lat_se",
+              "name": "lat_se",
+              "type": {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 4
+              }
+            }
+          },
+          "lon_nw": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon.lon_nw",
+              "name": "lon_nw",
+              "type": {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 4
+              }
+            }
+          },
+          "lon_se": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [],
+              "fullname": "glQiwiApi.types.qiwi_types.polygon.Polygon.lon_se",
+              "name": "lon_se",
+              "type": {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 4
+              }
+            }
+          }
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "__all__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.polygon.__all__",
+        "name": "__all__",
+        "type": {
+          ".class": "TupleType",
+          "implicit": false,
+          "items": [
+            "builtins.str"
+          ],
+          "partial_fallback": {
+            ".class": "Instance",
+            "args": [
+              {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 6
+              }
+            ],
+            "type_ref": "builtins.tuple"
+          }
+        }
+      }
+    },
+    "__doc__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.polygon.__doc__",
+        "name": "__doc__",
+        "type": "builtins.str"
+      }
+    },
+    "__file__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.polygon.__file__",
+        "name": "__file__",
+        "type": "builtins.str"
+      }
+    },
+    "__name__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.polygon.__name__",
+        "name": "__name__",
+        "type": "builtins.str"
+      }
+    },
+    "__package__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.polygon.__package__",
+        "name": "__package__",
+        "type": "builtins.str"
+      }
+    }
+  },
+  "path": "/home/glef1x/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/parser/glQiwiApi/types/qiwi_types/polygon.py"
+}

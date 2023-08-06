@@ -1,0 +1,137 @@
+{
+  ".class": "MypyFile",
+  "_fullname": "glQiwiApi.types.yoomoney_types",
+  "is_partial_stub_package": false,
+  "is_stub": false,
+  "names": {
+    ".class": "SymbolTable",
+    "AccountInfo": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.AccountInfo",
+      "kind": "Gdef"
+    },
+    "IncomingTransaction": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.IncomingTransaction",
+      "kind": "Gdef"
+    },
+    "Operation": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.Operation",
+      "kind": "Gdef"
+    },
+    "OperationDetails": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.OperationDetails",
+      "kind": "Gdef"
+    },
+    "OperationType": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.OperationType",
+      "kind": "Gdef"
+    },
+    "Payment": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.Payment",
+      "kind": "Gdef"
+    },
+    "PreProcessPaymentResponse": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.types.yoomoney_types.types.PreProcessPaymentResponse",
+      "kind": "Gdef"
+    },
+    "__all__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.types.yoomoney_types.__all__",
+        "name": "__all__",
+        "type": {
+          ".class": "TupleType",
+          "implicit": false,
+          "items": [
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str",
+            "builtins.str"
+          ],
+          "partial_fallback": {
+            ".class": "Instance",
+            "args": [
+              {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 6
+              }
+            ],
+            "type_ref": "builtins.tuple"
+          }
+        }
+      }
+    },
+    "__doc__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.yoomoney_types.__doc__",
+        "name": "__doc__",
+        "type": "builtins.str"
+      }
+    },
+    "__file__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.yoomoney_types.__file__",
+        "name": "__file__",
+        "type": "builtins.str"
+      }
+    },
+    "__name__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.yoomoney_types.__name__",
+        "name": "__name__",
+        "type": "builtins.str"
+      }
+    },
+    "__package__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.yoomoney_types.__package__",
+        "name": "__package__",
+        "type": "builtins.str"
+      }
+    }
+  },
+  "path": "/home/glef1x/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/parser/glQiwiApi/types/yoomoney_types/__init__.py"
+}

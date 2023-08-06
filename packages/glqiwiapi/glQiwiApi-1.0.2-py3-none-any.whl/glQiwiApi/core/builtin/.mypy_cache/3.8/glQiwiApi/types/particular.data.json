@@ -1,0 +1,1359 @@
+{
+  ".class": "MypyFile",
+  "_fullname": "glQiwiApi.types.particular",
+  "is_partial_stub_package": false,
+  "is_stub": false,
+  "names": {
+    ".class": "SymbolTable",
+    "Any": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Any",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Dict": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Dict",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Optional": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Optional",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "ProxyError": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "glQiwiApi.utils.exceptions.ProxyError",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "RawHeaders": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "aiohttp.typedefs.RawHeaders",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Response": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.object"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.types.particular.Response",
+          "name": "Response",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.types.particular.Response",
+        "metaclass_type": null,
+        "metadata": {
+          "dataclass": {
+            "attributes": [
+              {
+                "column": 4,
+                "has_default": false,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 13,
+                "name": "status_code",
+                "type": "builtins.int"
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 14,
+                "name": "response_data",
+                "type": {
+                  ".class": "AnyType",
+                  "missing_import_name": null,
+                  "source_any": null,
+                  "type_of_any": 2
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 15,
+                "name": "url",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    "builtins.str",
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 16,
+                "name": "raw_headers",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    {
+                      ".class": "Instance",
+                      "args": [
+                        {
+                          ".class": "TupleType",
+                          "implicit": false,
+                          "items": [
+                            "builtins.bytes",
+                            "builtins.bytes"
+                          ],
+                          "partial_fallback": {
+                            ".class": "Instance",
+                            "args": [
+                              {
+                                ".class": "AnyType",
+                                "missing_import_name": null,
+                                "source_any": null,
+                                "type_of_any": 6
+                              }
+                            ],
+                            "type_ref": "builtins.tuple"
+                          }
+                        }
+                      ],
+                      "type_ref": "builtins.tuple"
+                    },
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 17,
+                "name": "cookies",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    {
+                      ".class": "Instance",
+                      "args": [
+                        {
+                          ".class": "AnyType",
+                          "missing_import_name": null,
+                          "source_any": null,
+                          "type_of_any": 4
+                        }
+                      ],
+                      "type_ref": "http.cookies.SimpleCookie"
+                    },
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 18,
+                "name": "ok",
+                "type": "builtins.bool"
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 19,
+                "name": "content_type",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    "builtins.str",
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 20,
+                "name": "host",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    "builtins.str",
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              }
+            ],
+            "frozen": false
+          }
+        },
+        "module_name": "glQiwiApi.types.particular",
+        "mro": [
+          "glQiwiApi.types.particular.Response",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable",
+          "__init__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "arg_names": [
+                "self",
+                "status_code",
+                "response_data",
+                "url",
+                "raw_headers",
+                "cookies",
+                "ok",
+                "content_type",
+                "host"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.types.particular.Response.__init__",
+              "name": "__init__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "arg_names": [
+                  "self",
+                  "status_code",
+                  "response_data",
+                  "url",
+                  "raw_headers",
+                  "cookies",
+                  "ok",
+                  "content_type",
+                  "host"
+                ],
+                "arg_types": [
+                  "glQiwiApi.types.particular.Response",
+                  "builtins.int",
+                  {
+                    ".class": "AnyType",
+                    "missing_import_name": null,
+                    "source_any": null,
+                    "type_of_any": 2
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      "builtins.str",
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          {
+                            ".class": "TupleType",
+                            "implicit": false,
+                            "items": [
+                              "builtins.bytes",
+                              "builtins.bytes"
+                            ],
+                            "partial_fallback": {
+                              ".class": "Instance",
+                              "args": [
+                                {
+                                  ".class": "AnyType",
+                                  "missing_import_name": null,
+                                  "source_any": null,
+                                  "type_of_any": 6
+                                }
+                              ],
+                              "type_ref": "builtins.tuple"
+                            }
+                          }
+                        ],
+                        "type_ref": "builtins.tuple"
+                      },
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          {
+                            ".class": "AnyType",
+                            "missing_import_name": null,
+                            "source_any": null,
+                            "type_of_any": 4
+                          }
+                        ],
+                        "type_ref": "http.cookies.SimpleCookie"
+                      },
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  "builtins.bool",
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      "builtins.str",
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      "builtins.str",
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  }
+                ],
+                "bound_args": [],
+                "def_extras": {},
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__init__ of Response",
+                "ret_type": {
+                  ".class": "NoneType"
+                },
+                "variables": []
+              }
+            },
+            "plugin_generated": true
+          },
+          "__str__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0
+              ],
+              "arg_names": [
+                "self"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.types.particular.Response.__str__",
+              "name": "__str__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0
+                ],
+                "arg_names": [
+                  null
+                ],
+                "arg_types": [
+                  "glQiwiApi.types.particular.Response"
+                ],
+                "bound_args": [],
+                "def_extras": {
+                  "first_arg": "self"
+                },
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__str__ of Response",
+                "ret_type": "builtins.str",
+                "variables": []
+              }
+            }
+          },
+          "bad_response": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Decorator",
+              "func": {
+                ".class": "FuncDef",
+                "arg_kinds": [
+                  0
+                ],
+                "arg_names": [
+                  "cls"
+                ],
+                "flags": [
+                  "is_class",
+                  "is_decorated"
+                ],
+                "fullname": "glQiwiApi.types.particular.Response.bad_response",
+                "name": "bad_response",
+                "type": {
+                  ".class": "CallableType",
+                  "arg_kinds": [
+                    0
+                  ],
+                  "arg_names": [
+                    "cls"
+                  ],
+                  "arg_types": [
+                    {
+                      ".class": "TypeType",
+                      "item": "glQiwiApi.types.particular.Response"
+                    }
+                  ],
+                  "bound_args": [],
+                  "def_extras": {
+                    "first_arg": "cls"
+                  },
+                  "fallback": "builtins.function",
+                  "implicit": false,
+                  "is_ellipsis_args": false,
+                  "name": "bad_response of Response",
+                  "ret_type": "glQiwiApi.types.particular.Response",
+                  "variables": []
+                }
+              },
+              "is_overload": false,
+              "var": {
+                ".class": "Var",
+                "flags": [
+                  "is_initialized_in_class",
+                  "is_classmethod",
+                  "is_ready"
+                ],
+                "fullname": null,
+                "name": "bad_response",
+                "type": {
+                  ".class": "CallableType",
+                  "arg_kinds": [
+                    0
+                  ],
+                  "arg_names": [
+                    "cls"
+                  ],
+                  "arg_types": [
+                    {
+                      ".class": "TypeType",
+                      "item": "glQiwiApi.types.particular.Response"
+                    }
+                  ],
+                  "bound_args": [],
+                  "def_extras": {
+                    "first_arg": "cls"
+                  },
+                  "fallback": "builtins.function",
+                  "implicit": false,
+                  "is_ellipsis_args": false,
+                  "name": "bad_response of Response",
+                  "ret_type": "glQiwiApi.types.particular.Response",
+                  "variables": []
+                }
+              }
+            }
+          },
+          "content_type": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.content_type",
+              "name": "content_type",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "cookies": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.cookies",
+              "name": "cookies",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      {
+                        ".class": "AnyType",
+                        "missing_import_name": null,
+                        "source_any": null,
+                        "type_of_any": 4
+                      }
+                    ],
+                    "type_ref": "http.cookies.SimpleCookie"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "host": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.host",
+              "name": "host",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "ok": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.ok",
+              "name": "ok",
+              "type": "builtins.bool"
+            }
+          },
+          "raw_headers": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.raw_headers",
+              "name": "raw_headers",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      {
+                        ".class": "TupleType",
+                        "implicit": false,
+                        "items": [
+                          "builtins.bytes",
+                          "builtins.bytes"
+                        ],
+                        "partial_fallback": {
+                          ".class": "Instance",
+                          "args": [
+                            {
+                              ".class": "AnyType",
+                              "missing_import_name": null,
+                              "source_any": null,
+                              "type_of_any": 6
+                            }
+                          ],
+                          "type_ref": "builtins.tuple"
+                        }
+                      }
+                    ],
+                    "type_ref": "builtins.tuple"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "response_data": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.response_data",
+              "name": "response_data",
+              "type": {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 2
+              }
+            }
+          },
+          "status_code": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.status_code",
+              "name": "status_code",
+              "type": "builtins.int"
+            }
+          },
+          "url": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.Response.url",
+              "name": "url",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "SimpleCookie": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "http.cookies.SimpleCookie",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "Union": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Union",
+      "kind": "Gdef",
+      "module_public": false
+    },
+    "WrapperData": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "builtins.object"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.types.particular.WrapperData",
+          "name": "WrapperData",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.types.particular.WrapperData",
+        "metaclass_type": null,
+        "metadata": {
+          "dataclass": {
+            "attributes": [
+              {
+                "column": 4,
+                "has_default": false,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 36,
+                "name": "headers",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    {
+                      ".class": "Instance",
+                      "args": [
+                        "builtins.str",
+                        {
+                          ".class": "UnionType",
+                          "items": [
+                            "builtins.str",
+                            "builtins.int"
+                          ]
+                        }
+                      ],
+                      "type_ref": "builtins.dict"
+                    },
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 37,
+                "name": "data",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    {
+                      ".class": "Instance",
+                      "args": [
+                        "builtins.str",
+                        {
+                          ".class": "UnionType",
+                          "items": [
+                            "builtins.str",
+                            {
+                              ".class": "Instance",
+                              "args": [
+                                {
+                                  ".class": "AnyType",
+                                  "missing_import_name": null,
+                                  "source_any": null,
+                                  "type_of_any": 2
+                                },
+                                {
+                                  ".class": "AnyType",
+                                  "missing_import_name": null,
+                                  "source_any": null,
+                                  "type_of_any": 2
+                                }
+                              ],
+                              "type_ref": "builtins.dict"
+                            }
+                          ]
+                        }
+                      ],
+                      "type_ref": "builtins.dict"
+                    },
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 38,
+                "name": "json",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    {
+                      ".class": "Instance",
+                      "args": [
+                        "builtins.str",
+                        {
+                          ".class": "UnionType",
+                          "items": [
+                            "builtins.str",
+                            {
+                              ".class": "Instance",
+                              "args": [
+                                {
+                                  ".class": "AnyType",
+                                  "missing_import_name": null,
+                                  "source_any": null,
+                                  "type_of_any": 2
+                                },
+                                {
+                                  ".class": "AnyType",
+                                  "missing_import_name": null,
+                                  "source_any": null,
+                                  "type_of_any": 2
+                                }
+                              ],
+                              "type_ref": "builtins.dict"
+                            }
+                          ]
+                        }
+                      ],
+                      "type_ref": "builtins.dict"
+                    },
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              },
+              {
+                "column": 4,
+                "has_default": true,
+                "is_in_init": true,
+                "is_init_var": false,
+                "line": 39,
+                "name": "cookies",
+                "type": {
+                  ".class": "UnionType",
+                  "items": [
+                    {
+                      ".class": "Instance",
+                      "args": [
+                        "builtins.str",
+                        {
+                          ".class": "UnionType",
+                          "items": [
+                            "builtins.str",
+                            "builtins.int"
+                          ]
+                        }
+                      ],
+                      "type_ref": "builtins.dict"
+                    },
+                    {
+                      ".class": "NoneType"
+                    }
+                  ]
+                }
+              }
+            ],
+            "frozen": false
+          }
+        },
+        "module_name": "glQiwiApi.types.particular",
+        "mro": [
+          "glQiwiApi.types.particular.WrapperData",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable",
+          "__init__": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "FuncDef",
+              "arg_kinds": [
+                0,
+                0,
+                1,
+                1,
+                1
+              ],
+              "arg_names": [
+                "self",
+                "headers",
+                "data",
+                "json",
+                "cookies"
+              ],
+              "flags": [],
+              "fullname": "glQiwiApi.types.particular.WrapperData.__init__",
+              "name": "__init__",
+              "type": {
+                ".class": "CallableType",
+                "arg_kinds": [
+                  0,
+                  0,
+                  1,
+                  1,
+                  1
+                ],
+                "arg_names": [
+                  "self",
+                  "headers",
+                  "data",
+                  "json",
+                  "cookies"
+                ],
+                "arg_types": [
+                  "glQiwiApi.types.particular.WrapperData",
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          "builtins.str",
+                          {
+                            ".class": "UnionType",
+                            "items": [
+                              "builtins.str",
+                              "builtins.int"
+                            ]
+                          }
+                        ],
+                        "type_ref": "builtins.dict"
+                      },
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          "builtins.str",
+                          {
+                            ".class": "UnionType",
+                            "items": [
+                              "builtins.str",
+                              {
+                                ".class": "Instance",
+                                "args": [
+                                  {
+                                    ".class": "AnyType",
+                                    "missing_import_name": null,
+                                    "source_any": null,
+                                    "type_of_any": 2
+                                  },
+                                  {
+                                    ".class": "AnyType",
+                                    "missing_import_name": null,
+                                    "source_any": null,
+                                    "type_of_any": 2
+                                  }
+                                ],
+                                "type_ref": "builtins.dict"
+                              }
+                            ]
+                          }
+                        ],
+                        "type_ref": "builtins.dict"
+                      },
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          "builtins.str",
+                          {
+                            ".class": "UnionType",
+                            "items": [
+                              "builtins.str",
+                              {
+                                ".class": "Instance",
+                                "args": [
+                                  {
+                                    ".class": "AnyType",
+                                    "missing_import_name": null,
+                                    "source_any": null,
+                                    "type_of_any": 2
+                                  },
+                                  {
+                                    ".class": "AnyType",
+                                    "missing_import_name": null,
+                                    "source_any": null,
+                                    "type_of_any": 2
+                                  }
+                                ],
+                                "type_ref": "builtins.dict"
+                              }
+                            ]
+                          }
+                        ],
+                        "type_ref": "builtins.dict"
+                      },
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  },
+                  {
+                    ".class": "UnionType",
+                    "items": [
+                      {
+                        ".class": "Instance",
+                        "args": [
+                          "builtins.str",
+                          {
+                            ".class": "UnionType",
+                            "items": [
+                              "builtins.str",
+                              "builtins.int"
+                            ]
+                          }
+                        ],
+                        "type_ref": "builtins.dict"
+                      },
+                      {
+                        ".class": "NoneType"
+                      }
+                    ]
+                  }
+                ],
+                "bound_args": [],
+                "def_extras": {},
+                "fallback": "builtins.function",
+                "implicit": false,
+                "is_ellipsis_args": false,
+                "name": "__init__ of WrapperData",
+                "ret_type": {
+                  ".class": "NoneType"
+                },
+                "variables": []
+              }
+            },
+            "plugin_generated": true
+          },
+          "cookies": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.WrapperData.cookies",
+              "name": "cookies",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      "builtins.str",
+                      {
+                        ".class": "UnionType",
+                        "items": [
+                          "builtins.str",
+                          "builtins.int"
+                        ]
+                      }
+                    ],
+                    "type_ref": "builtins.dict"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "data": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.WrapperData.data",
+              "name": "data",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      "builtins.str",
+                      {
+                        ".class": "UnionType",
+                        "items": [
+                          "builtins.str",
+                          {
+                            ".class": "Instance",
+                            "args": [
+                              {
+                                ".class": "AnyType",
+                                "missing_import_name": null,
+                                "source_any": null,
+                                "type_of_any": 2
+                              },
+                              {
+                                ".class": "AnyType",
+                                "missing_import_name": null,
+                                "source_any": null,
+                                "type_of_any": 2
+                              }
+                            ],
+                            "type_ref": "builtins.dict"
+                          }
+                        ]
+                      }
+                    ],
+                    "type_ref": "builtins.dict"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "headers": {
+            ".class": "SymbolTableNode",
+            "implicit": true,
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.WrapperData.headers",
+              "name": "headers",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      "builtins.str",
+                      {
+                        ".class": "UnionType",
+                        "items": [
+                          "builtins.str",
+                          "builtins.int"
+                        ]
+                      }
+                    ],
+                    "type_ref": "builtins.dict"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "json": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.particular.WrapperData.json",
+              "name": "json",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  {
+                    ".class": "Instance",
+                    "args": [
+                      "builtins.str",
+                      {
+                        ".class": "UnionType",
+                        "items": [
+                          "builtins.str",
+                          {
+                            ".class": "Instance",
+                            "args": [
+                              {
+                                ".class": "AnyType",
+                                "missing_import_name": null,
+                                "source_any": null,
+                                "type_of_any": 2
+                              },
+                              {
+                                ".class": "AnyType",
+                                "missing_import_name": null,
+                                "source_any": null,
+                                "type_of_any": 2
+                              }
+                            ],
+                            "type_ref": "builtins.dict"
+                          }
+                        ]
+                      }
+                    ],
+                    "type_ref": "builtins.dict"
+                  },
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "__all__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.types.particular.__all__",
+        "name": "__all__",
+        "type": {
+          ".class": "TupleType",
+          "implicit": false,
+          "items": [
+            "builtins.str",
+            "builtins.str"
+          ],
+          "partial_fallback": {
+            ".class": "Instance",
+            "args": [
+              {
+                ".class": "AnyType",
+                "missing_import_name": null,
+                "source_any": null,
+                "type_of_any": 6
+              }
+            ],
+            "type_ref": "builtins.tuple"
+          }
+        }
+      }
+    },
+    "__doc__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.particular.__doc__",
+        "name": "__doc__",
+        "type": "builtins.str"
+      }
+    },
+    "__file__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.particular.__file__",
+        "name": "__file__",
+        "type": "builtins.str"
+      }
+    },
+    "__name__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.particular.__name__",
+        "name": "__name__",
+        "type": "builtins.str"
+      }
+    },
+    "__package__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "module_public": false,
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.particular.__package__",
+        "name": "__package__",
+        "type": "builtins.str"
+      }
+    },
+    "dataclass": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "dataclasses.dataclass",
+      "kind": "Gdef",
+      "module_public": false
+    }
+  },
+  "path": "/home/glef1x/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/parser/glQiwiApi/types/particular.py"
+}

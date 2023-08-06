@@ -1,0 +1,275 @@
+{
+  ".class": "MypyFile",
+  "_fullname": "glQiwiApi.types.qiwi_types.currency_parsed",
+  "is_partial_stub_package": false,
+  "is_stub": false,
+  "names": {
+    ".class": "SymbolTable",
+    "BaseModel": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "pydantic.main.BaseModel",
+      "kind": "Gdef"
+    },
+    "CurrencyModel": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "TypeInfo",
+        "_promote": null,
+        "abstract_attributes": [],
+        "bases": [
+          "pydantic.main.BaseModel"
+        ],
+        "declared_metaclass": null,
+        "defn": {
+          ".class": "ClassDef",
+          "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel",
+          "name": "CurrencyModel",
+          "type_vars": []
+        },
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel",
+        "metaclass_type": "pydantic.main.ModelMetaclass",
+        "metadata": {},
+        "module_name": "glQiwiApi.types.qiwi_types.currency_parsed",
+        "mro": [
+          "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel",
+          "pydantic.main.BaseModel",
+          "pydantic.utils.Representation",
+          "builtins.object"
+        ],
+        "names": {
+          ".class": "SymbolTable",
+          "code": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.code",
+              "name": "code",
+              "type": "builtins.str"
+            }
+          },
+          "decimal_digits": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.decimal_digits",
+              "name": "decimal_digits",
+              "type": "builtins.int"
+            }
+          },
+          "isoformat": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.isoformat",
+              "name": "isoformat",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.str",
+                  {
+                    ".class": "NoneType"
+                  }
+                ]
+              }
+            }
+          },
+          "name": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.name",
+              "name": "name",
+              "type": "builtins.str"
+            }
+          },
+          "name_plural": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.name_plural",
+              "name": "name_plural",
+              "type": "builtins.str"
+            }
+          },
+          "rounding": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.rounding",
+              "name": "rounding",
+              "type": {
+                ".class": "UnionType",
+                "items": [
+                  "builtins.int",
+                  "builtins.float"
+                ]
+              }
+            }
+          },
+          "symbol": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.symbol",
+              "name": "symbol",
+              "type": "builtins.str"
+            }
+          },
+          "symbol_native": {
+            ".class": "SymbolTableNode",
+            "kind": "Mdef",
+            "node": {
+              ".class": "Var",
+              "flags": [
+                "is_initialized_in_class",
+                "is_ready"
+              ],
+              "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel.symbol_native",
+              "name": "symbol_native",
+              "type": "builtins.str"
+            }
+          }
+        },
+        "tuple_type": null,
+        "type_vars": [],
+        "typeddict_type": null
+      }
+    },
+    "Optional": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Optional",
+      "kind": "Gdef"
+    },
+    "Union": {
+      ".class": "SymbolTableNode",
+      "cross_ref": "typing.Union",
+      "kind": "Gdef"
+    },
+    "__doc__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.__doc__",
+        "name": "__doc__",
+        "type": "builtins.str"
+      }
+    },
+    "__file__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.__file__",
+        "name": "__file__",
+        "type": "builtins.str"
+      }
+    },
+    "__name__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.__name__",
+        "name": "__name__",
+        "type": "builtins.str"
+      }
+    },
+    "__package__": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [
+          "is_ready"
+        ],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.__package__",
+        "name": "__package__",
+        "type": "builtins.str"
+      }
+    },
+    "codes_number": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.codes_number",
+        "name": "codes_number",
+        "type": {
+          ".class": "Instance",
+          "args": [
+            "builtins.str",
+            "builtins.str"
+          ],
+          "type_ref": "builtins.dict"
+        }
+      }
+    },
+    "described": {
+      ".class": "SymbolTableNode",
+      "kind": "Gdef",
+      "node": {
+        ".class": "Var",
+        "flags": [],
+        "fullname": "glQiwiApi.types.qiwi_types.currency_parsed.described",
+        "name": "described",
+        "type": {
+          ".class": "Instance",
+          "args": [
+            "builtins.str",
+            "glQiwiApi.types.qiwi_types.currency_parsed.CurrencyModel"
+          ],
+          "type_ref": "builtins.dict"
+        }
+      }
+    }
+  },
+  "path": "/home/glef1x/\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0438/parser/glQiwiApi/types/qiwi_types/currency_parsed.py"
+}
