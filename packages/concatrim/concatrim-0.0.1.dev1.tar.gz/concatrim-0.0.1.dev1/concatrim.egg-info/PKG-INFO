@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: concatrim
+Version: 0.0.1.dev1
+Summary: Python program to trim-and-join A/V media files using ffmpeg
+Home-page: https://github.com/keighrim/concatrim
+Author: Keigh Rim
+Author-email: krim@brandeis.edu
+License: MIT
+Description: # media-pruner
+        Python program to trim-and-join A/V media files using ffmpeg.
+        
+        This version is only a placehodler for future pypi release.
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
