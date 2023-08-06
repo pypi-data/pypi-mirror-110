@@ -1,0 +1,11 @@
+PyPDF3>=1.0.4
+Markdown>=3.3.4
+html5>=0.0.9
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov

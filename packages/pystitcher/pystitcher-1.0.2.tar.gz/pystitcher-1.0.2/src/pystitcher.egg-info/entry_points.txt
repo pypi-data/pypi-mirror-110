@@ -1,0 +1,3 @@
+[console_scripts]
+pystitcher = pystitcher.skeleton:run
+
