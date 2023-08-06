@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyshotty.egg-info/PKG-INFO
+pyshotty.egg-info/SOURCES.txt
+pyshotty.egg-info/dependency_links.txt
+pyshotty.egg-info/top_level.txt
+screenshot/__init__.py
+screenshot/screenshot.py
