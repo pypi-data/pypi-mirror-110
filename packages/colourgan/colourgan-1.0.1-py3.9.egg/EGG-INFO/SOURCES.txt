@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./colourgan/__init__.py
+./colourgan/config.py
+./colourgan/data.py
+./colourgan/logger.py
+./colourgan/model.py
+./colourgan/networks.py
+./colourgan/streamlit.py
+./colourgan/utils.py
+colourgan.egg-info/PKG-INFO
+colourgan.egg-info/SOURCES.txt
+colourgan.egg-info/dependency_links.txt
+colourgan.egg-info/requires.txt
+colourgan.egg-info/top_level.txt
