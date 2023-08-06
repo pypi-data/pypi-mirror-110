@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+Maat.egg-info/PKG-INFO
+Maat.egg-info/SOURCES.txt
+Maat.egg-info/dependency_links.txt
+Maat.egg-info/top_level.txt
