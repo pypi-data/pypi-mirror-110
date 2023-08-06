@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+model.pkl
+pyproject.toml
+pytest.ini
+requirements.txt
+setup.cfg
+tox.ini
+src/__init__.py
+src/predict.py
+src/tests.py
+src/avocado_price_predictor_model.egg-info/PKG-INFO
+src/avocado_price_predictor_model.egg-info/SOURCES.txt
+src/avocado_price_predictor_model.egg-info/dependency_links.txt
+src/avocado_price_predictor_model.egg-info/top_level.txt
