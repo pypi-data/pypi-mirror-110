@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+teflo_notify_service_plugin/__init__.py
+teflo_notify_service_plugin/notify_service_plugin.py
+teflo_notify_service_plugin.egg-info/PKG-INFO
+teflo_notify_service_plugin.egg-info/SOURCES.txt
+teflo_notify_service_plugin.egg-info/dependency_links.txt
+teflo_notify_service_plugin.egg-info/entry_points.txt
+teflo_notify_service_plugin.egg-info/top_level.txt
+teflo_notify_service_plugin/files/schema.yml
+teflo_notify_service_plugin/files/schema_extensions.py
