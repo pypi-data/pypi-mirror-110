@@ -1,0 +1,7 @@
+README.md
+setup.py
+sshmitm.egg-info/PKG-INFO
+sshmitm.egg-info/SOURCES.txt
+sshmitm.egg-info/dependency_links.txt
+sshmitm.egg-info/requires.txt
+sshmitm.egg-info/top_level.txt
