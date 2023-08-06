@@ -1,0 +1,11 @@
+Flask
+Flask-AutoIndex
+python-socketio==5.3.0
+firexapp
+firex_flame_ui<0.28
+requests
+beautifulsoup4
+paramiko
+gevent-websocket
+gevent
+importlib-resources
