@@ -1,0 +1,9 @@
+click
+click-option-group
+einops>=0.3
+dm-haiku
+jax
+jaxlib
+optax
+torch
+tqdm
