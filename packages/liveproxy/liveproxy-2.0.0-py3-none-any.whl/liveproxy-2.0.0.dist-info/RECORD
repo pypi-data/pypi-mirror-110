@@ -1,0 +1,10 @@
+liveproxy/__init__.py,sha256=hwOJuFUEKtsgiOt4l6op9s-hviovM6TK1uCdtRNWY4E,22
+liveproxy/argparser.py,sha256=Cqie31IpdAAjqO6vDHNSJqakuRhKBqX19UzVuKhLk3k,3320
+liveproxy/files.py,sha256=oG_Gl2BJxeE5XAWWPqdv7PuxuYEsKbH527zJXYv7_ZI,1818
+liveproxy/main.py,sha256=x3Y9pGn9iEtVNWRnNn50NVWQUi27qlDiybtSjBiPQ0E,2558
+liveproxy/server.py,sha256=kcsZv4uEgBTKQ20UQwlBvzYS5K_lnp5Boq9FwQfUy3Y,5741
+liveproxy-2.0.0.dist-info/METADATA,sha256=-tcgBU5hJTV7ZmwbbaF3acWRRQ2IhjK1Uf0BB19uv8I,4707
+liveproxy-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+liveproxy-2.0.0.dist-info/entry_points.txt,sha256=EYuUhQX4ganCkbioD_TMjcq5g5VKXL4XkdJtxq3cEBE,51
+liveproxy-2.0.0.dist-info/top_level.txt,sha256=FyxbKmBh-nMkh7n2oxCOl7ZZ9nSVOmq-sVH3gSzlgYc,10
+liveproxy-2.0.0.dist-info/RECORD,,
