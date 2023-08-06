@@ -1,0 +1,3 @@
+openlr==1.0.1
+geographiclib
+shapely
