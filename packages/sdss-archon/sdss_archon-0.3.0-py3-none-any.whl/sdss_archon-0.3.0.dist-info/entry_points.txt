@@ -1,0 +1,4 @@
+[console_scripts]
+archon=archon.__main__:archon
+lvm-lab=archon.scripts.lvm_lab:lvm_lab
+
