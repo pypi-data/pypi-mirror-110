@@ -1,0 +1,2 @@
+discord.py>=1.0.1
+firebase_admin>=5.0.0
