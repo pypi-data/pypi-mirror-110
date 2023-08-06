@@ -1,0 +1,10 @@
+README.md
+setup.py
+maniera/__init__.py
+maniera/__main__.py
+maniera/calculator.py
+maniera.egg-info/PKG-INFO
+maniera.egg-info/SOURCES.txt
+maniera.egg-info/dependency_links.txt
+maniera.egg-info/entry_points.txt
+maniera.egg-info/top_level.txt
