@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyOptimizer/__init__.py
+pyOptimizer.egg-info/PKG-INFO
+pyOptimizer.egg-info/SOURCES.txt
+pyOptimizer.egg-info/dependency_links.txt
+pyOptimizer.egg-info/requires.txt
+pyOptimizer.egg-info/top_level.txt
+tests/__init__.py
