@@ -1,0 +1,3 @@
+from typing import Any
+
+def get_image_blob(image: Any, scalefactor: Any, size: Any, mean: Any, swaprb: Any, crop: Any): ...

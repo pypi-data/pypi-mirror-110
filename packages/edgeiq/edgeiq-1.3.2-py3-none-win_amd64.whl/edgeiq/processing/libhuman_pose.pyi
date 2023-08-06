@@ -1,0 +1,3 @@
+from typing import Any
+
+def get_poses(result: Any, image: Any): ...
