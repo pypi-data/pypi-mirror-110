@@ -1,0 +1,3 @@
+[console_scripts]
+yaml-axis-parser = yaml_axis_parser:main
+

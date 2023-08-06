@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yaml_axis_parser/__init__.py
+src/yaml_axis_parser.egg-info/PKG-INFO
+src/yaml_axis_parser.egg-info/SOURCES.txt
+src/yaml_axis_parser.egg-info/dependency_links.txt
+src/yaml_axis_parser.egg-info/entry_points.txt
+src/yaml_axis_parser.egg-info/requires.txt
+src/yaml_axis_parser.egg-info/top_level.txt
