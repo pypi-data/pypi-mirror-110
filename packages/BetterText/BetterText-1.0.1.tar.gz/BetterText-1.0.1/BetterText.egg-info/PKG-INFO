@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: BetterText
+Version: 1.0.1
+Summary: Better Usage of Text on a Terminal
+Home-page: UNKNOWN
+Author: Hide Le Ouf
+Author-email: lancbiche@gmail.com
+License: MIT
+Description: It's the most simply and the better way to print your text with nice effects and colors !
+        
+        Change Log
+        ==========
+        
+        1.0.1 (22/06/2021)
+        ------------------
+        - Official Release
+Keywords: color
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
