@@ -1,0 +1,15 @@
+calcbench/__init__.py,sha256=mqgosuteGedwCxb0bSq6nNP-YBcoghe-nRGcWVwGLSQ,1278
+calcbench/api_client.py,sha256=rh7PvuslLgt8g74otGctyj-rfF-9LHUSsx81FfdaL-U,11909
+calcbench/companies.py,sha256=5wQjtVYM4HjTQo3wNmyHjCmhV-eJ_pFyBeBzaPaPIco,3879
+calcbench/dimensional.py,sha256=l4CKX9-y13I2NsR0O9J60_vOc6ppuJJ6s7A2eMaX5uA,9020
+calcbench/disclosures.py,sha256=Cx-KGYcWUGKTk-RzxeLIiNXoHxBXvKYqop__hmJEUSE,15763
+calcbench/filing.py,sha256=Z5_3zOnuKEHyKNJYRvApA0z1lBtHaGovqz3X5P6bfJI,4713
+calcbench/listener.py,sha256=j8DG9c4hFx-xbUkPNNryqnkmGq9hDZeCqqG3_rZ4H_Y,4656
+calcbench/metrics.py,sha256=swB7lcd5CxjnMbnCP56dE0TO8ixgvqqyOOPGNFMXSRo,650
+calcbench/raw_numeric_XBRL.py,sha256=7momMzAsFjmrT_Le8m4yNa77zYRPRyzubjDZ3t-2BH0,4367
+calcbench/raw_numeric_non_XBRL.py,sha256=3ryEa1SG16EMzLPx2SE2Itdf-Q9_JsvSe7MUy6ENVI8,3978
+calcbench/standardized_numeric.py,sha256=n4OXUe2ahxL6H3PTiT1_3YubJltTf9wEZkLA8jTAVTs,18875
+calcbench_api_client-4.1.1.dist-info/METADATA,sha256=GR7D8BMQDa94zY5iqEppFbE63phnT7xK7gCwmJPMyrg,1711
+calcbench_api_client-4.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+calcbench_api_client-4.1.1.dist-info/top_level.txt,sha256=CcOBFYt5z17hoG8FIKfqpUlufEi4dTHvU6z2Yw7rioA,10
+calcbench_api_client-4.1.1.dist-info/RECORD,,
