@@ -1,0 +1,6 @@
+PyYAML
+SQLAlchemy
+gevent
+requests
+watchdog
+watchdog_gevent
