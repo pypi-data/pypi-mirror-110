@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+tehom/__init__.py
+tehom/_version.py
+tehom/datalib.py
+tehom/shared.py
+tehom.egg-info/PKG-INFO
+tehom.egg-info/SOURCES.txt
+tehom.egg-info/dependency_links.txt
+tehom.egg-info/not-zip-safe
+tehom.egg-info/top_level.txt

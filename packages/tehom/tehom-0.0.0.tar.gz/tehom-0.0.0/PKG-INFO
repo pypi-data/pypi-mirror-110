@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tehom
+Version: 0.0.0
+Summary: Transform underwater acoustic data into training data for machine learning.
+Home-page: https://github.com/Jacob-Stevens-Haas/tehom
+Author: Jake Stevens-Haas
+Author-email: jacob.stevens.haas@gmail.com
+License: AGPL
+Project-URL: Bug Tracker, https://github.com/Jacob-Stevens-Haas/tehom/issues
+Project-URL: Documentation, https://pages.github.com/Jacob-Stevens-Haas/tehom
+Project-URL: Source Code, https://github.com/Jacob-Stevens-Haas/tehom
+Description: # Tehom - the primordial deep of chaos
+        Machine Learning on Underwater Acoustics
+        
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
