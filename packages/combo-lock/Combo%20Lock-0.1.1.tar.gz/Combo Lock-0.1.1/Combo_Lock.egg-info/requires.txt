@@ -1,0 +1,2 @@
+fasteners~=0.16
+memory-tempfile
