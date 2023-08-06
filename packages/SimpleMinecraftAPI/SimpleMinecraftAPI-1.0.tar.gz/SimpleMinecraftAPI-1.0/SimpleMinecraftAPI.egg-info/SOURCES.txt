@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+SimpleMinecraftAPI/__init__.py
+SimpleMinecraftAPI.egg-info/PKG-INFO
+SimpleMinecraftAPI.egg-info/SOURCES.txt
+SimpleMinecraftAPI.egg-info/dependency_links.txt
+SimpleMinecraftAPI.egg-info/requires.txt
+SimpleMinecraftAPI.egg-info/top_level.txt

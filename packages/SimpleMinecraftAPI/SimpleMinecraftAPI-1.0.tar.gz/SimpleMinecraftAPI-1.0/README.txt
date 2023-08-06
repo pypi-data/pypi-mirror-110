@@ -1,0 +1,1 @@
+A simple way to get skin,body,head,cape,id
