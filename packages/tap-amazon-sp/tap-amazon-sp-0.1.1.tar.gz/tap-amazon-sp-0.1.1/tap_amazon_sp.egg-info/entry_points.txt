@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-amazon-sp=tap_amazon_sp:main
+    

@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tap_amazon_sp/__init__.py
+tap_amazon_sp.egg-info/PKG-INFO
+tap_amazon_sp.egg-info/SOURCES.txt
+tap_amazon_sp.egg-info/dependency_links.txt
+tap_amazon_sp.egg-info/entry_points.txt
+tap_amazon_sp.egg-info/requires.txt
+tap_amazon_sp.egg-info/top_level.txt
+tap_amazon_sp/schemas/orders.json
+tap_amazon_sp/streams/__init__.py
+tap_amazon_sp/streams/orders.py
