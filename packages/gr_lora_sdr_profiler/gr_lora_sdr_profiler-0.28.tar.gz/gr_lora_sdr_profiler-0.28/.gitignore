@@ -1,0 +1,36 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/vscode,pycharm
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode,pycharm
+
+##Tox files
+.tox/*
+##virtual env
+env/*
+
+
+## folders
+profiler/profiler.egg-info/*
+bin/*
+
+update/*
+update/*
+
+build/*
+.mypy_cache/*
+dist/*
+publish/*
+
+### PyCharm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+venvprofiler/*
+.idea/*
+.vscode/*
+results/*
+gr_lora_sdr_profiler/__pycache__/*
+figures/*
+temp/*
+.run/*
+profiler/
