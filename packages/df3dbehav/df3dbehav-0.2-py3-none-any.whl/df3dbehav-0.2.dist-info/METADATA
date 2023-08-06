@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: df3dbehav
+Version: 0.2
+Summary: Behavior Estimation on DeepFly3D annotations
+Home-page: https://github.com/semihgunel/Df3dBehav
+Author: Semih Gunel
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: pytorch-lightning
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: einops
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: pickle5
+Requires-Dist: tsaug
+
+# Install 
+```
+git clone https://github.com/semihgunel/Df3dBehav
+cd Df3dBehav
+pip install -e .
+```
+
+# Run
+```
+df3dbehav --path '/folder/with_pose_result_file/'
+```
+This will save a file called df3d_behav.csv under the same folder.
+
+
+
