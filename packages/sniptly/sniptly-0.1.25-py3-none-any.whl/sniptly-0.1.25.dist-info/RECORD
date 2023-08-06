@@ -1,0 +1,15 @@
+LICENSE,sha256=wJ3LYoT1O3eqfbY_D-YIocpxnPAt6jrnGn3WbQFcqZk,1039
+sniptly/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sniptly/cli.py,sha256=XQ6sVR-xVmAAwP8ZlAx_2Vq2UAi96R7TXPGRTCDezAY,6386
+sniptly/config.py,sha256=vd0q1SgBLmI_J2BK7-r1SeiHAy4pB7SmeYSV20QH3Vc,6422
+sniptly/file_line_wrapper.py,sha256=DYpGsixkARuMfwNI2FNInjcdKKQyeUIY13D-PcPY-uc,394
+sniptly/output.py,sha256=634-T0zZErHZGFmBGOUawYGbK3h4wxtZUM5ji5q2rS4,458
+sniptly/snippet_functions.py,sha256=XZWsiiD4GyvFyo8Z14ht9rU4eqhf0LqKMZ_7nl6ONnc,13670
+sniptly/string_manipulation.py,sha256=jlsWIIQSdWCSSDNpVEs0PxWlk8CuHcB8aMGEqknwA7k,924
+sniptly/types.py,sha256=LQ3YzHbCA70E6rSqk1SCKdfDlHieQd5IQz0-zjM_GGc,158
+sniptly/utils.py,sha256=XcVD7X3sj3bfAazdFJONptFi29vgeCpIc1jEb3_rbhg,316
+sniptly-0.1.25.dist-info/entry_points.txt,sha256=8lth4fEHtCKstLuShmGQ1bDt_EIz-OAgYTFo14UyghE,45
+sniptly-0.1.25.dist-info/LICENSE,sha256=wJ3LYoT1O3eqfbY_D-YIocpxnPAt6jrnGn3WbQFcqZk,1039
+sniptly-0.1.25.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sniptly-0.1.25.dist-info/METADATA,sha256=_8LY0vJZ0u9eosqeXEJQjHhIFWFvHs0gMnUQwzHIeOU,4044
+sniptly-0.1.25.dist-info/RECORD,,
