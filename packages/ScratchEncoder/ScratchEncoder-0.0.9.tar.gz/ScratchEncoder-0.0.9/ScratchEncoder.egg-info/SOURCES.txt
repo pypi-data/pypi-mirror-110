@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+ScratchEncoder/__init__.py
+ScratchEncoder/main.py
+ScratchEncoder.egg-info/PKG-INFO
+ScratchEncoder.egg-info/SOURCES.txt
+ScratchEncoder.egg-info/dependency_links.txt
+ScratchEncoder.egg-info/top_level.txt
