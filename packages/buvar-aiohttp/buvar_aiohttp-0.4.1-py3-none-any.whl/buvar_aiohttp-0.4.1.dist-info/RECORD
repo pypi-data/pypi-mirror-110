@@ -1,0 +1,10 @@
+buvar_aiohttp/__init__.py,sha256=nswTdDMVceXyWwNm8XS0z86fegcEnowFuVag-U4boOI,3103
+buvar_aiohttp/attrs.py,sha256=OjYiTfAvQcggBbx63PMtAkeUWYN-MA1ukLYGh0b5JNQ,1628
+buvar_aiohttp/json.py,sha256=3LauZ-_7rGg-ajqSle4tS5U9HbaM01TPb5qc6-K1hpI,1657
+buvar_aiohttp/openapi.py,sha256=Y4NFgGKrvZsMTWu9gun8b9-Gs71rT8TDrCm4Rb_wyK4,5915
+buvar_aiohttp/testing.py,sha256=uWeMjXLPaeoGWWLHjLLrUO_aCs5kYxgptBXTlQGBXsI,732
+buvar_aiohttp-0.4.1.dist-info/METADATA,sha256=AlksRnH-TECx3IbK5A5vgSXY7hGAiAn_4wgERZxuKRs,2059
+buvar_aiohttp-0.4.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+buvar_aiohttp-0.4.1.dist-info/entry_points.txt,sha256=YJ7ZGkuSI2QKFm-iKtIxd0-ZM3IgeaUTf5rWsg-VQ48,50
+buvar_aiohttp-0.4.1.dist-info/top_level.txt,sha256=z-n5wk0j_5xsRLt3CNuu5nwZh747SmghH1XDJB2jlY8,14
+buvar_aiohttp-0.4.1.dist-info/RECORD,,
