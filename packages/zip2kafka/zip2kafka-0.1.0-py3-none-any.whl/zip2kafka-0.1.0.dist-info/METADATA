@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zip2kafka
+Version: 0.1.0
+Summary: Package a zip and push it to kafka (and back!)
+Author: Dmitri Gvozdev
+Author-email: dmitrigvozdev94@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: confluent-kafka (>=1.7.0,<2.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
