@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+app.py
+db.py
+requirements.txt
+setup.cfg
+setup.py
+python_app.egg-info/PKG-INFO
+python_app.egg-info/SOURCES.txt
+python_app.egg-info/dependency_links.txt
+python_app.egg-info/requires.txt
+python_app.egg-info/top_level.txt
