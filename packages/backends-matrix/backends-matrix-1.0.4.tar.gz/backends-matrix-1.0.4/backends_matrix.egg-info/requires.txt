@@ -1,0 +1,5 @@
+numpy>=1.16
+plum-dispatch>=1
+backends>=1.2.1
+wbml>=0.3
+algebra
