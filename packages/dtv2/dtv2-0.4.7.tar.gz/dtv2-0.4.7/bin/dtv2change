@@ -1,0 +1,196 @@
+#!/usr/bin/env python3
+__author__ = "david cobac"
+__email__ = "david.cobac@gmail.com"
+__year__ = 2020
+__last_modified__ = 20210625
+
+import argparse
+import dtv2
+import colour
+import json
+import os
+import re
+import ast
+import copy
+
+
+parseur_args = argparse.ArgumentParser(
+    description="""Change Drevo tyrfing keys colors""")
+parseur_args.add_argument('-V', '--version',
+                          action="store_true",
+                          help='display version (last modif. date)')
+parseur_args.add_argument('-r', '--read',
+                          action="store_true",
+                          help='read and apply saved config')
+parseur_args.add_argument('-n', '--new',
+                          action="store_true",
+                          help='replace or create config file')
+parseur_args.add_argument('-a', '--append',
+                          action="store_true",
+                          help='change config with args and store changes')
+parseur_args.add_argument('-kbd', '--keyboard',
+                          help='svg_color_name or hex color'
+                          'or [rgb|hsl]=(.25,1,.5)')
+parseur_args.add_argument('-cat', '--category',
+                          nargs='+',
+                          help='category_name svg_color_name or hex color'
+                          'or [rgb|hsl]=(.25,1,.5)')
+parseur_args.add_argument('-key', '--key',
+                          nargs='+',
+                          help='key_name svg_color_name or hex color'
+                          'or [rgb|hsl]=(.25,1,.5)')
+args = parseur_args.parse_args()
+
+
+def user_to_color_tuple(user_color):
+    """ return a RGB int tuple so it can be used
+    with dtv2
+
+    user_color: str object
+    """
+
+    # searching for rgb or hsl color writing
+    reg = re.compile("(.+)=(.+)")
+    mat = reg.match(user_color)
+    if mat is not None:
+        mode = mat.group(1).strip()
+        color_tuple = mat.group(2).strip()
+        color_tuple = ast.literal_eval(color_tuple)
+        if mode == "rgb":
+            u_color = colour.Color(rgb=color_tuple)
+        elif mode == "hsl":
+            u_color = colour.Color(hsl=color_tuple)
+        else:
+            print(f"Unknown {user_color}")
+            exit()
+    else:
+        u_color = colour.Color(user_color)
+    return tuple(round(255 * c) for c in u_color.rgb)
+
+
+class dtv2change:
+    fichier_config = os.environ['HOME'] + "/.dtv2change"
+
+    def __init__(self):
+        self.dico_change = {}
+        self.dico_touches = {}
+        self.clavier = dtv2.dtv2()
+
+    def apply_changes(self):
+        self.only_keys()
+        self.clavier.key_set(self.dico_touches)
+
+    def only_keys(self):
+        self.dico_touches = {}
+        if 'kbd' in self.dico_change:
+            for k in self.clavier._keys:
+                self.dico_touches[k] = user_to_color_tuple(
+                    self.dico_change['kbd']
+                )
+        if 'cat' in self.dico_change:
+            for categ in self.dico_change['cat']:
+                for k in self.clavier._category_keys[categ]:
+                    self.dico_touches[k] = user_to_color_tuple(
+                        self.dico_change['cat'][categ]
+                    )
+        if 'key' in self.dico_change:
+            for k in self.dico_change['key']:
+                self.dico_touches[k] = user_to_color_tuple(
+                    self.dico_change['key'][k]
+                )
+
+    def read_file(self):
+        with open(dtv2change.fichier_config) as fh:
+            config = fh.read()
+        self.dico_change = json.loads(config)
+        return self.dico_change
+
+    def write_file(self):
+        with open(dtv2change.fichier_config, "w+") as fh:
+            fh.write(json.dumps(self.dico_change))
+
+    def read_kbd(self, argument):
+        if argument is not None:
+            self.dico_change['kbd'] = argument
+
+    def read_cat(self, argument):
+        if not argument:
+            return
+        elif len(argument) < 2:
+            print("""Need a category name AND a color name""")
+        elif len(argument) % 2 != 0:
+            # TO DO: add an example
+            print("""Problem with category names and colors tuples""")
+            return
+        #
+        dico_categorie = {}
+        #
+        for k, v in {argument[i]: argument[i + 1]
+                     for i in range(0, len(argument), 2)}.items():
+            if k not in self.clavier._category_keys:
+                print(f"""Category {k} does not exist!
+Available categories are {list(self.clavier._category_keys.keys())}""")
+                continue
+            dico_categorie[k] = v
+        #
+        self.dico_change['cat'] = dico_categorie
+
+    def read_key(self, argument):
+        if argument and len(argument) < 2:
+            print("""Need a key name AND a color name""")
+        elif not argument or len(argument) % 2 != 0:
+            # TO DO: message with example
+            return
+        #
+        dico_key = {}
+        for k, v in {argument[i]: argument[i + 1]
+                     for i in range(0, len(argument), 2)}.items():
+            if k not in self.clavier._keys:
+                print("""This key id. does not seem to exist!""")
+                continue
+            dico_key[k] = v
+        self.dico_change['key'] = dico_key
+
+
+if args.version:
+    print(f"dtv2change version {__last_modified__}")
+    quit()
+
+change = dtv2change()
+
+# read option
+# it reads current config, apply and exit
+if args.read:
+    change.read_file()
+    change.apply_changes()
+    quit()
+
+# change option
+# it reads current config and will change it with other CLI
+# parameters
+if args.append:
+    mon_dico = copy.deepcopy(change.read_file())
+#
+# apply all requested changes from CLI
+change.read_kbd(args.keyboard)
+change.read_cat(args.category)
+change.read_key(args.key)
+#
+change.apply_changes()
+#
+# if new file request then replace current file
+if args.new:
+    change.write_file()
+#
+# if append request : add or update modifs to file
+if args.append:
+    if 'kbd' in change.dico_change:
+        mon_dico['kbd'] = change.dico_change['kbd']
+    for cle in ['cat', 'key']:
+        if cle in change.dico_change:
+            if cle in mon_dico:
+                mon_dico[cle].update(change.dico_change[cle])
+            else:
+                mon_dico[cle] = change.dico_change[cle]
+    change.dico_change = mon_dico
+    change.write_file()
