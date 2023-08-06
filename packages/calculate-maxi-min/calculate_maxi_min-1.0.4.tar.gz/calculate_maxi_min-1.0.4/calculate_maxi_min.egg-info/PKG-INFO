@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: calculate-maxi-min
+Version: 1.0.4
+Summary: 计算最大最小值
+Home-page: https://gitee.com/jia_kai_peng/calcalute
+Author: jkp
+Author-email: 1543889217@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: loguru
+Requires: pandas
