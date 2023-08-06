@@ -1,0 +1,3 @@
+[console_scripts]
+WATER_SORT_PUZZLE = WATER_SORT_PUZZLE.water_sort_puzzle:main
+
