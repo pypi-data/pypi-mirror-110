@@ -1,0 +1,3 @@
+[console_scripts]
+spotify-playlist-utility = spotify_playlist_utility.__main__:main
+
