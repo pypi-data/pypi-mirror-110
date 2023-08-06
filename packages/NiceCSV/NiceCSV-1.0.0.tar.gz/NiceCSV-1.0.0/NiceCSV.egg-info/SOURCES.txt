@@ -1,0 +1,7 @@
+README.md
+setup.py
+NiceCSV/__init__.py
+NiceCSV.egg-info/PKG-INFO
+NiceCSV.egg-info/SOURCES.txt
+NiceCSV.egg-info/dependency_links.txt
+NiceCSV.egg-info/top_level.txt
