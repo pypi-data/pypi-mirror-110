@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ioctl/__init__.py
+ioctl/hidraw.py
+ioctl.egg-info/PKG-INFO
+ioctl.egg-info/SOURCES.txt
+ioctl.egg-info/dependency_links.txt
+ioctl.egg-info/top_level.txt
