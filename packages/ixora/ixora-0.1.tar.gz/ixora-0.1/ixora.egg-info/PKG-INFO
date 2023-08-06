@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: ixora
+Version: 0.1
+Summary: Automate force-directed graph
+Home-page: https://github.com/qeeqbox/ixora
+Author: QeeqBox
+Author-email: gigaqeeq@gmail.com
+License: AGPL-3.0
+Description: qeeqbox ixora coming soon
+        
+Platform: UNKNOWN
+Requires-Python: >=3
