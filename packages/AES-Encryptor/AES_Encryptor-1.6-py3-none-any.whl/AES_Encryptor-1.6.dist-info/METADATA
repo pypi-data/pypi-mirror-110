@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: AES-Encryptor
+Version: 1.6
+Summary: Encrypt Strings With AES Encryption
+Home-page: https://github.com/pmk456/AES-Encryptor
+Author: Patan Musthakheem
+Author-email: patanmusthakheem786@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pmk456/AES-Encryptor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AES Encryptor
+## Installation
+```
+pip install AES-Encryptor
+```
+## Using git
+```
+git clone https://github.com/pmk456/AES-Encryptor
+cd AES-Encryptor
+python setup.py install
+```
+## Usage
+### Encrypt String
+```
+from Encryptor import AES
+enc = AES(key='keytouse', iv='this is iv 45611')
+enc.encrypt("Hello")
+### OUTPUT
+b'}%\x99\x00b3\xb0?\xe5\t\x07wc\xa8\xc6\x8d'
+```
+### Decrypt String
+```
+from Encryptor import AES
+dec = AES(key='keytouse', iv='this is iv 45611')
+dec.decrypt(b'}%\x99\x00b3\xb0?\xe5\t\x07wc\xa8\xc6\x8d')
+### OUTPUT
+'Hello'
+```
+
