@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+extractlinks.py
+pyproject.toml
+setup.cfg
+setup.py
+extractlinks.egg-info/PKG-INFO
+extractlinks.egg-info/SOURCES.txt
+extractlinks.egg-info/dependency_links.txt
+extractlinks.egg-info/top_level.txt
