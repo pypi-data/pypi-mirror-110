@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+mongomapper/__init__.py
+mongomapper/base.py
+mongomapper/config.py
+mongomapper/encoders.py
+mongomapper/errors.py
+mongomapper/query.py
+mongomapper/reference.py
+mongomapper/utils.py
+mongomapper.egg-info/PKG-INFO
+mongomapper.egg-info/SOURCES.txt
+mongomapper.egg-info/dependency_links.txt
+mongomapper.egg-info/requires.txt
+mongomapper.egg-info/top_level.txt
