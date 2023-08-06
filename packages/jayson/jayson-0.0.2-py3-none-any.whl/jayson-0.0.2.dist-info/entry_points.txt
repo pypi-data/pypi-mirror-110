@@ -1,0 +1,3 @@
+[console_scripts]
+jayson = jayson.__main__:main
+
