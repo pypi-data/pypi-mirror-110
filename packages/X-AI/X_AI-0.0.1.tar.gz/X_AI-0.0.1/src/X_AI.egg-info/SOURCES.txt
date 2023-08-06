@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/X_AI/__init__.py
+src/X_AI/hello.py
+src/X_AI.egg-info/PKG-INFO
+src/X_AI.egg-info/SOURCES.txt
+src/X_AI.egg-info/dependency_links.txt
+src/X_AI.egg-info/top_level.txt
