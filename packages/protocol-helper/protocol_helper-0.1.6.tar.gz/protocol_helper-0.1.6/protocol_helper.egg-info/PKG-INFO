@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: protocol-helper
+Version: 0.1.6
+Summary: Common protocol encapsulation classes
+Home-page: UNKNOWN
+Author: LeisureMan
+Author-email: leisuremam@gmail.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+PROTOCOL-HELPER: 
+=======================================
+
+
+Usage
+================
+- Environment variables must be set before referring to the module
+
+.. code-block:: python
+
+    >>> import os
+    >>> os.environ.setdefault('LOAD_PROJECT_PATH', BASE_PATH)
+
+Configs
+============
+- An .env file must be created under the directory
+
+.. code-block:: python
+
+    >>> SURVEILLANCE_SYSTEM_DOMAIN= 
+    >>> SURVEILLANCE_SYSTEM_TOKEN=
+
+Installation
+============
+.. code-block:: shell
+
+    $   pip install protocol-helper
+
+
+
