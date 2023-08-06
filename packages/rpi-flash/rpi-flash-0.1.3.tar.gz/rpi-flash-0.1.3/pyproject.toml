@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rpi-flash"
+version = "0.1.3"
+description = ""
+authors = ["Jono Hill <jono@hillnz.com>"]
+readme = "readme.md"
+repository = "https://github.com/jonohill/rpi-flash"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.8.2"
+requests = "^2.25.1"
+typer = "^0.3.2"
+humanize = "^3.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+flash = "rpi_flash"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
