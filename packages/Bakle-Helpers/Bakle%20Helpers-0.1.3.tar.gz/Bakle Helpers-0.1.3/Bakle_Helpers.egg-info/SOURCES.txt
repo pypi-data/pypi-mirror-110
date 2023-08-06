@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Bakle_Helpers.egg-info/PKG-INFO
+Bakle_Helpers.egg-info/SOURCES.txt
+Bakle_Helpers.egg-info/dependency_links.txt
+Bakle_Helpers.egg-info/top_level.txt
+bakle_helpers/__init__.py
+bakle_helpers/email.py
+bakle_helpers/helper_exceptions.py
+bakle_helpers/str.py
+bakle_helpers/url.py
+bakle_helpers/support/emails.txt
+bakle_helpers/support/urls.txt
