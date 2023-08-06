@@ -1,0 +1,16 @@
+pytago/__init__.py,sha256=vPGsLFggOT0zr6Rlv9NmWsWXwXahzA7st4949LCiOn4,26
+pytago/cmd.py,sha256=GjqnnBhWv1T1mrs-bgKuv7Vh8DXFj4iFi77qRHPHS6w,670
+pytago/core.py,sha256=PtMeCRoTUJMMmkC6gFd6w_p7lnoUHd-5ZdTntscgdng,1001
+pytago/web.py,sha256=ZKKpgiGo1EnCIxQJSVlWYK14waykOnX6qEHdFfy0284,822
+pytago/go_ast/__init__.py,sha256=N7pfdxS181Y85VQph1KywwypZZxd07XFGJ9QwGGXbDE,110
+pytago/go_ast/ast_snippets.py,sha256=YNZr6qkEYbNy0aQv__IqYTn8a-0wqte5rl9_oTUEIBw,22081
+pytago/go_ast/core.py,sha256=nAxYjCBY41Glx9Oo2ihLr8J1Erx0xSfiSUkeZrOjT3U,115943
+pytago/go_ast/parsing.py,sha256=gF7Q2nokpivR2oiBoXAYDmm8csBKSu-e1Eghhzuc2KA,9819
+pytago/go_ast/py_snippets.py,sha256=-eJ-OcTR-IvB9uKY8RysBZz6JoSDZ01E7jUuqT2r15I,34829
+pytago/go_ast/transformers.py,sha256=lid-1tYzncoFSr0hr3oR3gmc6-xWiuLmoW8VfmCKCmg,66827
+pytago-0.0.9.dist-info/LICENSE,sha256=wHg_c0m_WAlpL3Eye4RBklvwqFY_eBezYkz0KYkmiOk,1054
+pytago-0.0.9.dist-info/METADATA,sha256=k9poz2QbLsebiIm6w8_pgc4TEf0CswpoKfQ6WWAe0LA,59623
+pytago-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytago-0.0.9.dist-info/entry_points.txt,sha256=31nGI7aJVHVgMQhX7GM0Al_3w_rbHQr2icTWngWDCoY,44
+pytago-0.0.9.dist-info/top_level.txt,sha256=KeQAyLXwQyqjOi7JWKPPauq63xze-Lnlgh2uUi8sYqA,7
+pytago-0.0.9.dist-info/RECORD,,
