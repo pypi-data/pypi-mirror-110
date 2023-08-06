@@ -1,0 +1,7 @@
+setup.py
+sayhello/__init__.py
+sayhello/hello.py
+sayhello_world.egg-info/PKG-INFO
+sayhello_world.egg-info/SOURCES.txt
+sayhello_world.egg-info/dependency_links.txt
+sayhello_world.egg-info/top_level.txt
