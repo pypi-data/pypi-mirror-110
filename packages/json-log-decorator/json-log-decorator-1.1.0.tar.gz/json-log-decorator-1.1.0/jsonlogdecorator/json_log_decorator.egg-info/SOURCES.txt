@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jsonlogdecorator/json_log_decorator.egg-info/PKG-INFO
+jsonlogdecorator/json_log_decorator.egg-info/SOURCES.txt
+jsonlogdecorator/json_log_decorator.egg-info/dependency_links.txt
+jsonlogdecorator/json_log_decorator.egg-info/requires.txt
+jsonlogdecorator/json_log_decorator.egg-info/top_level.txt
