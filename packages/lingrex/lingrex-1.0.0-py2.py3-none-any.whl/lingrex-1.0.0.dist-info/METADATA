@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lingrex
+Version: 1.0.0
+Summary: Linguistic reconstruction with LingPy
+Home-page: https://github.com/lingpy/lingrex
+Author: Johann-Mattis List
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: historical linguistics,computational linguistics,computer-assisted language comparison
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: lingpy (>=2.6.8)
+
+UNKNOWN
+
+
