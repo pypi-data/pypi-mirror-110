@@ -1,0 +1,3 @@
+[console_scripts]
+pyposer = pyposer.__main__:main
+
