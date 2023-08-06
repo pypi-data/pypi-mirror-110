@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "instance-builder"
+version = "0.1.1"
+description = "Instance builder library for Python inspired by Lombok"
+authors = ["Shuntaro Shimizu <ut.s.shimizu@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+twine = "^3.4.1"
+wheel = "^0.36.2"
+keyring = "^23.0.1"
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
