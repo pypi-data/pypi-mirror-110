@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/matomo_api/__init__.py
+src/matomo_api/decorators.py
+src/matomo_api/module_methods.py
+src/matomo_api/parameter_specifications.py
+src/matomo_api.egg-info/PKG-INFO
+src/matomo_api.egg-info/SOURCES.txt
+src/matomo_api.egg-info/dependency_links.txt
+src/matomo_api.egg-info/top_level.txt
