@@ -1,0 +1,15 @@
+usefathom/__init__.py,sha256=VBwRaXj_0u0vWjUFkA9tggAScK2BRMm9FehDXl1SD2s,78
+usefathom/api.py,sha256=QlkZjcQyEjFy__X3PdM8elbIUqUQw76w7V-DeQzctsg,1305
+usefathom/apps.py,sha256=Vwc0hPJOb5g8nF5asimK2p8X7HITTmMrRZRmTwSlsds,147
+usefathom/context_processors.py,sha256=mZo6v-zwMgne06ZtcBoh5MWq71zlUsA7SWUMky7rzQA,335
+usefathom/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+usefathom/templates/usefathom/click.html,sha256=bmpfEM9-HQWjUEJ9YD9pXkdmxDD5zJkyQFOt-Zjnm8w,44
+usefathom/templates/usefathom/usefathom.html,sha256=Uq-xqIK5DECi8IXX9ujTzJkMG2Gg-fkeF35AhFvENY0,421
+usefathom/templatetags/fathom.py,sha256=rAzLJM0_qb1_57skUBDHHhi5IVjXy12vcxtbtOKwSP8,255
+usefathom/templatetags/__pycache__/fathom.cpython-36.pyc,sha256=ej6H53dHb-hB8GOuC20lQb59tDCIJ-KbIF24fAfO9Bk,438
+usefathom/templatetags/__pycache__/fathom.cpython-38.pyc,sha256=GrwjeqUPmlzTLc4LLSgWQd7H2-kKOf0Mb_pn2b6ERQ8,450
+django_usefathom-1.0.dist-info/LICENSE,sha256=AV3JGDEPGsSmHxKalDtOqEBgtB7iEwgPqt092_Kivtk,1077
+django_usefathom-1.0.dist-info/METADATA,sha256=nOX1wEU6CJ1L8WurYU8SovdOo3opZp4923jetUFiDDc,2742
+django_usefathom-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_usefathom-1.0.dist-info/top_level.txt,sha256=gJ01M2D5iVATLdDL4JgCXTiLkBCao0Q4fUORUSJ9jN0,10
+django_usefathom-1.0.dist-info/RECORD,,
