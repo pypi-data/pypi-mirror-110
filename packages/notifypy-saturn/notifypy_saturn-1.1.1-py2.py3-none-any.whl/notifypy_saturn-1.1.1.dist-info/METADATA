@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: notifypy-saturn
+Version: 1.1.1
+Summary: A python sdk for notifications which connects to Acumen saturn notify app
+Home-page: https://github.com/acumendigital/notify-py
+Author: Samuel Olufeko
+Author-email: samuel@acumen.com.ng
+License: MIT
+Keywords: notifications python library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests
+
+UNKNOWN
+
+
