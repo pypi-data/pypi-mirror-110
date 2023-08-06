@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: pystmm
+Version: 0.1.0
+Summary: Support Tensor Machine Multiclassifier
+Home-page: https://github.com/cdfbdex/pySTMM
+Author: Carlos Ferrin-Bolaños, Wilfredo Alfonso-Morales and Humberto Loaiza-Correa
+Author-email: cdfbdex@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mne
+Requires-Dist: wget
+Requires-Dist: plotly
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.2); extra == 'dev'
+Requires-Dist: check-manifest; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+
+UNKNOWN
+
+
