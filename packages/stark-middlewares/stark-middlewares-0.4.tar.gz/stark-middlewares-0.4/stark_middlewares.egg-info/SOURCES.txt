@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+stark_middlewares/__init__.py
+stark_middlewares/middlewares.py
+stark_middlewares.egg-info/PKG-INFO
+stark_middlewares.egg-info/SOURCES.txt
+stark_middlewares.egg-info/dependency_links.txt
+stark_middlewares.egg-info/requires.txt
+stark_middlewares.egg-info/top_level.txt
