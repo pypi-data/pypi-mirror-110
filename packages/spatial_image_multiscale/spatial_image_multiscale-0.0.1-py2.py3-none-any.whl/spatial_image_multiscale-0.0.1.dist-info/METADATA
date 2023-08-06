@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spatial_image_multiscale
+Version: 0.0.1
+Summary: spatial-image-multiscale
+Home-page: https://github.com/spatial-image/spatial-image-multiscale
+Author: Matt McCormick
+Author-email: matt.mccormick@kitware.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: pytest ; extra == "test"
+Provides-Extra: test
+
+# spatial-image-multiscale
+
+Generate a multiscale [spatial-image](https://github.com/spatial-image/spatial-image).
+
