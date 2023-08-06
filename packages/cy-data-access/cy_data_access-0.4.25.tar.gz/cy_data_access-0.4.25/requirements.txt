@@ -1,0 +1,4 @@
+pymodm>=0.4.2
+influxdb-client>=1.14.0
+pymysql>=0.9.3
+sqlalchemy>=1.3.15
