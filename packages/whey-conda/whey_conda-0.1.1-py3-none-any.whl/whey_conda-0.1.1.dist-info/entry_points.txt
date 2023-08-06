@@ -1,0 +1,2 @@
+[whey.builder]
+whey_conda = whey_conda:CondaBuilder
