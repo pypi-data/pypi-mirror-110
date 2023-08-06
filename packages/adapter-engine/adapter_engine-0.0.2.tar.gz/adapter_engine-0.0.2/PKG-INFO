@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: adapter_engine
+Version: 0.0.2
+Summary: Adapter for pocsuite3 and nuclei.
+Home-page: https://github.com/cn-kali-team/adapter_engine
+Author: Kali-Team
+Author-email: root@kali-team.cn
+License: GPL 2.0
+Keywords: adapter_engine,nuclei-engine,pocsuite3
+Platform: any
+Requires-Python: >=3.7
+License-File: LICENSE
+
+Adapter for pocsuite3 and nuclei
+
