@@ -1,0 +1,11 @@
+cmdwrap/__init__.py,sha256=bBjLXmzs4twEyiK6GymQhaelW2EPwoVcCUZ1Qb7r_XY,53
+cmdwrap/main.py,sha256=dROojTHN1zjeRUjfRmzFuFMcuifEkDe0ZhIgGaZSNcE,830
+cmdwrap/meta.py,sha256=FE0SrWC1JLi4WNVNl4NWJ_Hq_hQcvwpLv7B-h8jy-YY,64
+cmdwrap/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmdwrap/cli/wrap.py,sha256=mJFrsrb-Y9os41BhqBecc_gEUhBc2H68ua0dj7BovSU,639
+cmdwrap-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cmdwrap-0.1.0.dist-info/METADATA,sha256=piCNEtnsgAca1qX-ICjuiU-Z16KVzCtvduACZBRVkb8,1340
+cmdwrap-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cmdwrap-0.1.0.dist-info/entry_points.txt,sha256=z4IOQQQzlrsA1K8q5q5dCdlJrxq6aic2i9J6CSNRRsQ,48
+cmdwrap-0.1.0.dist-info/top_level.txt,sha256=Th0Q63t2d2LPgiu-sRD9w1M7EXf2FVkdlOclme68FZw,8
+cmdwrap-0.1.0.dist-info/RECORD,,

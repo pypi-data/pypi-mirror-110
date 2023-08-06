@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cmdwrap
+Version: 0.1.0
+Summary: Wrap shell commands for your convenience
+Home-page: https://github.com/ru5j4r0/cmdwrap
+Author: ru5j4r0
+Author-email: 59990307+ru5j4r0@users.noreply.github.com
+License: Apache-2.0
+Keywords: shell,command,cmd,cli,cui,interface,terminal,console,wrapper,wrap
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: piest
+
+# cmdwrap
+Wrap shell commands for your convenience
+
+
