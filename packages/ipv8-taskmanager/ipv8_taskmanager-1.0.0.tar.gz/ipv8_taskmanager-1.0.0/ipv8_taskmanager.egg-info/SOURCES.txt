@@ -1,0 +1,6 @@
+setup.py
+ipv8_taskmanager/__init__.py
+ipv8_taskmanager.egg-info/PKG-INFO
+ipv8_taskmanager.egg-info/SOURCES.txt
+ipv8_taskmanager.egg-info/dependency_links.txt
+ipv8_taskmanager.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ipv8_taskmanager
+Version: 1.0.0
+Summary: The IPv8 TaskManager
+Home-page: https://github.com/Tribler/py-ipv8
+Author: Tribler
+License: UNKNOWN
+Description: This module provides a set of tools to maintain a list of asyncio Tasks that are to be executed during the lifetime of an arbitrary object, usually getting killed with it. This module is extracted from the IPv8 main project.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
