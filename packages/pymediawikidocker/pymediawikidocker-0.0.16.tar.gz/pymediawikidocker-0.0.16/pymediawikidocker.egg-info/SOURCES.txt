@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+mwdocker/__init__.py
+mwdocker/docker.py
+mwdocker/mw.py
+mwdocker/mwcluster.py
+mwdocker/resources/extensions.json
+pymediawikidocker.egg-info/PKG-INFO
+pymediawikidocker.egg-info/SOURCES.txt
+pymediawikidocker.egg-info/dependency_links.txt
+pymediawikidocker.egg-info/entry_points.txt
+pymediawikidocker.egg-info/requires.txt
+pymediawikidocker.egg-info/top_level.txt
