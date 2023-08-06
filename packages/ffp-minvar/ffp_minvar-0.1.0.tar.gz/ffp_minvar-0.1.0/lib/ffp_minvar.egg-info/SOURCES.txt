@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lib/ffp_minvar/__init__.py
+lib/ffp_minvar/ffp_minvar_lib.py
+lib/ffp_minvar.egg-info/PKG-INFO
+lib/ffp_minvar.egg-info/SOURCES.txt
+lib/ffp_minvar.egg-info/dependency_links.txt
+lib/ffp_minvar.egg-info/top_level.txt
+lib/ffp_minvar/Contents/Resources/DWARF/alg_lomv.so
+lib/ffp_minvar/shared/alg_lomv.so.dSYM/alg_lomv.so
+test/test_lib.py
