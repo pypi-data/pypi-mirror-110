@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+maggport/__init__.py
+maggport/__main__.py
+maggport/logger.py
+maggport/maggport.py
+maggport.egg-info/PKG-INFO
+maggport.egg-info/SOURCES.txt
+maggport.egg-info/dependency_links.txt
+maggport.egg-info/entry_points.txt
+maggport.egg-info/not-zip-safe
+maggport.egg-info/requires.txt
+maggport.egg-info/top_level.txt
