@@ -1,0 +1,3 @@
+[console_scripts]
+pytago = pytago.cmd:main
+
