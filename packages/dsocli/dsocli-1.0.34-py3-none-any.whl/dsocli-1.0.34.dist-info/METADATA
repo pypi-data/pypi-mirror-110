@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dsocli
+Version: 1.0.34
+Summary: DevSecOps CLI
+Home-page: https://github.com/ramtinkazemi/devsecops
+Author: Ramtin Kazemi
+Author-email: ramtin.kazemi@gmail.com
+License: GPLV3
+Project-URL: Documentation, https://github.com/ramtinkazemi/devsecops
+Project-URL: Source, https://github.com/ramtinkazemi/devsecops
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: pyjson
+Requires-Dist: boto
+Requires-Dist: boto3
+Requires-Dist: click
+Requires-Dist: click-params
+Requires-Dist: stdiomask
+Requires-Dist: requests
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: jinja2
+Requires-Dist: jmespath
+
+
+# DevSecOps CLI
+This tool assists DevSecOps engineers to perform the achiev the followings:
+- Configuration management
+    - Paramaters
+    - Secrets
+    - Templates
+- Package management
+- Release management
+- Infrastructure as Code
+- Provision resources on the public clouds
+- Deploy releases
+- Security testing (SAST/DAST)
+
+
