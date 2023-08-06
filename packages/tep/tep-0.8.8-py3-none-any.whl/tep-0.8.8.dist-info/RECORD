@@ -1,0 +1,13 @@
+tep/__init__.py,sha256=ZC2Ky7upaKTbiN4_eEQtr5GEYhIzbb8dAFvvHN_GUlw,121
+tep/cli.py,sha256=MUx1LhXSuIXp2mA4Xbq0RCq9HHA9geaxZkcDVKIr4lM,1353
+tep/client.py,sha256=tp0XcdZL4LRSBTwUidvz5z6WdqWJ4ghN0FG5pKN1bp0,4362
+tep/dao.py,sha256=dGBhC5UPRnMDicaRHbHqN2VAe7zDt3Tqj5yAS6y7YhM,759
+tep/fixture.py,sha256=kGVzku71yA8dB01R4VLibpQ_QOYTDP3IlXGdlvA4LIY,1747
+tep/func.py,sha256=LyyXE9M_8Td4iaVbw-H8I0D5Afl_VsaeNDBcRJTv_-k,11320
+tep/plugin.py,sha256=5OjQIQwgRhvLkX4tdtygA4U9ExrfCQRmuNIIfyYCOWc,2228
+tep/scaffold.py,sha256=E9ZbtAg2Nchd3AGPRwAK8NtcdXYfGLFx53LDwfJDJBw,4416
+tep-0.8.8.dist-info/entry_points.txt,sha256=FFRmB0SnJgVyML3DKGTQRzviK4kO34W0sGD43ytr74I,70
+tep-0.8.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tep-0.8.8.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+tep-0.8.8.dist-info/METADATA,sha256=CwmDC8xa69DbTpfRCSy4UjZxCPYASiVuBqAUnktroDk,2940
+tep-0.8.8.dist-info/RECORD,,
