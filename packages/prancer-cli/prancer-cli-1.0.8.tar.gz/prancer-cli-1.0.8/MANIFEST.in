@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+
+include config/*/*.ini
+include config/__init__.py
+include config/*/__init__.py
+include adv/processor_enterprise/scripts/default_data/*.json
