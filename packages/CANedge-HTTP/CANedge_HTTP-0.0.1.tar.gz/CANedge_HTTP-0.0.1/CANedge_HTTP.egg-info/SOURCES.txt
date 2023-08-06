@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+CANedge_HTTP/__init__.py
+CANedge_HTTP/_version.py
+CANedge_HTTP/canedge_http.py
+CANedge_HTTP.egg-info/PKG-INFO
+CANedge_HTTP.egg-info/SOURCES.txt
+CANedge_HTTP.egg-info/dependency_links.txt
+CANedge_HTTP.egg-info/top_level.txt
