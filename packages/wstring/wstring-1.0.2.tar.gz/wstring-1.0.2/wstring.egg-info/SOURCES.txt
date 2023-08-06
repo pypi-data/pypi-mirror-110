@@ -1,0 +1,11 @@
+README.md
+setup.py
+wstring/Exceptions.py
+wstring/__init__.py
+wstring/wstring.py
+wstring.egg-info/PKG-INFO
+wstring.egg-info/SOURCES.txt
+wstring.egg-info/dependency_links.txt
+wstring.egg-info/entry_points.txt
+wstring.egg-info/requires.txt
+wstring.egg-info/top_level.txt
