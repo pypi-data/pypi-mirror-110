@@ -1,0 +1,12 @@
+numpy
+matplotlib
+pandas_datareader
+datetime
+empyrical
+quantstats
+yfinance
+darts
+yahoo-fin
+yahoofinancials
+pyportfolioopt
+ipython
