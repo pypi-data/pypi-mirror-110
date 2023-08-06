@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: schematicpy
+Version: 1.0.0
+Summary: Package for biomedical data model and metadata ingress management
+Home-page: https://github.com/Sage-Bionetworks/schematic
+Keywords: schema,metadata,validation,data model,linked data
+Author: Milen Nikolov
+Author-email: milen.nikolov@sagebase.org
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: click-log (>=0.3.2,<0.4.0)
+Requires-Dist: google-api-python-client (>=1.12.8,<2.0.0)
+Requires-Dist: google-auth-httplib2 (>=0.0.4,<0.0.5)
+Requires-Dist: google-auth-oauthlib (>=0.4.2,<0.5.0)
+Requires-Dist: graphviz (>=0.16,<0.17)
+Requires-Dist: importlib-metadata (>=1.6.0,<2.0.0); python_version < "3.8"
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Requires-Dist: networkx (>=2.5,<3.0)
+Requires-Dist: oauth2client (<4.0.0)
+Requires-Dist: pandas (>=1.2.1,<2.0.0)
+Requires-Dist: pygsheets (>=2.0.4,<3.0.0)
+Requires-Dist: rdflib (>=5.0.0,<6.0.0)
+Requires-Dist: setuptools (>=52.0.0,<53.0.0)
+Requires-Dist: synapseclient (>=2.3,<2.4)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Documentation, https://github.com/Sage-Bionetworks/schematic
+Project-URL: Repository, https://github.com/Sage-Bionetworks/schematic
+Description-Content-Type: text/markdown
+
+# Schematic
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FSage-Bionetworks%2Fschematic%2Fbadge%3Fref%3Ddevelop&style=flat)](https://actions-badge.atrox.dev/Sage-Bionetworks/schematic/goto?ref=develop) [![Documentation Status](https://readthedocs.org/projects/sage-schematic/badge/?version=develop)](https://sage-schematic.readthedocs.io/en/develop/?badge=develop) [![PyPI version](https://badge.fury.io/py/schematicpy.svg)](https://badge.fury.io/py/schematicpy)
+
+## Introduction
+
+SCHEMATIC is an acronym for _Schema Engine for Manifest Ingress and Curation_. The Python based infrastructure provides a _novel_ schema-based, data ingress ecosystem, that is meant to streamline the process of dataset annotation, metadata validation and submission to an asset store for various data contributors.
+
+## Installation Requirements and Pre-requisites
+
+* Python 3.7.1 or higher
+
+Note: You need to be a registered and certified user on [`synapse.org`](https://www.synapse.org/), and also have the right permissions to download the Google credentials files from Synapse.
+
+## Installing
+
+Create and activate a virtual environment within which you can install the package:
+
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Install and update the package using [pip](https://pip.pypa.io/en/stable/quickstart/):
+
+```
+python -m pip install schematicpy
+```
+
+## Command Line Client Usage
+
+### Initialization
+
+```
+schematic init --config ~/path/to/config.yml    # initialize mode of authentication
+```
+
+### Manifest
+
+```
+schematic manifest --config ~/path/to/config.yml get    # generate manifest based on data type
+```
+
+```
+schematic manifest --config ~/path/to/config.yml validate   # validate manifest
+```
+
+### Model
+
+```
+schematic model --config ~/path/to/config.yml submit    # validate and submit manifest
+```
+
+## Contributing
+
+Interested in contributing? Awesome! We follow the typical [GitHub workflow](https://guides.github.com/introduction/flow/) of forking a repo, creating a branch, and opening pull requests. For more information on how you can add or propose a change, visit our [contributing guide](CONTRIBUTION.md). To start contributing to the package, you can refer to the [Getting Started](CONTRIBUTION.md#getting-started) section in our [contributing guide](CONTRIBUTION.md).
+
+## Contributors
+
+Active contributors and maintainers:
+
+- [Milen Nikolov](https://github.com/milen-sage)
+- [Sujay Patil](https://github.com/sujaypatil96)
+- [Bruno Grande](https://github.com/BrunoGrandePhD)
+- [Xengie Doan](https://github.com/xdoan)
+
