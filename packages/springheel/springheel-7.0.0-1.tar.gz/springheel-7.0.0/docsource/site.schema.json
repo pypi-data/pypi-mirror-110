@@ -1,0 +1,947 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://www.twinkle-night.net/Download/site.schema.json",
+    "type": "object",
+    "title": "Springheel site.json Schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "required": [
+        "generated_on",
+        "base_url",
+        "site_author",
+        "site_author_email",
+        "language",
+        "description",
+        "site_title",
+        "country",
+        "site_type",
+        "characters_page",
+        "store_page",
+        "extras_page",
+        "license",
+        "navdirection",
+        "rename_images",
+        "image_rename_pattern",
+        "zero_padding",
+        "scrollto",
+        "site_style",
+        "header_filename",
+        "social_icons",
+        "twitter_handle",
+        "tumblr_handle",
+        "patreon_handle",
+        "liberapay_handle",
+        "pump_url",
+        "diaspora_url",
+        "mastodon_url",
+        "json_mode",
+        "about",
+        "archive_page",
+        "categories",
+        "site_authors"
+    ],
+    "properties": {
+        "generated_on": {
+            "$id": "#/properties/generated_on",
+            "type": "number",
+            "title": "The generated_on schema",
+            "description": "The date when this site was generated (Unix timestamp).",
+            "default": 0.0
+        },
+        "base_url": {
+            "$id": "#/properties/base_url",
+            "type": "string",
+            "title": "The base_url schema",
+            "description": "The base URL for this site.",
+            "default": "https://example.com/springheel/"
+        },
+        "site_author": {
+            "$id": "#/properties/site_author",
+            "type": "string",
+            "title": "The site_author schema",
+            "description": "The author of this site.",
+            "default": "Springheel D. Jack"
+        },
+        "site_author_email": {
+            "$id": "#/properties/site_author_email",
+            "format": "email",
+            "type": "string",
+            "title": "The site_author_email schema",
+            "description": "The author's email, used for RSS feed generation. Will probably be fake.",
+            "default": "notarealemail@example.com"
+        },
+        "language": {
+            "$id": "#/properties/language",
+            "type": "string",
+            "title": "The language schema",
+            "description": "The site's language (ISO 639-1 code).",
+            "default": "en"
+        },
+        "description": {
+            "$id": "#/properties/description",
+            "type": "string",
+            "title": "The description schema",
+            "description": "A short description of the site.",
+            "default": "My awesome Springheeled comic!"
+        },
+        "site_title": {
+            "$id": "#/properties/site_title",
+            "type": "string",
+            "title": "The site_title schema",
+            "description": "The overall title of the site.",
+            "default": "Springheel Comics"
+        },
+        "country": {
+            "$id": "#/properties/country",
+            "type": "string",
+            "title": "The country schema",
+            "description": "The country from which this comic was published. This is mostly relevant if it is public domain.",
+            "default": "United States"
+        },
+        "site_type": {
+            "$id": "#/properties/site_type",
+            "type": "string",
+            "title": "The site_type schema",
+            "description": "Whether the site has multiple \"comics\" or just one.",
+            "default": "multi"
+        },
+        "characters_page": {
+            "$id": "#/properties/characters_page",
+            "type": [
+                "boolean",
+                "string"
+            ],
+            "title": "The characters_page schema",
+            "description": "If it exists, the URL of the characters page.",
+            "default": false
+        },
+        "store_page": {
+            "$id": "#/properties/store_page",
+            "type": [
+                "boolean",
+                "string"
+            ],
+            "title": "The store_page schema",
+            "description": "If it exists, the URL of the store page.",
+            "default": false
+        },
+        "extras_page": {
+            "$id": "#/properties/extras_page",
+            "type": [
+                "boolean",
+                "string"
+            ],
+            "title": "The extras_page schema",
+            "description": "If it exists, the URL of the extras page.",
+            "default": false
+        },
+        "license": {
+            "$id": "#/properties/license",
+            "type": "string",
+            "title": "The license schema",
+            "description": "An HTML snippet with copyright information on the site.",
+            "default": "All rights reserved."
+        },
+        "navdirection": {
+            "$id": "#/properties/navdirection",
+            "type": "string",
+            "title": "The navdirection schema",
+            "description": "The metaphorical direction used for navigation arrows. Can be ltr or rtl.",
+            "default": "ltr"
+        },
+        "rename_images": {
+            "$id": "#/properties/rename_images",
+            "type": "string",
+            "title": "The rename_images schema",
+            "description": "Whether or not to rename images when building the site.",
+            "default": "True"
+        },
+        "image_rename_pattern": {
+            "$id": "#/properties/image_rename_pattern",
+            "type": "string",
+            "title": "The image_rename_pattern schema",
+            "description": "The pattern used for renaming images.",
+            "default": "{comic}_{page}_{titleslug}_{date}.{ext}"
+        },
+        "zero_padding": {
+            "$id": "#/properties/zero_padding",
+            "type": "string",
+            "title": "The zero_padding schema",
+            "description": "To how many decimal places comic page numbers should be padded, if any.",
+            "default": "4"
+        },
+        "scrollto": {
+            "$id": "#/properties/scrollto",
+            "type": "string",
+            "title": "The scrollto schema",
+            "description": "The HTML ID of the element the browser should focus on when loading a page. Could be the comic title (comictitle), the comic image (comic), the top navigation box (topbox), or nothing (False).",
+            "default": "comictitle"
+        },
+        "site_style": {
+            "$id": "#/properties/site_style",
+            "type": "string",
+            "title": "The site_style schema",
+            "description": "The site theme.",
+            "default": "plain"
+        },
+        "header_filename": {
+            "$id": "#/properties/header_filename",
+            "type": "string",
+            "title": "The header_filename schema",
+            "description": "The filename for the site header banner.",
+            "default": "Please_Set_a_Site_Header_in_conf.py.png"
+        },
+        "social_icons": {
+            "$id": "#/properties/social_icons",
+            "type": "string",
+            "title": "The social_icons schema",
+            "description": "Whether or not to include social media links on each page.",
+            "default": "False"
+        },
+        "twitter_handle": {
+            "$id": "#/properties/twitter_handle",
+            "type": "string",
+            "title": "The twitter_handle schema",
+            "description": "Twitter handle. Applied in the form of https://twitter.com/{twitter_handle}.",
+            "default": "My-Awesome-Springheel-Comic"
+        },
+        "tumblr_handle": {
+            "$id": "#/properties/tumblr_handle",
+            "type": "string",
+            "title": "The tumblr_handle schema",
+            "description": "Tumblr blog. Applied like https://{tumblr_handle}.tumblr.com",
+            "default": "my-very-awesome-springheeled-comic"
+        },
+        "patreon_handle": {
+            "$id": "#/properties/patreon_handle",
+            "type": "string",
+            "title": "The patreon_handle schema",
+            "description": "Patreon handle. Applied in the form of https://www.patreon.com/{patreon_handle}",
+            "default": "PatreonDoesNotPubliclyDocumentVanityURLRestrictions-SoICannotConstructADefinitelySafeUnusedExampleURL"
+        },
+        "liberapay_handle": {
+            "$id": "#/properties/liberapay_handle",
+            "type": "string",
+            "title": "The liberapay_handle schema",
+            "description": "Liberapay handle. Applied in the form of https://liberapay.com/{liberapay_handle}",
+            "default": "awesomespringheeledcomic"
+        },
+        "pump_url": {
+            "$id": "#/properties/pump_url",
+            "type": "string",
+            "title": "The pump_url schema",
+            "description": "Pump microblog URL.",
+            "default": "https://example.com/pump"
+        },
+        "diaspora_url": {
+            "$id": "#/properties/diaspora_url",
+            "type": "string",
+            "title": "The diaspora_url schema",
+            "description": "Diaspora* stream URL.",
+            "default": "https://example.com/diaspora"
+        },
+        "mastodon_url": {
+            "$id": "#/properties/mastodon_url",
+            "type": "string",
+            "title": "The mastodon_url schema",
+            "description": "Mastodon URL.",
+            "default": "https://example.com/mastodon"
+        },
+        "json_mode": {
+            "$id": "#/properties/json_mode",
+            "type": "string",
+            "title": "The json_mode schema",
+            "description": "Whether the site uses JSON files as input or Springheel's original format.",
+            "default": "False"
+        },
+        "about": {
+            "$id": "#/properties/about",
+            "type": "string",
+            "title": "The about schema",
+            "description": "Whether or not the comic has an about page.",
+            "default": "False"
+        },
+        "archive_page": {
+            "$id": "#/properties/archive_page",
+            "type": "string",
+            "title": "The archive_page schema",
+            "description": "URL of the comic archive page.",
+            "default": "https://example.com/springheel/archive.html"
+        },
+        "categories": {
+            "$id": "#/properties/categories",
+            "type": "array",
+            "title": "The categories schema",
+            "description": "Categories on the site. If single is True, there will only be one entry.",
+            "default": [],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/categories/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/categories/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "Category items.",
+                        "default": {},
+                        "required": [
+                            "category",
+                            "last_page",
+                            "first_page",
+                            "known_pages",
+                            "known_pages_raw",
+                            "known_pages_real",
+                            "strips"
+                        ],
+                        "properties": {
+                            "category": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "The category schema",
+                                "description": "The name of the category.",
+                                "default": ""
+                            },
+                            "last_page": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/last_page",
+                                "type": "string",
+                                "title": "The last_page schema",
+                                "description": "The most recent page in the category.",
+                                "default": ""
+                            },
+                            "first_page": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/first_page",
+                                "type": "string",
+                                "title": "The first_page schema",
+                                "description": "The newest page in the category.",
+                                "default": ""
+                            },
+                            "known_pages": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/known_pages",
+                                "type": "array",
+                                "title": "The known_pages schema",
+                                "description": "A list of all zero-padded page numbers in the category.",
+                                "default": [],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/categories/items/anyOf/0/properties/known_pages/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/categories/items/anyOf/0/properties/known_pages/items/anyOf/0",
+                                            "type": "string",
+                                            "title": "The first anyOf schema",
+                                            "description": "A page number. Zero-padded.",
+                                            "default": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            "known_pages_raw": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/known_pages_raw",
+                                "type": "array",
+                                "title": "The known_pages_raw schema",
+                                "description": "A list of all page numbers in the category as they were originally added to Springheel.",
+                                "default": [],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/categories/items/anyOf/0/properties/known_pages_raw/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/categories/items/anyOf/0/properties/known_pages_raw/items/anyOf/0",
+                                            "type": "string",
+                                            "title": "The first anyOf schema",
+                                            "description": "A page number.",
+                                            "default": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            "known_pages_real": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/known_pages_real",
+                                "type": "array",
+                                "title": "The known_pages_real schema",
+                                "description": "A list of all page numbers in this category converted to integers (or arrays of integers for multi-page spreads).",
+                                "default": [],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/categories/items/anyOf/0/properties/known_pages_real/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/categories/items/anyOf/0/properties/known_pages_real/items/anyOf/0",
+                                            "type": ["number", "array"],
+                                            "title": "The first anyOf schema",
+                                            "description": "A page number or numbers.",
+                                            "default": 0
+                                        }
+                                    ]
+                                }
+                            },
+                            "strips": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/strips",
+                                "type": "array",
+                                "title": "The strips schema",
+                                "description": "All strips included in this category.",
+                                "default": [],
+                                "additionalItems": true,
+                                "items": {
+                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items",
+                                    "anyOf": [
+                                        {
+                                            "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0",
+                                            "type": "object",
+                                            "title": "The first anyOf schema",
+                                            "description": "An explanation about the purpose of this instance.",
+                                            "default": {},
+                                            "required": [
+                                                "alt_text",
+                                                "author",
+                                                "author_email",
+                                                "authors",
+                                                "category",
+                                                "chapter",
+                                                "commentary",
+                                                "copyright_statement",
+                                                "date_fmt",
+                                                "figcaption",
+                                                "h1_title",
+                                                "header_title",
+                                                "html_filename",
+                                                "img",
+                                                "lang",
+                                                "license",
+                                                "mode",
+                                                "new_meta",
+                                                "new_transcr",
+                                                "page",
+                                                "page_padded",
+                                                "page_url",
+                                                "raw_comments",
+                                                "series_slug",
+                                                "slug",
+                                                "slugs",
+                                                "statline",
+                                                "title",
+                                                "title_slug",
+                                                "transcript_c",
+                                                "url",
+                                                "date",
+                                                "year"
+                                            ],
+                                            "properties": {
+                                                "alt_text": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/alt_text",
+                                                    "type": "string",
+                                                    "title": "The alt_text schema",
+                                                    "description": "A short piece of additional text associated with this strip. Not actually used as alt text.",
+                                                    "default": ""
+                                                },
+                                                "author": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/author",
+                                                    "type": "string",
+                                                    "title": "The author schema",
+                                                    "description": "The author of this strip.",
+                                                    "default": ""
+                                                },
+                                                "author_email": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/author_email",
+                                                    "type": "string",
+                                                    "format": "email",
+                                                    "title": "The author_email schema",
+                                                    "description": "The author's email address. Will probably be fake.",
+                                                    "default": ""
+                                                },
+                                                "authors": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/authors",
+                                                    "type": "array",
+                                                    "title": "The authors schema",
+                                                    "description": "All authors listed separately, in case there are more than one.",
+                                                    "default": [],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/authors/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/authors/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "An author's name.",
+                                                                "default": ""
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "category": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/category",
+                                                    "type": "string",
+                                                    "title": "The category schema",
+                                                    "description": "The category associated with this strip.",
+                                                    "default": ""
+                                                },
+                                                "chapter": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/chapter",
+                                                    "type": [
+                                                        "string",
+                                                        "boolean"
+                                                    ],
+                                                    "title": "The chapter schema",
+                                                    "description": "The strip's chapter number, if available.",
+                                                    "default": ""
+                                                },
+                                                "commentary": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/commentary",
+                                                    "type": "string",
+                                                    "title": "The commentary schema",
+                                                    "description": "HTML-formatted commentary on this strip.",
+                                                    "default": ""
+                                                },
+                                                "copyright_statement": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/copyright_statement",
+                                                    "type": "string",
+                                                    "title": "The copyright_statement schema",
+                                                    "description": "HTML-formatted copyright block.",
+                                                    "default": ""
+                                                },
+                                                "date_fmt": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/date_fmt",
+                                                    "type": "string",
+                                                    "format": "date",
+                                                    "title": "The date_fmt schema",
+                                                    "description": "The date on which this strip was published.",
+                                                    "default": ""
+                                                },
+                                                "figcaption": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/figcaption",
+                                                    "type": "string",
+                                                    "title": "The figcaption schema",
+                                                    "description": "alt_text formatted as an HTML figcaption.",
+                                                    "default": ""
+                                                },
+                                                "h1_title": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/h1_title",
+                                                    "type": "string",
+                                                    "title": "The h1_title schema",
+                                                    "description": "The strip's title as it appears in the main heading element (with page number and category).",
+                                                    "default": ""
+                                                },
+                                                "header_title": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/header_title",
+                                                    "type": "string",
+                                                    "title": "The header_title schema",
+                                                    "description": "The same as h1_title.",
+                                                    "default": ""
+                                                },
+                                                "height": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/height",
+                                                    "type": "string",
+                                                    "title": "The height schema",
+                                                    "description": "The height of the strip image.",
+                                                    "default": ""
+                                                },
+                                                "html_filename": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/html_filename",
+                                                    "type": "string",
+                                                    "title": "The html_filename schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": ""
+                                                },
+                                                "img": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/img",
+                                                    "type": "string",
+                                                    "title": "The img schema",
+                                                    "description": "The filename of the strip image.",
+                                                    "default": ""
+                                                },
+                                                "lang": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/lang",
+                                                    "type": "string",
+                                                    "title": "The lang schema",
+                                                    "description": "The strip's language.",
+                                                    "default": ""
+                                                },
+                                                "license": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/license",
+                                                    "type": "string",
+                                                    "title": "The license schema",
+                                                    "description": "An explanation about the purpose of this instance.",
+                                                    "default": ""
+                                                },
+                                                "mode": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/mode",
+                                                    "type": "string",
+                                                    "title": "The mode schema",
+                                                    "description": "Not currently used for anything.",
+                                                    "default": ""
+                                                },
+                                                "new_meta": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/new_meta",
+                                                    "type": "string",
+                                                    "title": "The new_meta schema",
+                                                    "description": "The filename of the strip's metadata file.",
+                                                    "default": ""
+                                                },
+                                                "new_transcr": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/new_transcr",
+                                                    "type": "string",
+                                                    "title": "The new_transcr schema",
+                                                    "description": "The filename of the strip's transcript.",
+                                                    "default": ""
+                                                },
+                                                "page": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/page",
+                                                    "type": "string",
+                                                    "title": "The page schema",
+                                                    "description": "The strip's page number.",
+                                                    "default": ""
+                                                },
+                                                "page_padded": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/page_padded",
+                                                    "type": "string",
+                                                    "title": "The page_padded schema",
+                                                    "description": "The strip's page number, padded with zeroes.",
+                                                    "default": ""
+                                                },
+                                                "page_url": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/page_url",
+                                                    "type": "string",
+                                                    "title": "The page_url schema",
+                                                    "description": "The strip's URL.",
+                                                    "default": ""
+                                                },
+                                                "raw_comments": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/raw_comments",
+                                                    "type": "array",
+                                                    "title": "The raw_comments schema",
+                                                    "description": "The strip's commentary in its original form.",
+                                                    "default": [],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/raw_comments/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/raw_comments/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "Lines of commentary.",
+                                                                "default": ""
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "series_slug": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/series_slug",
+                                                    "type": "string",
+                                                    "title": "The series_slug schema",
+                                                    "description": "The strip's category as a URL slug.",
+                                                    "default": ""
+                                                },
+                                                "slug": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/slug",
+                                                    "type": "string",
+                                                    "title": "The slug schema",
+                                                    "description": "The strip's URL slug.",
+                                                    "default": ""
+                                                },
+                                                "slugs": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/slugs",
+                                                    "type": "array",
+                                                    "title": "The slugs schema",
+                                                    "description": "The category and strip title slugs used for file renaming.",
+                                                    "default": [],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/slugs/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/slugs/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "A URL slug.",
+                                                                "default": ""
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "source": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/source",
+                                                    "type": "string",
+                                                    "title": "The source schema",
+                                                    "description": "The URL of a work on which this strip is based, or where it was originally posted.",
+                                                    "default": ""
+                                                },
+                                                "statline": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/statline",
+                                                    "type": "string",
+                                                    "title": "The statline schema",
+                                                    "description": "An HTML block that appears below commentary, listing various metadata about the strip.",
+                                                    "default": ""
+                                                },
+                                                "title": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/title",
+                                                    "type": "string",
+                                                    "title": "The title schema",
+                                                    "description": "The title of the strip.",
+                                                    "default": ""
+                                                },
+                                                "title_slug": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/title_slug",
+                                                    "type": "string",
+                                                    "title": "The title_slug schema",
+                                                    "description": "The title's URL slug.",
+                                                    "default": ""
+                                                },
+                                                "transcript_c": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/transcript_c",
+                                                    "type": "string",
+                                                    "title": "The transcript_c schema",
+                                                    "description": "The HTML block with the strip's transcript.",
+                                                    "default": ""
+                                                },
+                                                "width": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/width",
+                                                    "type": "string",
+                                                    "title": "The width schema",
+                                                    "description": "The strip image's width.",
+                                                    "default": ""
+                                                },
+                                                "url": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/url",
+                                                    "type": "string",
+                                                    "title": "The url schema",
+                                                    "description": "Duplicate of page_url",
+                                                    "default": ""
+                                                },
+                                                "date": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/date",
+                                                    "type": "string",
+                                                    "title": "The date schema",
+                                                    "description": "Duplicate of date_fmt",
+                                                    "default": ""
+                                                },
+                                                "year": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/year",
+                                                    "type": "string",
+                                                    "title": "The year schema",
+                                                    "description": "The year this strip was published.",
+                                                    "default": ""
+                                                },
+                                                "tags": {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/tags",
+                                                    "type": "array",
+                                                    "title": "The tags schema",
+                                                    "description": "An optional list of tags associated with this strip.",
+                                                    "default": [],
+                                                    "additionalItems": true,
+                                                    "items": {
+                                                        "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/tags/items",
+                                                        "anyOf": [
+                                                            {
+                                                                "$id": "#/properties/categories/items/anyOf/0/properties/strips/items/anyOf/0/properties/tags/items/anyOf/0",
+                                                                "type": "string",
+                                                                "title": "The first anyOf schema",
+                                                                "description": "A metadata tag.",
+                                                                "default": ""
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            },
+                                            "additionalProperties": true
+                                        }
+                                    ]
+                                }
+                            },
+                            "characters": {
+                                "$id": "#/properties/categories/items/anyOf/0/properties/characters",
+                                "type": "object",
+                                "title": "The characters schema",
+                                "description": "Character information for this category.",
+                                "default": {},
+                                "required": [
+                                    "items",
+                                    "url"
+                                ],
+                                "properties": {
+                                    "items": {
+                                        "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/items",
+                                        "type": "array",
+                                        "title": "The items schema",
+                                        "description": "A list of characters.",
+                                        "default": [],
+                                        "additionalItems": true,
+                                        "items": {
+                                            "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/items/items",
+                                            "anyOf": [
+                                                {
+                                                    "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/items/items/anyOf/0",
+                                                    "type": "object",
+                                                    "title": "The first anyOf schema",
+                                                    "description": "A character object.",
+                                                    "default": {},
+                                                    "required": [
+                                                        "name",
+                                                        "desc",
+                                                        "img"
+                                                    ],
+                                                    "properties": {
+                                                        "name": {
+                                                            "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/items/items/anyOf/0/properties/name",
+                                                            "type": "string",
+                                                            "title": "The name schema",
+                                                            "description": "The character's name.",
+                                                            "default": ""
+                                                        },
+                                                        "desc": {
+                                                            "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/items/items/anyOf/0/properties/desc",
+                                                            "type": "string",
+                                                            "title": "The desc schema",
+                                                            "description": "A description of the character.",
+                                                            "default": ""
+                                                        },
+                                                        "img": {
+                                                            "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/items/items/anyOf/0/properties/img",
+                                                            "type": [
+                                                                "string",
+                                                                "boolean"
+                                                            ],
+                                                            "title": "The img schema",
+                                                            "description": "An image of the character.",
+                                                            "default": ""
+                                                        }
+                                                    },
+                                                    "additionalProperties": true
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "url": {
+                                        "$id": "#/properties/categories/items/anyOf/0/properties/characters/properties/url",
+                                        "type": "string",
+                                        "title": "The url schema",
+                                        "description": "URL of the characters page.",
+                                        "default": ""
+                                    }
+                                },
+                                "additionalProperties": true
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "chapter_info": {
+            "$id": "#/properties/chapter_info",
+            "type": "array",
+            "title": "The chapter_info schema",
+            "description": "Information about chapters in each category.",
+            "default": [],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/chapter_info/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/chapter_info/items/anyOf/0",
+                        "type": "array",
+                        "title": "The first anyOf schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/properties/chapter_info/items/anyOf/0/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/properties/chapter_info/items/anyOf/0/items/anyOf/0",
+                                    "type": "object",
+                                    "title": "The first anyOf schema",
+                                    "description": "Chapter objects.",
+                                    "default": {},
+                                    "required": [
+                                        "num"
+                                    ],
+                                    "properties": {
+                                        "num": {
+                                            "$id": "#/properties/chapter_info/items/anyOf/0/items/anyOf/0/properties/num",
+                                            "type": "integer",
+                                            "title": "The num schema",
+                                            "description": "The chapter number.",
+                                            "default": 0
+                                        },
+                                        "title": {
+                                            "$id": "#/properties/chapter_info/items/anyOf/0/items/anyOf/0/properties/title",
+                                            "type": "string",
+                                            "title": "The title schema",
+                                            "description": "The chapter title.",
+                                            "default": ""
+                                        }
+                                    },
+                                    "additionalProperties": true
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "tags": {
+            "$id": "#/properties/tags",
+            "type": "array",
+            "title": "The tags schema",
+            "description": "Tags associated with comics.",
+            "default": [],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/tags/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/tags/items/anyOf/0",
+                        "type": "object",
+                        "title": "The first anyOf schema",
+                        "description": "Tag objects.",
+                        "default": {},
+                        "required": [
+                            "name",
+                            "url"
+                        ],
+                        "properties": {
+                            "name": {
+                                "$id": "#/properties/tags/items/anyOf/0/properties/name",
+                                "type": "string",
+                                "title": "The name schema",
+                                "description": "The tag's name.",
+                                "default": ""
+                            },
+                            "url": {
+                                "$id": "#/properties/tags/items/anyOf/0/properties/url",
+                                "type": "string",
+                                "title": "The url schema",
+                                "description": "The URL to the tag's index.",
+                                "default": ""
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                ]
+            }
+        },
+        "site_authors": {
+            "$id": "#/properties/site_authors",
+            "type": "array",
+            "title": "The site_authors schema",
+            "description": "All persons whose work appears on the site.",
+            "default": [],
+            "additionalItems": true,
+            "items": {
+                "$id": "#/properties/site_authors/items",
+                "anyOf": [
+                    {
+                        "$id": "#/properties/site_authors/items/anyOf/0",
+                        "type": "string",
+                        "title": "The first anyOf schema",
+                        "description": "A comic author.",
+                        "default": ""
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": true
+}
