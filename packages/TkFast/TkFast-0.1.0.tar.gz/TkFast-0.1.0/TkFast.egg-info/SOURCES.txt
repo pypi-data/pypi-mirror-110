@@ -1,0 +1,7 @@
+setup.py
+TkFast/__init__.py
+TkFast/ex.py
+TkFast.egg-info/PKG-INFO
+TkFast.egg-info/SOURCES.txt
+TkFast.egg-info/dependency_links.txt
+TkFast.egg-info/top_level.txt
