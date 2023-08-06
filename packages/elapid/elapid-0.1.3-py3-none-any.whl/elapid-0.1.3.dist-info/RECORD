@@ -1,0 +1,11 @@
+elapid/__init__.py,sha256=HFmYqKvfN-e4cGukjRgwnc3qCYWhE-VFI_5I1oWbOks,463
+elapid/__version__.py,sha256=QGuw9L2dC5CB-dkM4Vi7q1_2NHjbIoKwTOWuCxCrDNc,8
+elapid/features.py,sha256=Ki8hhx7hZk0QyXaNLZsgnU2cgPa09uV3Jwj75muvnkU,21714
+elapid/geo.py,sha256=smWzvL4SY6BQl64Awe6cfUOb6P1ZtIJATox3e_pACpA,16748
+elapid/models.py,sha256=0V2tDLtqbqvIiDiDGQ7ZzjWiDgLljbJlQ3y4gRg4BxA,9884
+elapid/utils.py,sha256=60JjsG4kO86PE3Ss0sVc1BL5K6uxxWLb0HZXCQ4fqmY,7366
+elapid-0.1.3.dist-info/LICENSE,sha256=QA7T76NdkGrzrMdYh3nnx8O4zGIo817qkG12aJrYK10,1077
+elapid-0.1.3.dist-info/METADATA,sha256=918GVCzej-NmeFOAPh1wRVtDFL2yfyYj4cr1Y7wGIl4,2687
+elapid-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+elapid-0.1.3.dist-info/top_level.txt,sha256=xFMULErXhPCWtnQ1HGy40Or_-cj7vIfo77ghVpp41Sc,7
+elapid-0.1.3.dist-info/RECORD,,
