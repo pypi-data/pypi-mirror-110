@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: calcp
+Version: 0.0.1.1
+Summary: My first Python package
+Home-page: UNKNOWN
+Author: Dheeraj Ponnoju
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: My first Python package with a slightly longer description
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
