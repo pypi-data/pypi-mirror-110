@@ -1,0 +1,9 @@
+flake8_qgis/__init__.py,sha256=BSw3yE8vfmTU7sMspc_deljEISAScEWOFbS2Bvlkz_4,151
+flake8_qgis/_version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+flake8_qgis/flake8_qgis.py,sha256=kmiFEhZUhdEt_kwi2O3wxAe-H33qwvYAtR8sP7YecsY,5393
+flake8_qgis-0.1.2.dist-info/LICENSE,sha256=FHaa7FZJ75FBDAZvfzdy5vlfg9R6M_XyI1sNp_BW2cg,1069
+flake8_qgis-0.1.2.dist-info/METADATA,sha256=VrDq54iLHgce4tbzThOtRm-fgnayHnE37vTX_W_K1_4,3606
+flake8_qgis-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flake8_qgis-0.1.2.dist-info/entry_points.txt,sha256=hC87OflqxEQ0Y_0LdSkSpVUSNIFmn9ukyfR70vJJI-s,45
+flake8_qgis-0.1.2.dist-info/top_level.txt,sha256=59MLpTXHyZEv-ghQeudVU8jUPXy4eZUjVupXYxwzdXk,12
+flake8_qgis-0.1.2.dist-info/RECORD,,
