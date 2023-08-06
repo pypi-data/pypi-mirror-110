@@ -1,0 +1,17 @@
+.DS_Store,sha256=RNeFmrvwGM4ETzv0kpc-kGyrDYSXdTp4xQVwnsTTG9g,6148
+appchance_sections/__init__.py,sha256=8ZLKYVslpHpaiL34ZmosryHMLL2wFWw0ZZhe3ygSuas,87
+appchance_sections/admin.py,sha256=1Xhiq0b5wOdUnoX4LxkB95X0-pGr82NK28Sig1oZijk,251
+appchance_sections/apps.py,sha256=ltVS3WyVMEZUNIvRsndR2KMiyw76WMkb2eUH7rsk0zE,222
+appchance_sections/filtersets.py,sha256=GQTFVmPIwiLaPvpeZU5Z_d2YbL-59_eLiE1nrDjaB-Y,393
+appchance_sections/forms.py,sha256=eI6U7k82jjNA0-fFIZN5qzJ5xprpU5wuGffDlsVnBm4,1471
+appchance_sections/models.py,sha256=p8HSTDFVmopfe0NAu3aFzN07rXIbmqx0InoVC7Ukzf0,5442
+appchance_sections/receivers.py,sha256=8WrRO-iMsZ8neMRT9VcOFD438ARIcablYlPEvLfW6Bs,517
+appchance_sections/serializers.py,sha256=rGnxlCz-NG6Iht1grO83Eednb9Xoqs4a0DsroWY0UD4,856
+appchance_sections/urls.py,sha256=qBgDlQgXHirJYI994U3YrBcl6PgufbJ969r-XVL4nHY,250
+appchance_sections/utils.py,sha256=TevxWo07OtWsPzHrqLN1sT6p-BiNbGDVXekYLiHq13Y,4406
+appchance_sections/views.py,sha256=0crM3UlWA1OJ0OYOh05UW1ELjOGG4e9ewXi_oEo86h8,751
+django_appchance_sections-0.1.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+django_appchance_sections-0.1.dist-info/METADATA,sha256=EUeAgU61BJz3l-5hSRtV2dv6MyRT3LHNwqcX3k24jpQ,11249
+django_appchance_sections-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_appchance_sections-0.1.dist-info/top_level.txt,sha256=4OzXWVel4fyi6niUyskfyk4rRYQM6u-EJSc65Y1oYwo,19
+django_appchance_sections-0.1.dist-info/RECORD,,
