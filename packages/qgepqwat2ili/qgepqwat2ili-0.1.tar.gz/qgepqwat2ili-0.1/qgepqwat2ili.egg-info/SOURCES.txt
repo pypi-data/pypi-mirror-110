@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+qgepqwat2ili/__init__.py
+qgepqwat2ili/__main__.py
+qgepqwat2ili/config.py
+qgepqwat2ili.egg-info/PKG-INFO
+qgepqwat2ili.egg-info/SOURCES.txt
+qgepqwat2ili.egg-info/dependency_links.txt
+qgepqwat2ili.egg-info/requires.txt
+qgepqwat2ili.egg-info/top_level.txt
