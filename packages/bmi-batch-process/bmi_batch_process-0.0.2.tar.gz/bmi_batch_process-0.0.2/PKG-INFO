@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bmi_batch_process
+Version: 0.0.2
+Summary: This package is used to process BMI (BodyMassIndex) using Height and Weight of person. The input must a iterable of json objects
+Home-page: https://github.com/jagadeesh-r1/code-20210626-jagadeeshreddy
+Author: Jagadeesh Reddy
+Author-email: mail4jagadeeshreddy@gmail.com
+License: GNU General Public License v3.0
+Description: # code-20210626-jagadeeshreddy
+Platform: UNKNOWN
