@@ -1,0 +1,13 @@
+octo_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octo_api/utils.py,sha256=F4EWNtsmKhcumQeoamUgdazzO1BUey10zzeoXjtbI78,6780
+octo_api/__init__.py,sha256=ovt_FNGuz2J-Q9pqPVZ8d-eiGpyznwUcfq1opEjmLog,1436
+octo_api/products.py,sha256=In3rno0ON97giW8orC-OXbT8Zx5o_ZI1hqZV3J3pKAw,9613
+octo_api/consumption.py,sha256=q760ko6Bo4fCARJqEFONMx_0f3ISB7z9pe8VgbNjJA4,1905
+octo_api/api.py,sha256=Aa5jv1Sh8LC1mFatKD0ab7YHiKK7MrDDqdZhwwb3_NY,12822
+octo_api/pagination.py,sha256=-nyhW32FtXRRPxSdZJtoOKAMjAL83r5d0hXd_A00bGQ,5893
+octo_api-0.1.1.dist-info/METADATA,sha256=gmubfz4-pHNp2do9zJ0uijX_UI7I8goxMziH_yt0g8U,5894
+octo_api-0.1.1.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+octo_api-0.1.1.dist-info/top_level.txt,sha256=x9G6q2uY4Gk0l06q9AQMjfdwFGqhl-Lm2bSIO8-vrdA,9
+octo_api-0.1.1.dist-info/WHEEL,sha256=8iizR7fuPU5eNN500_Nke8fdf_wEQWleqFNIMwKpLpQ,84
+octo_api-0.1.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+octo_api-0.1.1.dist-info/RECORD,,
