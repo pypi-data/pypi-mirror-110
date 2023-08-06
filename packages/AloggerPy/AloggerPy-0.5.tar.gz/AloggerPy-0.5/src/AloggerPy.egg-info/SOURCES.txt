@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/test.py
+src/Alogger/Alogger.py
+src/Alogger/__init__.py
+src/AloggerPy.egg-info/PKG-INFO
+src/AloggerPy.egg-info/SOURCES.txt
+src/AloggerPy.egg-info/dependency_links.txt
+src/AloggerPy.egg-info/entry_points.txt
+src/AloggerPy.egg-info/not-zip-safe
+src/AloggerPy.egg-info/top_level.txt
