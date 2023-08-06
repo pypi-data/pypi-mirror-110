@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: hans
+Version: 0.0.4
+Summary: Height-Averaged Navier-Stokes (HANS) solver for 2D lubrication problems
+Home-page: http://github.com/hannes-holey/hans
+Author: Hannes Holey
+Author-email: hannes.holey@kit.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
