@@ -1,0 +1,10 @@
+jello/__init__.py,sha256=3NMzNe_wgtR9qJ9cJNwcKmo5ibc8xx6q1_i4QwazdVs,228
+jello/cli.py,sha256=uUzNTpoQkQuoxbBCKjg_N_bYXdEi1UcFqzmOLwbggS8,5948
+jello/dotmap.py,sha256=oN2glY-nTioHrySiDg2JzUGGoQvChMBiaOVTIbUI7j0,13103
+jello/lib.py,sha256=MvEZ3kqrfmD0K0SVFG7B0pG6fF5OIQhlLBbafk91emg,14628
+jello-1.4.0.dist-info/LICENSE,sha256=GkBMl969MsgABXNr02gHjMyPhYyOuvoldrDDkZr7ksQ,1069
+jello-1.4.0.dist-info/METADATA,sha256=0VHWubNVZGOApbdkjqn9HnereiK28SBO1afiQOYAvJw,11741
+jello-1.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jello-1.4.0.dist-info/entry_points.txt,sha256=2-C1K7MhTdMEMpr6Z-MU7yBWT1HVj-CA4vogUT0a29k,42
+jello-1.4.0.dist-info/top_level.txt,sha256=ixKJFEgMCMHXqcio73hIf08hy8gCqBNKo4UMlQFXGhU,6
+jello-1.4.0.dist-info/RECORD,,
