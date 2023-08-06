@@ -1,0 +1,11 @@
+swatcher/__init__.py,sha256=OuZ7ukJeyWDq5FCGEgm6audRimdvnSnit3q_x1IeiFw,7969
+swatcher/color.py,sha256=k0xRZOizgxGbIZ6xclAH5BCmP0_2LUxMa5N0IgHHQbg,3766
+swatcher/export.py,sha256=Y2PaRu71evj5kt4UJYwVhNEWUu6M0SAE5jSfKGqBS6k,3855
+swatcher/image.py,sha256=dRE2pwsdQNvlTIX_YWSeJFdm_pKR5ataKI2w4nbyMhE,2568
+swatcher/palette.py,sha256=yOwl1y11prLQnjI1jt_kDDu7nk1byNT18pVyLs_UfbA,4655
+swatcher/swatcher_quick_action.py,sha256=6Hjr6IQFsol-eqsL5vwoX-wCDUz3JIRrEz3gboYLRko,207
+swatcher-1.0.1.dist-info/LICENSE,sha256=C2CvwcvE_7wwfYhNS0lq3RGanvkrMqKw_qZGBkgYloI,1077
+swatcher-1.0.1.dist-info/METADATA,sha256=Nu-9uOM6NpGBT3A25NRJEL5v2_Y-tI7BHgdtnzz_NWc,1890
+swatcher-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+swatcher-1.0.1.dist-info/top_level.txt,sha256=uSM5he_-q6mNb_6_KYx0nEVGIxq26YnowCdvxJbDgrE,9
+swatcher-1.0.1.dist-info/RECORD,,
