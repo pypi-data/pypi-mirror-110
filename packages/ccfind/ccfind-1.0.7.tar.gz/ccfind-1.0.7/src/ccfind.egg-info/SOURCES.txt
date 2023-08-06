@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/ccformat.py
+src/ccfind.egg-info/PKG-INFO
+src/ccfind.egg-info/SOURCES.txt
+src/ccfind.egg-info/dependency_links.txt
+src/ccfind.egg-info/top_level.txt
