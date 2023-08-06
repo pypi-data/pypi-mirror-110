@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: typeforce
+Version: 0.2.0
+Summary: CLI tool to propagate py.typed into third-party libraries.
+Home-page: https://github.com/orsinium-labs/typeforce
+Author: Gram
+Author-email: gram@orsinium.dev
