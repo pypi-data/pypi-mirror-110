@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+mosaikdemod/__init__.py
+mosaikdemod/adaptors.py
+mosaikdemod.egg-info/PKG-INFO
+mosaikdemod.egg-info/SOURCES.txt
+mosaikdemod.egg-info/dependency_links.txt
+mosaikdemod.egg-info/top_level.txt
