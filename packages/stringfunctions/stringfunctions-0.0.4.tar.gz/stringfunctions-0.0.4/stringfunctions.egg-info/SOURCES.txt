@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+stringfunctions/__init__.py
+stringfunctions.egg-info/PKG-INFO
+stringfunctions.egg-info/SOURCES.txt
+stringfunctions.egg-info/dependency_links.txt
+stringfunctions.egg-info/requires.txt
+stringfunctions.egg-info/top_level.txt

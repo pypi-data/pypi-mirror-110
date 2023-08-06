@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: stringfunctions
+Version: 0.0.4
+Summary: A all in one string function package
+Home-page: https://github.com/thanamesleo/stringfunctions
+Author: Leonard "thanamesleo" W.
+Author-email: jetexer1.yt@gmail.com
+License: MIT
+Description: This is a library in which you have all the functions that you wished were implemented in the default string type. So basically this should be a tool about functions for strings that everyone needs in python!
+        
+        For further information about this library and how to use it, check the GitHub repository. (https://github.com/thanamesleo/stringfunctions)
+        
+        Change Log
+        ==========
+        
+        0.0.2 (24/6/2021)
+        ------------------
+        - First Release
+        
+        0.0.3 (24/6/2021)
+        ------------------
+        - Error Fixes
+        
+        0.0.4 (24/6/2021)
+        ------------------
+        - Updates
+Keywords: better,string,stringfunctions,function,setterstrings,string function,Better Strings
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
