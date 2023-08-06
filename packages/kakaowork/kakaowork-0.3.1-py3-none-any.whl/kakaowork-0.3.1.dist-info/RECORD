@@ -1,0 +1,14 @@
+kakaowork/__init__.py,sha256=HoEdZGjB3YyP2F5A6IvQPCqeakGD-oWW7l2vi9JugOg,1022
+kakaowork/__main__.py,sha256=4WtGqtbNs5A2qVg3eIv2rDhpaTGsRxVowaaDsveP_DE,237
+kakaowork/blockkit.py,sha256=7IgJC3NJDCq3dpcmEsY0x6HSxLMLP8tN2VzwrXUOWxM,20250
+kakaowork/client.py,sha256=OEcnZP6x_bysswsTEllMMZhiYVMj9W9vL900qe9lTRQ,18068
+kakaowork/command.py,sha256=lSBssZ71OhMS4gfSprK5sHG1EUBNpzTuPY8wiFjX0_I,11871
+kakaowork/consts.py,sha256=dZ-5K28Ct8mA-d2z78DVZXGt93Yvy8f2Nc_-q1nD_rs,650
+kakaowork/exceptions.py,sha256=yKgBZWwFsCXhkHhpKgFmg41e34e92XyB8LmcKAkocQs,264
+kakaowork/models.py,sha256=ZHBOGHWooYnwKt6-VpSiVnnTqZAU-XeAfU1WO_MrsE0,21156
+kakaowork/utils.py,sha256=AOOlUZIQrtA5EJ7HDNfY64qUvkUcWg_MbxPnj5U0DdQ,5871
+kakaowork-0.3.1.dist-info/entry_points.txt,sha256=i7K8q-LEJgDhwWDA2aLVRz47fK1GkGWz4pLM0uS52PY,53
+kakaowork-0.3.1.dist-info/LICENSE,sha256=a64uPYcqkXy0J0AHMOXco51a6-n35ejWTpLXfzEYYq4,1069
+kakaowork-0.3.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+kakaowork-0.3.1.dist-info/METADATA,sha256=QEYJmTPkCNQ9podBg3TRm6EUal857bZAbuDVuKeKG5c,3761
+kakaowork-0.3.1.dist-info/RECORD,,
