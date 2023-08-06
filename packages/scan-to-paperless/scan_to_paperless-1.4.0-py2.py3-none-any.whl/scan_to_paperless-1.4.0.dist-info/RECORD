@@ -1,0 +1,12 @@
+scan_to_paperless/__init__.py,sha256=tHfAPvjleXaqI59Fy58it-8_6xXig1bDFV2qhlckGYo,881
+scan_to_paperless/config.py,sha256=ALGWz1ddg5iOCCv41nPs3bdABPlJQ_KiBf2x8qhne2w,2404
+scan_to_paperless/config_old.py,sha256=OtnQKAFvp5sBXVdLL_BHHB6K2g5nerNnR86zX_NHOxY,118
+scan_to_paperless/process.py,sha256=6Q_wy_BZEl_2jc26qiTr676t_6D54p_a8T0-lQLISWo,39934
+scan_to_paperless/process_schema.py,sha256=eT2CnhV3FHfpJJtrnO2cGyl9DunpttJjSn2DuTD1Uhw,4916
+scan_to_paperless/scan.py,sha256=e-zZJRbqCHZ6awKaYgh4n3S6Y-DNhTBtVufivycE-HE,5991
+scan_to_paperless/scan_process_status.py,sha256=omZfZRSViFxKAbAuNx4uRB60FwjoJfl4lyPY3h9fHK4,2437
+scan_to_paperless-1.4.0.dist-info/METADATA,sha256=dVz2CgY20OYMpGHNHdEMnEwHxm3iAROw7FJ2nMX3Szg,7946
+scan_to_paperless-1.4.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+scan_to_paperless-1.4.0.dist-info/entry_points.txt,sha256=JcrkyCwWNZb87Kbe0CwqmkK-2w05t9ykXjiWZUkDwi8,165
+scan_to_paperless-1.4.0.dist-info/top_level.txt,sha256=8JVetg3Y0mEHa7rar4hU9cCqaTKgzli6Dfh22efCEQk,18
+scan_to_paperless-1.4.0.dist-info/RECORD,,
