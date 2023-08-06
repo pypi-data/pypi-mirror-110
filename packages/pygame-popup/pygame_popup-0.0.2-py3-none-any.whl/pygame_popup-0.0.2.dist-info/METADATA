@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: pygame-popup
+Version: 0.0.2
+Summary: A popup manager for pygame
+Home-page: https://github.com/Grimmys/pygame_popup_manager
+Author: Grimmys
+Author-email: grimmys.programming@gmail.com
+License: UNKNOWN
+Project-URL: Issue Tracker, https://github.com/Grimmys/pygame_popup_manager/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame (~=2.0.0)
+
+# Pygame Popup Manager
+
+Pygame Popup Manage is a very small engine permitting to easily build all kind of popup in a pygame project.
+
+Here is an example of basic menus that could be created with this manager:
+
+![Main menu with side menu](https://github.com/Grimmys/pygame_popup_manager/blob/main/screenshots/main_menu_with_side_menu.png)
+
+# Installation
+
+The most easy way to install this package is to do it with `pip`:
+
+`pip install pygame-popup`
+
+# Use
+
+First, don't forget to call `pygamepopu.init` function right after
+having call `pygame.init` function.
+
+The whole system is working around the `MenuManager` class that is
+the controller of all the popups in background and in foreground.
+
+An unique instance per scene/window has to be created and the pygame screen
+on which the popups will appear should be provided, like this:
+
+```py
+from pygamepopup.menu_manager import MenuManager
+
+menu_manager = MenuManager(screen)
+```
+
+The `display`, `motion` and `click` methods of this class should be called in the application main loop 
+in order to notify the manager of any pygame event.
+
+To open a new popup menu, you should first create it by instanciate the `InfoBox` class.
+The components that should be in the menu should be provided.
+Next, don't forget to call the `open_menu` method of the menu manager to notify it about the new menu.
+
+For example, the following code will open a popup with a "do-nothing" button and a close button (added by default by the `InfoBox`)
+
+```py
+from pygamepopup.components import Button, InfoBox
+
+my_custom_menu = InfoBox(
+    "Title of the Menu",
+    [
+        Button(
+            title="Hello World!",
+            callback=lambda: None
+        )
+    ]
+)
+
+menu_manager.open(my_custom_menu)
+```
+If you want more code illustrations, check the `examples/minimal_main_menu.py` module
+
+# Customization
+
+Unfortunately, the customization is limited for the moment.
+
+But you can still provide your own graphical assets to the components, as you can see in the screenshot below.
+
+![Options menu with assets](https://github.com/Grimmys/pygame_popup_manager/blob/main/screenshots/options_menu_with_assets.png)
+
+# Contact
+
+You can contact me directly by [e-mail](mailto:grimmys.programming@gmail.com?subject=[GitHub]%20Pygame%20Popup%20Manager) if you have any question regarding the package.
+Also, I will be really happy to know you are using this package, so don't hesitate to share me the link to your project if you tried something!
+
+For suggestions or bugs, please create an issue in the GitHub repository: https://github.com/Grimmys/pygame_popup_manager/issues
+
+Thanks!
+
+
