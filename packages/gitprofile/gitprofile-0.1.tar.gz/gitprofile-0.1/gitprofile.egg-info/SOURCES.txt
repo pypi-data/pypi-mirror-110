@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+gitprofile.egg-info/PKG-INFO
+gitprofile.egg-info/SOURCES.txt
+gitprofile.egg-info/dependency_links.txt
+gitprofile.egg-info/requires.txt
+gitprofile.egg-info/top_level.txt
