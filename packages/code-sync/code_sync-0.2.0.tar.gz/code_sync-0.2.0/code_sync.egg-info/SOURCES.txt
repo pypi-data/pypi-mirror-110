@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+code_sync/__init__.py
+code_sync/code_sync.py
+code_sync.egg-info/PKG-INFO
+code_sync.egg-info/SOURCES.txt
+code_sync.egg-info/dependency_links.txt
+code_sync.egg-info/entry_points.txt
+code_sync.egg-info/not-zip-safe
+code_sync.egg-info/requires.txt
+code_sync.egg-info/top_level.txt
