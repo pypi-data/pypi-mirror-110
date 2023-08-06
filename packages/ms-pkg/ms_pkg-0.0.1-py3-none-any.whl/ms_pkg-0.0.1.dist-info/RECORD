@@ -1,0 +1,6 @@
+ms_pkg/__init__.py,sha256=y7lKFsKl_5RMREhbaShC91WUF6rxXnHIfaS4epP6lHo,32
+ms_pkg/mypackage.py,sha256=2AnOAGetsPKxnie-nKnOyeC4M9TKPFM7LpXwLllSFz0,64
+ms_pkg-0.0.1.dist-info/METADATA,sha256=dcPztJj3EJt-61-S6pmlQVrwVkfIb80fHOB3s02YDcM,184
+ms_pkg-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ms_pkg-0.0.1.dist-info/top_level.txt,sha256=87sxjBNU45eI68WngdgcRffGqdL7fKzOFKf4mOc-gOA,7
+ms_pkg-0.0.1.dist-info/RECORD,,
