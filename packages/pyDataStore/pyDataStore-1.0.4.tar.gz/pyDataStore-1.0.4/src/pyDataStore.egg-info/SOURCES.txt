@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyDataStore/__init__.py
+src/pyDataStore/pydatastore.py
+src/pyDataStore.egg-info/PKG-INFO
+src/pyDataStore.egg-info/SOURCES.txt
+src/pyDataStore.egg-info/dependency_links.txt
+src/pyDataStore.egg-info/not-zip-safe
+src/pyDataStore.egg-info/requires.txt
+src/pyDataStore.egg-info/top_level.txt
