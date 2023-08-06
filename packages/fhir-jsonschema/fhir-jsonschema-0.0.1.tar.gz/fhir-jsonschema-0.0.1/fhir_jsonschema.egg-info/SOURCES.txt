@@ -1,0 +1,5 @@
+setup.py
+fhir_jsonschema.egg-info/PKG-INFO
+fhir_jsonschema.egg-info/SOURCES.txt
+fhir_jsonschema.egg-info/dependency_links.txt
+fhir_jsonschema.egg-info/top_level.txt
