@@ -1,0 +1,11 @@
+ffq/__init__.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+ffq/config.py,sha256=0_WgD6qkM2-It-mDWIAR1iqyUiUxRPf4dL5IRQcc_1g,849
+ffq/ffq.py,sha256=VL8TMp0eGTbv28t3gHtDw-_CV0bEQ5PXLLLDhgTSwkY,14371
+ffq/main.py,sha256=2iLug18sOI6QqpysTj2FTJC26VbOdR3al31zM3-NeoQ,4465
+ffq/utils.py,sha256=0bnedYPkcNwlzZ-0SzqOAVY5ioN1gH_MXGtxG0QDZls,11915
+ffq-0.0.4.dist-info/LICENSE,sha256=pKdKYjngVvfLn5Nq8Z2SzBfNViJoM71TCYTdkk0qtaM,1084
+ffq-0.0.4.dist-info/METADATA,sha256=v79T6CWMMSWHeAs51bhzxyWS307pX9b7KRCWdrGqC8A,4098
+ffq-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ffq-0.0.4.dist-info/entry_points.txt,sha256=hDVwVQBZpV_dIY-VB4Faq4ySDcfeHKGITa28ZhdbI0M,39
+ffq-0.0.4.dist-info/top_level.txt,sha256=RTdgbT99aFBhEH5qiDsfi8F0gC2VElca1_LB1-quESw,4
+ffq-0.0.4.dist-info/RECORD,,
