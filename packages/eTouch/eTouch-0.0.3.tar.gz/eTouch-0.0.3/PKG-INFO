@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eTouch
+Version: 0.0.3
+Summary: Automating CA service management
+Home-page: https://github.com/asajm/eTouch
+Author: Ahmed Almalki
+Author-email: ahmed.s.malki@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/asajm/eTouch/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
