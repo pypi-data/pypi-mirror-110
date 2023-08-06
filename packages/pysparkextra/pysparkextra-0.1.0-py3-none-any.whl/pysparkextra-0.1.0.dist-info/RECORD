@@ -1,0 +1,13 @@
+pysparkextra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysparkextra/__pkginfo__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pysparkextra/arrows.py,sha256=2U9qoyGxO0BDbCOo-WeadR4oMFi03GHzEVzzbFxVV9o,881
+pysparkextra/funcs.py,sha256=VqTTSdXTYiWZ56DD2IP0bAU82KKJPppSxdvZhy_QPkU,5182
+pysparkextra/util.py,sha256=AsP5OsaNhZ8icjPGTVfmwinaFClbqlTtSjK9UwGHfpg,295
+tests/__init__.py,sha256=iTw_teUZxYB_s7S7Pm3oHt6-VBZ3S3gn3bnOxxMnATY,64
+tests/test_arrows.py,sha256=-IIpQU02lVwaBQdBtwIshA-U5dKptmJuwSkkvJLgLRk,290
+tests/test_spark_arrows.py,sha256=d2qmF2uKZjPOu4n5TAZl8hzsvgfcE3pLj0iev-CaRlE,1119
+tests/test_util.py,sha256=qb-Uslhf1Wfwc4Z4RGAitIMWyjOnR4rjNuYJHSZ9qdE,615
+pysparkextra-0.1.0.dist-info/METADATA,sha256=vIOkdvSf1_Y-tfYGQxfv2hdMGgJMr4SpqD0UxctfV-Q,502
+pysparkextra-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pysparkextra-0.1.0.dist-info/top_level.txt,sha256=e_uOftmA8l4-iittvzIIlis04AsQNsxb0wsPslZYWf0,19
+pysparkextra-0.1.0.dist-info/RECORD,,
