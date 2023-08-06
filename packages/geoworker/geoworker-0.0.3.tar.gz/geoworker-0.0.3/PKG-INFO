@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: geoworker
+Version: 0.0.3
+Summary: Functions for working with geographic data
+Home-page: https://github.com/costa86/geographic-worker
+Author: Lorenzo Costa
+Author-email: costa86@zoho.com
+License: MIT
+Keywords: GIS,latitude,longitute,geography,coordinates
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Geoworker
+
+`geoworker` is a Python package containing functionalities for working with geographic data.
+
+
+## Badges
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+  
+## Authors
+
+- [costa86](https://www.github.com/costa86)
+
+  
+## Getting started
+
+```python
+from geoworker import check_latitude, check_longitude
+
+latitude = 10 #Between 90 and -90
+longitude = 10 #Between 180 and -180
+
+check_latitude(latitude)
+check_longitude(longitude)
+```
+
