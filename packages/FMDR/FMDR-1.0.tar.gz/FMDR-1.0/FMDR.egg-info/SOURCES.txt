@@ -1,0 +1,6 @@
+README.md
+setup.py
+FMDR.egg-info/PKG-INFO
+FMDR.egg-info/SOURCES.txt
+FMDR.egg-info/dependency_links.txt
+FMDR.egg-info/top_level.txt
