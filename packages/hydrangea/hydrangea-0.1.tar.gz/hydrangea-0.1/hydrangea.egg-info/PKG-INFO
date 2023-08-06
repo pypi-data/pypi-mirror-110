@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: hydrangea
+Version: 0.1
+Summary: Automate force-directed graph
+Home-page: https://github.com/qeeqbox/hydrangea
+Author: QeeqBox
+Author-email: gigaqeeq@gmail.com
+License: AGPL-3.0
+Description: qeeqbox hydrangea coming soon
+        
+Platform: UNKNOWN
+Requires-Python: >=3

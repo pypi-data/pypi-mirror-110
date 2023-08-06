@@ -1,0 +1,9 @@
+README.rst
+setup.py
+hydrangea/__main__.py
+hydrangea.egg-info/PKG-INFO
+hydrangea.egg-info/SOURCES.txt
+hydrangea.egg-info/dependency_links.txt
+hydrangea.egg-info/entry_points.txt
+hydrangea.egg-info/requires.txt
+hydrangea.egg-info/top_level.txt
