@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+update_gene_symbols_hgnc/__init__.py
+update_gene_symbols_hgnc/_nbdev.py
+update_gene_symbols_hgnc/core.py
+update_gene_symbols_hgnc.egg-info/PKG-INFO
+update_gene_symbols_hgnc.egg-info/SOURCES.txt
+update_gene_symbols_hgnc.egg-info/dependency_links.txt
+update_gene_symbols_hgnc.egg-info/entry_points.txt
+update_gene_symbols_hgnc.egg-info/not-zip-safe
+update_gene_symbols_hgnc.egg-info/requires.txt
+update_gene_symbols_hgnc.egg-info/top_level.txt

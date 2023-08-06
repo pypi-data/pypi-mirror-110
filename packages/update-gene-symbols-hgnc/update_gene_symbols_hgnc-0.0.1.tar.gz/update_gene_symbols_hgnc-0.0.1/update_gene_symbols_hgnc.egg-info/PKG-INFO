@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: update-gene-symbols-hgnc
+Version: 0.0.1
+Summary: Python package to get official HGNC gene symbols
+Home-page: https://github.com/gpprnd/update_gene_symbols_hgnc/tree/master/
+Author: Mudra Hegde
+Author-email: mhegde@broadinstitute.org
+License: Apache Software License 2.0
+Description: # Update Gene Symbols
+        > Update gene symbols to official HGNC gene symbols.
+        
+        
+        ## Install
+        
+        `pip install update_gene_symbols_hgnc`
+        
+        ## How to use
+        
+        Use this package to get the official gene symbol as follows:
+        
+        ```
+        off_gs = get_official_gene_symbol('VARS')
+        off_gs
+        ```
+        
+        
+        
+        
+            'VARS1'
+        
+        
+        
+Keywords: HGNC,gene symbols
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev

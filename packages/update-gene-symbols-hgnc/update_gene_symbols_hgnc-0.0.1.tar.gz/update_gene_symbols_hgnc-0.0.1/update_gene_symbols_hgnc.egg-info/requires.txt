@@ -1,0 +1,5 @@
+pip
+packaging
+requests>=2.25.1
+
+[dev]
