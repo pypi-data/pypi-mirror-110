@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: face-mask-classifier
+Version: 0.8
+Summary: Detect face mask in an Image
+Home-page: https://github.com/Baskar-t/face-mask-classifier
+Author: Baskaran Thulukanam
+Author-email: baskar.mailbox@gmail.com
+License: MIT
+Keywords: face-mask-classifer,SVM-classifier
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.rst
+Requires-Dist: Keras (==2.4.3)
+Requires-Dist: keras-facenet (==0.3.2)
+Requires-Dist: tensorflow (==2.5.0)
+Requires-Dist: scikit-learn (==0.24.2)
+Requires-Dist: mtcnn (==0.1.0)
+Requires-Dist: numpy (==1.19.5)
+
+SVM facemask classifier
+
+Pretrained Model used:
+   Keras-facenet model ()
+     This model is used to detect the faces in a image and create a embedding vector of the faces which would be passed to a SVM classifier. 
+     The embedding vector is of dimension 512.
+
+
+Download the SVM pretrained model https://github.com/Baskar-t/face-mask-classifier/tree/main/models
+
+Class mask_predictor
+#### image - path of the image file to predict the mask
+#### pretrained path of the SVM model
+def pred_mask(image,svm_model_path)
+     ......
+	return img, box_list, label_list, proba_list
+	
+#### img - image vector
+#### box list - list of image box of faces
+#### label_list - list of labels for the predicted face images (Mask , No Mask)
+#### proba_list - list of probability of predicted labels
+
+
+Usage:
+
+## mask_predictor.pred_mask(image path, path_svm_model)
+
