@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+PyGenphi/Category.py
+PyGenphi/Client.py
+PyGenphi/Locator.py
+PyGenphi/__init__.py
+PyGenphi.egg-info/PKG-INFO
+PyGenphi.egg-info/SOURCES.txt
+PyGenphi.egg-info/dependency_links.txt
+PyGenphi.egg-info/requires.txt
+PyGenphi.egg-info/top_level.txt
