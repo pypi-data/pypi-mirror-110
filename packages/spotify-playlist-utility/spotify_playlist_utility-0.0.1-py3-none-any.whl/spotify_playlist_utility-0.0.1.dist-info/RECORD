@@ -1,0 +1,11 @@
+spotify_playlist_utility/Spotify.py,sha256=BrTbkx3TuqH9G0Z3dBJHW72H9bcrKP-WlBO6UPJNU8U,11450
+spotify_playlist_utility/Track.py,sha256=nSNIfvRNCgnuOI3YDE2XDTyRjKw-czfMfVpiOqEUS6U,790
+spotify_playlist_utility/TrackLists.py,sha256=wXOhr4N9ngEkD8oemPmUUVjf02K3kMUGQpkwnXFnO3M,1724
+spotify_playlist_utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotify_playlist_utility/__main__.py,sha256=3JJI1ReY6hc4CYgs977w_ydzW0VxVbq_zthzXfesgCA,3919
+spotify_playlist_utility-0.0.1.dist-info/LICENSE.txt,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+spotify_playlist_utility-0.0.1.dist-info/METADATA,sha256=o82iPULGBfrpAk8Sc_eKNRSWyQp_GvBLk7fvOgeVTWo,2936
+spotify_playlist_utility-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spotify_playlist_utility-0.0.1.dist-info/entry_points.txt,sha256=Xxpi7GokAgPGOIiSBKyzVtfa63r8WMrd9IfeIwXBeiI,85
+spotify_playlist_utility-0.0.1.dist-info/top_level.txt,sha256=bXXn_-h_icP3op-fKXTU8R17DIKwsyHavLyyGB7SQgM,25
+spotify_playlist_utility-0.0.1.dist-info/RECORD,,
