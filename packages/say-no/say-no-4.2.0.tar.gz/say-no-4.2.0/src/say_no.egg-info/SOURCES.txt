@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/say_no/__init__.py
+src/say_no/say_no.py
+src/say_no.egg-info/PKG-INFO
+src/say_no.egg-info/SOURCES.txt
+src/say_no.egg-info/dependency_links.txt
+src/say_no.egg-info/top_level.txt
