@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: absio
+Version: 2.6.3
+Summary: Python Absio Library
+Home-page: http://absio.readthedocs.io/
+Author: Scott Sturdivant
+Author-email: scott.sturdivant@absio.com
+Maintainer: Scott Sturdivant
+Maintainer-email: scott.sturdivant@absio.com
+License: Proprietary
+Keywords: absio,secure,containers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Security :: Cryptography
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+License-File: LICENSE
+Requires-Dist: arrow (>=0.10.0)
+Requires-Dist: asn1crypto (>=0.22.0)
+Requires-Dist: attrs (>=17.2.0)
+Requires-Dist: cffi (>=1.10.0)
+Requires-Dist: construct (>=2.8.12)
+Requires-Dist: cryptography (<3.0,>=2.9.2)
+Requires-Dist: decorator (>=4.1.1)
+Requires-Dist: idna (>=2.5)
+Requires-Dist: Mako (>=1.0.7)
+Requires-Dist: marshmallow (~=3.0)
+Requires-Dist: more-itertools (>=3.2.0)
+Requires-Dist: peewee (~=3.13.3)
+Requires-Dist: pexpect (>=4.2.1)
+Requires-Dist: pickleshare (>=0.7.4)
+Requires-Dist: prompt-toolkit (>=1.0.14)
+Requires-Dist: ptyprocess (>=0.5.2)
+Requires-Dist: py (>=1.4.34)
+Requires-Dist: pycparser (>=2.18)
+Requires-Dist: pysqlcipher3 (~=1.0.0)
+Requires-Dist: requests (>=2.18.2)
+Requires-Dist: requests-toolbelt (>=0.8.0)
+Requires-Dist: simplegeneric (>=0.8.1)
+Requires-Dist: simplejson (>=3.11.1)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: tenacity (~=6.2.0)
+Requires-Dist: traitlets (>=4.3.2)
+Requires-Dist: wcwidth (>=0.1.7)
+
+
+Absio Python Library
+====================
+
+Protect your application's sensitive data with Absio's Secured Containers.
+
+Documentation
+~~~~~~~~~~~~~
+
+Full documentation is `available <https://absio.readthedocs.io>`_.
+
+Obtaining an API Key
+~~~~~~~~~~~~~~~~~~~~
+
+The ``absio`` library requires a valid API Key that must be passed into the
+``absio.initialize(...)`` function.  Obtain an API Key by contacting us
+`here <https://www.absio.com/contact>`_ or sending an email to sales@absio.com. An API key should
+be considered private and protected as such.
+
+Quick Start
+~~~~~~~~~~~
+
+Installation:
+
+.. code:: python
+
+    pip install absio cryptography --no-binary=cryptography
+
+Import and initialize the module:
+
+.. code:: python
+
+    import absio
+    absio.initialize(api_key='your api key')
+
+Create accounts:
+
+.. code:: python
+
+    alice = absio.user.create('password', 'reminder', 'passphrase')
+    bob = absio.user.create('password', 'reminder', 'passphrase')
+
+Log in with an account:
+
+.. code:: python
+
+    absio.login(alice.id, 'password', 'passphrase')
+
+Create and share an Absio Secured Container:
+
+.. code:: python
+
+    container = absio.container.create(
+        header={'some sensitive metadata': None},
+        content=open('/some/sensitive/data.bin', 'rb').read(),
+        access=[bob.id, alice.id],
+    )
+
+Securely access this container from another system:
+
+
+.. code:: python
+
+    absio.login(bob.id, 'password', 'passphrase')
+
+    # Access the container with the container ID returned during creation, or a Container Event.
+    container = absio.container.get('container_id')
+
+
+
