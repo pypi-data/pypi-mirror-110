@@ -1,0 +1,16 @@
+adcircpy>=1.0.35
+filelock
+nemspy>=0.6.17
+numpy
+requests
+
+[development]
+flake8
+isort
+oitnb
+
+[testing]
+pytest
+pytest-cov
+pytest-xdist
+wget
