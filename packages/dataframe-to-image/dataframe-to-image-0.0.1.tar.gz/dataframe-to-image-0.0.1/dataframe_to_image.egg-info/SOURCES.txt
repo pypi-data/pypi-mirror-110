@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dataframe_to_image/dataframe_to_image.py
+dataframe_to_image.egg-info/PKG-INFO
+dataframe_to_image.egg-info/SOURCES.txt
+dataframe_to_image.egg-info/dependency_links.txt
+dataframe_to_image.egg-info/requires.txt
+dataframe_to_image.egg-info/top_level.txt
