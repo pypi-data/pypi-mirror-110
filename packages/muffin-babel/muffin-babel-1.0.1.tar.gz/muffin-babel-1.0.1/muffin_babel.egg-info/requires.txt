@@ -1,0 +1,16 @@
+muffin>=0.71
+asgi_babel>=0.6.2
+
+[build]
+bump2version
+wheel
+
+[example]
+uvicorn
+muffin_jinja2
+
+[tests]
+muffin_jinja2>=0.7.1
+pytest
+pytest-aio[curio,trio]
+pytest-mypy
