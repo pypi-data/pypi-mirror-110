@@ -1,0 +1,184 @@
+Metadata-Version: 2.1
+Name: cacheable-iterators
+Version: 0.1.1
+Summary: Python decorators for caching functions returning iterators
+Home-page: https://gitlab.com/Hares-Lab/cacheable-iterators
+License: BSD 2-Clause License
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: async-lru (~=1.0.2)
+Provides-Extra: all
+
+# Cacheable Iterators
+A simple tool to assist caching iterators response (lazy computations remain lazy).
+Supports computations for the following return types:
+
+ - `Iterator[T]`
+ - `Awaitable[Iterator[T]]`
+ - `AsyncIterator[T]`
+
+Read [full documentation] online.
+
+For simple or asynchronous iterators it can use either built-in
+`functools.cache` (or its replacement `cacheable_iter.helpers.simple_cache`),
+`functools.lru_cache`, or any other appropriate cache engine.
+For awaitable iterators it should use coroutine-compatible caches,
+the default (bundled) solution is `async_lru.alru_cache` (PyPI: [async_lru]).
+
+Also works for methods and/or class methods, as well as with bound methods,
+as long as the caching engine supports them.
+
+## Usage
+To make generator-like function be cacheable, simply decorate it with one of the following functions:
+
+ - `cacheable_iter.core.iter_cache` or `cacheable_iter.core.lru_iter_cache` - for functions those return `Iterator[T]`
+ - `cacheable_iter.core.alru_iter_cache` - for functions those return `Awaitable[Iterator[T]]`
+ - `cacheable_iter.core.lru_async_iter_cache` - for functions those return `AsyncIterator[T]`
+
+### Caching Simple Iterator
+```python
+from typing import *
+from cacheable_iter import iter_cache
+
+@iter_cache
+def iterator_function(n: int) -> Iterator[int]:
+    yield from range(n)
+```
+
+### Caching Awaitable Iterator
+```python
+import asyncio
+from typing import *
+from cacheable_iter import alru_iter_cache
+
+@alru_iter_cache
+async def awaitable_iterator_function(n: int) -> Iterator[int]:
+    gen = iterator_function(n)
+    await asyncio.sleep(0.5)
+    return gen
+
+```
+
+### Caching Asynchronous Iterator
+```python
+import asyncio
+from typing import *
+from cacheable_iter import lru_async_iter_cache
+
+@lru_async_iter_cache
+async def async_iterator_function(n: int) -> AsyncIterator[int]:
+    for _ in await awaitable_iterator_function(n):
+        yield _
+        await asyncio.sleep(0.5)
+```
+
+### Example
+This package provides a few decorators to wrap iterators.
+They all support lazy computations,
+so if an iterator is not iterated, the values are not computed.
+(This is safe to use with infinite or endless iterators like counters.)
+
+```python
+from typing import *
+from cacheable_iter import iter_cache
+
+@iter_cache
+def my_iter(n: int) -> Iterator[int]:
+    print(" * my_iter called")
+    for i in range(n):
+        print(f" * my_iter step {i}")
+        yield i
+
+gen1 = my_iter(4)
+print("Creating an iterator...")
+print(f"The first value of gen1 is {next(gen1)}")
+print(f"The second value of gen1 is {next(gen1)}")
+
+gen2 = my_iter(4)
+print("Creating an iterator...")
+print(f"The first value of gen2 is {next(gen2)}")
+print(f"The second value of gen2 is {next(gen2)}")
+print(f"The third value of gen2 is {next(gen2)}")
+```
+
+The code snippet above would print the following:
+```
+Creating an iterator...
+ * my_iter called
+ * my_iter step 0
+The first value of gen1 is 0
+ * my_iter step 1
+The second value of gen1 is 1
+Creating an iterator...
+The first value of gen2 is 0
+The second value of gen2 is 1
+ * my_iter step 2
+The third value of gen2 is 2
+```
+
+
+## Principe of Work
+Like in caching, the function is wrapped around with the new one
+which, however, instead of checking the function arguments,
+transforms the result into a special helper class
+(either `CachedIterable[T]` or `CachedAsyncIterable[T]`).
+
+Then the caching happens -- instead of storing the iterator itself it stores wrapper over it.
+When the cache value is extracted, both `CachedIterable[T]` and `CachedAsyncIterable[T]`
+are transformed into `CachedIterator[T]` or `CachedAsyncIterator[T]` respectively.
+(This is done by calling their `__iter__` and `__aiter__` methods.)
+
+So, the client always receive an `Iterator[T]` (or analogue) rather then `Iterable[T]`.
+When the client reads from the iterator wrapper,
+the iterator checks the internal `CachedIterable`/`CachedAsyncIterable` cache
+and, if nothing found, asks the next value of the parent iterator which is then saved.
+`CachedIterable`/`CachedAsyncIterable` classes also take note when the iterator is ended to prevent ask an ended stream.
+
+
+### For Simple Iterators
+ - Call function => `Iterator[T]`
+ - Wrap result to `CachedIterable[T]`
+ - Save result to the cache
+ - Transform `CachedIterable[T]` to `CachedIterator[T]`
+ - Iterate
+
+Decorate with: `cacheable_iter.core.iter_cache` or `cacheable_iter.core.lru_iter_cache`.
+
+### For Awaitable Iterators
+ - Call function => `Awaitable[Iterator[T]]`
+ - Wrap result to `Awaitable[CachedIterable[T]]`
+ - Save result to async cache
+ - Transform `Awaitable[CachedIterable[T]]` to `Awaitable[CachedIterator[T]]`
+ - Await
+ - Iterate
+
+Decorate with: `cacheable_iter.core.alru_iter_cache`.
+
+### For Asynchronous Iterators
+ - Call function => `AsyncIterator[T]`
+ - Wrap result to `CachedAsyncIterable[T]`
+ - Save result to async cache
+ - Transform `CachedAsyncIterable[T]` to `CachedAsyncIterator[T]`
+ - Asynchronously iterate
+
+Decorate with: `cacheable_iter.core.lru_async_iter_cache`.
+
+<!-- Region: Links -->
+[async_lru]: https://pypi.org/project/async_lru/
+[Full Documentation]: https://hares-lab.gitlab.io/cacheable-iterators
+
+
