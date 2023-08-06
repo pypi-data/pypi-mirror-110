@@ -1,0 +1,13 @@
+Arduscope Changelog
+===================
+
+0.3.3 (2021-06-24)
+------------------
+
+- Fix an error in `ArduscopeMeasure.load` method with `.csv` extension.
+- Fix the possibility of overlap between two different sounds.
+
+0.3.2 (2021-06-16)
+------------------
+
+- First release for students
