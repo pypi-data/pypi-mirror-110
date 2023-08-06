@@ -1,0 +1,5 @@
+mlflow~=1.17.0
+click~=8.0.1
+boto3~=1.17.86
+Jinja2~=3.0.1
+markdown~=3.3.4
