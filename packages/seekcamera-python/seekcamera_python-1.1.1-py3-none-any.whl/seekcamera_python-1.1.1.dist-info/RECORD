@@ -1,0 +1,12 @@
+seekcamera/__init__.py,sha256=hxE4VmhmKV_k5FiU2xM19RdEjNIK-Jk_6_hQLDnHT84,2342
+seekcamera/_clib.py,sha256=Udi9oXVb1svgnjLFGJ4nSFjRvmyknN7dFsk90ukXX4Y,32221
+seekcamera/camera.py,sha256=tf9SaP0zbQQxRZNUvc8DbkN2xmMqHK24mj6rdU2h5kE,73455
+seekcamera/error.py,sha256=DkP4q7NkA9I5igviUwAtJ5Q1eVeqUczBJOoO3YdP8RI,7334
+seekcamera/version.py,sha256=8qG2Z9NGZEElByd1r13mhuaZuEo1mCYaOkOW9UmsFis,1267
+seekcamera_python-1.1.1.data/data/examples/seekcamera-opencv.py,sha256=uFN9htuA4x6wC7or8qOV59J6SiyPiahltO9Ucj6DwXM,5966
+seekcamera_python-1.1.1.data/data/examples/seekcamera-simple.py,sha256=eRzF8dtY2mhaq8JrOl7u6HKbk19dRAbcpfqmG7vv98c,3722
+seekcamera_python-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+seekcamera_python-1.1.1.dist-info/METADATA,sha256=PxFpS7ZDaW7bREB68JvTngPQq0YSHoxut6nxoB8FY20,5942
+seekcamera_python-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+seekcamera_python-1.1.1.dist-info/top_level.txt,sha256=kUD-xZLdq_w2LjXJaxd6xn9pB5f2gasivLhpyeqWTuQ,11
+seekcamera_python-1.1.1.dist-info/RECORD,,
