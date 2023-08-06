@@ -1,0 +1,1 @@
+_DeepSS_ has been renamed _DAS_ (_Deep Audio Segmenter_) and can be found on github at [https://github.com/janclemenslab/das]() and on pypi at [https://pypi.org/project/das]().
