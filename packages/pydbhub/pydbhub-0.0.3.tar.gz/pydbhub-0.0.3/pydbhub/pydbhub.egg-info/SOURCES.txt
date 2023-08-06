@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pydbhub/pydbhub.egg-info/PKG-INFO
+pydbhub/pydbhub.egg-info/SOURCES.txt
+pydbhub/pydbhub.egg-info/dependency_links.txt
+pydbhub/pydbhub.egg-info/requires.txt
+pydbhub/pydbhub.egg-info/top_level.txt
