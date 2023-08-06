@@ -1,0 +1,3 @@
+[console_scripts]
+seaborn = seaborn_command.main:main
+
