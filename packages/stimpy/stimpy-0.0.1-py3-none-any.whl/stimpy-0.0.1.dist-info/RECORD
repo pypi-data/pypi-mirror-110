@@ -1,0 +1,17 @@
+stimpy/__init__.py,sha256=XMxxgnSEGWzpZDbnBTz9q3iIAe9CvzKHQu084JcWCdM,158
+stimpy/animate/__init__.py,sha256=hRt9MA4wSILSo0ucAzEevNOVMPPb-iQBSAwIZSJO-84,102
+stimpy/animate/_animate.py,sha256=ixQsHJxKtHj9QFf5yVG51xS_MCZwmgInD5tviBLr7GI,1608
+stimpy/animate/_func.py,sha256=j5ti0PvgejRjNdkuqeLftuN-hcF0Joa4oA9JxDjk94o,303
+stimpy/animate/opacity.py,sha256=zwhKdVHpPvm-EAGkdOB5WtnTHqEjP_xoi1bUTWqTLU4,228
+stimpy/animate/ori.py,sha256=VZul5rRXnQFM8mttYN3LRFXYKWY8mjmnB_PfN_TtX80,1222
+stimpy/animate/phase.py,sha256=jsEIn-BnMSXLhEzIOJuWFRr__yACOyMGa9dQmuQ0LkU,319
+stimpy/animate/pos.py,sha256=Z4bplQb_FlL3XnzbK8LFG_LjOLkPcDYitad6Q_lz9HI,1605
+stimpy/animate/size.py,sha256=N5P-vYqKqEFb1GQD2U6AdX_rvASlYCCoFuLwsQGqUZc,304
+stimpy/stim.py,sha256=JgAHSgJJrJ3qdP5UFrX2LYEbe7_3szEm-9v6Q4j8oqA,1158
+stimpy/trial.py,sha256=q8YYrKTRBywn0JOKu_j_dRpqgszQbKp2GY-0InDeJkw,1861
+stimpy/visual.py,sha256=IGkDSgNM_dkvG0WHpGg2fKgMekHdWhpjhu8eKO8mS-A,19020
+stimpy/window.py,sha256=zMoRAJhw30hKT3yN88k7pUlYA6U77NbiGUPgbY6JMVU,1754
+stimpy-0.0.1.dist-info/LICENSE,sha256=scTE42-VfbnIsq5YUZ8KcddI0bPXQMPnZxYNP5lZy3s,1100
+stimpy-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+stimpy-0.0.1.dist-info/METADATA,sha256=FmTa8QUcMccC5ununVebZ57bJmHbxtLKArqpFlodSI4,509
+stimpy-0.0.1.dist-info/RECORD,,
