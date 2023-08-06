@@ -1,0 +1,14 @@
+dicalum/DclCamera.py,sha256=Ek736o2KP02BVtk-cST3sGME5ha_aX9meAOiQVVK30M,261
+dicalum/DclExif.py,sha256=uAl3pHKCsHxpcaKUsoRZAGmDmdscFQUo6G1uwe_6oIU,1095
+dicalum/DclGui.py,sha256=RNreX-3iXLfsJu7i-F9o8B9A6TCVnyE0aYvLXq3daWw,7978
+dicalum/DclPlot.py,sha256=rjPzYIjnohulbIGtwsQh5tukBaTLa1aVIMMipgv5aYc,1803
+dicalum/RawRead.py,sha256=0SSOU70SZb7oUMnF8YIEYKSa12bhL_jo-itVjyLruwI,3954
+dicalum/SetVig.py,sha256=R2_ohCAgP4KlkI0RbXfL5E2fbVxbN2h31au7xmh7rBc,647
+dicalum/__init__.py,sha256=NY_h80C77u-L5faLqVTt48USpxKuVUzVdsp8pppkSYU,187
+dicalum/coeffs.py,sha256=3uLBEqK1gi5azfVeTuFDbDLRERnTs-MiiJ7vVzW_dPQ,25079
+dicalum-4.0b6.dist-info/DESCRIPTION.rst,sha256=xrdwGxNDXcPNJqWLJHCyfChCrMf8RPZKjlHWwFPBxII,45
+dicalum-4.0b6.dist-info/METADATA,sha256=ucucL69sbIOTPHwfdp3JwZ6UdAbkL1dUEFO4Q4CuChk,531
+dicalum-4.0b6.dist-info/RECORD,,
+dicalum-4.0b6.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+dicalum-4.0b6.dist-info/metadata.json,sha256=BAn1zO-l2s5pe2iRiVn1rc9auY78B5yqzEFxMPIKGNU,592
+dicalum-4.0b6.dist-info/top_level.txt,sha256=3kSeoC5zTLbYFT2E3nSm9JLmf6QdaA54tqtbCUt4o3k,8
