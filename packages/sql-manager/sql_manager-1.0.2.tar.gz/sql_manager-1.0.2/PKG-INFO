@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: sql_manager
+Version: 1.0.2
+Summary: A simple database manager with sqlalchemy
+Home-page: https://github.com/suqingdong/sql_manager
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: BSD License
+Project-URL: Documentation, https://sql_manager.readthedocs.io
+Project-URL: Tracker, https://github.com/suqingdong/sql_manager/issues
+Description: # A simple database manager with sqlalchemy
+        
+        ### Installation
+        ```bash
+        python3 -m pip install sql_manager
+        ```
+        
+        ### Basic Usage
+        ```python
+        from sqlalchemy import Column, Integer
+        from sql_manager import DynamicModel, Manager
+        
+        # create model
+        columns = {
+            'uid': Column(Interger, primary_key=True),
+            'name': Column(String(10), comment='the username')}
+        Base, Data = DynamicModel('TEST', columns, 'test')
+        
+        # insert data
+        with Manager(Base, dbfile='test.db') as m:
+            data = Data(uid=1, name='zoro')
+            m.insert(Data, 'uid', data)
+        
+        # query, delete
+        with Manager(Base, dbfile='test.db') as m:
+            res = m.query(Data, 'uid', 1)
+            print(res.all())
+            m.delete(Data, 'uid', 1)    
+        
+        # other origin methods
+        with Manager(Base, dbfile='test.db') as m:
+            query = m.session.query(Data)
+            query.filter(Data.name.like('%zo%')).limit(1)
+        ```
+        
+        ### Document
+        https://sql-manager.readthedocs.io/en/latest/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
