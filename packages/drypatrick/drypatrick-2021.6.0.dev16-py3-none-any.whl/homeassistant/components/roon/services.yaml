@@ -1,0 +1,9 @@
+transfer:
+  description: Transfer playback from one player to another.
+  fields:
+    entity_id:
+      description: id of the source player.
+      example: "media_player.bedroom"
+    transfer_id:
+      description: id of the destination player.
+      example: "media_player.study"
