@@ -1,0 +1,7 @@
+setup.py
+chameleonpricing/__init__.py
+chameleonpricing/price_calculator.py
+chameleonpricing.egg-info/PKG-INFO
+chameleonpricing.egg-info/SOURCES.txt
+chameleonpricing.egg-info/dependency_links.txt
+chameleonpricing.egg-info/top_level.txt
