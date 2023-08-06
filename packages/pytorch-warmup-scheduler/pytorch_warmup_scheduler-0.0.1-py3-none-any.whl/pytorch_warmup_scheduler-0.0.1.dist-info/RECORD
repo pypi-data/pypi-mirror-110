@@ -1,0 +1,7 @@
+pytorch_warmup_scheduler/__init__.py,sha256=khNVrm3bggNmnybYqbxj57FdTOJwOufy3u3IGxKrR_M,46
+pytorch_warmup_scheduler/warmup_scheduler.py,sha256=KdmgiP3md3izhVMazuQId746LxMbOgEir9-ZO4raDpI,1399
+pytorch_warmup_scheduler-0.0.1.dist-info/LICENSE,sha256=mFVNhRSiHEV4s-NOQOh7nNUWjkbUZmKhu-XY4Jj2axI,1062
+pytorch_warmup_scheduler-0.0.1.dist-info/METADATA,sha256=o3Nm9FtxVq9DU5qVxkUSoWePE1LCnbUbGajEL-COV8E,1061
+pytorch_warmup_scheduler-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytorch_warmup_scheduler-0.0.1.dist-info/top_level.txt,sha256=Dd1wrKbkHIEYPHdiQt16GmnNKh3LXgwOsXfb4g0z8bw,25
+pytorch_warmup_scheduler-0.0.1.dist-info/RECORD,,
