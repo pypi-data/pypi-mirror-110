@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: Haroun
+Version: 0.1.5
+Summary: My own PyTorch framework
+Home-page: https://github.com/hraouak/haroun
+Author: Haroun Raouak
+Author-email: hnrak98@gmail.com
+License: MIT
+Download-URL: https://github.com/hraouak/haroun/archive/refs/tags/V_015.tar.gz
+Description: UNKNOWN
+Keywords: Pytorch,Neural,Network,Framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
