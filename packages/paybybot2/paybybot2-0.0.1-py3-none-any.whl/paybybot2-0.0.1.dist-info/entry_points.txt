@@ -1,0 +1,3 @@
+[console_scripts]
+paybybot2 = paybybot2.__main__:cli
+
