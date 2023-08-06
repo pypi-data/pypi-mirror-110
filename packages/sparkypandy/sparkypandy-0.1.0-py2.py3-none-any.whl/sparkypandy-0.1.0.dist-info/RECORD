@@ -1,0 +1,16 @@
+sparkypandy/__init__.py,sha256=beZf1p97uu9P3JwdkA0j7FrBkHFYOuBOGg64e19Qt90,165
+sparkypandy/_column.py,sha256=rsYW2H_3JI4DWisiFEB_x-si7BiNeRsFp78dzYKZ12E,966
+sparkypandy/_dataframe.py,sha256=9hKIzsrGZEiB5hreEqppoKwcrbPH5s05KU4gKFK_J28,1003
+sparkypandy/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sparkypandy/testing.py,sha256=mSUpSu_F-FngC_rF_OKU-ViWLonFfHPCF4BOhXNj-F0,756
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=VH0QijaW5wzaJGkxkNFw2KImVCxPIRMY2jRFESmIMdQ,1785
+tests/test_column.py,sha256=DkeLUlrb7rGx3nZ04aADU9HXXu5mZTf_DBwT0xhzIv4,7
+tests/test_dataframe.py,sha256=hSqB_EYaFfRGMRLxddyrjIsaxErffteCX05yTGFyN2s,1900
+tests/test_sparkypandy.py,sha256=JES9GGyMT8JDYDHP6dasWPLsYycHcKWxfqcYYBqyMYk,100
+tests/test_testing.py,sha256=PfbqW4H3fvjoSY1HpX8W0SUrLOdSVcnv92zxa-Xe6RI,946
+sparkypandy-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+sparkypandy-0.1.0.dist-info/METADATA,sha256=hg-Jmx8qTv1M_FSm4zjuvA616-DIghUnYUlyqDwVrm4,2622
+sparkypandy-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+sparkypandy-0.1.0.dist-info/top_level.txt,sha256=LROFfxQj9hO-ryr4P16nCnaWSHbEv4TNtAxCs1nklb8,18
+sparkypandy-0.1.0.dist-info/RECORD,,
