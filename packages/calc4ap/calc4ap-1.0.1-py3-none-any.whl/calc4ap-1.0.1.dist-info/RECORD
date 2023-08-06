@@ -1,0 +1,12 @@
+calc4ap/voc.py,sha256=1LhAJ5AsCFZCPxZEskIT_Z0gxp_q4BD9aXgYbWUL4Kg,3329
+calc4ap/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calc4ap/libs/calc_ap.py,sha256=UWU58i6rG6TEfSC_4bmdIq0kZ59EivBA80RiJfhUlXE,4409
+calc4ap/libs/calc_iou.py,sha256=2eXeGz8653aXoxTSkhXRd-hGo_k16uluLtVo8GYdFPQ,1221
+calc4ap/libs/classifiers.py,sha256=64JdLBngom9E83UGsTXGO2l1pXhxpskSurKFmApIVGQ,1533
+calc4ap/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calc4ap/utils/coco.py,sha256=17zZsP_f0n43Z-tJbInl4iVM0hpAf1kLeBGrHz4bnJI,673
+calc4ap-1.0.1.dist-info/LICENSE,sha256=gecQDHdIibB27VIxZMaoPTM4hL3jMkWgUSom9oSn-lg,1066
+calc4ap-1.0.1.dist-info/METADATA,sha256=wAtlLm6POyZB7pEtkimfXYwNjm1rNt2WBpGKJ3KraAo,1056
+calc4ap-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+calc4ap-1.0.1.dist-info/top_level.txt,sha256=418UeKuZ022BkpdLKbrKuPNTjs86olW7kIl99338yHo,8
+calc4ap-1.0.1.dist-info/RECORD,,

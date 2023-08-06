@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: calc4ap
+Version: 1.0.1
+Summary: Easy AP Calculator with Python
+Home-page: https://github.com/DevBruce/calc4ap
+Author: devbruce
+Author-email: bruce93k@gmail.com
+License: MIT
+Keywords: ap,map,object_detection,pascal_voc,coco,deep_learning,evaluation
+Platform: UNKNOWN
+Requires-Python: >=3.6.5
+Description-Content-Type: text/markdown
+
+# calc4ap
+
+> Pascal VOC (<http://host.robots.ox.ac.uk/pascal/VOC/>)
+
+<br><br>
+
+## Install via PyPI
+
+```bash
+$ pip install calc4ap
+```
+
+<br><br>
+
+## How to Use
+
+```python
+from calc4ap.voc import CalcVOCmAP
+
+
+# (some codes ...)
+voc_ap = CalcVOCmAP(labels=labels, preds=preds, iou_thr=0.5, conf_thr=0.0)
+ap_summary = voc_ap.get_summary()
+
+car_AP = ap_summary['car']
+mAP = ap_summary['mAP']
+```
+
+### `CalcVOCmAP` Args
+
+- `preds`: (list): list of `[left, top, right, bottom, confidence, class_name, image_id]`
+- `labels`: (list): list of `[left, top, right, bottom, class_name, image_id]`
+- `iou_thr`: (float): IoU Threshold (Default: 0.5)
+- `conf_thr`: (float): Confidence Threshold (Default: 0.0)
+
+
