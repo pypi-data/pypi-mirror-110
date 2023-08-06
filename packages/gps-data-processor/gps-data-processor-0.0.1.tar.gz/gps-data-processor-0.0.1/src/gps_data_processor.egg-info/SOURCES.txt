@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/gps-data-processor/__init__.py
+src/gps-data-processor/gps.py
+src/gps_data_processor.egg-info/PKG-INFO
+src/gps_data_processor.egg-info/SOURCES.txt
+src/gps_data_processor.egg-info/dependency_links.txt
+src/gps_data_processor.egg-info/top_level.txt
