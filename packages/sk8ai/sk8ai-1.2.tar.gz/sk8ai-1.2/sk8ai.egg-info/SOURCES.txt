@@ -1,0 +1,10 @@
+README.md
+setup.py
+sk8ai/__init__.py
+sk8ai/maths.py
+sk8ai/sk8.py
+sk8ai.egg-info/PKG-INFO
+sk8ai.egg-info/SOURCES.txt
+sk8ai.egg-info/dependency_links.txt
+sk8ai.egg-info/requires.txt
+sk8ai.egg-info/top_level.txt
