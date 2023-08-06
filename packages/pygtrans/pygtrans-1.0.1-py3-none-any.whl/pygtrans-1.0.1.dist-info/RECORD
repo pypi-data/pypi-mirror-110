@@ -1,0 +1,12 @@
+pygtrans/ApiKeyTranslate.py,sha256=TaDpzf13iHE4Tp4NF57LLGvrmqDTrp74uuXryQXEF74,8165
+pygtrans/DetectResponse.py,sha256=AncPhSmphtf463lGANYo-j0ofimiuY60IC1t65xRpQU,339
+pygtrans/LanguageResponse.py,sha256=pwEKsrlqKWK4G74k6NHE-wYm_wob6cq98NcSF6w2LWY,185
+pygtrans/Null.py,sha256=SdohXzGnlJYX0mtJTyfSQ4cafxx2lA09-K32dEOzyKA,433
+pygtrans/Translate.py,sha256=43I954c1-lD--sDpouBQUXLItKsalppVkNvKl_ijUeo,9991
+pygtrans/TranslateResponse.py,sha256=8GHzfHogiLumCpDUumHMizl-yNC0GuxY0y2u8aH-sks,642
+pygtrans/__init__.py,sha256=NHCxPTNbZ3ZeDZpZfl83Ozu3_1zPpgvoAoEe8sXXyoI,754
+pygtrans-1.0.1.dist-info/LICENSE,sha256=TU-YW3-jCt88g-wRmWMKLbNJSNX0noFDfsW7Yz8Z6do,1084
+pygtrans-1.0.1.dist-info/METADATA,sha256=hOqFW6xpcFITdb16gyOaQIcrDF68EFvrURM3VeC_7lY,5584
+pygtrans-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pygtrans-1.0.1.dist-info/top_level.txt,sha256=WX01lP0u2QyVIL3-5630neO1BAug4cE6b2BTve5iAdI,9
+pygtrans-1.0.1.dist-info/RECORD,,
