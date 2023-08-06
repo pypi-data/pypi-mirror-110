@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: eptc
+Version: 0.0.2
+Summary: elerp python tools collection
+Home-page: https://www.elerp.net/eptc/
+Author: elerp
+Author-email: hb@elerp.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://www.elerp.net/eptc/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# eptc
+
+elerp python tools collection
+

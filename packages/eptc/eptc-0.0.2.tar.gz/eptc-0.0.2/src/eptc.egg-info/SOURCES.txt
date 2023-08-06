@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/eptc/__init__.py
+src/eptc/eptc.py
+src/eptc.egg-info/PKG-INFO
+src/eptc.egg-info/SOURCES.txt
+src/eptc.egg-info/dependency_links.txt
+src/eptc.egg-info/top_level.txt
