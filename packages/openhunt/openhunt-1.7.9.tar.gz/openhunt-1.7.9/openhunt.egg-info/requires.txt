@@ -1,0 +1,7 @@
+pandas
+altair
+seaborn
+matplotlib
+pyspark
+plotly
+networkx
