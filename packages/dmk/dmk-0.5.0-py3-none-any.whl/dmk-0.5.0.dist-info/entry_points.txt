@@ -1,0 +1,3 @@
+[console_scripts]
+dmk = dmk:dmk_cli
+
