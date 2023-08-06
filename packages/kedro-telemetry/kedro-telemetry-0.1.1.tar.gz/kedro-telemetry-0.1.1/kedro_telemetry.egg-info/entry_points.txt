@@ -1,0 +1,3 @@
+[kedro.cli_hooks]
+kedro-telemetry = kedro_telemetry.plugin:cli_hooks
+
