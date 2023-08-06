@@ -1,0 +1,3 @@
+[console_scripts]
+kubehelm = kubehelm.manager:execute_from_command_line
+

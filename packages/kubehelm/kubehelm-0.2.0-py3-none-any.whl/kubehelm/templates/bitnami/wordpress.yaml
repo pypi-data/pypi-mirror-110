@@ -1,0 +1,93 @@
+wordpressEmail: user@example.com
+wordpressFirstName: FirstName
+wordpressLastName: LastName
+wordpressBlogName: User's Blog!
+
+wordpressUsername: user
+wordpressPassword: "user"
+
+
+# NOTE: ReadWriteMany PVC(s) are required if replicaCount > 1
+replicaCount: 1
+
+
+persistence:
+  size: 1Gi
+
+
+service:
+  type: ClusterIP
+  port: 80
+  httpsPort: 443
+
+
+ingress:
+  enabled: true
+  certManager: true
+  tls: true
+
+
+# ==============
+# DATABASE
+# ==============
+mariadb:
+  enabled: false
+
+externalDatabase:
+  host: data-mariadb.default.svc
+  port: 3306
+  database: main_wordpress
+  user: user
+  
+  password: "password"
+  # OR
+  # existingSecret: "app-name-mariadb"
+  # Must contain key `mariadb-password`
+
+
+# ==============
+# SMTP 
+# ==============
+smtpHost: ""
+smtpPort: ""
+smtpUser: ""
+smtpProtocol: ""
+
+smtpPassword: ""
+# OR
+smtpExistingSecret:
+# Must contain key `smtp-password`
+
+
+
+# ==============
+# OTHER 
+# ==============
+allowEmptyPassword: false
+wordpressAutoUpdateLevel: major
+wordpressPlugins:
+  - arabic-webfonts
+  - woocommerce
+  # - woocommerce-pdf-invoices-packing-slips
+  # - woo-stripe-payment
+
+
+# Skip wizard installation
+# NOTE: useful if you use an external database that already contains WordPress data
+wordpressSkipInstall: false
+# ref: https://github.com/bitnami/bitnami-docker-wordpress#connect-wordpress-docker-container-to-an-existing-database
+
+
+customPostInitScripts:
+  setting-up-language-and-date.sh: |
+    #!/bin/bash
+    chmod +w /bitnami/wordpress/wp-config.php
+    wp option update WPLANG "ar"
+    wp option update timezone_string "Asia/Riyadh"
+    wp option update date_format "Y-m-d"
+    wp option update time_format "g:i A"
+    wp option update start_of_week 0
+    chmod -w /bitnami/wordpress/wp-config.php
+
+
+# WARN  ==> Multisite mode is not enabled, and WORDPRESS_MULTISITE_HOST is only used for Multisite installations. Its value will be ignored.
