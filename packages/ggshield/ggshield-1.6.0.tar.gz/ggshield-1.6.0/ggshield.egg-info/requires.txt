@@ -1,0 +1,4 @@
+click
+pygitguardian==1.2.1
+pyyaml
+python-dotenv
