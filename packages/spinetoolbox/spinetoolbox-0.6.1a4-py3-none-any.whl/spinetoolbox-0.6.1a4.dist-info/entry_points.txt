@@ -1,0 +1,3 @@
+[console_scripts]
+spinetoolbox = spinetoolbox.main:main
+
