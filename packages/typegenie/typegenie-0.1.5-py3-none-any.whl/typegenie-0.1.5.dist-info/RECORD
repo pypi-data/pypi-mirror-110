@@ -1,0 +1,11 @@
+typegenie/__cli__.py,sha256=3hNo49D3dNfziqSDshhjC7hn50YBTvHej5eqMuw3BFM,3968
+typegenie/__init__.py,sha256=KmWVWKIfHQ_NMS2-E-IYOVa3HAZQXoHYryHRL6yJbGk,136
+typegenie/api.py,sha256=PyZ-GsXG2FTpwgpU6aW0ddNpz-WGL1jypz9U_8nP6mM,8402
+typegenie/autocomplete.py,sha256=bynoMMH_UvKBT7LKsD5gNUznHJosxBYonf9qCQta10U,4774
+typegenie/lib.py,sha256=Trd8EwEiB4GxD_9J6ijfvfRNdK_D-i-Qoyb_9GJzxWo,18075
+typegenie-0.1.5.dist-info/LICENSE,sha256=6fDMY8MOv0NLzWN6MMs_StDY7onb00aJpq6CiGZKVco,1065
+typegenie-0.1.5.dist-info/METADATA,sha256=XFnw3F12BI26CVqxd3T7H0HQpq1LAReheNmrjb8W9fk,1408
+typegenie-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+typegenie-0.1.5.dist-info/entry_points.txt,sha256=am4wHWy5vmjIm7VTtU4g10m2d5dhqYbJoKqEbaU-31E,58
+typegenie-0.1.5.dist-info/top_level.txt,sha256=waAI8dcWBbV8qxqxPIBsM30OZ7ZXaiMF_3xWdBV4biY,10
+typegenie-0.1.5.dist-info/RECORD,,
