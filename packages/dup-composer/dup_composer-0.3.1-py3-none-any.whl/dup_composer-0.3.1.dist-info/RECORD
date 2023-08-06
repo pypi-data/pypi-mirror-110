@@ -1,0 +1,11 @@
+dupcomposer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dupcomposer/__main__.py,sha256=LYwCafD5uZX8acWBz_xqQN8Hw5vouQsv-ekljvOupAk,6011
+dupcomposer/backup_config.py,sha256=IOI_URwzCypST7ylNhcNfUfXo1eTb29u01wYa-xk1fk,18815
+dupcomposer/backup_keyring.py,sha256=crMFJcWvkhdJ-67CYIKtm-wNFCMFqL6qdFKgR2eO3kk,3339
+dupcomposer/backup_runner.py,sha256=t7unCxakXiWiN5JSbYhX8ThLBOEljPmo4l6TM_taKao,5136
+dup_composer-0.3.1.dist-info/LICENSE,sha256=ZsT1FoPSHO0dLYu9F8b4nwjjJR5NeISiiDxRrS9Wneo,1064
+dup_composer-0.3.1.dist-info/METADATA,sha256=Omwf9hGwHwvr6vy-1H69gckZpB3jesTbskFR9CAFtbc,12096
+dup_composer-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+dup_composer-0.3.1.dist-info/entry_points.txt,sha256=sr7s_B3aq5vM3P5GV57EH-hELNhX5HuPMKWFKcZBEok,55
+dup_composer-0.3.1.dist-info/top_level.txt,sha256=LsjHLLNyKGQAzHYLaBktA9t5rbtkzlesGdL18f0QdCs,12
+dup_composer-0.3.1.dist-info/RECORD,,
