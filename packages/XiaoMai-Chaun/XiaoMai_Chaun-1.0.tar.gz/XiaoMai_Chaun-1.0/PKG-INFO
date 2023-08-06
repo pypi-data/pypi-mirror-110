@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: XiaoMai_Chaun
+Version: 1.0
+Summary: 这是第一次对外发布的模块，用于测试哦！
+Home-page: http://test.com
+Author: 小心甘
+Author-email: 3039486905@qq.com
+License: UNKNOWN
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        
+        to write your content.
+Platform: UNKNOWN
