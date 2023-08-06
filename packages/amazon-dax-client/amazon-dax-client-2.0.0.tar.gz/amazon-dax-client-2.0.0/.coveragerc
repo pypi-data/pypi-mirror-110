@@ -1,0 +1,8 @@
+[run]
+branch = True
+source = amazondax
+omit = 
+    amazondax/grammar/*
+    amazondax/grammar2/*
+
+

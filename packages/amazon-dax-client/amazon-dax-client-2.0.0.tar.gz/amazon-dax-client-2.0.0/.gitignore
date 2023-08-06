@@ -1,0 +1,17 @@
+.cache
+.coverage
+.eggs
+test-results
+.python-version
+.tox
+amazondax/generated/Common
+__pycache__
+*.pyc
+amazon_dax_client.egg-info
+dist
+.idea/**
+.DS_Store
+*~
+*.interp
+*.tokens
+.vscode/**
