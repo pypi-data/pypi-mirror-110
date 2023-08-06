@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/searchtools.egg-info/PKG-INFO
+src/searchtools.egg-info/SOURCES.txt
+src/searchtools.egg-info/dependency_links.txt
+src/searchtools.egg-info/top_level.txt
