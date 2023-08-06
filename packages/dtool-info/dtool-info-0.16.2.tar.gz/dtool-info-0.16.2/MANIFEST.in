@@ -1,0 +1,3 @@
+include README.rst
+include dtool_info/templates/dtool_report.html.j2
+include LICENSE.rst
