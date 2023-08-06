@@ -1,0 +1,5 @@
+coloredlogs
+confluent-kafka==1.7.0
+contextvars
+semver
+urnparse
