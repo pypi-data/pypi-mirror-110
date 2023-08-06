@@ -1,0 +1,12 @@
+leggedsnake/__init__.py,sha256=cqUVOkyVNGKXbvO0Vyz_nrAWh7h47X3Wiy07jLlX1Fs,241
+leggedsnake/dynamiclinkage.py,sha256=DyGgc8MID92xKsAr7qR_54JxK0Fy2AU93A77NPXyTas,20703
+leggedsnake/geneticoptimizer.py,sha256=f8LkOQXqoRap_m-wyZ5Tz8lqM-HpjMnQWuKYJpg1nL0,9774
+leggedsnake/physicsengine.py,sha256=mgvRSQXM98_FvGoUzsnaaFniNiJXPqrVU2e8qgXwXAk,15927
+leggedsnake/show_evolution.py,sha256=n1B6Zv7wxIDOBxtYHvQqhdzuVaUQKTSKWDva0BjtsGQ,559093
+leggedsnake/utility.py,sha256=x1SUi_KZM3ZNn3m8kweMVS6BhS27GTqkkq85xP3h7ek,4065
+leggedsnake/walker.py,sha256=DjkJC8r6JuE6YLfjbeChgyHWIfeghlUkB1zj5rmEYx4,3207
+leggedsnake-0.1.1.dist-info/LICENSE,sha256=_mkwdyuaZ8ViLzsiWV3R8wfhxSf7jrZrEBdoZeTojBw,1072
+leggedsnake-0.1.1.dist-info/METADATA,sha256=xdZuCdqQ2M9lL2zQKpqlvgbigRt8SYU4XjgSsiYJgmQ,9247
+leggedsnake-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+leggedsnake-0.1.1.dist-info/top_level.txt,sha256=DbP-ObHBMWFKqQtgfQl9WND1EhJI0RVN4Q2uaDF_b7g,12
+leggedsnake-0.1.1.dist-info/RECORD,,
