@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytezz
+Version: 0.0.3
+Summary: pytezz
+Home-page: UNKNOWN
+Author: daniyal shaiq
+Author-email: daniyalshaiq01@gmail.com
+License: UNKNOWN
+Platform: linux
+Platform: unix
+Requires-Python: >3.5.2
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.6.0)
+
+pytezz - a project of FAST Developer Community
+
+
