@@ -1,0 +1,16 @@
+simplechinese/__init__.py,sha256=rVHCMRwN8xiKG001mjRifoEt4Jhn3PE3Sh3SMneMRbk,340
+simplechinese/conversion.py,sha256=TobkCYbsy8w2UajlUcrcV1sBgni6d2m5FUKXEVKQ12k,346
+simplechinese/nlp.py,sha256=9B8aauE3yPh7pd9JyV8hABeULH-ClAC-Li1oZjN8qQE,8289
+simplechinese/preprocessing.py,sha256=WwoPS4wUfjYCwfGp0u-iEHdbIYtXHcNBaMaDm7T9ewk,5160
+simplechinese/representation.py,sha256=UB1vuIBm4UENQzzjN73M4zd0ZnlbI2LsIdG-dgLUxzE,3777
+simplechinese/visualization.py,sha256=QqSJbpizRBLvRHp7eJ0pUORwtnJkUaSDPlUZoWp658M,1854
+simplechinese/data/all_weights_64.npy,sha256=WpPsLim1tO7jaHOYps2XYjuKdA4Dr5mB5QJN3yMW-xM,55773440
+simplechinese/data/all_words.pickle,sha256=_N7yS50U7y3xpkpIzCKizr-wELZQB9UA5evDcaFqhIA,4536840
+simplechinese/data/names.pickle,sha256=1Eiuj85q2Ec5k_l43e3uVpbLnbYh-Gk8Z-IqEZfvpeI,2718573
+simplechinese/data/stopwords.txt,sha256=x7PT5p9xLt7FVrQTLWrJjoIY5VojD8L127hj5-Rwx7k,11393
+simplechinese/data/vocab.txt,sha256=Y8rMuzFbHHwUO896_kHW36wEco9Xfq2aMYtWnXS7Zso,9858903
+simplechinese-0.2.8.dist-info/LICENSE,sha256=pdG4_4UEDSgoNDw2D6v49VffYAPxxcP01cpn1viTEmA,1061
+simplechinese-0.2.8.dist-info/METADATA,sha256=AhxIybV7OKtDHhG0TZrinQBeU9XmfwXGHeS7As_47JE,775
+simplechinese-0.2.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simplechinese-0.2.8.dist-info/top_level.txt,sha256=ZQ8ZO8MyvXaP85Kd6JaWcSRvqiUAd7OYp7C7io6C7SA,14
+simplechinese-0.2.8.dist-info/RECORD,,
