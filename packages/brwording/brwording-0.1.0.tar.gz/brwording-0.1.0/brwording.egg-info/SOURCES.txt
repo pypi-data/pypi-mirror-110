@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+brwording/__init__.py
+brwording/brwording.py
+brwording.egg-info/PKG-INFO
+brwording.egg-info/SOURCES.txt
+brwording.egg-info/dependency_links.txt
+brwording.egg-info/not-zip-safe
+brwording.egg-info/requires.txt
+brwording.egg-info/top_level.txt
