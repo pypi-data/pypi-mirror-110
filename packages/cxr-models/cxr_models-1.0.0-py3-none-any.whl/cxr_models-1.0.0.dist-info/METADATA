@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cxr-models
+Version: 1.0.0
+Summary: Image classification models. Keras for Chest X-Ray
+Home-page: https://github.com/awsaf49/cxr_models
+Author: Awsaf
+Author-email: awsaf49@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.0.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: tensorflow (>=2.3)
+Requires-Dist: numpy
+Requires-Dist: keras-applications (<=1.0.8,>=1.0.7)
+Provides-Extra: tests
+Requires-Dist: scikit-image ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+
+# Chst X-Ray Models
+X-ray initialized models will be implemented here. 
+
+# Model List
+* CovXNet
+
