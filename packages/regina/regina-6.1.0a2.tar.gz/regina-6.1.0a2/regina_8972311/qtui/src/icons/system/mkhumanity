@@ -1,0 +1,115 @@
+#!/usr/bin/perl -w
+use strict;
+
+my @actionSizes = ( 16, 22, 32 );
+my @dialogSizes = ( 16, 22, 32, 48, 64 );
+my @allSizesDesc = ( 64, 48, 32, 24, 22, 16 );
+my @actionIcons = qw/
+    application-exit
+    dialog-cancel
+    dialog-ok
+    document-new
+    document-open
+    document-open-recent
+    document-save
+    document-save-as
+    edit-copy
+    edit-cut
+    edit-delete
+    edit-paste
+    edit-select-all
+    go-bottom
+    go-down
+    go-next
+    go-previous
+    go-top
+    go-up
+    help-contents
+    process-stop
+    stock_edit
+    window-close
+    /;
+my @actionIconsForDialog = qw/
+    system-run
+    /;
+my @appIcons = qw/
+    clock
+    utilities-terminal
+    /;
+my @dialogIcons = qw/
+    dialog-information
+    dialog-warning
+    /;
+# Hmm, I think the C++ and XML mime icons looked better in the oxygen icon set.
+my @mimeIcons = qw/
+    /;
+
+my $root = undef;
+
+sub usage {
+    my $err = shift;
+    $err and print STDERR "ERROR: $err\n\n";
+    print STDERR "Usage: $0 <path to humanity-icon-theme-X.Y.Z>\n";
+    exit 1;
+}
+
+sub render {
+    my $icon = shift;
+    my $geometry = shift;
+    my $size = shift;
+    my $filename = shift;
+    my $section = shift;
+
+    my $src = undef;
+    foreach (@allSizesDesc) {
+        $_ < $geometry and $src and last;
+        my $loc = "$root/Humanity/$section/$_/$icon.svg";
+        -e "$loc" and $src = $loc;
+    }
+    if (not defined $src) {
+        print STDERR "ERROR: No sources found for $icon/$geometry\n";
+        return;
+    }
+
+    print "Rendering $icon/$geometry at $size...\n";
+    `rsvg -w$size -h$size "$src" "$filename"`;
+}
+
+sub process {
+    my $icon = shift;
+    my $sizes = shift;
+    my $section = shift;
+
+    foreach (@$sizes) {
+        render($icon, $_, $_, "$icon-$_.png", $section);
+        render($icon, $_, 2 * $_, "$icon-$_\@2x.png", $section);
+    }
+}
+
+$#ARGV == 0 or usage;
+
+$root = $ARGV[0];
+-d "$root" or usage "Argument \"$root\" is not a directory.";
+-e "$root/Humanity/actions/16/window-close.svg" or
+    usage "Argument \"$root\" does not look like a humanity-icon-theme checkout.";
+
+foreach my $i (@actionIcons) {
+    process($i, \@actionSizes, "actions");
+}
+
+foreach my $i (@actionIconsForDialog) {
+    process($i, \@dialogSizes, "actions");
+}
+
+foreach my $i (@appIcons) {
+    process($i, \@dialogSizes, "apps");
+}
+
+foreach my $i (@dialogIcons) {
+    process($i, \@dialogSizes, "status");
+}
+
+foreach my $i (@mimeIcons) {
+    process($i, \@actionSizes, "mimes");
+}
+

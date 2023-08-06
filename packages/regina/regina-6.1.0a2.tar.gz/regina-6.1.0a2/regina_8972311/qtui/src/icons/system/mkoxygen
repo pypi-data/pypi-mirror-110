@@ -1,0 +1,72 @@
+#!/usr/bin/perl -w
+use strict;
+
+my @actionSizes = ( 16, 22, 32 );
+my @dialogSizes = ( 16, 22, 32, 48, 64 );
+my @allSizesDesc = ( 64, 48, 32, 24, 22, 16 );
+
+# The list of oxygen icons that we still use is small, and appears at
+# the bottom of this script.
+
+my $svn = undef;
+
+sub usage {
+    my $err = shift;
+    $err and print STDERR "ERROR: $err\n\n";
+    print STDERR "Usage: mkicons <path to oxygen-icons-X.Y.Z>\n";
+    exit 1;
+}
+
+sub render {
+    my $icon = shift;
+    my $geometry = shift;
+    my $size = shift;
+    my $filename = shift;
+    my $section = shift;
+
+    my $src = undef;
+
+    my $loc = "$svn/scalable/$section/$icon.svgz";
+    -e "$loc" and $src = $loc;
+
+    foreach (@allSizesDesc) {
+        $_ < $geometry and $src and last;
+        $loc = "$svn/scalable/$section/small/${_}x${_}/$icon.svgz";
+        -e "$loc" and $src = $loc;
+    }
+    if (not defined $src) {
+        print STDERR "ERROR: No sources found for $icon/$geometry\n";
+        return;
+    }
+
+    print "Rendering $icon/$geometry at $size...\n";
+    `rsvg -w$size -h$size "$src" "$filename"`;
+}
+
+sub process {
+    my $icon = shift;
+    my $section = shift;
+    my $sizes = shift;
+
+    foreach (@$sizes) {
+        render($icon, $_, $_, "$icon-$_.png", $section);
+        render($icon, $_, 2 * $_, "$icon-$_\@2x.png", $section);
+    }
+}
+
+$#ARGV == 0 or usage;
+
+$svn = $ARGV[0];
+-d "$svn" or usage "Argument \"$svn\" is not a directory.";
+-e "$svn/scalable/actions/window-close.svgz" or
+    usage "Argument \"$svn\" does not look like an oxygen-icons checkout.";
+
+# Not in humanity:
+process('configure', 'actions', \@actionSizes);
+process('edit-rename', 'actions', \@actionSizes);
+process('help-contextual', 'actions', \@actionSizes);
+
+# Better than the verison in humanity:
+process('application-xml', 'mimetypes', \@actionSizes);
+process('text-x-c++src', 'mimetypes', \@actionSizes);
+
