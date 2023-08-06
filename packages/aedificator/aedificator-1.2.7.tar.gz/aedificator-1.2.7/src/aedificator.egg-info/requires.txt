@@ -1,0 +1,6 @@
+Jinja2
+click
+typing_extensions
+
+[dev]
+tox
