@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: docx-search
+Version: 1.0.0
+Summary: A python library built to search for keywords in .docx files.
+Home-page: https://pypi.org/project/docx_search/
+Author: WaldemarBjornstrom
+Author-email: Waldemar.bjornstrom@unfnorrbotten.se
+License: GPL
+Project-URL: Github, https://github.com/WaldemarBjornstrom/docx_search
+Project-URL: Bug Tracker, https://github.com/WaldemarBjornstrom/docx_search/issues
+Keywords: docx docx_search search
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# docx_search
+
+A python library built to search for keywords in .docx files.
+
+## Installation
+
+### Easy:
+
+`pip install docx_search`
+
+### Advanced:
+
+Requires git.
+
+`Git clone https://github.com/WaldemarBjornstrom/docx_search`
+
+Then place the downloaded files in your project.
+
+## Usage
+
+```python
+import docx_search
+
+docx_search.run('Keyword', 'Path\\to\\file') # Returns a list with files that contain the keyword.
+
+```
+
+NOTE! The Keyword is case sensitive. And remember tu use double backslashes in the file path as python sees a single backslash as an escape marker.
+
+## License
+
+This project is licensed under the GNU GPLv3 License. See [LICENSE](LICENSE "LICENSE")
+
+
