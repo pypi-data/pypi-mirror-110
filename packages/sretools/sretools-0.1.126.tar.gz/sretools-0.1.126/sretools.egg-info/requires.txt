@@ -1,0 +1,8 @@
+pexpect
+texttable
+wcwidth
+pyyaml
+xmltodict
+dicttoxml
+pygments
+prompt_toolkit
