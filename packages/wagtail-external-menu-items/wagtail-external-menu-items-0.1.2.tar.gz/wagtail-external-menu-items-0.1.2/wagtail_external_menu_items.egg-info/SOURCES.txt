@@ -1,0 +1,16 @@
+LICENCE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+wagtail_external_menu_items/__init__.py
+wagtail_external_menu_items/apps.py
+wagtail_external_menu_items/exceptions.py
+wagtail_external_menu_items/settings.py
+wagtail_external_menu_items/wagtail_hooks.py
+wagtail_external_menu_items.egg-info/PKG-INFO
+wagtail_external_menu_items.egg-info/SOURCES.txt
+wagtail_external_menu_items.egg-info/dependency_links.txt
+wagtail_external_menu_items.egg-info/requires.txt
+wagtail_external_menu_items.egg-info/top_level.txt
+wagtail_external_menu_items/migrations/__init__.py
