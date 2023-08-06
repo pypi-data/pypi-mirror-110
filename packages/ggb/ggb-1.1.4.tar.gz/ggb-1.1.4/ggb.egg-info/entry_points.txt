@@ -1,0 +1,3 @@
+[console_scripts]
+ggb = ggb.__main__:main
+
