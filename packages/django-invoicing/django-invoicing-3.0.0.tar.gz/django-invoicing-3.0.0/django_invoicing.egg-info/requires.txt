@@ -1,0 +1,6 @@
+django>=3.1
+django-countries
+django-iban
+django-model-utils
+django-money
+vatnumber
