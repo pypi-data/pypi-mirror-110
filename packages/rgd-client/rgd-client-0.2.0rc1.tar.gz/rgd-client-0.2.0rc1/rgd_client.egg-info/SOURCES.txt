@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+rgd_client.egg-info/PKG-INFO
+rgd_client.egg-info/SOURCES.txt
+rgd_client.egg-info/dependency_links.txt
+rgd_client.egg-info/requires.txt
+rgd_client.egg-info/top_level.txt
+rgdc/__init__.py
+rgdc/_version.py
+rgdc/rgdc.py
+rgdc/session.py
+rgdc/types.py
+rgdc/utils.py

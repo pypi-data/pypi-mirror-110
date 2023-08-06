@@ -1,0 +1,7 @@
+requests
+requests-toolbelt
+geomet
+tqdm
+
+[dev]
+ipython
