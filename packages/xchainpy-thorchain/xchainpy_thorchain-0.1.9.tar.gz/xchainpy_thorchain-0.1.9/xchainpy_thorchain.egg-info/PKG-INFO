@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: xchainpy-thorchain
+Version: 0.1.9
+Summary: Thorchain wrapper
+Home-page: https://github.com/xchainjs/xchainpy-lib
+Author: THORChain
+Author-email: 
+License: MIT
+Keywords: THORChain,XChainpy,xchainpy_thorchain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# `xchainpy-thorchain`
+
+Thorchain wrapper
+
+## Testing
+
+Need this packages before using unit testing:
+- pytest
+- pytest-asyncio
+
+Installation with pip :
+
+```bash
+$ pip install pytest
+$ pip install pytest-asyncio
+```
+
+Testing :
+
+```bash
+$ python -m pytest xchainpy/xchainpy_thorchain/test/test_clients.py
+```
+
+can use other parameter like `-rP` or `-rx` for sysout
+
