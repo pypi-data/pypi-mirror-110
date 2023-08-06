@@ -1,0 +1,10 @@
+argo_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+argo_client/connection.py,sha256=Kqj18bAnmNKyyr019uIzkmj0vzkuPmmUNibWoIkJYU0,16148
+argo_client/interaction.py,sha256=TnLr3pRJlz1GLjh23tm8mmr89EJHIbwPlAT8dHUSxIo,8855
+argo_client/netstring.py,sha256=w-N6v0yMcJuy_0gsfRkLHqfdN8FWSsIDzv1w8eCs5R0,1189
+argo_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+argo_client-0.0.5.dist-info/LICENSE,sha256=ysoagsuBVGlIBSkt8nZCoLCQdQ-_q33JTOxDtWkJdVA,1457
+argo_client-0.0.5.dist-info/METADATA,sha256=Wr3TANaFs_S6xPVUuC7HrRC0YmbnUGmBN4ZZK3cmwlE,1141
+argo_client-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+argo_client-0.0.5.dist-info/top_level.txt,sha256=yCbSMxv4iRjBNGQNAmM2k5fY3-AxfhYGz4UxeILUYMo,12
+argo_client-0.0.5.dist-info/RECORD,,
