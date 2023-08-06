@@ -1,0 +1,169 @@
+Metadata-Version: 2.1
+Name: deepchain-apps
+Version: 0.1.9
+Summary: Define a personnal app to deploy on DeepChain.bio
+Home-page: UNKNOWN
+Author: Instadeep
+Author-email: a.delfosse@instadeep.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bio-transformers (>=0.1.0)
+Requires-Dist: matplotlib (==3.4.1)
+Requires-Dist: numpy (<1.19,>=1.16)
+Requires-Dist: pandas (>=1.2.3)
+Requires-Dist: pytorch-lightning (>=1.2.6)
+Requires-Dist: requests (>=2.23.0)
+Requires-Dist: scikit-learn (>=0.22.2)
+Requires-Dist: tensorflow (<2.4,>=2.3.0)
+Requires-Dist: torch (<1.9.0,>=1.7.0)
+Requires-Dist: tqdm (>=4.60.0)
+
+<p align="center">
+  <img width="50%" src="https://raw.githubusercontent.com/DeepChainBio/deep-chain-apps/main/.docs/source/_static/deepchain.png">
+</p>
+
+![PyPI](https://img.shields.io/pypi/v/deepchain-apps)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
+
+<details><summary>Table of contents</summary>
+
+- [Description](#description)
+- [Installation](#Installation)
+- [CLI](#usage)
+  - login
+  - create
+  - deploy
+  - apps
+- [How generate token to login deepchain?](#login)
+- [Getting started with App](#usage)
+- [License](#license)
+</details>
+
+# `deepchain-apps` package documentation
+
+This Package provide a **cli** for creating a personnal app to deploy on the DeepChain platform. [More informations on app](https://github.com/DeepChainBio/deep-chain-apps)
+To leverage the apps capability, take a look at the [bio-transformers](https://pypi.org/project/bio-transformers/) and [bio-datasets](https://pypi.org/project/bio-datasets) package, which provide functionnality to download biological dataset and easily use pre-trained transformers.
+
+## 1. Installation
+It is recommended to work with conda environnements in order to manage the specific dependencies of the package.
+```bash
+  conda create --name deepchain-env python=3.7 -y
+  conda activate deepchain-env
+  pip install deepchain-apps
+```
+
+# 2. CLI commands
+
+The CLI provides 5 main commands:
+
+- **login** : you need to supply the token provide on the plateform (PAT: personnal access token).
+
+  ```
+  deepchain login
+  ```
+
+- **create** : create a folder with a template app file
+
+  ```
+  deepchain create my_application
+  ```
+
+- **deploy** : the code and checkpoint are deployed on the plateform, you can select your app in the interface on the plateform.
+  - with checkpoint upload
+
+    ```
+    deepchain deploy my_application --checkpoint
+    ```
+
+  - Only the code
+
+    ```
+    deepchain deploy my_application
+    ```
+
+- **apps** :
+  - Get info on all local/upload apps
+
+    ```
+    deepchain apps --infos
+    ```
+
+  - Remove all local apps (files & config):
+
+    ```
+    deepchain apps --reset
+    ```
+
+  - Remove a specific application (files & config):
+
+    ```
+    deepchain apps --delete my_application
+    ```
+
+  - List all public apps:
+
+    ```
+    deepchain apps --public
+    ```
+
+- **download** :
+  - Download locally an app deployed on deepchain hub
+
+  ```
+    deepchain download user.name@mail.com/AppName AppName
+  ```
+
+## How generate token to login deepchain?
+If you want to deploy biology app on deepchain, you should first create a personal account on [deepchain](https://deepchain.bio/) and go to the user profile section.
+As you can see below, you will be able to generate a PAT (personal access token) that you can use with the CLI command:
+
+```
+deepchain login
+```
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/DeepChainBio/deep-chain-apps/main/.docs/source/_static/login.png">
+</p>
+
+## 3. Getting started with App
+
+- deepchain-apps template located at: https://github.com/DeepChainBio/deep-chain-apps
+- create new folder when using `deepchain create myapp`
+- app structure:
+
+```bash
+.
+├── README.md # explain how to create an app
+├── __init__.py # __init__ file to create python module
+├── checkpoint
+│   ├── __init__.py
+│   └── Optionnal : model.pt # optional: model to be used in app must be placed there
+├── examples
+│   ├── app_with_checkpoint.py # example: app example with checkpoint
+│   └── torch_classifier.py # example: show how to train a neural network with pre-trained embeddings
+└── src
+    ├── DESC.md # Desciption file of the application
+    ├── __init__.py
+    ├── app.py # main application script. Main class must be named App.
+    └── tags.json # file to register the tags on the hub.
+```
+
+
+
+# License
+
+This source code is licensed under the **Apache 2** license found in the `LICENSE` file in the root directory.
+
+
