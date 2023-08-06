@@ -1,0 +1,3 @@
+[console_scripts]
+deepchain = deepchain.cli.deepchain_cli:main
+
