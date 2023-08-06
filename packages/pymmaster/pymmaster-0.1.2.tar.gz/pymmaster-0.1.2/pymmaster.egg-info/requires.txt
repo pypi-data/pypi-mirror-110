@@ -1,0 +1,12 @@
+fiona
+gdal
+geopandas
+h5py
+matplotlib
+numpy
+pandas
+pyproj
+pybob>0.25
+scikit-image
+scipy
+shapely
