@@ -1,0 +1,5 @@
+factory_boy
+requests
+
+[dev]
+twine
