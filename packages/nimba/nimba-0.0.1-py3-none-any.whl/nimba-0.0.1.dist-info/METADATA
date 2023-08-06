@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: nimba
+Version: 0.0.1
+Summary: Nimba Framework is a modern, fast (coding), web framework with Python.
+Home-page: https://github.com/hadpro24/nimba-framework
+Author: Harouna Diallo
+Author-email: dev.harouna@gmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://docs.nimbasolution.com/
+Project-URL: Release notes, https://docs.nimbasolution.com/stable/releases/
+Project-URL: Source, https://docs.nimbasolution.com
+Keywords: python,python3,framework,nimba,nimba-solution,web
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Jinja2 (==3.0.0)
+Requires-Dist: watchdog (==2.1.2)
+
+# Nimba framework
+Nimba Framework is a modern, fast (coding), web framework with Python 3.6+.
+
+The key features are:
+
+* **Fast to code**: Increase the speed to develop features. *
+* **Intuitive**: Great editor support. <abbr title="also known as auto-complete, autocompletion, IntelliSense">Completion</abbr> everywhere. Less time debugging.
+* **Easy**: Designed to be easy to use and learn. Less time reading docs.
+* **Short**: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
+
+## Installation
+
+<div class="termy">
+
+```console
+$ pip install nimba
+```
+
+</div>
+
+## Create Application
+
+<div class="termy">
+
+```console
+$ nimba create --app awesome_app
+```
+
+</div>
+
+### Structure project
+
+* `app` - Create a new project.
+    - `views.py` - views
+    - `models.py` - views
+* `staticfiles` - Start the live-reloading docs server.
+* `templates` - Build the documentation site.
+* `settings.py` - Print help message and exit.
+* `mask.py` - Print help message and exit.
+
+## Run server
+In your project app `awesome_app`
+<div class="termy">
+
+```console
+$ python mask.py serve
+
+Monitoring for changes...
+Starting server in PID 72932
+June 25, 2021 - 18:04:32
+Serving on http://127.0.0.1:8000
+Quit the server with CONTROL-C.
+```
+
+</div>
+
+`` Open http://127.0.0.1:8000 in your navigator ``
+![Screenshot](https://github.com/hadpro24/nimba-framework/blob/main/result.png?raw=true)
+
+## Licence
+
+This project is licensed under the terms of Nimba solution compagny.
+
+
+## Credit
+
+Harouna Diallo
+
+
