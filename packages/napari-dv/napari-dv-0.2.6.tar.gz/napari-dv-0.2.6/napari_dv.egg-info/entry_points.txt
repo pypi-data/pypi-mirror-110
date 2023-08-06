@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-dv = napari_dv
+

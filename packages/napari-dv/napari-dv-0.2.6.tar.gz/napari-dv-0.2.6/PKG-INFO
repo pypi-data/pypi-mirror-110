@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: napari-dv
+Version: 0.2.6
+Summary: Deltavision/MRC file reader for napari
+Home-page: https://github.com/tlambert03/napari-dv
+Author: Talley Lambert
+Author-email: talley.lambert@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/tlambert03/napari-dv/issues
+Project-URL: Documentation, https://github.com/tlambert03/napari-dv#README.md
+Project-URL: Source Code, https://github.com/tlambert03/napari-dv
+Project-URL: User Support, https://github.com/tlambert03/napari-dv/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: napari
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# napari-dv
+
+[![License](https://img.shields.io/pypi/l/napari-dv.svg?color=green)](https://github.com/tlambert03/napari-dv/raw/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-dv.svg?color=green)](https://pypi.org/project/napari-dv)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-dv.svg?color=green)](https://python.org)
+[![tests](https://github.com/tlambert03/napari-dv/workflows/tests/badge.svg)](https://github.com/tlambert03/napari-dv/actions)
+[![codecov](https://codecov.io/gh/tlambert03/napari-dv/branch/master/graph/badge.svg)](https://codecov.io/gh/tlambert03/napari-dv)
+
+Deltavision/MRC file reader for napari
+
+## Installation
+
+You can install `napari-dv` via [pip]:
+
+    pip install napari-dv
+
+## Contributing
+
+Contributions are very welcome. Tests can be run with [tox], please ensure
+the coverage at least stays the same before you submit a pull request.
+
+## License
+
+Distributed under the terms of the [MIT] license,
+"napari-dv" is free and open source software
+
+## Issues
+
+If you encounter any problems, please [file an issue] along with a detailed description.
+
+[napari]: https://github.com/napari/napari
+[@napari]: https://github.com/napari
+[MIT]: http://opensource.org/licenses/MIT
+[file an issue]: https://github.com/tlambert03/napari-dv/issues
+[tox]: https://tox.readthedocs.io/en/latest/
+[pip]: https://pypi.org/project/pip/
+
+
