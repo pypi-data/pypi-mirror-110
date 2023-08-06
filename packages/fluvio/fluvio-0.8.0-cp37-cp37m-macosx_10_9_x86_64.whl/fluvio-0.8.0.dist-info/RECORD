@@ -1,0 +1,9 @@
+fluvio-0.8.0.dist-info/LICENSE-APACHE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fluvio-0.8.0.dist-info/RECORD,,
+fluvio-0.8.0.dist-info/WHEEL,sha256=WVG6A_oY5zUoNXUyvfLMOSXC-hqC5VZacUL1MeSOz70,110
+fluvio-0.8.0.dist-info/top_level.txt,sha256=fN57NkB-eSSJnbRWb-6w1PrK0hDpZh3_6VsnksrSGxA,7
+fluvio-0.8.0.dist-info/METADATA,sha256=OLYF0_ZiKBys01QmRVcWG3ukMl1LZ7FHPbe0Ot3eOKA,3331
+fluvio/__init__.py,sha256=mZQ0crB75HibhBe1Qbu4Juv_kYMnN-l9ZQhpUWs9SDQ,7384
+fluvio/_fluvio_python.cpython-37m-darwin.so,sha256=KLLlEZygNoWFL-CTiJQOkrmyG78QBbYtz9KmoLqVIlQ,3809240
+fluvio/.dylibs/libssl.1.1.dylib,sha256=39m4HKjnte_uTJVvaHeNl9rg4x1Zhf4EFf5yVEBvmUI,502872
+fluvio/.dylibs/libcrypto.1.1.dylib,sha256=chmch1BW_DEmjE6KnhGfdn2vI4Hy5aBiBdecIjM3y7k,2437024
