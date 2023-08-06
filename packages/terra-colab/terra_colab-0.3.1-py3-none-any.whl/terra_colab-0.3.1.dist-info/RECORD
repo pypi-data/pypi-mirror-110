@@ -1,0 +1,10 @@
+terra_colab/__init__.py,sha256=qshxsAmM4PE1wcrIYWVhoguT2_4nKK44lh4GQgoEnUU,34
+terra_colab/commands.py,sha256=mRlNRmXLoSpUHzavrCvah_pRU49C_y6kaUJ6-rgBNUA,1010
+terra_colab/project.py,sha256=nq-jG7PRaRRRjRodAE6xtKg9z1oa2w3jdrkjzxg8cVY,1548
+terra_colab-0.3.1.data/scripts/tc-init,sha256=Pe7b72coABtSxfirjxEi3SSXuMTnqcQTQXkqTWsrv6s,1404
+terra_colab-0.3.1.data/scripts/tc-web,sha256=8gtkqmkbzlzSMw0cqp3h9a9AmBKA-7WgdKTPje_p4r4,743
+terra_colab-0.3.1.dist-info/METADATA,sha256=uR3CDyPeyKwDSAndWKqtkXMpBULtWsLsiVbV_H3coqM,5073
+terra_colab-0.3.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+terra_colab-0.3.1.dist-info/entry_points.txt,sha256=5RwMXKB0vsC9D_Bw6WBzDwd_pU6iEqZE7mfWdHV76hE,97
+terra_colab-0.3.1.dist-info/top_level.txt,sha256=Fal1L7q-yX7LZXibvr2fYFbWXEQyMflyXQ3L7uArB0g,12
+terra_colab-0.3.1.dist-info/RECORD,,
