@@ -1,0 +1,11 @@
+airflow/providers/zendesk/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/zendesk/get_provider_info.py,sha256=DU1uTG7K7DKqujd393Tl-qfqbPJygHaTAM-kfG_1UMc,1749
+airflow/providers/zendesk/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/zendesk/hooks/zendesk.py,sha256=bd0H_zETTXk84jkuHaM0MzBbNLHu1L24U1O7XnK1Q4c,4976
+apache_airflow_providers_zendesk-2.0.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_zendesk-2.0.0.dist-info/METADATA,sha256=zMO6CNM4sOOe6wSXhgK3FXHMClgVUGQIDtrDBYLwzVc,4930
+apache_airflow_providers_zendesk-2.0.0.dist-info/NOTICE,sha256=irN1W_XwjRh8XRlHEhVpRCSY7NZfQgGdnEfjFvGrxK4,240
+apache_airflow_providers_zendesk-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+apache_airflow_providers_zendesk-2.0.0.dist-info/entry_points.txt,sha256=tV4a4sZuJhlr4NQCHuB_WTMyNVXKfyRSotqItXTFR7Q,105
+apache_airflow_providers_zendesk-2.0.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_zendesk-2.0.0.dist-info/RECORD,,
