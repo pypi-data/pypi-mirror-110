@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gitapi_it/__init__.py
+gitapi_it/test.py
+gitapi_it.egg-info/PKG-INFO
+gitapi_it.egg-info/SOURCES.txt
+gitapi_it.egg-info/dependency_links.txt
+gitapi_it.egg-info/top_level.txt
+gitapi_it.egg-info/zip-safe
