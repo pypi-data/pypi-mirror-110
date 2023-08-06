@@ -1,0 +1,11 @@
+aovec/AozoraCloner.py,sha256=VZbmBNb18GCIVv3kTHC7wZkyH0y3kiMa26NrkNXruEU,951
+aovec/AozoraParser.py,sha256=gcJYh_lH1G-EqT2e1w9tzNMK1FD3A0srpLWmQ0-yI68,3087
+aovec/AozoraVecMaker.py,sha256=Xcc1bokVlKzWH4awC8kPQgwyPboLgoV9kLCa3lGE4Zg,4512
+aovec/__init__.py,sha256=bRKCZILNsRaQazrJI-tc5SDwOSzsWVh5Ve75Rnm2UhA,21
+aovec/main.py,sha256=p4grB6NbyWghpx0zK3cVuJGWdH3pm0Xm9Zf7sjc5EEU,3779
+aovec-0.13.dist-info/LICENSE,sha256=cMGA4ZFKplEl_zKM76coZ2XDHGVKlsim83F8v-aJPOs,1063
+aovec-0.13.dist-info/METADATA,sha256=OXCu9B-P6iHsnw6wOmFwJIv9ofeHbjuCQPTk1mIp5eg,4976
+aovec-0.13.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aovec-0.13.dist-info/entry_points.txt,sha256=7kYqwwcdOxhuHdJRfUkcbSTOLL1dHBwwTWPqY9nVlus,43
+aovec-0.13.dist-info/top_level.txt,sha256=FWgzD_P_yHFM7KZuYcWDnz3zihYFjoQp40r_brgYKOo,6
+aovec-0.13.dist-info/RECORD,,
