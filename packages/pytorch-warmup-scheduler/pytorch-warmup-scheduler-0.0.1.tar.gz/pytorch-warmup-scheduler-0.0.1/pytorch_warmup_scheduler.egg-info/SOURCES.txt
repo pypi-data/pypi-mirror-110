@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pytorch_warmup_scheduler/__init__.py
+pytorch_warmup_scheduler/warmup_scheduler.py
+pytorch_warmup_scheduler.egg-info/PKG-INFO
+pytorch_warmup_scheduler.egg-info/SOURCES.txt
+pytorch_warmup_scheduler.egg-info/dependency_links.txt
+pytorch_warmup_scheduler.egg-info/not-zip-safe
+pytorch_warmup_scheduler.egg-info/requires.txt
+pytorch_warmup_scheduler.egg-info/top_level.txt
