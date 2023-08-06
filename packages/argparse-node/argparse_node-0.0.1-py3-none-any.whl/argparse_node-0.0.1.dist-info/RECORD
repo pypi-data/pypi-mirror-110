@@ -1,0 +1,12 @@
+argparse_node/__init__.py,sha256=_mtxuV3C5NW-hB3SAYRBi7Ic9ovXpc69Hb-Jgi0h7UE,1676
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/entry.py,sha256=RTEUu0rRYP7l-f168PJKlkRFFXWvdVQua1jsZqYKsEg,494
+example/show.py,sha256=Zel7mIbQAtksMuMqQ49elyc84gULDaTq24WSqKxeG1c,117
+example/wohs.py,sha256=B605WsUEQUDLItgugP9UUyop2-PDTMl_zfW5Vb5lQW4,123
+example/sub_example/__init__.py,sha256=KtWre-jqBMoacYHCvqr2ymRR_nP6q2yH5e52hRq_zno,77
+example/sub_example/show.py,sha256=ef7RIPCzipPBZPXNuk4QHopw4l_d5Y5DWJbOSGl1mvU,121
+example/sub_example/wohs.py,sha256=WBN7C17jfy3yzM62sFFEMuvA2KQSq83cWmZCecK1Q_8,127
+argparse_node-0.0.1.dist-info/METADATA,sha256=9tVI81C-Bl_HK9y4eVJ_lgCtiwPeWSNzmcqfXPbMj9Y,885
+argparse_node-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+argparse_node-0.0.1.dist-info/top_level.txt,sha256=_qaXdU_Hl27bw7cj_Pqi43CnSqpIxwzyfLgZqtgbYGY,22
+argparse_node-0.0.1.dist-info/RECORD,,
