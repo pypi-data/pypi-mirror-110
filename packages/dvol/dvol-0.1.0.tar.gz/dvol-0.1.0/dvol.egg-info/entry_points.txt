@@ -1,0 +1,3 @@
+[console_scripts]
+dvol = dvol.__main__:main
+

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dvol
+Version: 0.1.0
+Summary: Docker Volume mapping control - container access made easy!
+Home-page: https://github.com/flare576/dvol
+Author: Flare576
+Author-email: flare576@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/flare576/dvol/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dvol
+
+Docker Volume mapping control; container access made easy!
+
+to install:
+
+```
+brew install flare576/scripts/dvol
+```
+
+# Dev note: Deployment
+```
+# Bump dvol/__init__.py Version
+rm -rf dist
+pip3 uninstall -y dvol
+python3 -m build
+pip3 install dist/dvol-*.tar.gz
+dvol -v && python3 -m twine upload dist/*
+```
+
+
+
