@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mmrwrapper
+Version: 0.0.1
+Summary: API-Wrapper WhatIsMyMMR
+Home-page: UNKNOWN
+Author: Sunta
+Author-email: noneofyour@business.com
+License: UNKNOWN
+Description: 
+        WhatIsMyMMR - API Wrapper
+        
+        API - Wrapper for https://euw.whatismymmr.com/
+        This is an async API-Wrapper to quickly check a Users stats with custom Error Handling
+        Disclaimer:
+        60 Requests Per Minute! Don't overload the Servers otherwise contact josh@whatismymmr.com
+        Headers have to include a custom User-Agent --
+        The following format is recommended: platform :appID:version string. For example, iOS:com.example.helloworld:v1.0.3
+        
+        
+        TODO:
+        Add Ratelimiter
+        
+        
+        
+Keywords: python,api,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
