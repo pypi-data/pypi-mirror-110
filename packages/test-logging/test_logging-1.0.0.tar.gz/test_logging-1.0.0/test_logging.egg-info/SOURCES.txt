@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+test_logging/__init__.py
+test_logging/log.py
+test_logging.egg-info/PKG-INFO
+test_logging.egg-info/SOURCES.txt
+test_logging.egg-info/dependency_links.txt
+test_logging.egg-info/entry_points.txt
+test_logging.egg-info/requires.txt
+test_logging.egg-info/top_level.txt
