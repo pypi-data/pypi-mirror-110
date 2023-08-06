@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+xarray
+rasterio
+geopandas
+pyproj
+requests
+backoff
+earthengine-api
+tqdm
