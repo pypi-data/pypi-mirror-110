@@ -1,0 +1,14 @@
+thangar/__init__.py,sha256=lU76kXUB1SIhlSSCLc_p8pdZABJW7BDdj2S-YHmJpEA,601
+thangar/__main__.py,sha256=oYqBxPFAYMwPwMJ_7hyAkgoM20_K2vhmyYIuQKbnb_A,3733
+thangar/config.py,sha256=vy2pfNZw36REkOBpFxnW8kXCG2t9Rq5gKRrgj0mh5do,599
+thangar/crud.py,sha256=p4SVfVa9AgTc3EVHfmLa30Uak29tRq3kxyO5Jk8T9sk,1566
+thangar/database.py,sha256=T4gw6nAhasSq6L37AaMXtb0hsxPkr3rD78LNF_WKbug,1093
+thangar/models.py,sha256=PJh68O4lYm1gQmdN5aBFwOwPK6LVyfwgaSuQSlLGnNA,967
+thangar/schemas.py,sha256=_WOO80QA8ekXkj-aGjTj2llC2Hy4Vv_WG8KsvBSaog8,872
+thangar/telegram.py,sha256=I1Q-zY3s8LHGyUT0H8se1m6rzjKPDEZAyHknUHzEG48,2402
+thangar-0.1.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+thangar-0.1.3.dist-info/METADATA,sha256=vU63UlpipuBv820_azalUEjVlm8a1olv3TmeLlnZGHQ,3557
+thangar-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+thangar-0.1.3.dist-info/entry_points.txt,sha256=7NgHfoiMJLKmp9I0UDxBs0Qhsb50l3h3ipDXZXfDfWQ,50
+thangar-0.1.3.dist-info/top_level.txt,sha256=j_FHioH7xTxjKIEQgAquMBStyTKjCyNg-FwUJccFPyY,8
+thangar-0.1.3.dist-info/RECORD,,
