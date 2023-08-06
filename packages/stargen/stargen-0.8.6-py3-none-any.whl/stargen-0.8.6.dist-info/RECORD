@@ -1,0 +1,15 @@
+stargen/__init__.py,sha256=0-YhbZkyDUyTQUnsyJkH-wqVCWtc0dmEmrSutjHmMi8,56
+stargen/__main__.py,sha256=R9k3kI-9FahRfO-trJjB6h6iRQSTMMaHSP2GxXoPyYQ,356
+stargen/stargen.py,sha256=qccmKVA0HjPnJ2VDwuInnBswThdukbpw3vdbBOI3HrU,3293
+stargen/modules/__init__.py,sha256=zhBh6uGYZe1qu2OYMNUu8wadQl9ZBufuT9CazkS776k,155
+stargen/modules/abs_module.py,sha256=qt2i9fHSOWUyGCy6_SnWhIsrDitfahkAm2AAJQ1PwQs,579
+stargen/modules/combination.py,sha256=ORKZgkMq7V0B0foh7wwNuEk-ZEUsLqeu6I3W6XPBnfk,4389
+stargen/modules/crunch.py,sha256=mvsYvexo5Y3kI5SWOKOr0Gm6qdcE3-y9JRJo2YguDEE,4026
+stargen/modules/download.py,sha256=5BCSR5a1oRpsU6ZYTgkJ1jBymDy73PRpEx4k-m4MTQE,9397
+stargen/modules/keyword.py,sha256=g9EOzl72BzI4MzHL-A6JraLTPh-Ewg65Mw4N-yap7VE,8000
+stargen-0.8.6.dist-info/LICENSE,sha256=ZKjpm3Vtjzxp7l799Cmyx4GcaLzLUwsJ0pD7VceweyA,1072
+stargen-0.8.6.dist-info/METADATA,sha256=oyKlYvyib5Jl-UcIcmaFPAi1i7Af1MmXEHu-p_0g528,1028
+stargen-0.8.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+stargen-0.8.6.dist-info/entry_points.txt,sha256=FsRemREiHf8I2gfcXsMeSljTzlgQpVSvcqli9m2VxEY,42
+stargen-0.8.6.dist-info/top_level.txt,sha256=ClOWl1fZ059BUEZi12O0__eKy2tzpBaDn7QfUL6PJpg,8
+stargen-0.8.6.dist-info/RECORD,,
