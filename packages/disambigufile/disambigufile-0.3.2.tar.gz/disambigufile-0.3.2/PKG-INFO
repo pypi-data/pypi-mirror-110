@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: disambigufile
+Version: 0.3.2
+Summary: Class with file-like interface to a file found in provided search path
+Home-page: https://github.com/datagazing/disambigufile
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com
