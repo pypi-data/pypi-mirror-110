@@ -1,0 +1,15 @@
+timeset/__init__.py,sha256=qO2XDdYJ1o7TRG0Lzz5rm32hj9r3gva3bLvnVKtFRnw,100
+timeset/awareness.py,sha256=EwuJ7pxGYLjAV7ZSQpCNFv4YauvtSvZJ_KXza9RbRtg,358
+timeset/continuous.py,sha256=PW0SXUV5fvPp1bdARNLSKwmY7y6L73sR1d_-FJv4cTI,1875
+timeset/date_range.py,sha256=EBoCx35k3y_LB6maVo2-9c1UyKSZnobqrk5RT469CDE,784
+timeset/daterange.py,sha256=angjU29VghEuAdAIfOemcs5KeHKzbLJvgAhRdk81VqQ,769
+timeset/month.py,sha256=NXzck7_FDM-JN31emuWDv4Uw93Sw8Du9DCYMjQ_JBt4,1324
+timeset/tests.py,sha256=gye6xlrWqqiC_LfECPe-VEs3c4Tu390MTct4uhUJsbQ,10000
+timeset/timerange.py,sha256=JVcwsQyGKQXw1QeYGs9JF3an1nf4Q4OTGattNsQyBq8,3739
+timeset/timeset.py,sha256=ljT44TKyxQpdSF9aCdI90k9LPDOLNECTTQ73MlsC6-E,7426
+timeset/utils.py,sha256=OSttuMIicjKPF53Ktrt2dUOFvyTw0uUhHlPiL_Cy79Q,276
+timeset-0.20.dist-info/LICENSE,sha256=03xhvxnH_9zrRWtZVC5QVaCh2QxHjfYV_Fg3GFdlExU,1057
+timeset-0.20.dist-info/METADATA,sha256=JEQsHeQBRDnohamcnfxPzuSqRiBh30jRLGCD7PpAvuQ,664
+timeset-0.20.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+timeset-0.20.dist-info/top_level.txt,sha256=JPEwkEHTnMXeZM298Si9Rh2UZ0UAPqnS92fhAkhD-8M,8
+timeset-0.20.dist-info/RECORD,,
