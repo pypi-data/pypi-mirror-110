@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: Yucebio-Scheduler
+Version: 0.0.5
+Summary: 通用任务调度器-基于APScheduler实现
+Home-page: UNKNOWN
+Author: huangqingjun
+Author-email: huangqingjun@yucebio.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: icecream (>=2.1.0)
+Requires-Dist: Yucebio-Config (>=0.0.2)
+Requires-Dist: APScheduler (>=3.7.0)
+Requires-Dist: rpyc (>=5.0.1)
+Requires-Dist: SQLAlchemy (>=1.4.0)
+Requires-Dist: python-dateutil (>=2.0.0)
+Provides-Extra: django
+Requires-Dist: psutil ; extra == 'django'
+Requires-Dist: django ; extra == 'django'
+
+# 通用任务调度服务-基于APScheduler实现
+
+- 提供基本的任务调度服务默认实现
+- 需要配置所使用的持久化存储，建议使用URI形式
+    - mongo： `mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]`
+    - sqlite: `sqlite://{path/to/sqlite_db_file}.sqlite`
+- 提供API接口
+    - 基于rpyc实现控制台命令： 包括Client和Server
+    - ~~提供适配flask的接口~~
+    - 提供适配django+mongo的api
+
+# 控制台使用说明
+## 原理
+
+- 基于RPyC（远程Python过程调用）实现一个简单的C/S控制台程序
+
+## 使用
+
+```bash
+# 启动服务
+yucebio_scheduler server --port ...
+# 再启动第二个服务
+yucebio_scheduler server --port ...
+
+# 查看作业
+yucebio_scheduler jobs --port <port>
+
+# 管理作业: 查看、暂停、重启、移除
+yucebio_scheduler manage --port <port> --jobid <jobid> --action <get|pause|resume|remove>
+
+# 添加作业: 需要先指定作业相关参数，再根据调度方式（cron, date, interval）添加额外参数
+yucebio_scheduler add --port <port> --id <jobid> --func "moudle:func" --args <func_args> --kwargs <func_kwargs> [sub_command]
+```
+
+# 集成到 django （参考flask_django）
+
+## 使用
+- 在`INSTALLED_APP`中添加 `yucebio_scheduler.web.django_mongo` （`__init__中预先设置了default_app_config`）
+- 在`urls.py`中添加 `path('any_prefix_for_your_app/', include('yucebio_scheduler.web.django_mongo.urls'))`
+- 在控制台执行`python manage.py scheduler`命令启动作业调度服务
+
+## 关键逻辑
+
+- api中通过`create_scheduler(block=False)`返回一个`BackgroundScheduler`实例，并自动执行`start(paused=True)`，用于**作业管理**，如add, delete, query等
+- server中通过`create_scheduler(block=True)`返回一个`BlockingScheduler`实例，并通过主动调用`scheduler.start()`启动服务，用于**作业调度**
+
+### settings配置(参考flask_apscheduler)
+```python
+# 持久化数据库，必须提供default命名的配置内容 persist databse, 
+SCHEDULER_JOBSTORES = {
+    'default': { 
+        'type': 'mongodb' ,
+        # set any options used in `pymongo.MongoClient`
+        'host': 'your-mongodb-host', # or mongdb://{user}:{password}@{host}:{port}/{admin-db}{?options},
+        'username': '',
+        'password': '',
+        # you should always set `database`
+        'database': 'your-mongodb-database'
+    }
+}
+
+# 必须提供default对应的配置项
+SCHEDULER_EXECUTORS = {
+    'default': { 'type': 'processpool', 'max_workers': 5 },
+    'threadpool': {'type': 'threadpool', 'max_workers': 20}
+}
+
+# refer to: https://apscheduler.readthedocs.io/en/stable/modules/job.html#module-apscheduler.job
+SCHEDULER_JOB_DEFAULTS = {
+    'coalesce': False,      # whether to only run the job once when several run times
+    'max_instances': 3      # the maximum number of concurrently executing instances allowed for this job
+}
+
+# 配置调度器所使用的时区。
+from tzlocal import get_localzone
+SCHEDULER_TIMEZONE = get_localzone()
+
+# 配置自动添加的初始作业
+SCHEDULER_JOBS = []
+
+# 配置日志等级 refer to: https://apscheduler.readthedocs.io/en/stable/userguide.html#troubleshooting
+import logging
+logging.getLogger('apscheduler').setLevel(logging.DEBUG)
+```
+
+
+## 服务(提供一个django自定义命令)
+
+## URL
+```
+prefix/                     show basic info
+prefix/get_scheduler_info   show basic info(equal to prefix/)
+
+prfix/jobs                  list all jobs
+prefix/<action>/<job_id>    process a special job, action could be [show | delete | pause | resume | run]
+```
+
+

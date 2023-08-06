@@ -1,0 +1,3 @@
+[console_scripts]
+yucebio_scheduler = yucebio_scheduler.commands:cli
+
