@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lihanpy
+Version: 0.2
+Summary: Taiwan No. 1
+Home-page: http://github.com/storborg/lihanpy
+Author: Michael Chen
+Author-email: flyingcircus@example.com
+License: MIT
+Description: # Lihan Python functions
+        ### Lihan's library
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
