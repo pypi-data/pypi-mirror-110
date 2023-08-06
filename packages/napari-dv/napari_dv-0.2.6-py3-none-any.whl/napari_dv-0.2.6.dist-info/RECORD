@@ -1,0 +1,10 @@
+napari_dv/__init__.py,sha256=m1LNgqE42dcVhpRpKhSn6ByKbTN8TPxDDYtD6huvw6Y,239
+napari_dv/_reader.py,sha256=2fTD2Tx4B-b1ypRMrJYN4aAArWx6NYt1laos9KaZTWk,1344
+napari_dv/_version.py,sha256=Eplh44KqOby1Xun0apGx2xYoqFYWjsrwhs6Z2EoIpvA,142
+napari_dv/_writer.py,sha256=5Fo9ujNkVyIeF3xCizmMDMANQ6eQ58WjpinDsjbt2AU,263
+napari_dv-0.2.6.dist-info/LICENSE,sha256=ESour_Sb7TEvute6T3YS8WUGsUC_m2sI12DX6xvulo0,1082
+napari_dv-0.2.6.dist-info/METADATA,sha256=XPxbwcT22A794q6mxfKil_w_NwzFgTlk3Fc-A63Y_lw,2533
+napari_dv-0.2.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+napari_dv-0.2.6.dist-info/entry_points.txt,sha256=-JlLaVRCa2HGorekO6CyEYxj4g0NWWu8_vT2CoTCGZM,39
+napari_dv-0.2.6.dist-info/top_level.txt,sha256=ZDmFYBh4wE9X6vsVJ0hMx7C0aIiB52hiJ14ueJHXwlA,10
+napari_dv-0.2.6.dist-info/RECORD,,
