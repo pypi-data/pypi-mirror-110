@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: site-pinger-business-automation-partners
+Version: 0.0.1
+Summary: A small package for pinging publicly available URLs for status
+Home-page: https://github.com/business-automation-partners/site_pinger
+Author: Travis Lazar
+Author-email: business.automation.partners@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/business-automation-partners/site_pinger/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# site_pinger
+
