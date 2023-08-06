@@ -1,0 +1,10 @@
+README.md
+setup.py
+manga/Dwrapper.py
+manga/__init__.py
+manga/__main__.py
+sekte2pdf.egg-info/PKG-INFO
+sekte2pdf.egg-info/SOURCES.txt
+sekte2pdf.egg-info/dependency_links.txt
+sekte2pdf.egg-info/requires.txt
+sekte2pdf.egg-info/top_level.txt
