@@ -1,0 +1,25 @@
+[project]
+name = "doppler-pdm"
+version = "0.1.0"
+description = "A PDM plugin which allows commands to be run with environment variables from Doppler"
+dependencies = [ "pdm~=1.6",]
+requires-python = ">=3.9"
+dynamic = [ "classifiers",]
+[[project.authors]]
+name = "Elijah Sink"
+email = "theminorprofit@gmail.com"
+
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/ElijahSink/doppler-pdm"
+
+[project.optional-dependencies]
+
+[tool.pdm.dev-dependencies]
+dev = [ "black~=21.6b0", "isort~=5.9", "pre-commit~=2.13",]

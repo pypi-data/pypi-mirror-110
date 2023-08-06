@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: doppler-pdm
+Version: 0.1.0
+Summary: A PDM plugin which allows commands to be run with environment variables from Doppler
+License: MIT
+Author-email: Elijah Sink <theminorprofit@gmail.com>
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: homepage, https://github.com/ElijahSink/doppler-pdm
