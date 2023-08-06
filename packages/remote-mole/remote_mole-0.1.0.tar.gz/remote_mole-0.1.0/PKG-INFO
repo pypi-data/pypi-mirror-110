@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: remote_mole
+Version: 0.1.0
+Summary: Create moles on remote setups.
+Home-page: http://packages.python.org/remote_mole
+Author: Marco Miretti
+Author-email: marcomiretti@gmail.com
+License: GPLv3
+Description: # (Discord) bot to create ngrok tunnels
+        
+        WIP documentation
+        
+Keywords: bots ssh jupyter ngrok discord
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
