@@ -1,0 +1,9 @@
+ray[tune]
+pandas
+tqdm
+click
+tabulate
+numpy
+psutil
+idds-client
+yarl==1.4.2
