@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: camview
+Version: 0.1.15
+Summary: TYPE YOUR DESCRIPTION HERE
+Home-page: https://github.com/user/mryzmo
+Author: Sebastian Pfaff
+Author-email: sebastian.pfaff@forbrf.lth.se
+License: MIT
+Download-URL: https://github.com/mryzmo/camview/archive/refs/tags/v0.1.2-alpha.zip
+Description: UNKNOWN
+Keywords: Thorlabs,Santa Barbara Focalplane,PLIF
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
