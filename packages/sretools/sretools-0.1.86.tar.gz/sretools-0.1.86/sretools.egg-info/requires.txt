@@ -1,0 +1,6 @@
+pexpect
+texttable
+wcwidth
+pyyaml
+xmltodict
+dicttoxml
