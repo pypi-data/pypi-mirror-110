@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: JudgeInterface
+Version: 1.0.6
+Summary: A DB Interface for Judge
+Home-page: https://github.com/mansukim1125/JudgeInterface
+Author: mansu kim
+Author-email: mansukim1125@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JudgeInterface
+
+> A DB Interface for Judge
+
+## Get Started
+
+Install Python version 3 above first.
+
+1. Install JudgeInterface on Python Environment
+
+   ```bash
+   pip install JudgeInterface
+   ```
+
+## Usage
+
+[Wiki](https://github.com/mansukim1125/JudgeInterface/wiki/class-AbstractInterface)
+
+## LICENSE
+
+MIT
+
+
+
