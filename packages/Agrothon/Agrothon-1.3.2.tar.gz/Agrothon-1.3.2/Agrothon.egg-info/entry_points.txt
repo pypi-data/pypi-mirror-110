@@ -1,0 +1,3 @@
+[console_scripts]
+agrobot = agrothon.__main__:main
+
