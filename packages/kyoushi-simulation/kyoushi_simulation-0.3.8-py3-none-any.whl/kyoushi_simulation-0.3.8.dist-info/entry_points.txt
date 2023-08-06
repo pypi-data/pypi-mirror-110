@@ -1,0 +1,3 @@
+[console_scripts]
+kyoushi-sim=kyoushi.simulation.cli:cli
+
