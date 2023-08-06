@@ -1,0 +1,17 @@
+click
+pathvalidate
+requests
+mutagen>=1.45.1
+tqdm
+tomlkit
+
+[:platform_system == "Darwin"]
+simple-term-menu
+
+[:platform_system == "Linux"]
+simple-term-menu
+
+[:platform_system == "Windows"]
+pick
+windows-curses
+colorama
