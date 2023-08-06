@@ -1,0 +1,9 @@
+memoria/__init__.py,sha256=5uFIDVI1F58DYy9SMynxr-GOk9WolpwWlm1w-F5aCUU,175
+memoria/_hash_file.py,sha256=m3qP5N3gezjYPy_vaWhFOLNCVxvnVEOGdg-ETtGJWdw,470
+memoria/hash_object.py,sha256=VHZDlUd4eDl9LR6TfBA33qEp99oHpCvV_JxMnlwCzxM,668
+memoria/make_hashable.py,sha256=0-qmfaQ_adRSMf0h81cvNTLZzvC9nyHPCtHBTLNmFOc,4323
+memoria/to_bytes.py,sha256=vNdzqAosi0upM0D6F2b4Acl1RvjAwVkMN-xv3RD8bjk,487
+memoria-2021.6.20.14.dist-info/METADATA,sha256=yaxxE26ryPZvOIang0V-pl2vY2o0XHMSaU0h3p5K5Ps,1972
+memoria-2021.6.20.14.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+memoria-2021.6.20.14.dist-info/top_level.txt,sha256=_ChPDpsb1hACJPaLng4ATTqx2xlaNgO8fNXvmAAhhmY,8
+memoria-2021.6.20.14.dist-info/RECORD,,
