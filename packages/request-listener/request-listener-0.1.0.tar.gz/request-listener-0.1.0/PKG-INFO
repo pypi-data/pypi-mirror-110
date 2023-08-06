@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: request-listener
+Version: 0.1.0
+Summary: A simple way to explore incoming webhooks.
+Home-page: https://github.com/Luttik/request-listener
+Author: luttik
+Author-email: dtluttik@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.65.2,<0.66.0)
+Requires-Dist: install (>=1.3.4,<2.0.0)
+Requires-Dist: pip (>=21.1.2,<22.0.0)
+Requires-Dist: pyngrok (>=5.0.5,<6.0.0)
+Requires-Dist: uvicorn[standard] (>=0.14.0,<0.15.0)
+Project-URL: Repository, https://github.com/Luttik/request-listener

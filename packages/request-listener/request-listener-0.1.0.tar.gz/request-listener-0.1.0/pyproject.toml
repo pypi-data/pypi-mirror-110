@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "request-listener"
+version = "0.1.0"
+description = "A simple way to explore incoming webhooks."
+authors = ["luttik <dtluttik@gmail.com>"]
+repository = "https://github.com/Luttik/request-listener"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.65.2"
+pyngrok = "^5.0.5"
+pip = "^21.1.2"
+install = "^1.3.4"
+uvicorn = {extras = ["standard"], version = "^0.14.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
