@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: discord-py-slash-command
+Version: 2.0.0
+Summary: A simple interaction handler for discord.py.
+Home-page: https://github.com/discord-py-slash-commands/discord-py-interactions
+Author: LordOfPolls
+Author-email: ddavidallen13@gmail.com
+License: MIT License
+Requires-Dist: discord.py
+Requires-Dist: aiohttp
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: sphinx ; extra == 'lint'
+Requires-Dist: sphinx-rtd-theme ; extra == 'lint'
+Provides-Extra: readthedocs
+Requires-Dist: sphinx ; extra == 'readthedocs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'readthedocs'
+
+<p align="center">
+
+
