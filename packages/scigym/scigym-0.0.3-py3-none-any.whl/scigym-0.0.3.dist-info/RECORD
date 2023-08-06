@@ -1,0 +1,12 @@
+scigym/__init__.py,sha256=nDlPNdoOvVEP2TGIOugFaVl2QJm9XuGxi93ffUL_hgU,602
+scigym/version.py,sha256=xZ-UbUvCxO3rB4e-l8Tml1PPRGgv8_Xe3r1kNlsiOuI,19
+scigym/envs/__init__.py,sha256=UlV0JuP0wCaD0Reblkab6FX0meLO-ZM4_zGSqwExL1E,517
+scigym/envs/tests/__init__.py,sha256=TfCasvlra3oDrB3Tns3skQ0LIPUNPiv9sPDxPHWCrUg,27
+scigym/envs/tests/spec_list.py,sha256=stqP-_k2kKIMmNM8rPJsnsOWhv6F3mJG3jlEJWcaQKw,391
+scigym/envs/tests/test_determinism.py,sha256=lDr8ROEHMNpRiqDgc_eCwa4Z9GAX3KUiaOLdhtLCMk4,2585
+scigym/envs/tests/test_envs.py,sha256=WDnnIJgLKQQUgKeKCoUwpyTWpnCQdXH-lb2DPdxQg2w,1955
+scigym-0.0.3.dist-info/LICENSE,sha256=NOrES-cVw7sxU2zrZC9OCm9vvRh-7Ra-Wr4XnSjsNC8,1433
+scigym-0.0.3.dist-info/METADATA,sha256=ZsCF7OPLWfhcyvtkaOpdjqsYDF4PrF36sVA62gS9NaA,5481
+scigym-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scigym-0.0.3.dist-info/top_level.txt,sha256=kqMQ9YDOaWeGpfzBQJ-bHkSeGG5mPTELUhxGMKp0iBo,7
+scigym-0.0.3.dist-info/RECORD,,
