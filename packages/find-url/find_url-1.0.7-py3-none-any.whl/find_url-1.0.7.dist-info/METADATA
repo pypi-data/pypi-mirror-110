@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: find-url
+Version: 1.0.7
+Summary: С помощью этой библиотеки, вы сможете парсить информацию с сайта
+Author: Sergey039
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+<a href="https://discord.gg/TGD5nVX" rel="nofollow">
+	<img alt="Discord server invite" src="https://i.ibb.co/GP8CDby/2021-06-23-114238.png">
+</a>
+<h1>О библиотеке</h1>
+<p>Пока что эта библиотека в разработке, вот что умеет эта библиотека:</p>
+<p>С помощью - import find_url вы импортируете библиотеку.</p>
+<p>Чтоб начать находить информацию, пишите find_url.url.find(url, f, f2).</p>
+<p>Сдесь url это ссылка которую надо парсить, f это на что начинается то, что вы хотите получить. f2 - На что заканчивается то, что вы хотите получить.</p>
+<p>Так же если вы получили готовый html код, используйте find_url.url.html(html, f, f2).</p>
+<p>Например, я хочу получить с сайта https://pypi.org/project/find-url/ название, то есть в html коде - <title>find-url · PyPI</title>.</p>
+<p>В этом случие То что мы хотим получить начинается на <title>, и заканчивается на </title>.</p>
+<p>То есть - find_url.url.find('https://pypi.org/project/find-url/', '<title>', '</title>').</p>
+<p>Всё это выдаст "find-url · PyPI"</p>
+<h2>Пример кода</h2>
+
+<pre>
+	<span class="c1">import find_url
+	</span>find_url.url.find('https://pypi.org/project/find-url/', '<title>', '</title>') # find-url · PyPI
+	<span class="c1">import requests
+	</span>html_text = requests.get(https://pypi.org/project/find-url/).text
+	find_url.url.html(html_text, '<title>', '</title>') # find-url · PyPI
+</pre>
