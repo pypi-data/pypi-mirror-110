@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyRiskOptimizer/__init__.py
+pyRiskOptimizer.egg-info/PKG-INFO
+pyRiskOptimizer.egg-info/SOURCES.txt
+pyRiskOptimizer.egg-info/dependency_links.txt
+pyRiskOptimizer.egg-info/requires.txt
+pyRiskOptimizer.egg-info/top_level.txt
+tests/__init__.py
