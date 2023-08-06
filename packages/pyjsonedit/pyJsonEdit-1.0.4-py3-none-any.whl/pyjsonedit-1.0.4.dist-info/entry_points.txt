@@ -1,0 +1,4 @@
+[console_scripts]
+pyjsonedit-mask=pyjsonedit.cli:run_mask
+pyjsonedit-modify=pyjsonedit.cli:run_modify
+
