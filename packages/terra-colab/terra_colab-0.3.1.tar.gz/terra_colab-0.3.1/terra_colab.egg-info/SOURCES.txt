@@ -1,0 +1,13 @@
+README.rst
+setup.py
+scripts/tc-init
+scripts/tc-web
+terra_colab/__init__.py
+terra_colab/commands.py
+terra_colab/project.py
+terra_colab.egg-info/PKG-INFO
+terra_colab.egg-info/SOURCES.txt
+terra_colab.egg-info/dependency_links.txt
+terra_colab.egg-info/entry_points.txt
+terra_colab.egg-info/requires.txt
+terra_colab.egg-info/top_level.txt
