@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: singer-tap-tester
+Version: 0.0.1
+Summary: Library for testing Singer.io taps. 
+Home-page: http://singer.io
+Author: Stitch
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: test
+License-File: LICENSE
+
+UNKNOWN
+

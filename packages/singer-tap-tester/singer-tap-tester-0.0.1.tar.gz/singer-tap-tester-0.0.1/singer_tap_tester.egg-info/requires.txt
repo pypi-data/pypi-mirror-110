@@ -1,0 +1,6 @@
+
+[test]
+ipdb
+pytest
+pytest-subtests
+tap-github
