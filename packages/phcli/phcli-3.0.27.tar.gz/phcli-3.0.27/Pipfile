@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pipenv = "*"
+pyinstaller = "*"
+setuptools = "==44.0.0"
+gitpython = "*"
+twine = "*"
+xlwt = "*"
+
+[packages]
+click = "*"
+boto3 = "*"
+pyyaml = "*"
+pandas = "*"
+xlrd = "*"
+pypinyin = "*"
+psycopg2 = "*"
+pymysql = "*"
+
+[requires]
+python_version = "3.8"
