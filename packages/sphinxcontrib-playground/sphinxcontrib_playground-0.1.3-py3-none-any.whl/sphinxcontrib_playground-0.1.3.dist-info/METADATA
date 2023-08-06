@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-playground
+Version: 0.1.3
+Summary: A Sphinx extension for embedding interactive demo     using The Python Playground
+Home-page: https://github.com/ydcjeff/sphinxcontrib-playground
+Author: Jeff Yang
+Author-email: ydcjeff@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/sphinxcontrib-playground/#files
+Project-URL: Documentation, https://ydcjeff.github.io/sphinxcontrib-playground
+Project-URL: Source Code, https://github.com/ydcjeff/sphinxcontrib-playground
+Project-URL: Bug Tracker, https://github.com/ydcjeff/sphinxcontrib-playground/issues
+Project-URL: Changelog, https://github.com/ydcjeff/sphinxcontrib-playground/blob/main/CHANGELOG.md
+Keywords: python,sphinx,playground,documentation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sphinx
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+
+# sphinxcontrib-playground [![ci](https://github.com/ydcjeff/sphinxcontrib-playground/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/ydcjeff/sphinxcontrib-playground/actions/workflows/ci.yaml)
+
+> A Sphinx extension to embed interactive demo examples with <a href="https://python-playground.netlify.app" target="_blank" rel="noopener noreferrer">The Python Playground</a>.
+
+## Quickstart
+
+Install with `pip`:
+
+```sh
+pip install sphinxcontrib-playground
+```
+
+Include below options in `conf.py`:
+
+```py
+playground_options = {
+    'commit_sha': subprocess.check_output(['git', 'rev-parse', 'HEAD'], encoding='utf-8').strip(),
+    'github_repo': 'github repo in string'  # e.g. ydcjeff/sphinxcontrib-playground
+    'url': 'https://python-playground.netlify.app'  # playground url (you should have your own playground forked from The Python Playground)
+}
+```
+
+Use with `.. playground::` directive:
+
+```txt
+.. playground:: path/to/the/python/file.py
+      :title: Playground (Mandatory title - helpful for screen readers)
+```
+
+## Directive options
+
+`.. playground::` directive options:
+
+- `title`: Mandatory title for the embedding playground (helpful for screen readers)
+- `height`: Height of the embedding playground (default: 500)
+- `width`: Width of the embedding playground (default: 100%)
+
+Souce code of this extension (Demo): https://ydcjeff.github.io/sphinxcontrib-playground/
+
+## License
+
+[MIT](./LICENSE)
+
+

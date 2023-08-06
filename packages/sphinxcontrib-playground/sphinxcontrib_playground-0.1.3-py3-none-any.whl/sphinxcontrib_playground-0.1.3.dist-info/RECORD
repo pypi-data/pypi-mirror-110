@@ -1,0 +1,10 @@
+scripts/patch_black.py,sha256=V4-Ei3WKyCo2lvhrOO3GokF225bLkVNqaLOVwEF7u2s,3553
+scripts/release.py,sha256=YQw21NP1Nkmd2j6wD3XiUfbqWWMWvKraXn3DC8sSGl0,1908
+sphinxcontrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sphinxcontrib/playground.py,sha256=IkdzXUVByAM2u5WkXq7qcymbWoUEa34u6nLsfyXrTTA,2574
+sphinxcontrib_playground-0.1.3.dist-info/LICENSE,sha256=NHOllkNIRxCi80BKDc0hXRV0p90BF4Fb4YNo4C9aB-8,1074
+sphinxcontrib_playground-0.1.3.dist-info/METADATA,sha256=zWMwqDzLQLoMWzaIRtpfzbHMNIlaHEKoEdYA-o6DUF4,3164
+sphinxcontrib_playground-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sphinxcontrib_playground-0.1.3.dist-info/top_level.txt,sha256=OBFPyEIYhr0Wek5bBrX-kavbaKrV0GcHOJXNqv0Eo90,27
+sphinxcontrib_playground-0.1.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sphinxcontrib_playground-0.1.3.dist-info/RECORD,,
