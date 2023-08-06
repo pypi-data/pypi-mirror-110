@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/pytest_simplehttpserver/__init__.py
+src/pytest_simplehttpserver/pytest_plugin.py
+src/pytest_simplehttpserver/simplehttpserver.py
+src/pytest_simplehttpserver.egg-info/PKG-INFO
+src/pytest_simplehttpserver.egg-info/SOURCES.txt
+src/pytest_simplehttpserver.egg-info/dependency_links.txt
+src/pytest_simplehttpserver.egg-info/entry_points.txt
+src/pytest_simplehttpserver.egg-info/top_level.txt
