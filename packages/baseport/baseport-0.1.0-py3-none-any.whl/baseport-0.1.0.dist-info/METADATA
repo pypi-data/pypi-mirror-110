@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: baseport
+Version: 0.1.0
+Summary: Export Basecamp 3 To-Dos into a CSV.
+Author: Nate Gadzhi
+Author-email: nate@respawn.io
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: basecampy3 (>=0.4.0,<0.5.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: html2text (>=2020.1.16,<2021.0.0)
