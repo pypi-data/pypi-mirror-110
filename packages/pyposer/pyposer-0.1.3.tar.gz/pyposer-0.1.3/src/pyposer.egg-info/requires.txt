@@ -1,0 +1,4 @@
+click
+virtualenv
+inquirer
+pathlib

@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/pyposer/__init__.py
+src/pyposer/__main__.py
+src/pyposer.egg-info/PKG-INFO
+src/pyposer.egg-info/SOURCES.txt
+src/pyposer.egg-info/dependency_links.txt
+src/pyposer.egg-info/entry_points.txt
+src/pyposer.egg-info/requires.txt
+src/pyposer.egg-info/top_level.txt
+src/pyposer/libs/__init__.py
+src/pyposer/libs/colors.py
+src/pyposer/libs/create__venv.py
+src/pyposer/libs/exec__script.py
+src/pyposer/libs/exec__venv.py
+src/pyposer/libs/generate__pyposer.py
+src/pyposer/libs/install__libs.py
