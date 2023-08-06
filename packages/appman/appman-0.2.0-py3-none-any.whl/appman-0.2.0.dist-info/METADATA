@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: appman
+Version: 0.2.0
+Summary: Cross-platform application management aggregator
+Home-page: https://github.com/basiliskus/appman
+License: MIT
+Author: Basilio Bogado
+Author-email: 541149+basiliskus@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyInquirer (>=1.0.3,<2.0.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Project-URL: Repository, https://github.com/basiliskus/appman.git
+Description-Content-Type: text/markdown
+
+# appman
+
+<a href="https://github.com/basiliskus/appman"><img src="https://user-images.githubusercontent.com/541149/121623429-87264e00-ca24-11eb-97a4-fcb3baebb0b2.png" alt="AppMan" width="200"></a>
+
+appman is cross-platform application management aggregator
+
+[![Build Status](https://travis-ci.com/basiliskus/appman.svg?branch=main)](https://travis-ci.com/basiliskus/appman)
+
+
+## Requirements
+
+- Python 3.9
+
+## Installation
+
+You can install appman from [PyPI](https://pypi.org/project/appman/):
+
+```bash
+> pip install appman
+```
+
+## How to use
+
+Coming soon
+
+## Credits
+
+- Logo by [Lulu Wang](https://luluwang.work/)
+
+## License
+
+© Basilio Bogado. Distributed under the [MIT License](LICENSE).
+

@@ -1,0 +1,46 @@
+os:
+  - windows
+  - unix-like:
+    - linux:
+      - ubuntu
+    - darwin
+defaults:
+  pm:
+    app:
+      windows: [ scoop, choco, npm, pip, cargo ]
+      ubuntu: [ apt, npm, pip, cargo, snap ]
+      darwin: [ brew, npm, pip, cargo ]
+    backend:
+      any: [ npm, pip, cargo ]
+    font:
+      windows: [ scoop ]
+      ubuntu: []
+      darwin: [ brew ]
+    driver:
+      any: []
+    vscode:
+      any: [ vscode-extensions ]
+    provisioned:
+      windows: [ appx ]
+      ubuntu: [ apt ]
+  tags:
+    - cli
+    - gui
+    - books
+    - browser
+    - cloud
+    - communication
+    - dev-tools
+    - db
+    - editor
+    - media
+    - music
+    - network
+    - notes
+    - package-manager
+    - prog-langs
+    - reference
+    - security
+    - sysadmin
+    - utils
+    - web-server
