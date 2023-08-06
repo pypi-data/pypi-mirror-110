@@ -1,0 +1,8 @@
+numpy
+pandas
+jsonpickle
+scipy
+quadprog
+
+[dev]
+pytest
