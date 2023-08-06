@@ -1,0 +1,12 @@
+README.rst
+setup.py
+pymathics/hello/__init__.py
+pymathics/hello/__main__.py
+pymathics/hello/version.py
+pymathics_hello.egg-info/PKG-INFO
+pymathics_hello.egg-info/SOURCES.txt
+pymathics_hello.egg-info/dependency_links.txt
+pymathics_hello.egg-info/not-zip-safe
+pymathics_hello.egg-info/requires.txt
+pymathics_hello.egg-info/top_level.txt
+test/test_hello.py
