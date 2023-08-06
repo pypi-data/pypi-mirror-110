@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: arakneed
+Version: 0.1.0
+Summary: A common use targeted concurrent crawler for any directed graph. It's designed to be easy to use.
+Author: arakneed
+Author-email: arakneed@somarl.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
