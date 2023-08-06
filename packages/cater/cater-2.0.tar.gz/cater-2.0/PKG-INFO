@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: cater
+Version: 2.0
+Summary: A TCP based file sharing application
+Home-page: https://github.com/ravi-prakash1907/cater
+Author: Ravi Prakash
+Author-email: ravi.cs20@iiitmk.ac.in
+License: UNKNOWN
+Download-URL: https://github.com/ravi-prakash1907/cater/archive/refs/tags/v2.0.tar.gz
+Description: UNKNOWN
+Keywords: v2.0,cater
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
