@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: skbel
+Version: 1.1.2
+Summary: A set of Python modules to implement the Bayesian Evidential Learning framework
+Home-page: https://github.com/robinthibaut/skbel
+Author: Robin Thibaut
+Author-email: robin.thibaut@UGent.be
+License: BSD-3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
