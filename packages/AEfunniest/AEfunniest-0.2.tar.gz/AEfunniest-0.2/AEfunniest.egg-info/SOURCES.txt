@@ -1,0 +1,9 @@
+README.md
+setup.py
+AEfunniest/__init__.py
+AEfunniest/lib2.py
+AEfunniest.egg-info/PKG-INFO
+AEfunniest.egg-info/SOURCES.txt
+AEfunniest.egg-info/dependency_links.txt
+AEfunniest.egg-info/not-zip-safe
+AEfunniest.egg-info/top_level.txt
