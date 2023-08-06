@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nf1/F1_communities.py
+nf1/NF1_class.py
+nf1/__init__.py
+nf1.egg-info/PKG-INFO
+nf1.egg-info/SOURCES.txt
+nf1.egg-info/dependency_links.txt
+nf1.egg-info/entry_points.txt
+nf1.egg-info/requires.txt
+nf1.egg-info/top_level.txt
+scripts/NF1_evaluate.py
+scripts/__init__.py
