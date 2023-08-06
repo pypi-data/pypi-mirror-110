@@ -1,0 +1,10 @@
+slotpy/__init__.py,sha256=FjidXzhR60N2PSL6H1exvz7nxeDq7vXCljVSuc1TbjE,1313
+slotpy/buildgui.py,sha256=48_Ksq4wo0mw5u3Redp1qZj3AX4P2zIpihVri_R_MEc,7454
+slotpy/dataframe.py,sha256=OKL3kKodBOZj2Yg9d0La-ws6AfHNjwvmE0QD92235dk,2410
+slotpy/plotter.py,sha256=5ImDb-gx1w8JBFZXK4GIxL3H6jJNDhTf0MogenR30Z0,8002
+slotpy/pictures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slotpy-0.0.8.dist-info/LICENCE.md,sha256=YuiAwFFywmfFqORFrZmfoNbyYJhyi9sVTcZ9bIh-AuI,1106
+slotpy-0.0.8.dist-info/METADATA,sha256=ZlGfcIRzrzhPQPVglcmSn8mDgnDCTr35k97uTD3jd54,748
+slotpy-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+slotpy-0.0.8.dist-info/top_level.txt,sha256=QQI5uh44YASZr7Vx3eU7QNRl7Z5x7PmkuZ1jE9uxosQ,7
+slotpy-0.0.8.dist-info/RECORD,,
