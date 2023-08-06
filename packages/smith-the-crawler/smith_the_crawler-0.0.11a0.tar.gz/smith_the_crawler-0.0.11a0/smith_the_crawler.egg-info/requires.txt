@@ -1,0 +1,6 @@
+beautifulsoup4
+plotly
+requests
+pandas
+fake-useragent
+openpyxl
