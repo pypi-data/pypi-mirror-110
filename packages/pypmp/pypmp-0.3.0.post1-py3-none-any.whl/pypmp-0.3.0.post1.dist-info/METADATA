@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pypmp
+Version: 0.3.0.post1
+Summary: Python lib to interact with ManageEngine Password Manager Pro's REST API
+Home-page: https://github.com/post-luxembourg/pypmp
+License: GPL-3.0-only
+Author: Philipp Schmitt
+Author-email: philipp.schmitt@post.lu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://github.com/post-luxembourg/pypmp
+Description-Content-Type: text/markdown
+
+# pypmp
+
+Python lib to interact with ManageEngine Password Manager Pro's REST API
+
+## Installation
+
+```bash
+pip install pypmp
+```
+
+## Usage
+
+```python
+from pypmp import PasswordManagerProClient
+
+# Connect
+pmp = PasswordManagerProClient("pmp.example.com", "REST_API_TOKEN", verify=True)
+
+# Get all resources
+pmp.get_resources()
+# Get accounts
+pmp.get_accounts(resource_id=resource_id)
+# Get password
+pmp.get_account_password(resource_id=resource_id, account_id=account_id)
+
+# Shortcuts
+# Get resource by name
+pmp.get_resource_by_name(name="resource01")
+# Get account by name
+pmp.get_account_by_name(resource_name="resource01", account_name="Administrator")
+# Get password
+pmp.get_password(resource_name="resource01", account_name="Administrator")
+```
+
+## API Documentation
+
+https://www.manageengine.com/products/passwordmanagerpro/help/restapi.html
+
