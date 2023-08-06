@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+hca/__init__.py
+hca/staging_area_validator.py
+hca_import_validation.egg-info/PKG-INFO
+hca_import_validation.egg-info/SOURCES.txt
+hca_import_validation.egg-info/dependency_links.txt
+hca_import_validation.egg-info/top_level.txt
