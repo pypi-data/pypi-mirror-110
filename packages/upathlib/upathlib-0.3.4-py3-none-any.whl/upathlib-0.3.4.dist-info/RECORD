@@ -1,0 +1,11 @@
+upathlib/__init__.py,sha256=ow3jbbGB9ljkdc4JyJeBr3rSjAW8Cq2vib9ft6sPTfQ,245
+upathlib/_azure.py,sha256=0ggjE7zOQiHSSMUuu_y1s2VCwZoiPjZKwllMu7Ox9_E,8740
+upathlib/_fake.py,sha256=BHWZf-mODf9nEOY0NrpOgzm48hpA3TQy9FOPN0cWm5Y,2622
+upathlib/_gcp.py,sha256=sdHQ7fzoB0fzkYKcCaa-1sDdfhVrtLcjIlglo-QE9Ek,3584
+upathlib/_upath.py,sha256=zEvZKmAzNwYqbL5CkSITOcKuKvYnOnVJCXM9nP3vtgA,29271
+upathlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upathlib-0.3.4.dist-info/LICENSE,sha256=WpBxWkoFURUAGOP0AGCsVk8eFtw_x0uX9oEWOJBXSkY,1067
+upathlib-0.3.4.dist-info/METADATA,sha256=szp1VwQ484c-iZtoi9aKIIW4u2ZUmkAcJmL_RS_5GKs,1557
+upathlib-0.3.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+upathlib-0.3.4.dist-info/top_level.txt,sha256=zZY9t19gmmDbpqhDAxbW_rBlR3AoE5Qf73GzMhAVWWQ,9
+upathlib-0.3.4.dist-info/RECORD,,

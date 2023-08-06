@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: upathlib
+Version: 0.3.4
+Summary: Package upathlib
+Home-page: https://github.com/zpz/upathlib
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: filelock (<3.1.0,>=3.0.0)
+Requires-Dist: python-dateutil
+Requires-Dist: azure-storage-blob (<12.9.0,>=12.8.0)
+Requires-Dist: google-api-python-client (<2.3.0,>=2.1.0)
+Requires-Dist: google-cloud-storage (<1.38,>=1.37.0)
+
+# upathlib
+
+This package defines some APIs for working with a cloud blob store (or object store). The intended usage is that a client package for a blob store can be built on top of these APIs by inheriting from the classes defined here.
+
+The APIs are intentionally similar to the corresponding APIs of the standard [`pathlib`](https://docs.python.org/3/library/pathlib.html) where appropriate.
+Attention is focused on identifying the *most essential* functionalities
+while working with a blob store for data processing.
+Functionalities that are non-essential in these tasks are ignored,
+such as symbolic links, fine-grained permissions, and various access modes.
+(This API does not require or provide for these considerations, but a subclass may still add them if desired and feasible.)
+
+Local (POSIX) filesystem is treated as one particular case,
+and is implemented by `LocalUpath`.
+This class showcases the most essential methods
+that a subclass needs to implement.
+
+## Q & A
+
+- What's the 'u' in the name?
+
+  It stands for "universal". Hey, it's just a name.
+
+
