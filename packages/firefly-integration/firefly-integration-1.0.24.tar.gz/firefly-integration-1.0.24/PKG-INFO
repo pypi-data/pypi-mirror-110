@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: firefly-integration
+Version: 1.0.24
+Summary: Bounded context for data integration.
+Home-page: https://github.com/firefly-framework/firefly-integration
+Author: JD Williams
+Author-email: me@jdwilliams.xyz
+License: UNKNOWN
+Description: # Firefly Integration
+        
+        Data integration context.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
