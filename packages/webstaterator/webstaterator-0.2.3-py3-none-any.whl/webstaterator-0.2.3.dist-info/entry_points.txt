@@ -1,0 +1,3 @@
+[console_scripts]
+webstaterator = webstaterator.__main__:execute
+
