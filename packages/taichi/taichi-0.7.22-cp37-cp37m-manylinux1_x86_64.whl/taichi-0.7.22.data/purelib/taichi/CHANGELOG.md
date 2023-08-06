@@ -1,0 +1,44 @@
+Highlights:
+   - **Bug fixes**
+      - Fix 'ti.get_addr' failures in async mode (#2430) (by **Dunfan Lu**)
+      - Fixed internal lagrangian forces (#2413) (by **Saullo G P Castro**)
+   - **CI/CD workflow**
+      - Fixed windows build & test (#2434) (by **Jiasheng Zhang**)
+   - **CUDA backend**
+      - Fix unified memory allocator when running on non-main thread (#2427) (by **Ye Kuang**)
+   - **Documentation**
+      - Changed llvm-10 link and installation instruction (#2419) (by **Jiasheng Zhang**)
+   - **Intermediate representation**
+      - Fully deprecate trailing_bits (#2422) (by **Kenneth Lozes**)
+   - **Language and syntax**
+      - Separate runtime and root initialization (#2424) (by **Ye Kuang**)
+      - Add get_addr() to retrieve the buffer addr of an SNode (#2426) (by **Dunfan Lu**)
+   - **Metal backend**
+      - Make Aot module dumps buffer size (#2431) (by **Rachel Gu**)
+
+Full changelog:
+   - [ir] [bug] Skip test_template (#2444) (by **Ye Kuang**)
+   - [metal] Always initialize root SNode ListManager (#2443) (by **Ye Kuang**)
+   - [metal] Separate kernel utils and AOT utils (#2440) (by **Ye Kuang**)
+   - [ir] Add more comments to CFG optimizations and analyses (#2437) (by **xumingkuan**)
+   - [Metal] Make Aot module dumps buffer size (#2431) (by **Rachel Gu**)
+   - [ir] Support BLS in control-flow graph and add docstrings in build_cfg (#2412) (by **xumingkuan**)
+   - [Lang] [refactor] Separate runtime and root initialization (#2424) (by **Ye Kuang**)
+   - [ci] Moved windows build & test to github action (#2436) (by **Jiasheng Zhang**)
+   - [metal] Add 3-stage GC Metal kernels (#2268) (by **Ye Kuang**)
+   - [CUDA] [bug] Fix unified memory allocator when running on non-main thread (#2427) (by **Ye Kuang**)
+   - [CI] Fixed windows build & test (#2434) (by **Jiasheng Zhang**)
+   - [ci] Trigger Build and Test (CPU) after the required checks (#2435) (by **Ye Kuang**)
+   - [Bug] Fix 'ti.get_addr' failures in async mode (#2430) (by **Dunfan Lu**)
+   - [Lang] Add get_addr() to retrieve the buffer addr of an SNode (#2426) (by **Dunfan Lu**)
+   - [IR] Fully deprecate trailing_bits (#2422) (by **Kenneth Lozes**)
+   - [ir] Move infer_snode_properties out from StructCompiler (#2420) (by **Ye Kuang**)
+   - [doc] Add documentation for IndexExtractor (#2416) (by **Ye Kuang**)
+   - [Doc] Changed llvm-10 link and installation instruction (#2419) (by **Jiasheng Zhang**)
+   - [wasm] [llvm] Support wasm with single thread (#2415) (by **squarefk**)
+   - [ir] Add CHI Builder code examples (#2383) (by **bx2k**)
+   - [ci] Remove travis configs (#2414) (by **Ye Kuang**)
+   - [opt] [bug] Simplify modulo POT (Stage 2) (#2411) (by **xumingkuan**)
+   - [Bug] Fixed internal lagrangian forces (#2413) (by **Saullo G P Castro**)
+   - [lang] Add override to fix compilation warnings (#2410) (by **Ye Kuang**)
+   - [ir] Make lower_scalar_pointer testable (#2407) (by **Ye Kuang**)
