@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: disable-print
+Version: 0.1.0
+Summary: 
+Author: Fab4key
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
