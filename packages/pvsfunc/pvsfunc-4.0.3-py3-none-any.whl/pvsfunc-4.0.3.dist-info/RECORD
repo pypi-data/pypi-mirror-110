@@ -1,0 +1,13 @@
+LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pvsfunc/__init__.py,sha256=D8u1cjCW-IU9imPKHNaaf017iGVXWybhF3zlNdcqwW4,229
+pvsfunc/helpers.py,sha256=VsKJJ4ioPW4213ZUy5FjrqV0SKolWF9MHc-IBArNjuo,2162
+pvsfunc/pd2v.py,sha256=eJ5W6-uHQ7n4hq6gx89fkP7PDZsFYTWqTe--XM3ZlEg,18067
+pvsfunc/pdebox.py,sha256=LWEJCjpBTI4YS30WOMmcdt-FqH4XGnA-pc58etk25mg,1553
+pvsfunc/pdecimate.py,sha256=7I5WqUp7Es5R84vbmk7aU-W8N4Nt-Uc7NT59E5y1-Wg,4737
+pvsfunc/pkernel.py,sha256=yYpjj1jQL6lhytsj0sh572K04Uzg3losE3Tz38IBSAo,2034
+pvsfunc/plwi.py,sha256=5AX1mg69DY9vz0vvo13SFVKWvizWdxM-ceDtFTHIw28,5350
+README.md,sha256=nafvXdtR5GngOrVzU8sUoGIOjsBJENHOxdeLxRCnMKQ,6415
+pvsfunc-4.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pvsfunc-4.0.3.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pvsfunc-4.0.3.dist-info/METADATA,sha256=4pjaktHLA_aWvUoIjLzWRGSwsj42t0gXv2_3zIz-n0A,7616
+pvsfunc-4.0.3.dist-info/RECORD,,
