@@ -1,0 +1,16 @@
+<odoo>
+  <data>
+    <record id="view_car_config_form_inherited" model="ir.ui.view">
+      <field name="name">smp.car_configs.form</field>
+      <field name="model">smp.sm_car_config</field>
+      <field name="inherit_id" ref="sm_partago_db.view_car_config_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//page" position="inside">
+          <group>
+            <field name="cs_carconfig_ids"/>
+          </group>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>

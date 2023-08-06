@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_cs_task_search_form" model="ir.ui.view">
+        <field name="name">view.cs.task.search.form</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_search_form"/>
+        <field name="arch" type="xml">
+           <xpath expr="//filter[@name='type_id']" position="after">
+                <filter string="CS Task Type" name="cs_task_type" context="{'group_by':'cs_task_type'}"/>
+                <filter string="CS Car" name="cs_task_car_id" context="{'group_by':'cs_task_car_id'}"/>
+                <filter string="CS Community" name="cs_task_community_id" context="{'group_by':'cs_task_community_id'}"/>
+           </xpath>
+        </field>
+    </record>
+</odoo>

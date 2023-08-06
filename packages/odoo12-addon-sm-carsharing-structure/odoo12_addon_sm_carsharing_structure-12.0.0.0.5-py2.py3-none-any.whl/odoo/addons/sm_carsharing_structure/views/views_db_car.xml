@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+    <record id="view_car_form_inherited" model="ir.ui.view">
+      <field name="name">smp.car.form</field>
+      <field name="model">smp.sm_car</field>
+      <field name="inherit_id" ref="sm_partago_db.view_car_form"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='db_carconfigs_id']" position="after">
+            <field name="cs_car_ids"/>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>
