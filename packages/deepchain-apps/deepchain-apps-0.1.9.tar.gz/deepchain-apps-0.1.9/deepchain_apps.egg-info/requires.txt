@@ -1,0 +1,10 @@
+bio-transformers>=0.1.0
+matplotlib==3.4.1
+numpy<1.19,>=1.16
+pandas>=1.2.3
+pytorch_lightning>=1.2.6
+requests>=2.23.0
+scikit-learn>=0.22.2
+tensorflow<2.4,>=2.3.0
+torch<1.9.0,>=1.7.0
+tqdm>=4.60.0

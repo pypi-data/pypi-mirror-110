@@ -1,0 +1,2 @@
+include deepchain/cli/config.ini
+include requirements.txt
