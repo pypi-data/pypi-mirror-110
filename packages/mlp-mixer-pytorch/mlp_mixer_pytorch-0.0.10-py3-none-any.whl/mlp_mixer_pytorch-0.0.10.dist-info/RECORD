@@ -1,0 +1,8 @@
+mlp_mixer_pytorch/__init__.py,sha256=x5vo9_M1-1rZOYh0s082zaLiknNLpP_9HMF2qg8hWtc,109
+mlp_mixer_pytorch/mlp_mixer_pytorch.py,sha256=PQRrlWh9s2tcGI6940QiV9fv9GDAwIPqPs7f69QcT7s,1450
+mlp_mixer_pytorch/permutator.py,sha256=gWrhqSDz_FlytjRitZVjDcSrotGILdY4GmkWEqWmwck,2199
+mlp_mixer_pytorch-0.0.10.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+mlp_mixer_pytorch-0.0.10.dist-info/METADATA,sha256=NoVICvKJP1V8BlI1nVE20_k8M1BXeFHsJNPQF-uH088,629
+mlp_mixer_pytorch-0.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlp_mixer_pytorch-0.0.10.dist-info/top_level.txt,sha256=rzD4CXTPtvuedwSWEIdgeYKvgm1Of3OXAIYJLwApcxA,18
+mlp_mixer_pytorch-0.0.10.dist-info/RECORD,,
