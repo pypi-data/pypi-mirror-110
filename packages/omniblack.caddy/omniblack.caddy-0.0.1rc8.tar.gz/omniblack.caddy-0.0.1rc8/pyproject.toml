@@ -1,0 +1,62 @@
+[tool.poetry]
+name = 'omniblack.caddy'
+version = '0.0.1-pre8'
+description = "A python client for Caddy's admin api."
+readme = './README.rst'
+authors = ['Terry Patterson <Terryp@wegrok.net>']
+license = 'AGPL-3.0-or-later'
+repository = 'https://gitlab.com/terryp/caddy'
+packages = [
+    { include = 'omniblack' }
+]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+]
+
+
+[tool.isort]
+src_paths=['omniblack', 'test']
+multi_line_output=3
+include_trailing_comma=true
+line_length=79
+combine_as_imports=true
+use_parentheses=true
+skip_gitignore=true
+
+[tool.pytest.ini_options]
+testpaths = ['test']
+
+[tool.poetry.dependencies]
+python = '^3.9'
+attrs = '21.2.0'
+requests = '^2.25.1'
+multidict = '^5.1.0'
+urllib3 = "^1.26.5"
+aiohttp = {extras = ["speedups"], version = "^3.7.4", optional = true}
+anyio = {version = "^3.1.0", optional = true}
+
+
+[tool.poetry.extras]
+async=['aiohttp', 'anyio']
+
+[tool.poetry.dev-dependencies]
+isort = '^5.8.0'
+pytest = '^6.2.4'
+flake8 = "^3.9.2"
+bandit = "^1.7.0"
+flake8-bugbear = "^21.4.3"
+pep8-naming = "^0.11.1"
+flake8-commas = "^2.0.0"
+flake8-broken-line = "^0.3.0"
+flake8-builtins = "^1.5.3"
+flake8-executable = "^2.1.1"
+flake8-fixme = "^1.1.1"
+flake8-logging-format = "^0.6.0"
+flake8-pytest-style = "^1.4.3"
+flake8-requirements = "^1.4.0"
+flake8-simplify = "^0.14.1"
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'
