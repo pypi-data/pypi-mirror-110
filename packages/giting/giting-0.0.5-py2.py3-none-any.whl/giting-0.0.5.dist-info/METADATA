@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: giting
+Version: 0.0.5
+Summary: An awesome easy to use git tool written in python, enjoy ~
+Home-page: https://github.com/szj2ys/giting
+Author: szj
+Author-email: szj2ys@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: gitdb
+Requires-Dist: GitPython
+Requires-Dist: typing-extensions
+Requires-Dist: invoke
+Requires-Dist: click-help-colors
+Requires-Dist: rich
+Requires-Dist: PyInquirer
+
+
+# giting
+An awesome easy to use git tool written in python, enjoy ~
+
+
+## Built with
+
+- [click](https://github.com/pallets/click)
+- [gitpython](https://github.com/gitpython-developers/GitPython)
+- [inquirer](https://github.com/CITGuru/PyInquirer)
+- [rich](https://github.com/willmcgugan/rich)
+
