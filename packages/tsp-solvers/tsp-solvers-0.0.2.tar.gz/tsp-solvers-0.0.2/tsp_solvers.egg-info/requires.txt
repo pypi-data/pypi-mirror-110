@@ -1,0 +1,13 @@
+amply==0.1.4
+docutils==0.17.1
+PuLP==2.4
+pyparsing==2.4.7
+six==1.16.0
+
+[plot]
+cycler==0.10.0
+kiwisolver==1.3.1
+matplotlib==3.4.2
+numpy==1.21.0
+Pillow==8.2.0
+python-dateutil==2.8.1
