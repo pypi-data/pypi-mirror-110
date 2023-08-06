@@ -1,0 +1,11 @@
+argparse
+chevron
+cloudevents
+json-spec
+invoke
+pyramda
+PyYAML
+fluent-logger
+prometheus-client
+dependency-injector<5.0,>=4.0
+devopsprocessor_ifn==0.1.0
