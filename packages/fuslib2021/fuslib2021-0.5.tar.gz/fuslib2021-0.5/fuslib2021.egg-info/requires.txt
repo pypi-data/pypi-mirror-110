@@ -1,0 +1,8 @@
+numpy
+gdal
+idlwrap
+statsmodels
+zarr
+dask
+rasterio
+matplotlib
