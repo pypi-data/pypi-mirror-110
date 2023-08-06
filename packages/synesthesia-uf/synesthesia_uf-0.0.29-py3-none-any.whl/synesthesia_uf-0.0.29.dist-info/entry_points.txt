@@ -1,0 +1,3 @@
+[console_scripts]
+syne = synesthesia:main_func
+
