@@ -1,0 +1,25 @@
+absl-py
+numpy>=1.17
+opt_einsum
+
+[cpu]
+jaxlib>=0.1.65
+
+[cuda101]
+jaxlib@ https://storage.googleapis.com/jax-releases/cuda101/jaxlib-0.1.67+cuda101-cp39-none-manylinux2010_x86_64.whl
+
+[cuda102]
+jaxlib@ https://storage.googleapis.com/jax-releases/cuda102/jaxlib-0.1.67+cuda102-cp39-none-manylinux2010_x86_64.whl
+
+[cuda110]
+jaxlib@ https://storage.googleapis.com/jax-releases/cuda110/jaxlib-0.1.67+cuda110-cp39-none-manylinux2010_x86_64.whl
+
+[cuda111]
+jaxlib@ https://storage.googleapis.com/jax-releases/cuda111/jaxlib-0.1.67+cuda111-cp39-none-manylinux2010_x86_64.whl
+
+[minimum-jaxlib]
+jaxlib==0.1.65
+
+[tpu]
+jaxlib==0.1.67
+libtpu-nightly@ https://storage.googleapis.com/cloud-tpu-tpuvm-artifacts/wheels/libtpu-nightly/libtpu_nightly-0.1.dev20210615-py3-none-any.whl
