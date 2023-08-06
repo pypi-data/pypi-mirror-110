@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+stardist_napari/__init__.py
+stardist_napari/_dock_widget.py
+stardist_napari/_version.py
+stardist_napari.egg-info/PKG-INFO
+stardist_napari.egg-info/SOURCES.txt
+stardist_napari.egg-info/dependency_links.txt
+stardist_napari.egg-info/entry_points.txt
+stardist_napari.egg-info/requires.txt
+stardist_napari.egg-info/top_level.txt
+stardist_napari/resources/stardist_logo_napari.png
