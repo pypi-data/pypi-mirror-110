@@ -1,0 +1,15 @@
+geomapviz/__init__.py,sha256=W4vfCYD4NgbewG23Oxy9mbWirOcSu3MxY9Z_wdbGnWA,188
+geomapviz/geomapviz.py,sha256=eVRHIYEnwOkATxY4fkq4Ongh_WrAOtp-wOfJ34PAMgY,41398
+geomapviz/beshp/belgium.cpg,sha256=CfwxMHV0jOjq2WIintickZ1an_cZdO5yWgtIu4fZdaI,10
+geomapviz/beshp/belgium.dbf,sha256=IrlxpZyax39rfGvC248yKgjrjHLfBTwotDdon98Nkos,397993
+geomapviz/beshp/belgium.shp,sha256=CpK0VeOLMS25Mv-k1iSyTWZZiwg4M88InkGx72TZcFE,4179132
+geomapviz/beshp/belgium.shx,sha256=Y8S46fSMeAndax678bnf_8rGeyslzbyt75g_W3-8WPk,4812
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/geomapviz.py,sha256=55VnEVAxEaCY6rWlh5CTU-QldeM-DkGKSt6pU1I7Ox0,36552
+tests/__init__.py,sha256=dDgE4K0XJL3CwLifExx3hENN-ExPAVJyiSkmRWLHdV4,19
+tests/test_geomapviz.py,sha256=--j665y9Z49l9HLWoE9XH78hykyuAWM2ZFvGX5zvxXU,5133
+geomapviz-0.6.dist-info/LICENSE.md,sha256=0I4FH-NIzdwAq2X9BvPcgUEaTMBKaPEUAsKh6lWcJ3g,1091
+geomapviz-0.6.dist-info/METADATA,sha256=zxuMekxQd6fux4sUWQSNXXJEnmbiXPN6c2OGt8FWm4Y,6846
+geomapviz-0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+geomapviz-0.6.dist-info/top_level.txt,sha256=SNqb2QYaOg14xc5IKpuvL99S-3zCmAE5tsyJ2kun2bM,10
+geomapviz-0.6.dist-info/RECORD,,
