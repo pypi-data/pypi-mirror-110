@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: feebee
+Version: 0.8.8
+Summary: A data wrangling tool
+Home-page: https://github.com/nalssee/feebee.git
+Author: nalssee
+Author-email: jinisrolling@gmail.com
+License: MIT
+Description: Data analysis with no hassle of learning pandas or sql
+        
+        [DOCS] (https://feebee.readthedocs.io/en/latest/)
+Platform: UNKNOWN
