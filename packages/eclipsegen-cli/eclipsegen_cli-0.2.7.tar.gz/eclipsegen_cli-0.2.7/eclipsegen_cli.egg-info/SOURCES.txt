@@ -1,0 +1,11 @@
+README.md
+setup.py
+eclipsegen_cli/__init__.py
+eclipsegen_cli/cmd.py
+eclipsegen_cli/main.py
+eclipsegen_cli.egg-info/PKG-INFO
+eclipsegen_cli.egg-info/SOURCES.txt
+eclipsegen_cli.egg-info/dependency_links.txt
+eclipsegen_cli.egg-info/entry_points.txt
+eclipsegen_cli.egg-info/requires.txt
+eclipsegen_cli.egg-info/top_level.txt
