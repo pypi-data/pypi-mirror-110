@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+django_partial_index_pr30.egg-info/PKG-INFO
+django_partial_index_pr30.egg-info/SOURCES.txt
+django_partial_index_pr30.egg-info/dependency_links.txt
+django_partial_index_pr30.egg-info/top_level.txt
+partial_index/__init__.py
+partial_index/index.py
+partial_index/mixins.py
+partial_index/query.py
