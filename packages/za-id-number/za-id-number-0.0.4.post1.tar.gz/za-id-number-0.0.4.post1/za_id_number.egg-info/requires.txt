@@ -1,0 +1,13 @@
+
+[dev]
+bandit
+black
+flake8
+pytest
+pytest-cov
+codecov
+flake8
+black
+bandit
+pytest-runner
+python-dateutil
