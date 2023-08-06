@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pathlit
+Version: 0.0.1
+Summary: The PathLit Python SDK
+Home-page: https://github.com/pathlit/python-sdk
+Author: PathLit Developers
+Author-email: tianyi.song@pathlit.io
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pathlit/python-sdk/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# The PathLit Python Libraries 
+
+This repository holds Python Libraries to interact with the PathLit services.
+
+
+
+
