@@ -1,0 +1,3 @@
+[console_scripts]
+forest = hhcm_forest:main
+
