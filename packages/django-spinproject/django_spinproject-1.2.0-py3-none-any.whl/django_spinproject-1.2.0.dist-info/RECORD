@@ -1,0 +1,15 @@
+django_spinproject/bin/enhance-dockerfile.py,sha256=l1Hjd0VPCWdDsEfjRpiScl9C-UGQZHt7qfdUE6iCAKg,805
+django_spinproject/bin/enhance-dockerignore.py,sha256=vyJwZYkcpuv3KUkMH9Jf14BsvT8KO1G_CyCqL2tKe5Y,640
+django_spinproject/bin/enhance-gitignore.py,sha256=96wvho1wZc2t_G00aEa7vG0_dnhJC2GJ_GZ67omDQFU,7091
+django_spinproject/bin/enhance-gitlab-ci.py,sha256=WdXduiuoCUJbRH-K7x5WStjktUdIL1K8hvskqF1S-gQ,2850
+django_spinproject/bin/enhance-makefile.py,sha256=HC6muxUabBG-1cxZ7wMEKsegwMNNOez6WNY5Gwq5hR8,681
+django_spinproject/bin/enhance-pg-readonly.py,sha256=78drPXr2_p7gJM9wSRF-iu9lsmx4fl1XuPJK0AMQGQA,731
+django_spinproject/bin/enhance-pytest.py,sha256=WKI9hnPv0m38CUJN1kFvlE2I3f8cXZwDZOoZAx2NQ5M,884
+django_spinproject/bin/enhance-settings.py,sha256=-2GvqJpC1mb_N0qbPys_XqPfpv4Bqh0Y2mMbbR0vdGA,5739
+django_spinproject/bin/enhance-srta.py,sha256=7jMu-cvouSlpz-_Od5tuZOX_u_Y6dY6xUw_N4sQ1u74,1399
+django_spinproject/bin/spinproject.py,sha256=fIHuaUGE5ur66NTLQkok6g1M0-uKy08kH9FtH9qyMz4,987
+django_spinproject-1.2.0.dist-info/entry_points.txt,sha256=SpibhiM-wswIH91k8ymvmpvIWD5WN5ThVMgVUW946Ak,78
+django_spinproject-1.2.0.dist-info/LICENSE,sha256=RnPjzYiBXRbTqfo8C3E_u65E3mO6xPuFD-ixYdBeo1w,1076
+django_spinproject-1.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+django_spinproject-1.2.0.dist-info/METADATA,sha256=czX--dCJ8-JfxSaOEmV7B1bnDbU0tFuBqzKvkCNIRgg,3454
+django_spinproject-1.2.0.dist-info/RECORD,,
