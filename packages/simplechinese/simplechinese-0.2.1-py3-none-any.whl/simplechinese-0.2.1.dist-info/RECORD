@@ -1,0 +1,12 @@
+simplechinese/__init__.py,sha256=h35IHxD45tljm0D-DA_KR82Tw9qKYvgsl_a5tkrl6tw,288
+simplechinese/conversion.py,sha256=TobkCYbsy8w2UajlUcrcV1sBgni6d2m5FUKXEVKQ12k,346
+simplechinese/names.pickle,sha256=1Eiuj85q2Ec5k_l43e3uVpbLnbYh-Gk8Z-IqEZfvpeI,2718573
+simplechinese/nlp.py,sha256=Spasnlzsm5max5aFcldQxrt4IMtCV4w-T8xLIb8qJ-Q,6386
+simplechinese/preprocessing.py,sha256=Y8i9MYNvsxNZvpvM32gmmKEX9zwEQLUpH-2Tjr_oMMQ,4825
+simplechinese/representation.py,sha256=UB1vuIBm4UENQzzjN73M4zd0ZnlbI2LsIdG-dgLUxzE,3777
+simplechinese/visualization.py,sha256=QqSJbpizRBLvRHp7eJ0pUORwtnJkUaSDPlUZoWp658M,1854
+simplechinese-0.2.1.dist-info/LICENSE,sha256=pdG4_4UEDSgoNDw2D6v49VffYAPxxcP01cpn1viTEmA,1061
+simplechinese-0.2.1.dist-info/METADATA,sha256=qZXOdhhIGfgCJ0IzRxqBxfFHmhCQ_-hslxx4m0jiQhI,748
+simplechinese-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+simplechinese-0.2.1.dist-info/top_level.txt,sha256=ZQ8ZO8MyvXaP85Kd6JaWcSRvqiUAd7OYp7C7io6C7SA,14
+simplechinese-0.2.1.dist-info/RECORD,,
