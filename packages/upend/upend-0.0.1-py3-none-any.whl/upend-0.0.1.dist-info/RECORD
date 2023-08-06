@@ -1,0 +1,7 @@
+upend/__init__.py,sha256=QyqqAvUiNz3i1q_bQe9fuIbIeCJz3vbAF1SC1sZ4ZSM,59
+upend/lib.py,sha256=SZ8IEUzZJWyeS7I8ZPF0eASnUQJDhsHXfJoK0PkHthY,537
+upend/upend.py,sha256=lNoQBQtfCkjwy8y61Z1UpwH4WCPMhn7lzvaVF5zRvZo,3261
+upend/util.py,sha256=gpeoDjAwMxmBLutHVVwbpzv9KQ9cYB0gfceM-gtIG8g,66
+upend-0.0.1.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+upend-0.0.1.dist-info/METADATA,sha256=W5UfxT4Sh8NP56XVNsVeP-qFYYYm8fqCMhcquqmi3Tw,375
+upend-0.0.1.dist-info/RECORD,,
