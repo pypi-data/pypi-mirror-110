@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: newlandface-r
+Version: 0.1
+Summary: 修改了fjndfazp/newlandface的默认home路径问题等 
+Home-page: https://github.com/krishuang2008/newlandface_r
+Author: krishuang
+Author-email: huangzikun2008@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# newlandface_r
+修改了fjndfazp/newlandface的默认home路径问题等 
+# 使用方法
+见https://github.com/fjndfazp/newlandface/blob/main/README.md
+
+## 不同:
+
+安装方式:pip install newlandface
+
+导入方式:from newlandface_r import nlface
+
+模型加载:nlface.load_model()需要一个字符串参数,是home路径(代替原版newlandface库默认的D:\newlandface)
+
