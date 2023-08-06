@@ -1,0 +1,10 @@
+gcm_filters/__init__.py,sha256=ibcl0R7D9DGl3EgG6tfh2C3S-a-Pn_eHlfMVQzGcdm8,298
+gcm_filters/_version.py,sha256=rqyZtt1djmoU2vxYGslRgV4TaBWrxK8uesP_Xai_8-U,19
+gcm_filters/filter.py,sha256=jPKbr-TnPV1IpMvvo095PAj4bqwA7pQ3wYNhSBJpnk8,15309
+gcm_filters/gpu_compat.py,sha256=9wavsF34IbC2OFR8L9kxI7usWnaIq4N_TeCALDTtKdo,273
+gcm_filters/kernels.py,sha256=kzAI074pRi5qYcp1Y_5FClj80IBQTib-qrYOyAj_5Ak,14159
+gcm_filters-0.1.dist-info/LICENSE.txt,sha256=VWIXR6fejYnrrUQ94kUjWfKWCzdkLu8QxPzrXN7jjWQ,1472
+gcm_filters-0.1.dist-info/METADATA,sha256=nESDq1BhYHxdOTEkJUN5eeXvr1MVNZPzG-l-vF-WZxs,2132
+gcm_filters-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+gcm_filters-0.1.dist-info/top_level.txt,sha256=ubjrXuBWPSTY0q6maV_Mdih3ih9EaeTedxPsTrwKXx0,12
+gcm_filters-0.1.dist-info/RECORD,,
