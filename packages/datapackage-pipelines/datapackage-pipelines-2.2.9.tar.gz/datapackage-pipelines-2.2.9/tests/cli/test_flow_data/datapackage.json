@@ -1,0 +1,55 @@
+{
+  "bytes": 302,
+  "count_of_rows": 9,
+  "hash": "67e74f69314228d82a16e78f4975081e",
+  "name": "_",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 302,
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/home/runner/work/datapackage-pipelines/datapackage-pipelines/tests/data/sample.csv",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "d43535e79ef1ba14dd566eeb22f9f635",
+      "name": "my-spiffy-resource",
+      "path": "sample.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "first_name",
+            "type": "string"
+          },
+          {
+            "name": "last_name",
+            "type": "string"
+          },
+          {
+            "name": "house",
+            "type": "string"
+          },
+          {
+            "name": "age",
+            "type": "integer"
+          },
+          {
+            "name": "foo",
+            "type": "string"
+          }
+        ],
+        "primaryKey": [
+          "first_name",
+          "last_name"
+        ]
+      }
+    }
+  ]
+}

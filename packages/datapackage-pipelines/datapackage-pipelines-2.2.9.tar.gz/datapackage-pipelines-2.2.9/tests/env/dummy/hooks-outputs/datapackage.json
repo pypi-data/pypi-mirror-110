@@ -1,0 +1,81 @@
+{
+  "bytes": 13748,
+  "count_of_rows": 40,
+  "hash": "9fc202087094c7becf98228a1327b21c",
+  "name": "hook-tests",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 13748,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "https://raw.githubusercontent.com/openspending/fiscal-data-package-demos/master/al-treasury-spending/data/treasury.csv",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "fe382a36950a53b1e20d5a06765a8e71",
+      "name": "treasury",
+      "path": "treasury.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Budget Institution",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Supplier",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Treasury Branch",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Value",
+            "type": "integer"
+          },
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date registered",
+            "type": "date"
+          },
+          {
+            "format": "%Y-%m-%d",
+            "name": "Date executed",
+            "type": "date"
+          },
+          {
+            "format": "default",
+            "name": "Receipt No",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "Kategori Shpenzimi",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Receipt Description",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}

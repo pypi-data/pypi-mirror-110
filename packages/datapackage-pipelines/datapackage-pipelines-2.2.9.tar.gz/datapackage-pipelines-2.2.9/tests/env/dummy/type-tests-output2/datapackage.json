@@ -1,0 +1,99 @@
+{
+  "bytes": 798,
+  "count_of_rows": 5,
+  "hash": "95674ebb395cdb0914684f769e223e3c",
+  "name": "type-tests",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 1596,
+      "count_of_rows": 5,
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/home/runner/work/datapackage-pipelines/datapackage-pipelines/tests/env/dummy/type-tests-output/data/types.csv",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "31166b86dff82c9edc4b59e8a9118094",
+      "name": "types",
+      "path": "data/types.csv",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "string",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "groupChar": "",
+            "name": "number",
+            "type": "number"
+          },
+          {
+            "name": "integer",
+            "type": "integer"
+          },
+          {
+            "falseValues": [
+              "False"
+            ],
+            "name": "boolean",
+            "trueValues": [
+              "True"
+            ],
+            "type": "boolean"
+          },
+          {
+            "name": "object",
+            "type": "object"
+          },
+          {
+            "name": "array",
+            "type": "array"
+          },
+          {
+            "format": "%Y-%m-%d",
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "format": "%H:%M:%S",
+            "name": "time",
+            "type": "time"
+          },
+          {
+            "format": "%Y-%m-%dT%H:%M:%S",
+            "name": "datetime",
+            "type": "datetime"
+          },
+          {
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "name": "yearmonth",
+            "type": "yearmonth"
+          },
+          {
+            "name": "duration",
+            "type": "duration"
+          },
+          {
+            "name": "geopoint",
+            "type": "geopoint"
+          },
+          {
+            "name": "geojson",
+            "type": "geojson"
+          }
+        ]
+      }
+    }
+  ]
+}
