@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dimppy
+Version: 0.0.0.6
+Summary: Data Structures implementation in Python
+Home-page: https://github.com/Armaan-268/dimppy
+Author: Armaan Chauhan
+Author-email: armaanchauhan268@gmail.com
+License: MIT
+Keywords: datastructures,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Data Structure implementation in Python 
+
+A Python package of data structure implementations 
+
+## Usage
+
+This package contains ready to use Data Structure implementations like Stack ,Queue using both arrays and linked lists, Trees ,Graphs etc. The primary focus is provide pre-coded functions that can be used on the go for various coding problems. 
+
+-----------------------------------
+**Note:** 
+* This package is in alpha phase of development.
+* All the files and classes are in title case (eg: TitleCase) and all the methods and functions are in camel case (eg: camelCase)
+
+```  
+pip install dimppy
+```
+
+Change Logs
+================================
+
+0.0.0.5 (22/06/2021)
+----------------------------------------------------------------
+- Fixed some bugs
+- Improved code 
+
+----------------------------------------------------------------
+
+**Repository link:** 
+[GitHub](https://github.com/Armaan-268/DSA_in_Python)
+
