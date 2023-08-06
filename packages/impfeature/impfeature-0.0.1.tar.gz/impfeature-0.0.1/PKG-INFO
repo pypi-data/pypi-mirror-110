@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: impfeature
+Version: 0.0.1
+Summary: Find important features
+Home-page: https://github.com/saikat-kolkata
+Author: Saikat Mazumder, Sourav Mondal
+Author-email: saikatmaz@gmail.com
+License: MIT
+Description: This package will explain the important features from a data file.
+        
+        Change Log
+        ===========
+        
+        version 0.0.01(26/05/2021)
+        --------------------------
+        - First Release
+Keywords: Feature Importance
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

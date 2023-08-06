@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+impfeature/__init__.py
+impfeature/featureimportance.py
+impfeature.egg-info/PKG-INFO
+impfeature.egg-info/SOURCES.txt
+impfeature.egg-info/dependency_links.txt
+impfeature.egg-info/requires.txt
+impfeature.egg-info/top_level.txt
