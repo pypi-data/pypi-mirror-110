@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: autoreduce-qp
+Version: 22.0.0.dev1
+Summary: ISIS Autoreduction queue processor
+Home-page: https://github.com/ISISScientificComputing/autoreduce/
+Author: ISIS Autoreduction Team
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: autoreduce-utils (==22.0.0.dev2)
+Requires-Dist: autoreduce-db (==22.0.0.dev3)
+Requires-Dist: Django (==3.2.4)
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: plotly (==4.14.3)
+Requires-Dist: stomp.py (==6.1.0)
+
+UNKNOWN
+
+
