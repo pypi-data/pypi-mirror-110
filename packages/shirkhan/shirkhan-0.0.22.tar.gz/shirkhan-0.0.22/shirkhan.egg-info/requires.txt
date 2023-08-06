@@ -1,0 +1,7 @@
+pycryptodome
+xlrd
+openpyxl
+
+[shirkhan_extra]
+praatio
+pydub
