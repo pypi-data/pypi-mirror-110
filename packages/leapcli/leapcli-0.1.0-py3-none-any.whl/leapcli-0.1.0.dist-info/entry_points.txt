@@ -1,0 +1,3 @@
+[console_scripts]
+leap=leapcli.cli:main
+
