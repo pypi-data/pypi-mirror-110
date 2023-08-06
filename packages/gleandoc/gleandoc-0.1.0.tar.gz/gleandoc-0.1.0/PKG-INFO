@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: gleandoc
+Version: 0.1.0
+Summary: Simple convenience function to extract docstring
+Home-page: https://github.com/datagazing/gleandoc
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com
