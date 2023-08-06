@@ -1,0 +1,10 @@
+CHANGELOG.txt
+Lisence.txt
+MANIFEST.in
+README.txt
+setup.py
+ITSNOTME/__init__.py
+ITSNOTME.egg-info/PKG-INFO
+ITSNOTME.egg-info/SOURCES.txt
+ITSNOTME.egg-info/dependency_links.txt
+ITSNOTME.egg-info/top_level.txt
