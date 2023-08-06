@@ -1,0 +1,46 @@
+[tool.black]
+# Set line length explicitly.
+# See https://black.readthedocs.io/en/stable/the_black_code_style.html#line-length for more details
+line-length = 88
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.isort]
+known_first_party = "chi_edge"
+
+[tool.poetry]
+name = "python-chi-edge"
+packages = [
+    { include = "chi_edge" }
+]
+version = "0.0.1"
+description = "Manage edge devices for use with the CHI@Edge IoT/Edge testbed."
+authors = [
+    "Chameleon Project <contact@chameleoncloud.org>"
+]
+include = ["chi_edge/ansible/**"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+ansible = "^4.0.0"
+ansible-runner = "^1.4.7"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = { version = "^21", allow-prereleases = true }
+flake8 = "^3.9.0"
+flake8-bugbear = "^21.4.1"
+pytest-watch = "^4.2.0"
+pytest-mock = "^3.5.1"
+isort = "^5.8.0"
+pydocstyle = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
