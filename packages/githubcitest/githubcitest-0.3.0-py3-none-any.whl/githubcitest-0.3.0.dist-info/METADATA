@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: githubcitest
+Version: 0.3.0
+Summary: No help, dude.
+Home-page: https://github.com/phohenecker/ci-test
+Author: Patrick Hohenecker
+Author-email: patrick.hohenecker@gmx.at
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.8.0)
+
+UNKNOWN
+
