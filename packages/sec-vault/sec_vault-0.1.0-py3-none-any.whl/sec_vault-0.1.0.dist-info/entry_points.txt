@@ -1,0 +1,3 @@
+[console_scripts]
+sec-vault=core.__main__:main
+
