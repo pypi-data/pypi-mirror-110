@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dh-poetry-cypherpunkdev
+Version: 0.2.2
+Summary: Shim between dh-virtualenv and poetry
+Home-page: https://github.com/CypherpunkDev/dh-poetry
+Author: Maikel Wever
+Author-email: maikelwever@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
