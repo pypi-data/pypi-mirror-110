@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+better_log/__init__.py
+better_log/handler.py
+better_log.egg-info/PKG-INFO
+better_log.egg-info/SOURCES.txt
+better_log.egg-info/dependency_links.txt
+better_log.egg-info/top_level.txt
