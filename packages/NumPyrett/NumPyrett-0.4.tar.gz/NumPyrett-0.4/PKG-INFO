@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: NumPyrett
+Version: 0.4
+Summary: Prettyprint NumPy polynomials, matrices and arrays using LaTeX
+Home-page: https://github.com/argoopjmc/NumPyrett
+Author: Rahul Gupta
+Author-email: rahul.gupta@gmconsultants.com
+License: MIT
+Download-URL: https://github.com/argoopjmc/NumPyrett/archive/refs/tags/v_04.tar.gz
+Description: # NumPyrett
+        Prettyprint NumPy polynomials , matrices and arrays  
+        
+        Pyrett is a anagram for pretty , and sounds cool ( like a pirate) ...  
+        Use this package to render NumPy polynomials , Poly1d , matrix and array objects.  
+        Feel free to fork the repository and make a pull request to improve this code.
+        
+        
+Keywords: NumPy,Education,Latex
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Text Processing :: Markup :: LaTeX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
