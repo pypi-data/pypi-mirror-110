@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dadra
+Version: 0.0.1
+Summary: Library for Data-Driven Reachability Analysis
+Home-page: https://github.com/JaredMejia/dadra
+Author: Jared Mejia
+Author-email: jaredmejia@berkeley.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: cvxpy
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
