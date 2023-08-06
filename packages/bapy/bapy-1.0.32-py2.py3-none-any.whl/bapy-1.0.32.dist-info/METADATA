@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: bapy
+Version: 1.0.32
+Summary: Bapy Package.
+Author: José
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: decorator
+Requires-Dist: devtools
+Requires-Dist: distro
+Requires-Dist: dpath
+Requires-Dist: icecream
+Requires-Dist: environs
+Requires-Dist: furl
+Requires-Dist: gitpython
+Requires-Dist: inflect
+Requires-Dist: intervaltree
+Requires-Dist: jinja2
+Requires-Dist: jsonpickle
+Requires-Dist: loguru
+Requires-Dist: marshmallow
+Requires-Dist: more_itertools
+Requires-Dist: motor
+Requires-Dist: nested_lookup
+Requires-Dist: paramiko
+Requires-Dist: pip
+Requires-Dist: pymongo[srv,tls]
+Requires-Dist: python-box
+Requires-Dist: requests[security]
+Requires-Dist: rich
+Requires-Dist: semver
+Requires-Dist: setuptools
+Requires-Dist: structlog
+Requires-Dist: typer[all]
+Requires-Dist: wheel
+
+# Bash, Ansible and Python Utils.
+
+## Install
+
+## Docker 
+```bash
+docker pull kalilinux/kali:latest
+```
+
+```bash
+apt update -y; apt full-upgrade -y; apt install -y kali-linux-everything
+sudo python3 -m pip install --upgrade bapy
+```
+
+### With pip available
+
+#### No python
+```bash
+sudo apt update -y; apt install python3.8 python3-pip -y
+sudo python3 -m pip install --upgrade bapy
+
+```
+
+#### With sudo in debian/kali or macos in bootstrap if brew not installed
+```bash
+sudo python3 -m pip install --upgrade bapy
+```
+
+#### When brew installed:
+
+```bash
+python3 -m pip install --upgrade bapy
+```
+
+### Upload & Upgrade
+
+```bash
+rebashrc
+```
+
+## Update secrets (token, etc.) and ssh keys on source server and other servers
+
+### On the git source code server
+
+Update the repository and:
+
+```bash
+rc secrets  # secrets-push.sh
+rebash
+```
+
+#### On other servers
+```bash
+rc secrets  #secrets-pull.sh 
+rebash
+```
+
+## Other PyPi Projects Upload and Upgrade
+
+### On the git source code server
+
+Perform any tests and:
+
+```bash
+rc up  # project-upload.sh <path> <major|minor> <j5pu|jose-nferx|pypi>
+```
+
+#### On other servers
+
+```bash
+upgrade.sh name
+```
+
