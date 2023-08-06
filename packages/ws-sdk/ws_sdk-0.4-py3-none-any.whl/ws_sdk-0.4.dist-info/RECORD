@@ -1,0 +1,12 @@
+ws_sdk/__init__.py,sha256=xTESNV_zoBRI4lPFTb2k0yIJzULNIK8KhfQSkC490wI,446
+ws_sdk/web.py,sha256=wdoc8OW_uRGLwj7Ki-MxjRousoVMsg6Gg7rXvyL5N2k,50522
+ws_sdk/ws_constants.py,sha256=5AEbsJJWWRAS2J_kExzY3gtTd_VobFwBdtrgQW8cLEE,4880
+ws_sdk/ws_errors.py,sha256=kxVpKq0xNrXU__4ChV7YYdbnUyNp7sKfkZ4C_jXHUu0,477
+ws_sdk/ws_utilities.py,sha256=pi0jSLzJQ2PMlqb84HVBQWkG1EwDb7arajRO0tNxvzU,3510
+ws_sdk/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_sdk/tests/test_web.py,sha256=qQrnDEOu_YQVApzW2xNPrAPvJDlblrVhfpP9HkgUzis,34446
+ws_sdk-0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ws_sdk-0.4.dist-info/METADATA,sha256=-7Rd1gHsiL8Ij-Nc6gay0gdX6wi_9wn_8HTJru1xO5Q,2083
+ws_sdk-0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ws_sdk-0.4.dist-info/top_level.txt,sha256=nH0jL34aybQs_4X3x_1_ZDVom7qiMoo7SUkb4xWW7as,7
+ws_sdk-0.4.dist-info/RECORD,,
