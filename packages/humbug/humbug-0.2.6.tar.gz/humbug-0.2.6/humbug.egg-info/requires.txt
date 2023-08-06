@@ -1,0 +1,14 @@
+requests
+
+[dev]
+black
+mypy
+wheel
+types-pkg_resources
+types-requests
+types-dataclasses
+
+[distribute]
+setuptools
+twine
+wheel
