@@ -1,0 +1,5 @@
+ipykernel
+iot-device>=0.4.11
+argparse
+paramiko
+ipynbname
