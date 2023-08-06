@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "webship"
+version = "0.1.2"
+description = "Tools to deploy python web application"
+authors = ["kamal <kamal@xoxzo.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/xoxzo/webship"
+repository = "https://github.com/xoxzo/webship"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fabric2 = "^2.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+webship = 'webship:program.run'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
