@@ -1,0 +1,12 @@
+torch
+
+[optuna]
+optuna
+sklearn
+plotly
+kaleido
+
+[osds]
+fsspec
+pandas
+s3fs
