@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpythonpessoa/__init__.py
+libpythonpessoa/github_api.py
+libpythonpessoa.egg-info/PKG-INFO
+libpythonpessoa.egg-info/SOURCES.txt
+libpythonpessoa.egg-info/dependency_links.txt
+libpythonpessoa.egg-info/not-zip-safe
+libpythonpessoa.egg-info/requires.txt
+libpythonpessoa.egg-info/top_level.txt
