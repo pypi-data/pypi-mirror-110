@@ -1,0 +1,14 @@
+README.md
+setup.py
+pynamic/__init__.py
+pynamic/core.py
+pynamic/dynamic_variables.py
+pynamic/parser.py
+pynamic/proxy.py
+pynamic/token.py
+pynamic/utils.py
+pynamic.egg-info/PKG-INFO
+pynamic.egg-info/SOURCES.txt
+pynamic.egg-info/dependency_links.txt
+pynamic.egg-info/requires.txt
+pynamic.egg-info/top_level.txt

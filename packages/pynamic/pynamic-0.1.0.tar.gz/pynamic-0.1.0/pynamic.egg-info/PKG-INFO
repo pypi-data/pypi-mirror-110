@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pynamic
+Version: 0.1.0
+Summary: A package for injecting dynamic values into strings.
+Home-page: https://github.com/Mox93/pynamic
+Author: Mohamed Ragaey Saleh
+License: MIT
+Description: # Pynamic
+        
+        This python library was inspired by
+        [Postman's dynamic variables](https://learning.postman.com/docs/writing-scripts/script-references/variables-list/),
+        but with more customization.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown
+Provides-Extra: faker
