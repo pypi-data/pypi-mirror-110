@@ -1,0 +1,9 @@
+update_gene_symbols_hgnc/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+update_gene_symbols_hgnc/_nbdev.py,sha256=rzi_3dPqcYO0e_38JrrnpG7poBmTWZS3bpLdeYrEV_o,403
+update_gene_symbols_hgnc/core.py,sha256=DUaPgdxTU0UoJE_2-LFu_y7EPNaww3pJjI5f_-FrhSg,1386
+update_gene_symbols_hgnc-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+update_gene_symbols_hgnc-0.0.1.dist-info/METADATA,sha256=D_jKXc6bbR5LExIcFv1szTbhmSYWwzoW4lApTltv98k,1131
+update_gene_symbols_hgnc-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+update_gene_symbols_hgnc-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+update_gene_symbols_hgnc-0.0.1.dist-info/top_level.txt,sha256=Lb4avOdFcpTmr4igqQEDZMYW-1Uy1usthkPBST7as_E,25
+update_gene_symbols_hgnc-0.0.1.dist-info/RECORD,,
