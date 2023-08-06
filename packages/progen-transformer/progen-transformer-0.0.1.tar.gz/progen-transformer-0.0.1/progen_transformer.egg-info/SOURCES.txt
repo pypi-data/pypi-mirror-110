@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+progen_transformer.egg-info/PKG-INFO
+progen_transformer.egg-info/SOURCES.txt
+progen_transformer.egg-info/dependency_links.txt
+progen_transformer.egg-info/requires.txt
+progen_transformer.egg-info/top_level.txt
