@@ -1,0 +1,7 @@
+nodeenv>=1.6.0
+
+[all]
+twine>=3.4.1
+
+[dev]
+twine>=3.4.1
