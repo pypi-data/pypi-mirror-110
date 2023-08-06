@@ -1,0 +1,8 @@
+lazy_object_proxy>=1.4.0
+wrapt<1.13,>=1.11
+
+[:implementation_name == "cpython" and python_version < "3.8"]
+typed-ast<1.5,>=1.4.0
+
+[:python_version < "3.8"]
+typing-extensions>=3.7.4
