@@ -1,0 +1,12 @@
+include pyproject.toml
+
+include Pipfile
+include *.lock
+
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE
+
+recursive-include aur_deploy *.py

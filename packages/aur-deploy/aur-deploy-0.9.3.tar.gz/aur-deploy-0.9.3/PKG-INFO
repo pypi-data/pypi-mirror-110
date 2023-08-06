@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: aur-deploy
+Version: 0.9.3
+Summary: Automate updating pkgbuild and deploying to AUR
+Home-page: https://github.com/codeswhite/aur-deploy
+Author: Max G
+Author-email: max3227@gmail.com
+License: UNKNOWN
+Keywords: aur,archlinux,build,deploy,publish
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AUR Deploy
+
+A script that allows to easily and effectively build and publish your python packages up to PyPI and AUR
+
+## Features
+- Compare between local and deployed versions
+- Updating AUR PKGBUILD on setup.py package's version change
+- Uploading to PyPI and AUR repositories
+- Customizable and configureable
+
+## Installation
+
+- From AUR install system package: `python-aur-deploy`
+
+- From PyPI: 
+   
+    `$ pip install aur-deploy`
+
+## Usage
+
+Run like:
+
+`$ aur-deploy --help`
+
+
