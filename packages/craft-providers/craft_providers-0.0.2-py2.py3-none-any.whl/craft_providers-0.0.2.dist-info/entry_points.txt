@@ -1,0 +1,3 @@
+[console_scripts]
+craft_providers = craft_providers.cli:main
+
