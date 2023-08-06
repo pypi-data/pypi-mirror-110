@@ -1,0 +1,17 @@
+autorequests/__init__.py,sha256=6Xm15AoxJ_Mzqrgh2fv5NFBtFtZfN8TRFz4FTypozQI,151
+autorequests/__main__.py,sha256=RUpaL-m51io6UEggEbgMhEmBfvIcvPvagEXyapKwd2s,4363
+autorequests/regexp.py,sha256=kmZNc2i26KlkqVy8dQ15ydYDLttLKkwvGnQloS8dm8I,717
+autorequests/utils.py,sha256=FwKjkLGSt1FTd42Eq2kS6ep2mjvkYnUJXq7PB79-fLs,4868
+autorequests/classes/__init__.py,sha256=I9qF7SF7-rJKNy9VSzRYygHsyO9WtiIKPSNhRj11YNo,354
+autorequests/classes/body.py,sha256=H-VLBWslLPrzWAaJpuamXV3P3biWxfoff73LgLYR2L8,4867
+autorequests/classes/class_.py,sha256=NikR2W_Tx7tQ4km1fk8HXB00SApshj4yiS6KRWHtwjw,2504
+autorequests/classes/file.py,sha256=YouxcvKdXjLYRVFPDev-NtlTffZNMjAcDD4FjzdpjAY,2159
+autorequests/classes/method.py,sha256=PN97SfQ9aOUxnOsJgaoCwTbkBYPeDLjg3AVGjQM5WJc,4779
+autorequests/classes/parameter.py,sha256=FTsehcGOsqLxtAMKvOTQbmyTBZjKVB2uIvLBGZlTqJ8,964
+autorequests/classes/url.py,sha256=0TC958b8GLfMZqTGn1gxgivUDJVSuNDZuEuZEPLVZFg,1299
+autorequests-1.0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+autorequests-1.0.1.dist-info/METADATA,sha256=dGNMHLJqiUuAJDfvRrbFXkCCI0zCw7FWTICiPtrjdDw,2620
+autorequests-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autorequests-1.0.1.dist-info/entry_points.txt,sha256=RK2CEoz040M9c64E2UCGKNrdwUJbH7bmUnhS3jTZx2g,61
+autorequests-1.0.1.dist-info/top_level.txt,sha256=LU8UUW2tXsEAI1bbNPUB6rIgToQGr0i9NSKFhof893s,13
+autorequests-1.0.1.dist-info/RECORD,,
