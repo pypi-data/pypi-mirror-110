@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+getpaths/__init__.py
+getpaths.egg-info/PKG-INFO
+getpaths.egg-info/SOURCES.txt
+getpaths.egg-info/dependency_links.txt
+getpaths.egg-info/top_level.txt
