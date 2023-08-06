@@ -1,0 +1,9 @@
+releaser/__init__.py,sha256=RPSiP0NDu3CSEcrEe6fn8n2tPPB8XRJsFke7WL5rTUU,7240
+releaser/git_steps.py,sha256=LhKUiBdcnGRW1Y-oi9jnd_vh3MuQsV6K5smvBEI_d40,4682
+releaser/regex.py,sha256=joKtYpRHk79hPBC6dfuLCQ9NGYo75Ia5l4rgYaJMN88,3226
+releaser/steps.py,sha256=aA7c0TJ7lZXlOpNR4dYgPgqMymZoaU717nnlhzGYAfA,8144
+releaser-2.0.1.dist-info/LICENSE.rst,sha256=m_LGoOOpcWbOqINgtcwLNb-dGPYEuDPFfu5cTvdpPUo,1102
+releaser-2.0.1.dist-info/METADATA,sha256=KeiXy2euAbwzdwBHsOvE6yi9-WjJwaNp5H48K6i54G0,5918
+releaser-2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+releaser-2.0.1.dist-info/top_level.txt,sha256=D6abDqSVe8alk50avmLDrEv8rxBQIu2MxJrvZtBKPcI,9
+releaser-2.0.1.dist-info/RECORD,,
