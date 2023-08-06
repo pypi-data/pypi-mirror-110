@@ -1,0 +1,7 @@
+torch_constrained/__init__.py,sha256=7Y1M2YZcNIOYwBBjk0r62BtCgHVVeHbszg9sjZYpuoE,37
+torch_constrained/constrained_optimizer.py,sha256=sU9YFrZQPcjOFuuoiLCzkw2hIByMLk7vpW8UIO-loLY,9538
+torch_constrained-0.0.10.dist-info/LICENSE.md,sha256=mU1qRGy4Olvnoz6X2qFmwKh2g_um6-o6QmV215ETOzc,1434
+torch_constrained-0.0.10.dist-info/METADATA,sha256=_5bOJg-fsSwEP-uZd41ObtiZdyKLR5nLucbyTz1W4IU,586
+torch_constrained-0.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+torch_constrained-0.0.10.dist-info/top_level.txt,sha256=VIBGdFFsGDQ9iKHOWbjWtgVfdLDhqWLT-hNhWfV0QMs,18
+torch_constrained-0.0.10.dist-info/RECORD,,
