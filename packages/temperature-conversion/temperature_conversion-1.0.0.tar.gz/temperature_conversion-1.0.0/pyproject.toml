@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "temperature_conversion"
+version = "1.0.0"
+description = "Paquete de conversión de temperaturas"
+authors = ["Danilo Mendoza <odmendoza@utpl.edu.ec>"]
+keywords = ["temperature conversion", "kelvin", "fahrenheit", "rankine"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/odmendoza/temperature_conversion"
+repository = "https://github.com/odmendoza/temperature_conversion"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
