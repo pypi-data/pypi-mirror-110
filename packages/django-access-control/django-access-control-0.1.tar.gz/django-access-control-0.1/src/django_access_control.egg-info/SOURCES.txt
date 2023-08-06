@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_access_control.egg-info/PKG-INFO
+src/django_access_control.egg-info/SOURCES.txt
+src/django_access_control.egg-info/dependency_links.txt
+src/django_access_control.egg-info/requires.txt
+src/django_access_control.egg-info/top_level.txt
+src/granular_permissions/__init__.py
+src/granular_permissions/admin.py
+src/granular_permissions/auth_backend.py
+src/granular_permissions/exceptions.py
+src/granular_permissions/managers.py
