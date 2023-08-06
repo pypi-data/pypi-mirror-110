@@ -1,0 +1,2 @@
+include discord_template/startup
+include discord_template/env/*

@@ -1,0 +1,5 @@
+jinja2
+InquirerPy
+requests
+tabulate
+discord.py
