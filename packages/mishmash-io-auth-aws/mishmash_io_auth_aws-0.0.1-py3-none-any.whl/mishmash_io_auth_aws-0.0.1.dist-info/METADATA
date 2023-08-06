@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: mishmash-io-auth-aws
+Version: 0.0.1
+Summary: mishmash io auth aws plugin
+Home-page: https://mishmash.io
+Author: mishmash.io
+Author-email: info@mishmash.io
+License: Apache License v2.0
+Project-URL: Bug Tracker, https://github.com/mishmash-io/mishmash-io-auth-plugins/issues
+Project-URL: Documentation, https://mishmash.io
+Project-URL: Source Code, https://github.com/mishmash-io/mishmash-io-auth-plugins/tree/main/python/mishmash-io-auth-aws
+Keywords: database,artificial intelligence,development
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Database
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: boto3
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+
+# Mishmash io aws authentication plugin
+Mishmash io aws authentication plugin
+
+# Prerequisites
+Python 3.6 or greater
+
+# Installation
+
+Install using pip:
+
+``` pip install mishmash-io-auth-aws```
+
+To upgrade the package to its latest version:
+
+``` pip install mishmash-io-auth-aws --upgrade ```
+
+# Configuration
+Mishmash io authentication aws plugin needs some configuration variables.
+
+## AWS_CONFIG_FILE
+Specifies the location of the file that the AWS CLI uses to store configuration profiles. If config file is set, authentication plugin will get 
+AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY from there otherwise we will search  them  as environment variables 
+
+## AWS_ACCESS_KEY_ID 
+Specifies an AWS access key associated with an IAM mishmash admin user
+
+# AWS_SECRET_ACCESS_KEY
+Specifies the secret key associated with the access key.
+
