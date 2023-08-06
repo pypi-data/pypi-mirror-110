@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: python-dotplot
+Version: 0.0.1b2
+Summary: light weighted dotplot drawer
+Home-page: https://github.com/jefferyUstc/python-dotplot
+Author: jefferyUstc
+Author-email: jeffery_cpu@163.com
+License: UNKNOWN
+Project-URL: python-dotplot, https://github.com/jefferyUstc/python-dotplot
+Description:  ![PyPI](https://img.shields.io/pypi/v/python_dotplot?style=flat-square) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/jefferyUstc/python-dotplot?style=flat-square) ![GitHub](https://img.shields.io/github/license/jefferyUstc/python-dotplot)
+        # python-dotplot
+        
+        Light Weighted dotplot drawer
+        
+        # Tutorial
+        
+        Examples of dotplot can be found [tutorial](https://nbviewer.jupyter.org/github/jefferyUstc/python-dotplot/blob/main/tutorial/tutorials.ipynb?flush_cache=True)
+        
+        # Installation
+        ```shell script
+        pip install python_dotplot
+        ```
+        
+Keywords: dotplot python scatter
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

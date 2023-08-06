@@ -1,0 +1,14 @@
+README.md
+setup.py
+dotplot/__init__.py
+dotplot/annotation_bands.py
+dotplot/cmap.py
+dotplot/core.py
+dotplot/hierarchical.py
+dotplot/utils.py
+python_dotplot.egg-info/PKG-INFO
+python_dotplot.egg-info/SOURCES.txt
+python_dotplot.egg-info/dependency_links.txt
+python_dotplot.egg-info/not-zip-safe
+python_dotplot.egg-info/requires.txt
+python_dotplot.egg-info/top_level.txt
