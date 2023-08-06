@@ -1,0 +1,15 @@
+airflow/providers/jira/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/jira/get_provider_info.py,sha256=nCcUSXqKm11AmLjXoiFJNDLAeE5STLSxozcFDLAbuR4,2192
+airflow/providers/jira/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/jira/hooks/jira.py,sha256=XjVHaMHluFPHfCmpoHjsiYxU6-XXcmbhPWSqph84MrE,3350
+airflow/providers/jira/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/jira/operators/jira.py,sha256=Z43kZtonNyWn8WeZ5EcaoXhSI-3SSQnmYB4rEseSu04,4176
+airflow/providers/jira/sensors/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/jira/sensors/jira.py,sha256=Z2HsiXGy-Opu8DWAaHk_WQEl2zcmSwLIZACAEDnGDow,5783
+apache_airflow_providers_jira-2.0.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_jira-2.0.0.dist-info/METADATA,sha256=n8kpjtjbhpW6VbHnBJUrt4g30_0IxGxpb7l-dfev4Jo,4759
+apache_airflow_providers_jira-2.0.0.dist-info/NOTICE,sha256=irN1W_XwjRh8XRlHEhVpRCSY7NZfQgGdnEfjFvGrxK4,240
+apache_airflow_providers_jira-2.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+apache_airflow_providers_jira-2.0.0.dist-info/entry_points.txt,sha256=0thywmZIUIjLex6D7UdiYV2jFQ1CtcuC7-oN-e-nsUs,102
+apache_airflow_providers_jira-2.0.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_jira-2.0.0.dist-info/RECORD,,
