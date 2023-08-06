@@ -1,0 +1,7 @@
+numpy
+pykeops
+scipy
+torch
+
+[full]
+pykeops
