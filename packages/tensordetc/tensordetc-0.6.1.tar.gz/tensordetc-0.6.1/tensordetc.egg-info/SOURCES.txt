@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tensordetc/__init__.py
+tensordetc.egg-info/PKG-INFO
+tensordetc.egg-info/SOURCES.txt
+tensordetc.egg-info/dependency_links.txt
+tensordetc.egg-info/top_level.txt
