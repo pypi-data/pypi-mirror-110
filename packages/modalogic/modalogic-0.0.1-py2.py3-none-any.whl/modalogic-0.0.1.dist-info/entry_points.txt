@@ -1,0 +1,3 @@
+[console_scripts]
+modalogic = modalogic.cli:main
+

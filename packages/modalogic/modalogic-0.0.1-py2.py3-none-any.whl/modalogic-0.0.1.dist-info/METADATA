@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: modalogic
+Version: 0.0.1
+Summary: A research package modal-logic based reasoning using the Analytical Tableaux method.
+Home-page: https://github.com/rayniervanegmond/modalogic
+Author: Raynier van Egmond
+Author-email: raynierx@gmail.com
+License: GNU General Public License v3
+Keywords: modalogic
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# modalogic
+
+
+[![image](https://img.shields.io/pypi/v/modalogic.svg)](https://pypi.python.org/pypi/modalogic)
+
+
+**A research package for modal-logic based reasoning using the Analytical Tableaux method.**
+
+-   Free software: GNU General Public License v3
+-   Documentation: https://rayniervanegmond.github.io/modalogic
+
+
+## Features
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [rayniervanegmond/pypackage](https://github.com/rayniervanegmond/pypackage) project template.
+
+
