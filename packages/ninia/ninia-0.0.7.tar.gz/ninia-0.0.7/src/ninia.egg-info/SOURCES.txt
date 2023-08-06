@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ninia/__init__.py
+src/ninia/example.py
+src/ninia/mw_species_.py
+src/ninia/relax.py
+src/ninia.egg-info/PKG-INFO
+src/ninia.egg-info/SOURCES.txt
+src/ninia.egg-info/dependency_links.txt
+src/ninia.egg-info/top_level.txt
