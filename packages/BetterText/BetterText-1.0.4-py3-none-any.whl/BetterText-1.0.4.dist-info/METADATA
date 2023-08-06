@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: BetterText
+Version: 1.0.4
+Summary: BetterText
+Home-page: UNKNOWN
+Author: Hide Le Ouf
+Author-email: <lancbiche@gmail.com>
+License: UNKNOWN
+Keywords: color,custom color,text color,text style,better text,rgb color
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# BetterText
+
+
+
+Usage :
+
+
+
+```python
+
+from BetterText import *
+
+
+
+RgbColor(255 ,255 ,255, 'BetterText !')
+
+
+
+Color.Red
+
+
+
+Background.Red
+
+
+
+Style.Blink
+
+```
+
