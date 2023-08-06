@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pyposer
+Version: 0.1.4b2
+Summary: Python Packeage Manager
+Home-page: https://github.com/alysson3dev/pyposer
+Author: Alisson Santos
+Author-email: dev.alysson@gmail.com
+License: UNKNOWN
+Description: <h1 align="center">Welcome to pyposer an python package manager 👋</h1>
+        <p>
+          <!-- <a href="https://www.npmjs.com/package/ppm" target="_blank">
+            <img alt="Version" src="https://img.shields.io/npm/v/ppm.svg">
+          </a> -->
+          <a href="#" target="_blank">
+            <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+          </a>
+        </p>
+        
+        > a package manager for python. based on composer and yarn
+        
+        ## Install
+        
+        ```sh
+        pip install pyposer
+        ```
+        
+        ## Author
+        
+        👤 **Alisson Santos**
+        
+        - Github: [@alysson3dev](https://github.com/alysson3dev)
+        
+        ## Show your support
+        
+        Give a ⭐️ if this project helped you!
+        
+        ---
+        
+        _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+        
+Keywords: PYPOSER,PIP,PACKAGE,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
