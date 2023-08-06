@@ -1,0 +1,3 @@
+[console_scripts]
+socho = socho.cli:main
+

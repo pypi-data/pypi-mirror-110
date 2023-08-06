@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+socho/__init__.py
+socho/cli.py
+socho/profile.py
+socho.egg-info/PKG-INFO
+socho.egg-info/SOURCES.txt
+socho.egg-info/dependency_links.txt
+socho.egg-info/entry_points.txt
+socho.egg-info/requires.txt
+socho.egg-info/top_level.txt
