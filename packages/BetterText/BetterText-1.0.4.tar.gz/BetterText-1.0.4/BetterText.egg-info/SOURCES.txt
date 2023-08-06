@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+BetterText/BetterText.py
+BetterText/__init__.py
+BetterText.egg-info/PKG-INFO
+BetterText.egg-info/SOURCES.txt
+BetterText.egg-info/dependency_links.txt
+BetterText.egg-info/top_level.txt
