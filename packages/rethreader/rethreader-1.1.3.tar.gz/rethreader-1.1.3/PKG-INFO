@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: rethreader
+Version: 1.1.3
+Summary: Controlled multi-threading
+Home-page: https://github.com/ettoc00/rethreader
+Author: Ettore Cesari
+Author-email: ettore.cesari@yahoo.it
+License: MIT
+Download-URL: https://github.com/ettoc00/rethreader/archive/1.1.3.tar.gz
+Description: UNKNOWN
+Keywords: thread,multi,processing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
