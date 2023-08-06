@@ -1,0 +1,9 @@
+sqlalchemy_model_builder/__init__.py,sha256=EB3vsk6iJj0uDCj0y1QdvOISzY-wz_5vMoHC1bQrar8,210
+sqlalchemy_model_builder/exceptions.py,sha256=_HzGIL70y-4gkNLjv01cnSaLR8mltS20-WO5UZ1UlFM,49
+sqlalchemy_model_builder/model_builder.py,sha256=RSKlWo9_rfmc5Vuwi8bJp0smPJWfDvpfTQhOQ1wxAwg,5590
+sqlalchemy_model_builder/models.py,sha256=Gp-kjNGpn5ZSLdAuOPjqU86R3V5JOz-W-EeuiIW4V3o,350
+sqlalchemy_model_builder/random_builder.py,sha256=mMuCOGxroIfx3NACimGGSMcZstpkBHPLNGeQry3dUcY,1814
+sqlalchemy_model_builder-0.0.5.dist-info/LICENSE,sha256=3OVR2oBQsw_Mv214KFhT1MEiTOXr_cqjGVyn3DJRuCs,1077
+sqlalchemy_model_builder-0.0.5.dist-info/WHEEL,sha256=MyIjaRglnKvxtgGXLbj0ZYwRIpKJzMIEcf1_g2pW9II,85
+sqlalchemy_model_builder-0.0.5.dist-info/METADATA,sha256=pUKxCYHN8GeyY7gHo4HbX-HBBQg2TfS1rC9YsD5DPj4,3521
+sqlalchemy_model_builder-0.0.5.dist-info/RECORD,,
