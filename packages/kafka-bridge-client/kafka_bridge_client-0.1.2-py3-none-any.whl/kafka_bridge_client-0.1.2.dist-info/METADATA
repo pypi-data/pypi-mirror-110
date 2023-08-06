@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: kafka-bridge-client
+Version: 0.1.2
+Summary: Python client for Strimzi Kafka Bridge
+Home-page: https://github.com/shafa-dev/kafka-bridge-client
+License: MIT
+Author: Bogdan Zaseka
+Author-email: zaseka.bogdan@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# kafka-bridge-client
+Python async client for Strimzi Kafka Bridge. Package include consumer only.
+
+## Install
+```
+pip install kafka-bridge-client
+```
+
+## Usage
+```python
+from kafka_bridge_client import KafkaBridgeConsumer
+
+
+consumer = KafkaBridgeConsumer(
+    CONFIG['topics']['name'],
+    group_id=CONFIG['group_id'],
+    auto_offset_reset='earliest',
+    enable_auto_commit=False,
+    bootstrap_server=CONFIG['kafka_bridge']['url'],
+    consumer_name='consumer-name',
+)
+```
+
