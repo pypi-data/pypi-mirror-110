@@ -1,0 +1,3 @@
+[console_scripts]
+pytest-duration-insights = pytest_duration_insights.__main__:app
+
