@@ -1,0 +1,9 @@
+interact_fit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+interact_fit/data_model.py,sha256=zUusG2cO-mS-817sGIYoBqd-3VHD5afOeZ5bh12zagA,3487
+interact_fit/plot_data.py,sha256=vQZUIyhlzp__Ig14yqPQZKdJR8uIqrNzPS74wcGxWNs,5622
+interact_fit/tests.py,sha256=ArQ1P2HOO6WIeSqwnw5zld3Hj6mVyotYhjTe0HS2yZo,1708
+interact_fit-0.0.3.dist-info/LICENSE,sha256=qLpDXA1yqwtbsbC3z129XhzlC_PROcinIv5WmywYDhA,1072
+interact_fit-0.0.3.dist-info/METADATA,sha256=F9SrDRKJhQflJkcPfq_-7nK_aZBSzJHC_9O7ApbrV8c,176
+interact_fit-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+interact_fit-0.0.3.dist-info/top_level.txt,sha256=yXQpHFpk56dA0oP5V4C3MTeeHCXerfjEQ6wlLsiD8yE,13
+interact_fit-0.0.3.dist-info/RECORD,,
