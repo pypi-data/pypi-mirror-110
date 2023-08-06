@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tap-xero-reports
+Version: 0.0.2
+Summary: Custom Singer.io tap for extracting data from the Xero API
+Home-page: UNKNOWN
+Author: romanuch72@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: dev

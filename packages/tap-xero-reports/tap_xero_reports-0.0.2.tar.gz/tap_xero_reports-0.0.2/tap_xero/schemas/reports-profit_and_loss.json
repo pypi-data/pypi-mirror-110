@@ -1,0 +1,63 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "ReportID": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "ReportName": {
+      "type": [
+        "null",
+        "string"
+      ]
+
+  },
+    "ReportType": {
+      "type": [
+        "null",
+        "string"
+      ]
+
+  },
+    "ReportTitles": {
+      "type": [
+        "null",
+        "array"
+      ],
+        "items": {
+    "type": [
+      "null",
+      "string"
+    ],
+    "properties": {
+    },
+    "additionalProperties": false
+  }
+  },
+    "ReportDate": {
+      "type": [
+        "null",
+        "string"
+      ]
+  },
+    "UpdatedDateUTC": {
+      "type": [
+        "null",
+        "string"
+      ]
+  },
+    "Rows": {
+      "type": [
+        "null",
+        "string"
+      ]
+  }
+    },
+  "additionalProperties": false
+
+}
