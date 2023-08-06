@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: hero-service-api
+Version: 0.0.5
+Summary: A library for providing the angular app tour of heroes with a remote service.
+Home-page: http://ccvmgit/Harold.Carter/hero-service-api/edit
+Author: Harold Carter
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

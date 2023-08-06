@@ -1,0 +1,5 @@
+setup.py
+hero_service_api.egg-info/PKG-INFO
+hero_service_api.egg-info/SOURCES.txt
+hero_service_api.egg-info/dependency_links.txt
+hero_service_api.egg-info/top_level.txt
