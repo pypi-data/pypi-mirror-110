@@ -1,0 +1,9 @@
+include *
+include pandeia/engine/helpers/DEVBUILD
+recursive-include * *
+prune doc/build
+prune build
+prune dist
+prune doc
+prune docs
+global-exclude *.pyc *.pyo .*
