@@ -1,0 +1,15 @@
+tgl2rdm/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+tgl2rdm/__main__.py,sha256=WkHQe2TrHquHj_IqcQYIJBoaUtPr3H3sgYlLybPJwkg,119
+tgl2rdm/cli/__init__.py,sha256=BXIfCXEIZ0cuxo7YmnjNlAgcU_daV6UnbZzcGDcXcHI,215
+tgl2rdm/cli/config_parser.py,sha256=poAu1d6vmWOUXWOjvNr2YgCBU-PQxCh8Wg0tEg73iSw,816
+tgl2rdm/cli/main.py,sha256=fdijKaGTU_uSSTkQoljiopr0xMCZWD_ahZnIdvyUSgE,4697
+tgl2rdm/cli/utils.py,sha256=HLUUklPnU0EfLNAElJBzrNpNLIqP2qGkY2d28Xo-IB8,494
+tgl2rdm/extract/__init__.py,sha256=Hb2wjPQOWwo3KzNDoOWtWx6nwqfcgVDvCWrp2agEp-I,2280
+tgl2rdm/http.py,sha256=-TcEOZ7XB-ZvbLjzPZY2Uv_xzVZHui66EOxFmzBPBK4,783
+tgl2rdm/load.py,sha256=Qf-6FsS4gu4WnNcxyKxTNq3SEJ_dU6_bgDNthegmA_s,1505
+tgl2rdm/transform.py,sha256=ECJTGwqWS-A6NcOReZhmnujQW3qGUKaPLBJjXgWR8vY,1488
+tgl2rdm/utils.py,sha256=M_cThAj29hJyoQvDBc9-jKpohgtA2SOQqQn-jzimXW8,339
+tgl2rdm-0.1.0.dist-info/entry_points.txt,sha256=UMtV7OF5l9Cm4juUSbsXzBIaCMs1hLl-IEl9hch-a8g,44
+tgl2rdm-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+tgl2rdm-0.1.0.dist-info/METADATA,sha256=Pgw6WQZebgjI5LABDqRxGijI7XzHm11chwcbFDqbmbM,538
+tgl2rdm-0.1.0.dist-info/RECORD,,
