@@ -1,0 +1,9 @@
+README.md
+setup.py
+Xcesionpackage/__init__.py
+Xcesionpackage/lib2.py
+Xcesionpackage.egg-info/PKG-INFO
+Xcesionpackage.egg-info/SOURCES.txt
+Xcesionpackage.egg-info/dependency_links.txt
+Xcesionpackage.egg-info/not-zip-safe
+Xcesionpackage.egg-info/top_level.txt
