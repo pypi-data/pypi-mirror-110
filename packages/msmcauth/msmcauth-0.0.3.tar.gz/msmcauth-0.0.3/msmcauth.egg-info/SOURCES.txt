@@ -1,0 +1,12 @@
+setup.py
+msmcauth/__init__.py
+msmcauth/consts.py
+msmcauth/errors.py
+msmcauth/microsoft.py
+msmcauth/types.py
+msmcauth/xbox.py
+msmcauth.egg-info/PKG-INFO
+msmcauth.egg-info/SOURCES.txt
+msmcauth.egg-info/dependency_links.txt
+msmcauth.egg-info/requires.txt
+msmcauth.egg-info/top_level.txt
