@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: kodoc-tokenizer
+Version: 0.2.0rc1
+Summary: Tokenizer for kodoc
+Home-page: https://github.com/kodoc/kodoc-tokenizer
+Author: Jangwon Park
+Author-email: adieujw@gmail.com
+License: Apache License 2.0
+Description: # kodoc-tokenizer
+        
+        - Tokenizer for kodoc
+        - Based on `transformers==4.7.0`
+        
+        ## Installation
+        
+        ```bash
+        pip3 install kodoc-tokenizer
+        ```
+        
+        ## How to Use
+        
+        ### Version
+        
+        ```python
+        import kodoc_tokenizer
+        
+        kodoc_tokenizer.__version__  # 0.2.0rc1
+        ```
+        
+        ### clean_text
+        
+        ```python
+        from kodoc_tokenizer import clean_text
+        
+        text = "Today a::: : \t\t \x00I \x00a  朝 三暮四 [MASK] m \na fool \n\nbecause I am a fool. \n [SEP][CLS]  "
+        assert clean_text(text) == "Today a::: : I a 朝 三暮四 [MASK] m a fool because I am a fool. [SEP][CLS]"
+        ```
+        
+        ### Basic Function
+        
+        ```python
+        from kodoc_tokenizer import get_kodoc_tokenizer
+        
+        tokenizer = get_kodoc_tokenizer()
+        tokens = tokenizer.tokenize("다이어트마침표_1부 2013.7.25 02:24 PM 페이지1 제1부 다이어트 핵심 바이블 A`2`Z 다이어트에 실패하는 원인 중 하나는 잘못된 상식도 크게 한몫을 한다.")
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
