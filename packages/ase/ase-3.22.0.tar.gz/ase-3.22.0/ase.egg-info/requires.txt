@@ -1,0 +1,13 @@
+numpy>=1.15.0
+scipy>=1.1.0
+matplotlib>=3.1.0
+
+[docs]
+sphinx
+sphinx_rtd_theme
+pillow
+
+[test]
+pytest>=5.0.0
+pytest-mock>=3.3.0
+pytest-xdist>=1.30.0
