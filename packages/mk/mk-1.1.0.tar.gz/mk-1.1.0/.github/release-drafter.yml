@@ -1,0 +1,36 @@
+name-template: "$RESOLVED_VERSION"
+tag-template: "$RESOLVED_VERSION"
+
+categories:
+  - title: 'Major Changes'
+    labels:
+      - 'major'
+  - title: 'Minor Changes'
+    labels:
+      - 'minor'
+      - 'enhancement'
+  - title: 'Patches'
+    labels:
+      - 'fix'
+      - 'patch'
+      - 'bug'
+
+exclude-labels:
+  - 'skip-changelog'
+
+template: |
+  $CHANGES
+
+version-resolver:
+  major:
+    labels:
+      - major
+  minor:
+    labels:
+      - minor
+      - enhancement
+  patch:
+    labels:
+      - patch
+      - bug
+  default: minor
