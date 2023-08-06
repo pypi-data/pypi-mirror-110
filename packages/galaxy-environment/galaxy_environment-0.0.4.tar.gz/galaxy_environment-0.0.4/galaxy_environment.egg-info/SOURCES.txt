@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+galaxy_environment/__init__.py
+galaxy_environment/distances.py
+galaxy_environment/environment.py
+galaxy_environment.egg-info/PKG-INFO
+galaxy_environment.egg-info/SOURCES.txt
+galaxy_environment.egg-info/dependency_links.txt
+galaxy_environment.egg-info/requires.txt
+galaxy_environment.egg-info/top_level.txt
