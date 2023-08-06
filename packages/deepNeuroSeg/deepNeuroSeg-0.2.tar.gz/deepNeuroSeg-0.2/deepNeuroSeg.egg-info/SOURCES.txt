@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+deepNeuroSeg/__init__.py
+deepNeuroSeg/__main__.py
+deepNeuroSeg/claustrum_segmenter.py
+deepNeuroSeg/run_utils.py
+deepNeuroSeg/segmentation_factory.py
+deepNeuroSeg/segmentation_types.py
+deepNeuroSeg/wmh_segmenter.py
+deepNeuroSeg.egg-info/PKG-INFO
+deepNeuroSeg.egg-info/SOURCES.txt
+deepNeuroSeg.egg-info/dependency_links.txt
+deepNeuroSeg.egg-info/entry_points.txt
+deepNeuroSeg.egg-info/requires.txt
+deepNeuroSeg.egg-info/top_level.txt

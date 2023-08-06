@@ -1,0 +1,3 @@
+[console_scripts]
+deepNeuroSeg = deepNeuroSeg.__main__:run
+
