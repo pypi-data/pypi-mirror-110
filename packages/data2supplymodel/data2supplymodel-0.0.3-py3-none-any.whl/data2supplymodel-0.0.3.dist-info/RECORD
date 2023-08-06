@@ -1,0 +1,9 @@
+data2supplymodel/__init__.py,sha256=pA22UD18eDptyZ7K2RRBOtYXBLqgw7JDrbuKm5fLSJs,189
+data2supplymodel/data2supply.py,sha256=A5kQlZ77MLA1hSEU2OpnZJBk41VbWJT2ubUJwKUqSNg,43601
+data2supplymodel/field_attachment.py,sha256=utcidnnM8OAxZ-2eUsNtJj-ibhIT6AhBNLHguwbr93g,3665
+data2supplymodel/period_setting.py,sha256=44CXq_rvIx3MTdohjxySv1vJhgNBlGorU0-ydnJVjSU,2306
+data2supplymodel/setting.py,sha256=Sk3s3zSpHf05sQVF57fzewXdp7shZk5HJpaFfZsoKTM,2913
+data2supplymodel-0.0.3.dist-info/METADATA,sha256=WlmeRfjBlZXxGyKxazhNkXWn-GkMYCWqChuxtOL7vuQ,7238
+data2supplymodel-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+data2supplymodel-0.0.3.dist-info/top_level.txt,sha256=bDaX_rUNoo0A9sA6U9qF0UZrLWAHFSxumFxsqrZ81Q0,17
+data2supplymodel-0.0.3.dist-info/RECORD,,

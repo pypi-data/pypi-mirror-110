@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: data2supplymodel
+Version: 0.0.3
+Summary: The data2supply is a data-driven calibration package for traffic flow model calibration, Bureau of Public Roads (BPR) function calibration, and the queueing characterization for transportation planners, engineers, and researchers.
+Home-page: https://github.com/Grieverwzn/data2supplymodel
+Author: Xin Wu, Xuesong Zhou
+Author-email: xinwu3@asu.edu, xzhou74@asu.edu
+License: GPLb3+
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: matplotlib
+
+In the travel demand model, the performance of traffic systems is evaluated via traffic assignment for assessing the impacts of transportation improvement projects. The fundamentally important volume-delay functions (VDFs) have been used as the building blocks to account for the effects of traffic flow on roadway segments’ capacities. 
+
+The data2supply is a data-driven calibration package for traffic flow model calibration, Bureau of Public Roads (BPR) function calibration, and the queueing characterization for transportation planners, engineers, and researchers.
+
+
+
+The development of data2supplymodel is motivated by the following perspectives.
+
+
+
+**1. Support the implementation of traffic assignment model **
+
+The development of the package is motivated by the evaluation of the current traffic assignment model  and implement a refined or modified BPR function. The calibration will be conducted under different area types (AT) and facility types (FT). 
+
+
+
+**2. Data-driven calibration and validation tool for integrated traffic analysis** 
+
+The development goal of data2supply aims to provide an integrated open-source package for data processing workflow, parameter estimation in the traffic stream model (i.e., ultimate capacity, critical density, free-flow speed, and the speed at capacity as well as the validation of the traffic assignment results. 
+
+
+
+**3. Adopting open network standard of GMNS**
+
+The General Modeling Network Specification (GMNS) defines a common human and machine-readable format for sharing routable road network files. It is designed to be used in multi-modal static and dynamic transportation planning and operations models. Further details can be found in https://zephyrtransport.org/projects/2-network-standard-and-tools/
+
+
+
+**4. New VDF calibration method**
+
+This package also attempts to provide a theoretically consistent and practically effective framework for a data-driven VDF calibration process. By defining the queueing demand in the D/C ratio in the BPR function, the proposed Queue-based method (QBM) provides a new method for the BPR calibration and bridges the gap between the different temporal resolution of the demand-supply relation. 
+
+
+
+**Input files:** 
+
+link_performance.csv
+
+Example: 
+
+| link_id | lanes | length | from_node_id | to_node_id | FT   | AT   | time_period | speed       | date     | volume | geometry                             |
+| ------- | ----- | ------ | ------------ | ---------- | ---- | ---- | ----------- | ----------- | -------- | ------ | ------------------------------------ |
+| 1040    | 1     | 1.3    | 511          | 548        | 0    | 1    | 1400_1415   | 72          | 1/1/2016 | 186    | LINESTRING ( -112.0846681 33.461167) |
+| 1317    | 3     | 1.3    | 511          | 512        | 1    | 1    | 1400_1415   | 62.33333333 | 1/1/2016 | 686    | LINESTRING ( -112.0846681 33.461168) |
+| 1040    | 1     | 1.3    | 511          | 548        | 0    | 1    | 1415_1430   | 71.66666667 | 1/1/2016 | 197    | LINESTRING ( -112.0846681 33.461169) |
+
+
+
+| **Field Name** | **Description**                               | **Sample Value** |
+| -------------- | --------------------------------------------- | ---------------- |
+| link_id        | Link identification  number of a road segment | 10024AB          |
+| lanes          | Number of lanes of a  link                    | 2                |
+| length         | Length of the link  (units: miles or km)      | 0.22148          |
+| from_node_id   | Upstream node of the  link                    | 12391            |
+| to_node_id     | Downstream node of the  link                  | 27808            |
+| FT             | Facility type                                 | 6                |
+| AT             | Area type                                     | 1                |
+| time_period    | Timestamp of an  observation                  | 000_0015         |
+| volume         | Observed link count                           | 50               |
+| speed          | Observed link speed                           | 24               |
+| speed_limit    | Speed limit of the link                       | 35               |
+| date           | Date of the data                              | 1/1/2018         |
+
+**output files:** 
+
+speed_density fitting curve
+
+speed_volume fitting curve
+
+volume_density fitting curve
+
+training set for each AT and FT
+
+hourly VDF fitting curve for each AT, FT and time period
+
+period VDF fitting curve for each AT, FT and time period
+
+daily based calibration result
+
+summary.csv
+
+**Installation:** 
+
+```python
+pip install data2supply
+```
+
+If you meet installation issues, please refer to the user guide for solutions.
+
+**Simple examples:** 
+
+Calibrate traffic flow models 
+
+```python
+import data2supplymodel  as ds
+# insert the assignment period for the link performance
+period_list=['1400_1800']
+ds.joinDemandPeriod(period_list,performance_file_name='link_performance.csv')
+
+# calibrate traffic flow models (when facility type = 1 and area type =1 )
+ds.calibrateFundamentalDiagram(ft_list=[1],at_list=[1],link_performance_file='link_performance.csv')
+# calibrate traffic flow models (for each combination of facility types and area types )
+ds.calibrateFundamentalDiagram()
+```
+
+Calibrate volume-delay functions (VDFs)
+
+```Python
+import data2supplymodel  as ds
+
+# calibrate traffic flow models (for each combination of facility types and area types )
+ds.calibrateVdfCurve(ft_list=[1],at_list=[1],link_performance_file='link_performance.csv')
+
+# calibrate VDF (or BPR) functions (for each combination of facility types and area types )
+ds.calibrateVdfCurve()
+```
+
+
+
+**Integrate data2supplymodel with path4gmns**
+
+```python
+import data2supplymodel  as ds
+
+period_list=['1400_1800']
+ds.joinDemandPeriod(period_list,performance_file_name='link_performance_1.csv')
+
+ds.calibrateFundamentalDiagram(ft_list=[1],at_list=[1],link_performance_file='link_performance_1.csv')
+ds.calibrateVdfCurve(ft_list=[1],at_list=[1],link_performance_file='link_performance_1.csv')
+ds.joinAllVdfFieldToLink(linkfilename ='link.csv', dictfilename ='updated_vdf_table.csv')
+
+import path4gmns as pg
+
+# no need to call read_network() like the python module
+# as network and demand loading will be handled within DTALite
+
+# path-based UE
+mode = 1
+assignment_num = 10
+column_update_num = 10
+
+pg.perform_network_assignment_DTALite(mode, assignment_num, column_update_num)
+
+# no need to call output_columns() and output_link_performance()
+# since outputs will be processed within DTALite
+
+print('\npath finding results can be found in agent.csv')
+```
+
+
+
