@@ -1,0 +1,20 @@
+KPL/PCK
+
+Defines Saturn but with radius as 1100 km above the 1 bar level, so as to enable calculating "surface" intercept
+locations at the altitude where aurorae are generated.
+
+\begindata
+BODY699_RADII = (    61487.      61487.       55464.     )
+\begintext
+
+Original Saturn radii
+BODY699_RADII = (    60268.      60268.       54364.     )
+
++1100 km on all axes
+BODY699_RADII = (    61368.      61368.       55464.     )
+
++1100 km at equator, same fractional increase at pole
+BODY699_RADII = (    61368.      61368.       55356.     )
+
++1100 at pole, same fractional increase at equator
+BODY699_RADII = (    61487.      61487.       55464.     )

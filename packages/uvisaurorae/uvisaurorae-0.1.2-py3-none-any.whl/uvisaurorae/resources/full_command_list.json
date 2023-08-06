@@ -1,0 +1,7022 @@
+[
+    {
+        "uvis_file_names": [
+            "FUV2007_096_00_36",
+            "FUV2007_096_01_01",
+            "FUV2007_096_01_26",
+            "FUV2007_096_01_50",
+            "FUV2007_096_02_15",
+            "FUV2007_096_02_40"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_02_51",
+            "FUV2007_096_03_16",
+            "FUV2007_096_03_41",
+            "FUV2007_096_04_07",
+            "FUV2007_096_04_32",
+            "FUV2007_096_04_57"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_05_07",
+            "FUV2007_096_05_33",
+            "FUV2007_096_05_58",
+            "FUV2007_096_06_24",
+            "FUV2007_096_06_49",
+            "FUV2007_096_07_15"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_07_25",
+            "FUV2007_096_07_51",
+            "FUV2007_096_08_17",
+            "FUV2007_096_08_43",
+            "FUV2007_096_09_09",
+            "FUV2007_096_09_35"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_09_45",
+            "FUV2007_096_10_11",
+            "FUV2007_096_10_37",
+            "FUV2007_096_11_02",
+            "FUV2007_096_11_28",
+            "FUV2007_096_11_54"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_12_05",
+            "FUV2007_096_12_31",
+            "FUV2007_096_12_56",
+            "FUV2007_096_13_22",
+            "FUV2007_096_13_47",
+            "FUV2007_096_14_13"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_14_23",
+            "FUV2007_096_14_48",
+            "FUV2007_096_15_13",
+            "FUV2007_096_15_40",
+            "FUV2007_096_16_03",
+            "FUV2007_096_16_28"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_16_40",
+            "FUV2007_096_17_05",
+            "FUV2007_096_17_31",
+            "FUV2007_096_17_57",
+            "FUV2007_096_18_22",
+            "FUV2007_096_18_48"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_096_18_59",
+            "FUV2007_096_19_25",
+            "FUV2007_096_19_51",
+            "FUV2007_096_20_16",
+            "FUV2007_096_20_42",
+            "FUV2007_096_21_08"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_10_42",
+            "FUV2007_145_11_03"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_11_19",
+            "FUV2007_145_11_40"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_11_57",
+            "FUV2007_145_12_18"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_12_34",
+            "FUV2007_145_12_55"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_13_11",
+            "FUV2007_145_13_33"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_13_49",
+            "FUV2007_145_14_10"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_14_26",
+            "FUV2007_145_14_47"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_15_04",
+            "FUV2007_145_15_25"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_15_41",
+            "FUV2007_145_16_02"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_16_19",
+            "FUV2007_145_16_40"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_16_56",
+            "FUV2007_145_17_17"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_17_33",
+            "FUV2007_145_17_55"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_145_18_11",
+            "FUV2007_145_18_32"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_146_04_33"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_146_07_54"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_146_09_01"
+        ],
+        "release_number": 19,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_350_23_33"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_350_23_52"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_00_11"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_00_29"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_00_48"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_01_07"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_01_26"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_01_45"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_02_03"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_02_22"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_02_41"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_03_00"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_03_19"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_03_37"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_03_56"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_04_15"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_04_34"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_04_53"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_05_11"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_05_30"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_05_49"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2007_351_06_08"
+        ],
+        "release_number": 21,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_15_30"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_15_59"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_16_28",
+            "FUV2008_002_16_36"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_16_57"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_17_26"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_17_55"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_18_24"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_18_52"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_19_36_47"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_002_20_02_46"
+        ],
+        "release_number": 22,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_037_05_38"
+        ],
+        "release_number": 22,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_037_09_31"
+        ],
+        "release_number": 22,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_037_11_22"
+        ],
+        "release_number": 22,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_037_11_22"
+        ],
+        "release_number": 22,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_037_13_23"
+        ],
+        "release_number": 22,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_037_17_15"
+        ],
+        "release_number": 22,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_109_09_38"
+        ],
+        "release_number": 23,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_129_07_53"
+        ],
+        "release_number": 23,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_144_08_08"
+        ],
+        "release_number": 23,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_144_09_35"
+        ],
+        "release_number": 23,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_193_13_41"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_194_13_29"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_195_03_43"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_195_09_46"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_197_04_21"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_201_03_21"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_201_04_45"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_201_06_47"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_201_09_21_39"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_208_03_57"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_224_01_47"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_224_02_40"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_224_03_34"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_224_04_30"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_238_09_19"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_238_10_36"
+        ],
+        "release_number": 24,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_238_21_19"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_238_22_29"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_238_23_01",
+            "FUV2008_238_23_01_43",
+            "FUV2008_238_23_04",
+            "FUV2008_238_23_05_11",
+            "FUV2008_238_23_09",
+            "FUV2008_238_23_09_35",
+            "FUV2008_238_23_09_51",
+            "FUV2008_238_23_11",
+            "FUV2008_238_23_11_11",
+            "FUV2008_238_23_11_35",
+            "FUV2008_238_23_12",
+            "FUV2008_238_23_12_31",
+            "FUV2008_238_23_12_55"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_239_02_15"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_239_03_37"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_239_07_36"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_240_05_46"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_240_06_54"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_240_07_57"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_240_11_43"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_254_17_49"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_254_19_10"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_254_23_09"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_255_00_30"
+        ],
+        "release_number": 24,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_276_22_13"
+        ],
+        "release_number": 25,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_276_22_47"
+        ],
+        "release_number": 25,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_276_23_32"
+        ],
+        "release_number": 25,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_304_21_57"
+        ],
+        "release_number": 25,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_334_22_14"
+        ],
+        "release_number": 25,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_334_23_49"
+        ],
+        "release_number": 25,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_335_03_11"
+        ],
+        "release_number": 25,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2008_335_04_46"
+        ],
+        "release_number": 25,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_004_09_45"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_021_18_00"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_021_19_24"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_023_10_16"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_023_11_43"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_027_16_25"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_027_18_18"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_027_21_45"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_027_23_38"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2009_028_03_04"
+        ],
+        "release_number": 26,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_07_18"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_07_37"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_07_57"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_08_16"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_08_36"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_08_55"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_09_15"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_09_34"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_09_54"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_10_13"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_10_33"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_10_52"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_11_12"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_11_31"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_11_51"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_12_10"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_12_30"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_12_49"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_13_09"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_155_13_28"
+        ],
+        "release_number": 39,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_343_07_42"
+        ],
+        "release_number": 41,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2012_343_08_17"
+        ],
+        "release_number": 41,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_003_20_18"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_003_21_20"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_003_22_22"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_003_23_23"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_006_06_00"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_006_08_38"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_12_12"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_12_48"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_14_37"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_15_13"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_17_01"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_17_37"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_19_26"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_20_02"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_21_50"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_014_22_26"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_00_15"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_00_51"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_02_39"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_03_15"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_05_04"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_05_40"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_06_16"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_015_06_52"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_15_39"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_16_13"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_16_47"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_17_21"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_17_55"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_18_29"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_19_03"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_19_37"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_20_11"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_20_45"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_041_21_19"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_054_23_11"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_055_00_26"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_055_01_41"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_055_03_05"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_055_04_11"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_055_22_43"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_058_04_24"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_058_06_09"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_070_01_39"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_070_03_58"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_070_05_30"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_078_15_41",
+            "FUV2013_078_15_44",
+            "FUV2013_078_15_46",
+            "FUV2013_078_15_54",
+            "FUV2013_078_15_55",
+            "FUV2013_078_15_55_56",
+            "FUV2013_078_15_57",
+            "FUV2013_078_15_57_40",
+            "FUV2013_078_15_58",
+            "FUV2013_078_15_59",
+            "FUV2013_078_15_59_32",
+            "FUV2013_078_15_59_48",
+            "FUV2013_078_16_00",
+            "FUV2013_078_16_07",
+            "FUV2013_078_16_08",
+            "FUV2013_078_16_09",
+            "FUV2013_078_16_09_08",
+            "FUV2013_078_16_09_24",
+            "FUV2013_078_16_11",
+            "FUV2013_078_16_13",
+            "FUV2013_078_16_20",
+            "FUV2013_078_16_23",
+            "FUV2013_078_16_25",
+            "FUV2013_078_16_26"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_078_16_28",
+            "FUV2013_078_16_29",
+            "FUV2013_078_16_33",
+            "FUV2013_078_16_34",
+            "FUV2013_078_16_37",
+            "FUV2013_078_16_39",
+            "FUV2013_078_16_42",
+            "FUV2013_078_16_43",
+            "FUV2013_078_16_44",
+            "FUV2013_078_16_45",
+            "FUV2013_078_16_48",
+            "FUV2013_078_16_49",
+            "FUV2013_078_16_51",
+            "FUV2013_078_16_51_34",
+            "FUV2013_078_16_52",
+            "FUV2013_078_16_52_54",
+            "FUV2013_078_16_53",
+            "FUV2013_078_16_55",
+            "FUV2013_078_16_58",
+            "FUV2013_078_16_59",
+            "FUV2013_078_17_01",
+            "FUV2013_078_17_04",
+            "FUV2013_078_17_04_30",
+            "FUV2013_078_17_10",
+            "FUV2013_078_17_12"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_078_17_15",
+            "FUV2013_078_17_18",
+            "FUV2013_078_17_18_46",
+            "FUV2013_078_17_24",
+            "FUV2013_078_17_29",
+            "FUV2013_078_17_29_28",
+            "FUV2013_078_17_30",
+            "FUV2013_078_17_31",
+            "FUV2013_078_17_31_36",
+            "FUV2013_078_17_39",
+            "FUV2013_078_17_50",
+            "FUV2013_078_17_52",
+            "FUV2013_078_17_53",
+            "FUV2013_078_17_55",
+            "FUV2013_078_17_56",
+            "FUV2013_078_17_57",
+            "FUV2013_078_17_57_36",
+            "FUV2013_078_18_00",
+            "FUV2013_078_18_03",
+            "FUV2013_078_18_07",
+            "FUV2013_078_18_08",
+            "FUV2013_078_18_11"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_078_18_12",
+            "FUV2013_078_18_12_40",
+            "FUV2013_078_18_16",
+            "FUV2013_078_18_17",
+            "FUV2013_078_18_19",
+            "FUV2013_078_18_24",
+            "FUV2013_078_18_25",
+            "FUV2013_078_18_25_38",
+            "FUV2013_078_18_27",
+            "FUV2013_078_18_28",
+            "FUV2013_078_18_32",
+            "FUV2013_078_18_32_41",
+            "FUV2013_078_18_34",
+            "FUV2013_078_18_35",
+            "FUV2013_078_18_44",
+            "FUV2013_078_18_45",
+            "FUV2013_078_18_46",
+            "FUV2013_078_18_48",
+            "FUV2013_078_18_51",
+            "FUV2013_078_18_53",
+            "FUV2013_078_18_53_38",
+            "FUV2013_078_18_59",
+            "FUV2013_078_19_03",
+            "FUV2013_078_19_04",
+            "FUV2013_078_19_09",
+            "FUV2013_078_19_12"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_078_19_12_36"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_078_20_03"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_079_14_07",
+            "FUV2013_079_14_38"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_079_15_19"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_079_16_32"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_079_17_44"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_081_22_18"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_082_00_26"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_082_02_27"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_082_20_12"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_082_21_09"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_082_22_06"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_082_23_03"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_083_00_00"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_083_00_57"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_083_01_54"
+        ],
+        "release_number": 42,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_109_03_41"
+        ],
+        "release_number": 43,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_110_11_40"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_110_13_00"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_110_14_21"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_111_04_15"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_111_06_26"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_112_02_46"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_112_04_20"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_119_18_04"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_119_19_26"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_119_20_48"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_119_22_09"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_119_23_30"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_120_02_03"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_128_01_52"
+        ],
+        "release_number": 43,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_137_11_55"
+        ],
+        "release_number": 43,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_138_19_42"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_138_21_01"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_138_22_20"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_138_23_39"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_139_00_58"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_139_02_17"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_139_03_36"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_139_06_47"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_139_22_01"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_139_23_25"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_00_50"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_02_15"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_03_40"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_19_42"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_20_46"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_21_49",
+            "FUV2013_140_22_19",
+            "FUV2013_140_22_32"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_22_53"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_140_23_56"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_01_00"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_06_47"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_16_20"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_17_36"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_18_53"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_20_05"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_21_16"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_22_25"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_141_23_32"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_00_39"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_01_42"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_02_44"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_03_47"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_04_49"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_05_52"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_06_54"
+        ],
+        "release_number": 43,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_142_09_54"
+        ],
+        "release_number": 43,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_160_21_05"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_160_21_51"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_160_22_38"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_160_23_25"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_161_00_12"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_161_00_59"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_161_01_46"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_161_05_15"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_173_21_01"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_173_22_14"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_173_23_28"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_174_00_42"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_174_01_55"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_176_12_42"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_176_15_21"
+        ],
+        "release_number": 43,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_176_17_59"
+        ],
+        "release_number": 43,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_10_13"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_11_11"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_12_09"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_13_07"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_14_05"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_15_03"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_16_01"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_16_59"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_17_57"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_18_55"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_19_53"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_228_20_50"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_17_34"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_18_01"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_18_35"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_19_08"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_19_42"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_20_15"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_20_49"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_21_22"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_233_21_55"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_06_03"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_06_35"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_07_06"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_07_38"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_08_09"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_08_40"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_09_12"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_09_43"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_10_14"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_10_46"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_11_17"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_11_48"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_12_20"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_12_51"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_13_22"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_13_54"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_14_25"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_14_56",
+            "FUV2013_235_15_05"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_15_28"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_15_59"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_16_30"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_17_02"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_17_33"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_18_05"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_18_36"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_19_07"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_19_39"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_20_10"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_20_41"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_21_13"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_235_21_44"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_237_11_27"
+        ],
+        "release_number": 44,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_239_11_52"
+        ],
+        "release_number": 44,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_239_13_21"
+        ],
+        "release_number": 44,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_08_24"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_09_24"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_10_25"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_11_25"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_12_26"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_13_26"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_14_27"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_15_27"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_16_28"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_17_28"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_18_29"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_19_29"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_20_30"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_21_30"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_251_22_30"
+        ],
+        "release_number": 44,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_10_20"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_10_45"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_11_10"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_11_35"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_12_00"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_12_25"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_12_50"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_13_15"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_13_40"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_14_05"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_14_30"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_14_55"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_15_20"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_15_45"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_16_10"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_16_35"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_330_18_31"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_331_01_16"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_331_18_46"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_332_18_46"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_09_14"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_09_41"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_10_08"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_10_35"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_11_02"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_11_29"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_11_56"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_12_23"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_12_50"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_13_17"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_13_44"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_14_11"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_14_38"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_362_16_48"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_363_16_49"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_363_20_21"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2013_364_16_49"
+        ],
+        "release_number": 45,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_11_18"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_12_03"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_12_48"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_13_33"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_14_17",
+            "FUV2014_003_14_46",
+            "FUV2014_003_14_47",
+            "FUV2014_003_14_47_39",
+            "FUV2014_003_14_47_47",
+            "FUV2014_003_14_47_55"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_15_02"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_003_15_46"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_03_13"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_03_41"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_04_08"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_04_36"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_05_03",
+            "FUV2014_031_05_10"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_05_31"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_031_05_58"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_06_51"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_07_25"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_07_59"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_08_33"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_09_07"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_09_41"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_10_15"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_10_49"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_11_23"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_038_11_57"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_079_01_02"
+        ],
+        "release_number": 46,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_087_09_41"
+        ],
+        "release_number": 46,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_087_15_23"
+        ],
+        "release_number": 46,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_087_18_13_38"
+        ],
+        "release_number": 46,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_087_18_40_18"
+        ],
+        "release_number": 46,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_087_20_30"
+        ],
+        "release_number": 46,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_08_36"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_09_39"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_10_41"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_11_43"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_12_45"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_13_47"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_14_49"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_15_51"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_099_16_52"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_130_02_19"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_130_05_10"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_17_51"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_18_32"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_19_12"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_19_53"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_20_33"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_21_14"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_21_54"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_22_35"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_23_15"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_133_23_56"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_11_06"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_11_59"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_12_52"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_13_45"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_14_38"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_15_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_16_31",
+            "FUV2014_134_17_13"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_17_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_18_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_19_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_20_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_21_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_22_38"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_134_23_45",
+            "FUV2014_135_00_39"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_00_50"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_14_22"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_15_30"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_16_38"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_17_46"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_18_13"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_19_18"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_20_23"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_21_29"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_22_34"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_135_23_39"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_16_58"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_17_21"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_17_44"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_18_07"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_18_30"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_18_53"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_19_17"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_19_40"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_20_03"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_20_26"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_20_49"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_21_13"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_21_36"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_21_59"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_139_22_22"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_18_28"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_18_51"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_19_14"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_19_37"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_20_00"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_20_23"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_20_46"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_21_09"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_21_32"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_21_55"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_22_18"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_22_41"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_23_04"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_23_27"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_140_23_50"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_141_00_13"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_141_00_36"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_141_20_55"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_141_22_49"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_145_05_03"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_145_16_51"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_145_20_39"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_147_04_12"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_149_04_12"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_149_16_06"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_150_16_57"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_150_20_22"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_151_16_57"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_151_20_48"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_152_16_50"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_153_17_30"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_153_22_27"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_154_17_30"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_154_19_19"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_156_07_41"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_156_09_21"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_157_06_31"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_158_14_51"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_158_16_19"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_159_06_16"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_160_10_43"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_160_11_20"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_161_06_16"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_161_15_44"
+        ],
+        "release_number": 47,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_166_22_15"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_166_23_22"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_00_29"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_01_36"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_02_44"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_03_51"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_04_57"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_15_06"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_16_05"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_17_05"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_18_04"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_19_04"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_167_20_03"
+        ],
+        "release_number": 47,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_196_13_08"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_196_17_58_10"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_196_19_57"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_196_20_44"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_196_23_01"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_197_01_32"
+        ],
+        "release_number": 48,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_230_11_20"
+        ],
+        "release_number": 48,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_230_12_10"
+        ],
+        "release_number": 48,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_230_13_01"
+        ],
+        "release_number": 48,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_230_13_51"
+        ],
+        "release_number": 48,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_248_11_49"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_256_06_04"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_256_12_13"
+        ],
+        "release_number": 48,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_289_16_13"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_294_14_18"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_294_15_42"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_308_23_21"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_309_02_09"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_309_03_09"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_309_03_47"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_310_23_05"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_05_29"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_08_40"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_11_34"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_11_46"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_12_06"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_12_18"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_12_23"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_12_31"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_14_38"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_15_22"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_311_17_40"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_327_12_36"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_327_14_35"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_331_19_51"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_332_09_02"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_332_09_37"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_335_01_26"
+        ],
+        "release_number": 49,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_04_53"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_05_40"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_06_26"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_07_13"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_07_59"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_08_46"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_09_32"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_10_19",
+            "FUV2014_342_10_49"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_11_05"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_21_49"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_22_41"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_342_23_34"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_343_00_27"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_343_01_20",
+            "FUV2014_343_01_57"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2014_343_02_13"
+        ],
+        "release_number": 49,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_045_05_38"
+        ],
+        "release_number": 54,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_045_06_29"
+        ],
+        "release_number": 54,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_045_07_20"
+        ],
+        "release_number": 54,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_045_08_10"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_07_13"
+        ],
+        "release_number": 54,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_07_56"
+        ],
+        "release_number": 54,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_08_26"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_09_44"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_10_59"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_11_59"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_13_47"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_046_15_25"
+        ],
+        "release_number": 54,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_123_20_32"
+        ],
+        "release_number": 55,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_125_23_38"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_126_00_21"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_126_01_04"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_126_04_11"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_126_04_48"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_126_05_25"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_156_19_27"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_156_23_39"
+        ],
+        "release_number": 55,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_06_20"
+        ],
+        "release_number": 55,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_18_00",
+            "FUV2016_157_18_11"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_18_43"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_19_26"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_20_09"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_20_52"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_21_35"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_22_18"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_23_01"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_157_23_44"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_158_00_27"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_158_01_09"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_177_02_01"
+        ],
+        "release_number": 55,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_04_34"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_05_25"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_06_16"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_07_07"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_07_58"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_08_49"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_181_09_41"
+        ],
+        "release_number": 55,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_204_14_25"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_205_00_28_48"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_229_17_52"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_14_24"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_14_50"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_17_27"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_18_09"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_18_52"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_19_35"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_20_17"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_21_00"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_21_43"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_22_25"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_23_08"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_230_23_51"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_231_16_46"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_231_17_45"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_231_18_43"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_231_19_41"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_231_20_39"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_232_12_26"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_232_13_51"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_232_15_43"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_232_17_20"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_232_19_27",
+            "FUV2016_232_20_45"
+        ],
+        "release_number": 56,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_250_21_58"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_260_14_32"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_273_17_45"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_274_09_12"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_274_12_14"
+        ],
+        "release_number": 56,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_277_02_40"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_277_03_58"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_277_05_17"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_277_06_36"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_278_09_22"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_278_11_59",
+            "FUV2016_278_12_30"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_275_11_42"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_275_16_42"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_275_19_51"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_275_22_56"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_276_01_17"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_303_02_27"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_303_05_57"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_314_17_45"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_314_18_36"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_315_08_44"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_315_09_59"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_06_42"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_08_47"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_10_55"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_11_20"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_14_27"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_14_52"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_16_29"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_18_03"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_316_21_32"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_322_13_57"
+        ],
+        "release_number": 57,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_322_19_19"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_337_19_07"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_339_01_54"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_360_05_22"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2016_360_06_13"
+        ],
+        "release_number": 57,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_009_11_30"
+        ],
+        "release_number": 58,
+        "projection_mode": "split",
+        "sensitivity": 5.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_009_14_12"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_014_16_52"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_017_06_30"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_05_00"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_07_27"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_08_53"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_12_36"
+        ],
+        "release_number": 58,
+        "projection_mode": "split",
+        "sensitivity": 5.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_14_22"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_19_11"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_21_51"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_22_22"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_023_23_38"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_024_00_53"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_024_02_10"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_030_08_15"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_030_10_41",
+            "FUV2017_030_12_15"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_030_13_43"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_030_17_02"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_030_18_01"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_042_08_23_55"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_042_09_02"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_042_10_27"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_042_11_44_35"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_042_12_10_27"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_042_12_27"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_046_21_44"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_057_03_57"
+        ],
+        "release_number": 58,
+        "projection_mode": "split",
+        "sensitivity": 5.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_058_04_54"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_058_06_43"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_059_08_20",
+            "FUV2017_059_09_21"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_059_10_50"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_059_11_53"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_067_12_31"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_072_06_19"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_072_09_52"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_072_10_42"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_073_17_20"
+        ],
+        "release_number": 58,
+        "projection_mode": "split",
+        "sensitivity": 3.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_073_19_00"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_074_00_45"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_074_01_48"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_074_03_16"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_074_04_46"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_075_04_44"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_077_02_35"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_077_21_46"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_077_22_39"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_078_05_10"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_03_31"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_11_40"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_12_12"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_12_45"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_13_17"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_13_50"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_14_22"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_14_55"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_15_27"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_16_00"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_16_32"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_17_05"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_17_37"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_18_10"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_18_42"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_19_15"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_20_15"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_079_23_38"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_080_02_33"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_080_17_03"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_080_19_53"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_080_21_25"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_080_21_51"
+        ],
+        "release_number": 58,
+        "projection_mode": "split",
+        "sensitivity": 3.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_081_03_05"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_081_05_48"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_081_06_14"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_082_23_13"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_084_03_29"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_01_25"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_02_00"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_02_35"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_03_11"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_03_46"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_04_22"
+        ],
+        "release_number": 58,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_087_04_58"
+        ],
+        "release_number": 58,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_092_15_48"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_101_06_16"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_102_08_21",
+            "FUV2017_102_09_14",
+            "FUV2017_102_10_23"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_108_05_34"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_115_18_11"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_117_02_55"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_117_03_15"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_117_03_35"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_117_03_55"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_117_04_15"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_117_04_35"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_126_20_58"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_130_00_30"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_142_17_49"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_152_18_34"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_153_06_25"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_153_08_18_57"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_153_08_20"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_12_56"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_14_36"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_16_25"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_18_39"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_19_04"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_20_15"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_167_21_17"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_168_03_04",
+            "FUV2017_168_04_03"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_168_04_49"
+        ],
+        "release_number": 59,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_169_00_13"
+        ],
+        "release_number": 59,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_180_14_21"
+        ],
+        "release_number": 59,
+        "projection_mode": "split",
+        "sensitivity": 3.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_188_16_34"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_199_09_03"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_199_09_46"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_201_18_48"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_204_14_56"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_19_15"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_21_38"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_22_05"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_22_32"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_22_59"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_23_26"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_205_23_54"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_00_21"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_00_48"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_01_15"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_01_43"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_02_15"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_02_47"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_03_20"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_03_52"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_04_25"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_05_04"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_05_42"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_206_06_21"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_207_00_27"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_207_02_19"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_207_03_19"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_211_14_32"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_212_14_48"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_212_16_51"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_212_17_30"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_212_18_51"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_212_20_38"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_212_22_24",
+            "FUV2017_212_22_53",
+            "FUV2017_213_00_10"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_213_00_39",
+            "FUV2017_213_01_11"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_04_19"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_05_32"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_06_56"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_08_30"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_11_37",
+            "FUV2017_219_12_07",
+            "FUV2017_219_12_39"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_18_45"
+        ],
+        "release_number": 60,
+        "projection_mode": "split",
+        "sensitivity": 5.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_20_34"
+        ],
+        "release_number": 60,
+        "projection_mode": "split",
+        "sensitivity": 5.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_219_22_51"
+        ],
+        "release_number": 60,
+        "projection_mode": "split",
+        "sensitivity": 5.0
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_220_01_05"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_220_01_29"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_220_04_03"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_220_07_20"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_220_11_31"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_224_15_58"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_226_06_49"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_226_08_04"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_226_09_01"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_226_09_51"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_226_12_02"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_226_13_50"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_232_05_14"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_232_06_50"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_232_08_28"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": true
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_232_10_12"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_232_10_37"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_232_12_43"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_236_15_08"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_236_20_00"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_237_00_52"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_237_05_44"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_237_10_36"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_239_04_52"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_239_06_07"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_239_06_19"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_239_07_03"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_244_18_30"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_244_21_06"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_244_23_34"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_245_15_45"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_245_16_53"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_245_18_00"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_245_19_00"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_252_02_46"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_252_04_00"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_252_04_52"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_252_05_45"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_256_18_32"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_256_19_57"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_256_21_25"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_256_22_54"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_00_27"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_02_02"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_03_41"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_05_23"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_07_09"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_08_59"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_10_56"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_14_02"
+        ],
+        "release_number": 60,
+        "projection_mode": "split"
+    },
+    {
+        "uvis_file_names": [
+            "FUV2017_257_15_21"
+        ],
+        "release_number": 60,
+        "projection_mode": "combine",
+        "clean": false
+    }
+]
