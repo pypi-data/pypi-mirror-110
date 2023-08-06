@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mldictionary
+Version: 0.0.1
+Summary: A webscrapy dictionary
+Home-page: https://github.com/PabloEmidio/mldictionary
+Author: Pablo Emidio
+Author-email: p.emidiodev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: parsel (>=1.6.0)
+
+# description
+
+
