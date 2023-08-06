@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dpy-docs
+Version: 0.1.1
+Summary: 
+Author: ChiliMX
+Author-email: chili.dev@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiofiles (>=0.7.0,<0.8.0)
+Requires-Dist: discord.py (>=1.7.3,<2.0.0)
