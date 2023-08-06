@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cologer
+Version: 2.0
+Summary: color-loger
+Home-page: https://github.com/junfalin/cologer
+Author: junfalin
+Author-email: ljunf817@163.com
+License: MIT
+Description: UNKNOWN
+Keywords: python package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
