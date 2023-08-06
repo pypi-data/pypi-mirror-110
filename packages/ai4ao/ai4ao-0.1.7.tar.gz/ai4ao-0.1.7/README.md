@@ -1,0 +1,58 @@
+# **AI for Anomaly and Outlier detection (AI4AO)** 
+
+AI4AO is a Python package that allows to build any of the 
+[`scikit-learn`](https://scikit-learn.org/stable/) supported Clustering and Classification algorithms
+based machine learning models in batches. This means that one can use [`yaml`](https://yaml.org) declarative
+syntax in order to write a configuration file, and based on the instructions in the configuration file, and the 
+machine learning models will be constructed sequentially. This way many models can be built with a single configuration 
+file with the results being arranged in an extremely modular way. AI4AO can be considered as a convenient wrapper for
+scikit-learn models.
+
+
+
+#
+* Developed by: **Selvakumar Ulaganathan**
+* Website: [`www.selvai.com`](https://www.selvai.com)
+* PyPI Project: [`https://pypi.org/project/ai4ao`](https://pypi.org/project/ai4ao)
+* GitLab Source: [`https://gitlab.com/selvai/ai4ao`](https://gitlab.com/selvai/ai4ao)
+* Official Documentation: [`https://selvai.gitlab.io/ai4ao/`](https://selvai.gitlab.io/ai4ao/)
+#
+
+# **Usage**
+
+## Define a configuration in ``config.yaml``
+```python
+    # config.yaml
+    IsolationForest_0.01:
+        project_name: timeseries_anomaly
+        run_this_project: True
+        multi_variate_model: True
+        model: IsolationForest
+        data:
+            path: 'path-to-train-data.csv'
+            test_data_path: 'path-to-train-data.csv'
+            features_to_avoid: ['feat-to-avoid']
+        hyperparams:
+            contamination: 0.01
+        results:
+            path: 'results/isolation_forest_001/'
+        remote_run: False
+```
+    
+
+
+## Run the model defined in ``config.yaml``
+```python
+    # example_script.py
+    import ai4ao # import package 
+    from ai4ao.models import SKLearnModel as Model # scikit-learn wrapper 
+
+    # fit and evaluate model
+    model = Model(plot_results=True)
+    model.batch_fit(path_config='configs.yaml')
+
+    # print models and metrics
+    print(model.models)
+    print(model.metrics())
+```
+#
