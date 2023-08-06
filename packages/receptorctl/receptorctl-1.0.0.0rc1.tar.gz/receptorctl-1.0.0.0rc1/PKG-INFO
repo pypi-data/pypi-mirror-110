@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: receptorctl
+Version: 1.0.0.0rc1
+Summary: "Receptorctl is a front-end CLI and importable Python library that interacts with Receptor over its control socket interface."
+Home-page: https://github.com/project-receptor/receptor/tree/devel/receptorctl
+Author: Red Hat
+Author-email: info@ansible.com
+License: UNKNOWN
+Description: Receptorctl is a front-end CLI and importable Python library that interacts with Receptor over its control socket interface.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

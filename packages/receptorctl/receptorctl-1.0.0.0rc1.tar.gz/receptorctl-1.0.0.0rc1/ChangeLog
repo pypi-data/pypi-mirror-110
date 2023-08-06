@@ -1,0 +1,462 @@
+CHANGES
+=======
+
+1.0.0rc1
+--------
+
+* Update vendor content for cmdline
+* Add test cases to cover work submitted and released on non-existent node
+* Change naming style from (for example) tCPListenerCfg to tcpListenerCfg
+* Update status when work is locally cancelled without ever being submitted to remote
+* Fix issue where releasing a never-started remote job caused a panic
+* Switch from cmdline GlobalInstance to app registry
+* Allow setting a path that the websocket server will serve on
+* do not scan for units in the work list command
+
+1.0.0a2
+-------
+
+* Update vendored content
+* Update Makefile to work with version reported by PBR
+* Use PBR for receptor-python-worker
+* Remove early-eject code in kubernetes worker
+* Create a top-level BaseWorkUnit context for use by monitorLocalStatus
+* Respect the kube worker context in a couple places
+* Retry when errors occur while releasing work
+* Dont scan entire work directory when only looking for a single unit
+* Wait for process to exit before returning from Cancel
+* Surface logs from command-runner processes
+* No need for a separate signal handler goroutine
+* Added a context with timeout : 'ctxWithTimeout'
+* use append
+* don't scan if unit\_id is provided
+* Add unit\_id option for work list
+* Obtain status file lock when updating full status
+* Fix pre-commit warning
+* Move cmdline to an external dependency
+
+1.0.0a1
+-------
+
+* Use PBR for receptorctl
+
+0.9.7
+-----
+
+* Use PBR for receptorctl
+* Preserve metadata passed in via runtime pod definition
+* Add make targets to build receptorctl wheel and sdists
+* Preserve metadata passed in via runtime pod definition
+* Add make targets to build receptorctl wheel and sdists
+* Vendoring dependencies (#303)
+* Fix bug when releasing pods under worktype w/ "incluster" auth
+
+0.9.6
+-----
+
+* Fix bug when releasing pods under worktype w/ "incluster" auth
+* CI: Ignore vendor directory (#305)
+* CI: Ignore vendor directory (#304)
+
+0.9.5
+-----
+
+* include an array of available work commands in service announcements
+* Close logStream if Stdin is not passed correctly, to prevent hang
+* Add some test docs
+* Use larger tls keys for receptorctl tests
+
+0.9.4
+-----
+
+* Fix bug in slice type conversion
+* Add ability to generate a CSR re-using an existing key
+* Use RootCAs or ClientCAs as appropriate
+* Update tests to use new TLS certificates
+* Use separate cert and key files to match the rest of Receptor
+* Add certificate completion
+* Generate certificate requests with Receptor node IDs
+* Allow []string to take multiple strings via repeated parameter
+* Add ability to follow composed structs
+* Use subjectAltName OtherName for Receptor node IDs
+* When given a kubeconfig string, calculate the namespace from it instead of from local kubeconfig
+* PodSpec -> Pod
+* Allow for passing UID build arg to ci image build
+* Fix kube pod runtime test
+* Allow for passing full Pod definition at runtime
+* Clean up imports
+* Allow for running specific test with "make test"
+* Add tests for passing in k8s podspec and kubeconfig at runtime (#284)
+* Upgrade actions-setup-minikube to v2.3.0
+* Allow passing in podspec during runtime (#276)
+* Don't run Kubernetes tests during RPM creation
+
+0.9.3
+-----
+
+* Allow passing in kubeconfig contents during runtime (#275)
+* Add a way to skip kubernetes tests
+* Allow passing in kubeconfig name as a runtime param (#272)
+* Fix ineffective assignments
+* close this channel instead of write. The reader may already have returned, so it can hang (#263)
+
+0.9.2
+-----
+
+* Fix stdout bug on k8s restart (#261)
+* Allow . and : in tcp hostname so IPv4 and IPv6 addresses can work
+* Make Netceptor constants configurable
+* Fail immediately when given a non-existing TLS client name
+* Add Params field to Kubernetes worker for consistency with work-command
+* Simplify context checking logic
+* Emit warning if user configures TLS for the Receptor side of a control service, but not for TCP
+* Add system CPU cores and total memory installed in status output (#259)
+* Add a test that tests a duplicate node scenario
+* Check receptor and receptorctl versions (#256)
+* List work from remote node (#254)
+* Use multi-stage build to ensure binary is compatible with image it's used in
+* Add connection info to service advertisement  (#253)
+* Optionally return the socket instead of the sockfile from get\_work\_results, and mark private members private
+* Get updated pod info before checking success/failure
+* Update dependency locks
+* Test kubernetes workceptor using minikube
+* Remove ctxobj in ReceptorControl (#251)
+* Fix receptorctl work submit
+* Update generated go.sum
+* Avoid using the word handshake for something that isn't a TLS handshake, to avoid confusion
+* Add timeout to TLS handshake so non-TLS clients don't wait indefinitely.  Also, combine listener logic instead of repeating code
+* Add tls support to receptorctl (#244)
+* pyyaml to docker ci runner (#249)
+* add pyyaml to docker install (#247)
+* Install pip in container image
+* trim spaces in allowedpeers list (#241)
+* Add tests for duplicate detection
+* Add duplicate node detection
+* Improvements to receptorctl.socket\_interface.submit\_work interface (#239)
+* Make x509 certificate creation compatible with Go 1.15 (#236)
+* Add a receptorctl test suite
+* Add tlsclient option for receptorctl connect (#238)
+* Only restart remote work if RemoteStarted is true (#235)
+* k8s work units can restart (#234)
+* Add test for traceroute
+* On error, return the node that sent the error - needed for traceroute
+* Change broker from non-blocking to blocking send, protected by a goroutine, and make use of it in packetconn
+* Use a struct rather than a map[string]string for unreachable notifications. Fixes traceroute
+* Enforce type of messages sent through broker
+* Missing hostname is an error on earlier openssl
+* Update RPM building to work on non-Fedora platforms
+* Avoid unnecessary delays during work results retrieval
+* verifynodeclientnodeid should be false by default (#229)
+
+0.9.1
+-----
+
+* Return error if GetConfigForClient not re-configured (#220)
+* Properly report failure when container fails to start
+* Add --ttl (time to live) option to remote work submission commands (#214)
+* Test adding runtime params
+* Fix installing receptorctl from git (#217)
+* Allow for overriding container image tag at build time (#216)
+* Fix receptorctl payload functionality
+* Add --no-payload and pass-through command arguments
+* Testing: Provide more output when commands fail
+* Fix string-dest conversions without breaking map processing
+* Update callers for new RunControlSvc signature
+* Add option to stream to worker pods using TCP
+* Move monitorLocalStatus to BaseWorkUnit
+* Allow direct binding of control service to TCP listener
+* Add TCP socket support
+* Handle the case where a string field has a yaml integer value
+* Open log first for greater reliability
+* Fix race condition when send happens after close
+* Allow tls-server to verify that client node id matches certificate CN (#201)
+* Fix help for work submit
+* Improve usability of container meshes
+* Fixes some flake in TestHopCountLimit
+* Don't reject connection that stops listing us, unless it has already listed us at least once
+* Only update node connection data when necessary
+* Fix suspected race in handleRoutingUpdate
+* change testing certs so we can have tls in containers
+* Allow passing parameters to workers, but hide secrets
+* Implement remote Kubernetes parameter passing
+* Show activity when building Receptor
+* Combine newWorker with Init and redo Kube auth
+* Add tests for submitting work via JSON with a tlsclient (#184)
+* Submit work to remote has option to provide a tlsclient config (#178)
+* Test server tls verification by clients
+* Reorganize the mesh tests and mesh test library
+* Another tweak to blocking protection
+* Protect only against hanging during shutdown
+* Shut down logger object to avoid panics
+* Improve concurrent behavior of controlsvc ping
+* Protect against some blocking channel sends
+* Add TestLotsOfPings
+* Improve logging a bit
+* Rename hopcount\_test to netceptor\_test
+* Add netceptor.SubscribeRoutingUpdates() function
+* Fix some ignored errors and add WaitForReady calls
+* Add ability to run a testloop of a single test
+* Add interop test for WebSocketDialer-to-ExternalBackend
+* Add direct support for Gorilla websockets in ExternalBackend
+* Move Status out of base work unit and make Params a map
+* Override labels in container image, to avoid getting the Fedora ones
+* Get rid of long list of booleans in AddConfigType
+* Reduce Makefile annoyance
+* Add --version command to receptor
+* Add support for testing receptor in containers
+* Generate the version number automatically
+* Switch container build to not use RPMs, and do version calculations in the Makefile
+* Allow configuring build functionality with build tags
+* Fix docker command in readme
+* Update CLI mesh early shutdown checking
+* Update tun\_proxy to do IPv4/IPv6 routing
+* Rename tun\_proxy to ip\_router
+* Add traceroute and reorganize controlsvc
+* Add unreachable handling for netceptor.Conn
+* Set log level in Info phase to catch any log messages sent during Prepare
+* Fix case sensitivity issue in parameter names
+* Rewrite InMemoryBackend more usefully as ExternalBackend, and use a Unix socket pair for the hop count test
+
+0.9.0
+-----
+
+* Bump version to 0.9.0
+* Update README
+* Change readstring to readstringcontext to prevent possible hangs (#142)
+* Bump WaitForReady timeouts
+* Fix incremental duration to allow reset (#140)
+* Switch from count-up HopsRemaining to count-down HopsToLive
+* Add HopCount field to Netceptor core protocol
+* Restructure control service to be able to take JSON
+* Remove 'work start' so all work submission uses 'work submit'
+* Add packaging for receptor-plugin-worker
+* Update control socket path and set RECEPTORCTL\_SOCKET
+* Packaging updates to CI runner image (#145)
+* Add RPM and container build process
+* Add and make use of singleton support in cmdline library
+* if foo controller submits work to foo, then start local job (#141)
+* add delay backoff for redial in backends (#139)
+* Readstring uses context instead of timeout (#138)
+* Add timeout waiting for hello from remote control service
+* Use test names to organize our logs on the filesystem
+* Artifact test logs
+* Add iproute and openssl as BuildRequires since tests use them
+* Fix receptorctl RPM release tag
+* Fix RPM source path
+* Initial RPM packaging
+* Add more workceptor tests (#131)
+* Fix status file locking race condition
+* Python worker no longer includes any platform-specific code
+* Update CheckUntilTimeout code
+* Test that when we configure tls we actually use it
+* Fix complex type names in cmdline help, and trim help messages to fit on 80 characters
+* Don't exit status loop on network read error
+* Major rewrite of Workceptor
+* Stop calling a WorkType a Service, because it isn't
+* Move control service and remote work to separate files
+* Remove unneeded workType struct
+* Expose the mesh and node directories for tests
+* Add Start, Shutdown CLINode functions and LibNode stubs
+* Add functional test for cancelling remote work (#119)
+* Specify node datadir
+* Cleanup test timeouts
+* Run more tests in parallel
+* Test client auth fails when using no key or unsigned key
+* Add simple Websocket ssl testing
+* Add some ssl key generation and client auth testing
+* Remove non-working SSL test so CI can pass. Test will be added back later
+* Get TLS working again in TCP backend
+* Add cost and nodecost cli and functional testing
+* Simplify the cli testing code and test negative costs for all listeners
+* Fix some flake with shutting down udp backends
+* Convert values to the correct type when possible and needed
+* Remove accidentally added file
+* make use of t.Fatal where appropriate
+* GitHub UI allows manual rebuilds, so we don't need this script
+* Add test for rejecting negative costs
+* Add some basic CLI tests for listeners
+* Use docker run directly instead of a docker action
+* Make a Go build cache in the CI runner image
+* Update CI for new tests
+* Rework Mesh building to be more extendable
+* Add receptorcontrol socket interface
+* Acquire the routingTableLock before we read the routingTable
+* Pull from current repo rather than hardcoding it
+* Provide script for triggering manual rebuilds
+* Use environment variable instead of hard-coding repo
+* Build from the right directory
+* Add checkout directory to $PATH so we can run Receptor from the CLITH
+* Fix daily workflow definition and add ability to trigger manually
+* Allow user to define a cost per remote node (#94)
+* Switch CI to using offline-built images instead of building each time
+* Compile for Windows and Mac in CI
+* Hide Unix flocks from Windows builds
+* Run control service Unix socket directly, not unnecessarily proxied
+* Don't allow AcceptStream failures to block Accept
+* Do not require --socket when calling --help (#89)
+* Cancel and release extend to remote units of work (#59)
+* Use k8s log instead of stdout, in case container finishes before we attach
+* Add work-kubernetes service
+* Fix file locking behavior in Unix socket proxy
+* Add CancelRead to netceptor.Conn and use it in Workceptor when a job is cancelled
+* Revert close behavior of unix proxy because closing here is premature
+* Unlock Unix socket on proxy service exit
+* Solve the hang with multiple netceptor instances with the same node ID
+* Ensure sessions and listeners shut down properly
+* Fix thread hang on connection loss
+* Don't stop after releasing one unit, and stop giving "local variable unitid referenced before assignment" errors
+* Acquire listenerLock before accessing listenerRegistry
+* Use the right netceptor in the status function
+* Add unit-of-work handling to receptorctl
+* Debug log the actual address our backends listen on
+* Add click to list of receptorctl requirements
+* Fix Shutdown test flake
+* Add goroutine leak check
+* Fix recvChannelizer comment
+* Use timeouts in BackendSession Recv method to fix leaking goroutine
+* Add tests for shutting down backends
+* Fix blocking behavior of Accept() so we properly stop listening
+* Default case is incorrect here
+* Fix blocking situations that were preventing clean shutdown
+* Fix race condition with shutting down backends
+* Add tests that use tls TCP and WS connections
+* Initial commit for receptorctl
+* Don't add unneeded \n to result text
+* Log more detail for JSON and struct unpacking errors
+* Add a space after the log prefix
+* Set the routing update log level to Info
+* Add ability to set the log level programmatically from callers
+* API users don't need access to the wait group any more
+* We don't really need separate contexts here
+* Rearrange back-end API
+* Make log levels case insensitive for command line users
+* Remove test data that shouldn't have been pushed
+* Add --work-python command
+* Take args from sys, not as function params
+* Enforce required parameters when loading from a file
+* Add receptor-python-worker execution wrapper for Python worker plugins
+* Add compound type and JSON handling
+* Add logger (#48)
+* Fix benchmark node naming
+* Test that every node has a route to every other node
+* Add tests for websocket listeners
+* Provide an API for getting the addr of the WS TCP port
+* Add functional tests
+* Add support for retrieving local address when running on an ephemeral port
+* Fix race condition
+* Replace x/net websocket with gorilla websocket (#23)
+* Enforce positive connection costs (#35)
+* Delete automerge GitHub action
+* Make known connection costs available in control socket status
+* Add automerge github action
+* Expose knownConnectionCosts in Netceptor.Status() (#36)
+* Move CI tasks to Makefile target so you can easily run them locally
+* Move CI to Docker (#33)
+* Use separate goroutines to monitor remote stdout and status
+* Acquire lock in getEphemeralService rather than assuming caller will do it
+* Revert connCheck stuff because it doesn't work
+* Update module name to new repo (#27)
+* Change repo name in imports (#25)
+* Update README with pointer to python-receptor
+* Improve command handling robustness (#20)
+* Add remote submission of jobs
+* Fix example for API changes
+* Remove todo.txt since we have issues now
+* Add new items
+* Connection weights done
+* Added connection weights
+* Add separate cancel command
+* Don't include hidden options in bash-completion
+* Add work item
+* Remove duplicate node detection for now because it doesn't work
+* Run work commands using a wrapper and pass status through a file
+* Mark phony targets as phony
+* Check forwarding node, not origin node, for connection peer name
+* Simplify work interface and store files in directories
+* Use workflow command to pass environment to next jobs
+* Revert "No need to set the bin path"
+* No need to set the bin path
+* Install golint
+* Set up Github Actions
+* Add admission control including allowed node list and duplicate node ID prevention
+* Add todo.txt
+* Expire seen updates
+* Add read deadline support
+* Update TODOs
+* Print newline
+* Change interface to control service functions, and make return values mostly JSON
+* Fix websockets
+* Print human-readable names of required objs
+* Fix error with renaming normal close error
+* Add streaming results from commands
+* Rework workceptor
+* Process all data before closing
+* Add interactive command service
+* Set subject name to prevent secure-to-insecure crossover and vice versa
+* Add ability to read config from a file
+* Add TLS to all stream-type services/backends
+* Allow control of permissions of Unix sockets
+* Rework command and socket structure
+* Advertise the workstat service
+* Don't try to do non-Windows things on Windows
+* Add fmt alias for format target
+* Add Unix socket proxy service
+* Properly handle destination address of the point-to-point interface
+* Add basic stdout and stderr handling
+* Include bash-completion information in help
+* Clean up command line help
+* Add file locking to prevent stomping on control socket
+* Add setting of IP address and route for IP tunnel
+* Show ping time
+* Remove debugging code
+* Fix condition
+* Correctly detect closed connection
+* Add missing newlines
+* Close write side on EOF without reporting an error
+* Fix typo
+* Add service advertising via broadcasts
+* Fix typo in comment
+* Add rudimentary worker support
+* Add note to expire seenUpdates
+* Switch to big-endian to not be weird and different from TCP/IP
+* Don't do Go builds during pre-commit
+* Add initial README.md
+* Add example code
+* Conn.Close() should only half-close the socket
+* Improve readability of --trace messages
+* Enforce service length limit
+* Add rudimentary control socket
+* Format with go fmt
+* Add --local-only option
+* Improve descriptions
+* Trim descriptions to be shorter
+* Add help and bash completion
+* Remove unneeded commented block
+* New CLI, fixed protocol
+* It's github.com, not github.org, geez
+* Improve error handling in backends
+* Add TODO
+* Improve error handling
+* Add TCP backend
+* Split single lock into multiple independent locks
+* Combine session classes into one
+* Only read lock in the hot path
+* Disable tun proxy on non-Linux
+* Use fixed length headers based on hashes
+* Put peer section back in (removed by accident)
+* Add lint convenience target to Makefile
+* Remove old test script from early demo video
+* Add websockets backend
+* Move UDP backend to backends package
+* Add .pre-commit-config.yaml that runs golint
+* Fix a lot of Go linter issues
+* Copy message data in UDP backend receive; add tracing
+* Add QUIC-based stream connections and TCP proxy
+* Add tun service
+* Run over UDP; pluggable backends; Go package interface; etc
+* Add license
+* Update routing table on connetion loss
+* Reduce wait time for route updates
+* Better tile layout
+* Remove no longer needed --service parameter
+* Initial commit
