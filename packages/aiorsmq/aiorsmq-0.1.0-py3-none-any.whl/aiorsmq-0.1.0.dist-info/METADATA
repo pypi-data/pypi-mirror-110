@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: aiorsmq
+Version: 0.1.0
+Summary: Async Python implementation of RSMQ.
+Home-page: https://github.com/federicotdn/aiorsmq
+Author: Federico Tedin
+Author-email: federicotedin@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/federicotdn/aiorsmq/issues
+Keywords: redis,asyncio,async,message,queue,mq
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aioredis (<3.0.0,>=2.0.0a1)
+
+# aiorsmq
+[![CI Status](https://github.com/federicotdn/aiorsmq/workflows/CI/badge.svg)](https://github.com/federicotdn/aiorsmq/actions)
+![Black](https://img.shields.io/badge/code%20style-black-000000.svg)
+![License](https://img.shields.io/github/license/federicotdn/aiorsmq.svg)
+
+Async Python implementation of RSMQ
+
+
