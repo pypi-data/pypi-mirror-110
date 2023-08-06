@@ -1,0 +1,12 @@
+{
+  "domain": "gogogate2",
+  "name": "Gogogate2 and iSmartGate",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/gogogate2",
+  "requirements": ["ismartgate==4.0.0"],
+  "codeowners": ["@vangorra", "@bdraco"],
+  "homekit": {
+    "models": ["iSmartGate"]
+  },
+  "iot_class": "local_polling"
+}
