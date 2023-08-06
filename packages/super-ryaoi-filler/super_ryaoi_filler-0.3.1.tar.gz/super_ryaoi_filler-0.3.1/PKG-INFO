@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: super-ryaoi-filler
+Version: 0.3.1
+Summary: 
+Author: ntoshihi
+Author-email: ntoshihi@student.42tokyo.jp
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
