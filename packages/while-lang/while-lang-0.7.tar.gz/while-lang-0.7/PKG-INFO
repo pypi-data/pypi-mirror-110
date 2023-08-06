@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: while-lang
+Version: 0.7
+Summary: A small Parser, Interpreter, and JIT Compiler for the Educational WHILE - Programming Language by Uwe Schoening.
+Home-page: https://github.com/ricffb/while-lang
+Author: Henrik Wachowitz
+Author-email: henrik.wachowitz@campus.lmu.de
+License: MIT
+Download-URL: https://github.com/ricffb/while-lang/archive/refs/tags/v0.7.tar.gz
+Description: UNKNOWN
+Keywords: WHILE,EDUCATIONAL,LMU,FSK,TIMI
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
