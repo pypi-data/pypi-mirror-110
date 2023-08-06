@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+textgameengine.egg-info/PKG-INFO
+textgameengine.egg-info/SOURCES.txt
+textgameengine.egg-info/dependency_links.txt
+textgameengine.egg-info/top_level.txt
