@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: bget
+Version: 2.0.0
+Summary: bget - a python bilibili favourites batch downloader
+Home-page: https://github.com/baobao1270/bget
+Author: Joseph Chris
+Author-email: joseph@josephcz.xyz
+License: MIT
+Project-URL: Source, https://github.com/baobao1270/bget.git
+Description: See: https://github.com/baobao1270/bget
+Keywords: python bilibili terminal
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
