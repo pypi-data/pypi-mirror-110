@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tadam
+Version: 0.0.1
+Summary: TAdam optimizer for Pytorch
+Home-page: https://github.com/kunzeng/tadam
+Author: kun zeng
+Author-email: zki@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+## TAdam
+
+The Pytorch implementation of TAdam algorithm in：'A decreasing scaling transition scheme from Adam to SGD'
+[https://arxiv.org/abs/2106.06749](https://arxiv.org/abs/2106.06749)
+
+### Usage
+
+```python
+from tadam import TAdam
+
+...
+
+optimizer = TAdam(model.parameters(), iters=required, lr=1e-3, moment=1/4, up_lr=0.3, low_lr=0.01)
+
+
+#iters(int, required): iterations
+#	iters = (testSampleSize / batchSize) * epoch
+#
+#moment(float, optional): transition moment
+#       moment = transition_iters / iters
+
+#set default value: moment=1/4, up_lr=0.3, low_lr=0.01
+```
+
+
+
+
+
+The code will be uploaded as soon as possible
+
+
+
