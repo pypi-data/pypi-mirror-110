@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+phlogo/__init__.py
+phlogo/expressway rg.ttf
+phlogo.egg-info/PKG-INFO
+phlogo.egg-info/SOURCES.txt
+phlogo.egg-info/dependency_links.txt
+phlogo.egg-info/requires.txt
+phlogo.egg-info/top_level.txt
