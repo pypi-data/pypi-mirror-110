@@ -1,0 +1,14 @@
+aiopath/__init__.py,sha256=PIKfbm0tb4zgHWl9O16DhHho3fDxyrkmoBUG1W6ZyxE,221
+aiopath/flavours.py,sha256=5sRDpHQxFnxKFDk2WEMIYPQtJBQPVtqTmUCmC6GYrkA,3237
+aiopath/handle.py,sha256=z4B5sCD4cIQtxVKCObz7YRG8XKEd0AO63U-xvKVnQjM,4220
+aiopath/path.py,sha256=e_lHuGdP6l_7wfi_QkOp99SPJOxCUU_IZq5cKIJVl68,19025
+aiopath/scandir.py,sha256=diBxqm804G9PApJCgRT_SuQajHLqKy47cpe28XYUTjo,1456
+aiopath/selectors.py,sha256=c6Z6AOTkELQ5jEqSRQim0En_DBXSWIkNbaP-p6Z__6Y,5306
+aiopath/types.py,sha256=h025islb7qnlXq1WozO3zsKFxAXRf2ZwcVZfyiWLZC4,213
+aiopath/wrap.py,sha256=ZVfCcxlsDZSKRa1B7a0hqy4RqFnuEPvX1UAHr-C_lyk,1726
+aiopath-0.6.8.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+aiopath-0.6.8.dist-info/METADATA,sha256=QYLBani9ReiMHAKYmq_POEY9ffUkj9DjwApQK0oNTpE,9736
+aiopath-0.6.8.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+aiopath-0.6.8.dist-info/top_level.txt,sha256=9IwWmb2gWIGuhvq9NWtA1Xe78z-nPQZ18u9JDolQwbc,8
+aiopath-0.6.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aiopath-0.6.8.dist-info/RECORD,,
