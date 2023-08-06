@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+yarp_parser/__init__.py
+yarp_parser/recursive_parser.py
+yarp_parser/streaming_lexer.py
+yarp_parser.egg-info/PKG-INFO
+yarp_parser.egg-info/SOURCES.txt
+yarp_parser.egg-info/dependency_links.txt
+yarp_parser.egg-info/top_level.txt
