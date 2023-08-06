@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+findersel/__init__.py
+findersel/core.py
+findersel/settings.py
+findersel.egg-info/PKG-INFO
+findersel.egg-info/SOURCES.txt
+findersel.egg-info/dependency_links.txt
+findersel.egg-info/top_level.txt
+findersel/scripts/findersel.applescript
