@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-image
+ClusterWrap
+zarr
+dask
+dask[array]
