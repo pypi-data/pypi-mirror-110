@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-web-framework
+Version: 0.0.1
+Summary: Python Web Framework built for learning purposes from tdd.io
+Home-page: UNKNOWN
+Author: AVS
+Author-email: avsanchez@protonmail.com
+License: MIT
+Description: Python Web Framework built for learning purposes from tdd.io
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
