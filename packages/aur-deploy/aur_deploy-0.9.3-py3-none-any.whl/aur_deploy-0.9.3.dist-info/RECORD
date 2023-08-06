@@ -1,0 +1,9 @@
+aur_deploy/__init__.py,sha256=xmN3si2tqLplINXHbix_u4kE87W4OHP-R7fk7glHwLM,62
+aur_deploy/__main__.py,sha256=FTCtCkkkhgReXmh-hjmNczYTMUaAdIBO_wHdMcSmk7I,842
+aur_deploy/aur_deploy.py,sha256=kl9TiQuwy2Au7pgNb_CwoRUkF7XGq2Bvo8hVeW9fY5w,8548
+aur_deploy-0.9.3.dist-info/LICENSE,sha256=EYkkgFyNR1cOGjudyVDWQmPYxkQ1k7zkubgBLZzymBk,1067
+aur_deploy-0.9.3.dist-info/METADATA,sha256=oA_9wWOGuO-Z1Ceker0lj3f1nZUHUa-wUZjP6HYsyNE,1173
+aur_deploy-0.9.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aur_deploy-0.9.3.dist-info/entry_points.txt,sha256=X6DkQQYjgRSgV2uUFwyCtfcPT24fFjbcqRlknNqIzlI,48
+aur_deploy-0.9.3.dist-info/top_level.txt,sha256=NzAfpTjX6FXOu7PEgGQBMs55SGNOiA8-NmON4YQjsQ4,11
+aur_deploy-0.9.3.dist-info/RECORD,,

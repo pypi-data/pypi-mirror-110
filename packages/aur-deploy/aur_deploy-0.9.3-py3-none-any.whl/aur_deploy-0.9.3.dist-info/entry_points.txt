@@ -1,0 +1,3 @@
+[console_scripts]
+aur-deploy = aur_deploy:main
+
