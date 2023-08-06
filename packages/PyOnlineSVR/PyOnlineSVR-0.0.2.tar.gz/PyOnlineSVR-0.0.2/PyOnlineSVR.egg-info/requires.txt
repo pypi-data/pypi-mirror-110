@@ -1,0 +1,12 @@
+joblib>=0.11
+numpy>=1.13.3
+scipy>=0.19.1
+scikit-learn>=0.23.0
+
+[doc]
+
+[test]
+flake8>=3.9.2
+mypy>=0.812
+pytest>=6.2.4
+pytest-cov>=2.11.1
