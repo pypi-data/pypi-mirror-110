@@ -1,0 +1,3 @@
+[console_scripts]
+gendoc = src.gen_doc:main
+
