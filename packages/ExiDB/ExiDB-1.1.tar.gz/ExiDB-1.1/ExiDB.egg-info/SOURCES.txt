@@ -1,0 +1,12 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+ExiDB.egg-info/PKG-INFO
+ExiDB.egg-info/SOURCES.txt
+ExiDB.egg-info/dependency_links.txt
+ExiDB.egg-info/requires.txt
+ExiDB.egg-info/top_level.txt
+exidb/__init__.py
+exidb/tool.py
