@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tradingsystems
+Version: 0.1.0
+Summary: Technical Analysis tools
+Home-page: https://github.com/GBERESEARCH/tradingsystems
+Author: GBERESEARCH
+Author-email: gberesearch@gmail.com
+License: MIT
+Description: ## tradingsystems
+        
+        ### End of day backtesting of technical trading rules
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
