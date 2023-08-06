@@ -1,0 +1,27 @@
+{% extends "_layout.html" %}
+{% block body %}
+
+<h2>Experiments</h2>
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>lifecycle_stage</th>
+        <th>artifact_location</th>
+    </tr>
+    {% for exp in experiments %}
+        <tr>
+            <td>
+                <a href="#" onclick="pyexec('disp_experiment', ['\'{{ exp.experiment_id }}\'']);">
+                    {{ exp.name }}
+                </a>
+            </td>
+            <td>{{ exp.lifecycle_stage }}</td>
+            <td><a href="{{ exp.artifact_console_url }}" target="_blank" title="{{ exp.artifact_location }}">
+                <i class="fa-forward fa">artifacts</i>
+            </a></td>
+        </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

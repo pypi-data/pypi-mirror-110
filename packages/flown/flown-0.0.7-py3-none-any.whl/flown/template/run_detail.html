@@ -1,0 +1,70 @@
+{% extends "_layout.html" %}
+{% block body %}
+
+    <h2>Run : {{ run_data.run_id }} </h2>
+    <span>in experiment :
+        <a href="#" onclick="pyexec('disp_experiment', ['\'{{ exp_info.experiment_id }}\'']);">
+            {{ exp_info.name }}
+        </a>
+    </span>
+    <span>by user : {{ run_data.user_id }}</span>
+
+    <section>
+        <div>
+            Run ID : <code>{{ run_data.run_id }}</code>
+            Run UUID : <code>{{ run_data.run_uuid }}</code>
+        </div>
+        <div>
+            Artifact Locations :
+            <a href="{{ run_data.artifact_console_url }}" target="_blank">
+                <i class="fa-forward fa">{{ run_data.artifact_uri }}</i>
+            </a>
+        </div>
+        <div>
+            Time :
+            {{ run_data.start_time }} - {{ run_data.end_time }}
+        </div>
+        <div>
+            Status :
+            {{ run_data.status }}
+        </div>
+    </section>
+
+    <h3>Note :</h3>
+    <section>
+        {{ run_data.note_html | safe }}
+    </section>
+
+    <h3>Params :</h3>
+    <section>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            {% for k,v in run_data.params.items() %}
+                <tr>
+                    <td>{{ k }}</td>
+                    <td>{{ v }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+    <h3>Metrics :</h3>
+    <section>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            {% for k,v in run_data.metrics.items() %}
+                <tr>
+                    <td>{{ k }}</td>
+                    <td>{{ v }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </section>
+
+{% endblock %}
