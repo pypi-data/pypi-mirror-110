@@ -1,0 +1,1 @@
+https://github.com/hklarner/PyBoolNet/tarball/master#egg=PyBoolNet-2.3.0

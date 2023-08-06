@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PyStableMotifs
+Version: 2.0.4
+Summary: Python package for analyzing Boolean Netowrk
+Home-page: https://github.com/jcrozum/PyStableMotifs
+Author: Jordan Rozum
+Author-email: jcr52@psu.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
