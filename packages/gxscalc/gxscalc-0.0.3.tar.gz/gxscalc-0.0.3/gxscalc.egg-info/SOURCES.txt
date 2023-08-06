@@ -1,0 +1,9 @@
+README.md
+setup.py
+gxscalc/__init__.py
+gxscalc/gxscalc.py
+gxscalc.egg-info/PKG-INFO
+gxscalc.egg-info/SOURCES.txt
+gxscalc.egg-info/dependency_links.txt
+gxscalc.egg-info/requires.txt
+gxscalc.egg-info/top_level.txt
