@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dacite-ignore-case
+Version: 1.0.0
+Summary: Extends dacite.from_dict with a ignore case function
+Home-page: UNKNOWN
+Author: zkdev
+Author-email: dev@zeekay.dev
+License: MIT
+Project-URL: Homepage, https://github.com/zkdev/dacite-ignore-case
+Project-URL: Bug Tracker, https://github.com/zkdev/dacite-ignore-case/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dacite-ignore-case
+Initialize dataclasses from dictionaries (based on dacite) but with case ignorance.
+
+## Usage
+```python
+import dacite_ignore_case
+from dataclasses import dataclass
+
+
+@dataclass
+class MyClass:
+  myKey: str
+  
+  
+data = {'mykey': 'value'}
+
+c = dacite_ignore_case.from_dict(MyClass, data)
+```
+
+## Installation
+`pip3 install dacite_ignore_case`
+
+
