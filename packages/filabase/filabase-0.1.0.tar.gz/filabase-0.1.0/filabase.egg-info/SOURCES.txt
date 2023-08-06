@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+filabase/__init__.py
+filabase/keyvaluestore.py
+filabase/storage.py
+filabase.egg-info/PKG-INFO
+filabase.egg-info/SOURCES.txt
+filabase.egg-info/dependency_links.txt
+filabase.egg-info/top_level.txt
