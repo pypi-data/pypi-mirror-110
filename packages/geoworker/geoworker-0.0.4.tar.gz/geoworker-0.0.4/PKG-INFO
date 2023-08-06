@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: geoworker
+Version: 0.0.4
+Summary: Functions for working with geographic data
+Home-page: https://github.com/costa86/geographic-worker
+Author: Lorenzo Costa
+Author-email: costa86@zoho.com
+License: MIT
+Keywords: GIS,latitude,longitute,geography,coordinates
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Geoworker
+
+`geoworker` is a Python package containing functionalities for working with geographic data.
+
+
+## Badges
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+  
+## Authors
+
+- [costa86](https://www.github.com/costa86)
+
+  
+## Getting started
+
+```python
+from geoworker import check_latitude, check_longitude, get_distance_coordinates_in_km
+
+#Latitude ranges from 90 to -90
+#Longitude ranges from 180 to -180
+
+lisbon = (38.865693, -9.138679)
+madrid = (40.459833, -3.719194)
+
+latitude = lisbon[0] 
+longitude = lisbon[1] 
+
+check_latitude(lisbon[0])
+check_longitude(lisbon[1])
+get_distance_coordinates_in_km(lisbon[0],lisbon[1],madrid[0],madrid[1])
+
+```
+

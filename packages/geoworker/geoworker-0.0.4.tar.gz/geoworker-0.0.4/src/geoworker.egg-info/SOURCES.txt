@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/geoworker.py
+src/geoworker.egg-info/PKG-INFO
+src/geoworker.egg-info/SOURCES.txt
+src/geoworker.egg-info/dependency_links.txt
+src/geoworker.egg-info/top_level.txt
