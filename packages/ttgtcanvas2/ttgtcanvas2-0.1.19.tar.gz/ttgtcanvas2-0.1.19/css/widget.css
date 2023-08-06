@@ -1,0 +1,49 @@
+#container {
+  position: fixed;
+  right: 40px;
+  bottom: 0;
+  min-width: 550px;
+  background-color: #fff;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  z-index: 105;
+}
+
+.bttn-txt {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 100%;
+  display: inline-block;
+}
+
+.ttgt-sidebar-bttn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 40px;
+  background-color: #f8f5e1;
+
+  z-index: 105;
+  height: 500px;
+}
+
+.ttgt-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  z-index: 105;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inherit;
+}
