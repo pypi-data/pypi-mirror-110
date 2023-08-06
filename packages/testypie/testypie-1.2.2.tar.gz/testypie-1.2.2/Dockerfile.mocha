@@ -1,0 +1,11 @@
+FROM node:14
+
+RUN npm install -g mocha
+
+ADD test /code/test
+
+WORKDIR /code
+
+RUN npm install global-agent
+
+CMD mocha tests/*.js

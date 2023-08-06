@@ -1,0 +1,3 @@
+def run(
+    args=None, catch=(), exit=True, out=None, err=None, *fn, **kwargs
+) -> None: ...

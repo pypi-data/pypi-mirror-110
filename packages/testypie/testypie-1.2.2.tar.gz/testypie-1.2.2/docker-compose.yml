@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  testypie:
+    build:
+      context: .
+      dockerfile: Dockerfile.testypie
+    volumes:
+      - ./fixtures:/code/fixtures
+    networks:
+      - testypie
+  mocha:
+    build:
+      context: .
+      dockerfile: Dockerfile.mocha
+    environment:
+      - GLOBAL_AGENT_ENVIRONMENT_VARIABLE_NAMESPACE=
+      - HTTP_PROXY=http://testypie:5000
+    networks:
+      - testypie
+    links:
+      - testypie
+
+networks:
+  testypie:
+    driver: bridge

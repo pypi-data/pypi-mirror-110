@@ -1,0 +1,14 @@
+FROM python:3
+
+ADD . /code
+
+WORKDIR /code
+
+RUN python setup.py sdist
+
+RUN pip install dist/*
+
+EXPOSE 5000
+
+ENV PYTHONPATH=/code
+CMD testypie 0.0.0.0 5000

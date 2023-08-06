@@ -1,0 +1,14 @@
+Flask
+requests
+httplib2
+PyYAML
+clize
+
+[test]
+pytest
+pytest-mypy
+pytest-pikachu
+types-requests
+types-Flask
+types-PyYAML
+types-Werkzeug
