@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+foolscript/__init__.py
+foolscript/ide.py
+foolscript/initdown.py
+foolscript/run.py
+foolscript.egg-info/PKG-INFO
+foolscript.egg-info/SOURCES.txt
+foolscript.egg-info/dependency_links.txt
+foolscript.egg-info/top_level.txt
+foolscript/DataKeys/DataKey.py
+foolscript/Includes/guimaker.py
