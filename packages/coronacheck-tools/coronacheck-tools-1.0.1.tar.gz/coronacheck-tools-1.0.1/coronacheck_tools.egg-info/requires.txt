@@ -1,0 +1,5 @@
+cleo>=0.8.1
+base58>=2.1.0
+pyzbar>=0.1.8
+opencv-python>=4.5.2.54
+asn1tools>=0.158.0
