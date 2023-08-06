@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: singularity-energy
+Version: 0.0.9
+Summary: Python SDK for api.singularity.energy
+Home-page: https://www.singularity.energy
+Author: Jeff Burka <jeffrey.burka@singularity.energy>
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3.0.0,>=2.0.0)
+
+# Python Singularity Energy SDK
+
+This package is the Python integration for real time energy data powered by [Singularity](https://www.singularity.energy)
+
+Read the full documentation on our [readthedocs page](https://singularity-energy.readthedocs.io/en/latest/)
+
+## Examples
+
+Here are a couple examples you can use to get started:
+
+
+```
+from datetime import datetime, timedelta
+from singularity import SingularityAPI, Regions, APIException
+
+
+singularity = SingularityAPI('API_KEY')
+
+
+end = datetime.utcnow()
+start = end - timedelta(hours=4)
+events, pagination = singularity.search_region_events(
+  Regions.ISONE,
+  'carbon_intensity',
+  start.isoformat() + 'Z',
+  end.isoformat() + 'Z'
+)
+```
+

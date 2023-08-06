@@ -1,0 +1,8 @@
+singularity/__init__.py,sha256=6PaYf-OWA9Hp2eH6meDDYX4K4ZNYkDqzmMNYAm5EbQU,218
+singularity/__version__.py,sha256=BNziE-h-ZZCRyjBBjM5sJJVGNts8YU0EOuPVd15wc4g,296
+singularity/api.py,sha256=Ypr7diJNkDP0sHQuKGsUTi8ckgHsaPFCYKYJBtMZj-U,13859
+singularity/exceptions.py,sha256=gvKUxC8MQiHCMRCNlHvDCpgLeX5IJarLWEBg2VywGlE,1056
+singularity_energy-0.0.9.dist-info/METADATA,sha256=Ie_eusCmA9erzsIvxriq-4QNJoq9_DUJ2yZ-zFrrBnY,1826
+singularity_energy-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+singularity_energy-0.0.9.dist-info/top_level.txt,sha256=gBq5e92fjlIOeIRzvuLQP2jxgOIUm71NlAhBpSiYFuo,12
+singularity_energy-0.0.9.dist-info/RECORD,,
