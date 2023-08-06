@@ -1,0 +1,11 @@
+batchrenamer/__init__.py,sha256=Jm16Jjfy6MGin8hk6Elc2fsvDEsU6zbV5As6jFEI_js,82
+batchrenamer/__main__.py,sha256=XbXeKZt8N45CRvum9R39oHbamtSX-j5nIfG4oZDiXtw,755
+batchrenamer/batchrenamer.py,sha256=XI0nemZy_JmBROe0Ec_n3tvlbG5IpOSzwEmYH3iTuAE,12836
+batchrenamer/filehistory.py,sha256=KiEhJ8EBjleNW2yFGyk8916bjhqHWntXmJCqV9L6_qo,2722
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_batchrenamer.py,sha256=XnSA2YAbixssmVIz9esK3cVLbQ4VHUDm14cp96Q-rhI,6263
+batchrenamer-1.3.0.dist-info/LICENSE,sha256=g7PjdvkUMJa85GMb6zUCyW8aX_yk5Ym1x7if5W5ULPI,1050
+batchrenamer-1.3.0.dist-info/METADATA,sha256=SIyU6B3hK_8IWqj174pN6Rj9tMmcfHmABQrck71mFIk,4712
+batchrenamer-1.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+batchrenamer-1.3.0.dist-info/top_level.txt,sha256=IquTE2hLfOzlxHh-eYQ9MWpAPma9WMqIhmtj3Y4tb8M,18
+batchrenamer-1.3.0.dist-info/RECORD,,
