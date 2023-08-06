@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: logging-process
+Version: 0.9.3
+Summary: 多进程日志，继承自python官方logging，解决多进程下log日志丢失及混乱问题
+Home-page: https://github.com/AsiaZhang123/process_log
+Author: zyz
+Author-email: 329737612@qq.com
+License: UNKNOWN
+Download-URL: https://github.com/AsiaZhang123/process_log/issues
+Description: # Example Package
+        
+        这是一个解决多进程下日志丢失的包。 
+        继承自python项目库logging。
+        所以完全兼容原logging，参数，用法都用变，直接改变类名称即可使用。
+        具体设置方法可以参考example.py
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
