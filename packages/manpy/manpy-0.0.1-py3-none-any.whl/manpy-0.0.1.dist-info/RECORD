@@ -1,0 +1,10 @@
+manpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manpy/_cli.py,sha256=sLfo8JCj-_kfBQwj1C7yTZq_a7pvkZapWMtuMXLYrbk,5473
+manpy/_template.py,sha256=KBZV1Y5lOiTgPIPJ2YjHhOsWKZw8gcCnIs6bPPbpZHs,1140
+manpy/_utils.py,sha256=Irwo9ftKmz7dsiNAVU7X1XaB_5eiP2kVSAAOc3CpJDQ,2101
+manpy-0.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+manpy-0.0.1.dist-info/METADATA,sha256=IVr6TPZeP1yy-aZ3IQU-vhAxjNY_mgwMqxsrVdM2ouk,212
+manpy-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+manpy-0.0.1.dist-info/entry_points.txt,sha256=7Xfc_jObseyEvz93WKx13tfR7poml-TpRk3ci9vlh4w,43
+manpy-0.0.1.dist-info/top_level.txt,sha256=5JSnAKAfvPCZQx0GWR14_TZxg3AOayu3AGiNFklH4_s,6
+manpy-0.0.1.dist-info/RECORD,,
