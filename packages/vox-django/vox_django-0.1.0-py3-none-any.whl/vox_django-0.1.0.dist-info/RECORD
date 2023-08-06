@@ -1,0 +1,15 @@
+vox_django/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vox_django/apps.py,sha256=kzsswCGN4gE4-dTbmabjbroGIBzHTHNHto7DcjWNmhs,484
+vox_django/criptografia.py,sha256=nn2qm6gfGS0RRn_L4nqfiNXDC_6bS8mJVnLDZPGvE6c,483
+vox_django/healthcheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vox_django/healthcheck/backends.py,sha256=lorGQUQyEcJMmHD6pYsEV_Rti1HgwcGlkFie84E9e8I,509
+vox_django/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vox_django/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vox_django/management/commands/generate_model_uml.py,sha256=KPtdJ6qBUV5l_hLHhO4nOucLChQD9sAxMXIgMfgap6o,459
+vox_django/middleware.py,sha256=W6RKCVWRRTm_TMW-JpA3l0i8K8NeG3yIalDdIUNJSV8,932
+vox_django/models.py,sha256=yWfb-5DVK4HYwpVc-wFsIohEyToQbg9G10aYjdYocxg,1170
+vox_django/test_runner.py,sha256=iqwvtFYDKI-jqwVjrD3KiyUzrncszR0m3e_Lg3_X0eI,553
+vox_django/tests.py,sha256=hht5HoKjuJYH82wB_-quuYlqd27WDGpB93DAmlWqFIQ,3429
+vox_django-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vox_django-0.1.0.dist-info/METADATA,sha256=us1v2gBHMtadlq1ESLcqsBy3vWiqvlZPruMUf2iDOAg,769
+vox_django-0.1.0.dist-info/RECORD,,
