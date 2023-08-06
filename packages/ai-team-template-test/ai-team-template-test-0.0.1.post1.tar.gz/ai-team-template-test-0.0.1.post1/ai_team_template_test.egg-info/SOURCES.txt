@@ -1,0 +1,7 @@
+setup.py
+ai_team_template_test.egg-info/PKG-INFO
+ai_team_template_test.egg-info/SOURCES.txt
+ai_team_template_test.egg-info/dependency_links.txt
+ai_team_template_test.egg-info/namespace_packages.txt
+ai_team_template_test.egg-info/top_level.txt
+ai_team_template_test.egg-info/zip-safe
