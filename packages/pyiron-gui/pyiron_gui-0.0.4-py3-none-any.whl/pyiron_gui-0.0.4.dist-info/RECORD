@@ -1,0 +1,10 @@
+pyiron_gui/__init__.py,sha256=BFhrdnQrbaA5UQfrjX4mcN9v4W-n7qLSGYyMeU06xk4,250
+pyiron_gui/_version.py,sha256=kjNTWNvq2vDIkLY18iez4TuZ0_8hB02gWINTVzPCdsc,18685
+pyiron_gui/project/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyiron_gui/project/project.py,sha256=ZF4oP3L1cRUcA6r3ykEHZHWEjFIcrmqAmISnwQqW3eA,1878
+pyiron_gui/project/project_browser.py,sha256=ne244FVWSWZrtfxPavoFehin1gtnURma5WaliJ3wjTQ,22471
+pyiron_gui-0.0.4.dist-info/LICENSE,sha256=J7sWrMwFAfrxp47mJvX91eBs0bk9xNqH1CS4MidFZvI,1622
+pyiron_gui-0.0.4.dist-info/METADATA,sha256=xvj_J5zSXgBNYKbQiU2-83k7DSmJA-jxXMCyuJ0B3uI,1175
+pyiron_gui-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyiron_gui-0.0.4.dist-info/top_level.txt,sha256=mKeBhf0W_zrJGojvwFi-udqXUq1Fk6VR3N3j_AIRqEE,11
+pyiron_gui-0.0.4.dist-info/RECORD,,
