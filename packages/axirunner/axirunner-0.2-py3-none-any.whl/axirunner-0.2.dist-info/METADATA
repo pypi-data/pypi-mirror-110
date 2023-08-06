@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: axirunner
+Version: 0.2
+Summary: Make synthetic seismograms using Axitra. The easy way™.
+Home-page: http://www.ipgp.fr/~satriano
+Author: Claudio Satriano
+Author-email: satriano@ipgp.fr
+License: CeCILL Free Software License Agreement, Version 2.1
+Platform: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >3
+Description-Content-Type: text/markdown
+Requires-Dist: obspy (>=1.2.0)
+Requires-Dist: scipy (>=0.17)
+Requires-Dist: proj
+
+# AxiRunner
+Make synthetic seismograms using [Axitra]. The easy way™.
+
+(c) 2020-2021 Claudio Satriano
+
+[axitra]:https://github.com/coutanto/axitra
+
+## Installation
+Clone or download this repository, then from within the main repository directory, run:
+
+    pip install .
+
+You can also install in editable mode (for developers), with:
+
+    pip install -e .
+
+## Running
+To generate a sample set of config files:
+
+    axirunner -s
+
+The sample config files should be (hopefully) self-explanatory.
+
+To run, using a config file:
+
+    axirunner -c <CONFIGFILE>
+
+To get help:
+
+    axirunner -h
+
+## Limitations
+Only the "moment" version of Axitra is currently supported and only for
+double-couple sources.
+
+## Getting Axitra
+Take a look [here](https://github.com/coutanto/axitra).
+
+## Citing Axitra
+If you used this package or the original Axitra for a scientific publication,
+please cite the following paper:
+
+> Cotton, F., & Coutant, O. (1997). Dynamic stress variations due to shear
+> faults in a plane-layered medium. Geophysical Journal International,
+> 128(3), 676–688, doi:
+> [10.1111/j.1365-246x.1997.tb05328.x](https://doi.org/10.1111/j.1365-246x.1997.tb05328.x).
+
+
