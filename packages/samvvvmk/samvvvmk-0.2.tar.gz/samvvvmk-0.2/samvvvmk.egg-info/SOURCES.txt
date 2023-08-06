@@ -1,0 +1,10 @@
+README.md
+setup.py
+samvvvmk/__init__.py
+samvvvmk/lib2.py
+samvvvmk/lib3.py
+samvvvmk.egg-info/PKG-INFO
+samvvvmk.egg-info/SOURCES.txt
+samvvvmk.egg-info/dependency_links.txt
+samvvvmk.egg-info/not-zip-safe
+samvvvmk.egg-info/top_level.txt
