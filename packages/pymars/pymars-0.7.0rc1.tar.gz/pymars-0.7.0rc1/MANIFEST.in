@@ -1,0 +1,9 @@
+global-include *.pyx
+global-include *.pxd
+global-include *.yml
+global-exclude *.c
+global-exclude *.cpp
+global-exclude */**/tests/*.yml
+include mars/.git-branch
+include mars/lib/mmh3_src/*
+global-exclude .DS_Store
