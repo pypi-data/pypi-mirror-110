@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+scriptifier/__init__.py
+scriptifier/puppet_script.py
+scriptifier/scriptifier.py
+scriptifier.egg-info/PKG-INFO
+scriptifier.egg-info/SOURCES.txt
+scriptifier.egg-info/dependency_links.txt
+scriptifier.egg-info/top_level.txt
