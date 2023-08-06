@@ -1,0 +1,7 @@
+setup.py
+pymssql-python2-stubs/METADATA.toml
+pymssql-python2-stubs/__init__.pyi
+types_pymssql.egg-info/PKG-INFO
+types_pymssql.egg-info/SOURCES.txt
+types_pymssql.egg-info/dependency_links.txt
+types_pymssql.egg-info/top_level.txt
