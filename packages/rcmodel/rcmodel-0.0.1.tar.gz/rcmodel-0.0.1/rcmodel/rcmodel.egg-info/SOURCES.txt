@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+rcmodel/rcmodel.egg-info/PKG-INFO
+rcmodel/rcmodel.egg-info/SOURCES.txt
+rcmodel/rcmodel.egg-info/dependency_links.txt
+rcmodel/rcmodel.egg-info/top_level.txt
