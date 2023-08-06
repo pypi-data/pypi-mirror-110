@@ -1,0 +1,13 @@
+bospell/__init__.py,sha256=JEUcaRiaeTE66AB7Aq52KjWYvKModF-7v-HLwvSLOZ0,1032
+bospell/config.py,sha256=bt_0m9s2eT9_8TPOT_BTkbJLa0GfDeLPuwEbvqbbo0A,628
+bospell/error.py,sha256=6ovlbDvqGDG5GiTIqsyvEikPNd9EnTFs_1W0Yzssjwo,332
+bospell/lm.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bospell/text.py,sha256=D_jfTt_G2SUG0INTayafQmI6AJFHE3vPJX7JBnWhVDs,1091
+bospell/tokenizers.py,sha256=DJDfFNWaMR-Iux_H1gt9QwvGUGjS_e3sM_p1tGH2kjA,579
+bospell/utils.py,sha256=PaRAEPjTmKOIPGKkJvvwDlY90Qu7e1tiBhY66HMqqWg,239
+bospell/candidates/__init__.py,sha256=ctIcsBLPr554qzG_50eCE445uTPXthrditQJAIcfvuA,180
+bospell/candidates/symspell.py,sha256=52BkQ4PphJN7cA8M6t1hHQ5hMjgd2GH_1CgLcA73hvU,1123
+bospell-0.0.2.dist-info/METADATA,sha256=LIezhttFOUO38CrpZAlDIvjmlkavMHBgOf9nfhiIZXo,862
+bospell-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bospell-0.0.2.dist-info/top_level.txt,sha256=mbHche5s6LDVIMnAindvrcbHsMP-ydjXvkKoOASKVDc,8
+bospell-0.0.2.dist-info/RECORD,,
