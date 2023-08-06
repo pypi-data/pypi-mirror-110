@@ -1,0 +1,3 @@
+[console_scripts]
+symbolator = symbolator.client:run
+
