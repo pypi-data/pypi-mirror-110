@@ -1,0 +1,18 @@
+[console_scripts]
+glotaran = glotaran.cli.main:glotaran
+
+[glotaran.plugins.data_io]
+ascii = glotaran.builtin.io.ascii.wavelength_time_explicit_file
+nc = glotaran.builtin.io.netCDF.netCDF
+sdt = glotaran.builtin.io.sdt.sdt_file_reader
+
+[glotaran.plugins.model]
+kinetic_image = glotaran.builtin.models.kinetic_image
+kinetic_spectrum = glotaran.builtin.models.kinetic_spectrum
+spectral = glotaran.builtin.models.spectral
+
+[glotaran.plugins.project_io]
+csv = glotaran.builtin.io.csv.csv
+folder = glotaran.builtin.io.folder.folder_plugin
+yml = glotaran.builtin.io.yml.yml
+
