@@ -1,0 +1,11 @@
+CodetagCrawler/__init__.py,sha256=WuduKHZTXwCNtnNLNeIIFBDxIxFhKBhsdQfK1J5hhNA,94
+CodetagCrawler/__main__.py,sha256=X2x4A5AVtzzNLtTgrBxEBivzeZ3SiZqgN8VggWhiduY,61
+CodetagCrawler/cli.py,sha256=myVSUUV5B4Zs5shaqxB-Tsrv9_2_i1YXGXmhiLM7JJA,1267
+CodetagCrawler/comment_processing.py,sha256=IPsrYjGe7i3cP8VOGkSAEPfCT8-6AopseKJyg-MBZpE,9695
+CodetagCrawler/csv.py,sha256=8KwGgtX1b4LZLK6vtJHpek8fPZC3gX7XfzJO7ECqbus,2904
+CodetagCrawler/metadata_handler.py,sha256=z0yBgYvVDTf7VAIzUlzCb_E3FVVBju3HcqG7Qf3dRVM,143
+CodetagCrawler-1.0.17.dist-info/LICENSE,sha256=-00iPiXL_TwnwBwoZzFSCvKvXFX44bzxHrOH8RoKPF0,1097
+CodetagCrawler-1.0.17.dist-info/METADATA,sha256=d1eqLkCBN2igFvz0pwEGFfzIPJC39inGi8xRLQgABDM,4170
+CodetagCrawler-1.0.17.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+CodetagCrawler-1.0.17.dist-info/top_level.txt,sha256=SO7hlWV4Mmdljf34qH7j0oxiC1rRBscG6hTRKqftqBM,15
+CodetagCrawler-1.0.17.dist-info/RECORD,,
