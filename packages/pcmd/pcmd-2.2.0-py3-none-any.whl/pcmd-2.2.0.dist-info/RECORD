@@ -1,0 +1,12 @@
+pcmd/__const__.py,sha256=6hnTJU8701_x5osUGyBc2YHFiIJP1gYCAv43JQHVPDQ,772
+pcmd/__core__.py,sha256=FldlabfLRaQwXOCVBGthe8MI-UarnnFi-O7h4YSJJzU,3446
+pcmd/__echoes__.py,sha256=ts5QYiNLiRGQd6NDru1ixw8Ff0SmEzz1_FacFmENJw0,2805
+pcmd/__helper__.py,sha256=hpEZpOMNpIWLkPqxicG2iqIXCd65ZRnofMWY0UcVj4c,705
+pcmd/__init__.py,sha256=Z-2GKJ54yxuAHt7eV0htVG5oE_ZB48ISGLd_-8_Htws,28
+pcmd/__main__.py,sha256=kWgujrQ-0vGx3feSyhNfZzBUcqKb7y9L0d6bB_sfVrY,139
+pcmd/main.py,sha256=iMIe2rR-_vIzrrRvOsu2MSBQcwqb73DtjeNxQwJYubw,4586
+pcmd-2.2.0.dist-info/entry_points.txt,sha256=7fSX5BEBt9WEMp-saow0ayk2seKiqskdp62DdnpAtoI,38
+pcmd-2.2.0.dist-info/LICENSE,sha256=kyP6zWtYK3Ke2itaoOUDE5NW5Ob9kwD7bgHs9orBrLc,11547
+pcmd-2.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pcmd-2.2.0.dist-info/METADATA,sha256=pTdqCrl3EK4KQXaOGOSM1zpLjDQ-yrSOm8u0RQrSMmI,1607
+pcmd-2.2.0.dist-info/RECORD,,
