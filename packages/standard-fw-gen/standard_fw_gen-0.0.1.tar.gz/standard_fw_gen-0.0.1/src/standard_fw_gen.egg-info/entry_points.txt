@@ -1,0 +1,3 @@
+[console_scripts]
+standard_fw_gen = src.standard_fw_gen:main
+
