@@ -1,0 +1,5 @@
+requests
+paho-mqtt>=1.5.1
+pycryptodome>=3.10.1
+qrcode[pil]
+coloredlogs
