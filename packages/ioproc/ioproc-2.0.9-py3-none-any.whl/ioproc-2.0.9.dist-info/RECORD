@@ -1,0 +1,17 @@
+ioproc/__init__.py,sha256=HHQs5Vs4jM-qCtA6aD5f-NX0o0oC-qn8zqWhTuNdwtw,647
+ioproc/__main__.py,sha256=v5dzr2C8KC2QhRiynBsIqzr_IircLlVFc-tqj8WbhDM,529
+ioproc/actionmanager.py,sha256=mFLUskxUxTiZgCrtb-xXm06rOEe_us_c5zIMGX-eVgk,3488
+ioproc/config.py,sha256=nyARSXkDyJZiYkA6K2aj3Mg8ypzSBhooB6VKlMUwhpY,8833
+ioproc/datamanager.py,sha256=LBOZDOtFpl4IwLp3bAK-Ie8nJxjP1DWPLlDS8ImeK60,12057
+ioproc/defaults.py,sha256=_tLkEpDR-_wPA19m6UA6WvBRwIQbJPYM-ZPmLW32L9w,3935
+ioproc/driver.py,sha256=kTtglqKu5FqAL5zDtLTyoH5Ru5WjQGhXczLHprByb6Y,7321
+ioproc/exceptions.py,sha256=ekeAoLPfogYfAhyXLGqCnxaYJ4hheRLpRLIA-hEb_OA,449
+ioproc/logger.py,sha256=7hPIiaym0zrmLe9WdIX-aOK21WL_LTLYdNEn9juHqUw,4869
+ioproc/runners.py,sha256=UUDD2cogzlByCgGBpfZXmMbKaIJFHS1qGY_3JTFI-DU,1132
+ioproc/schemas.py,sha256=7crh2kSw0nDWKKNY2Vfo9gV1b8bOSIukBh8GCTg2JSc,3185
+ioproc/tools.py,sha256=wUPb09gGsbRFyZpgcplt1M6CTUBwa_fLHac__ysmXT4,4311
+ioproc-2.0.9.dist-info/entry_points.txt,sha256=11fT3HSrAYMyp8jQNJcNcZdrZ6_LARywBGfdweX7jq8,37
+ioproc-2.0.9.dist-info/LICENSE,sha256=EdYO8ismbQeuB3Mtdnfst-7y__P7RVRXjaPAvrUCGG0,1095
+ioproc-2.0.9.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+ioproc-2.0.9.dist-info/METADATA,sha256=05gyEjIU9O5Neb1CMHWSd_3o8mVjT3zZwkyjGNO07vg,5767
+ioproc-2.0.9.dist-info/RECORD,,
