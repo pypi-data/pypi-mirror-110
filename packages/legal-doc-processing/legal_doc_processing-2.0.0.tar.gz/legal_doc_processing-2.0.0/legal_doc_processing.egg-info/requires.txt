@@ -1,0 +1,7 @@
+pandas
+nltk
+transformers
+spacy
+tensorflow
+clean-text
+word2vec
