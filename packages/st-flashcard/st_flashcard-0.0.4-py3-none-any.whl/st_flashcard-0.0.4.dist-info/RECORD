@@ -1,0 +1,16 @@
+flash_card/__init__.py,sha256=w6CHarTGPHiAUbGWlZfIlTLnXcSGQ_gVGS_tHZuNK3I,6342
+flash_card/frontend/build/asset-manifest.json,sha256=eP3YrVacDtSDzKN78YSSwV-d_fqFCDeIBcMYYtrQAVw,691
+flash_card/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+flash_card/frontend/build/index.html,sha256=ltUpHvybzkfU3GKlgtZn1YVK7mSb1Rv5N0BedEzhuoY,2101
+flash_card/frontend/build/static/js/2.c97c516a.chunk.js,sha256=NdD6I1m1-LmncjPWGWFO2yw7ftTy19XXfBlviM2-MXA,561177
+flash_card/frontend/build/static/js/2.c97c516a.chunk.js.LICENSE.txt,sha256=SyHyEzOj1iHe5LSMbLpYxsfKJUFJWUu7PVzxV2K2ZO8,3480
+flash_card/frontend/build/static/js/2.c97c516a.chunk.js.map,sha256=hhXcsjySuUejJffGkotq3sm3L_XTUWtrESL5dLzYtBY,2141229
+flash_card/frontend/build/static/js/main.ef61fddc.chunk.js,sha256=p8CEFrS5mcRx1s8xjbiAvGhMTFCYE-asos-0ObwK9-0,2134
+flash_card/frontend/build/static/js/main.ef61fddc.chunk.js.map,sha256=PvpfFBeA_8ODyNANs6TmSDUurxShDFoqMIv7sBas_3A,6039
+flash_card/frontend/build/static/js/runtime-main.5935c03d.js,sha256=vEu_dLnUdPXGaRrW57biR4wKZBs5ZDVFDdPWDshp61Q,1598
+flash_card/frontend/build/static/js/runtime-main.5935c03d.js.map,sha256=qgshI4ZGiSIb8Owi6crQ7dAXFQyrZBsTGge42-cB0PM,8317
+st_flashcard-0.0.4.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+st_flashcard-0.0.4.dist-info/METADATA,sha256=ALa6KB03hJ9rbqc8x6PrA3deypXvP1zR2k0n8jrgcRQ,385
+st_flashcard-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+st_flashcard-0.0.4.dist-info/top_level.txt,sha256=eOIV3yB1sSLhqUtvf7lLA57VvrmvZVle_kXFA94IoSo,11
+st_flashcard-0.0.4.dist-info/RECORD,,
