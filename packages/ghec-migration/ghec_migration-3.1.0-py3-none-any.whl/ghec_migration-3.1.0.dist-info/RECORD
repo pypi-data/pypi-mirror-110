@@ -1,0 +1,11 @@
+find_new_git_url.py,sha256=Z1WIITctH3YWc0IUP4Dh-3rH9Vjz6ydBExO8v17vNSM,1140
+ghec_migration.py,sha256=N5ymT5l9VSOf2Gh2uVCNkP5J5SypMtmlRfi1ztsm1-U,9133
+github_migration.py,sha256=Zhz7qSFmxvqcjH4tq4jKnFglgiPBdgvDji-d9VpeJlM,21158
+jenkins_migration.py,sha256=4xTyxearH_x3m_w72t8_f_JGdXcjDs6blM4gYOsNvl0,8408
+make_private.py,sha256=mlFcEVL2OVcpjyJHgWlcI_rHU9jH2-PHe8REcwimF_g,1750
+update_topics_for_team.py,sha256=_QYzTFNCwasrcR7r7N5gXLfE9FmJ2wUpbvRKVPsj2LM,3860
+ghec_migration-3.1.0.dist-info/METADATA,sha256=zX6zteNI8z-GsumGNYx2fJ9A-tmZyLgPeLzk5aNieQY,8178
+ghec_migration-3.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ghec_migration-3.1.0.dist-info/entry_points.txt,sha256=4qzqy7UwUwV31Zi3Y43EQlHsICYa5ZB1aDbJJnVnJsQ,56
+ghec_migration-3.1.0.dist-info/top_level.txt,sha256=LaMKd1EzB_2C71m3MaUa0o9IYXPyRWmsRv4xS6HuMEQ,103
+ghec_migration-3.1.0.dist-info/RECORD,,
