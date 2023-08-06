@@ -1,0 +1,14 @@
+{
+    "ante_build": [
+        "jupitest.hooking.ante_build_hook"
+    ],
+    "ante_release": [
+        "jupitest.hooking.ante_release_hook"
+    ],
+    "post_build": [
+        "jupitest.hooking.post_build_hook"
+    ],
+    "post_release": [
+        "jupitest.hooking.post_release_hook"
+    ]
+}
