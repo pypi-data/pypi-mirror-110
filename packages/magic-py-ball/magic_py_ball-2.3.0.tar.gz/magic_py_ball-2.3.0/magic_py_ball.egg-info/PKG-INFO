@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: magic-py-ball
+Version: 2.3.0
+Summary: A simple magic 8 ball
+Home-page: https://github.com/bsoyka/magic-py-ball
+Author: Ben Soyka
+Author-email: bensoyka@icloud.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/bsoyka/magic-py-ball
+Project-URL: Changelog, https://github.com/bsoyka/magic-py-ball/releases
+Description: # Magic Py Ball
+        
+        **Magic Py Ball** is a simple Python implementation of a random magic 8 ball.
+        
+        ```py
+        >>> answer()
+        'Without a doubt.'
+        ```
+        
+        [![Downloads](https://pepy.tech/badge/magic_py_ball)](https://pepy.tech/project/magic_py_ball)
+        [![Supported Versions](https://img.shields.io/pypi/pyversions/magic_py_ball.svg)](https://pypi.org/project/magic_py_ball)
+        [![License](https://img.shields.io/pypi/l/magic_py_ball)](https://github.com/bsoyka/magic-py-ball/blob/master/LICENSE)
+        [![Version](https://img.shields.io/pypi/v/magic_py_ball?label=latest)](https://pypi.org/project/magic_py_ball)
+        
+        ## Installation
+        
+        Magic Py Ball is available on PyPI:
+        
+        ```console
+        $ python -m pip install magic_py_ball
+        ```
+        
+        Magic Py Ball officially supports Python 2.7 and 3.5+.
+        
+        ## API Reference
+        
+        ### `magic_py_ball.ANSWERS`
+        
+        A `list` of `str` objects representing all possible magic 8 ball answers
+        
+        ### `magic_py_ball.answer()`
+        
+        Gets a random magic 8 ball answer using `random.choice()`.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
