@@ -1,0 +1,3 @@
+from typing import Any
+
+def semantic_segmentation_post_process(results: Any, image: Any): ...
