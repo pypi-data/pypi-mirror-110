@@ -1,0 +1,8 @@
+setup.py
+src/main/python/githubcitest/__init__.py
+src/main/python/githubcitest/test_class.py
+src/main/python/githubcitest.egg-info/PKG-INFO
+src/main/python/githubcitest.egg-info/SOURCES.txt
+src/main/python/githubcitest.egg-info/dependency_links.txt
+src/main/python/githubcitest.egg-info/requires.txt
+src/main/python/githubcitest.egg-info/top_level.txt
