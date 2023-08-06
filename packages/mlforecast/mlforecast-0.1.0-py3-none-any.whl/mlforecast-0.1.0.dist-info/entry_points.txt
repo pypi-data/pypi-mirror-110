@@ -1,0 +1,3 @@
+[console_scripts]
+mlforecast = mlforecast.cli:app
+
