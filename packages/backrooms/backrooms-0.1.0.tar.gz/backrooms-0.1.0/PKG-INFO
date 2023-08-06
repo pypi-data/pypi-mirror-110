@@ -1,0 +1,49 @@
+Metadata-Version: 1.1
+Name: backrooms
+Version: 0.1.0
+Summary: 3D, CISC Architecture and Esolang
+Home-page: https://github.com/cmcmarrow/backrooms
+Author: Charles McMarrow
+Author-email: Charles.McMarrow.4@gmail.com
+License: Apache Software License 2.0
+Description: ##################
+        Backrooms - v0.1.0
+        ##################
+        
+        ********
+        Warning!
+        ********
+        Backrooms is still in Development Status Alpha!
+        This means backwards compatibility break can and will happen!
+        The core idea of the language has been laid out but expect rules â€œinstructions" to change.
+        Also some rules have not been implement yet.
+        
+        
+        *****
+        About
+        *****
+        This python module "backrooms" is an `Esolang <https://esolangs.org/wiki/Main_Page>`_.
+        
+        backrooms was inspired by:
+            * backrooms Creepypasta/MEME
+            * ASCIIDOTS Esolang
+            * CISC Architecture
+        
+        Backrooms was designed to be:
+            * hackable VIA memory overflow attacks, poor error handling, ect.
+            * visually pleasing.
+            * enjoy able to write small/medium programs.
+            * capable to rewrite all of a program at run-time.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
