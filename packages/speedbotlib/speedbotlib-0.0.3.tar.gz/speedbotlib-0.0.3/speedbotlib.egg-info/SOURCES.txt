@@ -1,0 +1,7 @@
+README.md
+setup.py
+speedbotlib/test.py
+speedbotlib.egg-info/PKG-INFO
+speedbotlib.egg-info/SOURCES.txt
+speedbotlib.egg-info/dependency_links.txt
+speedbotlib.egg-info/top_level.txt
