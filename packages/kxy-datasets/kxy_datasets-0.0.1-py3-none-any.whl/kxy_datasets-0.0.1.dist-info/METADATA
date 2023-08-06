@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: kxy-datasets
+Version: 0.0.1
+Summary: A repository with a wide range of datasets, synthetic and real-life to stress-test the kxy package
+Home-page: https://www.kxy.ai
+Author: Dr. Yves-Laurent Kom Samo
+Author-email: github@kxy.ai
+License: GPLv3
+Download-URL: https://github.com/kxytechnologies/kxy-datasets/archive/v0.0.1.tar.gz
+Project-URL: Documentation, https://www.kxy.ai/reference
+Project-URL: Source Code, https://github.com/kxytechnologies/kxy-datasets/
+Keywords: Supervised Learning Datasets
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.13.1)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: requests (==2.22.0)
+
+UNKNOWN
+
+
