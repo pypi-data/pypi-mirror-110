@@ -1,0 +1,16 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_mlops/__init__.py,sha256=8mChqAoeAx_KFZjDA4wwCy5WoW22CNizxyPRwh84ktc,778
+aws_mlops/data_storage.py,sha256=eUZLXJTyXFpHva1U0OEqa_RNP7OvyL9IzbPa54dc96M,10413
+aws_mlops_more/__init__.py,sha256=8mChqAoeAx_KFZjDA4wwCy5WoW22CNizxyPRwh84ktc,778
+aws_mlops_more/data_storage.py,sha256=eUZLXJTyXFpHva1U0OEqa_RNP7OvyL9IzbPa54dc96M,10413
+aws_mlops_more/mlops.py,sha256=QvIM4Yo33x2rClAxSxJL5L0e_t1kPOMIqsH71DZYtuM,2356
+aws_mlops_more/modelling.py,sha256=Hao3qPVUK5OsKk_cGWhH1uYQPJIM-JAh_NuMtajaMtI,7230
+aws_mlops_more/processing.py,sha256=qxHiOdLokyMvzRDNAKjAiWjoJh-8CM_YnWV7mEw0R98,4557
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/config.py,sha256=JZiZdueg-8nMRqKNXziJF9pl32Ei8KnAsl6Ma2j3Wys,978
+tests/test_data_storage.py,sha256=cy6FbbY9T8bj1XNBIMLiJKbw7RzJJ_3dRRuCN4gsIsU,5403
+aws_mlops-0.0.2.dist-info/LICENSE,sha256=58Q67kWDiSxuSA4RvuOpN9xDasXI5ZRWT4pEMayskUA,1080
+aws_mlops-0.0.2.dist-info/METADATA,sha256=qH_hLaw0rH0qLpfnT_PnBn75rKnir8MtRpR9emsQVe4,2592
+aws_mlops-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_mlops-0.0.2.dist-info/top_level.txt,sha256=_k81uK0zsTaDcLwvvFI25YWwezwupz85QTob0LUqmq4,35
+aws_mlops-0.0.2.dist-info/RECORD,,
