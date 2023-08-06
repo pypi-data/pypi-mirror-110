@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mgrant=mongogrant.scripts.mgrant:cli
+    
