@@ -1,0 +1,8 @@
+[console_scripts]
+create_gs_dataframe=src.gda_analysis.create_dfs:create_gs_df
+create_vcf_dataframe=src.gda_analysis.create_dfs:create_vcf_d
+export_join_dfs=src.gda_analysis.display_dataset:output_toexcel
+join_dfs=src.gda_analysis.create_dfs:join_vcf_and_gs
+main=src.gda_analysis.create_dfs:main
+test_join_dfs=src.gda_analysis.display_dataset:display_analyzed_data
+
