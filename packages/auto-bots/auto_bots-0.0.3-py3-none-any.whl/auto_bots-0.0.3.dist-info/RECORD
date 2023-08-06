@@ -1,0 +1,11 @@
+AutoTS/AutoTS.py,sha256=UNptvXzIlM6KR1jngM3uc8uL5N5UAw2m6PiVP3wTpLk,24493
+AutoTS/__init__.py,sha256=lKsIM6yvrOxhldbDcTOQpE6f_a6Qa1CEEFlH1WEsGXk,26
+AutoTS/utils/CandidateModel.py,sha256=lghVsba_gldMacHEC0KCkQv924v5Ci01xc3FOPOnxxk,205
+AutoTS/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AutoTS/utils/error_metrics.py,sha256=e05Zr72jsQvbPJ1pTeCUy88F45hkkLKhGZWj626SiUY,975
+AutoTS/utils/validation.py,sha256=AFYpY97z8966R06lFIpPdaJl7z1QzwHEFmyovnLrNf8,2670
+auto_bots-0.0.3.dist-info/LICENSE,sha256=SiSJBNC9GgFzixTC3vDNpFjOHvHP2f_Y7Tu7lpKltQQ,1069
+auto_bots-0.0.3.dist-info/METADATA,sha256=FGvdY0FdPorr-TuSyOW529O1Z1jVc-54anquTCMRAS8,2176
+auto_bots-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+auto_bots-0.0.3.dist-info/top_level.txt,sha256=UQ-pVhtC-8vwnCam6AaxFpDyQdGF-dzYr1pV6RSSYfA,7
+auto_bots-0.0.3.dist-info/RECORD,,
