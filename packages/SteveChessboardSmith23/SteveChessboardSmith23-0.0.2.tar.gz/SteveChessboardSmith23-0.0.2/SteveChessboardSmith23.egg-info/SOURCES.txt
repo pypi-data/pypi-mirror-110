@@ -1,0 +1,8 @@
+README.md
+setup.py
+SteveChessboardSmith23/ChessBoard2000.py
+SteveChessboardSmith23/__init__.py
+SteveChessboardSmith23.egg-info/PKG-INFO
+SteveChessboardSmith23.egg-info/SOURCES.txt
+SteveChessboardSmith23.egg-info/dependency_links.txt
+SteveChessboardSmith23.egg-info/top_level.txt
