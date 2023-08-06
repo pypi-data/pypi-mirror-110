@@ -1,0 +1,8 @@
+README.md
+setup.py
+swahilinlp/__init__.py
+swahilinlp.egg-info/PKG-INFO
+swahilinlp.egg-info/SOURCES.txt
+swahilinlp.egg-info/dependency_links.txt
+swahilinlp.egg-info/requires.txt
+swahilinlp.egg-info/top_level.txt
