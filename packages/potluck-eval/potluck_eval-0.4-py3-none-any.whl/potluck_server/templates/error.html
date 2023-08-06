@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+<h1>Ocean Server for {{course_name}} {{semester}}</h1>
+
+<div class="container">
+<a
+  href="{{url_for("route_dash", course=course, semester=semester)}}"
+>Back to the dashboard?</a>
+
+<p>
+This page is not available right now due to an error:
+</p>
+
+<p>
+{{error|safe}}
+</p>
+
+<p>
+First, try refreshing the page to see if the error is temporary. If that
+doesn't help, please check {{announcements|safe}} for an announcement,
+and contact {{support_link|safe}} if there isn't one.
+</p>
+</div>
+
+{% endblock %}
