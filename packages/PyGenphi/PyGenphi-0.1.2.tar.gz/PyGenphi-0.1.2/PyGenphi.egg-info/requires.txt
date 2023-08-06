@@ -1,0 +1,4 @@
+aiohttp
+wheel
+asyncio
+requests
