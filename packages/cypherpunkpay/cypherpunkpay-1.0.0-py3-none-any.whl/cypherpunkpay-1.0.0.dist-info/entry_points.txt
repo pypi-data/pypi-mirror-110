@@ -1,0 +1,6 @@
+      [paste.app_factory]
+      main = cypherpunkpay:main
+      [console_scripts]
+      cypherpunkpay = cypherpunkpay.cypherpunkpay:main
+      cypherpunkpay-write-example-testnet-xpub-to-conf = cypherpunkpay.write_example_testnet_xpub_to_conf:main
+      
