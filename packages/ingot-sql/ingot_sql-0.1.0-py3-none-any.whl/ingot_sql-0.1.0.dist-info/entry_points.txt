@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-sql-cli = ingot_sql.scripts.ingot_sql:main
+
