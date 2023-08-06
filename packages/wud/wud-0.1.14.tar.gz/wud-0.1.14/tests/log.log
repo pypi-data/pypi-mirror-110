@@ -1,0 +1,6 @@
+2021-06-13 22:37:18 | SUCCESS  | s3.Object(bucket_name='tongonline2021', key='table/05.jpeg') save pic to S3 done
+2021-06-13 22:37:18 | INFO     | plot full_time to s3 Done
+2021-06-13 22:37:18 | SUCCESS  | https://tongonline2021.s3.amazonaws.com/table/05.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYUJFTWOS3CR327UN%2F20210613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210613T153718Z&X-Amz-Expires=43200&X-Amz-SignedHeaders=host&X-Amz-Signature=95c1b2963fe7546127af9b15af50287b66ed5f1a6a193f9e7c59efd4c31f1802
+2021-06-13 22:37:18 | INFO     | plot as -agg- backend
+2021-06-13 22:38:25 | DEBUG    | Entering 's3bucket_json_get' (args=('wud-cloudhouse', 'maruball_convar.json'), kwargs={})
+2021-06-13 22:38:25 | DEBUG    | Function 's3bucket_json_get' executed in 0.409371 s
