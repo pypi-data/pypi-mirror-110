@@ -1,0 +1,8 @@
+certifi
+cffi
+chardet
+cryptography
+idna
+pycparser
+requests
+urllib3

@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: profitmart
+Version: 0.1.10
+Summary: Profitmart APIs
+Home-page: UNKNOWN
+Author: Sumit Pratihar
+Author-email: timusp7@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
