@@ -1,0 +1,3 @@
+[console_scripts]
+nori_rush=nori_rush.nori.py:main
+
