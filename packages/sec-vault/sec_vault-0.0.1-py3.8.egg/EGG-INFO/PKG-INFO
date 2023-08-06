@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: sec-vault
+Version: 0.0.1
+Summary: Password management CLI
+Home-page: https://github.com/siddharths2710/sec-vault
+Author: Siddharth Srinivasan
+Author-email: siddharths2710@yahoo.com
+Maintainer: Siddharth Srinivasan
+Maintainer-email: siddharths2710@yahoo.com
+License: LGPL-2.1 License
+Project-URL: issue_tracker, https://github.com/siddharths2710/sec-vault/issues
+Project-URL: download_url, https://github.com/siddharths2710/sec-vault
+Description: # sec-vault
+        ![Tests](https://github.com/siddharths2710/sec-vault/actions/workflows/python-package.yml/badge.svg)
+        [![PyPI version](https://badge.fury.io/py/sec-vault.svg)](https://badge.fury.io/py/sec-vault)
+        [![Documentation Status](http://img.shields.io/badge/docs-latest-brightgreen.svg)](https://sec-vault.readthedocs.io)
+        ## Overview
+        `sec-vault` is a SWISS army knife toolkit for in-house password management which providing CLI and Python-based abstractions for experts 
+        who wish to have a more granular control on choosing external
+        - cipher suites and primitives
+        - cryptographic libraries 
+        - toolkits/utilities of their choice
+        
+        > **Note:** Use this password management solution at your own risk. I do not claim any responsibility towards the use of this software.
+        > The strength of the files in the vault is determined by the cipher suite incorporated along with the cryptographic primitives used to configure
+        > the same. Unless you are technically adept, please avoid using this program at all costs.
+        > 
+        
+        ## Quickstart
+        
+        Please go through the following docs for guidance on interacting with the `sec-vault` toolkit:
+        - [Installation Page](https://github.com/siddharths2710/sec-vault/wiki/Installation) 
+        - [Usage Guide](https://github.com/siddharths2710/sec-vault/wiki/Usage-Guide) 
+        - [Technical Spec](https://github.com/siddharths2710/sec-vault/wiki/Design-Document)
+        - [Code-related docs](https://sec-vault.readthedocs.io)
+        - Further notes on the [GitHub Wiki](https://github.com/siddharths2710/sec-vault/wiki)
+        
+        <a href="https://snapcraft.io/sec-vault" title="Get it from the Snap Store"><img src="https://snapcraft.io/static/images/badges/en/snap-store-white.svg" alt="Get it from the Snap Store" width="300" /></a><a href="https://pypi.org/project/sec-vault" title="Get it from PyPI index"><img src="https://miro.medium.com/max/100/1*ciPCmwyO6C79SLVU5Rj50w.jpeg" alt="Get it from PyPI index" width="95" /></a><a href="https://github.com/siddharths2710/sec-vault" title="Source"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Get it from GitHub source" width="120" /></a>
+        
+Keywords: sec-vault,password manager,cryptography,security
+Platform: Linux
+Platform: MacOS X
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
