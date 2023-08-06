@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+pypostalcode/__init__.py
+pypostalcode/check_csv.py
+pypostalcode/import.py
+pypostalcode/postalcodes.db
+pypostalcode/settings.py
+pypostalcode.egg-info/PKG-INFO
+pypostalcode.egg-info/SOURCES.txt
+pypostalcode.egg-info/dependency_links.txt
+pypostalcode.egg-info/not-zip-safe
+pypostalcode.egg-info/requires.txt
+pypostalcode.egg-info/top_level.txt
