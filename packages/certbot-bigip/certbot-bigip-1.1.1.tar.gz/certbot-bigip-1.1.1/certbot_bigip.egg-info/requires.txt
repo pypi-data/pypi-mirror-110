@@ -1,0 +1,8 @@
+acme
+certbot
+f5-icontrol-rest
+f5-sdk
+requests
+setuptools>=1.0
+zope.component
+zope.interface
